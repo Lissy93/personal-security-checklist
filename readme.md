@@ -1,11 +1,10 @@
-# Personal Security Checklist
 
-# Introduction
+# Intro
 ## What is being collected?
 
 **Google**
 
-Chances are that on a daily basis you use apps, services or maybe even an Operating System owned by a large company such as Google, Microsoft, Apple. They collect and maintain comprehensive records or everything you do, from the sites you visit, to the physical locations you’ve been. They store the photos and videos you take, and all device information, as well as of course the information that you manually input such as calendar events, emails, personal details etc (ref: [Privacy.google.com, 2018](https://privacy.google.com/your-data.html), [Privacy.microsoft.com, 2018](https://privacy.microsoft.com/en-GB/), [Apple UK, 2018](http://(Apple (United Kingdom), 2018))).
+Chances are that on a daily basis you use apps, services or maybe even an Operating System owned by a large company such as Google, Microsoft, Apple. They collect and maintain comprehensive records or everything you do with your device, from the sites you visit, to the physical locations you’ve been. They store the photos and videos you take, and all device information, as well as of course the information that you manually input such as calendar events, emails, personal details etc (ref: [Privacy.google.com, 2018](https://privacy.google.com/your-data.html), [Privacy.microsoft.com, 2018](https://privacy.microsoft.com/en-GB/), [Apple UK, 2018](https://www.apple.com/uk/privacy/))).
 
 **Social Media**
 
@@ -17,12 +16,23 @@ Your web browser also allows for data to be recorded about you, without your imm
 
 **Internet Service Providers**
 
-Your ISP (the company providing you with your internet connection) monitor all your online activity. From the things you search for and the sites you visit, to your current location and shopping habits. They do this through deep packet inspection, and work closely with the government.
+Your ISP (the company providing you with your internet connection) monitor all your online activity. From the things you search for and the sites you visit, to your current location and also shopping habits. They do this through deep packet inspection, and work closely with the government.
 
 **The Government**
 
-The government works with private companies to collect large amounts of data on you. Including all emails and messages sent and received, GPS location data, video calls, debit/ credit card transactions, legal documents, health documents, travel documents and all media content uploaded.
+The government works with private companies to collect large amounts of data on you. This includes all emails and messages sent and received, GPS location data, video calls, debit/ credit card transactions, legal documents, health documents, travel documents and all media content uploaded.
 
+
+## Why we should care
+
+Data is enormously valuable, it can help us build new tools, find new insights that can help technology and the economy advance. However, there’s a balance, if everything about us is being stored and tracked, we loose our privacy and become vulnerable to exploits.
+We should have a say about how our personal information is collected, stored and used.
+
+Privacy is a human right. And it’s a right that has been fought for, by the generations before us. In the UK, the [Data Protection Act 1998](http://www.legislation.gov.uk/ukpga/1998/29/contents) controls how your personal information is used by organisations, businesses or the government ([Legislation.gov.uk, 2018](http://www.legislation.gov.uk/ukpga/1998/29/contents)).
+
+Information in the wrong hands is dangerous. You might be okay with companies collecting your data, to improve the services they offer you, or the government collecting your data to keep people safe. But what happens when these organisations suffer a data breach, and your information is sold onto people with less good intentions? This has happened numerous times before, such as the [2015 Yahoo hack](http://money.cnn.com/2016/09/22/technology/yahoo-data-breach/index.html), and the [Ashley Madison Hack](http://fortune.com/2015/08/26/ashley-madison-hack/).
+
+You don’t know what will happen in the future. Right now you may not be worried by the risk of your personal information being leaked, but 5 or 10 years down the line it could have a serious impact.
 
 # How to maximize your security
 
@@ -134,11 +144,11 @@ Although Windows and OS X are easy and convient, they both are far from secure. 
 **Shopping**
 
 
-| **Done** | **Security**                                       | **Details and Hints**                                                                                                                                                                                                        |
-| -------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| []       | **Use a pre-paid debit card, topped up with cash** | There are a lot of options out there, some are free, some are only available in certain locations, some do require identity checks, whereas others don’t- so it’s worth shopping round to find the one that’s right for you. |
-| []       | **Pay with a Crypto currency**                     | This is the most secure method of payment, although unfortunately not currently widley supported.                                                                                                                            |
-| []       | **Don’t get goods delivered to your home address** | Use a pickup service, such as Doddle, Amazon Click + Collect, eBay Argos collect etc.                                                                                                                                        |
+| **Done** | **Security**                                                  | **Details and Hints**                                                                                                                                                                                                        |
+| -------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| []       | **Consider using a pre-paid debit card, topped up with cash** | There are a lot of options out there, some are free, some are only available in certain locations, some do require identity checks, whereas others don’t- so it’s worth shopping round to find the one that’s right for you. |
+| []       | **Consider paying with a Crypto currency**                    | This is the most secure method of payment, although unfortunately not currently widley supported.                                                                                                                            |
+| []       | **Consider not getting goods delivered to your home address** | Use a pickup service, such as Doddle, Amazon Click + Collect, eBay Argos collect etc.                                                                                                                                        |
 
 
 
@@ -149,3 +159,9 @@ Privacy.google.com. (2018). *Google Privacy | Why data protection matters*. [onl
 Privacy.microsoft.com. (2018). *Privacy – Microsoft privacy*. [online] Available at: https://privacy.microsoft.com/en-GB/ [Accessed 17 Mar. 2018].
 
 Apple (United Kingdom). (2018). *Privacy*. [online] Available at: https://www.apple.com/uk/privacy/ [Accessed 17 Mar. 2018].
+
+Burn-Murdoch, J. (2018). *Data security and privacy: can we have both?*. [online] the Guardian. Available at: https://www.theguardian.com/news/datablog/2013/jul/31/data-security-privacy-can-we-have-both [Accessed 18 Mar. 2018].
+
+Ico.org.uk. (2018). *Home*. [online] Available at: https://ico.org.uk [Accessed 18 Mar. 2018].
+
+Legislation.gov.uk. (2018). *Data Protection Act 1998*. [online] Available at: http://www.legislation.gov.uk/ukpga/1998/29/contents [Accessed 18 Mar. 2018].
