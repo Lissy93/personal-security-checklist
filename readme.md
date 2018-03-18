@@ -20,15 +20,15 @@ Chances are that on a daily basis you use apps, services or maybe even an Operat
 
 **Social Media**
 
-Over [2 billion people](https://www.statista.com/topics/1164/social-networks/) regularly use social media. Facebook and Twitter both monitor and record current location, websites visited, browsing and shopping behaviour and the interactions you have with other users. They also have a fairly strong idea of your political engagements and income level based on how you use their services.
+Over [2 billion people](https://www.statista.com/topics/1164/social-networks/) regularly use social media. Facebook and Twitter both monitor and record current location, websites visited, browsing and shopping behavior and the interactions you have with other users. They also have a fairly strong idea of your political engagements and income level based on how you use their services.
 
 **Web Browsers**
 
-Your web browser also allows for data to be recorded about you, without your immediate knowledge. Most browsers store cookies from sites and also record IP addresses, information about your devices, web beacons, HTTP referers and Pixel tags.
+Your web browser also allows for data to be recorded about you, without your immediate knowledge. Most browsers store cookies from sites and also record IP addresses, information about your devices, web beacons, HTTP , and Pixel tags.
 
 **Internet Service Providers**
 
-Your ISP (the company providing you with your internet connection) monitor all your online activity. From the things you search for and the sites you visit, to your current location and also shopping habits. They do this through deep packet inspection, and work closely with the government.
+Your ISP (the company providing you with your internet connection) monitor all your online activity. From the things you search for and the sites you visit to your current location and also shopping habits. They do this through deep packet inspection and work closely with the government.
 
 **The Government**
 
@@ -37,12 +37,12 @@ The government works with private companies to collect large amounts of data on 
 
 ## Why we should care
 
-Data is enormously valuable, it can help us build new tools, find new insights that can help technology and the economy advance. However, there’s a balance, if everything about us is being stored and tracked, we loose our privacy and become vulnerable to exploits.
-We should have a say about how our personal information is collected, stored and used.
+Data is enormously valuable, it can help us build new tools, find new insights that can help technology and the economy advance. However, there’s a balance, if everything about us is being stored and tracked, we lose our privacy and become vulnerable to exploits.
+We should have a say in how our personal information is collected, stored and used.
 
-Privacy is a human right. And it’s a right that has been fought for, by the generations before us. In the UK, the [Data Protection Act 1998](http://www.legislation.gov.uk/ukpga/1998/29/contents) controls how your personal information is used by organisations, businesses or the government ([Legislation.gov.uk, 2018](http://www.legislation.gov.uk/ukpga/1998/29/contents)).
+Privacy is a human right. And it’s a right that has been fought for, by the generations before us. In the UK, the [Data Protection Act 1998](http://www.legislation.gov.uk/ukpga/1998/29/contents) controls how your personal information is used by organizations, businesses or the government ([Legislation.gov.uk, 2018](http://www.legislation.gov.uk/ukpga/1998/29/contents)).
 
-Information in the wrong hands is dangerous. You might be okay with companies collecting your data, to improve the services they offer you, or the government collecting your data to keep people safe. But what happens when these organisations suffer a data breach, and your information is sold onto people with less good intentions? This has happened numerous times before, such as the [2015 Yahoo hack](http://money.cnn.com/2016/09/22/technology/yahoo-data-breach/index.html), and the [Ashley Madison Hack](http://fortune.com/2015/08/26/ashley-madison-hack/).
+Information in the wrong hands is dangerous. You might be okay with companies collecting your data, to improve the services they offer you, or the government collecting your data to keep people safe. But what happens when these organizations suffer a data breach, and your information is sold onto people with less good intentions? This has happened numerous times before, such as the [2015 Yahoo hack](http://money.cnn.com/2016/09/22/technology/yahoo-data-breach/index.html), and the [Ashley Madison Hack](http://fortune.com/2015/08/26/ashley-madison-hack/).
 
 You don’t know what will happen in the future. Right now you may not be worried by the risk of your personal information being leaked, but 5 or 10 years down the line it could have a serious impact.
 
@@ -50,7 +50,7 @@ You don’t know what will happen in the future. Right now you may not be worrie
 
 **Passwords**
 
-Ideally you should use a different, and secure password to access each service you use. To securely manage all of these, a password manager is usually the best option.
+Ideally, you should use a different, and secure password to access each service you use. To securely manage all of these, a password manager is usually the best option.
 
 | **Done** | **Security**                                                               | **Details and Hints**                                                                                                                                                                                                                                                                                        |
 | -------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
