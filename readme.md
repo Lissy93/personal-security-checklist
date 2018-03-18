@@ -1,4 +1,16 @@
 
+## Contents
+
+ 0. [Introduction](#intro)
+    * [What is being collected?](#what-is-being-collected)
+    * [Why we should care?](#why-we-should-care)
+ 1. [How to maximize your security?](#how-to-maximize-your-security)
+ 2. [Conclusion](#conclusion)
+ 3. [References](#references)
+ 
+ ---
+
+
 # Intro
 ## What is being collected?
 
