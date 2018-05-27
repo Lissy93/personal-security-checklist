@@ -1,8 +1,6 @@
-
-
 # Personal Security Checklist
 
-
+# 
 ## Passwords
 
 Ideally you should use a different, and secure password to access each service you use. To securely manage all of these, a password manager is usually the best option.
@@ -25,7 +23,9 @@ For everything you could ever want to know about passwords, check out [this guid
 | P**assword protect your BIOS and drives**                                  | Advanced     | A BIOS or UEFI password helps to make an inexperienced hackers life a bit harder if they get hold of your PC or hard drive, [here is a guide on how to do it](https://www.howtogeek.com/186235/how-to-secure-your-computer-with-a-bios-or-uefi-password/).                                                                                                                                                                                                         | [ ]      |
 
 
-**2-Factor Authentication**
+
+
+## 2-Factor Authentication
 
 This is a secure method of logging in, where you supply not just your password, but also an additional code usually from a device that only you’d have access to.
 
@@ -34,7 +34,8 @@ This is a secure method of logging in, where you supply not just your password, 
 | **Use an authenticator.** | Recommended  | Use [Google Authenticator](https://support.google.com/accounts/answer/1066447) where sites offer 2-FA. Alternative authenticators include: [Authy](https://authy.com),  [FreeOTP](https://freeotp.github.io), [LastPassAuthenticator](https://lastpass.com/auth/) and [AuthenticatorPlus](https://www.authenticatorplus.com). SMS codes are ubiquitous, but easy to break so although better than nothing, not ideal. Another option is a hardware-based 2FA, such as [Yubico](https://www.yubico.com/security-keys-authentication/), although with limited compatibility and of  course a physical cost. Check out [this list of apps/ sites which provide the option of 2FA](https://twofactorauth.org/). | [ ]      |
 
 
-**Browser and Search**
+
+## Browser and Search
 
 Most modern web browsers allow for addons and extensions, these can access anything that you do online, avoid installing anything that may not be legitimate and check permissions first. Be aware that ever website that you interact with, including search engines will likely be keeping records of all your activity. Last year Kaspersky reported [over a million data exploits caused by malicious sites](https://securelist.com/it-threat-evolution-q1-2017-statistics/78475/).
 
@@ -54,16 +55,22 @@ For more browser security pointers, check out: [Here’s How To Get Solid Browse
 | **Disable JavaScript**                             | Advanced     | Many modern web apps, are JavaScript based, so disabling it will greatly reduce your browsing experience. But if you really want to go all out, then it will reduce your attack surface. Read more about the growing [risk of JavaScript malware](https://heimdalsecurity.com/blog/javascript-malware-explained/).                                                                                                                                                                                                                                                                  |
 
 
-**VPN**
 
-A Virtual Private Network (VPN) allows you to securely connect to the internet, when you visit a site, your visiting it through the secure VPN connection and not broadcasting your own IP address. A VPN will hide your identity on the websites you visit, to your internet service provider, and to anyone else trying to track you, they can also encrypt your traffic so you can browse more securely on public networks. They’re really easy to setup.
+## VPN
 
-| **Done** | **Security**  | **Details and Hints**                                                                                                                                                                                                                                                                           |
-| -------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| []       | **Use a VPN** | Ideally use a paid-for VPN, as they’re considerably better quality so won’t affect your speeds, nor show adds. Take a look at [VyprVPN](https://www.goldenfrog.com/vyprvpn), [NordVPN](https://nordvpn.com), [IPVanish](https://www.ipvanish.com) and [TunnelBear](https://www.tunnelbear.com). |
+A Virtual Private Network (VPN) allows you to securely connect to the internet, when you visit a site, your visiting it through the secure VPN connection and not broadcasting your own IP address, therefore hiding your identity on the sites you visit, to both your ISP anyone else trying to track you, they can also encrypt your traffic so you can browse more securely on public networks. They’re really easy to setup. To learn more about what a VPN is, how it works and how to choose one, checkout [this PC Mag article](http://uk.pcmag.com/software/138/guide/the-best-vpn-services-of-2018).
+
+| **Security**  | **Priority** | **Details and Hints**                                                                                                                                                                                                                                                                           | **Done** |
+| ------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| **Use a VPN** | Recommended  | Ideally use a paid-for VPN, as they’re considerably better quality so won’t affect your speeds, nor show adds. Take a look at [VyprVPN](https://www.goldenfrog.com/vyprvpn), [NordVPN](https://nordvpn.com), [IPVanish](https://www.ipvanish.com) and [TunnelBear](https://www.tunnelbear.com). | [ ]      |
 
  
-**Social Media**
+
+## Emails 
+
+ 
+
+## Social Media
 
 
 | **Done** | **Security**                                                          | **Details and Hints**                                                                                                                                                                                                                                                                                                                                                      |
@@ -129,5 +136,4 @@ Although Windows and OS X are easy and convient, they both are far from secure. 
 | []       | **Consider using a pre-paid debit card, topped up with cash** | There are a lot of options out there, some are free, some are only available in certain locations, some do require identity checks, whereas others don’t- so it’s worth shopping round to find the one that’s right for you. |
 | []       | **Consider paying with a Crypto currency**                    | This is the most secure method of payment, although unfortunately not currently widley supported.                                                                                                                            |
 | []       | **Consider not getting goods delivered to your home address** | Use a pickup service, such as Doddle, Amazon Click + Collect, eBay Argos collect etc.                                                                                                                                        |
-
 
