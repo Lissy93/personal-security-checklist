@@ -1,6 +1,6 @@
 # Personal Security Checklist
 
-# 
+
 ## Passwords
 
 Ideally you should use a different, and secure password to access each service you use. To securely manage all of these, a password manager is usually the best option.
@@ -68,11 +68,20 @@ A Virtual Private Network (VPN) allows you to securely connect to the internet, 
 
 ## Emails 
 
+ Nearly 50 years since the first email was sent, they’re still very much a big part of our day-to-day life, and will probably continue to be for the near future. So considering how much trust we put in them, it’s surprising how fundamentally insecure this infrastructure is. Email-related fraud [is on the up](https://www.csoonline.com/article/3247670/email/email-security-in-2018.html), and without taking basic measures you could be at risk. (For basic enterprise pointers, see [this article](https://digitalguardian.com/blog/what-email-security-data-protection-101)).
  
+ If a hacker gets access to your emails, it provides a gateway for your other accounts to be compromised, therefore email security is paramount for your digital safety. 
+
+| **Security**                                         | **Priority** | **Details and Hints**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Have more than one email address                     | Recommended  | Keeping your important and safety-critical messages separate from trivial subscriptions such as newsletters, is a very good idea. Be sure to use different passwords. This will also make recovering a compromised account after an email breach easier.                                                                                                                                                                                                                                                   |
+| Keep security in mind when logging into emails       | Recommended  | Your email account is one of the most important to protect with a secure password. Only sync your emails with your phone, if it is secured (encrypted with password). Don’t allow your browser to save your email password. Prevent man-in-the-middle attacks by only logging in on a secured browser.                                                                                                                                                                                                     |
+| Always be weary of phishing and scams                | Recommended  | If you get an email from someone you don’t recognize, don’t reply, don’t click on any links, and absolutely don’t download an attachment. Keep an eye out for senders pretending to be someone else, such as your bank, email provider or utility company. Check the domain, read it, ensure it’s addressed directly to you, and still don’t give them any personal details. Check out [this guide, on how to spot phishing emails](https://heimdalsecurity.com/blog/abcs-detecting-preventing-phishing/). |
+| Don’t share sensitive over email                     | Optional     | Emails are very very easily intercepted. Also you can’t know how secure your recipients environment is. Don’t share anything personal, such as bank details, passwords, confidential information over email. Ideally, don’t use email as any primary method of communication.                                                                                                                                                                                                                              |
+| Don’t connect third-party apps to your email account | Optional     | If you give a third-party app (like Unroll.me) full access to your inbox, this makes you vulnerable to cyber attacks. The app can be compromised and, as a consequence, cyber criminals would gain unhindered access to all your emails and their contents.                                                                                                                                                                                                                                                |
+| Consider switching to a more secure email provider   | Optional     | Email providers such as [ProtonMail](https://protonmail.com), [CounterMail](https://countermail.com), [HushMail](https://www.hushmail.com) (for business users) or [MailFence](https://mailfence.com) allow for end-to-end encryption, full privacy as well as more security-focused features.                                                                                                                                                                                                             |
 
 ## Social Media
-
-
 | **Done** | **Security**                                                          | **Details and Hints**                                                                                                                                                                                                                                                                                                                                                      |
 | -------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | []       | **Check your privacy settings**                                       | Most social networks allow you to control your privacy settings. Ensure that your profile can only be viewed by people who you are in your friends list, and you know personally.                                                                                                                                                                                          |
@@ -136,4 +145,9 @@ Although Windows and OS X are easy and convient, they both are far from secure. 
 | []       | **Consider using a pre-paid debit card, topped up with cash** | There are a lot of options out there, some are free, some are only available in certain locations, some do require identity checks, whereas others don’t- so it’s worth shopping round to find the one that’s right for you. |
 | []       | **Consider paying with a Crypto currency**                    | This is the most secure method of payment, although unfortunately not currently widley supported.                                                                                                                            |
 | []       | **Consider not getting goods delivered to your home address** | Use a pickup service, such as Doddle, Amazon Click + Collect, eBay Argos collect etc.                                                                                                                                        |
+
+
+
+
+
 
