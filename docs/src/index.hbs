@@ -8,34 +8,34 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
         <!-- Site Basic Name Info -->
-        <title>Personal Security Checklist</title>
-        <meta name="author" content="Alicia Sykes">
-        <meta name="description" content="A checklist of basic things you should do, to stay safer online">
-        <meta name="keywords" content="voroni,d3,demo,lissy93">
+        <title>{{meta.title}}</title>
+        <meta name="author" content="{{meta.author}}">
+        <meta name="description" content="{{meta.description}}">
+        <meta name="keywords" content="{{meta.keywords}}">
         <meta name="image" content="dist/assets/cover.png">
-        <link rel="canonical" href="https://lissy93.github.io/personal-security-checklist/#/" />
+        <link rel="canonical" href="{{meta.url}}" />
 
         <!-- App Manifest -->
         <link rel="manifest" href="dist/manifest.json">
-        <meta name="theme-color" content="#121f42"/>
+        <meta name="theme-color" content="{{meta.color}}"/>
         
         <!-- Schema.org for Google -->
-        <meta itemprop="name" content="Personal Security Checklist">
-        <meta itemprop="description" content="A checklist of basic things you should do, to stay safer online">
+        <meta itemprop="name" content="{{meta.title}}">
+        <meta itemprop="description" content="{{meta.description}}">
         <meta itemprop="image" content="dist/assets/cover.png">
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Personal Security Checklist">
-        <meta name="twitter:description" content="A checklist of basic things you should do, to stay safer online">
+        <meta name="twitter:title" content="{{meta.title}}">
+        <meta name="twitter:description" content="{{meta.description}}">
         <meta name="twitter:image" content="dist/assets/cover.png">
 
         <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-        <meta name="og:title" content="Personal Security Checklist">
-        <meta name="og:description" content="A checklist of basic things you should do, to stay safer online">
+        <meta name="og:title" content="{{meta.title}}">
+        <meta name="og:description" content="{{meta.description}}">
         <meta name="og:image" content="dist/assets/cover.png">
-        <meta name="og:url" content="https://lissy93.github.io/personal-security-checklist/#/">
-        <meta name="og:site_name" content="Personal Security Checklist">
+        <meta name="og:url" content="{{meta.url}}">
+        <meta name="og:site_name" content="{{meta.title}}">
         <meta name="og:type" content="website">
         
         <!-- Fonts, Icons and Styles -->
@@ -56,13 +56,13 @@
 
     <script>
       window.$docsify = {
-        name: 'Personal Security Checklist',
-        repo: 'https://github.com/Lissy93/personal-security-checklist',
-        ga: 'UA-120900119-4',
+        name: '{{meta.title}}',
+        repo: '{{meta.repo}}',
+        ga: '{{meta.ga}}',
         homepage: 'readme.md',
         coverpage: 'pages/cover.md',
         notFoundPage: 'pages/404.md',
-        themeColor: '#121f42',
+        themeColor: '{{meta.color}}',
         auto2top: true,
 
         homepage: 'https://raw.githubusercontent.com/Lissy93/personal-security-checklist/master/readme.md',

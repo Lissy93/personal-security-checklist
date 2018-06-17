@@ -1,0 +1,36 @@
+@import 'constants.scss';
+
+.links {
+  stroke: $col-lines;
+  stroke-opacity: 0.2;
+}
+
+.polygons {
+  fill: none;
+  stroke: $col-lines;
+}
+
+.polygons :first-child {
+  fill: $col-selected-polygon;
+}
+
+.deselect-polygon {
+  fill: $col-initial-primary-fill !important;
+}
+
+.sites {
+  fill: $col-sites-fill;
+  stroke: $col-sites-line;
+}
+
+.sites :first-child {
+  fill: $col-selected-site-fill;
+  stroke: $col-selected-site-stroke;
+}
+
+
+@for $von-num from 0 through 9 {
+  .v-#{$von-num} {
+    fill: lighten($col-initial-primary-fill, $von-num*1);
+  }
+}
