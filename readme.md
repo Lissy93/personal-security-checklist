@@ -120,4 +120,9 @@ Although Windows and OS X are easy to use and convenient, they both are far from
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
 **Keep your OS up-to-date** | Recommended | Microsoft, Apple and Google release regular OS updates, which fix security risks. Always keep your device updated.
-**Consider Switching to Linux** | Advanced | Linux is considerably [more secure](https://www.pcworld.com/article/202452/why_linux_is_more_secure_than_windows.html) than both OSX and Windows. Some distros are still more secure than others, so it’s worth choosing the right one to get a balance between security and convenience.
+**Consider Switching to Linux** | Optional | Linux is considerably [more secure](https://www.pcworld.com/article/202452/why_linux_is_more_secure_than_windows.html) than both OSX and Windows. Some distros are still more secure than others, so it’s worth choosing the right one to get a balance between security and convenience.
+**Use a Security-Focused Distro** | Advanced | 
+- [QubeOS](https://www.qubes-os.org/) is based on “security by compartmentalization”, where each app is sandboxed
+- [Whonix](https://www.whonix.org/) is based on Tor, so 100% of your traffic will go through the onion router
+- [Tails](https://tails.boum.org/) is a has no persistent memory, and is ideal if you don’t want to leave a trace on the device your booting from
+- [Subgraph](https://subgraph.com/) is an “adversary resistant computing platform”, but also surprisingly easy to use
