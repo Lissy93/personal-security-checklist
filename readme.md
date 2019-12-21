@@ -47,6 +47,7 @@ For more browser security pointers, check out: [Here’s How To Get Solid Browse
 **Use a private search engine** | Optional | Take a look at [DuckDuckGo](https://duckduckgo.com) or [StartPage](https://www.startpage.com). Neither store cookies or cache anything.
 **Consider a privacy browser** | Optional | Google openly collects usage data on Chrome usage. There are several privacy browsers out there which minimise the amount of data collected. Have a look at [Brave Browser](https://brave.com), [Yandex](https://browser.yandex.com), or [Comodo](https://www.comodo.com/home/browsers-toolbars/browser.php). As a more extreme choice, consider [Tor Browser](https://www.torproject.org/).
 **Disable JavaScript** | Advanced | Many modern web apps, are JavaScript based, so disabling it will greatly reduce your browsing experience. But if you really want to go all out, then it will reduce your attack surface. Read more about the growing [risk of JavaScript malware](https://heimdalsecurity.com/blog/javascript-malware-explained/).
+**Route all desktop traffic via Tor** | Advanced | [Whonix](https://www.whonix.org/) allows for fail-safe, automatic, and desktop-wide use of the Tor network. It's based on Debian, and runs in in a virtual machine. Straigt-forward to install on Windows, OSX or Linux.
 
 ## VPN
 
