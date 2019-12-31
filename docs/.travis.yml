@@ -1,9 +1,0 @@
-language: node_js
-node_js:
-  - "9.0.0"
-
-install:
-  - npm i -g yarn webpack webpack-cli webpack-dev-server && yarn
-
-before_script:
-  - yarn run build
