@@ -130,3 +130,17 @@ Although Windows and OS X are easy to use and convenient, they both are far from
 **Consider Switching to Linux** | Optional | Linux is considerably [more secure](https://www.pcworld.com/article/202452/why_linux_is_more_secure_than_windows.html) than both OSX and Windows. Some distros are still more secure than others, so it’s worth choosing the right one to get a balance between security and convenience.
 **Use a Security-Focused Distro** | Advanced | [QubeOS](https://www.qubes-os.org/) is based on “security by compartmentalization”, where each app is sandboxed. [Whonix](https://www.whonix.org/) is based on Tor, so 100% of your traffic will go through the onion router. [Tails](https://tails.boum.org/) is a has no persistent memory, and is ideal if you don’t want to leave a trace on the device your booting from. [Subgraph](https://subgraph.com/) is an “adversary resistant computing platform”, but also surprisingly easy to use
 **Password protect your BIOS and drives** | Advanced | A BIOS or UEFI password helps to make an inexperienced hackers life a bit harder if they get a hold of your PC or hard drive, [here is a guide on how to do it](https://www.howtogeek.com/186235/how-to-secure-your-computer-with-a-bios-or-uefi-password/).
+
+
+---
+
+Thank you for taking the time to browse this list, I hope the content here was useful. If you have any feedback, feel free to email me at alicia@as93.net. I owe a lot of thanks others who've conducted research, written papers, developed software all in the interest of privacy and security. Full attributions and referenses found in [`ATTRIBUTIONS.md`](/ATTRIBUTIONS.md).
+
+Contributions are welcome, to suggest an edit you can [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or upload changes by [opening a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). Please ensure you follow the contributing guidelins in [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md)
+
+Disclaimer: This is not an exhaustive list, and aims only to be taken as guide.
+
+© [Alicia Sykes](https://aliciasykes.com) 2020, Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE.md`](/LICENSE.md)
+
+![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)
+
