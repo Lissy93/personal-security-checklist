@@ -1,5 +1,20 @@
 # Personal Security Checklist
 
+> A curated checklist of tips to protect your dgital security and privacy
+
+## Contents
+
+- [Passwords](#passwords)
+- [2 Factor Authentication](#2-factor-authentication)
+- [Browsing the Web](#browser-and-search)
+- [VPN](#vpn)
+- [Email](#emails)
+- [Social Media](#social-media)
+- [Devices](#your-devices)
+- [SMS and Calls](#sms-and-calls)
+- [Routers](#your-router)
+- [Operating Systems](#operating-systems)
+
 ## Passwords
 
 Most reported data breaches are caused by the use of weak, default or stolen passwords (according to [this Verizon report](http://www.verizonenterprise.com/resources/reports/rp_dbir-2016-executive-summary_xg_en.pdf)). Massive amounts of private data have been, and will continue to be stolen because of this.
@@ -138,13 +153,17 @@ Although Windows and OS X are easy to use and convenient, they both are far from
 
 ---
 
-Thank you for taking the time to browse this list, I hope the content here was useful. If you have any feedback, feel free to email me at alicia@as93.net. I owe a lot of thanks others who've conducted research, written papers, developed software all in the interest of privacy and security. Full attributions and referenses found in [`ATTRIBUTIONS.md`](/ATTRIBUTIONS.md).
+## Notes
 
-Contributions are welcome, to suggest an edit you can [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or upload changes by [opening a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). Please ensure you follow the contributing guidelins in [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md)
+*Thank you for taking the time to browse this list, I hope the content here was useful. If you have any feedback, feel free to email me at alicia@as93.net.*
 
-Disclaimer: This is not an exhaustive list, and aims only to be taken as guide.
+*Contributions are welcome, and would be much appreciated - to suggest an edit you can [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or upload changes by [opening a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). There are some contributing guidelins in [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 
-© [Alicia Sykes](https://aliciasykes.com) 2020, Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE.md`](/LICENSE.md)
+*I owe a lot of thanks others who've conducted research, written papers, developed software all in the interest of privacy and security. Full attributions and referenses found in [`ATTRIBUTIONS.md`](/ATTRIBUTIONS.md).*
+
+*Disclaimer: This is not an exhaustive list, and aims only to be taken as guide.*
+
+*© [Alicia Sykes](https://aliciasykes.com) 2020, Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE.md`](/LICENSE.md)*
 
 ![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)
 
