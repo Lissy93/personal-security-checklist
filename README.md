@@ -4,16 +4,16 @@
 
 ## Contents
 
-- [![-](/_assets/1_passwords.jpg) Passwords](#passwords)
-- [![-](/_assets/2_2fa.jpg) 2 Factor Authentication](#2-factor-authentication)
-- [![-](/_assets/3_web.jpg) Browsing the Web](#browser-and-search)
-- [![-](/_assets/4_vpn.jpg) VPN](#vpn)
-- [![-](/_assets/5_email.jpg) Email](#emails)
-- [![-](/_assets/6_social.jpg) Social Media](#social-media)
-- [![-](/_assets/7_devices.jpg) Devices](#your-devices)
-- [![-](/_assets/8_sms.jpg) SMS and Calls](#sms-and-calls)
-- [![-](/_assets/9_router.jpg) Routers](#your-router)
-- [![-](/_assets/10_os.jpg) Operating Systems](#operating-systems)
+[![-](/_assets/1_passwords.jpg) Passwords](#passwords)<br>
+[![-](/_assets/2_2fa.jpg) 2 Factor Authentication](#2-factor-authentication)<br>
+[![-](/_assets/3_web.jpg) Browsing the Web](#browser-and-search)<br>
+[![-](/_assets/4_vpn.jpg) VPN](#vpn)<br>
+[![-](/_assets/5_email.jpg) Email](#emails)<br>
+[![-](/_assets/6_social.jpg) Social Media](#social-media)<br>
+[![-](/_assets/7_devices.jpg) Devices](#your-devices)<br>
+[![-](/_assets/8_sms.jpg) SMS and Calls](#sms-and-calls)<br>
+[![-](/_assets/9_router.jpg) Routers](#your-router)<br>
+[![-](/_assets/10_os.jpg) Operating Systems](#operating-systems)<br>
 
 ## Passwords
 
@@ -136,6 +136,7 @@ Both SMS texting and traditional phone calls are not secure. Avoid it whenever t
 --- | --- | ---
 **Don’t use a default password** | Recommended | Change your router password- [here is a guide as to how](https://www.lifewire.com/how-to-change-your-wireless-routers-admin-password-2487652).
 **Use WPA2** | Recommended | WPA and WEP make it very easy for a hacker to gain access to your router. Use a [WPA2](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) password instead. Ensure it is strong: 12+ alpha-numeric characters, avoiding dictionary words.
+**Keep router firmware up-to-date** | Recommended | Manufacturers release firmware updates that fix security vulnerabilities, implement new standards and sometimes add features/ improve the performance your router. It's important to have the latest firmware installed, to avoid a malicious actor exploiting an un-patched vulnerability. You can usually update your router by navigating to [192.168.0.1](192.168.0.1) or [192.168.1.1](192.168.1.1) in your browser, entering the credentials on the sticker on the back of you of your router (not your WiFi password!), and following the on-screen instructions. Or follow a guide from your routers manufacturer: [Asus](https://www.asus.com/support/FAQ/1005484/), [D-Link](https://eu.dlink.com/uk/en/support/faq/routers/mydlink-routers/dir-810l/how-do-i-upgrade-the-firmware-on-my-router), [Linksys (older models)](https://www.linksys.com/us/support-article?articleNum=140365), [NetGear](https://kb.netgear.com/23442/How-do-I-update-my-NETGEAR-router-s-firmware-using-the-Check-button-in-the-router-web-interface) and [TP-Link](https://www.tp-link.com/us/support/faq/688/). Newer Linksys and Netgear routers update automatically, as does Google's router.
 **Ideally hide your SSID** | Optional | An SSID (or Service Set Identifier) is simply your network name. If it is not visible, it is much less likely to be targeted. You can usually hide it after logging into your router admin panel, [see here for more details](https://www.lifewire.com/hide-your-wireless-network-from-your-internet-leeching-neighbors-2487655).
 **Avoid the free router from your ISP** | Optional | Typically they’re manufactured cheaply in bulk in China, and firmware updates which fix crucial security flaws aren’t released regularly. Consider an open source based router, such as [Turris MOX].(https://www.turris.cz/en/mox/overview/)
 **Kill unused process and services** | Advanced | Services like Telnet and SSH (Secure Shell) that provide command-line access to devices should never be exposed to the internet and should also be disabled on the local network unless they're actually needed. In general, [any service that’s not used should be disabled](https://www.securityevaluators.com/knowledge/case_studies/routers/soho_service_hacks.php) to reduce attack surface.
