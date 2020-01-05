@@ -4,16 +4,16 @@
 
 ## Contents
 
-- [Passwords](#passwords)
-- [2 Factor Authentication](#2-factor-authentication)
-- [Browsing the Web](#browser-and-search)
-- [VPN](#vpn)
-- [Email](#emails)
-- [Social Media](#social-media)
-- [Devices](#your-devices)
-- [SMS and Calls](#sms-and-calls)
-- [Routers](#your-router)
-- [Operating Systems](#operating-systems)
+- [![-](/_assets/1_passwords.jpg) Passwords](#passwords)
+- [![-](/_assets/2_2fa.jpg) 2 Factor Authentication](#2-factor-authentication)
+- [![-](/_assets/3_web.jpg) Browsing the Web](#browser-and-search)
+- [![-](/_assets/4_vpn.jpg) VPN](#vpn)
+- [![-](/_assets/5_email.jpg) Email](#emails)
+- [![-](/_assets/6_social.jpg) Social Media](#social-media)
+- [![-](/_assets/7_devices.jpg) Devices](#your-devices)
+- [![-](/_assets/8_sms.jpg) SMS and Calls](#sms-and-calls)
+- [![-](/_assets/9_router.jpg) Routers](#your-router)
+- [![-](/_assets/10_os.jpg) Operating Systems](#operating-systems)
 
 ## Passwords
 
