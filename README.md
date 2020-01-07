@@ -10,10 +10,9 @@
 [![-](/_assets/4_vpn.jpg) VPN](#vpn)<br>
 [![-](/_assets/5_email.jpg) Email](#emails)<br>
 [![-](/_assets/6_social.jpg) Social Media](#social-media)<br>
-[![-](/_assets/7_devices.jpg) Devices](#your-devices)<br>
-[![-](/_assets/8_sms.jpg) SMS and Calls](#sms-and-calls)<br>
+[![-](/_assets/7_devices.jpg) Mobile Phones](#mobile-devices)<br>
 [![-](/_assets/9_router.jpg) Routers](#your-router)<br>
-[![-](/_assets/10_os.jpg) Operating Systems](#operating-systems)<br>
+[![-](/_assets/10_os.jpg) Personal Computer](#personal-computers)<br>
 
 ## Passwords
 
@@ -110,7 +109,13 @@ These links are also useful for additional simple measures that you can take to 
 **Remove metadata before uploading media** | Optional | Most smartphones and some cameras automatically attach a comprehensive set of additional data to each photograph., This usually includes things like time, date, location, camera model, user etc. Remove this data before uploading. See [this guide](https://www.makeuseof.com/tag/3-ways-to-remove-exif-metadata-from-photos-and-why-you-might-want-to/) for more info.
 **Don’t have any social media accounts** | Advanced | It may seem a bit extreme, but if your serious about data privacy and security, stay away from entering information on any social media platform.
 
-## Your Devices
+## Mobile Devices
+
+Most smart phone apps will run in the background, collecting and logging data, making network requests and ultimately creating a clear picture of you you are, just from your data. This is a big problem from both a security and privacy perspective.  
+
+Even non-smart phones, (and even when the screen is off) are constantly connecting to the nearest cell phone towers, (it does this by broadcasting it's IMEI and MEID number). The towers then relay this information, along with any communications, to your mobile carrier, who will store these records indefinitely. The movements of your phone are the movements of you as a person, so all phone proximity and data records can always be linked directly back to you. So whenever your phone is on, there is a record of your presence at that place, being created and maintained by companies.
+
+SMS texting and traditional phone calls are not secure, so it's imprortant to avoid using that to send or recieve anything secure (such as log in codes, OTPs or any personal details). Instead use encrypted messaging, like Signal whenever you can. Be wary of who you share your phone number with.
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
@@ -118,17 +123,11 @@ These links are also useful for additional simple measures that you can take to 
 **Uninstall apps that you don’t need** | Recommended | Don’t have apps that your not using on your phone, as they can be collecting data in the background. Don’t install apps from non-legitimate sources, or apps with few reviews.
 **Don’t grant apps permissions that they don’t need** | Recommended | If an app doesn’t need access to your camera, don’t grant it access. Same with any features of your phone, be wary about what each app has access to.
 **Install a Firewall** | Optional | To prevent applications from leaking privacy-sensitive data, you can install a firewall app. This will make it easier to see and control which apps are making network requests in the background, and allow you to block specific apps from roaming when the screen is turned off. For Android, check out [NetGuard](https://www.netguard.me/), and for iOS there is [LockDown](https://apps.apple.com/us/app/lockdown-apps/id1469783711), both of which are open source. Alternatively there is [NoRootFirewall](https://play.google.com/store/apps/details?id=app.greyshirts.firewall) *Android*, [XPrivacy](https://github.com/M66B/XPrivacy) *Android (root required)*, [Fyde](https://apps.apple.com/us/app/fyde-mobile-security-access/) *iOS* and [Guardian Firewall](https://guardianapp.com/) *iOS*.
-**Consider running a custom ROM if you have an Android device** | Advanced | Your default OS tracks information about your usage, and app data, constantly. Consider a security-focused custom ROM, such as [Lineage](https://lineageos.org) or [CopperheadOS](https://copperhead.co/android/).
-
-## SMS and Calls
-
-Both SMS texting and traditional phone calls are not secure. Avoid it whenever there is a reasonable alternative, and don’t use these means to communicate anything secure. Be wary of who you share your phone number with.
-
-**Security** | **Priority** | **Details and Hints**
---- | --- | ---
 **Don’t use SMS - Use E2E encrypted messaging apps** | Optional | [iMessage is secure](https://techcrunch.com/2014/02/27/apple-explains-exactly-how-secure-imessage-really-is/). For non-Apple users [Signal](https://signal.org) is the most secure option. As of late 2016 [WhatsApp](https://www.whatsapp.com) is also [end-to-end-encrypted using the Signal protocol](https://signal.org/blog/whatsapp-complete/). Keep in mind that although the transmission may be secured, messages can still be read if your, or your recipients' devices have been compromised.
 **Use a secure email provider** | Optional | Most email providers completely invade your privacy intercepting both messages sent and received. [ProtonMail](https://protonmail.com) is a secure email provider, that is open source and offers end-to-end encryption. There are alternative secure mail providers (such as [CounterMail](https://countermail.com), [HushMail](https://www.hushmail.com) and [MailFence](https://mailfence.com))- but [ProtonMail](https://protonmail.com) has both a clear interface and strong security record.
 **Avoid using your real phone number when signing up for an account or service** | Optional | Where possible, avoid giving out your real phone number while creating accounts online. You can create phone numbers using services such as [Google Voice](https://voice.google.com) or [Skype](https://www.skype.com/en/features/online-number/). For temporary usage you can use a service like [iNumbr](https://www.inumbr.com) that generates a phone number that forwards messages and calls to your main number.
+**Consider running a custom ROM if you have an Android device** | Advanced | Your default OS tracks information about your usage, and app data, constantly. Consider a security-focused custom ROM, such as [Lineage](https://lineageos.org) or [CopperheadOS](https://copperhead.co/android/).
+
 
 ## Your Router
 
@@ -141,7 +140,7 @@ Both SMS texting and traditional phone calls are not secure. Avoid it whenever t
 **Avoid the free router from your ISP** | Optional | Typically they’re manufactured cheaply in bulk in China, and firmware updates which fix crucial security flaws aren’t released regularly. Consider an open source based router, such as [Turris MOX].(https://www.turris.cz/en/mox/overview/)
 **Kill unused process and services** | Advanced | Services like Telnet and SSH (Secure Shell) that provide command-line access to devices should never be exposed to the internet and should also be disabled on the local network unless they're actually needed. In general, [any service that’s not used should be disabled](https://www.securityevaluators.com/knowledge/case_studies/routers/soho_service_hacks.php) to reduce attack surface.
 
-## Operating Systems
+## Personal Computers
 
 Although Windows and OS X are easy to use and convenient, they both are far from secure. Your OS provides the interface between hardware and your applications, so if compromised can have detrimental effects.
 
