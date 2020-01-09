@@ -71,11 +71,11 @@ For more browser security pointers, check out: [Here’s How To Get Solid Browse
 
 ## Emails
 
-Nearly 50 years since the first email was sent, they’re still very much a big part of our day-to-day life, and will probably continue to be for the near future. So considering how much trust we put in them, it’s surprising how fundamentally insecure this infrastructure is. Email-related fraud [is on the up](https://www.csoonline.com/article/3247670/email/email-security-in-2018.html), and without taking basic measures you could be at risk. (For basic enterprise pointers, see [this article](https://digitalguardian.com/blog/what-email-security-data-protection-101)).
+Nearly 50 years since the first email was sent, they’re still very much a big part of our day-to-day life, and will probably continue to be for the near future. So considering how much trust we put in them, it’s surprising how fundamentally insecure this infrastructure is. Email-related fraud [is on the up](https://www.csoonline.com/article/3247670/email/email-security-in-2018.html), and without taking basic measures you could be at risk. 
 
 If a hacker gets access to your emails, it provides a gateway for your other accounts to be compromised, therefore email security is paramount for your digital safety.
 
-These links are also useful for additional simple measures that you can take to specifically protect a [Yahoo](https://heimdalsecurity.com/blog/complete-guide-e-mail-security/#yahoo), [Gmail](https://heimdalsecurity.com/blog/complete-guide-e-mail-security/#gmail), [Outlook](https://heimdalsecurity.com/blog/complete-guide-e-mail-security/#outlook) and [AOL](https://heimdalsecurity.com/blog/complete-guide-e-mail-security/#aol) account.
+It's strongly advised not to use non-encrypted email, but if you follow these guides for simple steps to improve security: [Yahoo](https://heimdalsecurity.com/blog/complete-guide-e-mail-security/#yahoo), [Gmail](https://heimdalsecurity.com/blog/complete-guide-e-mail-security/#gmail), [Outlook](https://heimdalsecurity.com/blog/complete-guide-e-mail-security/#outlook) and [AOL](https://heimdalsecurity.com/blog/complete-guide-e-mail-security/#aol). The easiset way to stay protected, it to use a secure mail provider, such as [ProtonMail](https://protonmail.com/).
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
@@ -84,7 +84,7 @@ These links are also useful for additional simple measures that you can take to 
 **Always be wary of phishing and scams** | Recommended | If you get an email from someone you don’t recognize, don’t reply, don’t click on any links, and absolutely don’t download an attachment. Keep an eye out for senders pretending to be someone else, such as your bank, email provider or utility company. Check the domain, read it, ensure it’s addressed directly to you, and still don’t give them any personal details. Check out [this guide, on how to spot phishing emails](https://heimdalsecurity.com/blog/abcs-detecting-preventing-phishing/).
 **Don’t share sensitive information over email** | Optional | Emails are very very easily intercepted. Also you can’t know how secure your recipients environment is. Don’t share anything personal, such as bank details, passwords, confidential information over email. Ideally, don’t use email as a primary method of communication.
 **Don’t connect third-party apps to your email account** | Optional | If you give a third-party app (like Unroll.me) full access to your inbox, this makes you vulnerable to cyber attacks. The app can be compromised and, as a consequence, cyber criminals would gain unhindered access to all your emails and their contents.
-**Consider switching to a more secure email provider** | Optional | Email providers such as [ProtonMail](https://protonmail.com), [CounterMail](https://countermail.com), [HushMail](https://www.hushmail.com) (for business users) or [MailFence](https://mailfence.com) allow for end-to-end encryption, full privacy as well as more security-focused features.
+**Consider switching to a more secure email provider** | Optional | Email providers such as [ProtonMail](https://protonmail.com), [CounterMail](https://countermail.com), [HushMail](https://www.hushmail.com) (for business users) or [MailFence](https://mailfence.com) allow for end-to-end encryption, full privacy as well as more security-focused features. See [this guide](https://github.com/OpenTechFund/secure-email) for a details of the inner workings of these services.
 
 ## Social Media
 
