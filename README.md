@@ -12,6 +12,7 @@
 [![-](/_assets/4_vpn.jpg) Networking](#networking)<br>
 [![-](/_assets/7_devices.jpg) Mobile Phones](#mobile-devices)<br>
 [![-](/_assets/10_os.jpg) Personal Computer](#personal-computers)<br>
+[![-](/_assets/9_router.jpg) Smart Home](#smart-home)<br>
 
 ## Passwords
 
@@ -159,6 +160,31 @@ Although Windows and OS X are easy to use and convenient, they both are far from
 **Use a Security-Focused Distro** | Advanced | [QubeOS](https://www.qubes-os.org/) is based on “security by compartmentalization”, where each app is sandboxed. [Whonix](https://www.whonix.org/) is based on Tor, so 100% of your traffic will go through the onion router. [Tails](https://tails.boum.org/) is a has no persistent memory, and is ideal if you don’t want to leave a trace on the device your booting from. [Subgraph](https://subgraph.com/) is an “adversary resistant computing platform”, but also surprisingly easy to use
 **Password protect your BIOS and drives** | Advanced | A BIOS or UEFI password helps to make an inexperienced hackers life a bit harder if they get a hold of your PC or hard drive, [here is a guide on how to do it](https://www.howtogeek.com/186235/how-to-secure-your-computer-with-a-bios-or-uefi-password/).
 **Canary Tokens** | Advanced | Network breaches happen, but the longer it takes for you to find out about it, the more damage is done. A canary token is like a hacker honeypot, something that looks appealing to them once they've gained access to your system. When they open the file, unknowingly to them, a script is run which will not only alert you of the breach, but also grab some of the hackers system details. [CanaryTokens.org](https://canarytokens.org/generate) and [BlueCloudDrive](https://blueclouddrive.com/generate) are excellent sites, that you can use to generate your tokens. Then just leave them somewhere prominent on your system. [Learn more](https://blog.thinkst.com/p/canarytokensorg-quick-free-detection.html) about canary tokens, or see [this guide](https://resources.infosecinstitute.com/how-to-protect-files-with-canary-tokens/) for details on how to create them yourself.
+
+
+## Smart Home
+
+Home assistants (such as Google Home, Alexa and Siri) and other internet connected devices collect large amounts of personal data (including voice samples, location data, home details and logs of all interactions). Since you have limited control on what it being collected, how it's stored, and what it will be used for, this makes it hard to recommend any consumer smart-home products to anyone who cares about privacy and security.
+
+Security vs Privacy: There are many smart devices on the market, that claim to increase the security of your home, while being easy and convenient to use (Such as [Cave Burglar Alarm](https://amzn.to/2Rx83Fb), [Blink Cam](https://amzn.to/30ylzg9), [Yale Lock](https://amzn.to/2tnQzDv) and [Ring Doorbell](https://amzn.to/2ufQ1zi) to name a few). These devices may appear to make security easier, but there is a trade-off in terms of privacy: as they collect large amounts of personal data, and leave you without control over how this is stored or used. The security of these devices is also questionable, since many of them can be (and are being) hacked, allowing an intruder to bypass detection with minimum effort.
+
+The most privacy-respecting option, would be to not use "smart" internet-connected devices in your home, and not to rely on a security device that requires an internet connection. But if you do, it is important to fully understand the risks of any given product, before buying it. Then adjust settings to increase privacy and security. The following checklist will help mitigate the risks associated with internet-connected home devices.
+
+**Security** | **Priority** | **Details and Hints**
+--- | --- | ---
+**Rename devices to no specify brand/model** | Recommended | If your device name shows what brand or model it is, it will make it easier for a malicious actor launch an attack targeting a specific device. For example avoid names like "Nest Cam", "Yale Lock YRD 256" or "Hive Thermostat". It's uaually easy to change the devices default name.
+**Disable microphone and camera when not in use** | Recomended | Smart speakers and other voice controlled devices store sound clips on a server (and sometimes monitored by employees to improve the speach detection), any accidental recordings could disclose sensetive or personal data. A targetted attach could also allow someone to gain controll of a microphone/ camera, so using the hardware switch to turn it off will help protect from that.
+**Understand what data is collected, stored and transmitted** | Recommended | Before purchasing any smart home device, do some research - and ensure that you understand, and are comfortable with what is being collected and how it is stored and used. Don't buy devices that share anything with third parties, and check the data [breech]([https://www.dehashed.com/breach](https://www.dehashed.com/breach)) database.
+**Set privacy settings, and opt out of sharing data with third parties** | Recommended | Once installed, go to settings in the app, and under privacy ensure the strictest options are selected. Usually by default, the most possible data is being collected.
+**Don't link your smart home devices to your real identity** | Recommended | Use a unique user name and password which does not identify you, your family, your location or any other personal details. When creating an account for a new smart home device, do not sign up/ log in with Facebook, Google or any other third-party service.
+**Keep firmware up-to-date** | Recommended | Ensure firmware versions on smart devices is up-to-date and software patches have been applied. Most smart home apps will notify you when a new firmware version is available, so all you have to do it accept and install.
+**Protect your Network** | Recommended | On many smart home devices, anybody connected to your home WiFi is able to view device content (such as camera footage, or motion statistics). So ensure that your WiFi and home networks are properly secured with a strong password and up-to-date firmware. (See the [Router Section](#your-router) for more details)
+**Be weary of wearables** | Optional | Wearable smart devices allow companies to log even more data than ever before, they can track your every move to know exactly where you are and what you are doing at any given time. Again, you as the consumer have no control over what is done with that data.
+**Don't connect your homes critical infrastructure to the internet** | Optional | While a smart thermostat, burglar alarm, smoke detector and other appliances may seem convenient, they by design can be accessed remotely, meaning a hacker can gain control of your entire home, without even needing to be near by. And by breaching multiple devices, the effects can be very serious.
+**Monitor your home network closely** | Optional | Check your local network for suspicious activity. One of the easier methods to do this is with [FingBox](https://amzn.to/38mdw8F), but you can also do it directly [through some routers](https://www.howtogeek.com/222740/how-to-the-monitor-the-bandwidth-and-data-usage-of-individual-devices-on-your-network/). 
+**Denny internet access where possible** | Advanced | If possible deny the device/ app internet access, and use it only on your local network. You can configure a firewall to block certain devices from sending or receiving from the internet. 
+**Assess risks** | Advanced | Assess risks with your audience and data in mind: Be mindful of whose data is being collected, e.g. kids. Manage which devices can opperate when (such as turning cameras off when you are at home, or disabling the internet for certain devices at specific times of day)
+
 
 ---
 
