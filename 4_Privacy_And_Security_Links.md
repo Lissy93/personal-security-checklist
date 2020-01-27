@@ -1,5 +1,5 @@
 **Personal Cyber Security: Useful Links**<br>
-See also: [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)
+See also: [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md) 🔐
 
 # Awesome Privacy & Securty [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 > A curated list of useful tools and resources online, that help protect your privacy and keep you safe.
