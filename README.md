@@ -2,6 +2,8 @@
 
 > A curated checklist of tips to protect your dgital security and privacy
 
+**Too long? 🦒** See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/master/2_TLDR_Short_List.md) instead.
+
 ## Contents
 
 [![-](/_assets/1_passwords.jpg) Passwords](#passwords)<br>
