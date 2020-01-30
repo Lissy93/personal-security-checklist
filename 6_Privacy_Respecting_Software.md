@@ -10,6 +10,17 @@ You can greatly increase your digital security, by switching to privacy-respecti
 Using open-source applications with a strong emphasis on security, will help stop
 large corporations profiting from your data, through logging, storing and selling your personal details.
 
+## Password Managers
+
+| Provider |Description |
+| --- | --- |
+**[BitWarden](https://bitwarden.com)**  | Free and open source, cross-platform password manager with sync
+**[1Password](https://1password.com)** | Open source, fully-featured cross-platform password manager with sync. Free for self-hosted (or $3/ month hosted)
+**[KeePassXC](https://keepassxc.org)** | Open source, secure password manager, but without cloud-sync capabilities. KeePassXC is a community fork of [KeePass](https://keepass.info/)
+**[LessPass](https://lesspass.com)** | LessPass is a little different, since it generates your passwords using a hash of the website name, your username and a single master-passphrase that you reuse. It ommits the need for you to ever need to store or sync your passwords. They have apps for all the common platforms and a CLI, but you can also self-host it.
+
+
+
 ---
 
 **Note**: In order to stay protected, it is important to also: Use strong and unique passwords, 2-factor authentication,
