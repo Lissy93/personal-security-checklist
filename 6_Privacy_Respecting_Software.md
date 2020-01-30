@@ -20,6 +20,14 @@ large corporations profiting from your data, through logging, storing and sellin
 **[LessPass](https://lesspass.com)** | LessPass is a little different, since it generates your passwords using a hash of the website name, your username and a single master-passphrase that you reuse. It ommits the need for you to ever need to store or sync your passwords. They have apps for all the common platforms and a CLI, but you can also self-host it.
 
 
+## 2-Factor Authentication Apps
+
+| Provider |Description |
+| --- | --- |
+**[Aegis](https://getaegis.app)**  | Free, secure and open source app for manageing 2-step verification tokens, on Android
+**[AndOTP](https://github.com/andOTP/andOTP)** | Another open source, secure authanticator app. AndOTP is well established with a strong large user base
+
+**Note:** Don't use your password manager to also store your 2-FA tokens- use a separate application.
 
 ---
 
