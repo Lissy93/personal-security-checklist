@@ -75,6 +75,26 @@ The following browser add-ons give you better controll over what content is able
 
 *Note: Be careful when installing unfamiliar browser add-ons, since some can compromise your security and privacy. The above list however are all open source, verified and safe extensions*
 
+
+## Mobile Apps
+| Provider |Description |
+| --- | --- |
+**[Orbot]** | System-wide Tor proxy, which encrypts your connection through multiple nodes. You can also use it alongside [Tor Browser] to access .onion sites
+**[NetGaurd]** | A firewall app for Android, which does not require root. NetGuard provides simple and advanced ways to block access to the internet, where applications and addresses can individually be allowed or denied access to your Wi-Fi and/or mobile connection
+**[Island]** | A sandbox environment, allowing you to clone selected apps and run them in an isolated box, preventing it from accessing your personal data, or devicce information
+**[Exodus]** | Shows which trackers, each of your installed apps is using, so that you can better understand how your data is being collected. Uses data from the  Exodus database of scanned APKs.
+**[Bouncer]** | Gives you the ability to grant permissions temporarily, so that you could for example use the camera to take a profile picture, but when you close the given app, those permissions will be revoked
+**[XUMI Security]** |  Checks for, and resolves known security vulnerabilities. Useful to ensure that certain apps, or device settings are not putting your security or privacy at risk
+**[Daedalus]** | No root required Android DNS modifier and hosts/DNSMasq resolver, works by creating a VPN tunnel to modify the DNS settings. Useful if you want to change your resolver to a more secure/ private provider, or use DNS over HTTPS
+**[Greenify]** | Stops certain apps from running in the background. Was intended to be used to speed up your phone, and prolong battery life, but it also stops certain apps from collecting data and tracking your actions while running in the background
+**[Secure Task]** | Triggers actions, when certain security conditions are met, such as multiple failed login attempts or monitor settings changed. It does require [Tasker], and needs to be set up with ADB, device does not need to be rooted
+**[Cryptomator]** | Encryptes files and folders client-side, before uploading them to cloud storage (such as Google Drive, One Drive or Dropbox), meaning none of your personal documents leave your device in plain text
+**[1.1.1.1]** | Lets you use CloudFlares fast and secure 1.1.1.1 DNS, with DNS over HTTPS, and also has the option to enable CloudFlares WARP+ VPN
+**[Fing App]** | A network scanner to help you monitor and secure your WiFi network. The app is totally free, but to use the advanced controlls, you will need a [Fing Box](https://amzn.to/2vFDF4n)
+**[FlutterHole]** | Easy monitoring and controll over your [Pi Hole](https://pi-hole.net/) instance. Pi Hole is great for security, privacy and speed
+
+*For advanced users, the following tools can be used to closely monitor your devise and networks, in order to detect any unusual activity. [PortDroid] for network analysis, [Packet Capture] to monitor network traffic, [SysLog] for viewing system logs, [Dexplorer] to read .dex or .apk files for your installed apps, and [Check and Test] to check status and details of devices hardware*
+
 ---
 
 **Note**: In order to stay protected, it is important to also: Use strong and unique passwords, 2-factor authentication,
@@ -104,3 +124,28 @@ See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 [vanilla-cookie-chrome]: https://chrome.google.com/webstore/detail/vanilla-cookie-manager/gieohaicffldbmiilohhggbidhephnjj?hl=en-GB
 [privacy-essentials-chrome]: https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=en-GB
 [privacy-essentials-firefox]: https://addons.mozilla.org/en-GB/firefox/addon/duckduckgo-for-firefox/
+
+[//]: # (ANDROID APP LINKS)
+[Island]: https://play.google.com/store/apps/details?id=com.oasisfeng.island
+[Orbot]: https://play.google.com/store/apps/details?id=org.torproject.android
+[Bouncer]: https://play.google.com/store/apps/details?id=com.samruston.permission
+[Crypto]: https://play.google.com/store/apps/details?id=com.kokoschka.michael.crypto
+[Cryptomator]: https://play.google.com/store/apps/details?id=org.cryptomator
+[Daedalus]: https://play.google.com/store/apps/details?id=org.itxtech.daedalus
+[Brevent]: https://play.google.com/store/apps/details?id=me.piebridge.brevent
+[Greenify]: https://play.google.com/store/apps/details?id=com.oasisfeng.greenify
+[Secure Task]: https://play.google.com/store/apps/details?id=com.balda.securetask
+[Tor Browser]: https://play.google.com/store/apps/details?id=org.torproject.torbrowser 
+[PortDroid]: https://play.google.com/store/apps/details?id=com.stealthcopter.portdroid
+[Packet Capture]: https://play.google.com/store/apps/details?id=app.greyshirts.sslcapture
+[SysLog]: https://play.google.com/store/apps/details?id=com.tortel.syslog
+[Dexplorer]: https://play.google.com/store/apps/details?id=com.dexplorer
+[Check and Test]: https://play.google.com/store/apps/details?id=com.inpocketsoftware.andTest
+[Tasker]: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm
+[NetGaurd]: https://www.netguard.me/
+[Exodus]: https://exodus-privacy.eu.org/en/page/what/#android-app
+[XUMI Security]: https://xumi.ca/xumi-security/
+[Fing App]: https://www.fing.com/products/fing-app
+[FlutterHole]: https://github.com/sterrenburg/flutterhole
+[1.1.1.1]: https://1.1.1.1/
+
