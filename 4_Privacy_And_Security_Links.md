@@ -1,7 +1,7 @@
 **Personal Cyber Security: Useful Links**<br>
 See also: [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md) 🔐
 
-# Awesome Privacy & Securty [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Awesome Privacy & Securty [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 > A curated list of useful tools and resources online, that help protect your privacy and keep you safe.
 
 ## Resources
@@ -23,6 +23,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - Freedom of the Press Foundation: https://freedom.press/
 - Open Rights Group: https://www.openrightsgroup.org/
 - LEAP Encryption Access Project: https://leap.se/
+- The Guardian Project: https://guardianproject.info/
 
 
 ## Blogs
@@ -62,6 +63,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - A suit of online tools, with online freedom in mind, Disroot: https://disroot.org/
 - Check if your website is blocked by certain ISPs, Blocked by ORG: https://www.blocked.org.uk/
 - Find, understand and use information from privacy policies, Data Rights Finder: https://www.datarightsfinder.org/
+- Check which information is being leaked by your browser, Browser Leaks: https://browserleaks.com/
 
 
 ## Installable Tools
