@@ -1,14 +1,16 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
 # Privacy & Securty-Focused Software and Services
 > A curated list of privacy-respecting apps, software and providers 🔐
 
 ## Intro
 
-You can greatly increase your digital security, by switching to privacy-respecting software. 
+If you want greatly increase your digital security, and protect your personal information, then
+start migrating to encrypted, privacy-respecting open source software and services.
 Using open-source applications with a strong emphasis on security, will help stop
-large corporations profiting from your data, through logging, storing and selling your personal details.
+large corporations, governments and hackers from logging, storing or selling your personal details.
 
 
 ## Password Managers
@@ -84,6 +86,7 @@ The following browser add-ons give you better controll over what content is able
 **[Island]** | A sandbox environment, allowing you to clone selected apps and run them in an isolated box, preventing it from accessing your personal data, or devicce information
 **[Exodus]** | Shows which trackers, each of your installed apps is using, so that you can better understand how your data is being collected. Uses data from the  Exodus database of scanned APKs.
 **[Bouncer]** | Gives you the ability to grant permissions temporarily, so that you could for example use the camera to take a profile picture, but when you close the given app, those permissions will be revoked
+**[Haven]** | Allows you to protect yourself, your personal space and your posessions- without compromising on security. Leveraging device sensors to monitor nearby space, Haven was developed by [The Guardian Project](https://guardianproject.info/), in partnership with [Edward Snowden](https://techcrunch.com/2017/12/24/edward-snowden-haven-app/)
 **[XUMI Security]** |  Checks for, and resolves known security vulnerabilities. Useful to ensure that certain apps, or device settings are not putting your security or privacy at risk
 **[Daedalus]** | No root required Android DNS modifier and hosts/DNSMasq resolver, works by creating a VPN tunnel to modify the DNS settings. Useful if you want to change your resolver to a more secure/ private provider, or use DNS over HTTPS
 **[Greenify]** | Stops certain apps from running in the background. Was intended to be used to speed up your phone, and prolong battery life, but it also stops certain apps from collecting data and tracking your actions while running in the background
@@ -142,6 +145,7 @@ See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 [Dexplorer]: https://play.google.com/store/apps/details?id=com.dexplorer
 [Check and Test]: https://play.google.com/store/apps/details?id=com.inpocketsoftware.andTest
 [Tasker]: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm
+[Haven]: https://play.google.com/store/apps/details?id=org.havenapp.main
 [NetGaurd]: https://www.netguard.me/
 [Exodus]: https://exodus-privacy.eu.org/en/page/what/#android-app
 [XUMI Security]: https://xumi.ca/xumi-security/
