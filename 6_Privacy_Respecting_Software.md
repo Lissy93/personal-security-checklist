@@ -96,6 +96,8 @@ The following browser add-ons give you better controll over what content is able
 **[Fing App]** | A network scanner to help you monitor and secure your WiFi network. The app is totally free, but to use the advanced controlls, you will need a [Fing Box](https://amzn.to/2vFDF4n)
 **[FlutterHole]** | Easy monitoring and controll over your [Pi Hole](https://pi-hole.net/) instance. Pi Hole is great for security, privacy and speed
 
+For more open source security & privacy apps, check out [The Guardian Project], [The Tor Project], [Oasis Feng] and [Marcel Bokhorst]- all of which are trusted developers or organisations, who've done amazing work.
+
 *For advanced users, the following tools can be used to closely monitor your devise and networks, in order to detect any unusual activity. [PortDroid] for network analysis, [Packet Capture] to monitor network traffic, [SysLog] for viewing system logs, [Dexplorer] to read .dex or .apk files for your installed apps, and [Check and Test] to check status and details of devices hardware*
 
 ---
@@ -152,4 +154,7 @@ See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 [Fing App]: https://www.fing.com/products/fing-app
 [FlutterHole]: https://github.com/sterrenburg/flutterhole
 [1.1.1.1]: https://1.1.1.1/
-
+[The Guardian Project]: https://play.google.com/store/apps/dev?id=6502754515281796553
+[The Tor Project]: https://play.google.com/store/apps/developer?id=The+Tor+Project
+[Oasis Feng]: https://play.google.com/store/apps/dev?id=7664242523989527886
+[Marcel Bokhorst]: https://play.google.com/store/apps/dev?id=8420080860664580239
