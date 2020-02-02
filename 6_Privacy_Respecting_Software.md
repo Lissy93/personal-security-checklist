@@ -71,9 +71,9 @@ The below email providers are private, encrypted and safe
 
 | Provider | Description |
 | --- | --- |
-[ProtonMail](https://protonmail.com/) | An open-source, end-to-end encrypted anonymous email service. ProtonMail has a modern easy-to-use and customizable UI, as well as fast, secure native mobile apps. ProtonMail has all the features that you'd expect from a modern email service and is based on simplicity without sacrificing security. It has a free plan or a premium option for using custom domains. ProtonMail requires no personally identifiable information for signup, they have a [.onion](https://protonirockerxow.onion) server, for access via Tor, and they accept anonymous payment: BTC and cash (as well as the normal credit card and PayPal).
-[Tutanota](https://tutanota.com/) | Free and open source email service based in Germany. It has a basic intuitive UI, secure native mobile apps, anonymous signup, and a .onion site. Tutonota has a full-featured free plan or a premium subscription for businesses allowing for custom domains ($12/ month).
-[Mailfence](https://mailfence.com/) | Mailfence supports OpenPGP so that you can manually exchange encryption keys independently from the Mailfence servers, putting you in full control. Mailfence has a simple UI, similar to that of Outlook, and it comes with bundled with calendar, address book, and files. All mail settings are highly customizable, yet still clear and easy to use. Sign up is not anonymous, since your name, and prior email address is required. There is a fully-featured free plan, or you can pay for premium, and use a custom domain ($2.50/ month, or $7.50/ month for 5 domains), where BitCoin, LiteCoin or credit card is accepted.
+**[ProtonMail](https://protonmail.com/)** | An open-source, end-to-end encrypted anonymous email service. ProtonMail has a modern easy-to-use and customizable UI, as well as fast, secure native mobile apps. ProtonMail has all the features that you'd expect from a modern email service and is based on simplicity without sacrificing security. It has a free plan or a premium option for using custom domains. ProtonMail requires no personally identifiable information for signup, they have a [.onion](https://protonirockerxow.onion) server, for access via Tor, and they accept anonymous payment: BTC and cash (as well as the normal credit card and PayPal).
+**[Tutanota](https://tutanota.com/)** | Free and open source email service based in Germany. It has a basic intuitive UI, secure native mobile apps, anonymous signup, and a .onion site. Tutonota has a full-featured free plan or a premium subscription for businesses allowing for custom domains ($12/ month).
+**[Mailfence](https://mailfence.com/)** | Mailfence supports OpenPGP so that you can manually exchange encryption keys independently from the Mailfence servers, putting you in full control. Mailfence has a simple UI, similar to that of Outlook, and it comes with bundled with calendar, address book, and files. All mail settings are highly customizable, yet still clear and easy to use. Sign up is not anonymous, since your name, and prior email address is required. There is a fully-featured free plan, or you can pay for premium, and use a custom domain ($2.50/ month, or $7.50/ month for 5 domains), where BitCoin, LiteCoin or credit card is accepted.
 
 See [OpenTechFund- Secure Email](https://github.com/OpenTechFund/secure-email) for more details.
 
@@ -92,13 +92,25 @@ If you do not want to trust an email provider with your messages, you can host y
 
 | Provider | Description |
 | --- | --- |
-[Brave Browser](https://brave.com/?ref=ali721) | Brave Browser, is currently one of the most popular private browsers- it provides unmatched speed, security, and privacy by blocking trackers. It also pays you in [BAT tokens](https://basicattentiontoken.org/) for using it. The interface is very clear and simple and offers all the features of Chrome/ Chromium + more. Brave also has Tor built-in, when you open up a private tab/ window.
-[FireFox](https://www.mozilla.org/firefox) | Compared to Chrome, Internet Explorer and Safari- Firefox is significantly more secure, and offers some nifty privacy features. After installing, there are a couple of small tweaks you will need to make, in order to secure Firefox. You can follow one of these guides by: [Restore Privacy](https://restoreprivacy.com/firefox-privacy/), [Security Gladiators](https://securitygladiators.com/firefox-privacy-tips/) or [12Bytes](https://12bytes.org/7750)
-[Bromite](https://www.bromite.org/) | Bromite is Chromium (Chrome without Google) plus ad blocking and enhanced privacy. It provides a no-clutter browsing experience without privacy-invasive features- it's lightweight and minimal
-[Tor Browser](https://www.torproject.org/) | Undoubtedly Tor is the king of secure browsers. It provides an extra layer of anonymity, by encrypting each of your requests, then routing it through several nodes, making it near-impossible for you to be tracked. It does make every-day browsing a little slower, and some sites will require you to complete a CAPTCHA, and others may not work at all on Tor
+**[Brave Browser](https://brave.com/?ref=ali721)** | Brave Browser, is currently one of the most popular private browsers- it provides unmatched speed, security, and privacy by blocking trackers. It also pays you in [BAT tokens](https://basicattentiontoken.org/) for using it. The interface is very clear and simple and offers all the features of Chrome/ Chromium + more. Brave also has Tor built-in, when you open up a private tab/ window.
+**[FireFox](https://www.mozilla.org/firefox)** | Compared to Chrome, Internet Explorer and Safari- Firefox is significantly more secure, and offers some nifty privacy features. After installing, there are a couple of small tweaks you will need to make, in order to secure Firefox. You can follow one of these guides by: [Restore Privacy](https://restoreprivacy.com/firefox-privacy/), [Security Gladiators](https://securitygladiators.com/firefox-privacy-tips/) or [12Bytes](https://12bytes.org/7750)
+**[Bromite](https://www.bromite.org/)** | Bromite is Chromium (Chrome without Google) plus ad blocking and enhanced privacy. It provides a no-clutter browsing experience without privacy-invasive features- it's lightweight and minimal
+**[Tor Browser](https://www.torproject.org/)** | Undoubtedly Tor is the king of secure browsers. It provides an extra layer of anonymity, by encrypting each of your requests, then routing it through several nodes, making it near-impossible for you to be tracked. It does make every-day browsing a little slower, and some sites will require you to complete a CAPTCHA, and others may not work at all on Tor
 
 See also: [Recommended Browser Extensions](#browser-extensions)
 
+
+## Search Engines
+
+Google frequently modifies and manipulates search, and is in persuit of eliminating competition and promoting their own services above others. They also track, collect, use and sell detailed user search and meta data.
+
+| Provider | Description |
+| --- | --- |
+**[DuckDuckGo](https://duckduckgo.com/)** | DuckDuckGo is a very user-friendly, fast and secure search engine. It's totally private, with no trackers, cookies or ads. It's also highly customisable, with dark-mode, many languages and features. They even have a [.onion](https://3g2upl4pq6kufc4m.onion ) URL, for use with Tor.
+**[Start Page](https://www.startpage.com/)** | Start Page displays Googles results, through but through their servers- meaning Google can not track you, but you still see results similar to what you would with Google. (European users, see also [ixquick](http://ixquick.eu/))
+**[Qwant](https://www.qwant.com/)** | French service that aggregates Bings results, with it's own results. Quant doesn't plant any cookies, nor have any trackers or third-party advertising. It returns non-biased search results, with no promotions. Quant has a uinique, but nice UI
+
+Another option would be to host your own- [Searx](https://asciimoo.github.io/searx/) is a good option, since it is easy to set-up, secure, private and is backed by a strong community
 
 ## Virtual Private Networks
 
