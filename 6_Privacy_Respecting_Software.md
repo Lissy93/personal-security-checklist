@@ -78,6 +78,12 @@ The below email providers are private, encrypted and safe
 #### Other Notable Mentions
 [HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Kolab Now](https://kolabnow.com), [Posteo](https://posteo.de), and [Disroot](https://disroot.org/en)
 
+#### Alias Services
+Revealing your real email address online can put you at risk. [33Mail](http://33mail.com/Dg0gkEA) is an aliasing service, you either use one of their free domains or bring your own, then create an account and specify your forwarding mail address. Then, whenever you need to share your email address or sign up for an account online, you just type something like frank@example.com, facebook@example.com, random@example.com - no matter what comes before the `@`, it will land in your real inbox. If a certain website starts spamming you or leaks your email address- then you can simply just block that alias. 33Mail also lets you reply to emails, and the message will hide your real address, and be sent from the alias. [33mail.com/](http://33mail.com/Dg0gkEA)
+
+#### Self-Hosted Email
+If you do not want to trust an email provider with your messages, you can host your own mail server. Without experience, this can be notoriously hard to correctly configure, especially when it comes to security. If you do decide to go down this route, [Mail-in-a-box](https://mailinabox.email/), is an easy to deploy, open source mail server. It aims to promote decentralization, innovation, and privacy on the web, as well as have automated, auditable, and idempotent system configuration. Other ready-to-go self-hosted mail options include [Mailu](https://mailu.io/1.7/) and [Mail Cow](https://mailcow.email/), both of which are docker containers.
+
 
 ## Virtual Private Networks
 
