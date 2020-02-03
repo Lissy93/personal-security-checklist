@@ -82,10 +82,21 @@ See [OpenTechFund- Secure Email](https://github.com/OpenTechFund/secure-email) f
 [HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Kolab Now](https://kolabnow.com), [Posteo](https://posteo.de), and [Disroot](https://disroot.org/en)
 
 #### Alias Services
-Revealing your real email address online can put you at risk. [33Mail](http://33mail.com/Dg0gkEA) is an aliasing service, you either use one of their free domains or bring your own, then create an account and specify your forwarding mail address. Then, whenever you need to share your email address or sign up for an account online, you just type something like frank@example.com, facebook@example.com, random@example.com - no matter what comes before the `@`, it will land in your real inbox. If a certain website starts spamming you or leaks your email address- then you can simply just block that alias. 33Mail also lets you reply to emails, and the message will hide your real address, and be sent from the alias. [33mail.com/](http://33mail.com/Dg0gkEA)
+Revealing your real email address online can put you at risk. Using something like [33Mail](http://33mail.com/Dg0gkEA), which is an aliasing service, allows you to use a different email address for each online account, with all emails landing in your real inbox. It lets you identify which provider leaked your email address, and block an allias. Email addresses are created automatically, the first time you use them, and the messages land in your normal inbox. You can even reply to mail, to hide your real email address.
+
+[33mail.com](http://33mail.com/Dg0gkEA) is free, but there is a primium plan ($1/ month) if you'd like to use a custom domain. Alternativley you could host your own instance, or is you have ProtonMail you can manually create email alliases.
 
 #### Self-Hosted Email
-If you do not want to trust an email provider with your messages, you can host your own mail server. Without experience, this can be notoriously hard to correctly configure, especially when it comes to security. If you do decide to go down this route, [Mail-in-a-box](https://mailinabox.email/), is an easy to deploy, open source mail server. It aims to promote decentralization, innovation, and privacy on the web, as well as have automated, auditable, and idempotent system configuration. Other ready-to-go self-hosted mail options include [Mailu](https://mailu.io/1.7/) and [Mail Cow](https://mailcow.email/), both of which are docker containers.
+If you do not want to trust an email provider with your messages, you can host your own mail server. Without experience, this can be notoriously hard to correctly configure, especially when it comes to security. You may also find that cost, performance and features make it a less attractive optrion. If you do decide to go down this route, [Mail-in-a-box](https://mailinabox.email/), is an easy to deploy, open source mail server. It aims to promote decentralization, innovation, and privacy on the web, as well as have automated, auditable, and idempotent system configuration. Other ready-to-go self-hosted mail options include [Mailu](https://mailu.io/1.7/) and [Mail Cow](https://mailcow.email/), both of which are docker containers.
+
+#### Mail Clients
+Email clients are the programs used to interact with the mail server. For hosted email, then the web and mobile clients provided by your email service are usually adequate, and may be the most secure option. For self-hosted email, you will need to install and configure mail clients for web, desktop or mobile.
+
+**Dektop** - [Mozilla Thunderbird](https://www.thunderbird.net) is an open source, highly customizable, secure and private desktop email client, for Windows, macOS, and Linux. If you are using ProtonMail, then you can use the [ProtonMail Bridge](https://protonmail.com/bridge/thunderbird), to sync your emails to either Thunderbird or Microsoft Outlook. In terms of security, the disadvantage, is that most desktop clients do not support 2FA, so it is important to keep your computer secured, however they are not vulnrable to the common browser attacks, that a web client would be. 
+
+**Web** - If you are self-hosting your mail server, you will probably want a web-based email client. [RainLoop](http://www.rainloop.net) and [RoundCube](https://roundcube.net) are both good open source options.
+
+**Mobile** - the most secure option is usually to use the app provided by your mail provider. If your mail server is self-hosted, then consider [FairMail](https://email.faircode.eu/) which is a fully featured, open source, privacy oriented email app for Android. There is also [pretty Easy privacy p≡p](https://play.google.com/store/apps/details?id=security.pEp), which has OpenPGP built in. [K-9 Mail](https://play.google.com/store/apps/details?id=com.fsck.k9), which has been around almost as long as Android, has a solid reputation for privacy and security features.
 
 
 ## Browsers
@@ -112,6 +123,7 @@ Google frequently modifies and manipulates search, and is in persuit of eliminat
 
 Another option would be to host your own- [Searx](https://asciimoo.github.io/searx/) is a good option, since it is easy to set-up, secure, private and is backed by a strong community
 
+
 ## Virtual Private Networks
 
 VPNs are good for getting round censorship, increasing protection on public WiFi, obscuring your IP address, and reducing what data your ISP can log. But for the most anonymity, you should use [Tor](https://www.torproject.org/). VPNs do not mean you are automatically protected, or anonymous (see below).
@@ -123,12 +135,21 @@ You could host your own VPN, which would allow you to have full visibility and c
 **[Mullvad](http://mullvad.net/en/)** | Mullvad is one of the best for privacy, they own all their own servers and have a totally anonymous sign up process, you don't need to provide any details at all, you can choose to pay annonymously too (with Monero, BTC or cash)
 **[ProtonVPN](https://protonvpn.com/)** | From the creators of ProtonMail, ProtonVPN has a solid reputation. They have a full suit of user-friendly native mobile and desktop apps. ProtonVPN is one of the few "trustworthy" providers that also offer a free plan
 
-For a full-comparison, see: [thatoneprivacysite.net](https://thatoneprivacysite.net/).
+
+#### Other VPN Options
+[TorGuard](https://torguard.net/aff.php?aff=6024), [VyperVPN](https://www.dpbolvw.net/click-9242873-13805759), [PureVPN](https://www.anrdoezrs.net/click-9242873-13842740), [NordVPN](https://www.kqzyfj.com/l5115shqnhp4E797DC8467D69A6D)
+
+**Full VPN Comparison**: [thatoneprivacysite.net](https://thatoneprivacysite.net/).
 
 #### Word of Warning
 - *A VPN does not make you anonymous- it merely chnages your IP accress to that of your VPN provider, instead of ISP. Your browsing session can still be linked back to your real identity either through your system details (such as user agent, screen resolution even typing patterns), cookies/ session storage, or by the identifiable data that you enter. [Read more about fingerprinting](https://pixelprivacy.com/resources/browser-fingerprinting/)*
-- *Logging- If you choose to use a VPN because you do not agree with your ISP logging your full browsing history, then it is important to keep in mind that your VPN provider will have access to these logs. Many VPNs claim not to keep logs, but you cannot be certain of this. See [this article](https://gist.github.com/joepie91/5a9909939e6ce7d09e29) for more*
+- *Logging- If you choose to use a VPN because you do not agree with your ISP logging your full browsing history, then it is important to keep in mind that your VPN provider can see (and mess with) all your traffic. Many VPNs claim not to keep logs, but you cannot be certain of this. See [this article](https://gist.github.com/joepie91/5a9909939e6ce7d09e29) for more*
+- [Tor](https://www.torproject.org/) is the best option for private browsing
 
+#### Considerations
+*While choosing a VPN, consider the following: Logging policy (logs are bad), Jurisdiction (avoid 5-eyes), Number of servers, availability and average load. Payment method (anonymous methods such as BTC, Monero or cash are better), Leak protection (1st-party DNS servers = good, and check if IPv6 is supported), protocols (OpenVPN and WireGuard = good). Finally, usability of their apps, user reviews and download speeds.*
+
+## Operating Systems
 
 ## Browser Extensions
 
