@@ -231,6 +231,31 @@ For more open source security & privacy apps, check out [The Guardian Project], 
 
 For *advanced* users, the following tools can be used to closely monitor your devise and networks, in order to detect any unusual activity. [PortDroid] for network analysis, [Packet Capture] to monitor network traffic, [SysLog] for viewing system logs, [Dexplorer] to read .dex or .apk files for your installed apps, and [Check and Test] to check status and details of devices hardware
 
+
+## Online Tools
+
+A selection of free online tools and utilities, to check, test and protect
+
+| Provider | Description |
+| --- | --- |
+**[';--have i been pwned?](https://haveibeenpwned.com)** | Check if your credentials (Email address or Password) have been compromised in a data breach
+**[εxodus](https://reports.exodus-privacy.eu.org)** | Check how many, and which trackers any Android app has. Useful to understand how data is being collected before you install a certain APK, it also shows which permssions the app asks for
+**[Panopticlick](https://panopticlick.eff.org/)** | Check if your browser safe against tracking. Analyzes how well your browser and add-ons protect you against online tracking techniques, and if your system is uniquely configured—and thus identifiable
+**[Browser Leak Test](https://browserleaks.com)** | Shows which of personal identity data is being leaked through your browser, so you can better protect yourself against fingerprinting
+**[IP Leak Test](https://ipleak.net)** | Shows your IP address, and other associated details (location, ISP, WebRTC check, DNS, and lots more)
+**[EXIF Remove](https://www.exifremove.com)** | Displays, and removes Meta and EXIF data from an uploaded photo or document
+**[Redirect Detective](https://redirectdetective.com)** | Check where a suspicious URL redirects to (without having to click it). Lets you avoid being tracked by not being redirected via adware/tracking sites, or see if a shortened link  actually resolves a legitimate site, or see if link is an affiliate ad
+**[Blocked.org](https://www.blocked.org.uk)** | Checks if a given website is blocked by filters applied by your mobile and broadband Internet Service Providers (ISP)
+**[Virus Total](https://www.virustotal.com)** | Analyse a potentially-suspicious web resources (by URL, IP, domain or file hash) to detect types of malware (*note: files are scanned publicly*)
+**[Is Legit?](https://www.islegitsite.com/)** | Check if a website or business is a scam, before buying something from it
+**[Deseat Me](https://www.deseat.me)** | Tool to help you clean up your online presence- Instantly get a list of all your accounts, delete the ones you are not using
+**[10 Minute Mail](https://10minemail.com/)** | Generate temporary disposable email address, to avoid giving your real details
+**[33Mail](http://33mail.com/Dg0gkEA)** | Automatically generates new email alliases, the first time you use them, to avoid revealing your real email address. Unlike 10 Minute Mail, these email addresses are permant, and get forwarded to your real email inbox
+
+#### Word of Warning
+*Browsers are inherintly insecure, be careful when uploading, or entering personal details*
+
+
 ---
 
 **Note**: In order to stay protected, it is important to also: Use strong and unique passwords, 2-factor authentication,
