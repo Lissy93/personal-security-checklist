@@ -1,4 +1,4 @@
-# Personal Security | TLDR
+# Personal Security | TLDR [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
 - [Personal Security Checklist](#personal-security-checklist)
 - [Privacy-focused Software](#open-source-privacy-focused-software)
