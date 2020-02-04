@@ -190,9 +190,32 @@ If you do not want to use a specalist security-based distro, or you are new to U
 If you want to stick with your current OS, then see this [Windows 10 guide](https://heimdalsecurity.com/en/windows-10-security-guide/privacy), by Heimdal Security- it will guide you through the settings that you should update, to minimise the amount that Microsoft and other third-parties track you. For Apple users, this [Mac OS guide](https://spreadprivacy.com/mac-privacy-tips/), will walk you through the equivalent steps. For Linux, you are far more secure by default, but there are a few steps to take, as seen in this [Linux guide](https://spreadprivacy.com/linux-privacy-tips/).
 
 
+## Mobile Operating Systems
+
+If you are an Android user, your device has Google built-in at it's core. [Google tracks you](https://digitalcontentnext.org/blog/2018/08/21/google-data-collection-research/),
+collecting a wealth of information, and logging your every move. This data is then used to force targeted ads on you, sold on, and passed to the government.
+Without rooting your device, it is not possible to turn this tracking off. The below options are [custom ROMs](https://www.xda-developers.com/what-is-custom-rom-android/). To install apps, without Play Store- see [F-Droid](https://f-droid.org/en/)
+
+| Provider | Description |
+| --- | --- |
+**[LineageOS](https://www.lineageos.org/)** | A free and open-source operating system for various devices, based on the Android mobile platform- Lineage is light-weight, well maintained, supports a wide range of devices, and comes bundled with [Privacy Guard](https://en.wikipedia.org/wiki/Android_Privacy_Guard)
+**[GrapheneOS](https://grapheneos.org/)** | GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility. Developed by the team behind [CoperheadOS](https://copperhead.co/android/). Graphene is a young project, and currently only supports Pixel devices, partially due to their strong hardware security
+
+#### Other Notable Mentions
+[Replicant OS](https://www.replicant.us/) is a fully-featured distro, with an emphasis on freedom, privacy and security. [MmniRom](https://www.omnirom.org/) is a mature, stable and fully-featured ROM. [Recursion Remix](https://forum.xda-developers.com/remix), based of Lineage is a highly customisable secure ROM. [Paranoid Android](http://paranoidandroid.co/) is very minimilistic, but provides an excellant user experience (contains Google Play Services). Alternativley, [Ubuntu Touch](https://ubports.com/) is a Linux (Ubuntu)- based OS. It is secure by design, runs on almost any device, but falls short when it comes to the app store.
+
+
+#### Word of Warning
+It is not recommended to root, or flash your device with a custom ROM if you are not an advanced user. There are risks involved:
+- Although the above ROMs omit Google, they do open up other security issues: Without DM-verity on the system partition, the file system *could* be tampered with, and no verified boot stack, the kernel/initramfs also *could* be edited. You should understand the risks, before proceeding to flash a custom ROM to your device
+- You will need to rely on updates from the community, which could be slower- this may be an issue for a security-critical patch
+- It is also possible to brick your device, through interrupted install or bad software
+- Finally, rooting and flashing your device, will void your warranty
+
+
 ## Browser Extensions
 
-The following browser add-ons give you better controll over what content is able to be loaded and executed while your browsing.
+The following browser add-ons give you better control over what content is able to be loaded and executed while your browsing.
 
 | Provider | Description |
 | --- | --- |
