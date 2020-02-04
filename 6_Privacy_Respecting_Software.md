@@ -7,12 +7,31 @@
 
 **Too long? 🦒** See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/master/2_TLDR_Short_List.md#open-source-privacy-focused-software) instead.
 
+
 ## Intro
 
 If you want greatly increase your digital security, and protect your personal information, then
 start migrating to encrypted, privacy-respecting open source software and services.
 Using open-source applications with a strong emphasis on security, will help stop
 large corporations, governments and hackers from logging, storing or selling your personal details.
+
+#### Categories
+
+- [Password Managers](#password-managers)
+- [2-Factor Authentication](#2-factor-authentication)
+- [File Encryption](#file-encryption)
+- [Encrypted Messaging](#encrypted-messaging)
+- [Encrypted Email](#encrypted-email)
+- [Browsers](#browsers)
+- [Search Engines](#search-engines)
+- [Virtual Private Networks](#virtual-private-networks)
+- [Operating Systems](#operating-systems)
+- [Browser Extensions](#browser-extensions)
+- [Mobile Apps](#mobile-apps)
+
+
+#### See Also
+- [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
 
 
 ## Password Managers
