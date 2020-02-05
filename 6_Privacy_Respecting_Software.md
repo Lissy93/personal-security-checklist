@@ -145,7 +145,7 @@ Another option would be to host your own- [Searx](https://asciimoo.github.io/sea
 
 ## Virtual Private Networks
 
-VPNs are good for getting round censorship, increasing protection on public WiFi, obscuring your IP address, and reducing what data your ISP can log. But for the most anonymity, you should use [Tor](https://www.torproject.org/). VPNs do not mean you are automatically protected, or anonymous (see below). You could host your own VPN, which would allow you to have full visibility and control over logs. 
+VPNs are good for getting round censorship, increasing protection on public WiFi, obscuring your IP address, and reducing what data your ISP can log. But for the most anonymity, you should use [Tor](https://www.torproject.org/). VPNs do not mean you are automatically protected, or anonymous (see below). 
 
 | Provider | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ VPNs are good for getting round censorship, increasing protection on public WiFi
 
 
 #### Other VPN Options
-[Perfect Privacy](https://www.perfect-privacy.com/) -- [TorGuard](https://torguard.net/aff.php?aff=6024) -- [VyperVPN](https://www.dpbolvw.net/click-9242873-13805759) -- [IVPN](https://www.ivpn.net/) -- [PureVPN](https://www.anrdoezrs.net/click-9242873-13842740) -- [NordVPN](https://www.kqzyfj.com/l5115shqnhp4E797DC8467D69A6D) -- [IVPN](https://www.ivpn.net/) -- [VirtualShield](https://virtualshield.com/?rfsn=3739717.4cba76) -- [VPN.ac](https://vpn.ac/aff.php?aff=2178) -- [WindScribe](https://windscribe.com/?affid=6nh59z1r)
+[Perfect Privacy](https://www.perfect-privacy.com/en/features?a_aid=securitychecklist) -- [TorGuard](https://torguard.net/aff.php?aff=6024) -- [IVPN](https://www.ivpn.net/) -- [PureVPN](https://www.anrdoezrs.net/click-9242873-13842740) -- [NordVPN](https://www.kqzyfj.com/l5115shqnhp4E797DC8467D69A6D) -- [IVPN](https://www.ivpn.net/) -- [VirtualShield](https://virtualshield.com/?rfsn=3739717.4cba76) -- [Private Internet Access](https://www.privateinternetaccess.com/pages/cafe/digidef) -- [VPN.ac](https://vpn.ac/aff.php?aff=2178) -- [WindScribe](https://windscribe.com/?affid=6nh59z1r) -- [VyperVPN](https://www.dpbolvw.net/click-9242873-13805759)
 
 **Full VPN Comparison**: [thatoneprivacysite.net](https://thatoneprivacysite.net/).
 
