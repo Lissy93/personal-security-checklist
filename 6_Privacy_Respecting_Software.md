@@ -32,6 +32,8 @@ large corporations, governments and hackers from logging, storing or selling you
 
 #### See Also
 - [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
+- [Further Links: Privacy & Security](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
+- [The Importance of Digital Security & Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
 
 
 ## Password Managers
