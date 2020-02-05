@@ -195,10 +195,35 @@ If you don't trust a VPN provider not to keep logs, then you could self-host you
 
 ## Social Networks
 
-**[Mastodon](https://mastodon.social/invite/A5JwL72F)** | An open source decentralized social network. It allows anyone to host their own server node in the network, or join an existing one
+Over the pas decade, social networks have revolutionised the way we communicate and bought the world closer together- but it came at the [cost of our privacy](https://en.wikipedia.org/wiki/Privacy_concerns_with_social_networking_services). Social networks are built on the principle of sharing- but you, the user should be able to choose with whom you share what, and that is what the following sites are aim to do
+
+| Provider | Description |
+| --- | --- |
+**[Mastodon](https://mastodon.social/invite/A5JwL72F)** | A shameless Twitter clone, but open-source, distributed across independent servers, and with no algorithms that mess with users timelines
 **[Minds](https://www.minds.com/register?referrer=as93)** | A social media site, which aims to bring people together and support open conversations. Get paid for creating content
 **[Pleroma](https://pleroma.social)** | Pleroma is a federated social networking server built on open protocols. It is compatible with GNU Social, Mastodon, and many other ActivityPub and OStatus implementations
+**[Vero](https://vero.co/)** | (closed-source) A mobile-based social network, whose USP is that they have "No Ads. No Data Mining. No Algorithms." Since Vero is not open source, it is not possible to verify the validity of these claims
 
+#### Main-stream networks
+The content on many of these smaller sites, tends to be more *niche*. But there are still some main-stream social networks are less intrusive, such as Twitter (with a couple of [tweaks](https://www.offensiveprivacy.com/blog/twitter-privacy)) and Reddit. For using other popular networks, see [this guide](https://proprivacy.com/guides/social-media-privacy-guide), for protecting privacy.
+
+
+## Video Platforms
+
+| Provider | Description |
+| --- | --- |
+[PeerTube](https://joinpeertube.org) |  And open source, federated network of inter-connected small videos hosters. You can [self-host](https://docs.joinpeertube.org/#/install-any-os), or [find an instance](https://joinpeertube.org/instances#instances-list), and then watch videos from any PeerTube server
+[DTube](https://d.tube) | A decentralized video platform with little to no moderation that uses cryptocurrency and blockchain technology to pay its users, and it ad-free
+[BitTube](https://bittube.tv) | A peer-to-peer, decentralized, censorship-free, ad-free video sharing and live streaming platform based on IPFS and blockchain technology
+[BitChute](https://www.bitchute.com/) | A video hosting platform, that was founded in 2017 to allow uploaders to avoid content rules enforced on other platforms, such as YouTube
+
+#### Word of Warning
+Without moderation, some of these platforms accommodate video creators, who content may not be appropriate for all audiences
+
+#### YouTube Proxies
+The content on many of the smaller video sites, often just doesn't compare to YouTube. So another alternative, is to access YouTube through a proxy client, which reduces what Google can track).
+- Good options are: [Invidio](https://invidio.us/) (web), [FreeTube](https://freetubeapp.io/) (Windows, Mac OS, Linux), [NewPipe](https://newpipe.schabi.org/) (Android), [YouTube++](https://iosninja.io/ipa-library/download-youtube-plus-ipa-ios) (iOS)
+- Or download videos with [youtube-dl](https://ytdl-org.github.io/youtube-dl/) (cli) or [youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui) (gui). For just audio, there is [PodSync](https://podsync.net/)
 
 
 ## Operating Systems
