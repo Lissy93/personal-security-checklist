@@ -25,7 +25,10 @@ large corporations, governments and hackers from logging, storing or selling you
 - [Browsers](#browsers)
 - [Search Engines](#search-engines)
 - [Virtual Private Networks](#virtual-private-networks)
+- [Cloud Productivity Suits](#cloud-productivity-suits)
+- [Utilities](#utilities)
 - [Operating Systems](#operating-systems)
+- [Mobile Operating Systems](#mobile-operating-systems)
 - [Browser Extensions](#browser-extensions)
 - [Mobile Apps](#mobile-apps)
 
@@ -174,7 +177,7 @@ If you don't trust a VPN provider not to keep logs, then you could self-host you
 
 
 
-## Productivity Suits
+## Cloud Productivity Suits
 
 | Provider | Description |
 | --- | --- |
@@ -183,6 +186,18 @@ If you don't trust a VPN provider not to keep logs, then you could self-host you
 **[Standard Notes](https://standardnotes.org)** | S.Notes is a free, open-source, and completely encrypted private notes app. It has a simple UI, yet packs in a lot of features, thanks to the [Extensions Store](https://standardnotes.org/extensions), allowing for: To-Do lists, Spreadsheets, Rich Text, Markdown, Math Editor, Code Editor and many more. You can choose between a number of themes (yay, dark mode!), and it features built-in secure file store, tags/ folders, fast search and more. There is a web app as well as native Windows, Mac OS, Linux, Android and iOS apps. Standard Notes is actively developed, and fully open-source, so you can host it yourself, or use their hosted version: free without using plug-ins or $3/ month for access to all features
 **[NextCloud](https://nextcloud.com/)** | A complete self-hosted productivity platform, with a strong community and growing [app store](https://apps.nextcloud.com). NextCloud is similar to (but arguably more complete than) Google Drive, Office 365 and Dropbox. Clear UI and stable native apps across all platforms, and also supports file sync. Supports encrypted files, but you need to configure this yourself. Fully open source, so you can self-host it yourself (or use a hosted solution, starting from $5/ month)
 **[Disroot](https://disroot.org)** | A platform providing online services based on principles of freedom, privacy, federation and decentralization. It is an implementation of NextCloud, with strong encryption configured- it is widely used by journalists, activists and whistle-blowers. It is fre to use, but there have been reported reliability issues of the cloud services
+**[Sandstorm](https://sandstorm.io/)** | An open source platform for self-hosting web apps. Once you've set it up, you can install items from the Sandstorm [App Market](https://apps.sandstorm.io/) with -click, similar to NextCloud in terms of flexibility
+
+
+## Utilities
+
+
+
+## Social Networks
+
+**[Mastodon](https://mastodon.social/invite/A5JwL72F)** | An open source decentralized social network. It allows anyone to host their own server node in the network, or join an existing one
+**[Minds](https://www.minds.com/register?referrer=as93)** | A social media site, which aims to bring people together and support open conversations. Get paid for creating content
+**[Pleroma](https://pleroma.social)** | Pleroma is a federated social networking server built on open protocols. It is compatible with GNU Social, Mastodon, and many other ActivityPub and OStatus implementations
 
 
 
