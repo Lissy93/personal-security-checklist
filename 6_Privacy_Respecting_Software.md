@@ -2,18 +2,17 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
-# Privacy & Securty-Focused Software and Services
-> A curated list of privacy-respecting apps, software and providers 🔐
+# Privacy & Security-Focused Software and Services
+> A curated list of privacy-respecting apps, software, and providers 🔐
 
 **Too long? 🦒** See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/master/2_TLDR_Short_List.md#open-source-privacy-focused-software) instead.
 
-
 ## Intro
 
-If you want greatly increase your digital security, and protect your personal information, then
-start migrating to encrypted, privacy-respecting open source software and services.
-Using open-source applications with a strong emphasis on security, will help stop
-large corporations, governments and hackers from logging, storing or selling your personal details.
+If you want greatly increase your digital security, and protect your personal information,
+then start migrating to encrypted, privacy-respecting open source software and services.
+Using open-source applications with a strong emphasis on security will help stop large
+corporations, governments, and hackers from logging, storing or selling your personal details.
 
 #### Categories
 
@@ -27,6 +26,8 @@ large corporations, governments and hackers from logging, storing or selling you
 - [Virtual Private Networks](#virtual-private-networks)
 - [Cloud Productivity Suits](#cloud-productivity-suits)
 - [Utilities](#utilities)
+- [Social Networks](#social-networks)
+- [Video Platforms](#video-platforms)
 - [Operating Systems](#operating-systems)
 - [Mobile Operating Systems](#mobile-operating-systems)
 - [Browser Extensions](#browser-extensions)
@@ -46,15 +47,15 @@ large corporations, governments and hackers from logging, storing or selling you
 **[BitWarden](https://bitwarden.com)**  | Free and open source, cross-platform password manager with sync
 **[1Password](https://1password.com)** | Open source, fully-featured cross-platform password manager with sync. Free for self-hosted (or $3/ month hosted)
 **[KeePassXC](https://keepassxc.org)** | Open source, secure password manager, but without cloud-sync capabilities. KeePassXC is a community fork of [KeePass](https://keepass.info/)
-**[LessPass](https://lesspass.com)** | LessPass is a little different, since it generates your passwords using a hash of the website name, your username and a single master-passphrase that you reuse. It ommits the need for you to ever need to store or sync your passwords. They have apps for all the common platforms and a CLI, but you can also self-host it.
+**[LessPass](https://lesspass.com)** | LessPass is a little different, since it generates your passwords using a hash of the website name, your username and a single master-passphrase that you reuse. It omits the need for you to ever need to store or sync your passwords. They have apps for all the common platforms and a CLI, but you can also self-host it.
 
 
 ## 2-Factor Authentication
 
 | Provider | Description |
 | --- | --- |
-**[Aegis](https://getaegis.app)**  | Free, secure and open source app for manageing 2-step verification tokens, on Android
-**[AndOTP](https://github.com/andOTP/andOTP)** | Another open source, secure authanticator app. AndOTP is well established with a strong large user base
+**[Aegis](https://getaegis.app)**  | Free, secure and open source app for managing 2-step verification tokens, on Android
+**[AndOTP](https://github.com/andOTP/andOTP)** | Another open source, secure authenticator app. AndOTP is well established with a strong large user base
 
 **Note:** Don't use your password manager to also store your 2-FA tokens- use a separate application.
 
@@ -174,6 +175,34 @@ VPNs are good for getting round censorship, increasing protection on public WiFi
 #### Self-Hosted VPN
 If you don't trust a VPN provider not to keep logs, then you could self-host your own VPN. This gives you you total control, but at the cost of anonymity (since your cloud provider, will require your billing info). See [Streisand](https://github.com/StreisandEffect/streisand), to learn more, and get started with running a VPN.
 [Digital Ocean](https://m.do.co/c/3838338e7f79) provides flexible, secure and easy Linux VMs, (from $0.007/hour or $5/month), this guide explains how to set up VPN on: [CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-centos-7) or [Ubuntu 18.4+](https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-centos-7). See more about configuring [OpenVPN](https://openvpn.net/vpn-server-resources/digital-ocean-quick-start-guide/) or [IKEv2](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ikev2-vpn-server-with-strongswan-on-ubuntu-18-04-2). Alternativley, here is a [1-click install script](http://dovpn.carlfriess.com/)for  on [Digital Ocean](https://m.do.co/c/3838338e7f79), by Carl Friess.
+
+
+## DNS
+Without using a secure, privacy-centric DNS all your web requests can be seen in the clear. You should configure your DNS queries to be managed by a service that respects privacy and supports DNS-over-TLS, DNS-over-HTTPS or DNSCrypt.
+
+| Provider | Description |
+| --- | --- |
+**[CloudFlare](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1)** | One of the most performant options, Cloudflare's DNS supports DoH and DoT, and has a Tor implementation, providing world-class protection. They have native cross-platform apps, for easy set-up.
+**[AdGuard](https://adguard.com/en/adguard-dns/overview.html)** | Open-source DNS provider, specialising in the blocking of ads, trackers and malicious domains. They have been independently audited and do not keep logs
+**[SecureDNS](https://securedns.eu)** | An open source DNS provider, with built-in ad block and additional privacy features. Supports DoH, DoT and DNSCrypt. It is not as performant as some of the bigger players, but still a good option in terms of security
+**[NextDNS](https://nextdns.io/)** | An ad-blocking, privacy-protecting, censorship-bypassing DNS. Also comes with analytics, and the ability to shield kids from adult content
+
+See this comparison of [DoH & DoT DNS servers](https://github.com/curl/curl/wiki/DNS-over-HTTPS), you can also use [DNSPerf]([DNSPerf](https://www.dnsperf.com/) to compare servers based on performance metrics. Also see [this article](https://medium.com/@nykolas.z/dns-security-and-privacy-choosing-the-right-provider-61fc6d54b986) about choosing the right provider.
+
+#### DNS Protocols
+DNS-over-TLS was proposed in [RTC-7858](https://tools.ietf.org/html/rfc7858) by the IETF, then 2 years later, the DNS-over-HTTPS specification was outlined in [RFC8484](https://tools.ietf.org/html/rfc8484) in October '18. [DNSCrypt](https://dnscrypt.info/), is a protocol that authenticates communications between a DNS client and a DNS resolver. It prevents DNS spoofing, through using cryptographic signatures to verify that responses originate from the chosen DNS resolver, and haven’t been tampered with. DNSCrypt is a well battle-tested protocol, that has been in use since 2013, and is still widely used.
+
+
+#### Notable Mentions
+- [OpenNIC](https://www.opennic.org/), is an open and democratic alternative DNS root, aimed at reducing censorship
+- [BlahDNS](https://blahdns.com), if you are in Japan, Finland or Germany- this is an excellant open source, security-focused DNS
+- [Quad9](https://www.quad9.net) is a well-funded, performant DNS with a strong focus on privacy and security and easy set-up. Some of the backers came from within the US and UK government, which may be cause for concern.
+- [Clean Browsing](https://cleanbrowsing.org/), is a good option for protecting kids,  they offer comprehensive DNS-based Content Filtering
+- [NixNet DNS](https://nixnet.services/dns), open source, privacy-focused DNS
+
+
+#### Word of Warning
+Using an encrypted DNS resolver will not make you anonymous, it just makes it harder for third-partied to discover your domain history. If you are using a VPN, take a [DNS leak test](https://www.dnsleaktest.com/), to ensure that some requests are not being exposed.
 
 
 
