@@ -160,7 +160,7 @@ VPNs are good for getting round censorship, increasing protection on public WiFi
 
 
 #### Other VPN Options
-[Perfect Privacy](https://www.perfect-privacy.com/en/features?a_aid=securitychecklist) -- [TorGuard](https://torguard.net/aff.php?aff=6024) -- [IVPN](https://www.ivpn.net/) -- [PureVPN](https://www.anrdoezrs.net/click-9242873-13842740) -- [NordVPN](https://www.kqzyfj.com/l5115shqnhp4E797DC8467D69A6D) -- [IVPN](https://www.ivpn.net/) -- [VirtualShield](https://virtualshield.com/?rfsn=3739717.4cba76) -- [Private Internet Access](https://www.privateinternetaccess.com/pages/cafe/digidef) -- [VPN.ac](https://vpn.ac/aff.php?aff=2178) -- [WindScribe](https://windscribe.com/?affid=6nh59z1r) -- [VyperVPN](https://www.dpbolvw.net/click-9242873-13805759)
+[Perfect Privacy](https://www.perfect-privacy.com/en/features?a_aid=securitychecklist) -- [TorGuard](https://torguard.net/aff.php?aff=6024) -- [IVPN](https://www.ivpn.net/) -- [PureVPN](https://www.anrdoezrs.net/click-9242873-13842740) -- [NordVPN](https://www.kqzyfj.com/l5115shqnhp4E797DC8467D69A6D) -- [SwitchVPN](https://secure.switchkonnect.com/aff.php?aff=1374) -- [Safer VPN](https://safervpn.com/?a_aid=1413) -- [VirtualShield](https://virtualshield.com/?rfsn=3739717.4cba76) -- [Private Internet Access](https://www.privateinternetaccess.com/pages/cafe/digidef) -- [VPN.ac](https://vpn.ac/aff.php?aff=2178) -- [WindScribe](https://windscribe.com/?affid=6nh59z1r) -- [VyperVPN](https://www.dpbolvw.net/click-9242873-13805759)
 
 **Full VPN Comparison**: [thatoneprivacysite.net](https://thatoneprivacysite.net/).
 
@@ -187,7 +187,7 @@ Without using a secure, privacy-centric DNS all your web requests can be seen in
 **[SecureDNS](https://securedns.eu)** | An open source DNS provider, with built-in ad block and additional privacy features. Supports DoH, DoT and DNSCrypt. It is not as performant as some of the bigger players, but still a good option in terms of security
 **[NextDNS](https://nextdns.io/)** | An ad-blocking, privacy-protecting, censorship-bypassing DNS. Also comes with analytics, and the ability to shield kids from adult content
 
-See this comparison of [DoH & DoT DNS servers](https://github.com/curl/curl/wiki/DNS-over-HTTPS), you can also use [DNSPerf]([DNSPerf](https://www.dnsperf.com/) to compare servers based on performance metrics. Also see [this article](https://medium.com/@nykolas.z/dns-security-and-privacy-choosing-the-right-provider-61fc6d54b986) about choosing the right provider.
+See this comparison of [DoH & DoT DNS servers](https://github.com/curl/curl/wiki/DNS-over-HTTPS), you can also use [DNSPerf]([DNSPerf](https://www.dnsperf.com/) to compare servers based on performance metrics. Also see [this article](https://medium.com/@nykolas.z/dns-security-and-privacy-choosing-the-right-provider-61fc6d54b986), and [this](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver/) for choosing the right provider.
 
 #### DNS Protocols
 DNS-over-TLS was proposed in [RTC-7858](https://tools.ietf.org/html/rfc7858) by the IETF, then 2 years later, the DNS-over-HTTPS specification was outlined in [RFC8484](https://tools.ietf.org/html/rfc8484) in October '18. [DNSCrypt](https://dnscrypt.info/), is a protocol that authenticates communications between a DNS client and a DNS resolver. It prevents DNS spoofing, through using cryptographic signatures to verify that responses originate from the chosen DNS resolver, and haven’t been tampered with. DNSCrypt is a well battle-tested protocol, that has been in use since 2013, and is still widely used.
