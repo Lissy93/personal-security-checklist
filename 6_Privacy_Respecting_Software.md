@@ -25,7 +25,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Search Engines](#search-engines)
 - [Virtual Private Networks](#virtual-private-networks)
 - [Cloud Productivity Suits](#cloud-productivity-suits)
-- [Utilities](#utilities)
+- [Backup and Sync](#backup-and-sync)
 - [Social Networks](#social-networks)
 - [Video Platforms](#video-platforms)
 - [Operating Systems](#operating-systems)
@@ -187,7 +187,7 @@ Without using a secure, privacy-centric DNS all your web requests can be seen in
 **[SecureDNS](https://securedns.eu)** | An open source DNS provider, with built-in ad block and additional privacy features. Supports DoH, DoT and DNSCrypt. It is not as performant as some of the bigger players, but still a good option in terms of security
 **[NextDNS](https://nextdns.io/)** | An ad-blocking, privacy-protecting, censorship-bypassing DNS. Also comes with analytics, and the ability to shield kids from adult content
 
-See this comparison of [DoH & DoT DNS servers](https://github.com/curl/curl/wiki/DNS-over-HTTPS), you can also use [DNSPerf]([DNSPerf](https://www.dnsperf.com/) to compare servers based on performance metrics. Also see [this article](https://medium.com/@nykolas.z/dns-security-and-privacy-choosing-the-right-provider-61fc6d54b986), and [this](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver/) for choosing the right provider.
+See also this [Full List of Public DoH Servers](https://github.com/curl/curl/wiki/DNS-over-HTTPS), you can then check the performance of your chosen server with [DNSPerf](https://www.dnsperf.com/). To read more about choosing secure DNS servers, see [this article](https://medium.com/@nykolas.z/dns-security-and-privacy-choosing-the-right-provider-61fc6d54b986), and [this article](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver/).
 
 #### DNS Protocols
 DNS-over-TLS was proposed in [RTC-7858](https://tools.ietf.org/html/rfc7858) by the IETF, then 2 years later, the DNS-over-HTTPS specification was outlined in [RFC8484](https://tools.ietf.org/html/rfc8484) in October '18. [DNSCrypt](https://dnscrypt.info/), is a protocol that authenticates communications between a DNS client and a DNS resolver. It prevents DNS spoofing, through using cryptographic signatures to verify that responses originate from the chosen DNS resolver, and haven’t been tampered with. DNSCrypt is a well battle-tested protocol, that has been in use since 2013, and is still widely used.
@@ -218,7 +218,19 @@ Using an encrypted DNS resolver will not make you anonymous, it just makes it ha
 **[Sandstorm](https://sandstorm.io/)** | An open source platform for self-hosting web apps. Once you've set it up, you can install items from the Sandstorm [App Market](https://apps.sandstorm.io/) with -click, similar to NextCloud in terms of flexibility
 
 
-## Utilities
+## Backup and Sync
+
+| Provider | Description |
+| --- | --- |
+**[SeaFile](https://github.com/haiwen/seafile)** | An open source cloud storage and sync solution. Files are grouped into Libraries, which can be individually encrypted, shared of synced. Docker image available for easy deployment, and native clients for Windows, Mac, Linux, Android and iOS
+**[Syncthing](https://syncthing.net)** | Continuous file synchronization between 2 or more clients. It is simple, yet powerful, and fully-encrypted and private. Syncthing can be deployed with Docker, and there are native clients for Windows, Mac, Linux, BSD and Android
+**[NextCloud](https://nextcloud.com)** | Feature-rich productivity platform, that can be used to backup and selectively sync encrypted files and folders between 1 or more clients. See [setting up sync](https://docs.nextcloud.com/desktop/2.3/installing.html), from more about how to sync a PC with NextCloud server instance. NextCloud is fork of [OwnCloud](https://owncloud.org), which is a good alternative
+
+
+#### Notable Mentions
+[FileRun](https://filerun.com) and [Pydio](https://pydio.com) are self-hosted file explorers, with cross-platform sync capabilities. Encryption needs to be manually configured, and done client-side. Both solutions have been around for a while, but are neither the most performant, nor feature-rich. [Resilio](https://www.resilio.com/individuals) offers a blazing fast for peer-to-peer encrypted file sync program. Self-hosted with a docker image, and client apps for Windows, Linux and mobile. The drawback being that they are only partially open source
+
+Alternatively, consider a headless utility such as [Duplicacy](https://duplicacy.com) or [Duplicity](http://duplicity.nongnu.org). Both of offer an encrypted and efficient sync between 2 or more locations, using the [rsync](https://linux.die.net/man/1/rsync) algorithm. 
 
 
 
