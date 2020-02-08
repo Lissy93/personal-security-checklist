@@ -24,6 +24,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Browsers](#browsers)
 - [Search Engines](#search-engines)
 - [Virtual Private Networks](#virtual-private-networks)
+- [DNS Providers](#dns)
 - [Digital Notes](#digital-notes)
 - [Cloud Productivity Suits](#cloud-productivity-suits)
 - [Backup and Sync](#backup-and-sync)
