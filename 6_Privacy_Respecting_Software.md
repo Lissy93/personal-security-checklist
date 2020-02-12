@@ -354,6 +354,23 @@ The content on many of the smaller video sites, often just doesn't compare to Yo
 - Or download videos with [youtube-dl](https://ytdl-org.github.io/youtube-dl/) (cli) or [youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui) (gui). For just audio, there is [PodSync](https://podsync.net/)
 
 
+## Payment Methods
+
+Paying for goods and services is a good example of where privacy and security conflict; the most secure option would be to pay with credit card, since most providers include fraud protection, whereas the most private option would be to pay using crypto currency or cash, since neither can be easily tied back to your identity
+
+
+**[Monero](https://www.getmonero.org)** | One of the most private cryptocurrencies, since no meta data is available (not even the transaction amount). It uses complex on-chain cryptographic methods such as Ring signatures, RingCT, Kovri, and Stealth addresses all of which help protect the privacy of users
+**[ZCash](https://z.cash)** | Uses zero-knowledge proofs to protect privacy cryptographic technique, that allow two users to transact without ever revealing their true identity or address. The Zcash blockchain doesn't record any send or receive addresses
+
+
+#### Notable Mentions
+Cash is still the most private option, with no chance of leaving any transactional  records. See also PIVX, Bitcoin Private and Verge. Also Pirate, Komodo and ZenCash which are hard-forks off of ZCash, with some additional privacy features built-in.
+
+
+#### Word of Warning
+Not all cryptocurrencies are anonymous, and without using a privacy-focused coin, a record of your transaction will live on a publicly available distributed ledger, forever. If you send of receive multiple payments, ensure you switch up addresses or use a mixer, to make it harder for anyone trying to trace your transactions. Store private keys somewhere safe, but offline and preferably cold.
+
+
 ## Operating Systems
 
 Windows 10 has many features, that violate your privacy. Microsoft and Apple are able to collect all your data (including, but not limited to: keystrokes, searches and mic input, calendar data, music, photos, credit card information and purchases. Identity, passwords, contacts, conversations and location data). Microsoft Windows is also more suseptible to malware and viruses, than alternative systems.
