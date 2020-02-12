@@ -358,7 +358,8 @@ The content on many of the smaller video sites, often just doesn't compare to Yo
 
 Paying for goods and services is a good example of where privacy and security conflict; the most secure option would be to pay with credit card, since most providers include fraud protection, whereas the most private option would be to pay using crypto currency or cash, since neither can be easily tied back to your identity
 
-
+| Provider | Description |
+| --- | --- |
 **[Monero](https://www.getmonero.org)** | One of the most private cryptocurrencies, since no meta data is available (not even the transaction amount). It uses complex on-chain cryptographic methods such as Ring signatures, RingCT, Kovri, and Stealth addresses all of which help protect the privacy of users
 **[ZCash](https://z.cash)** | Uses zero-knowledge proofs to protect privacy cryptographic technique, that allow two users to transact without ever revealing their true identity or address. The Zcash blockchain doesn't record any send or receive addresses
 
