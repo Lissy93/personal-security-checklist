@@ -31,6 +31,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Cloud Productivity Suits](#cloud-productivity-suits)
 - [Backup and Sync](#backup-and-sync)
 - [File Drop](#file-drop)
+- [Cloud Hosting](#cloud-hosting)
 - [Social Networks](#social-networks)
 - [Video Platforms](#video-platforms)
 - [Payment Methods](#payment-methods)
@@ -38,7 +39,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Mobile Operating Systems](#mobile-operating-systems)
 - [Browser Extensions](#browser-extensions)
 - [Mobile Apps](#mobile-apps)
-
+- [Online Tools](#online-tools)
 
 #### See Also
 - [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
