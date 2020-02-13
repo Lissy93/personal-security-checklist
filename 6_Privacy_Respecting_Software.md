@@ -64,6 +64,8 @@ corporations, governments, and hackers from logging, storing or selling your per
 **[Aegis](https://getaegis.app)**  | Free, secure and open source app for managing 2-step verification tokens, on Android
 **[AndOTP](https://github.com/andOTP/andOTP)** | Another open source, secure authenticator app. AndOTP is well established with a strong large user base
 
+*Check which websites support multi-factor authentication: [twofactorauth.org](https://twofactorauth.org)*
+
 **Note:** Don't use your password manager to also store your 2-FA tokens- use a separate application.
 
 
@@ -214,7 +216,7 @@ A proxy acts as a gateway between you and the internet, they can be used to act 
 **[Privoxy](https://www.privoxy.org)** | Non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, and removing ads and other obnoxious Internet junk
 
 #### Notable Mentions
-[V2ray-core](https://github.com/v2ray/v2ray-core) is a platform for building proxies to bypass network restrictions and protect your privacy
+[V2ray-core](https://github.com/v2ray/v2ray-core) is a platform for building proxies to bypass network restrictions and protect your privacy. See [more](https://github.com/hugetiny/awesome-vpn)
 
 #### Word of Warning
 [Malicious Proxies](https://www.defcon.org/images/defcon-17/dc-17-presentations/defcon-17-edward_zaborowski-doppelganger.pdf) are all too common. Always use open source software, host it yourself or pay for a reputable cloud service. Never use a free proxy; it can monitor your connection, steal cookies and contain malware. VPNs are a better option, better still- use the Tor network.
@@ -242,6 +244,40 @@ DNS-over-TLS was proposed in [RTC-7858](https://tools.ietf.org/html/rfc7858) by 
 
 #### Word of Warning
 Using an encrypted DNS resolver will not make you anonymous, it just makes it harder for third-partied to discover your domain history. If you are using a VPN, take a [DNS leak test](https://www.dnsleaktest.com/), to ensure that some requests are not being exposed.
+
+
+
+
+
+## Firewall Analysis
+
+Weather you live in a country behind a firewall, or accessing the internet through a corporate network- these tools will help you better understand the extent of blocking, deep packet inspection and what data is being analysed
+
+
+| Provider | Description |
+| --- | --- |
+**[OONI](https://ooni.org)** | Open Observatory of Network Interference- A free tool and global observation network, for detecting censorship, surveillance and traffic manipulation on the internet. Developed by The Tor Project, and available for [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe), [iOS](https://apps.apple.com/us/app/id1199566366) and [Linux](https://ooni.org/install/ooniprobe)
+**[Mongol](https://github.com/mothran/mongol)** | A Python script, to pinpoint the IP address of machines working for the The Great Firewall of China. See also [gfwlist](https://github.com/gfwlist/gfwlist) which is the Chinese ban list, and [gfw_whitelist](https://github.com/n0wa11/gfw_whitelist). For a list of Russian government IP addresses, see [antizapret](https://github.com/AntiZapret/antizapret)
+**[Goodbye DPI](https://github.com/ValdikSS/GoodbyeDPI)** | Passive Deep Packet Inspection blocker and Active DPI circumvention utility, for Windows
+**[DPITunnel](https://github.com/zhenyolka/DPITunnel)** | An Android app to bypass deep packet inspection
+
+
+## Cloud Hosting
+
+Weather you are hosting a website/ app and want to keep your users data safe, or if you are hosting your own file backup, cloud productivity suit or VPN- then choosing a provider that respects your privacy and allows you to sign up anonymously, and will keep your files and data safe will be important.
+
+| Provider | Description |
+| --- | --- |
+**[Njalla](https://njal.la)** | Njalla is privacy and security-focused a domain registrar and VPN hosting provider. They own and manage all their own servers, which are based in Sweden. They accept crypto, for anonymous payments, and allow you to sign up with OTR XMPP if you do not want to provide an email address. Both VPS and domain name pricing is reasonable, with packages starting at $15/ month
+**[Vindo](https://www.vindohosting.com)** | Provides anonymous shared hosting, semi-managed virtual private servers and domain registration
+**[Private Layer](https://www.privatelayer.com)** | Offers enterprise-grade, high-speed offshore dedicated servers, they own their own data centers, have a solid privacy policy and accept anonymous payment
+
+#### Notable Mentions
+See also: [Shinjiru](http://shinjiru.com?a_aid=5e401db24a3a4), which offers off-shore dedicated servers. [Orange Website](https://www.orangewebsite.com) specialises in protecting online privacy and free speech, hosted in Iceland. [RackBone](https://rackbone.ch) (previously [DataCell](https://datacell.is)) provides secure and ethical hosting, based in Switzerland. And [Bahnhof](https://www.bahnhof.net) offers high-security and ethical hosting, with their data centres locates in Sweden. Finally [Simafri](https://www.simafri.com/anonymous) has a range of packages, that support Tor out of the box
+
+
+#### Word of Warning
+The country that your data is hosted in, will be subject to local laws and regulations. It is therefore important to avoid a jurasdiction that is part of the [5 eyes](https://en.wikipedia.org/wiki/Five_Eyes) (Australia, Canada, New Zealand, US and UK) and [other international cooperatives](https://en.wikipedia.org/wiki/Five_Eyes#Other_international_cooperatives) who have legal right to view your data
 
 
 
@@ -300,24 +336,6 @@ You should always ensure that any data stored in the cloud is encrypted. If you 
 
 #### Notable Suggestions
 [Instant.io](https://github.com/webtorrent/instant.io), is another peer-to-peer based solution, using [Web Torrent](https://webtorrent.io). For specifically transferring images, [Up1](https://github.com/Upload/Up1) is a good self-hosted option, with client-side encryption. Finally [PsiTransfer](https://github.com/psi-4ward/psitransfer) is a feature-rich, self-hosted file drop, using streams.
-
-
-## Cloud Hosting
-
-Weather you are hosting a website/ app and want to keep your users data safe, or if you are hosting your own file backup, cloud productivity suit or VPN- then choosing a provider that respects your privacy and allows you to sign up anonymously, and will keep your files and data safe will be important.
-
-| Provider | Description |
-| --- | --- |
-**[Njalla](https://njal.la)** | Njalla is privacy and security-focused a domain registrar and VPN hosting provider. They own and manage all their own servers, which are based in Sweden. They accept crypto, for anonymous payments, and allow you to sign up with OTR XMPP if you do not want to provide an email address. Both VPS and domain name pricing is reasonable, with packages starting at $15/ month
-**[Vindo](https://www.vindohosting.com)** | Provides anonymous shared hosting, semi-managed virtual private servers and domain registration
-**[Private Layer](https://www.privatelayer.com)** | Offers enterprise-grade, high-speed offshore dedicated servers, they own their own data centers, have a solid privacy policy and accept anonymous payment
-
-#### Notable Mentions
-See also: [Shinjiru](http://shinjiru.com?a_aid=5e401db24a3a4), which offers off-shore dedicated servers. [Orange Website](https://www.orangewebsite.com) specialises in protecting online privacy and free speech, hosted in Iceland. [RackBone](https://rackbone.ch) (previously [DataCell](https://datacell.is)) provides secure and ethical hosting, based in Switzerland. And [Bahnhof](https://www.bahnhof.net) offers high-security and ethical hosting, with their data centres locates in Sweden. Finally [Simafri](https://www.simafri.com/anonymous) has a range of packages, that support Tor out of the box
-
-
-#### Word of Warning
-The country that your data is hosted in, will be subject to local laws and regulations. It is therefore important to avoid a jurasdiction that is part of the [5 eyes](https://en.wikipedia.org/wiki/Five_Eyes) (Australia, Canada, New Zealand, US and UK) and [other international cooperatives](https://en.wikipedia.org/wiki/Five_Eyes#Other_international_cooperatives) who have legal right to view your data
 
 
 ## Social Networks
@@ -456,6 +474,7 @@ The following browser add-ons give you better control over what content is able 
 **[1.1.1.1]** | Lets you use CloudFlares fast and secure 1.1.1.1 DNS, with DNS over HTTPS, and also has the option to enable CloudFlares WARP+ VPN
 **[Fing App]** | A network scanner to help you monitor and secure your WiFi network. The app is totally free, but to use the advanced controlls, you will need a [Fing Box](https://amzn.to/2vFDF4n)
 **[FlutterHole]** | Easy monitoring and controll over your [Pi Hole](https://pi-hole.net/) instance. Pi Hole is great for security, privacy and speed
+**[DPI Tunnel](https://github.com/zhenyolka/DPITunnel)** | an application for Android that uses various techniques to bypass DPI (Deep Packet Inspection) systems, which are used to block some sites (not availible on Play store)
 
 #### Other Notable Mentions
 For more open source security & privacy apps, check out [The Guardian Project], [The Tor Project], [Oasis Feng] and [Marcel Bokhorst]- all of which are trusted developers or organisations, who've done amazing work.
