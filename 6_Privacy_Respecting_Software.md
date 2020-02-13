@@ -27,11 +27,13 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Mix Networks](#mix-networks)
 - [Proxies](#proxies)
 - [DNS Providers](#dns)
+- [Firewalls](#firewalls)
+- [Firewall Analysis](#firewall-analysis)
+- [Cloud Hosting](#cloud-hosting)
 - [Digital Notes](#digital-notes)
 - [Cloud Productivity Suits](#cloud-productivity-suits)
 - [Backup and Sync](#backup-and-sync)
 - [File Drop](#file-drop)
-- [Cloud Hosting](#cloud-hosting)
 - [Social Networks](#social-networks)
 - [Video Platforms](#video-platforms)
 - [Payment Methods](#payment-methods)
@@ -246,8 +248,26 @@ DNS-over-TLS was proposed in [RTC-7858](https://tools.ietf.org/html/rfc7858) by 
 Using an encrypted DNS resolver will not make you anonymous, it just makes it harder for third-partied to discover your domain history. If you are using a VPN, take a [DNS leak test](https://www.dnsleaktest.com/), to ensure that some requests are not being exposed.
 
 
+## Firewalls
+A firewall is a program which monitors the incoming and outgoing traffic on your network, and blocks requests based on rules set during its configuration. Properly configured, a firewall can help protect against attempts to remotely access your computer, as well as controll which applictions can access which IPs
 
 
+| Provider | Description |
+| --- | --- |
+**[NetGuard](https://play.google.com/store/apps/details?id=eu.faircode.netguard)** <br>(Android) | Provides simple and advanced ways to block access to the internet. Applications and addresses can individually be allowed or denied access to Wi-Fi and/or mobile connection
+**[NoRoot Firewall](https://play.google.com/store/apps/details?id=app.greyshirts.firewall)** <br>(Android) | Notifies you when an app is trying to access the Internet, so all you need to do is just Allow or Deny. Allows you to create filter rules based on IP address, host name or domain name, and you can allow or deny only specific connections of an app
+**[Lockdown](https://apps.apple.com/in/app/lockdown-apps/id1469783711)** <br>(iOS) | Firewall app for iPhone, allowing you to block any connection to any domain
+**[SimpleWall](https://github.com/henrypp/simplewall)** <br>(Windows) | Tool to control Windows Filtering Platform (WFP), in order to configure detailed network activity on your PC
+**[OpenSnitch](https://github.com/evilsocket/opensnitch)** <br>(Linux) | Makes internet connections from all apps visible, allowing you to block or manage traffic on a per-app basis. GNU/Linux port of the Little Snitch application firewall
+**[Little Snitch](https://obdev.at/products/littlesnitch/index.html)** <br>(OS X) | A very polished application firewall, allowing you to easily manage internet connections on a per-app basis
+**[IPFire](https://www.ipfire.org)** <br>(hardware) | IPFire is a hardened, versatile, state-of-the-art Open Source firewall based on Linux. Easy to install on a raspberry Pi, since it is lightweight and heavily customizable
+**[Shorewall](https://shorewall.org)** <br>(hardware) | An open source firewall tool for Linux that builds upon the [Netfilter](https://www.netfilter.org) system built into the Linux kernel, making it easier to manage more complex configuration schemes with [iptables](https://linux.die.net/man/8/iptables)
+**[OpenSense](https://opnsense.org)** <br>(hardware)  | Enterprise firewall and router for protecting networks, built on the FreeBSD system 
+
+
+#### Word of Warning
+There are different [types](https://www.networkstraining.com/different-types-of-firewalls) of firewalls, that are used in different circumstances. This does not ommit the need to configure your operating systems defenses. Follow these instructions to enable your firewall in [Windows](https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off), [Mac OS](https://support.apple.com/en-us/HT201642), [Ubuntu](https://wiki.ubuntu.com/UncomplicatedFirewall) and other [Linux ditros](https://www.tecmint.com/start-stop-disable-enable-firewalld-iptables-firewall).
+Even when properly configured, having a firewall enabled does not gaurantee bad network traffic can not get through
 
 ## Firewall Analysis
 
