@@ -42,7 +42,9 @@ Use strong passwords, which can't be easily guessed or cracked. Length is more i
 
 This is a more secure method of logging in, where you supply not just your password, but also an additional code usually from a device that only you have access to.
 
-2FA Apps: [Authy](https://authy.com/) (with encrypted sync), [Google Authenticator](https://support.google.com/accounts/answer/1066447), [Microsoft Authenticator](https://www.microsoft.com/en-us/account/authenticator),  [FreeOTP](https://freeotp.github.io) (open souce), [LastPassAuthenticator](https://lastpass.com/auth/) (synced with your LastPass), [Duo](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app) and [Authenticator Plus](https://www.authenticatorplus.com/).
+Check which websites support multi-factor authentication: [twofactorauth.org](https://twofactorauth.org)
+
+**2FA Apps**: [Authy](https://authy.com/) *(with encrypted sync- not open source)*,   [Authenticator Plus](https://www.authenticatorplus.com), [Microsoft Authenticator](https://www.microsoft.com/en-us/account/authenticator) and [LastPassAuthenticator](https://lastpass.com/auth/) (synced with your LastPass). For open source Android-only apps, see [Aegis](https://getaegis.app), [FreeOTP](https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp) and [AndOTP](https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp). [See more](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#2-factor-authentication)
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
