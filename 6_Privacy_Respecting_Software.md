@@ -14,8 +14,9 @@ then start migrating to encrypted, privacy-respecting open source software and s
 Using open-source applications with a strong emphasis on security will help stop large
 corporations, governments, and hackers from logging, storing or selling your personal details.
 
-#### Categories
+### Categories
 
+**Basics**
 - [Password Managers](#password-managers)
 - [2-Factor Authentication](#2-factor-authentication)
 - [File Encryption](#file-encryption)
@@ -23,25 +24,35 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Encrypted Email](#encrypted-email)
 - [Browsers](#browsers)
 - [Search Engines](#search-engines)
+
+**Security**
+- [Browser Extensions](#browser-extensions)
+- [Mobile Apps](#mobile-apps)
+- [Online Tools](#online-tools)
+
+**Networking**
 - [Virtual Private Networks](#virtual-private-networks)
 - [Mix Networks](#mix-networks)
 - [Proxies](#proxies)
 - [DNS Providers](#dns)
 - [Firewalls](#firewalls)
 - [Firewall Analysis](#firewall-analysis)
+
+**Productivity**
 - [Cloud Hosting](#cloud-hosting)
 - [Digital Notes](#digital-notes)
 - [Cloud Productivity Suits](#cloud-productivity-suits)
 - [Backup and Sync](#backup-and-sync)
 - [File Drop](#file-drop)
+
+**Misc**
 - [Social Networks](#social-networks)
 - [Video Platforms](#video-platforms)
 - [Payment Methods](#payment-methods)
 - [Operating Systems](#operating-systems)
 - [Mobile Operating Systems](#mobile-operating-systems)
-- [Browser Extensions](#browser-extensions)
-- [Mobile Apps](#mobile-apps)
-- [Online Tools](#online-tools)
+
+
 
 #### See Also
 - [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
@@ -269,9 +280,9 @@ A firewall is a program which monitors the incoming and outgoing traffic on your
 There are different [types](https://www.networkstraining.com/different-types-of-firewalls) of firewalls, that are used in different circumstances. This does not ommit the need to configure your operating systems defenses. Follow these instructions to enable your firewall in [Windows](https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off), [Mac OS](https://support.apple.com/en-us/HT201642), [Ubuntu](https://wiki.ubuntu.com/UncomplicatedFirewall) and other [Linux ditros](https://www.tecmint.com/start-stop-disable-enable-firewalld-iptables-firewall).
 Even when properly configured, having a firewall enabled does not gaurantee bad network traffic can not get through
 
-## Firewall Analysis
+## Network Analysis
 
-Weather you live in a country behind a firewall, or accessing the internet through a corporate network- these tools will help you better understand the extent of blocking, deep packet inspection and what data is being analysed
+Weather you live in a country behind a firewall, or accessing the internet through a proxy- these tools will help you better understand the extent of blocking, deep packet inspection and what data is being analysed
 
 
 | Provider | Description |
@@ -280,6 +291,7 @@ Weather you live in a country behind a firewall, or accessing the internet throu
 **[Mongol](https://github.com/mothran/mongol)** | A Python script, to pinpoint the IP address of machines working for the The Great Firewall of China. See also [gfwlist](https://github.com/gfwlist/gfwlist) which is the Chinese ban list, and [gfw_whitelist](https://github.com/n0wa11/gfw_whitelist). For a list of Russian government IP addresses, see [antizapret](https://github.com/AntiZapret/antizapret)
 **[Goodbye DPI](https://github.com/ValdikSS/GoodbyeDPI)** | Passive Deep Packet Inspection blocker and Active DPI circumvention utility, for Windows
 **[DPITunnel](https://github.com/zhenyolka/DPITunnel)** | An Android app to bypass deep packet inspection
+**[Proxy Checker](https://ping.eu/proxy/)** | You can quickly check if a given IP is using a proxy, this can also be done through the [command line](https://superuser.com/questions/346372/how-do-i-know-what-proxy-server-im-using)
 
 
 ## Cloud Hosting
