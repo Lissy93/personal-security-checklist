@@ -243,3 +243,6 @@ Many data breaches, hacks and attacks are caused by human error. The following l
 
 ![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)
 
+<a href="https://twitter.com/intent/follow?screen_name=Lissy_Sykes">
+  <img src="https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter" alt="Follow Alicia Sykes on Twitter">
+</a>
