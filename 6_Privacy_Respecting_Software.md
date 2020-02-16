@@ -58,6 +58,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Payment Methods](#payment-methods)
 - [Operating Systems](#operating-systems)
 - [Mobile Operating Systems](#mobile-operating-systems)
+- [Home Automation](#home-automation)
 
 
 
@@ -539,6 +540,23 @@ It is not recommended to root, or flash your device with a custom ROM if you are
 - It is also possible to brick your device, through interrupted install or bad software
 - Finally, rooting and flashing your device, will void your warranty
 
+
+## Home Automation
+
+If you have smart devices within your home, you should consider running the automation locally, rather than using a cloud service. This will reduce the amount of exploits you could potentially be vulnrable to. It is also important to have network monitoring and firewalls enabled, to ensure suspicious activity is flagged or blocked. The following projects will make controlling and monitoring IoT devices within your home easier, safer and more private
+
+| Provider | Description |
+| --- | --- |
+**[Home Assistant](https://www.home-assistant.io)** | Open source home automation that puts local control and privacy first. Powered by a large and worldwide community of tinkerers, DIY enthusiasts and developers. Home Assistant is light weight and so runs well on a Raspberry Pi, as well as the web interface and CLI, there are many supported apps that can be used as a controller (such as [HassKit](https://play.google.com/store/apps/details?id=com.thhkstudio.hasskit) and the official [Home Assistant App](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android)). There are 1500+ integrations, making it a fully-featured and flexible platform for providing additional automation and security to the connected devices in your home
+**[OpenHAB](https://www.openhab.org)** | A vendor and technology agnostic open source automation software for your home. You can install it on a Raspberry Pi, or other computing device within your network, and use it to monitor and control all your smart devices. There are currently 2000+ supported devices, as well as add-ons for additional functionality. Again there are some great apps for, such as the official [OpenHabb App](https://play.google.com/store/apps/details?id=org.openhab.habdroid) and the [HomeHabit](https://play.google.com/store/apps/details?id=app.homehabit.view) wall dashboard
+**[Domoticz](https://www.domoticz.com)** | Another home automation system, Domoticz is more geared towards connecting and monitoring sensors within your space. It can be used as a security system, or to monitor your environment without anyone but you having access to the data
+**[Node-RED](https://nodered.org)** | Node-RED is a programming tool for wiring together hardware devices, APIs and online services, it provides a browser-based editor that makes it easy to build flows with a wide range of supported nodes, and it is easy to deploy locally in your network
+
+#### Notable Mentions 
+For creating dashboard from IoT devices, see [ThingsBoard](https://thingsboard.io). Another home automation tool is [FHEM](https://fhem.de/fhem.html), which has been around for a while and needs a bit more work to get up and running, but is still a popular option
+
+#### Word of Warning
+IoT smart home devices can open you up to many security risks and exploits. It is really important that you configure them correctly, setting strong unique passwords, turn off data sharing, and if possible restrict internet access so devices can only communicate within your local network. See [Smart Home Security Checklist](https://github.com/Lissy93/personal-security-checklist#smart-home) for more tips
 
 
 ---
