@@ -7,6 +7,13 @@
 
 **Too long? 🦒** See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/master/2_TLDR_Short_List.md#open-source-privacy-focused-software) instead.
 
+#### See Also
+- [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
+- [Further Links: Privacy & Security](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
+- [The Importance of Digital Security & Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
+
+---
+
 ## Intro
 
 If you want greatly increase your digital security, and protect your personal information,
@@ -52,12 +59,6 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Operating Systems](#operating-systems)
 - [Mobile Operating Systems](#mobile-operating-systems)
 
-
-
-#### See Also
-- [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
-- [Further Links: Privacy & Security](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
-- [The Importance of Digital Security & Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
 
 
 ## Password Managers
@@ -551,6 +552,12 @@ See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 *Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),© [Alicia Sykes](https://aliciasykes.com) 2020*
 
 [![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE.md)
+
+
+<a href="https://twitter.com/intent/follow?screen_name=Lissy_Sykes">
+  <img src="https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter" alt="Follow Alicia Sykes on Twitter">
+</a>
+
 
 
 
