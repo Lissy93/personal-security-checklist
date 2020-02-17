@@ -152,10 +152,10 @@ Email clients are the programs used to interact with the mail server. For hosted
 
 | Provider | Description |
 | --- | --- |
-**[Brave Browser](https://brave.com/?ref=ali721)** | Brave Browser, is currently one of the most popular private browsers- it provides unmatched speed, security, and privacy by blocking trackers. It also pays you in [BAT tokens](https://basicattentiontoken.org/) for using it. The interface is very clear and simple and offers all the features of Chrome/ Chromium + more. Brave also has Tor built-in, when you open up a private tab/ window.
-**[FireFox](https://www.mozilla.org/firefox)** | Compared to Chrome, Internet Explorer and Safari- Firefox is significantly more secure, and offers some nifty privacy features. After installing, there are a couple of small tweaks you will need to make, in order to secure Firefox. You can follow one of these guides by: [Restore Privacy](https://restoreprivacy.com/firefox-privacy/), [Security Gladiators](https://securitygladiators.com/firefox-privacy-tips/) or [12Bytes](https://12bytes.org/7750)
+**[Brave Browser](https://brave.com/?ref=ali721)** | Brave Browser, currently one of the most popular private browsers- it provides speed, security, and privacy by blocking trackers with a clean, yet fully-featured UI. It also pays you in [BAT tokens](https://basicattentiontoken.org/) for using it. Brave also has Tor built-in, when you open up a private tab/ window.
+**[FireFox](https://www.mozilla.org/firefox)** | Significantly more private, and offers some nifty privacy features than Chrome, Internet Explorer and Safari. After installing, there are a couple of small tweaks you will need to make, in order to secure Firefox. You can follow one of these guides by: [Restore Privacy](https://restoreprivacy.com/firefox-privacy/), [Security Gladiators](https://securitygladiators.com/firefox-privacy-tips/) or [12Bytes](https://12bytes.org/7750)
 **[Bromite](https://www.bromite.org/)** | Bromite is Chromium (Chrome without Google) plus ad blocking and enhanced privacy. It provides a no-clutter browsing experience without privacy-invasive features- it's lightweight and minimal
-**[Tor Browser](https://www.torproject.org/)** | Undoubtedly Tor is the king of secure browsers. It provides an extra layer of anonymity, by encrypting each of your requests, then routing it through several nodes, making it near-impossible for you to be tracked. It does make every-day browsing a little slower, and some sites will require you to complete a CAPTCHA, and others may not work at all on Tor
+**[Tor Browser](https://www.torproject.org/)** | Tor is undoubtedly the king of private browsers. It provides an extra layer of anonymity, by encrypting each of your requests, then routing it through several nodes, making it near-impossible for you to be tracked using standard methods. It does make every-day browsing a little slower, and some sites will require you to complete a CAPTCHA, while others may not work at all on Tor
 
 See also: [Recommended Browser Extensions](#browser-extensions)
 
@@ -170,7 +170,7 @@ Google frequently modifies and manipulates search, and is in persuit of eliminat
 **[Start Page](https://www.startpage.com/)** | Start Page displays Googles results, through but through their servers- meaning Google can not track you, but you still see results similar to what you would with Google. (European users, see also [ixquick](http://ixquick.eu/))
 **[Qwant](https://www.qwant.com/)** | French service that aggregates Bings results, with it's own results. Quant doesn't plant any cookies, nor have any trackers or third-party advertising. It returns non-biased search results, with no promotions. Quant has a uinique, but nice UI
 
-Another option would be to host your own- [Searx](https://asciimoo.github.io/searx/) is a good option, since it is easy to set-up, secure, private and is backed by a strong community
+Another option would be to host your own- [Searx](https://asciimoo.github.io/searx/) is a good option for self-hosting, since it is easy to set-up, secure, private and is backed by a strong community
 
 
 
@@ -275,7 +275,7 @@ If you don't trust a VPN provider not to keep logs, then you could self-host you
 | Provider | Description |
 | --- | --- |
 **[Tor](https://www.torproject.org)** | Tor provides robust anonymity, allowing you to defend against surveillance, circumvent censorship and reduce tracking. It blocks trackers, resists fingerprinting and implements multi-layered encryption by default, meaning you can browse freely. Tor also allows access to OnionLand: hidden services
-**[I2P](https://geti2p.net)** | I2P offers great generic transports that. It is well geared towards accessing hidden services, and has a couple of technical benefits over Tor: P2P friendly with unidirectional short-lived tunnels, it is packet-switched (instead of circuit-switched) with TCP and UDP, and continuiosly profiles peers, in order to select the best performing ones. <br>I2P is less mature, but fully-distributed and self-organising, it's smaller size means that it hasn't yet been blocked or DOSed much
+**[I2P](https://geti2p.net)** | I2P offers great generic transports, it is well geared towards accessing hidden services, and has a couple of technical benefits over Tor: P2P friendly with unidirectional short-lived tunnels, it is packet-switched (instead of circuit-switched) with TCP and UDP, and continuiosly profiles peers, in order to select the best performing ones. <br>I2P is less mature, but fully-distributed and self-organising, it's smaller size means that it hasn't yet been blocked or DOSed much
 **[Freenet]()** | Freenet is easy to setup, provides excelland friend To Friend Sharing vs I2P, and is great for publishing content anonymously. It's quite large in size, and very slow so not the best choice for casual browsing
 
 Tor, I2P and Freenet are all anonimity networks- but they work very differently and each is good for specific purposes. So a good and viable solution would be to use all of them, for different tasks.
