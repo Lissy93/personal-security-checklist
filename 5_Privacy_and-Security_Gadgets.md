@@ -1,3 +1,27 @@
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
+
+# Hardware for Protecting Privacy and Security
+> A curated list of gadgets, that can help preserve your privacy, and improve your personal cyber security 🔐
+
+**Too long? 🦒** See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/master/2_TLDR_Short_List.md) instead.
+
+#### See Also
+- [Ultimate Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
+- [Privacy-Respecting Software and Services](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md)
+- [Further Links: Security & Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
+- [The Importance of Digital Security & Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
+
+---
+
+#### Contents
+- [Basics](#basics)
+- [DIY Security Products](#diy-security-products)
+
+
+
+## Basics
 
 **Item** | **Description**
 --- | ---
