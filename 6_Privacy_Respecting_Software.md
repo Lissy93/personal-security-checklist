@@ -496,6 +496,26 @@ Cash is still the most private option, with no chance of leaving any transaction
 Not all cryptocurrencies are anonymous, and without using a privacy-focused coin, a record of your transaction will live on a publicly available distributed ledger, forever. If you send of receive multiple payments, ensure you switch up addresses or use a mixer, to make it harder for anyone trying to trace your transactions. Store private keys somewhere safe, but offline and preferably cold.
 
 
+## Anti-Virus and Malware Prevention
+
+| Provider | Description |
+| --- | --- |
+**[CalmAV](https://www.clamav.net)** | An open source  cross-platform antivirus engine for detecting viruses, malware & other malicious threats. It is versatile, performant and very effective
+**[Windows Spy Blocker](https://github.com/crazy-max/WindowsSpyBlocker)** | Capture and interprets network traffic based on a set of rules, and depending on the interactions certain assignments are blocked. Open source, written in Go and delivered as a single executable
+**[Cylance](https://www.cylance.com)** | Takes more of an application whitelisting approach, where it generates the list of trusted software through machine learning. So instead of identifying bad software to block, it identifies good software instead, and blocks the rest by default
+**[Malware Bytes](https://www.malwarebytes.com)** | If you think your computer may be infected, or have malicious files, then Malware Bytes is a good option for running 1-off scans. It is thorough in identifying threats, with minimum data collection
+
+#### Notable Mentions
+Your operating system's built-in protection is probably adequate for detecting 99% of threats. Installing additional software can introduce more vulnerabilities, so downloading AV may actually increase your attack surface.
+
+Windows, by default is not very private. There are several packages that can be used to quickly tweak privacy settings. Such as [Simple Wall](https://github.com/henrypp/simplewall), [priv10](https://github.com/DavidXanatos/priv10), [Fix-Windows-Privacy](https://modzero.github.io/fix-windows-privacy/) and [W10 Privacy](https://www.w10privacy.de/english-home) (see [Video Tutorial](https://www.youtube.com/watch?v=qttbd2Ouxmc)). Use at your own risk, disabling sore OS features can cause unintended consequences. See also, this [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) for manual steps
+
+
+#### Word of Warning
+Many anti virus products have a history of introducing bad vulnerabilities themselves, and several of them seriously degrade the performance of your computer, as well as decrease your security. Never use a free anti-virus, and never trust the companies that offer free solutions, even if you pay for the premium package. Providers such as Avast, AVG, McAfee and Kasperky - do not use these AV solutions. Read more about why you shouldn't use [Anti-Spy Tools, on Windows](https://as93.link/gjlj4)
+
+
+
 ## Operating Systems
 
 Windows 10 has many features, that violate your privacy. Microsoft and Apple are able to collect all your data (including, but not limited to: keystrokes, searches and mic input, calendar data, music, photos, credit card information and purchases. Identity, passwords, contacts, conversations and location data). Microsoft Windows is also more suseptible to malware and viruses, than alternative systems.
