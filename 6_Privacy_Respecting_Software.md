@@ -55,6 +55,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 **Misc**
 - [Social Networks](#social-networks)
 - [Video Platforms](#video-platforms)
+- [Blogging Platforms](#blogging-platforms)
 - [Payment Methods](#payment-methods)
 - [Operating Systems](#operating-systems)
 - [Mobile Operating Systems](#mobile-operating-systems)
@@ -476,6 +477,23 @@ Without moderation, some of these platforms accommodate video creators, who cont
 The content on many of the smaller video sites, often just doesn't compare to YouTube. So another alternative, is to access YouTube through a proxy client, which reduces what Google can track).
 - Good options are: [Invidio](https://invidio.us/) (web), [FreeTube](https://freetubeapp.io/) (Windows, Mac OS, Linux), [NewPipe](https://newpipe.schabi.org/) (Android), [YouTube++](https://iosninja.io/ipa-library/download-youtube-plus-ipa-ios) (iOS)
 - Or download videos with [youtube-dl](https://ytdl-org.github.io/youtube-dl/) (cli) or [youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui) (gui). For just audio, there is [PodSync](https://podsync.net/)
+
+
+## Blogging Platforms
+
+| Provider | Description |
+| --- | --- |
+**[Write Freely](https://writefreely.org)** | Free and open source software with a clian UI, for creating a minimalist, federated blog. For premium or enterprise hosted plans, see [Write.as](https://write.as), or to host your own, check out the [repo on GitHub](https://github.com/writeas/writefreely)
+**[Telegraph](https://telegra.ph)** | Created by [Telegraph](https://www.theverge.com/2016/11/23/13728726/telegram-anonymous-blogging-platform-telegraph), Telegram is fast, anonymous and simple
+
+
+#### Notable Mentions
+
+If you use [Standard Notes](https://standardnotes.org/?s=chelvq36), then [Listed.to](https://listed.to) is a public blogging platform with strong privacy features, it lets you publish posts directly through the Standard Notes app or web interface. Other minimilistic platforms include [Notepin.co](https://notepin.co) and [Pen.io](http://pen.io)
+
+Want to write a simple text post and promote it yourself? Check out [telegra.ph](https://telegra.ph), [txt.fyi](https://txt.fyi) and [NotePin](https://notepin.co). For seriously anonymous platforms, aimed at activists, see [noblogs](https://noblogs.org/) and [autistici](https://www.autistici.org). It is also possible to host a normal [WordPress](https://wordpress.com) site, without it being linked to your real identity, although WP does not have the best reputation when it comes to privacy.
+
+Of course you could also host your blog on your own server, using a standard open source blog platform, such as [Ghost](https://ghost.org) and configure it to disable all trackers, ads and analytics
 
 
 ## Payment Methods
