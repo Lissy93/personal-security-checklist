@@ -29,8 +29,8 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [File Encryption](#file-encryption)
 - [Encrypted Messaging](#encrypted-messaging)
 - [Encrypted Email](#encrypted-email)
-- [Browsers](#browsers)
-- [Search Engines](#search-engines)
+- [Private Browsers](#browsers)
+- [Non-Tracking Search Engines](#search-engines)
 
 **Security**
 - [Browser Extensions](#browser-extensions)
@@ -52,12 +52,14 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Backup and Sync](#backup-and-sync)
 - [File Drop](#file-drop)
 
-**Misc**
+**Social**
 - [Social Networks](#social-networks)
 - [Video Platforms](#video-platforms)
 - [Blogging Platforms](#blogging-platforms)
+
+**Misc**
 - [Payment Methods](#payment-methods)
-- [Operating Systems](#operating-systems)
+- [PC Operating Systems](#operating-systems)
 - [Mobile Operating Systems](#mobile-operating-systems)
 - [Home Automation](#home-automation)
 - [Voice Assistants](#ai-voice-assistants)
@@ -215,7 +217,9 @@ The following browser add-ons give you better control over what content is able 
 #### Other Notable Mentions
 For more open source security & privacy apps, check out [The Guardian Project], [The Tor Project], [Oasis Feng] and [Marcel Bokhorst]- all of which are trusted developers or organisations, who've done amazing work.
 
-For *advanced* users, the following tools can be used to closely monitor your devise and networks, in order to detect any unusual activity. [PortDroid] for network analysis, [Packet Capture] to monitor network traffic, [SysLog] for viewing system logs, [Dexplorer] to read .dex or .apk files for your installed apps, and [Check and Test] to check status and details of devices hardware
+For *advanced* users, the following tools can be used to closely monitor your devise and networks, in order to detect any unusual activity. [PortDroid] for network analysis, [Packet Capture] to monitor network traffic, [SysLog] for viewing system logs, [Dexplorer] to read .dex or .apk files for your installed apps, and [Check and Test] to check status and details of devices hardware.
+
+For offensive and defensive security applications, see [The Nethunter Catalogue](https://store.nethunter.com/en/packages)
 
 
 ## Online Tools
@@ -615,18 +619,20 @@ If you are building your own assistant, you may want to consider a hardware-swit
 
 ---
 
-**Note**: In order to stay protected, it is important to also: Use strong and unique passwords, 2-factor authentication,
-adopt good networking practices and be mindful of data that is collected when browsing the web. See the full
-**[personal security checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)** for all the details 🔐
+## Conclusion
+Many coporations that put profit before people, collecting data and exploiting privacy, many claim to to secure but without being open source it can't be verified, and it is always too late once there has been a breach. Switching to privacy-respecting, open souece software will drastically help inmprove your security, privacy and anonimity online.
 
-*Contributions are welcome, and appreciated - to propose an edit [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose),
-or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master).
+However, that's not all you need to do- it is important to also: Use strong and unique passwords, 2-factor authentication,
+adopt good networking practices and be mindful of data that is collected when browsing the web. You can see the full
+**[personal security checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)** for more tips to staying safe 🔐
+
+Thank you for taking the time to read the list, I hope it has been usful. If you have suggestions, then you [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [submit a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). Contributions are welcome, and appreciated :)
 See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 
-*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),© [Alicia Sykes](https://aliciasykes.com) 2020*
 
 [![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE.md)
 
+*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
 
 <a href="https://twitter.com/intent/follow?screen_name=Lissy_Sykes">
   <img src="https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter" alt="Follow Alicia Sykes on Twitter">
