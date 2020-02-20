@@ -72,3 +72,14 @@ If you are confident with electronics, then you could also make:
 - **U2F USB Token** - Similar to the FIDO2 2-factor authentication USB keys, [U2f-Zero](https://github.com/conorpp/u2f-zero) by Conor Patrick, lets you turn a Pi Zero into a second-factor auth method. Note: project no longer activley maintained, see [NitroKey](https://github.com/nitrokey) instead
 - **PC auto-lock Flash Drive** - Turn a flash drive into a lock/ unlock key for your PC, allowing you to quickly lock your device when needed [deprecated]
 - **Headless Pi Zero SSH server** - Create an small test server, that you can SSH into for development, in order to not have to run risky or potentially dangerous code or software directly on your PC, see [this artticle](https://openpunk.com/post/5) for getting started
+
+
+## Security Gadgets
+
+- **Card Skimmer Detector** - Ensure an ATM or card reader does not have an integrated skimming device. See more at [Lab401](https://lab401.com/products/hunter-cat-card-skimmer-detector)
+- **Voice Changer** - Useful to disguise voice, while chatting online. See more: [UK](https://amzn.to/3bXqpsn) | [US](https://amzn.to/2PqUEyz)
+- **Ultra-Sonic Microphone Jammer** - Blocks phones, dictaphones, voice assistants and other recording devices. Uses built-in transducers to generate ultrasonic signals that can not be heard by humans, but cause indistinct noise, on redording devices, making it impossible to distinguish any details of the conversations. See more [UK](https://amzn.to/2Hnk63s) | [US](https://amzn.to/2v2fwVG)
+- **Reflective Glasses** - Blocks faces from most CCTV and camera footage, and stops facial recognition from being able to map your face. See more: [Reflectacles](https://www.reflectacles.com)
+- **Bug Detector** - Able to  detect radio waves, magnetic fields,  in order to find hidden wired or wireless recording or camera equipment and transmitting devices, Note: has limited accuracy. See more: [UK](https://amzn.to/2V8z8C1) | [US](https://amzn.to/2V9AnkI)
+- **Anti-Facial Recognition Clothing** - Carefully printed patterns that confuse common facial recognition algorithms. See more: [Amazon UK](https://amzn.to/32dnYgO) | [Redbubble](https://www.redbubble.com/people/naamiko/works/24714049-anti-surveillance-clothing?p=mens-graphic-t-shirt) | [Monoza](https://www.monoza.mobi/hyperface-anti-surveillance-shirt/?sku=1045-19321-423696-174028)
+- **Tor Travel-Router** - Plug-and-play travel router, providing WiFi with VPN or Tor for more private internet access, also has Wi-Fi uplink and range extender with a clear user interface. See more: [Anonabox.com](https://www.anonabox.com) | [Amazon](https://amzn.to/2HHV0fG)
