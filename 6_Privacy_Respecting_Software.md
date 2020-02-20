@@ -56,6 +56,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Social Networks](#social-networks)
 - [Video Platforms](#video-platforms)
 - [Blogging Platforms](#blogging-platforms)
+- [News Readers](#news-readers-and-aggregation)
 
 **Misc**
 - [Payment Methods](#payment-methods)
@@ -490,7 +491,6 @@ The content on many of the smaller video sites, often just doesn't compare to Yo
 **[Write Freely](https://writefreely.org)** | Free and open source software with a clian UI, for creating a minimalist, federated blog. For premium or enterprise hosted plans, see [Write.as](https://write.as), or to host your own, check out the [repo on GitHub](https://github.com/writeas/writefreely)
 **[Telegraph](https://telegra.ph)** | Created by [Telegraph](https://www.theverge.com/2016/11/23/13728726/telegram-anonymous-blogging-platform-telegraph), Telegram is fast, anonymous and simple
 
-
 #### Notable Mentions
 
 If you use [Standard Notes](https://standardnotes.org/?s=chelvq36), then [Listed.to](https://listed.to) is a public blogging platform with strong privacy features, it lets you publish posts directly through the Standard Notes app or web interface. Other minimilistic platforms include [Notepin.co](https://notepin.co) and [Pen.io](http://pen.io)
@@ -498,6 +498,21 @@ If you use [Standard Notes](https://standardnotes.org/?s=chelvq36), then [Listed
 Want to write a simple text post and promote it yourself? Check out [telegra.ph](https://telegra.ph), [txt.fyi](https://txt.fyi) and [NotePin](https://notepin.co). For seriously anonymous platforms, aimed at activists, see [noblogs](https://noblogs.org/) and [autistici](https://www.autistici.org). It is also possible to host a normal [WordPress](https://wordpress.com) site, without it being linked to your real identity, although WP does not have the best reputation when it comes to privacy.
 
 Of course you could also host your blog on your own server, using a standard open source blog platform, such as [Ghost](https://ghost.org) and configure it to disable all trackers, ads and analytics
+
+
+## News Readers and Aggregation
+
+| Provider | Description |
+| --- | --- |
+**[Tiny RSS](https://tt-rss.org)** | A free and open source web-based news feed (RSS/Atom) reader and aggregator
+**[RSSOwl](http://www.rssowl.org)** | A desktop-based RSS reader, with powerful organisation features
+**[Feedly](https://feedly.com)** | A more premium option, Feedly displays news from your selected sources in an easy-to-digest clean and modern interface. It works with more than just RSS feeds, since it is well integrated with many major news outlets. It does not manipulate the stories you see, and is mostly open source
+
+#### Notable Mentions
+For iPhone users in the US, [Tonic](https://canopy.cr/tonic) is a great little app that provides you with a selection of personalized new stories and articles daily. It is possible to us [Reddit](https://www.reddit.com) anonymously too- you can use throwaway accounts for posting.
+
+#### Word of Warning
+News reader apps don't have a good [reputation](https://vpnoverview.com/privacy/apps/privacy-risks-news-apps) when it comes to protecting users privacy, and often display biased content. Many have revenue models based on making recommendations, with the aim of trying to get you to click on sponsored articles- and for that a lot of data needs to have been collected about you, your habits, interests and routines. 
 
 
 ## Payment Methods
@@ -626,9 +641,9 @@ However, that's not all you need to do- it is important to also: Use strong and 
 adopt good networking practices and be mindful of data that is collected when browsing the web. You can see the full
 **[personal security checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)** for more tips to staying safe 🔐
 
-Thank you for taking the time to read the list, I hope it has been usful. If you have suggestions, then you [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [submit a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). Contributions are welcome, and appreciated :)
-See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
+---
 
+*Thank you for taking the time to read the list, I hope it has been usful. If you have suggestions, then you [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [submit a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master), see: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md). Contributions are welcome, and appreciated* 😇
 
 [![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE.md)
 
