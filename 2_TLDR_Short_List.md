@@ -48,14 +48,22 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 ## OPEN-SOURCE, PRIVACY-FOCUSED SOFTWARE
 
-> This is the shortened version of [Complete List of Privacy-Respecing Sofware](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md). It lays out the most popular, privacy-respecting, secure and open source software, apps and web services.
-
 Switch to alternative open-source apps and services, which won't collect your data, track you or show targetted ads 
 
-- **SECURITY TOOLS**<br>
-Password Management: [BitWarden], 2FA: [Aegis] (Android) / [Authenticator] (iOS), File Encryption: [VeraCrypt], Networking: [Tor] and [Pi-Hole], VPN: [Mullvad] / [ProtonVPN], Mobile Firewall: [NetGuard] (Android) / [Lockdown] (iOS), Email Aliasing: [33Mail].
-- **PRODUCTIVITY**<br>
-Messaging: [Signal], Email: [ProtonMail] / [MailFence], Browsing: [Brave Browser], Search: [DuckDuckGo], Cloud Storage: [NextCloud], Notes: [Standard Notes], Calendar/ Contacts Sync: [ETE Sync]
+- Password Managers: [BitWarden]
+- 2-Factor Authentication: [Aegis] (Android) | [Authenticator] (iOS)
+- File Encryption: [VeraCrypt]
+- Encrypted Messaging: [Signal]
+- Encrypted Email: [ProtonMail] | [MailFence] (+ also [33Mail] for aliasing)
+- Private Browsers: [Brave Browser]
+- Non-Tracking Search Engines: [DuckDuckGo]
+- VPN: [Mullvad] | [ProtonVPN]  better still, use [Tor]
+- Mobile Firewall: [NetGuard] (Android) | [Lockdown] (iOS)
+- Ad-block: [Pi-Hole]
+
+- Productivity: Cloud Storage: [NextCloud], Notes: [Standard Notes], Calendar/ Contacts Sync: [ETE Sync]
+
+> Checkout the [Complete List of Privacy-Respecing Sofware](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md) for more software, apps and web services.
 
 [BitWarden]: https://bitwarden.com
 [Aegis]: https://getaegis.app
