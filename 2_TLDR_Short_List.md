@@ -70,6 +70,20 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 
 **See More**: [Complete List of Privacy-Respecing Sofware](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md)
 
+
+## SECURITY HARDWARE
+
+There are also some gadgets can help improve your physical and digital security. Although often, it is not actually necissary to spend money, as most of these products can be [built at home](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_and-Security_Gadgets.md#diy-security-products)
+
+- **Blockers and Protectors**: [USB Data Blocker], [Mic-Lock], [Faraday Pouch], [RFID Card Protector], [ArmourCard], [Web Cam Covers], [Port Blockers], [Privacy Screen]
+- **Encrypted Storage**: [Hardware-Encrypted USB Drive], [Hardware-Encrypted HDD], [Encrypted Kingston]
+- **Authentication**: [YubiKey], [SoloKey], [NitroKey]
+- **Networking**: [Anonabox] (Tor travel router), [Fing Box] (Network monitoring)
+- **Crypto**: [Leger Nano], [Trezor], [Physical Metal Wallet]
+- **Misc**: [Bootable Drive Eraser], [Anti-Surveillance Clothing], [Passphrase Dice], [Voice Changer], [Deauth Detector], [Bug Detector], [Card Skimmer Detector], [Ultra-Sonic Microphone Jammer]
+
+**See More**: [Privacy and Security Gadgets](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_and-Security_Gadgets.md)
+
 [//]: # (SECURITY SOFTWARE LINKS)
 [BitWarden]: https://bitwarden.com
 [1Password]: https://1password.com
@@ -156,3 +170,38 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 [The Tor Project]: https://play.google.com/store/apps/developer?id=The+Tor+Project
 [Oasis Feng]: https://play.google.com/store/apps/dev?id=7664242523989527886
 [Marcel Bokhorst]: https://play.google.com/store/apps/dev?id=8420080860664580239
+
+[//]: # (SECURITY HARDWARE LINKS)
+[USB Data Blocker]: https://amzn.to/2HDArRP
+[Mic-Lock]: https://amzn.to/2uQ3r5L
+[Faraday Pouch]: https://amzn.to/3bIkfw4
+[RFID Card Protector]: https://amzn.to/38ycMxN
+[Web Cam Covers]: https://amzn.to/2uEz16H
+[Port Blockers]: https://amzn.to/327Yn9n
+[Privacy Screen]: https://amzn.to/3bAa9xv
+[YubiKey]: https://amzn.to/38wcG9R
+[SoloKey]: https://amzn.to/32i6QGQ
+[NitroKey]: https://www.nitrokey.com
+[Encrypted Kingston]: https://amzn.to/38xsnO5
+[Hardware-Encrypted USB Drive]: https://amzn.to/2vD32Ug
+[Hardware-Encrypted HDD]: https://amzn.to/37pTmK8
+[Fingbox]: https://amzn.to/2V5gATx
+[Drive Eraser]: https://amzn.to/2SsL67Y
+[Phone privacy screen]: https://amzn.to/2OZO3Lc
+[Anonabox]: https://amzn.to/2T5KnJ5
+[Fing Box]: https://amzn.to/2SPeRQn
+[BitDefender Box]: https://amzn.to/39WSBd4
+[Travel VPN]: https://amzn.to/37T1V0a
+[OnlyKey]: https://amzn.to/2Pem62a
+[Physical Metal Wallet]: https://amzn.to/32gO2bb
+[Leger Nano]: https://amzn.to/37Mu4pH
+[Trezor]: https://amzn.to/32mEJqe
+[ArmourCard]: https://armourcard.com
+[Bootable Drive Eraser]: https://amzn.to/38SClcW
+[Anti-Surveillance Clothing]: https://adversarialfashion.com
+[Voice Changer]: https://amzn.to/3bXqpsn
+[Passphrase Dice]: https://amzn.to/2OTE4Hw
+[Ultra-Sonic Microphone Jammer]: https://amzn.to/37LsSCV
+[Bug Detector]: https://amzn.to/2ulRFQp
+[Deauth Detector]: https://amzn.to/2T1sH16
+[Card Skimmer Detector]: https://lab401.com/products/hunter-cat-card-skimmer-detector
