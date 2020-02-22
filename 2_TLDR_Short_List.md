@@ -60,11 +60,13 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 - VPN: [Mullvad] | [ProtonVPN]  *(better still, use [Tor])*
 - Mobile Firewall: [NetGuard] (Android) | [Lockdown] (iOS)
 
-**Productivity Tools**: File Storage: [NextCloud]. File Sync: [Syncthing]. File Drop: [Firefox Send]. Notes: [Standard Notes], [Cryptee], [Joplin]. Blogging: [Write Freely]. Calendar/ Contacts Sync: [ETE Sync]
-
 **Browser Extensions**: [Privacy Badger] - Blocks trackers. [HTTPS Everywhere] - Upgrates requests to HTTPS. [uBlock] - Blocks ads. [ScriptSafe] - Block execution of certain scripts. [WebRTC Leak Prevent] - Prevents IP leaks. [Vanilla Cookie Manager] - Auto-removes unwanted cookies. [Privacy Essentials] - Shows which sites are insecure
 
 **Mobile Apps**: [Exodus] - Shows which trackers are on your device. [Orbot]- System-wide Tor Proxy. [Island] - Sand-box environment for apps. [NetGaurd] - Controll which apps have network access. [Bouncer] - Grant temporary permissions. [Greenify] - Controll which apps can run in the background. [1.1.1.1] - Use CloudFlares DNS over HTTPS. [Fing App] - Monitor your home WiFi network for intruders
+
+**Online Tools**: [εxodus] - Shows which trackers an app has. [';--have i been pwned?] - Check if your details have been exposed in a breach. [EXIF Remover] - Removes meta data from image or file. [Redirect Detective] - Shows where link redirects to. [Virus Total] - Scans file or URL for malware. [Panopticlick], [Browser Leak Test] and [IP Leak Test] - Check for system and browser leaks
+
+**Productivity Tools**: File Storage: [NextCloud]. File Sync: [Syncthing]. File Drop: [Firefox Send]. Notes: [Standard Notes], [Cryptee], [Joplin]. Blogging: [Write Freely]. Calendar/ Contacts Sync: [ETE Sync]
 
 **See More**: [Complete List of Privacy-Respecing Sofware](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md)
 
@@ -114,6 +116,16 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 [WebRTC Leak Prevent]: https://github.com/aghorler/WebRTC-Leak-Prevent
 [Vanilla Cookie Manager]: https://github.com/laktak/vanilla-chrome
 [Privacy Essentials]: https://duckduckgo.com/app
+
+[//]: # (ONLINE SECURITY TOOLS)
+[';--have i been pwned?]: https://haveibeenpwned.com
+[εxodus]: https://reports.exodus-privacy.eu.org
+[Panopticlick]: https://panopticlick.eff.org
+[Browser Leak Test]: https://browserleaks.com
+[IP Leak Test]: https://ipleak.net
+[EXIF Remover]: https://www.exifremove.com
+[Redirect Detective]: https://redirectdetective.com
+[Virus Total]: https://www.virustotal.com
 
 [//]: # (ANDROID APP LINKS)
 [Island]: https://play.google.com/store/apps/details?id=com.oasisfeng.island
