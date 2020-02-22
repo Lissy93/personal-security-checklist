@@ -50,25 +50,29 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 Switch to alternative open-source apps and services, which won't collect your data, track you or show targetted ads 
 
-- Password Managers: [BitWarden]
-- 2-Factor Authentication: [Aegis] (Android) | [Authenticator] (iOS)
-- File Encryption: [VeraCrypt]
-- Encrypted Messaging: [Signal]
-- Encrypted Email: [ProtonMail] | [MailFence] (+ also [33Mail] for aliasing)
-- Private Browsers: [Brave Browser]
-- Non-Tracking Search Engines: [DuckDuckGo]
-- VPN: [Mullvad] | [ProtonVPN]  better still, use [Tor]
+- Password Managers: [BitWarden] | [1Password] | [KeePassXC] *(offline, no-sync)*
+- 2-Factor Authentication: [Aegis] *(Android)* | [Authenticator] *(iOS)* | [AndOTP] *(Android)*
+- File Encryption: [VeraCrypt] | [Cryptomator] *(for cloud)*
+- Encrypted Messaging: [Signal] | [KeyBase] *(for groups/ communities)*
+- Encrypted Email: [ProtonMail] | [MailFence] | [Tutanota] | (+ also [33Mail] for aliasing)
+- Private Browsers: [Brave Browser] | [Firefox] *with [some tweaks](https://restoreprivacy.com/firefox-privacy/)*
+- Non-Tracking Search Engines: [DuckDuckGo] | [StartPage] | [SearX] *(self-hosted)* | [Quant]
+- VPN: [Mullvad] | [ProtonVPN]  *(better still, use [Tor])*
 - Mobile Firewall: [NetGuard] (Android) | [Lockdown] (iOS)
-- Ad-block: [Pi-Hole]
 
-- Productivity: Cloud Storage: [NextCloud], Notes: [Standard Notes], Calendar/ Contacts Sync: [ETE Sync]
+**Productivity Tools**: File Storage: [NextCloud]. File Sync: [Syncthing]. File Drop: [Firefox Send]. Notes: [Standard Notes], [Cryptee], [Joplin]. Blogging: [Write Freely]. Calendar/ Contacts Sync: [ETE Sync]
+
 
 > Checkout the [Complete List of Privacy-Respecing Sofware](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md) for more software, apps and web services.
 
 [BitWarden]: https://bitwarden.com
+[1Password]: https://1password.com
+[KeePassXC]: https://keepassxc.org
 [Aegis]: https://getaegis.app
+[AndOTP]: https://github.com/andOTP/andOTP
 [Authenticator]: https://mattrubin.me/authenticator
 [VeraCrypt]: https://www.veracrypt.fr
+[Cryptomator]: https://cryptomator.org
 [Tor]: https://www.torproject.org
 [Pi-Hole]: https://pi-hole.net
 [Mullvad]: https://mullvad.net
@@ -77,10 +81,21 @@ Switch to alternative open-source apps and services, which won't collect your da
 [Lockdown]: https://lockdownhq.com
 [33Mail]: http://33mail.com/Dg0gkEA
 [Signal]: https://signal.org
+[KeyBase]: https://keybase.io
 [ProtonMail]: https://protonmail.com
 [MailFence]: https://mailfence.com?src=digitald
+[Tutanota]: https://tutanota.com
 [Brave Browser]: https://brave.com/?ref=ali721
+[Firefox]: https://www.mozilla.org/en-GB/firefox/browsers
 [DuckDuckGo]: https://duckduckgo.com
+[StartPage]: https://www.startpage.com
+[Quant]: https://www.qwant.com
+[SearX]: https://asciimoo.github.io/searx
 [NextCloud]: https://nextcloud.com
 [Standard Notes]: https://standardnotes.org/?s=chelvq36
+[Cryptee]: https://crypt.ee
+[Joplin]: https://joplinapp.org
 [ETE Sync]: https://www.etesync.com/accounts/signup/?referrer=QK6g
+[Firefox Send]: https://send.firefox.com
+[Syncthing]: https://syncthing.net
+[Write Freely]: https://writefreely.org
