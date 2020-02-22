@@ -43,6 +43,8 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 ### DEVICES
 - Keep software up-to-date. Security fixes and patches are released as updates, so it is important to install updates when prompted, for your phone, PC, router, IoT devices and all software/ apps.
 
+📜 **See More**: [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)
+
 ----
 
 
@@ -68,8 +70,9 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 
 **Productivity Tools**: File Storage: [NextCloud]. File Sync: [Syncthing]. File Drop: [Firefox Send]. Notes: [Standard Notes], [Cryptee], [Joplin]. Blogging: [Write Freely]. Calendar/ Contacts Sync: [ETE Sync]
 
-**See More**: [Complete List of Privacy-Respecing Sofware](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md)
+📜 **See More**: [Complete List of Privacy-Respecing Sofware](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md)
 
+----
 
 ## SECURITY HARDWARE
 
@@ -82,7 +85,7 @@ There are also some gadgets can help improve your physical and digital security.
 - **Crypto**: [Leger Nano], [Trezor], [Physical Metal Wallet]
 - **Misc**: [Bootable Drive Eraser], [Anti-Surveillance Clothing], [Passphrase Dice], [Voice Changer], [Deauth Detector], [Bug Detector], [Card Skimmer Detector], [Ultra-Sonic Microphone Jammer]
 
-**See More**: [Privacy and Security Gadgets](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_and-Security_Gadgets.md)
+📜 **See More**: [Privacy and Security Gadgets](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_and-Security_Gadgets.md)
 
 [//]: # (SECURITY SOFTWARE LINKS)
 [BitWarden]: https://bitwarden.com
