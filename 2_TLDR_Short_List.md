@@ -48,7 +48,7 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 ## OPEN-SOURCE, PRIVACY-FOCUSED SOFTWARE
 
-Switch to alternative open-source apps and services, which won't collect your data, track you or show targetted ads 
+Switch to alternative open-source, privacy-respecting apps and services, which won't collect your data, track you or show targetted ads
 
 - Password Managers: [BitWarden] | [1Password] | [KeePassXC] *(offline, no-sync)*
 - 2-Factor Authentication: [Aegis] *(Android)* | [Authenticator] *(iOS)* | [AndOTP] *(Android)*
@@ -62,9 +62,13 @@ Switch to alternative open-source apps and services, which won't collect your da
 
 **Productivity Tools**: File Storage: [NextCloud]. File Sync: [Syncthing]. File Drop: [Firefox Send]. Notes: [Standard Notes], [Cryptee], [Joplin]. Blogging: [Write Freely]. Calendar/ Contacts Sync: [ETE Sync]
 
+**Browser Extensions**: [Privacy Badger] - Blocks trackers. [HTTPS Everywhere] - Upgrates requests to HTTPS. [uBlock] - Blocks ads. [ScriptSafe] - Block execution of certain scripts. [WebRTC Leak Prevent] - Prevents IP leaks. [Vanilla Cookie Manager] - Auto-removes unwanted cookies. [Privacy Essentials] - Shows which sites are insecure
 
-> Checkout the [Complete List of Privacy-Respecing Sofware](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md) for more software, apps and web services.
+**Mobile Apps**: [Exodus] - Shows which trackers are on your device. [Orbot]- System-wide Tor Proxy. [Island] - Sand-box environment for apps. [NetGaurd] - Controll which apps have network access. [Bouncer] - Grant temporary permissions. [Greenify] - Controll which apps can run in the background. [1.1.1.1] - Use CloudFlares DNS over HTTPS. [Fing App] - Monitor your home WiFi network for intruders
 
+**See More**: [Complete List of Privacy-Respecing Sofware](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md)
+
+[//]: # (SECURITY SOFTWARE LINKS)
 [BitWarden]: https://bitwarden.com
 [1Password]: https://1password.com
 [KeePassXC]: https://keepassxc.org
@@ -91,6 +95,8 @@ Switch to alternative open-source apps and services, which won't collect your da
 [StartPage]: https://www.startpage.com
 [Quant]: https://www.qwant.com
 [SearX]: https://asciimoo.github.io/searx
+
+[//]: # (PRODUCTIVITY SOFTWARE LINKS)
 [NextCloud]: https://nextcloud.com
 [Standard Notes]: https://standardnotes.org/?s=chelvq36
 [Cryptee]: https://crypt.ee
@@ -99,3 +105,42 @@ Switch to alternative open-source apps and services, which won't collect your da
 [Firefox Send]: https://send.firefox.com
 [Syncthing]: https://syncthing.net
 [Write Freely]: https://writefreely.org
+
+[//]: # (BROWSER EXTENSION LINKS)
+[Privacy Badger]: https://www.eff.org/privacybadger
+[HTTPS Everywhere]: https://eff.org/https-everywhere
+[uBlock]: https://github.com/gorhill/uBlock
+[ScriptSafe]: https://github.com/andryou/scriptsafe
+[WebRTC Leak Prevent]: https://github.com/aghorler/WebRTC-Leak-Prevent
+[Vanilla Cookie Manager]: https://github.com/laktak/vanilla-chrome
+[Privacy Essentials]: https://duckduckgo.com/app
+
+[//]: # (ANDROID APP LINKS)
+[Island]: https://play.google.com/store/apps/details?id=com.oasisfeng.island
+[Orbot]: https://play.google.com/store/apps/details?id=org.torproject.android
+[Orbot]: https://play.google.com/store/apps/details?id=org.torproject.android
+[Bouncer]: https://play.google.com/store/apps/details?id=com.samruston.permission
+[Crypto]: https://play.google.com/store/apps/details?id=com.kokoschka.michael.crypto
+[Cryptomator]: https://play.google.com/store/apps/details?id=org.cryptomator
+[Daedalus]: https://play.google.com/store/apps/details?id=org.itxtech.daedalus
+[Brevent]: https://play.google.com/store/apps/details?id=me.piebridge.brevent
+[Greenify]: https://play.google.com/store/apps/details?id=com.oasisfeng.greenify
+[Secure Task]: https://play.google.com/store/apps/details?id=com.balda.securetask
+[Tor Browser]: https://play.google.com/store/apps/details?id=org.torproject.torbrowser 
+[PortDroid]: https://play.google.com/store/apps/details?id=com.stealthcopter.portdroid
+[Packet Capture]: https://play.google.com/store/apps/details?id=app.greyshirts.sslcapture
+[SysLog]: https://play.google.com/store/apps/details?id=com.tortel.syslog
+[Dexplorer]: https://play.google.com/store/apps/details?id=com.dexplorer
+[Check and Test]: https://play.google.com/store/apps/details?id=com.inpocketsoftware.andTest
+[Tasker]: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm
+[Haven]: https://play.google.com/store/apps/details?id=org.havenapp.main
+[NetGaurd]: https://www.netguard.me/
+[Exodus]: https://exodus-privacy.eu.org/en/page/what/#android-app
+[XUMI Security]: https://xumi.ca/xumi-security/
+[Fing App]: https://www.fing.com/products/fing-app
+[FlutterHole]: https://github.com/sterrenburg/flutterhole
+[1.1.1.1]: https://1.1.1.1/
+[The Guardian Project]: https://play.google.com/store/apps/dev?id=6502754515281796553
+[The Tor Project]: https://play.google.com/store/apps/developer?id=The+Tor+Project
+[Oasis Feng]: https://play.google.com/store/apps/dev?id=7664242523989527886
+[Marcel Bokhorst]: https://play.google.com/store/apps/dev?id=8420080860664580239
