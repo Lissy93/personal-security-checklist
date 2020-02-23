@@ -632,6 +632,14 @@ For a desktop-based assistant, see [Dragonfire](https://github.com/DragonCompute
 If you are building your own assistant, you may want to consider a hardware-switch for disabling the microphone. Keep tabs on issues and check the code, to ensure you are happy with how it works, from a privacy perspective
 
 
+## Additional Self-Hosted Tools
+
+Hosting an open source application on your own server or using a secure cloud provider, immediately means that you own all data and logs. Hence no one other than you can easily get to this. However it is worth noting that you will ensure the server is properly secure, and keep all software up-to-date yourself
+
+#### Analytics Platforms
+[Matomo](https://matomo.org) - Enterprise-grade analytics platform, that is 100% open source and has a strong foucs on ethics when it comes to privacy. See also: [Ackee](https://ackee.electerious.com), [Freshlytics](https://freshlytics.gitbook.io) and [Goat Counter](https://www.goatcounter.com).
+
+
 ---
 
 ## Conclusion
