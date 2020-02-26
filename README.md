@@ -85,9 +85,10 @@ For more browser security pointers, check out: [Here’s How To Get Solid Browse
 **Disable JavaScript** | Advanced | Many modern web apps are JavaScript based, so disabling it will greatly decrease your browsing experience. But if you really want to go all out, then it will reduce your attack surface. Read more about the growing [risk of JavaScript malware](https://heimdalsecurity.com/blog/javascript-malware-explained/).
 **Route all desktop traffic via Tor** | Advanced | [Whonix](https://www.whonix.org/) allows for fail-safe, automatic, and desktop-wide use of the Tor network. It's based on Debian, and runs in in a virtual machine. Straigt-forward to install on Windows, OSX or Linux.
 
-**See also**
-- [Recommended Privacy Browsers](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#browsers)
-- [Recommended Browser Extensions](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#browser-extensions)
+**Recommended Software**
+- [Privacy Browsers](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#browsers)
+- [Non-Tracking Search Engines](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#search-engines)
+- [Browser Extensions for Security](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#browser-extensions)
 
 
 ## Emails
@@ -122,7 +123,7 @@ It's strongly advised not to use non-encrypted email, but if you follow these gu
 **Remove metadata before uploading media** | Optional | Most smartphones and some cameras automatically attach a comprehensive set of additional data to each photograph., This usually includes things like time, date, location, camera model, user etc. Remove this data before uploading. See [this guide](https://www.makeuseof.com/tag/3-ways-to-remove-exif-metadata-from-photos-and-why-you-might-want-to/) for more info.
 **Don’t have any social media accounts** | Advanced | It may seem a bit extreme, but if your serious about data privacy and security, stay away from entering information on any social media platform.
 
-**See also**
+**Recommended Software**
 - [Alternative Social Media](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#social-networks)
 - [Alternative Video Platforms](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#video-platforms)
 - [Alternative Blogging Platforms](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#blogging-platforms)
@@ -189,7 +190,10 @@ SMS texting and traditional phone calls are not secure, so it's imprortant to av
 **Consider Orbot** | Advanced | [Orbot](https://guardianproject.info/apps/orbot/) provides a system-wide [Tor](https://www.torproject.org/) connection. Although more secure than a VPN, it may be slower- see [Networking](#networking) section for more details.
 **Consider running a custom ROM if you have an Android device** | Advanced | Your default OS tracks information about your usage, and app data, constantly. Consider a security-focused custom ROM, such as [Lineage](https://lineageos.org) or [CopperheadOS](https://copperhead.co/android/).
 
-**See also** [Recommended Mobile Apps, for Security + Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#mobile-apps)
+**Recommended Software**
+- [Mobile Apps, for Security + Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#mobile-apps)
+- [Encrypted Messaging](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#encrypted-messaging)
+- [Mobile Operation Systems](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#mobile-operating-systems)
 
 ## Personal Computers
 
@@ -210,6 +214,7 @@ Although Windows and OS X are easy to use and convenient, they both are far from
 **Canary Tokens** | Advanced | Network breaches happen, but the longer it takes for you to find out about it, the more damage is done. A canary token is like a hacker honeypot, something that looks appealing to them once they've gained access to your system. When they open the file, unknowingly to them, a script is run which will not only alert you of the breach, but also grab some of the hackers system details. <br>[CanaryTokens.org](https://canarytokens.org/generate) and [BlueCloudDrive](https://blueclouddrive.com/generate) are excellent sites, that you can use to generate your tokens. Then just leave them somewhere prominent on your system. [Learn more](https://blog.thinkst.com/p/canarytokensorg-quick-free-detection.html) about canary tokens, or see [this guide](https://resources.infosecinstitute.com/how-to-protect-files-with-canary-tokens/) for details on how to create them yourself.
 
 **Recommended Software**
+- [File Encryption](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#file-encryption)
 - [AV and Malware Prevention](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#anti-virus-and-malware-prevention)
 - [Operating Systems](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#operating-systems)
 
@@ -264,6 +269,8 @@ Many data breaches, hacks and attacks are caused by human error. The following l
 **Review and update social media privacy** | Optional | Companies regularly update their terms, and that often leads to you being opted back. Check you Facebook, Twitter, Google etc activity and privacy settings. See also [re-consent](https://github.com/cliqz-oss/re-consent) and [Jumbo](https://www.jumboprivacy.com) which are tools aimed at making this clearer and easier
 **Compartmentalise** | Advanced | [Compartmentalization](https://en.wikipedia.org/wiki/Compartmentalization_(information_security)) is where to keep several categories of digital activity and files totally separate from each other. It means that if one area is breached, then an attacker will only have a proportion of your data, and the rest will still be safe. For example, store your work and personal files on separate devices, or use different web browsers for different types of activity, or even run certain tasks in a contained VM or on a separate device (such as having a work phone, and personal phone, or using a separate browser for social media/ chat rooms, or even running a VM for using specialist software)
 **Use anonymous payment methods** | Advanced | Paying online with credit or debit card involves entering personal details, including name and residential address. Paying with cryptocurrency will not require you to enter any identifiable information. Both [Monero](https://www.getmonero.org) and [Zcash](https://z.cash/) are totally anonymous, and so best for privacy. See also: [Anonymous Payment Methods](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#payment-methods)
+
+**See also**: [Online Tools](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#online-tools)
 
 
 ---
