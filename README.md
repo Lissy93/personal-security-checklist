@@ -38,6 +38,9 @@ Use strong passwords, which can't be easily guessed or cracked. Length is more i
 **Use an offline password manager** | Advanced | Consider an offline password manager, encrypted by a strong password. If you work across two or more computers, this could be stored on an encrypted USB. [KeePass](http://keepass.info/) is a strong choice.
 **If possible, try to avoid biometric and hardware-based authentication** | Advanced | Fingerprint sensors, face detection and voice recognition are all hackable. Where possible replace these with traditional strong passwords.
 
+**See also** [Recommended Password Managers](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#password-managers)
+
+
 ## 2-Factor Authentication
 
 This is a more secure method of logging in, where you supply not just your password, but also an additional code usually from a device that only you have access to.
@@ -52,7 +55,10 @@ Check which websites support multi-factor authentication: [twofactorauth.org](ht
 **Keep backup codes safe** | Recommended | When you enable 2FA, you'll be given a few one-time codes to download, in case you ever lose access to your authenticator app or key. It's important to keep these safe, either encrypt them and store on a USB, or print them on paper and store them somewhere secure like a locked safe. Delete them from your computer once you've made a backup, incase your PC is compromised.
 **Don't use SMS to recieve OTPs** | Optional | Although SMS 2FA is certenly better than nothing, but there are many weaknesses in this system, ( such as SIM-swapping) ([read more](https://www.theverge.com/2017/9/18/16328172/sms-two-factor-authentication-hack-password-bitcoin)), therefore avoid enabling SMS OTPs, even as backups.
 **Don't use your Password Manager to store 2FA tokens** | Optional | One of the quickest approachs is to use the same system that stores your passwords, to also generate and fill OTP tokens, both LastPass and 1Password have this functionality. However if a malicious actor is able to gain access to this, they will have both your passwords, and your 2FA tokens, for all your online accounts. Instead use a seperate authenticator from your password manager.
-**Consider a hardware 2FA Key** | Optional | A physical 2FA key generates an OTP when inserted. Have a look at [NitroKey](https://www.nitrokey.com/) (open source), [YubiKey](https://www.yubico.com/) or [Solo Key](https://amzn.to/2Fe5Icw). You can also use it as a secondary method (in case your phone is lost or damaged). If this is your backup 2FA method, it should be kept somewhere secure, such as a locked safe, or if you use as physical key as your primary 2FA method, then keep it on you at all times. 
+**Consider a hardware 2FA Key** | Optional | A physical 2FA key generates an OTP when inserted. Have a look at [NitroKey](https://www.nitrokey.com/) (open source), [YubiKey](https://www.yubico.com/) or [Solo Key](https://amzn.to/2Fe5Icw). You can also use it as a secondary method (in case your phone is lost or damaged). If this is your backup 2FA method, it should be kept somewhere secure, such as a locked safe, or if you use as physical key as your primary 2FA method, then keep it on you at all times.
+
+**See also** [Recommended 2FA Apps](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#2-factor-authentication)
+
 
 ## Browser and Search
 
@@ -79,6 +85,10 @@ For more browser security pointers, check out: [Here’s How To Get Solid Browse
 **Disable JavaScript** | Advanced | Many modern web apps are JavaScript based, so disabling it will greatly decrease your browsing experience. But if you really want to go all out, then it will reduce your attack surface. Read more about the growing [risk of JavaScript malware](https://heimdalsecurity.com/blog/javascript-malware-explained/).
 **Route all desktop traffic via Tor** | Advanced | [Whonix](https://www.whonix.org/) allows for fail-safe, automatic, and desktop-wide use of the Tor network. It's based on Debian, and runs in in a virtual machine. Straigt-forward to install on Windows, OSX or Linux.
 
+**See also**
+- [Recommended Privacy Browsers](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#browsers)
+- [Recommended Browser Extensions](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#browser-extensions)
+
 
 ## Emails
 
@@ -98,6 +108,8 @@ It's strongly advised not to use non-encrypted email, but if you follow these gu
 **Don’t connect third-party apps to your email account** | Optional | If you give a third-party app (like Unroll.me) full access to your inbox, this makes you vulnerable to cyber attacks. The app can be compromised and, as a consequence, cyber criminals would gain unhindered access to all your emails and their contents.
 **Consider switching to a more secure email provider** | Optional | Email providers such as [ProtonMail](https://protonmail.com), [CounterMail](https://countermail.com), [HushMail](https://www.hushmail.com) (for business users) or [MailFence](https://mailfence.com) allow for end-to-end encryption, full privacy as well as more security-focused features. See [this guide](https://github.com/OpenTechFund/secure-email) for a details of the inner workings of these services.
 
+**See also** [Recommended Encrypted Email Providers](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#encrypted-email)
+
 ## Social Media
 
 **Security** | **Priority** | **Details and Hints**
@@ -110,6 +122,11 @@ It's strongly advised not to use non-encrypted email, but if you follow these gu
 **Remove metadata before uploading media** | Optional | Most smartphones and some cameras automatically attach a comprehensive set of additional data to each photograph., This usually includes things like time, date, location, camera model, user etc. Remove this data before uploading. See [this guide](https://www.makeuseof.com/tag/3-ways-to-remove-exif-metadata-from-photos-and-why-you-might-want-to/) for more info.
 **Don’t have any social media accounts** | Advanced | It may seem a bit extreme, but if your serious about data privacy and security, stay away from entering information on any social media platform.
 
+**See also**
+- [Alternative Social Media](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#social-networks)
+- [Alternative Video Platforms](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#video-platforms)
+- [Alternative Blogging Platforms](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#blogging-platforms)
+- [News Readers and Aggregation](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#news-readers-and-aggregation)
 
 ## Networking
 
@@ -134,6 +151,14 @@ A Virtual Private Network (VPN) protects your IP, and allows you to more securel
 **Change your Routers Default IP** | Advanced | Modifying your router admin panels default IP address will makes it more difficult for malicious scripts in your web browser targeting local IP addresses, as well as adding an extra step for local network hackers
 **Kill unused process and services on your router** | Advanced | Services like Telnet and SSH (Secure Shell) that provide command-line access to devices should never be exposed to the internet and should also be disabled on the local network unless they're actually needed. In general, [any service that’s not used should be disabled](https://www.securityevaluators.com/knowledge/case_studies/routers/soho_service_hacks.php) to reduce attack surface.
 **Disable WiFi on all Devices** | Advanced | Connecting to even a secure WiFi network increases your attack surface. Disabling your home WiFi and connect each device via Ethernet, and turning off WiFi on your phone and using a USB-C/ Lightening to Ethernet cable will protect against WiFi exploits, as Edward Snowden [says here](https://twitter.com/snowden/status/1175431946958233600?lang=en).
+
+**Recommended Software** 
+- [Virtual Private Networks](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#virtual-private-networks)
+- [Mix Networks](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#mix-networks)
+- [Open Source Proxies](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#proxies)
+- [DNS Providers](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#dns)
+- [Firewalls](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#firewalls)
+- [Network Analysis Tools](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#network-analysis)
 
 
 ## Mobile Devices
@@ -164,6 +189,7 @@ SMS texting and traditional phone calls are not secure, so it's imprortant to av
 **Consider Orbot** | Advanced | [Orbot](https://guardianproject.info/apps/orbot/) provides a system-wide [Tor](https://www.torproject.org/) connection. Although more secure than a VPN, it may be slower- see [Networking](#networking) section for more details.
 **Consider running a custom ROM if you have an Android device** | Advanced | Your default OS tracks information about your usage, and app data, constantly. Consider a security-focused custom ROM, such as [Lineage](https://lineageos.org) or [CopperheadOS](https://copperhead.co/android/).
 
+**See also** [Recommended Mobile Apps, for Security + Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#mobile-apps)
 
 ## Personal Computers
 
@@ -183,6 +209,9 @@ Although Windows and OS X are easy to use and convenient, they both are far from
 **Password protect your BIOS and drives** | Advanced | A BIOS or UEFI password helps to make an inexperienced hackers life a bit harder if they get a hold of your PC or hard drive, [here is a guide on how to do it](https://www.howtogeek.com/186235/how-to-secure-your-computer-with-a-bios-or-uefi-password/).
 **Canary Tokens** | Advanced | Network breaches happen, but the longer it takes for you to find out about it, the more damage is done. A canary token is like a hacker honeypot, something that looks appealing to them once they've gained access to your system. When they open the file, unknowingly to them, a script is run which will not only alert you of the breach, but also grab some of the hackers system details. <br>[CanaryTokens.org](https://canarytokens.org/generate) and [BlueCloudDrive](https://blueclouddrive.com/generate) are excellent sites, that you can use to generate your tokens. Then just leave them somewhere prominent on your system. [Learn more](https://blog.thinkst.com/p/canarytokensorg-quick-free-detection.html) about canary tokens, or see [this guide](https://resources.infosecinstitute.com/how-to-protect-files-with-canary-tokens/) for details on how to create them yourself.
 
+**Recommended Software**
+- [AV and Malware Prevention](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#anti-virus-and-malware-prevention)
+- [Operating Systems](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#operating-systems)
 
 ## Smart Home
 
@@ -207,6 +236,10 @@ The most privacy-respecting option, would be to not use "smart" internet-connect
 **Monitor your home network closely** | Optional | Check your local network for suspicious activity. One of the easier methods to do this is with [FingBox](https://amzn.to/38mdw8F), but you can also do it directly [through some routers](https://www.howtogeek.com/222740/how-to-the-monitor-the-bandwidth-and-data-usage-of-individual-devices-on-your-network/). 
 **Denny internet access where possible** | Advanced | If possible deny the device/ app internet access, and use it only on your local network. You can configure a firewall to block certain devices from sending or receiving from the internet. 
 **Assess risks** | Advanced | Assess risks with your audience and data in mind: Be mindful of whose data is being collected, e.g. kids. Manage which devices can opperate when (such as turning cameras off when you are at home, or disabling the internet for certain devices at specific times of day)
+
+**Recommended Software**
+- [Home Automation](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#home-automation)
+- [AI Voice Assistants](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#ai-voice-assistants)
 
 
 ## Sensible Computing
