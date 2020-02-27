@@ -8,7 +8,7 @@ Like most open source projects, this list exists because of contributer like you
 I would like to personally thank you for taking the time to further this list, and also for checking the contributing policy.
 
 If you would like something added, ammended or removed from this list, you can either raise an issue, or submit a pull request.
-When submitting a PR to this repository, it's best to first discuss the changes with another contributer.
+When submitting a PR to this repository, it's best to first discuss the changes with another contributor.
 
 We have a code of conduct (see below), that is adapted from [Contributor Covenant](https://www.contributor-covenant.org/),
 please follow it in all your interactions with the project.
