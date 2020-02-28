@@ -26,28 +26,31 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 
 
 ## Resources
-- Tips for safer online communications: https://ssd.eff.org/
+- Tips for safer online communications: https://ssd.eff.org
 - Tools to protect agains mass surveillance: https://www.privacytools.io
-- Secure app alternatives: https://prism-break.org/en/all/
+- Secure app alternatives: https://prism-break.org/en/all
 - Guides for securing mobile, web and home tech https://bit.ly/2ptl4Wm
 - Complete guide to secure email: https://emailselfdefense.fsf.org
 - Check which websites support 2FA: https://twofactorauth.org
+- Great advise for beginners: https://securityplanner.org
 
 
 ## Foundations
-- Contract for the Web: https://contractfortheweb.org/
-- Electronic Frountier Foundation, Defending digital privacy + more: https://www.eff.org/
+- Contract for the Web: https://contractfortheweb.org
+- Electronic Frountier Foundation, Defending digital privacy + more: https://www.eff.org
 - OWASP Foundation: https://www.owasp.org
 - The Privacy Project, by the NYT: https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html
-- Freedom House, Fighting for freedom on the net: https://freedomhouse.org/
-- Privacy International: https://privacyinternational.org/
-- Open Tech Fund: https://www.opentech.fund/
-- Freedom of the Press Foundation: https://freedom.press/
-- Open Rights Group: https://www.openrightsgroup.org/
-- LEAP Encryption Access Project: https://leap.se/
+- Freedom House, Fighting for freedom on the net: https://freedomhouse.org
+- Privacy International: https://privacyinternational.org
+- Open Tech Fund: https://www.opentech.fund
+- Freedom of the Press Foundation: https://freedom.press
+- Open Rights Group: https://www.openrightsgroup.org
+- LEAP Encryption Access Project: https://leap.se
 - The Guardian Project: https://guardianproject.info
 - Foundation for Applied Privacy: https://applied-privacy.net
 - Safe + Secure (advise for journalists and film makers): https://safeandsecure.film
+- Citizen Lab: https://citizenlab.ca
+
 
 
 ## How-To Guides and Specific Articles
@@ -62,7 +65,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - How to enable DNS over HTTPS: https://geekwire.co.uk/privacy-and-security-focused-dns-resolver
 - How to resolve DNS leak issue: https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html 
 - Windows data sending: https://thehackernews.com/2016/02/microsoft-windows10-privacy.html
-- Nym- Next Generation of Privacy infrastructure: https://as93.link/nym-blog-post
+- How to spot a phishing attack: https://ssd.eff.org/en/module/how-avoid-phishing-attacks
 
 
 ## Blogs
@@ -112,6 +115,8 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 ## Implementations and Standards
 - The GNU Privacy Guard: https://www.gnupg.org/
 - OpenPGP JavaScript Implementation: https://openpgpjs.org/
+- Nym- Next Generation of Privacy infrastructure: https://as93.link/nym-blog-post
+
 
 
 ## Government Cyber Security Organisations
@@ -123,6 +128,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - NixNet: https://nixnet.services
 - Snopyta: https://snopyta.org
 - Disroot: https://disroot.org
+
 
 
 ## Online Tools
@@ -148,7 +154,8 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - https://www.ivpn.net/privacy-guides
 - https://proprivacy.com/guides/the-ultimate-privacy-guide
 - https://heimdalsecurity.com/blog/cyber-security-mega-guide
-
+- https://www.wired.com/2017/12/digital-security-guide
+- https://www.vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide
 
 ## Other GitHub Security Lists
 - privacy-respecting by @nikitavoloboev: https://github.com/nikitavoloboev/privacy-respecting
@@ -158,7 +165,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 
 ---
 
-*Contributions are welcome, and appreciated - to propose an edit [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
+*Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 
 *Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
 
