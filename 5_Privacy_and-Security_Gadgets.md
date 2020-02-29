@@ -74,12 +74,16 @@ If you are confident with electronics, then you could also make:
 - **Headless Pi Zero SSH server** - Create an small test server, that you can SSH into for development, in order to not have to run risky or potentially dangerous code or software directly on your PC, see [this artticle](https://openpunk.com/post/5) for getting started
 
 
-## Security Gadgets
+## Fun Security Gadgets
+
+We can go even further, these products are far from essential and are maybe a little over-the-top. But fun to play around with, if you really want to avoid being spied on!
 
 - **Card Skimmer Detector** - Ensure an ATM or card reader does not have an integrated skimming device. See more at [Lab401](https://lab401.com/products/hunter-cat-card-skimmer-detector)
 - **Voice Changer** - Useful to disguise voice, while chatting online. See more: [UK](https://amzn.to/3bXqpsn) | [US](https://amzn.to/2PqUEyz)
 - **Ultra-Sonic Microphone Jammer** - Blocks phones, dictaphones, voice assistants and other recording devices. Uses built-in transducers to generate ultrasonic signals that can not be heard by humans, but cause indistinct noise, on redording devices, making it impossible to distinguish any details of the conversations. See more [UK](https://amzn.to/2Hnk63s) | [US](https://amzn.to/2v2fwVG)
 - **Reflective Glasses** - Blocks faces from most CCTV and camera footage, and stops facial recognition from being able to map your face. See more: [Reflectacles](https://www.reflectacles.com)
 - **Bug Detector** - Able to  detect radio waves, magnetic fields,  in order to find hidden wired or wireless recording or camera equipment and transmitting devices, Note: has limited accuracy. See more: [UK](https://amzn.to/2V8z8C1) | [US](https://amzn.to/2V9AnkI)
+- **Active RFID Jamming** - Armour Card is a slim credit-card shaped device, which when in contact with any readers creates an electronic force field, strong enough to "jam" and readings from being taken by emmiting arbitrary data. Aimed at protecting cred cards, identity documents, key cards and cell phones. [US](https://amzn.to/38bJxB9) | [ArmourCard Website](https://armourcard.com)
 - **Anti-Facial Recognition Clothing** - Carefully printed patterns that confuse common facial recognition algorithms. See more: [Amazon UK](https://amzn.to/32dnYgO) | [Redbubble](https://www.redbubble.com/people/naamiko/works/24714049-anti-surveillance-clothing?p=mens-graphic-t-shirt) | [Monoza](https://www.monoza.mobi/hyperface-anti-surveillance-shirt/?sku=1045-19321-423696-174028)
 - **Tor Travel-Router** - Plug-and-play travel router, providing WiFi with VPN or Tor for more private internet access, also has Wi-Fi uplink and range extender with a clear user interface. See more: [Anonabox.com](https://www.anonabox.com) | [Amazon](https://amzn.to/2HHV0fG)
+- **GPS Jammer** - In the DIY list, there was a link to how to build a GPS spoof device using an SDR. But you can also buy a GPS jammer, which may be useful if you fear that you are being tracked. They are aimed at preventing UAVs from operating in your area, but can also be used to confuse other tracking devices near by, there's a variety of models with varying power and range availible from $50 - $500. [AliExpress](https://www.aliexpress.com/item/4000214903055.html)
