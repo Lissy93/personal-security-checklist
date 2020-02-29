@@ -19,6 +19,8 @@
 - [Basics](#basics)
 - [DIY Security Products](#diy-security-products)
 - [Paranoid Security Gadgets](#paranoid-security-gadgets)
+- [Network Security](#network-security)
+- [Hardware Encrypted Storage](#hardware-encrypted-storage)
 
 
 
@@ -54,7 +56,8 @@
 Don't want to spend money? Most of the products above, plus some that wearn't included can be built at home with some pretty simple hardware and open source software. The following list will point you in the right direction to start making!
 
 - **Network-wide add-block** - [Pi Hole](https://pi-hole.net) is a simple yet powerful app, that can be installed on a [Raspberry Pi](https://amzn.to/36GNpsm), and once you've updated your routers DNS servers to point to it, all resources on the blacklist will be blocked, at the point of origin. This makes it much more powerful than a browser add-on, and will also speed your internet up
-- **Encrypted USB** - You can use [VeraCrypt](https://www.veracrypt.fr/en/Home.html) to create an encrypted USB drive, using any off-the shelf [USB drive](https://amzn.to/2RykcLD) 
+- **Encrypted USB** - You can use [VeraCrypt](https://www.veracrypt.fr/en/Home.html) to create an encrypted USB drive, using any off-the shelf [USB drive](https://amzn.to/2RykcLD)
+- **USB Sanitiser** - [CIRCLean](https://www.circl.lu/projects/CIRCLean) is a hardware solution to clean documents from untrusted (obtained) USB drives. It automatically converts untrusted documents into a readable but disarmed format and stores these clean files on a trusted (user owned) USB key/stick.
 - **Home VPN** - [Pi_VPN](https://www.pivpn.io) lets you use [OpenVPN](https://openvpn.net) to connect to your home network from anywhere, through your [Pi](https://amzn.to/2uniPqa). See [this guide](https://pimylifeup.com/raspberry-pi-vpn-server) for set-up instructions. This will work particularly well in combination with Pi Hole.
 - **USB Password Manager** - Storing your passwords in the cloud may be convinient, but you cannot ever be certain they won't be breached. [KeePass](https://keepass.info/help/v2/setup.html) is an offline password manager, with a portable ddition that can run of a USB. There's also an [app](https://play.google.com/store/apps/details?id=com.korovan.kpass). See also [KeePassX](https://www.keepassx.org) and [KeePassXC](https://keepassxc.org) which are popular communnity forks with additional functionality
 - **Automated Backups** - [Syncthing](https://syncthing.net) is a privacy-focused continuous file synchronization program. You can use it to make on-site backups as well as encrypted and sync your data with your chosen cloud storage provider
@@ -87,6 +90,35 @@ We can go even further, these products are far from essential and are maybe a li
 - **GPS Jammer** - In the DIY list, there was a link to how to build a GPS spoof device using an SDR. But you can also buy a GPS jammer, which may be useful if you fear that you are being tracked. They are aimed at preventing UAVs from operating in your area, but can also be used to confuse other tracking devices near by, there's a variety of models with varying power and range availible from $50 - $500. [AliExpress](https://www.aliexpress.com/item/4000214903055.html)
 - **Faraday Cases** - A Faraday cage or Faraday shield is an enclosure used to block electromagnetic fields. This can be really useful for electronics, since many devices are constantly transmitting and recieving, which is the worst when you are trying to avoid being tracked. Their have been numerous reportings that governments can apparently track phones, even when they are [powered off](https://slate.com/technology/2013/07/nsa-can-reportedly-track-cellphones-even-when-they-re-turned-off.html), and since smart phones often do not have removable batteries, the only option is often to shield them from any em waves. See [SilentPocket.com](https://silent-pocket.com/collections/all-products) | [Faraday Box](https://amzn.to/3cj9z7r) | [Faraday Phone Pouch](https://amzn.to/38faum5)
 
+
+## Network Security
+
+Gadgets that help protect and anonamise your internet, detect & prevent intrusions and provide additional network controlls, both at home and while traveling. There are many products like this availible, some of them are over-priced for what they are, others provide some really essential network security features. It is possible to re-create some of these solutions yourself, to save money [above](#diy-security-products).
+
+- **Anonabox** - Plug-and-play Tor router. Wi-Fi uplink and range extender with user interface, also has VPN options and USB ports for local file sharing.  [Amazon](https://amzn.to/38bwZIA) | [Anonabox.com](anonabox.com)
+- **FingBox** - Network monitoring and security, for what it offers Fing is very affordable, and there is a free [app](https://www.fing.com/products/fing-app) that you can use before purchasing the hardware to get started. [Fing.com](https://www.fing.com/products/fingbox) | [US](https://amzn.to/2wlXfCT) | [UK](https://amzn.to/2I63hKP)
+- **BitdefenderBox** - Cybersecurity home firewall hub, for protecting IoT and other devices. Has other features such as parental controlls and is easy to set up. [US](https://amzn.to/2vrurZJ) | [UK](https://amzn.to/34Ul54w)
+- **Trend Micro Box** - Protect home networks from external and internal cyber attacks. Detects intrusions, vulnrabbilities, remote access, web threats and provides other security features. [US](https://amzn.to/2wk3Y0s) | [US](https://amzn.to/2uqX4Wv)
+- **AlwaysHome Duo** - USB VPN with accelerated virtual networking to your home or office network, crossing geo-blocking and firewall mechanisms. [US](https://amzn.to/2Ts6oSn) | [UK](https://amzn.to/3bi4cF0)
+- **Firewalla Red** - An intrusion detection and intrusion prevention system, with a web and mobile interface. Also has Ad-block, VPN, internet controll features and insights. [US](https://amzn.to/388BlAw) | [Firewalla.com](https://firewalla.com)
+- **LibertyShield** - Pre-configured, plug-and-play multi-country VPN router, note that after 1 year there is a monthly subscription. [US](https://amzn.to/2T89vzU) | [UK](https://amzn.to/2twJlwM)
+- **Gigabit Travel AC VPN Router** - A fully-featured dual-band travel router with VPN capabilities. [US](https://amzn.to/32HD1zU) | [UK](https://amzn.to/2SkUxFg)
+- **InvizBox** - Tor router, that provides speed, privacy and security for all devices connected to it. [Invizbox.com](https://www.invizbox.com) | [Amazon](https://amzn.to/2w4v7V3) 
+- **InviziBox Go** - Portable VPN: https://amzn.to/386ikPT
+- **WatchGuard Firebox** - Business-grade network firewall. [US](https://amzn.to/2VF0MqR) | [UK](https://amzn.to/2VF12WR)
+
+#### DIY Networking Hardware
+- **[Pi-Hole](https://pi-hole.net)** - Network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole. Pi-Hole can significantly speed up your internet, remove ads and block malware. It comes with a nice web interface and a mobile app with monitoring features, it's open source, easy to install and very widley used
+- **[IPFire](https://www.ipfire.org)** - A hardened, versatile, state-of-the-art open source firewall based on Linux. Its ease of use, high performance and extensibility make it usable for everyone
+- **[PiVPN](https://pivpn.io)** - A simple way to set up a home VPN on a any Debian server. Supports OpenVPN and WireGuard with elliptic curve encryption keys up to 512 bit. Supports multiple DNS providers and custom DNS provividers- works nicley along-side PiHole
+- **[E2guardian](http://e2guardian.org)** - Powerful open source web content filter
+- **[SquidGuard](http://www.squidguard.org)** - A URL redirector software, which can be used for content control of websites users can access. It is written as a plug-in for Squid and uses blacklists to define sites for which access is redirected
+- **[PF Sense](https://www.pfsense.org)** - Widley used, open source firewall/router
+- **[Zeek](https://www.zeek.org)** -  Detect if you have a malware-infected computer on your network, and powerful network analysis framework and monitor
+
+[See more](https://geekflare.com/best-open-source-firewall) open source firewall apps
+
+For most projects, a Raspberry Pi 3 or 4 is more than enough. You could also build your own hardware, see [this guide](https://www.instructables.com/id/Build-your-own-gateway-firewall) on constructing a gateware firewall yourself.
 
 
 ## Hardware Encrypted Storage
