@@ -75,9 +75,9 @@ If you are confident with electronics, then you could also make:
 - **Headless Pi Zero SSH server** - Create an small test server, that you can SSH into for development, in order to not have to run risky or potentially dangerous code or software directly on your PC, see [this artticle](https://openpunk.com/post/5) for getting started
 
 
-## Fun Security Gadgets
+## Paranoid Security Gadgets
 
-We can go even further, these products are far from essential and are maybe a little over-the-top. But fun to play around with, if you really want to avoid being spied on!
+We can go even further, these products are far from essential and are maybe a little over-the-top. But fun to play around with, if you really want to avoid being tracked!
 
 - **Card Skimmer Detector** - Ensure an ATM or card reader does not have an integrated skimming device. See more at [Lab401](https://lab401.com/products/hunter-cat-card-skimmer-detector)
 - **Voice Changer** - Useful to disguise voice, while chatting online. See more: [UK](https://amzn.to/3bXqpsn) | [US](https://amzn.to/2PqUEyz)
@@ -88,3 +88,29 @@ We can go even further, these products are far from essential and are maybe a li
 - **Anti-Facial Recognition Clothing** - Carefully printed patterns that confuse common facial recognition algorithms. See more: [Amazon UK](https://amzn.to/32dnYgO) | [Redbubble](https://www.redbubble.com/people/naamiko/works/24714049-anti-surveillance-clothing?p=mens-graphic-t-shirt) | [Monoza](https://www.monoza.mobi/hyperface-anti-surveillance-shirt/?sku=1045-19321-423696-174028)
 - **Tor Travel-Router** - Plug-and-play travel router, providing WiFi with VPN or Tor for more private internet access, also has Wi-Fi uplink and range extender with a clear user interface. See more: [Anonabox.com](https://www.anonabox.com) | [Amazon](https://amzn.to/2HHV0fG)
 - **GPS Jammer** - In the DIY list, there was a link to how to build a GPS spoof device using an SDR. But you can also buy a GPS jammer, which may be useful if you fear that you are being tracked. They are aimed at preventing UAVs from operating in your area, but can also be used to confuse other tracking devices near by, there's a variety of models with varying power and range availible from $50 - $500. [AliExpress](https://www.aliexpress.com/item/4000214903055.html)
+- **Faraday Cases** - A Faraday cage or Faraday shield is an enclosure used to block electromagnetic fields. This can be really useful for electronics, since many devices are constantly transmitting and recieving, which is the worst when you are trying to avoid being tracked. Their have been numerous reportings that governments can apparently track phones, even when they are [powered off](https://slate.com/technology/2013/07/nsa-can-reportedly-track-cellphones-even-when-they-re-turned-off.html), and since smart phones often do not have removable batteries, the only option is often to shield them from any em waves. See [SilentPocket.com](https://silent-pocket.com/collections/all-products) | [Faraday Box](https://amzn.to/3cj9z7r) | [Faraday Phone Pouch](https://amzn.to/38faum5)
+
+
+
+## Hardware Encrypted Storage
+
+Hardware-based encryption uses a device’s on-board security to perform encryption and decryption. It is self-contained and does not require the help of any additional software. Therefore, it is essentially free from the possibility of contamination, malicious code infection, or vulnerability, and able to be used on any platform.
+
+If the device itself becomes compromised, your data will remain safe. Really useful backing up, transporting and sharing personal data safely. For maximum security, you can combine hardware encryption with software encryption.
+
+Reliable options include:
+
+- AES Hardware encrypted USB 3.0 external hard drive enclosure for HDD or SSD: [US]() | [UK](https://amzn.to/2GM3GkB)
+- Integral 256-bit AES USB 3.0 (Software required), 16GB, 32GB, 64GB. [US]() | [UK](https://amzn.to/37vpyNb)
+- iStorage 256-bit AES USB 3.0 Pro (Hardware Encrypted), with keypad, 8GB, 16GB, 32GB, 64GB. [US](https://amzn.to/2T9wTgo) | [UK](https://amzn.to/2O1OPXu)
+- IornKey Rugged Enterprise-grade encrypted USB Pen, 4GB, 8GB, 16GB, 32GB, 64GB, 128GB. [US](https://amzn.to/2wYWQH2) | [UK](https://amzn.to/3cjsnUi)
+- iStorage 256-bit AES USB 3.0 Personal (Hardware Encrypted), with keypad, 8GB, 16GB, 32GB, 64GB. [US](https://amzn.to/2I99c1G) | [UK](https://amzn.to/38GzHqo)
+- Lexar JumpDrive Fingerprint USB 3.0 (Software required), 32GB, 64GB, 128GB, 256GB. [US](https://amzn.to/38b0eeP) | [UK](https://amzn.to/2GtipRC)
+- iStorage 256-bit Hardware Encrypted external USB 3.1 SSD Drive. 128GB, 256GB, 512GB, 1TB. [UK](https://amzn.to/37wkhVA)
+- iStorage 256-bit Hardware Encrypted external USB 3.1 HDD Drive. 1TB, 2TB, 3TB, 4TB. [US](https://amzn.to/32DI4RA) | [UK](https://amzn.to/37vpFYN)
+   
+
+*Alternatively, a cheaper option would be a software-encrypted USB. [VeraCrypt](https://www.veracrypt.fr/en/Home.html) is cross-platform open source encryption application. It's surprisingly simple (see [this how-to guide](https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt)), and very secure. Combine this with an ordinary USB drive, this [high-speed (300mb/s) 256GB flash drive](https://amzn.to/2RykcLD) is a great option*
+
+*For encryption your boot drive, you can use [BitLocker](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) (Windows), [FileVault](https://support.apple.com/en-us/HT204837) (OSX), or any of these [options](https://www.tecmint.com/file-and-disk-encryption-tools-for-linux)  for Linux.*
+
