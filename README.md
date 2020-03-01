@@ -2,11 +2,18 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
+
 # Personal Security Checklist
 
 > A curated checklist of tips to protect your dgital security and privacy
 
 **Too long? 🦒** See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/master/2_TLDR_Short_List.md) instead.
+
+#### See Also
+- [Why Privacy & Security Matters](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
+- [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md)
+- [Privacy & Security Gadgets](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_and-Security_Gadgets.md)
+- [Further Links + More Awesome Stuff](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
 
 ## Contents
 
@@ -273,23 +280,39 @@ Many data breaches, hacks and attacks are caused by human error. The following l
 
 **See also**: [Online Tools](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#online-tools)
 
+----
 
----
+#### There's more to check out!
+- [Why Privacy & Security Matters](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
+- [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md)
+- [Privacy & Security Gadgets](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_and-Security_Gadgets.md)
+- [Further Links + More Awesome Stuff](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
+
+----
 
 ## Notes
 
-*Thank you for taking the time to browse this list, I hope the content here was useful. If you have any feedback, feel free to email me at alicia@as93.net.*
-
-*Contributions are welcome, and would be much appreciated - to suggest an edit you can [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or upload changes by [opening a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). There are some contributing guidelins in [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
+*Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 
 *I owe a lot of thanks others who've conducted research, written papers, developed software all in the interest of privacy and security. Full attributions and referenses found in [`ATTRIBUTIONS.md`](/ATTRIBUTIONS.md).*
 
 *Disclaimer: This is not an exhaustive list, and aims only to be taken as guide.*
 
-*© [Alicia Sykes](https://aliciasykes.com) 2020, Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE.md`](/LICENSE.md)*
+*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
 
-![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)
+[![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE.md)
+
 
 <a href="https://twitter.com/intent/follow?screen_name=Lissy_Sykes">
   <img src="https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter" alt="Follow Alicia Sykes on Twitter">
 </a>
+
+----
+
+Found this helpful? Consider sharing it with others, to help them also improvde their digital security 😇
+
+[![Share on Twitter](https://i.ibb.co/2hqF59H/share-twitter.png)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on LinkedIn](https://i.ibb.co/9Ngh9jg/share-linkedin.png)](
+http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
+[![Share on Facebook](https://i.ibb.co/cc6tFVj/share-facebook.png)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+[![Share on Pinterest](https://i.ibb.co/x8L70b0/share-pinterest.png)](https://pinterest.com/pin/create/button/?url=https%3A//repository-images.githubusercontent.com/123631418/79c58980-3a13-11ea-97e8-e45591ef2d97&media=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&description=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020)
