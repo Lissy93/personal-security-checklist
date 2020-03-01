@@ -143,3 +143,19 @@ Reliable options include:
 
 *For encryption your boot drive, you can use [BitLocker](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) (Windows), [FileVault](https://support.apple.com/en-us/HT204837) (OSX), or any of these [options](https://www.tecmint.com/file-and-disk-encryption-tools-for-linux)  for Linux.*
 
+
+
+## USB Data Blockers
+
+Small, low-cost but essential devise. It attaches inbetween your USB cable and the charging socket, and will physically block data transfer and syncing while charging. Totally mitigates the risk of being hacked via a USB exploit, and stops anything being uploaded to your device.
+
+- PortaPow 3rd Gen, USB A, 2-Pack. [Red](https://amzn.to/39aStqE) | [White](https://amzn.to/2TqXl4i) | [Black](https://amzn.to/38imYd2)
+- PortaPow Dual USB Power Monitor with Data Blocker, usful for monitoring power consumption and managing which devices are allowed data connections. [US](https://amzn.to/2I7HT7J) | [UK](https://amzn.to/3chnWcJ) 
+- Privise USB A Data Blocker. [US](https://amzn.to/3cig0rr) | [UK](https://amzn.to/2VAbX3K)
+- Data-only Micro-USB cable. Be sure that it is actually data-only, you can count the pins at each end. Again PortaPow make a legitimate safe-charge cable [US](https://amzn.to/2Tq09ys) | [UK](https://amzn.to/38chHDF)
+
+
+PortaPow (3rd gen) is one of the best options, since it has a SmartCharge chip (which isn't usually possible without the data wire). Availible from [PortablePowerSupplies.co.uk](https://portablepowersupplies.co.uk), [Amazon UK](https://amzn.to/3cifmKx), [Amazon US](https://amzn.to/39enIAW) (ignore sponsored results)
+
+Word of Warning: Sometimes the cable itself can be dangerous. See [O.M.G Cable](https://shop.hak5.org/products/o-mg-cable), it looks like a totally authentic phone cable, but is actually able to deploy advanced exploits often without you being able to identify. It is always best label your cables, to ensure you are using your own, safe wire.
+
