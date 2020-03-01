@@ -21,7 +21,8 @@
 - [Paranoid Security Gadgets](#paranoid-security-gadgets)
 - [Network Security](#network-security)
 - [Hardware Encrypted Storage](#hardware-encrypted-storage)
-
+- [USB Data Blockers](#usb-data-blockers)
+- [FIDO U2F Keys](#fido-u2f-keys)
 
 
 ## Basics
@@ -155,7 +156,23 @@ Small, low-cost but essential devise. It attaches inbetween your USB cable and t
 - Data-only Micro-USB cable. Be sure that it is actually data-only, you can count the pins at each end. Again PortaPow make a legitimate safe-charge cable [US](https://amzn.to/2Tq09ys) | [UK](https://amzn.to/38chHDF)
 
 
-PortaPow (3rd gen) is one of the best options, since it has a SmartCharge chip (which isn't usually possible without the data wire). Availible from [PortablePowerSupplies.co.uk](https://portablepowersupplies.co.uk), [Amazon UK](https://amzn.to/3cifmKx), [Amazon US](https://amzn.to/39enIAW) (ignore sponsored results)
+PortaPow (3rd gen) is one of the best options, since it has a SmartCharge chip (which isn't usually possible without the data wire).
+
+You can also build your own very easily, [here is a schematic](https://www.electroschematics.com/diy-usb-condom-circuit).
 
 Word of Warning: Sometimes the cable itself can be dangerous. See [O.M.G Cable](https://shop.hak5.org/products/o-mg-cable), it looks like a totally authentic phone cable, but is actually able to deploy advanced exploits often without you being able to identify. It is always best label your cables, to ensure you are using your own, safe wire.
 
+
+## FIDO U2F Keys
+
+Using a physical 2-factor authentication key can greatly improve the security of your online accounts. See [twofactorauth.org](https://twofactorauth.org) for a list of websites that provide 2FA.
+
+- Yubico USB A + NFC Key, classic key with solid reputation. [UK](https://amzn.to/38ddnUG) | [US]() | [Yubico](https://www.yubico.com/store)
+- YubiKey 5 Mobile and Nano Keys. [USB A Nano](https://amzn.to/2wkCmbe) | [USB C](https://amzn.to/2VGkClz) | [USB C Nano](https://amzn.to/39b2zYA)
+- Thetis - Durable. mobile-friendly USB-A FIDO U2F Key. [US](https://amzn.to/39f6Dqu) | [UK](https://amzn.to/3cm9xvK) | [Thetis.io](https://thetis.io)
+- Solo Key is an open source U2F and FIDO2 key, USB A + NFC. [US](https://amzn.to/39cJR2P) | [UK](https://amzn.to/3ajnBo0) | [SoloKeys.com](https://solokeys.com)
+- OnlyKey is a pin-protected hardware password manager with FIDO2/ U2F. It allows a user to log in without a password or typing out a 2FA code. [OnlyKey.com](onlykey.io/alicia) | [US](https://amzn.to/38blkd3) | [UK](https://amzn.to/3clwTli)
+
+The Verge has a good [article](https://www.theverge.com/2019/2/22/18235173/the-best-hardware-security-keys-yubico-titan-key-u2f) comparing hardware keys. 
+
+If you are interested in reserarching how to build your own key, see [U2f-Zero](https://github.com/conorpp/u2f-zero) by Conor Patrick, lets you turn a Pi Zero into a second-factor auth method. Note: project no longer activley maintained, see [NitroKey](https://github.com/nitrokey) instead
