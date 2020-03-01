@@ -94,6 +94,26 @@ There are also some gadgets can help improve your physical and digital security.
 
 📜 **See More**: [Privacy and Security Gadgets](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_and-Security_Gadgets.md)
 
+----
+
+*Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
+
+*Found this helpful? Consider sharing it with others, to help them also improvde their digital security* 😇
+
+[![Share on Twitter](https://i.ibb.co/pypyYMJ/share-twitter.png)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on LinkedIn](https://i.ibb.co/2ScNMJY/share-linkedin.png)](
+http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
+[![Share on Facebook](https://i.ibb.co/J2DXDNf/share-facebook.png)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+[![Share on Pinterest](https://i.ibb.co/ZVgcTC9/share-pinterest.png)](https://pinterest.com/pin/create/button/?url=https%3A//repository-images.githubusercontent.com/123631418/79c58980-3a13-11ea-97e8-e45591ef2d97&media=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&description=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020)
+
+
+*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
+
+<a href="https://twitter.com/intent/follow?screen_name=Lissy_Sykes">
+  <img src="https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter" alt="Follow Alicia Sykes on Twitter">
+</a>
+
+
 [//]: # (SECURITY SOFTWARE LINKS)
 [BitWarden]: https://bitwarden.com
 [1Password]: https://1password.com
