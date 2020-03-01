@@ -23,6 +23,7 @@
 - [Hardware Encrypted Storage](#hardware-encrypted-storage)
 - [USB Data Blockers](#usb-data-blockers)
 - [FIDO U2F Keys](#fido-u2f-keys)
+- [Crypto Wallets](#crypto-wallets)
 
 
 ## Basics
@@ -176,3 +177,15 @@ Using a physical 2-factor authentication key can greatly improve the security of
 The Verge has a good [article](https://www.theverge.com/2019/2/22/18235173/the-best-hardware-security-keys-yubico-titan-key-u2f) comparing hardware keys. 
 
 If you are interested in reserarching how to build your own key, see [U2f-Zero](https://github.com/conorpp/u2f-zero) by Conor Patrick, lets you turn a Pi Zero into a second-factor auth method. Note: project no longer activley maintained, see [NitroKey](https://github.com/nitrokey) instead
+
+
+
+## Crypto Wallets
+
+The most secure medium to store your currency is cold (offline) wallets, since they cannot be hacked. Of course it is vital that you keep your private keys somewhere that they cannot be stolen, and cannot be lost or destroyed. Electronic devices can make it easy to securely store and spend crypto currency. Choose a wallet that is open source, and with a good reputation. Ensure you backup your seed, and keep it somewhere safe.
+
+- Trezor is fully open source and implements a firmware-based security on top of known hardware. [Trezor.com](https://trezor.io)
+- Ledger takes a more black box approach, but their devices are very well tested and secure. They are also easy to use and durable, with good support for a range of crypto. [Ledger.com](https://shop.ledger.com/pages/hardware-wallets-comparison)
+- Indestructible Steel Wallet, for private key. [US](https://amzn.to/2Px0EFV) | [UK](https://amzn.to/2VLeVmr)
+
+Always ensure the packaging has not been tampered with, buy direct from the manufacturer when possible.
