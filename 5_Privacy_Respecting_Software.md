@@ -5,12 +5,13 @@
 # Privacy & Security-Focused Software and Services
 > A curated list of privacy-respecting apps, software, and providers 🔐
 
-**Too long? 🦒** See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/master/2_TLDR_Short_List.md#open-source-privacy-focused-software) instead.
+**Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md#open-source-privacy-focused-software) instead.
 
 #### See Also
-- [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
-- [Further Links: Privacy & Security](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
-- [The Importance of Digital Security & Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
+- [Personal Security Checklist](/README.md)
+- [Gadgets for Privacy & Security](/6_Privacy_and-Security_Gadgets.md)
+- [Further Links: Privacy & Security](/4_Privacy_And_Security_Links.md)
+- [The Importance of Digital Security & Privacy](/0_Why_It_Matters.md)
 
 ---
 
@@ -262,13 +263,16 @@ VPNs are good for getting round censorship, increasing protection on public WiFi
 
 
 #### Other VPN Options
-[Perfect Privacy](https://www.perfect-privacy.com/en/features?a_aid=securitychecklist) -- [TorGuard](https://torguard.net/aff.php?aff=6024) -- [IVPN](https://www.ivpn.net/) -- [PureVPN](https://www.anrdoezrs.net/click-9242873-13842740) -- [NordVPN](https://www.kqzyfj.com/l5115shqnhp4E797DC8467D69A6D) -- [SwitchVPN](https://secure.switchkonnect.com/aff.php?aff=1374) -- [Safer VPN](https://safervpn.com/?a_aid=1413) -- [VirtualShield](https://virtualshield.com/?rfsn=3739717.4cba76) -- [Private Internet Access](https://www.privateinternetaccess.com/pages/cafe/digidef) -- [VPN.ac](https://vpn.ac/aff.php?aff=2178) -- [WindScribe](https://windscribe.com/?affid=6nh59z1r) -- [VyperVPN](https://www.dpbolvw.net/click-9242873-13805759)
+
+[AirVPN](https://airvpn.org) has advanced fatures and is highly customizable, [WindScribe](https://windscribe.com/?affid=6nh59z1r) also has a ton of features as well as anonymous sign up, yet is very easy to use for all audiences with excellant cross-platform apps. See also:
+[Perfect Privacy](https://www.perfect-privacy.com/en/features?a_aid=securitychecklist) -- [TorGuard](https://torguard.net/aff.php?aff=6024) -- [IVPN](https://www.ivpn.net/) -- [PureVPN](https://www.anrdoezrs.net/click-9242873-13842740) -- [NordVPN](https://www.kqzyfj.com/l5115shqnhp4E797DC8467D69A6D) -- [SwitchVPN](https://secure.switchkonnect.com/aff.php?aff=1374) -- [Safer VPN](https://safervpn.com/?a_aid=1413) -- [VirtualShield](https://virtualshield.com/?rfsn=3739717.4cba76) -- [Private Internet Access](https://www.privateinternetaccess.com/pages/cafe/digidef) -- [VPN.ac](https://vpn.ac/aff.php?aff=2178) -- [VyperVPN](https://www.dpbolvw.net/click-9242873-13805759)
 
 **Full VPN Comparison**: [thatoneprivacysite.net](https://thatoneprivacysite.net/).
 
 #### Word of Warning
 - *A VPN does not make you anonymous- it merely chnages your IP accress to that of your VPN provider, instead of ISP. Your browsing session can still be linked back to your real identity either through your system details (such as user agent, screen resolution even typing patterns), cookies/ session storage, or by the identifiable data that you enter. [Read more about fingerprinting](https://pixelprivacy.com/resources/browser-fingerprinting/)*
 - *Logging- If you choose to use a VPN because you do not agree with your ISP logging your full browsing history, then it is important to keep in mind that your VPN provider can see (and mess with) all your traffic. Many VPNs claim not to keep logs, but you cannot be certain of this. See [this article](https://gist.github.com/joepie91/5a9909939e6ce7d09e29) for more*
+- *Many reviews are sponsored, and hense biased. Do your own research, or go with one of the above options*
 - [Tor](https://www.torproject.org/) is the best option for private browsing
 
 #### Considerations
