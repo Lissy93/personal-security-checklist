@@ -60,10 +60,13 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Blogging Platforms](#blogging-platforms)
 - [News Readers](#news-readers-and-aggregation)
 
+**Operating Systems**
+- [Mobile Operating Systems](#mobile-operating-systems)
+- [PC Operating Systems](#pc-operating-systems)
+- [Windows Defences](#windows-defences)
+
 **Misc**
 - [Payment Methods](#payment-methods)
-- [PC Operating Systems](#operating-systems)
-- [Mobile Operating Systems](#mobile-operating-systems)
 - [Home Automation](#home-automation)
 - [Voice Assistants](#ai-voice-assistants)
 
@@ -577,27 +580,6 @@ Windows, by default is not very private. There are several packages that can be 
 Many anti virus products have a history of introducing bad vulnerabilities themselves, and several of them seriously degrade the performance of your computer, as well as decrease your security. Never use a free anti-virus, and never trust the companies that offer free solutions, even if you pay for the premium package. Providers such as Avast, AVG, McAfee and Kasperky - do not use these AV solutions. Read more about why you shouldn't use [Anti-Spy Tools, on Windows](https://as93.link/gjlj4)
 
 
-
-## Operating Systems
-
-Windows 10 has many features, that violate your privacy. Microsoft and Apple are able to collect all your data (including, but not limited to: keystrokes, searches and mic input, calendar data, music, photos, credit card information and purchases. Identity, passwords, contacts, conversations and location data). Microsoft Windows is also more suseptible to malware and viruses, than alternative systems.
-
-| Provider | Description |
-| --- | --- |
-**[Qubes OS](https://www.qubes-os.org/)** (containerized apps) | Open-source security-oriented operating system for single-user desktop computing. It uses virtualisation, to run each application in it's own compartment to avoid data being leaked. It features [Split GPG](https://www.qubes-os.org/doc/split-gpg/), [U2F Proxy](https://www.qubes-os.org/doc/u2f-proxy/), and [Whonix integration](https://www.qubes-os.org/doc/whonix/). Qubes makes is easy to create [disposable VMs](https://www.qubes-os.org/doc/disposablevm/) which are spawned quickly and destroyed when closed. Qubes is [recommended](https://twitter.com/Snowden/status/781493632293605376) by Edward Snowden
-**[Whonix](https://www.whonix.org/)** (VM) | Whonix is an anonymous operating system, which can run in a VM, inside your current OS. It is the best way to use Tor, and provides very strong protection for your IP address. It comes bundled with other features too: Keystroke Anonymization, Time Attack Defences, Stream Isolation, Kernel Self Protection Settings and an Advanced Firewall. Open source, well audited, and with a strong community- Whonix is based on Debian, [KickSecure](https://www.whonix.org/wiki/Kicksecure) and [Tor](https://www.whonix.org/wiki/Whonix_and_Tor)
-**[Tails](https://tails.boum.org/)** (live) | Tails is a live operating system (so you boot into it from a USB, instead of installing). It preserves your privacy and anonymity through having no persistent memory/ leaving no trace on the computer. Tails has Tor built-in system-wide, and uses state-of-the-art cryptographic tools to encrypt your files, emails and instant messaging. Open source, and built on top of Debian
-**[Parrot](https://parrotlinux.org/)** (security)| Parrot Linux, is a full Debian-based operating system, that is geared towards security, privacy and development. It is fully-featured yet light-weight, very open. There are 3 edditions: General Purpose, Security and Forensic. The Secure distribution includes its own sandbox system obtained with the combination of [Firejail](https://firejail.wordpress.com/) and [AppArmor](https://en.wikipedia.org/wiki/AppArmor) with custom security profiles. While the Forensics Edition is bundled with a comprehensive suit of security/ pen-testing tools, similar to Kali and Black Arch
-**[Discreete Linux](https://www.privacy-cd.org/)** (offline)| Aimed at journalists, activists and whistle-blowers, Discreete Linux is similar to Tails, in that it is booted live from external media, and leaves no/ minimal trace on the system. The aim of the project, was to provide all required cryptographic tools offline, to protect against Trojan-based surveillance
-
-
-#### General Purpose Linux Distros
-If you do not want to use a specalist security-based distro, or you are new to Unix- then just switching to any well-maintained Linux distro, is going to be significantly more secure and private than Windows or Mac OS. Since it is open source, majour distros are constantly being audited by members of the community. Also Linux does not give users admin rights by default- this makes is much less likley that your system could become infected with malware.  There is no proprietary Microsoft or Apple software constantly monitoring everything you do, and building up a data profile on you. Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **[Debian](https://www.debian.org/)**, or **[Arch](https://www.archlinux.org/)**- all of which have a large community behind them. **[Manjaro](https://manjaro.org/)** (based of Arch), is also a good option, with a simple install process. Used by new comers, and expers alike. See [comparison](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions).
-
-#### Improve the Security and Privacy of your current OS
-If you want to stick with your current OS, then see this [Windows 10 guide](https://heimdalsecurity.com/en/windows-10-security-guide/privacy), by Heimdal Security- it will guide you through the settings that you should update, to minimise the amount that Microsoft and other third-parties track you. For Apple users, this [Mac OS guide](https://spreadprivacy.com/mac-privacy-tips/), will walk you through the equivalent steps. For Linux, you are far more secure by default, but there are a few steps to take, as seen in this [Linux guide](https://spreadprivacy.com/linux-privacy-tips/).
-
-
 ## Mobile Operating Systems
 
 If you are an Android user, your device has Google built-in at it's core. [Google tracks you](https://digitalcontentnext.org/blog/2018/08/21/google-data-collection-research/),
@@ -621,6 +603,54 @@ It is not recommended to root, or flash your device with a custom ROM if you are
 - You will need to rely on updates from the community, which could be slower to be released- this may be an issue for a time-urgent, security-critical patch
 - It is also possible to brick your device, through interrupted install or bad software
 - Finally, rooting and flashing your device, will void your warranty
+
+
+## PC Operating Systems
+
+Windows 10 has many features, that violate your privacy. Microsoft and Apple are able to collect all your data (including, but not limited to: keystrokes, searches and mic input, calendar data, music, photos, credit card information and purchases. Identity, passwords, contacts, conversations and location data). Microsoft Windows is also more suseptible to malware and viruses, than alternative systems.
+
+| Provider | Description |
+| --- | --- |
+**[Qubes OS](https://www.qubes-os.org/)** (containerized apps) | Open-source security-oriented operating system for single-user desktop computing. It uses virtualisation, to run each application in it's own compartment to avoid data being leaked. It features [Split GPG](https://www.qubes-os.org/doc/split-gpg/), [U2F Proxy](https://www.qubes-os.org/doc/u2f-proxy/), and [Whonix integration](https://www.qubes-os.org/doc/whonix/). Qubes makes is easy to create [disposable VMs](https://www.qubes-os.org/doc/disposablevm/) which are spawned quickly and destroyed when closed. Qubes is [recommended](https://twitter.com/Snowden/status/781493632293605376) by Edward Snowden
+**[Whonix](https://www.whonix.org/)** (VM) | Whonix is an anonymous operating system, which can run in a VM, inside your current OS. It is the best way to use Tor, and provides very strong protection for your IP address. It comes bundled with other features too: Keystroke Anonymization, Time Attack Defences, Stream Isolation, Kernel Self Protection Settings and an Advanced Firewall. Open source, well audited, and with a strong community- Whonix is based on Debian, [KickSecure](https://www.whonix.org/wiki/Kicksecure) and [Tor](https://www.whonix.org/wiki/Whonix_and_Tor)
+**[Tails](https://tails.boum.org/)** (live) | Tails is a live operating system (so you boot into it from a USB, instead of installing). It preserves your privacy and anonymity through having no persistent memory/ leaving no trace on the computer. Tails has Tor built-in system-wide, and uses state-of-the-art cryptographic tools to encrypt your files, emails and instant messaging. Open source, and built on top of Debian
+**[Parrot](https://parrotlinux.org/)** (security)| Parrot Linux, is a full Debian-based operating system, that is geared towards security, privacy and development. It is fully-featured yet light-weight, very open. There are 3 edditions: General Purpose, Security and Forensic. The Secure distribution includes its own sandbox system obtained with the combination of [Firejail](https://firejail.wordpress.com/) and [AppArmor](https://en.wikipedia.org/wiki/AppArmor) with custom security profiles. While the Forensics Edition is bundled with a comprehensive suit of security/ pen-testing tools, similar to Kali and Black Arch
+**[Discreete Linux](https://www.privacy-cd.org/)** (offline)| Aimed at journalists, activists and whistle-blowers, Discreete Linux is similar to Tails, in that it is booted live from external media, and leaves no/ minimal trace on the system. The aim of the project, was to provide all required cryptographic tools offline, to protect against Trojan-based surveillance
+
+
+#### General Purpose Linux Distros
+If you do not want to use a specalist security-based distro, or you are new to Unix- then just switching to any well-maintained Linux distro, is going to be significantly more secure and private than Windows or Mac OS. Since it is open source, majour distros are constantly being audited by members of the community. Also Linux does not give users admin rights by default- this makes is much less likley that your system could become infected with malware.  There is no proprietary Microsoft or Apple software constantly monitoring everything you do, and building up a data profile on you. Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **[Debian](https://www.debian.org/)**, or **[Arch](https://www.archlinux.org/)**- all of which have a large community behind them. **[Manjaro](https://manjaro.org/)** (based of Arch), is also a good option, with a simple install process. Used by new comers, and expers alike. See [comparison](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions).
+
+#### Improve the Security and Privacy of your current OS
+If you want to stick with your current OS, then see this [Windows 10 guide](https://heimdalsecurity.com/en/windows-10-security-guide/privacy), by Heimdal Security- it will guide you through the settings that you should update, to minimise the amount that Microsoft and other third-parties track you. For Apple users, this [Mac OS guide](https://spreadprivacy.com/mac-privacy-tips/), will walk you through the equivalent steps. For Linux, you are far more secure by default, but there are a few steps to take, as seen in this [Linux guide](https://spreadprivacy.com/linux-privacy-tips/).
+
+
+## Windows Defences
+
+| Provider | Description |
+| --- | --- |
+**[HardenTools]** | A utility that disables a number of risky Windows features. These "features" are exposed by the OS and primary consumer applications, and very commonly abused by attackers, to execute malicious code on a victim's computer. So this tool just reduces the attack surface by disabling the low-hanging fruit
+**[Sticky-Keys-Slayer]** | Scans for accessibility tools backdoors via RDP
+**[SigCheck]** | Audit a Windows host's root certificate store against Microsoft's Certificate Trust List (CTL)
+**[Windows Secure Baseline]** | Group Policy objects, compliance checks, and configuration tools that provide an automated and flexible approach for securely deploying and maintaining the latest releases of Windows 10
+**[IIS Crypto]** | A utility for configuring encryption protocols, cyphers, hashing methods, and key exchanges for Windows components 
+**[NetLimiter]** | Internet traffic control and monitoring tool
+
+**See Also**:
+- [github.com/Awesome-Windows/Awesome#security]
+- [github.com/PaulSec/awesome-windows-domain-hardening]
+- [github.com/meitar/awesome-cybersecurity-blueteam#windows-based-defenses]
+
+[HardenTools]: https://github.com/securitywithoutborders/hardentools
+[Sticky-Keys-Slayer]: https://github.com/linuz/Sticky-Keys-Slayer
+[SigCheck]: https://docs.microsoft.com/en-us/sysinternals/downloads/sigcheck
+[Windows Secure Baseline]: https://github.com/nsacyber/Windows-Secure-Host-Baseline
+[IIS Crypto]: https://www.nartac.com/Products/IISCrypto
+[NetLimiter]: https://www.netlimiter.com
+[github.com/Awesome-Windows/Awesome#security]: https://github.com/Awesome-Windows/Awesome#security
+[github.com/PaulSec/awesome-windows-domain-hardening]: https://github.com/PaulSec/awesome-windows-domain-hardening
+[github.com/meitar/awesome-cybersecurity-blueteam#windows-based-defenses]: https://github.com/meitar/awesome-cybersecurity-blueteam#windows-based-defenses
+
 
 
 ## Home Automation
