@@ -50,10 +50,11 @@ In addition, what many people don’t realize is that several small pieces of yo
 ----
 
 #### There's more to check out!
-- [Why Privacy & Security Matters](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
-- [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md)
-- [Privacy & Security Gadgets](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_and-Security_Gadgets.md)
-- [Further Links + More Awesome Stuff](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
+- [Ultimate Personal Security Checklist](/README.md)
+- [Why Privacy & Security Matters](/0_Why_It_Matters.md)
+- [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
+- [Privacy & Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
+- [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)
 
 <a href="https://twitter.com/intent/follow?screen_name=Lissy_Sykes">
   <img src="https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter" alt="Follow Alicia Sykes on Twitter">
