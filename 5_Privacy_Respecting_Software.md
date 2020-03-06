@@ -64,6 +64,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Mobile Operating Systems](#mobile-operating-systems)
 - [PC Operating Systems](#pc-operating-systems)
 - [Windows Defences](#windows-defences)
+- [Mac OS Defences](#mac-os-defences)
 
 **Misc**
 - [Payment Methods](#payment-methods)
@@ -374,7 +375,8 @@ A firewall is a program which monitors the incoming and outgoing traffic on your
 **[Lockdown](https://apps.apple.com/in/app/lockdown-apps/id1469783711)** <br>(iOS) | Firewall app for iPhone, allowing you to block any connection to any domain
 **[SimpleWall](https://github.com/henrypp/simplewall)** <br>(Windows) | Tool to control Windows Filtering Platform (WFP), in order to configure detailed network activity on your PC
 **[OpenSnitch](https://github.com/evilsocket/opensnitch)** <br>(Linux) | Makes internet connections from all apps visible, allowing you to block or manage traffic on a per-app basis. GNU/Linux port of the Little Snitch application firewall
-**[Little Snitch](https://obdev.at/products/littlesnitch/index.html)** <br>(OS X) | A very polished application firewall, allowing you to easily manage internet connections on a per-app basis
+**[LuLu](https://objective-see.com/products/lulu.html)** <br>(Mac OS) | Free, open source macOS firewall. It aims to block unknown outgoing connections, unless explicitly approved by the user
+**[Little Snitch](https://obdev.at/products/littlesnitch/index.html)** <br>(Mac OS) | A very polished application firewall, allowing you to easily manage internet connections on a per-app basis
 **[IPFire](https://www.ipfire.org)** <br>(hardware) | IPFire is a hardened, versatile, state-of-the-art Open Source firewall based on Linux. Easy to install on a raspberry Pi, since it is lightweight and heavily customizable
 **[Shorewall](https://shorewall.org)** <br>(hardware) | An open source firewall tool for Linux that builds upon the [Netfilter](https://www.netfilter.org) system built into the Linux kernel, making it easier to manage more complex configuration schemes with [iptables](https://linux.die.net/man/8/iptables)
 **[OpenSense](https://opnsense.org)** <br>(hardware)  | Enterprise firewall and router for protecting networks, built on the FreeBSD system 
@@ -650,6 +652,20 @@ If you want to stick with your current OS, then see this [Windows 10 guide](http
 [github.com/Awesome-Windows/Awesome#security]: https://github.com/Awesome-Windows/Awesome#security
 [github.com/PaulSec/awesome-windows-domain-hardening]: https://github.com/PaulSec/awesome-windows-domain-hardening
 [github.com/meitar/awesome-cybersecurity-blueteam#windows-based-defenses]: https://github.com/meitar/awesome-cybersecurity-blueteam#windows-based-defenses
+
+
+## Mac OS Defences
+
+| Provider | Description |
+| --- | --- |
+**[LuLu]** | Free, open source macOS firewall. It aims to block unknown outgoing connections, unless explicitly approved by the user
+**[Stronghold]** | Easily configure macOS security settings from the terminal
+**[Fortress]** | Kernel-level, OS-level, and client-level security for macOS. With a Firewall, Blackhole, and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers; with On-Demand and On-Access Anti-Virus Scanning
+
+
+[LuLu]: https://objective-see.com/products/lulu.html
+[Stronghold]: https://github.com/alichtman/stronghold
+[Fortress]: https://github.com/essandess/macOS-Fortress
 
 
 
