@@ -45,7 +45,7 @@ Use strong passwords, which can't be easily guessed or cracked. Length is more i
 **Use an offline password manager** | Advanced | Consider an offline password manager, encrypted by a strong password. If you work across two or more computers, this could be stored on an encrypted USB. [KeePass](http://keepass.info/) is a strong choice.
 **If possible, try to avoid biometric and hardware-based authentication** | Advanced | Fingerprint sensors, face detection and voice recognition are all hackable. Where possible replace these with traditional strong passwords.
 
-**See also** [Recommended Password Managers](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#password-managers)
+**See also** [Recommended Password Managers](/5_Privacy_Respecting_Software.md#password-managers)
 
 
 ## 2-Factor Authentication
@@ -64,7 +64,7 @@ Check which websites support multi-factor authentication: [twofactorauth.org](ht
 **Don't use your Password Manager to store 2FA tokens** | Optional | One of the quickest approaches is to use the same system that stores your passwords, to also generate and fill OTP tokens, both LastPass and 1Password have this functionality. However if a malicious actor is able to gain access to this, they will have both your passwords, and your 2FA tokens, for all your online accounts. Instead use a separate authenticator from your password manager.
 **Consider a hardware 2FA Key** | Optional | A physical 2FA key generates an OTP when inserted. Have a look at [NitroKey](https://www.nitrokey.com/) (open source), [YubiKey](https://www.yubico.com/) or [Solo Key](https://amzn.to/2Fe5Icw). You can also use it as a secondary method (in case your phone is lost or damaged). If this is your backup 2FA method, it should be kept somewhere secure, such as a locked safe, or if you use as physical key as your primary 2FA method, then keep it on you at all times.
 
-**See also** [Recommended 2FA Apps](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#2-factor-authentication)
+**See also** [Recommended 2FA Apps](/5_Privacy_Respecting_Software.md#2-factor-authentication)
 
 
 ## Browser and Search
@@ -93,9 +93,9 @@ For more browser security pointers, check out: [Here’s How To Get Solid Browse
 **Route all desktop traffic via Tor** | Advanced | [Whonix](https://www.whonix.org/) allows for fail-safe, automatic, and desktop-wide use of the Tor network. It's based on Debian, and runs in in a virtual machine. Straight-forward to install on Windows, OSX or Linux.
 
 **Recommended Software**
-- [Privacy Browsers](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#browsers)
-- [Non-Tracking Search Engines](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#search-engines)
-- [Browser Extensions for Security](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#browser-extensions)
+- [Privacy Browsers](/5_Privacy_Respecting_Software.md#browsers)
+- [Non-Tracking Search Engines](/5_Privacy_Respecting_Software.md#search-engines)
+- [Browser Extensions for Security](/5_Privacy_Respecting_Software.md#browser-extensions)
 
 
 ## Emails
@@ -117,7 +117,7 @@ It's strongly advised not to use non-encrypted email, but if you follow these gu
 **Consider switching to a more secure email provider** | Optional | Email providers such as [ProtonMail](https://protonmail.com), [CounterMail](https://countermail.com), [HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business) (for business users) or [MailFence](https://mailfence.com?src=digitald) allow for end-to-end encryption, full privacy as well as more security-focused features. See [this guide](https://github.com/OpenTechFund/secure-email) for details of the inner workings of these services.
 **Use Aliasing to keep your real email private** | Advanced | Email aliasing allows you to put anything before the `@` of your email domain, and have all mail land in you main email inbox. This means you can use a different email addresses for each account you sign up for, and if one company leaks your address you can see exactly who did it and block that alias in 1 click. [33Mail](http://33mail.com/Dg0gkEA) is a free service which lets you do just this, you can also use your own domain name if you have one. Alternatively you could configure your own self-hosted system, or if you have ProtonMail Visionary you can enable this feature.
 
-**See also** [Recommended Encrypted Email Providers](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#encrypted-email)
+**See also** [Recommended Encrypted Email Providers](/5_Privacy_Respecting_Software.md#encrypted-email)
 
 ## Social Media
 
@@ -132,10 +132,10 @@ It's strongly advised not to use non-encrypted email, but if you follow these gu
 **Don’t have any social media accounts** | Advanced | It may seem a bit extreme, but if your serious about data privacy and security, stay away from entering information on any social media platform.
 
 **Recommended Software**
-- [Alternative Social Media](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#social-networks)
-- [Alternative Video Platforms](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#video-platforms)
-- [Alternative Blogging Platforms](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#blogging-platforms)
-- [News Readers and Aggregation](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#news-readers-and-aggregation)
+- [Alternative Social Media](/5_Privacy_Respecting_Software.md#social-networks)
+- [Alternative Video Platforms](/5_Privacy_Respecting_Software.md#video-platforms)
+- [Alternative Blogging Platforms](/5_Privacy_Respecting_Software.md#blogging-platforms)
+- [News Readers and Aggregation](/5_Privacy_Respecting_Software.md#news-readers-and-aggregation)
 
 ## Networking
 
@@ -162,12 +162,12 @@ A Virtual Private Network (VPN) protects your IP, and allows you to more securel
 **Disable WiFi on all Devices** | Advanced | Connecting to even a secure WiFi network increases your attack surface. Disabling your home WiFi and connect each device via Ethernet, and turning off WiFi on your phone and using a USB-C/ Lightening to Ethernet cable will protect against WiFi exploits, as Edward Snowden [says here](https://twitter.com/snowden/status/1175431946958233600?lang=en).
 
 **Recommended Software** 
-- [Virtual Private Networks](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#virtual-private-networks)
-- [Mix Networks](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#mix-networks)
-- [Open Source Proxies](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#proxies)
-- [DNS Providers](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#dns)
-- [Firewalls](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#firewalls)
-- [Network Analysis Tools](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#network-analysis)
+- [Virtual Private Networks](/5_Privacy_Respecting_Software.md#virtual-private-networks)
+- [Mix Networks](/5_Privacy_Respecting_Software.md#mix-networks)
+- [Open Source Proxies](/5_Privacy_Respecting_Software.md#proxies)
+- [DNS Providers](/5_Privacy_Respecting_Software.md#dns)
+- [Firewalls](/5_Privacy_Respecting_Software.md#firewalls)
+- [Network Analysis Tools](/5_Privacy_Respecting_Software.md#network-analysis)
 
 
 ## Mobile Devices
@@ -199,9 +199,9 @@ SMS texting and traditional phone calls are not secure, so it's important to avo
 **Consider running a custom ROM if you have an Android device** | Advanced | Your default OS tracks information about your usage, and app data, constantly. Consider a security-focused custom ROM, such as [Lineage](https://lineageos.org) or [CopperheadOS](https://copperhead.co/android/).
 
 **Recommended Software**
-- [Mobile Apps, for Security + Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#mobile-apps)
-- [Encrypted Messaging](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#encrypted-messaging)
-- [Mobile Operation Systems](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#mobile-operating-systems)
+- [Mobile Apps, for Security + Privacy](/5_Privacy_Respecting_Software.md#mobile-apps)
+- [Encrypted Messaging](/5_Privacy_Respecting_Software.md#encrypted-messaging)
+- [Mobile Operation Systems](/5_Privacy_Respecting_Software.md#mobile-operating-systems)
 
 ## Personal Computers
 
@@ -222,9 +222,9 @@ Although Windows and OS X are easy to use and convenient, they both are far from
 **Canary Tokens** | Advanced | Network breaches happen, but the longer it takes for you to find out about it, the more damage is done. A canary token is like a hacker honeypot, something that looks appealing to them once they've gained access to your system. When they open the file, unknowingly to them, a script is run which will not only alert you of the breach, but also grab some of the hackers system details. <br>[CanaryTokens.org](https://canarytokens.org/generate) and [BlueCloudDrive](https://blueclouddrive.com/generate) are excellent sites, that you can use to generate your tokens. Then just leave them somewhere prominent on your system. [Learn more](https://blog.thinkst.com/p/canarytokensorg-quick-free-detection.html) about canary tokens, or see [this guide](https://resources.infosecinstitute.com/how-to-protect-files-with-canary-tokens/) for details on how to create them yourself.
 
 **Recommended Software**
-- [File Encryption](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#file-encryption)
-- [AV and Malware Prevention](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#anti-virus-and-malware-prevention)
-- [Operating Systems](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#operating-systems)
+- [File Encryption](/5_Privacy_Respecting_Software.md#file-encryption)
+- [AV and Malware Prevention](/5_Privacy_Respecting_Software.md#anti-virus-and-malware-prevention)
+- [Operating Systems](/5_Privacy_Respecting_Software.md#operating-systems)
 
 ## Smart Home
 
@@ -251,8 +251,8 @@ The most privacy-respecting option, would be to not use "smart" internet-connect
 **Assess risks** | Advanced | Assess risks with your audience and data in mind: Be mindful of whose data is being collected, e.g. kids. Manage which devices can operate when (such as turning cameras off when you are at home, or disabling the internet for certain devices at specific times of day)
 
 **Recommended Software**
-- [Home Automation](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#home-automation)
-- [AI Voice Assistants](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#ai-voice-assistants)
+- [Home Automation](/5_Privacy_Respecting_Software.md#home-automation)
+- [AI Voice Assistants](/5_Privacy_Respecting_Software.md#ai-voice-assistants)
 
 
 ## Sensible Computing
@@ -279,7 +279,7 @@ Many data breaches, hacks and attacks are caused by human error. The following l
 **Compartmentalize** | Advanced | [Compartmentalization](https://en.wikipedia.org/wiki/Compartmentalization_(information_security)) is where to keep several categories of digital activity and files totally separate from each other. It means that if one area is breached, then an attacker will only have a proportion of your data, and the rest will still be safe. For example, store your work and personal files on separate devices, or use different web browsers for different types of activity, or even run certain tasks in a contained VM or on a separate device (such as having a work phone, and personal phone, or using a separate browser for social media/ chat rooms, or even running a VM for using specialist software)
 **Use anonymous payment methods** | Advanced | Paying online with credit or debit card involves entering personal details, including name and residential address. Paying with cryptocurrency will not require you to enter any identifiable information. Both [Monero](https://www.getmonero.org) and [Zcash](https://z.cash/) are totally anonymous, and so best for privacy. See also: [Anonymous Payment Methods](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#payment-methods)
 
-**See also**: [Online Tools](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md#online-tools)
+**See also**: [Online Tools](/5_Privacy_Respecting_Software.md#online-tools)
 
 ----
 
