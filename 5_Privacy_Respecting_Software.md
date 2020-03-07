@@ -146,9 +146,14 @@ See [OpenTechFund- Secure Email](https://github.com/OpenTechFund/secure-email) f
 [HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Kolab Now](https://kolabnow.com), [Posteo](https://posteo.de), and [Disroot](https://disroot.org/en)
 
 #### Alias Services
-Revealing your real email address online can put you at risk. Using something like [33Mail](http://33mail.com/Dg0gkEA), which is an aliasing service, allows you to use a different email address for each online account, with all emails landing in your real inbox. It lets you identify which provider leaked your email address, and block an allias. Email addresses are created automatically, the first time you use them, and the messages land in your normal inbox. You can even reply to mail, to hide your real email address.
+Revealing your real email address online can put you at risk. Email aliasing allows messages to be sent to [anything]@my-domain.com and still land in your primary inbox. This protects your real email address from being revealed. Aliases are generated automatically, the first time they are used. This approach lets you identify which provider leaked your email address, and block an alias with 1-click.
 
-[33mail.com](http://33mail.com/Dg0gkEA) is free, but there is a primium plan ($1/ month) if you'd like to use a custom domain. Alternativley you could host your own instance, or is you have ProtonMail you can manually create email alliases.
+- **[Anonaddy](https://anonaddy.com)** - An open source anonymous email forwarding service, allowing you to create unlimited email aliases. Has a free plan.
+- **[33Mail](http://33mail.com/Dg0gkEA)** - A long-standing aliasing service. As well as recieving, 33Mail also lets you reply to forwarded addresses anonymously. Free plan, as well as Premium plan ($1/ month) if you'd like to use a custom domain 
+- **[ProtonMail](https://protonmail.com/pricing) Visionary** - If you already have ProtonMail's Visionary package, then an implementation of this feature is available. However not the most price-effective, and does not include dashboard
+
+Alternativley you could host your own service
+
 
 #### Self-Hosted Email
 If you do not want to trust an email provider with your messages, you can host your own mail server. Without experience, this can be notoriously hard to correctly configure, especially when it comes to security. You may also find that cost, performance and features make it a less attractive optrion. If you do decide to go down this route, [Mail-in-a-box](https://mailinabox.email/), is an easy to deploy, open source mail server. It aims to promote decentralization, innovation, and privacy on the web, as well as have automated, auditable, and idempotent system configuration. Other ready-to-go self-hosted mail options include [Mailu](https://mailu.io/1.7/) and [Mail Cow](https://mailcow.email/), both of which are docker containers.
