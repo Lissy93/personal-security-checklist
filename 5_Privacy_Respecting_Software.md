@@ -211,6 +211,7 @@ The following browser add-ons give you better control over what content is able 
 
 
 ## Mobile Apps
+
 | Provider | Description |
 | --- | --- |
 **[Orbot]** | System-wide Tor proxy, which encrypts your connection through multiple nodes. You can also use it alongside [Tor Browser] to access .onion sites
@@ -708,7 +709,7 @@ For a desktop-based assistant, see [Dragonfire](https://github.com/DragonCompute
 If you are building your own assistant, you may want to consider a hardware-switch for disabling the microphone. Keep tabs on issues and check the code, to ensure you are happy with how it works, from a privacy perspective
 
 
-## Bonus: Alternatives to Google
+## Bonus #1 - Alternatives to Google
 
 Moving away from Google, and using multiple alternative apps will mean there is no single source of tracking. Open source and privacy-focused software is best
 
@@ -739,12 +740,23 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 - Weather: [Open Weather Map](https://openweathermap.org)
 
 
-## Additional Self-Hosted Tools
+## Bonus #2 - Sysadmin (Self-Hosted)
 
-Hosting an open source application on your own server or using a secure cloud provider, immediately means that you own all data and logs. Hence no one other than you can easily get to this. However it is worth noting that you will ensure the server is properly secure, and keep all software up-to-date yourself
-
-#### Analytics Platforms
-[Matomo](https://matomo.org) - Enterprise-grade analytics platform, that is 100% open source and has a strong foucs on ethics when it comes to privacy. See also: [Ackee](https://ackee.electerious.com), [Freshlytics](https://freshlytics.gitbook.io) and [Goat Counter](https://www.goatcounter.com).
+- Ad-Block (network-wide): [PiHole](https://pi-hole.net)
+- Content Filter: [E2Guardian](http://e2guardian.org), [Squid Guard](http://www.squidguard.org)
+- Cron Jobs: [HealthChecks](https://healthchecks.io)
+- Dashboards: [Homer](https://github.com/bastienwirtz/homer), [Heimdall](https://heimdall.site), [SWMP](https://swmp.ml), [Uchiwa](https://uchiwa.io) (for Sensu), [Linux Dash](https://github.com/afaqurk/linux-dash)
+- DNS: [CoreDNS](https://coredns.io), [KnotDNS](https://www.knot-dns.cz), [Bind 9](https://www.isc.org/bind), [PowerDNS](https://www.powerdns.com)
+- Domain Control: [DomainMod](https://domainmod.org), [OctoDNS](https://github.com/github/octodns), [DNSControl](https://stackexchange.github.io/dnscontrol)
+- Firewall: [IPFire](https://www.ipfire.org), [PFSense](https://www.pfsense.org), [OpenSense](https://opnsense.org), [ShoreWall](https://shorewall.org)
+- Log Management: [GoAccess](https://goaccess.io)
+- Monitoring: [Alerta](https://github.com/alerta/alerta), [Cabot](https://github.com/arachnys/cabot), [Cadvisor](https://github.com/google/cadvisor), [CheckMK](https://checkmk.com), [Linux Dash](https://github.com/afaqurk/linux-dash). [NetData](https://www.netdata.cloud), [PS Dash](https://github.com/Jahaja/psdash)
+- Proxy: [ShaddowSocks](https://shadowsocks.org), [Privoxy](https://www.privoxy.org)
+- Server Status: [Statup](https://github.com/hunterlong/statping), [BotoX / ServerStatus](https://github.com/BotoX/ServerStatus), [Mojeda / ServerStatus](https://github.com/mojeda/ServerStatus), [Statusfy](https://statusfy.co), [Cachet](https://cachethq.io)
+- SSH Tools: [RTop](https://github.com/rapidloop/rtop) (sts stats), [Fiche](https://github.com/solusipse/fiche) (cli pastepin)
+- Storage DB: [OpenTSBD](http://opentsdb.net), [KairosDB](https://github.com/kairosdb/kairosdb), [InfluxData](https://www.influxdata.com)
+- VPN: [OpenVPN](https://community.openvpn.net), [Pritunl](https://pritunl.com)
+- Web Servers: [NGINX](https://nginx.org), [Caddy](https://caddyserver.com), [Light TPD](https://www.lighttpd.net)
 
 
 ---
