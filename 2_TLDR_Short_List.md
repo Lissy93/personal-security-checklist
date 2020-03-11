@@ -30,7 +30,7 @@ Do not trust any proprtietary password managers, since they can't pass a profess
 
 ### Phone
 - Have a strong pin/ password on your mobile device.
-- Disable auto connection for WiFi networks you do not trust mery much and delete saved networks that you no longer need (Settings --> WiFi --> Saved Networks).
+- Disable auto connection for WiFi networks you do not trust very much and delete saved networks that you no longer need (Settings --> WiFi --> Saved Networks).
 - Don't grant apps permissions that they don't need. For Android, you can use [Exodus](https://exodus-privacy.eu.org/en/) to quickly see the permissions and trackers for each of your installed apps.
 
 
