@@ -13,7 +13,7 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 ### Authentication
 - Use strong, unique passphrases for each of your accounts (longer=better, extra weird symbols and impossible-to-remember combinations are not mandatory). 
-Keep in mind that short alpha-numeric passwords which you can't remember are [no better|https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength] than long passwords combined of few dictionary words.
+Keep in mind that short alpha-numeric passwords which you can't remember are [no better](https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength) than long passwords combined of few dictionary words.
 - Use a password manager: It is going to be almost impossible to remember hundreds of unique passwords. A password manager will generate strong passwords, securly store and auto-fill them, with a browser extension and mobile app. All you will need to do, is remember 1 master password. [Pass](https://www.passwordstore.org/) and [BitWarden](https://bitwarden.com/) are great password managers. [KeePass XC](https://keepassxc.org/) is more secure, but without any cloud-sync functionality.
 Do not trust any proprtietary password managers, since they can't pass a professional security audit. Also, before choosing one, consider looking into CVEs for them.
 - Use 2-factor authentication for all secure accounts (email, cloud storage, financial accounts and social media). You can do this with [FreeOTP](https://freeotp.github.io/) or [Yubico Authenticator](https://www.yubico.com/products/services-software/download/yubico-authenticator/). Or you can use [Aegis](https://getaegis.app/) or [AndOTP](https://github.com/andOTP/andOTP) which are both open source.
