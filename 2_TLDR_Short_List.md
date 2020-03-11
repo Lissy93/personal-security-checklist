@@ -12,7 +12,7 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 
 ### Authentication
-- Use strong, unique passphrases for each of your accounts (12+ alpha-numeric upper and lower-case letters + symbols). 
+- Use strong, unique passphrases for each of your accounts (longer=better, extra weird symbols and impossible-to-remember combinations are not mandatory). 
 Keep in mind that short alpha-numeric passwords which you can't remember are [no better|https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength] than long passwords combined of few dictionary words.
 - Use a password manager: It is going to be almost impossible to remember hundreds of unique passwords. A password manager will generate strong passwords, securly store and auto-fill them, with a browser extension and mobile app. All you will need to do, is remember 1 master password. [Pass](https://www.passwordstore.org/) and [BitWarden](https://bitwarden.com/) are great password managers. [KeePass XC](https://keepassxc.org/) is more secure, but without any cloud-sync functionality.
 Do not trust any proprtietary password managers, since they can't pass a professional security audit. Also, before choosing one, consider looking into CVEs for them.
@@ -59,7 +59,7 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 
 #### Security
 - Password Managers: [BitWarden] | [Pass] | [KeePassXC] *(offline, no-sync)*
-- 2-Factor Authentication: [Aegis] *(Android)* | [Authenticator] *(iOS)* | [AndOTP] *(Android)*
+- 2-Factor Authentication: [Yubico Authenticator] *(Desktop/Android/iOS)* | [FreeOTP] *(Android/iOS)* | [Aegis] *(Android)* | [Authenticator] *(iOS)* | [AndOTP] *(Android)*
 - File Encryption: [VeraCrypt] | [Cryptomator] *(for cloud)*
 - Encrypted Messaging: [Signal] | [KeyBase] *(for groups/ communities)*
 - Encrypted Email: [ProtonMail] | [MailFence] | [Tutanota] | (+ also [33Mail] for aliasing)
