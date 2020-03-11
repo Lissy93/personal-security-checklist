@@ -12,10 +12,13 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 
 ### Authentication
-- Use strong, unique passphrases for each of your accounts (12+ alpha-numeric upper and lower-case letters + symbols). Avoid predicitable patterns, dictionary words and names.
-- Use a password manager: It is going to be almost impossible to remember hundreds of unique passwords. A password manager will generate strong passwords, securly store and auto-fill them, with a browser extension and mobile app. All you will need to do, is remember 1 master password. [1Password](https://1password.com/) and [BitWarden](https://bitwarden.com/) are great password managers. [KeePass XC](https://keepassxc.org/) is more secure, but without any cloud-sync functionality.
-- Use 2-factor authentication for all secure accounts (email, cloud storage, financial accounts and social media). You can do this with [Authy](https://authy.com/) which will also let you back up and sync your tokens across multiple devices. Or you can use [Aegis](https://getaegis.app/) or [AndOTP](https://github.com/andOTP/andOTP) which are both open source.
-- Be cautious when logging into your accounts on someone elses device, as you cannot be sure that it is free of malware. If you do need to access one of your accounts, use incognito mode (Ctrl+Shift+N) so your credentials don't get cached.
+- Use strong, unique passphrases for each of your accounts (12+ alpha-numeric upper and lower-case letters + symbols). 
+Keep in mind that short alpha-numeric passwords which you can't remember are [no better|https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength] than long passwords combined of few dictionary words.
+- Use a password manager: It is going to be almost impossible to remember hundreds of unique passwords. A password manager will generate strong passwords, securly store and auto-fill them, with a browser extension and mobile app. All you will need to do, is remember 1 master password. [Pass](https://www.passwordstore.org/) and [BitWarden](https://bitwarden.com/) are great password managers. [KeePass XC](https://keepassxc.org/) is more secure, but without any cloud-sync functionality.
+Do not trust any proprtietary password managers, since they can't pass a professional security audit. Also, before choosing one, consider looking into CVEs for them.
+- Use 2-factor authentication for all secure accounts (email, cloud storage, financial accounts and social media). You can do this with [FreeOTP](https://freeotp.github.io/) or [Yubico Authenticator](https://www.yubico.com/products/services-software/download/yubico-authenticator/). Or you can use [Aegis](https://getaegis.app/) or [AndOTP](https://github.com/andOTP/andOTP) which are both open source.
+- Be cautious when logging into your accounts on someone elses device, as you cannot be sure that it is free of malware and keyloggers. 
+- If you do log from another device, use incognito mode (Ctrl+Shift+N) so your credentials don't get cached.
 
 
 ### Browsing
@@ -27,13 +30,13 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 ### Phone
 - Have a strong pin/ password on your mobile device.
-- Turn of WiFi when your not using it, and delete saved networks that you no longer need (Settings --> WiFi --> Saved Networks).
+- Disable auto connection for WiFi networks you do not trust mery much and delete saved networks that you no longer need (Settings --> WiFi --> Saved Networks).
 - Don't grant apps permissions that they don't need. For Android, you can use [Exodus](https://exodus-privacy.eu.org/en/) to quickly see the permissions and trackers for each of your installed apps.
 
 
 ### Email
 - It's important to protect your email account, as if a hacker gains access to it they will be able to reset the passwords for all your other accounts. Ensure you have a strong and unique password, and enablle 2FA.
-- Emails are not encrypted by default, meaning they are able to be read by anyone who intercepts them as well as your email provider (Google, Microsoft, Apple, Yahoo etc all monitor emails). Consider switching to a secure mail provider, such as [ProtonMail](https://protonmail.com/).
+- Emails are not encrypted end-to-end by default, meaning they are able to be read by anyone who intercepts them as well as your email provider (Google, Microsoft, Apple, Yahoo etc all monitor emails). Consider switching to a secure mail provider, such as [ProtonMail](https://protonmail.com/).
 
 
 ### Networking
@@ -55,7 +58,7 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 Switch to alternative open-source, privacy-respecting apps and services, which won't collect your data, track you or show targetted ads
 
 #### Security
-- Password Managers: [BitWarden] | [1Password] | [KeePassXC] *(offline, no-sync)*
+- Password Managers: [BitWarden] | [Pass] | [KeePassXC] *(offline, no-sync)*
 - 2-Factor Authentication: [Aegis] *(Android)* | [Authenticator] *(iOS)* | [AndOTP] *(Android)*
 - File Encryption: [VeraCrypt] | [Cryptomator] *(for cloud)*
 - Encrypted Messaging: [Signal] | [KeyBase] *(for groups/ communities)*
@@ -116,7 +119,6 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 
 [//]: # (SECURITY SOFTWARE LINKS)
 [BitWarden]: https://bitwarden.com
-[1Password]: https://1password.com
 [KeePassXC]: https://keepassxc.org
 [Aegis]: https://getaegis.app
 [AndOTP]: https://github.com/andOTP/andOTP
