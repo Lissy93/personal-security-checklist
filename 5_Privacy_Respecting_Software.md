@@ -15,11 +15,13 @@
 
 ---
 
+[Skip to Content ⏬](#password-managers)
+
 ## Intro
 
-If you want greatly increase your digital security, and protect your personal information,
-then start migrating to encrypted, privacy-respecting open source software and services.
-Using open-source applications with a strong emphasis on security will help stop large
+Migrating to encrypted, privacy-respecting open source software and services can greatly 
+help protect your privacy, and improve your digital security.
+Choosing open-source applications with a strong emphasis on security will help stop large
 corporations, governments, and hackers from logging, storing or selling your personal details.
 
 ### Categories
@@ -66,14 +68,17 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Windows Defences](#windows-defences)
 - [Mac OS Defences](#mac-os-defences)
 
-**Misc**
-- [Payment Methods](#payment-methods)
+**Home/ IoT**
 - [Home Automation](#home-automation)
 - [Voice Assistants](#ai-voice-assistants)
 
+**Misc**
+- [Payment Methods](#payment-methods)
+
 **Bonus**
 - [Alternatives to Google](#bonus-alternatives-to-google)
-
+- [Self-Hosted Services](#bonus-2---self-hosted-services)
+- [Self-Hosted Sys-Admin](#bonus-3---self-hosted-sysadmin)
 
 ## Password Managers
 
@@ -746,7 +751,7 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 - Analytics: [Matomo](https://matomo.org), [Fathom](https://github.com/usefathom/fathom), [GoatCounter](https://www.goatcounter.com), [Rudder](https://github.com/rudderlabs)
 - Blogging: [Hexo](https://hexo.io), [Noddity](http://noddity.com), [Plume](https://joinplu.me), [Ghost](https://github.com/TryGhost/Ghost), [Write.as](https://github.com/writeas)
 - Bookmarks: [Shiori](https://github.com/go-shiori/shiori), [Geek Marks](https://geekmarks.dmitryfrank.com), [Ymarks](https://bitbucket.org/ymarks), [xBrowserSync](https://www.xbrowsersync.org), [reminiscence](https://github.com/kanishka-linux/reminiscence), [unmark](https://github.com/cdevroe/unmark)
-- Chat Networks: [Gotify](https://gotify.net), [GNU:net](https://gnunet.org), [Centrifugo](https://github.com/centrifugal/centrifugo), [Mumble](https://www.mumble.info), [Tox](https://tox.chat), [Matrix](https://matrix.org) + [https://riot.im](Riot), [Retroshare](https://retroshare.cc)
+- Chat Networks: [Gotify](https://gotify.net), [GNU:net](https://gnunet.org), [Centrifugo](https://github.com/centrifugal/centrifugo), [Mumble](https://www.mumble.info), [Tox](https://tox.chat), [Matrix](https://matrix.org) + [Riot](https://riot.im), [Retroshare](https://retroshare.cc)
 - CMS: [Strapi](https://strapi.io) (headless), [ApostropheCMS](https://github.com/apostrophecms/apostrophe), [Plone](https://github.com/plone), [Publify](https://publify.github.io), [Pico](http://picocms.org)
 - Conference: [BigBlueButton](https://github.com/bigbluebutton/bigbluebutton), [Osem](https://github.com/openSUSE/osem), [Dialogs](https://github.com/dialogs), [Spectrum](https://github.com/withspectrum/spectrum), [Mattermost](https://github.com/mattermost), [OpenMeetings](https://openmeetings.apache.org), [Jitsu](https://github.com/jitsi)
 - Document Management: [Paperless](https://github.com/the-paperless-project/paperless)
