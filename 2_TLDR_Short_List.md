@@ -13,8 +13,8 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 ### Authentication
 - Use strong, unique passphrases for each of your accounts (12+ alpha-numeric upper and lower-case letters + symbols). Avoid predicitable patterns, dictionary words and names.
-- Use a password manager: It is going to be almost impossible to remember hundreds of unique passwords. A password manager will generate strong passwords, securly store and auto-fill them, with a browser extension and mobile app. All you will need to do, is remember 1 master password. [1Password](https://1password.com/) and [BitWarden](https://bitwarden.com/) are great password managers. [KeePass XC](https://keepassxc.org/) is more secure, but without any cloud-sync functionality.
-- Use 2-factor authentication for all secure accounts (email, cloud storage, financial accounts and social media). You can do this with [Authy](https://authy.com/) which will also let you back up and sync your tokens across multiple devices. Or you can use [Aegis](https://getaegis.app/) or [AndOTP](https://github.com/andOTP/andOTP) which are both open source.
+- Use a password manager: It is going to be almost impossible to remember hundreds of unique passwords. A password manager will generate strong passwords, securly store and auto-fill them, with a browser extension and mobile app. All you will need to do, is remember 1 master password. [BitWarden](https://bitwarden.com) is a great option, as is [1Password](https://1password.com) (not open source). [KeePass XC](https://keepassxc.org) is more secure, but without any cloud-sync functionality.
+- Use 2-factor authentication for all secure accounts (email, cloud storage, financial accounts and social media). You can do this with [Authy](https://authy.com) (proprietary) which will also let you back up and sync your tokens across multiple devices. Or you can use [Aegis](https://getaegis.app) or [AndOTP](https://github.com/andOTP/andOTP) which are both open source.
 - Be cautious when logging into your accounts on someone elses device, as you cannot be sure that it is free of malware. If you do need to access one of your accounts, use incognito mode (Ctrl+Shift+N) so your credentials don't get cached.
 
 
@@ -55,7 +55,7 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 Switch to alternative open-source, privacy-respecting apps and services, which won't collect your data, track you or show targetted ads
 
 #### Security
-- Password Managers: [BitWarden] | [1Password] | [KeePassXC] *(offline, no-sync)*
+- Password Managers: [BitWarden] | [1Password] *(proprietary)* | [KeePassXC] *(offline)* | [LessPass] *(stateless)*
 - 2-Factor Authentication: [Aegis] *(Android)* | [Authenticator] *(iOS)* | [AndOTP] *(Android)*
 - File Encryption: [VeraCrypt] | [Cryptomator] *(for cloud)*
 - Encrypted Messaging: [Signal] | [KeyBase] *(for groups/ communities)*
@@ -118,6 +118,7 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [BitWarden]: https://bitwarden.com
 [1Password]: https://1password.com
 [KeePassXC]: https://keepassxc.org
+[LessPass]: https://lesspass.com
 [Aegis]: https://getaegis.app
 [AndOTP]: https://github.com/andOTP/andOTP
 [Authenticator]: https://mattrubin.me/authenticator
