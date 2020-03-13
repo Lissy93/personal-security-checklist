@@ -81,6 +81,7 @@ If you are confident with electronics, then you could also make:
 
 We can go even further, these products are far from essential and are maybe a little over-the-top. But fun to play around with, if you really want to avoid being tracked!
 
+- **Self-Destroying PC** - The ORWL PC will wipe all data if it is compromised, and has many other safeguards to ensure no one other than you can access anything from your drive. Comes with QubeOS, Windows or Linux, and requires both a password and fob to log in. See more: [orwl.org](https://orwl.org)
 - **Card Skimmer Detector** - Ensure an ATM or card reader does not have an integrated skimming device. See more at [Lab401](https://lab401.com/products/hunter-cat-card-skimmer-detector)
 - **Voice Changer** - Useful to disguise voice, while chatting online. See more: [UK](https://amzn.to/3bXqpsn) | [US](https://amzn.to/2PqUEyz)
 - **Ultra-Sonic Microphone Jammer** - Blocks phones, dictaphones, voice assistants and other recording devices. Uses built-in transducers to generate ultrasonic signals that can not be heard by humans, but cause indistinct noise, on redording devices, making it impossible to distinguish any details of the conversations. See more [UK](https://amzn.to/2Hnk63s) | [US](https://amzn.to/2v2fwVG)
