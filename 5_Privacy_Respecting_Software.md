@@ -15,7 +15,7 @@
 
 ---
 
-[Skip to Content ⏬](#password-managers)
+[⏬ Skip to Content ⏬](#password-managers)
 
 ## Intro
 
@@ -85,7 +85,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 | Provider | Description |
 | --- | --- |
 **[BitWarden](https://bitwarden.com)**  | Free and open source, cross-platform password manager with sync
-**[1Password](https://1password.com)** | Open source, fully-featured cross-platform password manager with sync. Free for self-hosted (or $3/ month hosted)
+**[1Password](https://1password.com)** | Fully-featured cross-platform password manager with sync. Free for self-hosted data (or $3/ month hosted). Note: not yet fully open source, but regularly publishes results of indepentand security [audits](https://support.1password.com/security-assessments)
 **[KeePassXC](https://keepassxc.org)** | Open source, secure password manager, but without cloud-sync capabilities. KeePassXC is a community fork of [KeePass](https://keepass.info/)
 **[LessPass](https://lesspass.com)** | LessPass is a little different, since it generates your passwords using a hash of the website name, your username and a single master-passphrase that you reuse. It omits the need for you to ever need to store or sync your passwords. They have apps for all the common platforms and a CLI, but you can also self-host it.
 
@@ -794,6 +794,7 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 ---
 
 ## Conclusion
+
 Many coporations that put profit before people, collecting data and exploiting privacy, many claim to to secure but without being open source it can't be verified, and it is always too late once there has been a breach. Switching to privacy-respecting, open souece software will drastically help inmprove your security, privacy and anonimity online.
 
 However, that's not all you need to do- it is important to also: Use strong and unique passwords, 2-factor authentication,
@@ -802,7 +803,9 @@ adopt good networking practices and be mindful of data that is collected when br
 
 ---
 
-*Thank you for taking the time to read the list, I hope it has been usful. If you have suggestions, then you [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [submit a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master), see: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md). Contributions are welcome, and appreciated* 😇
+## Contributing
+
+*Thank you for taking the time to read the list, I hope it has been usful. If you have suggestions, then you [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [submit a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master), see: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md). Contributions are welcome, and much appreciated* ☺️
 
 [![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE.md)
 
@@ -811,6 +814,17 @@ adopt good networking practices and be mindful of data that is collected when br
 <a href="https://twitter.com/intent/follow?screen_name=Lissy_Sykes">
   <img src="https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter" alt="Follow Alicia Sykes on Twitter">
 </a>
+
+----
+
+Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
+
+[![Share on Twitter](https://i.ibb.co/2hqF59H/share-twitter.png)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on LinkedIn](https://i.ibb.co/9Ngh9jg/share-linkedin.png)](
+http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
+[![Share on Facebook](https://i.ibb.co/cc6tFVj/share-facebook.png)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+[![Share on Pinterest](https://i.ibb.co/x8L70b0/share-pinterest.png)](https://pinterest.com/pin/create/button/?url=https%3A//repository-images.githubusercontent.com/123631418/79c58980-3a13-11ea-97e8-e45591ef2d97&media=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&description=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020)
+
 
 
 
