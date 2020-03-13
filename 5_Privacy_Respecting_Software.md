@@ -501,7 +501,7 @@ Over the past decade, social networks have revolutionized the way we communicate
 #### Other Notable Mentions
 - [diaspora*](https://diasporafoundation.org), [Pleroma](https://pleroma.social) and [Friendica](https://friendi.ca) - distributed, decentralized social networks, built on open protocols
 - [Tildes](https://tildes.net), [Lemmy](https://dev.lemmy.ml) and [notabug.io](https://notabug.io) - bulletin boards and news aggregators (similar to Reddit)
-- [Pixel Fed](https://pixelfed.org) - photo sharing (similar to Instagram)
+- [Pixelfed](https://pixelfed.org) - photo sharing (similar to Instagram)
 
 #### Main-stream networks
 The content on many of these smaller sites tends to be more *niche*. To continue using Twitter, there are a couple of [tweaks](https://www.offensiveprivacy.com/blog/twitter-privacy), that will improve security. For Reddit, use a privacy-respecting client- such as [Reditr](http://reditr.com/). Other main-stream social networking sites do not respect your privacy, so should be avoided, but if you choose to keep using them see [this guide](https://proprivacy.com/guides/social-media-privacy-guide) for tips on protecting your privacy
