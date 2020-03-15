@@ -76,7 +76,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Payment Methods](#payment-methods)
 
 **Bonus**
-- [Alternatives to Google](#bonus-alternatives-to-google)
+- [Alternatives to Google](#bonus-1---alternatives-to-google)
 - [Self-Hosted Services](#bonus-2---self-hosted-services)
 - [Self-Hosted Sys-Admin](#bonus-3---self-hosted-sysadmin)
 
@@ -228,6 +228,7 @@ The following browser add-ons give you better control over what content is able 
 **[Bouncer]** | Gives you the ability to grant permissions temporarily, so that you could for example use the camera to take a profile picture, but when you close the given app, those permissions will be revoked
 **[Haven]** | Allows you to protect yourself, your personal space and your posessions- without compromising on security. Leveraging device sensors to monitor nearby space, Haven was developed by [The Guardian Project](https://guardianproject.info/), in partnership with [Edward Snowden](https://techcrunch.com/2017/12/24/edward-snowden-haven-app/)
 **[XUMI Security]** |  Checks for, and resolves known security vulnerabilities. Useful to ensure that certain apps, or device settings are not putting your security or privacy at risk
+**[SuperFreezZ]** | Makes it possible to entirely freeze all background activities on a per-app basis. Intended purpose is to to speed up your phone, and prolong battery life, but this app is also a great utility to stop certain apps from collecting data and tracking your actions while running in the background
 **[Daedalus]** | No root required Android DNS modifier and hosts/DNSMasq resolver, works by creating a VPN tunnel to modify the DNS settings. Useful if you want to change your resolver to a more secure/ private provider, or use DNS over HTTPS
 **[Secure Task]** | Triggers actions, when certain security conditions are met, such as multiple failed login attempts or monitor settings changed. It does require [Tasker], and needs to be set up with ADB, device does not need to be rooted
 **[Cryptomator]** | Encryptes files and folders client-side, before uploading them to cloud storage (such as Google Drive, One Drive or Dropbox), meaning none of your personal documents leave your device in plain text
@@ -852,7 +853,7 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [Cryptomator]: https://play.google.com/store/apps/details?id=org.cryptomator
 [Daedalus]: https://play.google.com/store/apps/details?id=org.itxtech.daedalus
 [Brevent]: https://play.google.com/store/apps/details?id=me.piebridge.brevent
-[Greenify]: https://play.google.com/store/apps/details?id=com.oasisfeng.greenify
+[SuperFreezZ]: https://f-droid.org/en/packages/superfreeze.tool.android
 [Secure Task]: https://play.google.com/store/apps/details?id=com.balda.securetask
 [Tor Browser]: https://play.google.com/store/apps/details?id=org.torproject.torbrowser 
 [PortDroid]: https://play.google.com/store/apps/details?id=com.stealthcopter.portdroid
