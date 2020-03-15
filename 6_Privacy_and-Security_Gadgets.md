@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
 # Hardware for Protecting Privacy and Security
-> A curated list of gadgets, that can help preserve your privacy, and improve your personal cyber security 🔐
+> ### Curated list of (DIY and pre-build) devices, to help preserve privacy and improve physical cyber security 🔐
 
 **Too long? 🦒** See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/master/2_TLDR_Short_List.md) instead.
 
