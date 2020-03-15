@@ -60,6 +60,8 @@
 
 Don't want to spend money? Most of the products above, plus some that wearn't included can be built at home with some pretty simple hardware and open source software. The following list will point you in the right direction to start making!
 
+See Also [DIY Networking Hardware](#diy-networking-hardware)
+
 - **Network-wide add-block** - [Pi Hole](https://pi-hole.net) is a simple yet powerful app, that can be installed on a [Raspberry Pi](https://amzn.to/36GNpsm), and once you've updated your routers DNS servers to point to it, all resources on the blacklist will be blocked, at the point of origin. This makes it much more powerful than a browser add-on, and will also speed your internet up
 - **Encrypted USB** - You can use [VeraCrypt](https://www.veracrypt.fr/en/Home.html) to create an encrypted USB drive, using any off-the shelf [USB drive](https://amzn.to/2RykcLD)
 - **USB Sanitiser** - [CIRCLean](https://www.circl.lu/projects/CIRCLean) is a hardware solution to clean documents from untrusted (obtained) USB drives. It automatically converts untrusted documents into a readable but disarmed format and stores these clean files on a trusted (user owned) USB key/stick.
