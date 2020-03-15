@@ -3,15 +3,18 @@
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
 # Hardware for Protecting Privacy and Security
-> ### Curated list of (DIY and pre-build) devices, to help preserve privacy and improve physical cyber security 🔐
+> ### A curated list of (DIY and pre-build) devices, to help preserve privacy and improve physical cyber security 🔐
 
-**Too long? 🦒** See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/master/2_TLDR_Short_List.md) instead.
+**Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md#security-hardware) instead.
+
+[⏬ Skip to Content ⏬](#basics)
 
 #### See Also
-- [Ultimate Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
-- [Privacy-Respecting Software and Services](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md)
-- [Further Links: Security & Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
-- [The Importance of Digital Security & Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
+- [Ultimate Personal Security Checklist](/README.md)
+- [The Importance of Digital Security & Privacy](/0_Why_It_Matters.md)
+- [Why Privacy & Security Matters](/0_Why_It_Matters.md)
+- [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
+- [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)
 
 ---
 
