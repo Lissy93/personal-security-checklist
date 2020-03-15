@@ -7,6 +7,8 @@
 
 **Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md#open-source-privacy-focused-software) instead.
 
+[⏬ Skip to Content ⏬](#password-managers)
+
 #### See Also
 - [Personal Security Checklist](/README.md)
 - [Gadgets for Privacy & Security](/6_Privacy_and-Security_Gadgets.md)
@@ -14,8 +16,6 @@
 - [The Importance of Digital Security & Privacy](/0_Why_It_Matters.md)
 
 ---
-
-[⏬ Skip to Content ⏬](#password-managers)
 
 ## Intro
 
@@ -79,6 +79,8 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [Alternatives to Google](#bonus-1---alternatives-to-google)
 - [Self-Hosted Services](#bonus-2---self-hosted-services)
 - [Self-Hosted Sys-Admin](#bonus-3---self-hosted-sysadmin)
+- [Self-Hosted Dev Tools](#bonus-4---self-hosted-development-tools)
+
 
 ## Password Managers
 
@@ -791,6 +793,28 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 - Storage DB: [OpenTSBD](http://opentsdb.net), [KairosDB](https://github.com/kairosdb/kairosdb), [InfluxData](https://www.influxdata.com)
 - VPN: [OpenVPN](https://community.openvpn.net), [Pritunl](https://pritunl.com)
 - Web Servers: [NGINX](https://nginx.org), [Caddy](https://caddyserver.com), [Light TPD](https://www.lighttpd.net)
+
+## Bonus #4 - Self-Hosted Development Tools
+
+- API Management: [Kong](https://github.com/Kong/kong), [Krakend](https://github.com/devopsfaith/krakend), [tyk](https://github.com/TykTechnologies/tyk), [Hasura](https://hasura.io)
+- Browser-based IDE: [Code Server](https://github.com/cdr/code-server) (VS Code), [Che](https://github.com/eclipse/che) (Eclipse), [ICEcoder](https://github.com/icecoder/ICEcoder), [ml-workspace](https://github.com/ml-tooling/ml-workspace) (for Data science and ML), [r-studio](https://github.com/rstudio/rstudio) (for R programming)
+- Code Reviews: [Phabricator](https://github.com/phacility/phabricator). See also: Git Servers, most of which have CR features
+- Containers: [Docker](https://github.com/docker), [LXC](https://github.com/lxc/lxc), [OpenVZ](https://github.com/OpenVZ)
+- Continuous Integration: [Drone](https://github.com/drone/drone), [Concourse](https://github.com/concourse/concourse), [BuildBot](https://github.com/buildbot/buildbot), [Strider](https://github.com/Strider-CD/strider), [Jenkins](https://github.com/jenkinsci/jenkins)
+- Deployment Automation: [Capustrano](https://github.com/capistrano/capistrano), [Fabric](https://github.com/fabric/fabric), [Mina](https://github.com/mina-deploy/mina), [Munki](https://github.com/munki/munki), [Rocketeer](https://github.com/rocketeers/rocketeer), [Sup](https://github.com/pressly/sup)
+- Doc Generators: [FlatDoc](https://github.com/rstacruz/flatdoc), [Docsify](https://github.com/docsifyjs/docsify), [Sphinx](https://github.com/sphinx-doc/sphinx), [ReadTheDocs](https://github.com/readthedocs/readthedocs.org), [Docusarus](https://github.com/facebook/docusaurus), [mkdocs](https://github.com/mkdocs/mkdocs)
+- Git Server: [GitBucket](https://gitbucket.github.io), [GitTea](https://gitea.io), [GitLab](https://gitlab.com/gitlab-org/gitlab-foss), [Gogs](https://gogs.io)
+- Localization: [Weblate](https://github.com/WeblateOrg/weblate), [Translate/ Pootle](https://github.com/translate/pootle), [Accent](https://github.com/mirego/accent)
+- Serverless: [OpenFaas](https://www.openfaas.com), [IronFunctions](https://github.com/iron-io/functions), [LocalStack](https://github.com/localstack/localstack), [fx](https://github.com/metrue/fx)
+- Static Site Gen: See [StaticGen.com](https://www.staticgen.com)
+- UI Testing: [Selenoid](https://github.com/aerokube/selenoid), [Zalenium](https://github.com/zalando/zalenium), [Selenium](https://github.com/SeleniumHQ/selenium)
+- More Tools:
+	- [Request Bin](https://github.com/Runscope/requestbin) - Inspect HTTP requests and Debug webhooks
+	- [Regexr](https://github.com/gskinner/regexr) - Web tool for for creating, testing, and learning about Regular Expressions
+	- [JS Bin](https://github.com/jsbin/jsbin) - Collaborative JavaScript Debugging App, create, test, run and send web code snippets
+	- [Koding](https://github.com/koding/koding) - A development platform to orchestrates your project-specific dev environment
+	- [Judge0](https://github.com/judge0) - A web compiler accessed through either an API of web-IDE, for executing trusted or untrusted code
+	- [SourceGraph](https://github.com/sourcegraph/sourcegraph) - Self-hosted universal code search and navigation engine
 
 
 ---
