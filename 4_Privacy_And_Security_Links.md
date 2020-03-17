@@ -88,7 +88,14 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 
 
 ## Podcasts
-- Darknet Diaries (by Jack Rhysider): https://darknetdiaries.com
+- Darknet Diaries (by Jack Rhysider): [https://darknetdiaries.com]. Or listen on [Stitcher][da-stitch]
+- CYBER (by Motherboard, Vice): [Motherboard CYBER]. Or listen on [Stitcher][cy-stitch]
+
+[https://darknetdiaries.com]: https://darknetdiaries.com
+[da-stitch]: https://www.stitcher.com/podcast/darknet-diaries
+
+[Motherboard CYBER]: https://www.vice.com/en_us/article/59vpnx/introducing-cyber-a-hacking-podcast-by-motherboard
+[cy-stitch]: https://www.stitcher.com/podcast/vice-2/cyber
 
 
 ## Videos
