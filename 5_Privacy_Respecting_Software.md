@@ -237,7 +237,8 @@ The following browser add-ons give you better control over what content is able 
 **[1.1.1.1]** | Lets you use CloudFlares fast and secure 1.1.1.1 DNS, with DNS over HTTPS, and also has the option to enable CloudFlares WARP+ VPN
 **[Fing App]** | A network scanner to help you monitor and secure your WiFi network. The app is totally free, but to use the advanced controlls, you will need a [Fing Box](https://amzn.to/2vFDF4n)
 **[FlutterHole]** | Easy monitoring and controll over your [Pi Hole](https://pi-hole.net/) instance. Pi Hole is great for security, privacy and speed
-**[DPI Tunnel](https://github.com/zhenyolka/DPITunnel)** | an application for Android that uses various techniques to bypass DPI (Deep Packet Inspection) systems, which are used to block some sites (not availible on Play store)
+**[DPI Tunnel](https://github.com/zhenyolka/DPITunnel)** | An application for Android that uses various techniques to bypass DPI (Deep Packet Inspection) systems, which are used to block some sites (not availible on Play store)
+**[Blokada](https://blokada.org/)** | This application blocks ads and trackers, doesn't require root and works for all the apps on your Android phone. Check out how it works [here](https://block.blokada.org/post/2018/06/17/how-does-blokada-work/).
 
 #### Other Notable Mentions
 For more open source security & privacy apps, check out [The Guardian Project], [The Tor Project], [Oasis Feng] and [Marcel Bokhorst]- all of which are trusted developers or organisations, who've done amazing work.
