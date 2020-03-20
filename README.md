@@ -10,10 +10,10 @@
 **Too long? 🦒** See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/master/2_TLDR_Short_List.md) instead.
 
 #### See Also
-- [Why Privacy & Security Matters](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
-- [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md)
-- [Privacy & Security Gadgets](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_and-Security_Gadgets.md)
-- [Further Links + More Awesome Stuff](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
+- [Why Privacy & Security Matters](/0_Why_It_Matters.md)
+- [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
+- [Privacy & Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
+- [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)
 
 ## Contents
 
@@ -37,7 +37,7 @@ Use strong passwords, which can't be easily guessed or cracked. Length is more i
 --- | --- | ---
 **Use a strong password** | Recommended | Try to get a good mixture of upper and lower-case letters, numbers and symbols. Avoid names, places and dictionary words where possible, and aim to get a decent length (a minimum of 12+ characters is ideal). Have a look at [HowSecureIsMyPassword.net](https://howsecureismypassword.net) and [How Long will it take to Crack my Password](https://www.betterbuys.com/estimating-password-cracking-times/) to get an idea of what a strong password is. See [this guide](https://securityinabox.org/en/guide/passwords/) for more information.
 **Don’t save your password in browsers** | Recommended | Most modern browsers offer to save your credentials when you log into a site. Don’t allow this! As they are not always encrypted, hence can allow someone to gain easy access into your accounts. Also do not store passwords in a .txt file or any other unencrypted means. Ideally use a reputable password manager.
-**Use different passwords for each account you have** | Recommended | If your credentials for one site get compromised, it can give hackers access to your other online accounts. So it is highly recommended not to reuse the same passwords. Again, the simplest way to manage having many different passwords, is to use a [password manager](https://en.wikipedia.org/wiki/Password_manager). Have a look at [LastPass](https://www.lastpass.com), [DashLane](https://www.dashlane.com), [KeePass](https://keepass.info) or [Robo Forms 8](https://www.roboform.com).
+**Use different passwords for each account you have** | Recommended | If your credentials for one site get compromised, it can give hackers access to your other online accounts. So it is highly recommended not to reuse the same passwords. Again, the simplest way to manage having many different passwords, is to use a [password manager](https://en.wikipedia.org/wiki/Password_manager). Good options include [BitWarden](https://bitwarden.com), [1Password](https://1password.com), or for an offline app without sync [KeePass](https://keepass.info) / [KeePassXC](https://keepassxc.org).
 **Be cautious when logging in on someone else’s device** | Recommended | When using someone else's machine, ensure that you're in a private session (like Incognito mode, Ctrl+Shift+N) so that nothing gets saved. Ideally you should avoid logging into your accounts on other people's computer, since you can't be sure their system is clean. Be especially cautious of public machines, or when accessing any of your secure accounts (email, banking etc.).
 **Avoid password hints** | Optional | Some sites allow you to set password hints. Using this feature makes it easier for hackers.
 **Never answer online security questions truthfully** | Optional | If a site asks  security questions (such as place of birth, mother's maiden name or first car etc), don't provide real answers. It is a trivial task for hackers to find out this information. Instead, create a password inside your password manager to store your fictitious answer.

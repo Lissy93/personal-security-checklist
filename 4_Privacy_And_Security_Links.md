@@ -88,7 +88,14 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 
 
 ## Podcasts
-- Darknet Diaries (by Jack Rhysider): https://darknetdiaries.com
+- Darknet Diaries (by Jack Rhysider): [https://darknetdiaries.com]. Or listen on [Stitcher][da-stitch]
+- CYBER (by Motherboard, Vice): [Motherboard CYBER]. Or listen on [Stitcher][cy-stitch]
+
+[https://darknetdiaries.com]: https://darknetdiaries.com
+[da-stitch]: https://www.stitcher.com/podcast/darknet-diaries
+
+[Motherboard CYBER]: https://www.vice.com/en_us/article/59vpnx/introducing-cyber-a-hacking-podcast-by-motherboard
+[cy-stitch]: https://www.stitcher.com/podcast/vice-2/cyber
 
 
 ## Videos
@@ -161,7 +168,12 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - privacy-respecting by @nikitavoloboev: https://github.com/nikitavoloboev/privacy-respecting
 - awesome-privacy by @KevinColemanInc: https://github.com/KevinColemanInc/awesome-privacy
 - Security_list by @zbetcheckin: https://github.com/zbetcheckin/Security_list
+- awesome-security by @sbilly: https://github.com/sbilly/awesome-security
+- awesome-sec-talks by @PaulSec: https://github.com/PaulSec/awesome-sec-talks
 
+## Unrelated Awesome Lists
+ - awesome by @sindresorhus: https://github.com/sindresorhus/awesome
+ - lists by @jnv: https://github.com/jnv/lists
 
 ---
 
@@ -170,3 +182,13 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 *Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
 
 [![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE.md)
+
+----
+
+Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
+
+[![Share on Twitter](https://i.ibb.co/2hqF59H/share-twitter.png)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on LinkedIn](https://i.ibb.co/9Ngh9jg/share-linkedin.png)](
+http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
+[![Share on Facebook](https://i.ibb.co/cc6tFVj/share-facebook.png)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+[![Share on Pinterest](https://i.ibb.co/x8L70b0/share-pinterest.png)](https://pinterest.com/pin/create/button/?url=https%3A//repository-images.githubusercontent.com/123631418/79c58980-3a13-11ea-97e8-e45591ef2d97&media=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&description=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020)

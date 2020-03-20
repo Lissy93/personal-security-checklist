@@ -3,15 +3,18 @@
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
 # Hardware for Protecting Privacy and Security
-> A curated list of gadgets, that can help preserve your privacy, and improve your personal cyber security 🔐
+> ### A curated list of (DIY and pre-build) devices, to help preserve privacy and improve physical cyber security 🔐
 
-**Too long? 🦒** See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/master/2_TLDR_Short_List.md) instead.
+**Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md#security-hardware) instead.
+
+[⏬ Skip to Content ⏬](#basics)
 
 #### See Also
-- [Ultimate Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)
-- [Privacy-Respecting Software and Services](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md)
-- [Further Links: Security & Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
-- [The Importance of Digital Security & Privacy](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
+- [Ultimate Personal Security Checklist](/README.md)
+- [The Importance of Digital Security & Privacy](/0_Why_It_Matters.md)
+- [Why Privacy & Security Matters](/0_Why_It_Matters.md)
+- [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
+- [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)
 
 ---
 
@@ -57,6 +60,8 @@
 
 Don't want to spend money? Most of the products above, plus some that wearn't included can be built at home with some pretty simple hardware and open source software. The following list will point you in the right direction to start making!
 
+See Also [DIY Networking Hardware](#diy-networking-hardware)
+
 - **Network-wide add-block** - [Pi Hole](https://pi-hole.net) is a simple yet powerful app, that can be installed on a [Raspberry Pi](https://amzn.to/36GNpsm), and once you've updated your routers DNS servers to point to it, all resources on the blacklist will be blocked, at the point of origin. This makes it much more powerful than a browser add-on, and will also speed your internet up
 - **Encrypted USB** - You can use [VeraCrypt](https://www.veracrypt.fr/en/Home.html) to create an encrypted USB drive, using any off-the shelf [USB drive](https://amzn.to/2RykcLD)
 - **USB Sanitiser** - [CIRCLean](https://www.circl.lu/projects/CIRCLean) is a hardware solution to clean documents from untrusted (obtained) USB drives. It automatically converts untrusted documents into a readable but disarmed format and stores these clean files on a trusted (user owned) USB key/stick.
@@ -81,6 +86,7 @@ If you are confident with electronics, then you could also make:
 
 We can go even further, these products are far from essential and are maybe a little over-the-top. But fun to play around with, if you really want to avoid being tracked!
 
+- **Self-Destroying PC** - The ORWL PC will wipe all data if it is compromised, and has many other safeguards to ensure no one other than you can access anything from your drive. Comes with QubeOS, Windows or Linux, and requires both a password and fob to log in. See more: [orwl.org](https://orwl.org)
 - **Card Skimmer Detector** - Ensure an ATM or card reader does not have an integrated skimming device. See more at [Lab401](https://lab401.com/products/hunter-cat-card-skimmer-detector)
 - **Voice Changer** - Useful to disguise voice, while chatting online. See more: [UK](https://amzn.to/3bXqpsn) | [US](https://amzn.to/2PqUEyz)
 - **Ultra-Sonic Microphone Jammer** - Blocks phones, dictaphones, voice assistants and other recording devices. Uses built-in transducers to generate ultrasonic signals that can not be heard by humans, but cause indistinct noise, on redording devices, making it impossible to distinguish any details of the conversations. See more [UK](https://amzn.to/2Hnk63s) | [US](https://amzn.to/2v2fwVG)
