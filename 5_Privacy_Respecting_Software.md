@@ -600,7 +600,7 @@ Not all cryptocurrencies are anonymous, and without using a privacy-focused coin
 **[CalmAV](https://www.clamav.net)** | An open source  cross-platform antivirus engine for detecting viruses, malware & other malicious threats. It is versatile, performant and very effective
 **[Windows Spy Blocker](https://github.com/crazy-max/WindowsSpyBlocker)** | Capture and interprets network traffic based on a set of rules, and depending on the interactions certain assignments are blocked. Open source, written in Go and delivered as a single executable
 **[Cylance](https://www.cylance.com)** | Takes more of an application whitelisting approach, where it generates the list of trusted software through machine learning. So instead of identifying bad software to block, it identifies good software instead, and blocks the rest by default
-**[Malware Bytes](https://www.malwarebytes.com)** | If you think your computer may be infected, or have malicious files, then Malware Bytes is a good option for running 1-off scans. It is thorough in identifying threats, with minimum data collection
+**[MalwareBytes](https://www.malwarebytes.com)** | If you think your computer may be infected, or have malicious files, then Malware Bytes is a good option for running 1-off scans. It is thorough in identifying threats, with minimum data collection- however it is [not open source](https://forums.malwarebytes.com/topic/5495-open-source), so should be used with caution
 
 #### Notable Mentions
 Your operating system's built-in protection is probably adequate for detecting 99% of threats. Installing additional software can introduce more vulnerabilities, so downloading AV may actually increase your attack surface.
@@ -609,7 +609,7 @@ Windows, by default is not very private. There are several packages that can be 
 
 
 #### Word of Warning
-Many anti virus products have a history of introducing bad vulnerabilities themselves, and several of them seriously degrade the performance of your computer, as well as decrease your security. Never use a free anti-virus, and never trust the companies that offer free solutions, even if you pay for the premium package. Providers such as Avast, AVG, McAfee and Kasperky - do not use these AV solutions. Read more about why you shouldn't use [Anti-Spy Tools, on Windows](https://as93.link/gjlj4)
+Many anti virus products have a history of introducing bad vulnerabilities themselves, and several of them seriously degrade the performance of your computer, as well as decrease your privacy. Never use a free anti-virus, and never trust the companies that offer free solutions, even if you pay for the premium package. This includes (but not limited to) Avast, AVG, McAfee and Kasperky. For AV to be effective, it needs intermate access to all areas of your PC, so it is important to go with a trusted vendor, and monitor it's activity closley. Read more about why you shouldn't use [Anti-Spy Tools, on Windows](https://as93.link/gjlj4).
 
 
 ## Mobile Operating Systems
