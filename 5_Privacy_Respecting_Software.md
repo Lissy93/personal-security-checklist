@@ -31,6 +31,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - [2-Factor Authentication](#2-factor-authentication)
 - [File Encryption](#file-encryption)
 - [Encrypted Messaging](#encrypted-messaging)
+- [P2P Messaging](#p2p-messaging)
 - [Encrypted Email](#encrypted-email)
 - [Private Browsers](#browsers)
 - [Non-Tracking Search Engines](#search-engines)
@@ -123,15 +124,29 @@ Without using a secure app for instant messaging, all your conversations, meta d
 **[Signal](https://signal.org/)** | Probably one of the most popular, secure private messaging apps that combines strong encryption (see [Signal Protocol](https://en.wikipedia.org/wiki/Signal_Protocol)) with a simple UI and plenty of features. It's widely used across the world, and easy-to-use, functioning similar to WhatsApp - with instant messaging, read-receipts, support for media attachments and allows for high-quality voice and video calls. It's cross-platform, open-source and totally free. Signal is [recommended](https://twitter.com/Snowden/status/661313394906161152) by Edward Snowden, and is a perfect solution for most users
 **[KeyBase](keybase.io/inv/6d7deedbc1)** | KeyBase allows encrypted real-time chat, group chats, and public and private file sharing. It also lets you cryptographically sign messages, and prove your ownership to other social identities (Twitter, Reddit, GitHub, etc), and send or receive Stella or BitCoin to other users. It's slightly more complex to use than Signal, but has some great cryptography features, and is good for group chats
 **[Silence](https://silence.im/)** | If you're restricted to only sending SMS/MMS, then Silence makes it easy to encrypt messages between 2 devices. This is important since traditional text messaging is inherently insecure. It's easy-to-use, reliable and secure- but has fallen in popularity, now that internet-based messaging is often faster and more flexible
-**[Matrix](https://matrix.org/)** | Matrix is a little different since it is a [federated](https://en.wikipedia.org/wiki/Federation_(information_technology)) messaging service, hence provides an open network for secure, decentralized, real-time communication. [Riot](https://riot.im/) is a popular cross-platform, feature-full open source Matrix client. You can host your Matrix own server, or use existing ones- it functions in a similar way to Slack, so is good for groups, projects, and organizations
-**[Jami](https://jami.net/)** | Jami is a [peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) service, meaning it connects message recipients to each other directly. P2P services don't require a third-party server, expose minimal data to third parties, and usually E2E encrypted by default. Other P2P alternatives include [Briar](https://briarproject.org/), [Bit Message](https://bitmessage.org/), and [Tox](https://tox.chat/) (beta)
-**[OpenPGP](https://www.openpgp.org/)** | Slightly harder to use, slower, but still widley used. Note that there are known issues in the PGP standard, but still considered secure for general purpose use. Using [GnuPG](https://gnupg.org/download/index.html), you can encrypt messages following the OpenPGP standard. OpenPGP was defined by the IETF, proposed in [RFC 4880](https://tools.ietf.org/html/rfc4880) and derived from the PGP software, (created by Phil Zimmermann, now owned by [Symantec](https://www.symantec.com/products/encryption)). There have been vulnrabilities found in the OpenPGP and S/MIME, defined in [EFAIL](https://efail.de/), so it is often better to use an encrypted messaging or email app instead.
+**[OpenPGP](https://www.openpgp.org/)** |  Provides cryptographic privacy and authentication, PGP is used to encrypt messages sent over existing chat networks (such as email or message boards). Slightly harder to use (than IM apps), slower, but still widley used. Using [GnuPG](https://gnupg.org/download/index.html), encrypts messages following the OpenPGP standard, defined by the IETF, proposed in [RFC 4880](https://tools.ietf.org/html/rfc4880) (originally derived from the PGP software, created by Phil Zimmermann, now owned by [Symantec](https://www.symantec.com/products/encryption)). **Note**  there have been vulnrabilities found in the OpenPGP and S/MIME, defined in [EFAIL](https://efail.de/), so althogh it still considered secure for general purpose use, it may be better to use an encrypted messaging or email app instead- especially for sensetive communications.
 
 #### Other Notable Mentions
 [Chat Secure](https://chatsecure.org/) and [Status](https://status.im/), are private, encrypted, open source messenger apps. They are both still in early stages, so were'nt included in the main list. Note that [Tor Messenger](https://blog.torproject.org/category/tags/tor-messenger)s been removed from the list, since development has halted.
 
-#### Word of Warning: Closed Source Messaging 
+#### Word of Warning: Proprietary Messaging Platforms
 Many messaging apps claim to be secure, but if they are not open source, then this cannot be verified- and they **should not be trusted**. This applies to [Telegram](https://telegram.org), [Threema](https://threema.ch), [Cypher](https://www.goldenfrog.com/cyphr), [Wickr](https://wickr.com/), [Silent Phone](https://www.silentcircle.com/products-and-solutions/silent-phone/) and [Viber](https://www.viber.com/), to name a few- these apps should not be used to communicate any sensitive data.
+
+## P2P Messaging
+
+With [Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer) networks, there are no central server, so there is nothing that can be raided, shut-down or forced to turn over data. There are P2P networks available that are open source, E2E encrypted, routed through Tor services, totally anonymous and operate without the collection of meta data.
+
+| Provider | Description |
+| --- | --- |
+**[Session](https://getsession.org)** + **[LokiNet](https://loki.network)** client | Loki is an open source set of tools that allow users to transact and communicate anonymously and privately, though a decentralised, encrypted, onion-based network. Session is a desktop and mobile app that uses these private routing protocols to secure messages, media and metadata.
+**[Briar](https://briarproject.org)** | Tor-based Android app for P2P encrypted messaging and forums. Where content is stored securely on your device (not in the cloud). It also allows you to connect directly with nearby contacts, without internet access (using Bluetooth or WiFi).
+**[Matrix](https://matrix.org)** + **[Riot](https://about.riot.im)** client | Matrix is a decentralized open network for secure communications, with E2E encryption with Olm and Megolm. Along with the Riot client, it supports VOIP + video calling and IM + group chats. Since Matrix has an open specification and Simple pragmatic RESTful HTTP/JSON API it makes it easy to integrates with existing 3rd party IDs to authenticate and discover users, as well as to build apps on top of it.
+**[Riochet](https://ricochet.im)** | Desktop instant messenger, that uses the Tor network to rendezvous with your contacts without revealing your identity, location/ IP or meta data. There are no servers to monitor, censor, or hack so Ricochet is secure, automatic and easy to use.
+**[Jami](https://jami.net)** | P2P encrypted chat network with cross-platform GNU client apps. Jami supports audio and vidio calls, screen sharing, conference hosting and instant messaging.
+**[Tox](https://tox.chat)** + **[qTox](https://qtox.github.io)** client | Open source, encrypted, distributed chat network, with clients for desktop and mobile- see [supported clients](https://tox.chat/clients.html). Clearly documented code and multiple language bindings make it easy for developers to integrate with Tox.
+
+#### Other Notable Mentions
+[Cwtch](https://cwtch.im), [BitMessage](https://github.com/Bitmessage/PyBitmessage), [Tor Messenger](https://blog.torproject.org/sunsetting-tor-messenger) *(deprecated)*, [TorChat2](https://github.com/prof7bit/TorChat) *(deprecated)*
 
 
 ## Encrypted Email
