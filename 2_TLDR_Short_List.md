@@ -59,11 +59,11 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 - 2-Factor Authentication: [Aegis] *(Android)* | [Authenticator] *(iOS)* | [AndOTP] *(Android)*
 - File Encryption: [VeraCrypt] | [Cryptomator] *(for cloud)*
 - Encrypted Messaging: [Signal] | [KeyBase] *(for groups/ communities)*
-- Encrypted Email: [ProtonMail] | [MailFence] | [Tutanota] | (+ also [33Mail] for aliasing)
-- Private Browsers: [Brave Browser] | [Firefox] *with [some tweaks](https://restoreprivacy.com/firefox-privacy/)*
+- Encrypted Email: [ProtonMail] | [MailFence] | [Tutanota] | (+ also [33Mail] | [anonaddy] for aliasing)
+- Private Browsers: [Brave Browser] | [Firefox] *with [some tweaks](https://restoreprivacy.com/firefox-privacy/)* | [Tor]
 - Non-Tracking Search Engines: [DuckDuckGo] | [StartPage] | [SearX] *(self-hosted)* | [Quant]
-- VPN: [Mullvad] | [ProtonVPN]  *(better still, use [Tor])*
-- Mobile Firewall: [NetGuard] (Android) | [Lockdown] (iOS)
+- VPN: [Mullvad] | [ProtonVPN]  | [Windscribe] | [IVPN] *(better still, use [Tor])*
+- App Firewall: [NetGuard] (Android) | [Lockdown] (iOS) | [OpenSnitch] (Linux) | [LuLu] (MacOS)
 
 #### Browser Extensions
 [Privacy Badger] - Blocks trackers. [HTTPS Everywhere] - Upgrates requests to HTTPS. [uBlock] - Blocks ads. [ScriptSafe] - Block execution of certain scripts. [WebRTC Leak Prevent] - Prevents IP leaks. [Vanilla Cookie Manager] - Auto-removes unwanted cookies. [Privacy Essentials] - Shows which sites are insecure
@@ -128,9 +128,15 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [Pi-Hole]: https://pi-hole.net
 [Mullvad]: https://mullvad.net
 [ProtonVPN]: https://protonvpn.com
+[Windscribe]: https://windscribe.com/?affid=6nh59z1r
+[IVPN]: https://www.ivpn.net
 [NetGuard]: https://www.netguard.me
 [Lockdown]: https://lockdownhq.com
+[OpenSnitch]: https://github.com/evilsocket/opensnitch
+[LuLu]: https://objective-see.com/products/lulu.html
+[SimpleWall]: https://github.com/henrypp/simplewall
 [33Mail]: http://33mail.com/Dg0gkEA
+[anonaddy]: https://anonaddy.com
 [Signal]: https://signal.org
 [KeyBase]: https://keybase.io
 [ProtonMail]: https://protonmail.com
