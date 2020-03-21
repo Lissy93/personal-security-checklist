@@ -192,7 +192,6 @@ Google frequently modifies and manipulates search, and is in persuit of eliminat
 | Provider | Description |
 | --- | --- |
 **[DuckDuckGo](https://duckduckgo.com/)** | DuckDuckGo is a very user-friendly, fast and secure search engine. It's totally private, with no trackers, cookies or ads. It's also highly customisable, with dark-mode, many languages and features. They even have a [.onion](https://3g2upl4pq6kufc4m.onion ) URL, for use with Tor.
-**[Start Page](https://www.startpage.com/)** | Start Page displays Googles results, through but through their servers- meaning Google can not track you, but you still see results similar to what you would with Google. (European users, see also [ixquick](http://ixquick.eu/))
 **[Qwant](https://www.qwant.com/)** | French service that aggregates Bings results, with it's own results. Quant doesn't plant any cookies, nor have any trackers or third-party advertising. It returns non-biased search results, with no promotions. Quant has a uinique, but nice UI
 
 Another option would be to host your own- [Searx](https://asciimoo.github.io/searx/) is a good option for self-hosting, since it is easy to set-up, secure, private and is backed by a strong community
