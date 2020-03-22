@@ -20,61 +20,58 @@ corporations, governments, and hackers from logging, storing or selling your per
 
 ### Categories
 
-**Basics**
-- [Password Managers](#password-managers)
-- [2-Factor Authentication](#2-factor-authentication)
-- [File Encryption](#file-encryption)
-- [Encrypted Messaging](#encrypted-messaging)
-- [P2P Messaging](#p2p-messaging)
-- [Encrypted Email](#encrypted-email)
-- [Private Browsers](#browsers)
-- [Non-Tracking Search Engines](#search-engines)
-
-**Security**
-- [Browser Extensions](#browser-extensions)
-- [Mobile Apps](#mobile-apps)
-- [Online Tools](#online-tools)
-
-**Networking**
-- [Virtual Private Networks](#virtual-private-networks)
-- [Self-Hosted Network Security](#self-hosted-network-security)
-- [Mix Networks](#mix-networks)
-- [Proxies](#proxies)
-- [DNS Providers](#dns)
-- [Firewalls](#firewalls)
-- [Firewall Analysis](#firewall-analysis)
-
-**Productivity**
-- [Cloud Hosting](#cloud-hosting)
-- [Digital Notes](#digital-notes)
-- [Cloud Productivity Suits](#cloud-productivity-suits)
-- [Backup and Sync](#backup-and-sync)
-- [File Drop](#file-drop)
-
-**Social**
-- [Social Networks](#social-networks)
-- [Video Platforms](#video-platforms)
-- [Blogging Platforms](#blogging-platforms)
-- [News Readers](#news-readers-and-aggregation)
-
-**Operating Systems**
-- [Mobile Operating Systems](#mobile-operating-systems)
-- [PC Operating Systems](#pc-operating-systems)
-- [Windows Defences](#windows-defences)
-- [Mac OS Defences](#mac-os-defences)
-
-**Home/ IoT**
-- [Home Automation](#home-automation)
-- [Voice Assistants](#ai-voice-assistants)
-
-**Misc**
-- [Payment Methods](#payment-methods)
-
-**Bonus**
-- [Alternatives to Google](#bonus-1---alternatives-to-google)
-- [Self-Hosted Services](#bonus-2---self-hosted-services)
-- [Self-Hosted Sys-Admin](#bonus-3---self-hosted-sysadmin)
-- [Self-Hosted Dev Tools](#bonus-4---self-hosted-development-tools)
+- **Basics**
+  - [Password Managers](#password-managers)
+  - [2-Factor Authentication](#2-factor-authentication)
+  - [File Encryption](#file-encryption)
+  - [Encrypted Messaging](#encrypted-messaging)
+  - [P2P Messaging](#p2p-messaging)
+  - [Encrypted Email](#encrypted-email)
+  - [Private Browsers](#browsers)
+  - [Non-Tracking Search Engines](#search-engines)
+- **Security**
+  - [Browser Extensions](#browser-extensions)
+  - [Mobile Apps](#mobile-apps)
+  - [Online Tools](#online-tools)
+- **Networking**
+  - [Virtual Private Networks](#virtual-private-networks)
+  - [Self-Hosted Network Security](#self-hosted-network-security)
+  - [Mix Networks](#mix-networks)
+  - [Proxies](#proxies)
+  - [DNS Providers](#dns)
+  - [Firewalls](#firewalls)
+  - [Firewall Analysis](#firewall-analysis)
+- **Productivity**
+  - [Cloud Hosting](#cloud-hosting)
+  - [Digital Notes](#digital-notes)
+  - [Cloud Productivity Suits](#cloud-productivity-suits)
+  - [Backup and Sync](#backup-and-sync)
+  - [File Drop](#file-drop)
+- **Social**
+  - [Social Networks](#social-networks)
+  - [Video Platforms](#video-platforms)
+  - [Blogging Platforms](#blogging-platforms)
+  - [News Readers](#news-readers-and-aggregation)
+- **Operating Systems**
+  - [Mobile Operating Systems](#mobile-operating-systems)
+  - [PC Operating Systems](#pc-operating-systems)
+  - [Windows Defences](#windows-defences)
+  - [Mac OS Defences](#mac-os-defences)
+- **Home/ IoT**
+  - [Home Automation](#home-automation)
+  - [Voice Assistants](#ai-voice-assistants)
+- **Misc**
+  - [Payment Methods](#payment-methods)
+- **Bonus**
+  - [Alternatives to Google](#bonus-1---alternatives-to-google)
+  - [Self-Hosted Services](#bonus-2---self-hosted-services)
+  - [Self-Hosted Sys-Admin](#bonus-3---self-hosted-sysadmin)
+  - [Self-Hosted Dev Tools](#bonus-4---self-hosted-development-tools)
+- **See Also**
+  - [Personal Security Checklist](/README.md)
+  - [Gadgets for Privacy & Security](/6_Privacy_and-Security_Gadgets.md)
+  - [The Importance of Digital Security & Privacy](/0_Why_It_Matters.md)
+  - [Further Links: Privacy & Security](/4_Privacy_And_Security_Links.md)
 
 
 ## Password Managers
@@ -82,10 +79,9 @@ corporations, governments, and hackers from logging, storing or selling your per
 | Provider | Description |
 | --- | --- |
 **[BitWarden](https://bitwarden.com)**  | Free and open source, cross-platform password manager with sync
-**[1Password](https://1password.com)** | Fully-featured cross-platform password manager with sync. Free for self-hosted data (or $3/ month hosted). Note: not yet fully open source, but regularly publishes results of indepentand security [audits](https://support.1password.com/security-assessments)
 **[KeePassXC](https://keepassxc.org)** | Open source, secure password manager, but without cloud-sync capabilities. KeePassXC is a community fork of [KeePass](https://keepass.info/)
-**[LessPass](https://lesspass.com)** | LessPass is a little different, since it generates your passwords using a hash of the website name, your username and a single master-passphrase that you reuse. It omits the need for you to ever need to store or sync your passwords. They have apps for all the common platforms and a CLI, but you can also self-host it.
-
+**[LessPass](https://lesspass.com)** *(Self-Hosted)* | LessPass is a little different, since it generates your passwords using a hash of the website name, your username and a single master-passphrase that you reuse. It omits the need for you to ever need to store or sync your passwords. They have apps for all the common platforms and a CLI, but you can also self-host it.
+**[1Password](https://1password.com)** | Fully-featured cross-platform password manager with sync. Free for self-hosted data (or $3/ month hosted). Note: not yet fully open source, but regularly publishes results of indepentand security [audits](https://support.1password.com/security-assessments)
 
 ## 2-Factor Authentication
 
@@ -877,7 +873,7 @@ This list contains packages that range from entry-level to extreme. It is in no 
 
 Thank you for checking out this project- I hope you found it somewhat useful 😊
 
-This list was started by myself- [Alicia Sykes](https://aliciasykes.com), and is maintained by the community. You can get in contact with me below:
+This list was started by myself- Alicia, with a lot of help + contributions from the community. You can get in contact with me below:
 
 [![Alicia Sykes on Twitter](https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter)](https://twitter.com/Lissy_Sykes)
 [![Alicia Sykes on GitHub](https://img.shields.io/github/followers/lissy93?label=Lissy93&style=social)](https://github.com/Lissy93)
@@ -890,11 +886,12 @@ This list was started by myself- [Alicia Sykes](https://aliciasykes.com), and is
 
 Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
 
-[![Share on Twitter](https://i.ibb.co/2hqF59H/share-twitter.png)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
-[![Share on LinkedIn](https://i.ibb.co/9Ngh9jg/share-linkedin.png)](
+[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](
 http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
-[![Share on Facebook](https://i.ibb.co/cc6tFVj/share-facebook.png)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
-[![Share on Pinterest](https://i.ibb.co/x8L70b0/share-pinterest.png)](https://pinterest.com/pin/create/button/?url=https%3A//repository-images.githubusercontent.com/123631418/79c58980-3a13-11ea-97e8-e45591ef2d97&media=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&description=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020)
+[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+[![Share on Pinterest](https://img.shields.io/badge/Share-Pinterest-e60023?style=for-the-badge&logo=Pinterest)](https://pinterest.com/pin/create/button/?url=https%3A//repository-images.githubusercontent.com/123631418/79c58980-3a13-11ea-97e8-e45591ef2d97&media=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&description=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020)
+[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Improve%20your%20personal%20cyber%20security%2C%20check%20out%20this%20ultimate%20list%20of%20privacy-respecting%20software%20on%20GitHub%0Ahttps%3A%2F%2Fgit.io%2FJv66u%20by%20%40lissy93%20%20%F0%9F%94%90%20%E2%9C%A8)
 
 
 
