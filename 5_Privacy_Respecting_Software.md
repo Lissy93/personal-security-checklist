@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
 # Privacy & Security-Focused Software and Services
-> A curated list of privacy-respecting apps, software, and providers 🔐
+A curated list of privacy-respecting apps, software, and providers 🔐
 
 **Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md#open-source-privacy-focused-software) instead.
 
@@ -13,10 +13,11 @@
 
 ## Intro
 
-Migrating to encrypted, privacy-respecting open source software and services can greatly 
-help protect your privacy, and improve your digital security.
-Choosing open-source applications with a strong emphasis on security will help stop large
-corporations, governments, and hackers from logging, storing or selling your personal details.
+Large data-hungry corporations dominate the digital world but with little, or no respect for your privacy.
+Migrating to open-source applications with a strong emphasis on security will help stop
+corporations, governments, and hackers from logging, storing or selling your personal data.
+
+Be aware that no software is perfect- there will always be bugs and vulnerabilities. Also, applications can only as secure as the system they are running on. You keep your system up-to-date and [follow good security practices](https://github.com/Lissy93/personal-security-checklist).
 
 ### Categories
 
