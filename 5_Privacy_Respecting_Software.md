@@ -886,13 +886,11 @@ This list was started by myself- Alicia, with a lot of help + contributions from
 
 Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
 
-[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Improve%20your%20personal%20cyber%20security%2C%20check%20out%20this%20ultimate%20list%20of%20privacy-respecting%20software%20on%20GitHub%0Ahttps%3A%2F%2Fgit.io%2FJv66u%20%F0%9F%94%90%20%E2%9C%A8%20%40Lissy_Sykes)
 [![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](
-http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
+http://www.linkedin.com/shareArticle?mini=true&url=https://git.io/Jv66u&title=The%20Ultimate%20List%20of%20Privacy-Respecting%20Software&summary=Improve%20your%20personal%20cyber%20security%2C%20check%20out%20this%20ultimate%20list%20of%20privacy-respecting%20software%20on%20GitHub%0Ahttps%3A%2F%2Fgit.io%2FJv66u%20%F0%9F%94%90%20%E2%9C%A8&source=https://github.com/Lissy93)
 [![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
-[![Share on Pinterest](https://img.shields.io/badge/Share-Pinterest-e60023?style=for-the-badge&logo=Pinterest)](https://pinterest.com/pin/create/button/?url=https%3A//repository-images.githubusercontent.com/123631418/79c58980-3a13-11ea-97e8-e45591ef2d97&media=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&description=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020)
 [![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Improve%20your%20personal%20cyber%20security%2C%20check%20out%20this%20ultimate%20list%20of%20privacy-respecting%20software%20on%20GitHub%0Ahttps%3A%2F%2Fgit.io%2FJv66u%20by%20%40lissy93%20%20%F0%9F%94%90%20%E2%9C%A8)
-
 
 
 
