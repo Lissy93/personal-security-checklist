@@ -9,12 +9,6 @@
 
 [⏬ Skip to Content ⏬](#password-managers)
 
-#### See Also
-- [Personal Security Checklist](/README.md)
-- [Gadgets for Privacy & Security](/6_Privacy_and-Security_Gadgets.md)
-- [Further Links: Privacy & Security](/4_Privacy_And_Security_Links.md)
-- [The Importance of Digital Security & Privacy](/0_Why_It_Matters.md)
-
 ---
 
 ## Intro
@@ -844,6 +838,15 @@ However, that's not all you need to do- it is important to also: Use strong and 
 adopt good networking practices and be mindful of data that is collected when browsing the web. You can see the full
 **[personal security checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)** for more tips to staying safe 🔐
 
+### See Also
+
+- [Personal Security Checklist](/README.md)
+- [Gadgets for Privacy & Security](/6_Privacy_and-Security_Gadgets.md)
+- [Further Links: Privacy & Security](/4_Privacy_And_Security_Links.md)
+- [The Importance of Digital Security & Privacy](/0_Why_It_Matters.md)
+
+This page is just one in this repository of open source privacy & security resources.
+So while your here, why not also check out the files linked to above 😉
 
 ### Disclaimer
 
