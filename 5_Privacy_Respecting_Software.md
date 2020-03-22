@@ -833,9 +833,10 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 	- [SourceGraph](https://github.com/sourcegraph/sourcegraph) - Self-hosted universal code search and navigation engine
 
 
----
+## Final Notes
 
-## Conclusion
+
+### Conclusion
 
 Many coporations that put profit before people, collecting data and exploiting privacy, many claim to to secure but without being open source it can't be verified, and it is always too late once there has been a breach. Switching to privacy-respecting, open souece software will drastically help inmprove your security, privacy and anonimity online.
 
@@ -843,21 +844,46 @@ However, that's not all you need to do- it is important to also: Use strong and 
 adopt good networking practices and be mindful of data that is collected when browsing the web. You can see the full
 **[personal security checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)** for more tips to staying safe 🔐
 
----
 
-## Contributing
+### Disclaimer
 
-*Thank you for taking the time to read the list, I hope it has been usful. If you have suggestions, then you [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [submit a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master), see: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md). Contributions are welcome, and much appreciated* ☺️
+No piece of software is truly secure or private. 
+
+Software is only as secure as the system it is running on. You keep your devices up-to-date and follow good security practices.
+
+Open source software has long had a reputation of being more secure than its closed source counterparts. Since bugs are raised transparently, fixed quickly, the code can be checked by experts in the community and there is usually little or no data collection or analytics. That being said, there is no piece of software that it totally bug free, and hence never truly secure or private. Being open source, is in no way a guarantee that something is safe. There is no shortage of poorly-written, obsolete or sometimes plain malicious open source projects on the internet.
+
+When using a hosted or property solution- always check the privacy policy, research the reputation of the organisation, and be weary about which data you trust them with. Where possible choose open source software for security-critical situations.
+
+This list contains packages that range from entry-level to extreme. It is in no way a definitive list of secure applications, and aims only to be a guide, a collection of software and services that myself and other have used and would recommend. There will always be new vulnerabilities discovered or introduced, bugs and poorly configured systems. It is up to you to do your research, and decide where and how your data is managed.
+
+
+### Contributing
+
+*Thanks for visiting! If you have suggestions, then you [open an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [submit a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master), see: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md). Contributions are welcome, and much appreciated* ☺️
+
+
+### License 
 
 [![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE.md)
 
 *Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
 
-<a href="https://twitter.com/intent/follow?screen_name=Lissy_Sykes">
-  <img src="https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter" alt="Follow Alicia Sykes on Twitter">
-</a>
 
-----
+### Thank you
+
+Thank you for checking out this project- I hope you found it somewhat useful 😊
+
+This list was started by myself- [Alicia Sykes](https://aliciasykes.com), and is maintained by the community. You can get in contact with me below:
+
+[![Alicia Sykes on Twitter](https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter)](https://twitter.com/Lissy_Sykes)
+[![Alicia Sykes on GitHub](https://img.shields.io/github/followers/lissy93?label=Lissy93&style=social)](https://github.com/Lissy93)
+[![Alicia Sykes on Mastodon](https://img.shields.io/mastodon/follow/1032965?domain=https%3A%2F%2Fmastodon.social)](https://mastodon.social/web/accounts/1032965)
+[![Alicia Sykes on Keybase](https://img.shields.io/badge/aliciasykes--lightgrey?style=social&logo=Keybase)](https://keybase.io/aliciasykes)
+[![Alicia Sykes's PGP](https://img.shields.io/badge/PGP--lightgrey?style=social&logo=Let%E2%80%99s%20Encrypt)](https://keybase.io/aliciasykes/pgp_keys.asc)
+[![Alicia Sykes's Website](https://img.shields.io/badge/aliciasykes.com--lightgrey?style=social&logo=Tencent%20QQ)](https://aliciasykes.com)
+
+---
 
 Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
 
