@@ -342,7 +342,7 @@ Tor, I2P and Freenet are all anonimity networks- but they work very differently 
 [Nym](https://nymtech.neteu) uses Blockchain, to reward node operators in order to keep the network sustainable.
 
 #### Word of Warning
-To provide low-latency browsing, Tor does not not mix packets or generate cover traffic. If an adversary is powerful enough, theoretically they could either observe the entire network, or just the victims entry and exit nodes. It's worth mentioning, that even though your ISP can not see what you are doing, they will be able determine that you are using a mix net, to hide this- a VPN could be used. If you are doing anything which could put you at risk, then good OpSec is essential, as the authoroties have traced criminals through the Tor network before, and [made arrests](https://techcrunch.com/2019/05/03/how-german-and-us-authorities-took-down-the-owners-of-darknet-drug-emporium-wall-street-market).
+To provide low-latency browsing, Tor does not not mix packets or generate cover traffic. If an adversary is powerful enough, theoretically they could either observe the entire network, or just the victims entry and exit nodes. It's worth mentioning, that even though your ISP can not see what you are doing, they will be able determine that you are using a mix net, to hide this- a VPN could be used. If you are doing anything which could put you at risk, then good OpSec is essential, as the authoroties have traced criminals through the Tor network before, and [made arrests](https://techcrunch.com/2019/05/03/how-german-and-us-authorities-took-down-the-owners-of-darknet-drug-emporium-wall-street-market). Don't let Tor provide a possible false sense of security- be aware of information leaks through DNS or other programs, and Tor-supported browsers may might lag behind their upstream forks, allowing for unpatched issues. See [#19](https://github.com/Lissy93/personal-security-checklist/issues/19)
 
 Note: The Tor netowrk is run by the community. If you benifit from using it, and would like to help sustain uncensored internet access for all- consider [running a Tor relay](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide).
 
@@ -851,11 +851,13 @@ No piece of software is truly secure or private.
 
 Software is only as secure as the system it is running on. You keep your devices up-to-date and follow good security practices.
 
+It is good practice to keep your trusted software base small, to reduce potential attack surface. At the same time trusting a single application for too many tasks could be a weakness in your system. So you will need to judge the situation according to your threat model, and carefully plan which software and applications you trust with each segment of your data.
+
 Open source software has long had a reputation of being more secure than its closed source counterparts. Since bugs are raised transparently, fixed quickly, the code can be checked by experts in the community and there is usually little or no data collection or analytics. That being said, there is no piece of software that it totally bug free, and hence never truly secure or private. Being open source, is in no way a guarantee that something is safe. There is no shortage of poorly-written, obsolete or sometimes plain malicious open source projects on the internet.
 
 When using a hosted or property solution- always check the privacy policy, research the reputation of the organisation, and be weary about which data you trust them with. Where possible choose open source software for security-critical situations.
 
-This list contains packages that range from entry-level to extreme. It is in no way a definitive list of secure applications, and aims only to be a guide, a collection of software and services that myself and other have used and would recommend. There will always be new vulnerabilities discovered or introduced, bugs and poorly configured systems. It is up to you to do your research, and decide where and how your data is managed.
+This list contains packages that range from entry-level to extreme. It is in no way a definitive list of secure applications, and aims only to be a guide, a collection of software and services that myself and other have used, and would recommend. There will always be new vulnerabilities discovered or introduced, bugs and poorly configured systems. It is up to you to do your research, and decide where and how your data is managed.
 
 
 ### Contributing
