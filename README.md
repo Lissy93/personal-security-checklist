@@ -284,10 +284,19 @@ Many data breaches, hacks and attacks are caused by human error. The following l
 ----
 
 #### There's more to check out!
-- [Why Privacy & Security Matters](https://github.com/Lissy93/personal-security-checklist/blob/master/0_Why_It_Matters.md)
-- [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md)
-- [Privacy & Security Gadgets](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_and-Security_Gadgets.md)
-- [Further Links + More Awesome Stuff](https://github.com/Lissy93/personal-security-checklist/blob/master/4_Privacy_And_Security_Links.md)
+- [Why Privacy & Security Matters](/0_Why_It_Matters.md)
+- [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
+- [Privacy & Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
+- [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)
+
+#### Other Awesome Security Lists
+- @sbilly/[awesome-security](https://github.com/sbilly/awesome-security)
+- @0x4D31/[awesome-threat-detection](https://github.com/0x4D31/awesome-threat-detection)
+- @hslatman/[awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence)
+- @PaulSec/[awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks)
+- @Zbetcheckin/[security_list](https://github.com/zbetcheckin/Security_list)
+
+[See More](/4_Privacy_And_Security_Links.md#other-github-security-lists)
 
 ----
 
