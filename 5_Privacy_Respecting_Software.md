@@ -42,8 +42,9 @@ Be aware that no software is perfect- there will always be bugs and vulnerabilit
   - [DNS Providers](#dns)
   - [Firewalls](#firewalls)
   - [Firewall Analysis](#firewall-analysis)
-- **Productivity**
   - [Cloud Hosting](#cloud-hosting)
+  - [Domain Registrars](#domain-registrars)
+- **Productivity**
   - [Digital Notes](#digital-notes)
   - [Cloud Productivity Suits](#cloud-productivity-suits)
   - [Backup and Sync](#backup-and-sync)
@@ -443,12 +444,18 @@ Weather you are hosting a website/ app and want to keep your users data safe, or
 **[Private Layer](https://www.privatelayer.com)** | Offers enterprise-grade, high-speed offshore dedicated servers, they own their own data centers, have a solid privacy policy and accept anonymous payment
 
 #### Notable Mentions
-See also: [Shinjiru](http://shinjiru.com?a_aid=5e401db24a3a4), which offers off-shore dedicated servers. [Orange Website](https://www.orangewebsite.com) specialises in protecting online privacy and free speech, hosted in Iceland. [RackBone](https://rackbone.ch) (previously [DataCell](https://datacell.is)) provides secure and ethical hosting, based in Switzerland. And [Bahnhof](https://www.bahnhof.net) offers high-security and ethical hosting, with their data centres locates in Sweden. Finally [Simafri](https://www.simafri.com/anonymous) has a range of packages, that support Tor out of the box
+See also: [1984](https://www.1984.is) based in Iceland. [Shinjiru](http://shinjiru.com?a_aid=5e401db24a3a4), which offers off-shore dedicated servers. [Orange Website](https://www.orangewebsite.com) specialises in protecting online privacy and free speech, hosted in Iceland. [RackBone](https://rackbone.ch) (previously [DataCell](https://datacell.is)) provides secure and ethical hosting, based in Switzerland. And [Bahnhof](https://www.bahnhof.net) offers high-security and ethical hosting, with their data centres locates in Sweden. Finally [Simafri](https://www.simafri.com/anonymous) has a range of packages, that support Tor out of the box
 
 
 #### Word of Warning
 The country that your data is hosted in, will be subject to local laws and regulations. It is therefore important to avoid a jurasdiction that is part of the [5 eyes](https://en.wikipedia.org/wiki/Five_Eyes) (Australia, Canada, New Zealand, US and UK) and [other international cooperatives](https://en.wikipedia.org/wiki/Five_Eyes#Other_international_cooperatives) who have legal right to view your data
 
+## Domain Registrars
+
+| Provider | Description |
+| --- | --- |
+**[Njal.la](https://njal.la)** | Privacy-aware domain service with anonymous sign-up and accepts crypto currency
+**[Orange Website](https://www.orangewebsite.com/domain-registration.php)** | Anonymous domain registration, with low online censorship since they are based outside the 14-eyes jurisdiction (in Iceland)
 
 
 ## Digital Notes
