@@ -869,13 +869,17 @@ No piece of software is truly secure or private.
 
 Software is only as secure as the system it is running on. You keep your devices up-to-date and follow good security practices.
 
-It is good practice to keep your trusted software base small, to reduce potential attack surface. At the same time trusting a single application for too many tasks could be a weakness in your system. So you will need to judge the situation according to your threat model, and carefully plan which software and applications you trust with each segment of your data.
+It is a good idea to keep your trusted software base small, to reduce potential attack surface. At the same time trusting a single application for too many tasks could be a weakness in your system. So you will need to judge the situation according to your threat model, and carefully plan which software and applications you trust with each segment of your data.
+
+There is often a trade-off between convenience and security. Construct a threat model, and choose a balance that is right for you. In a similar way in some situations there is privacy and security conflict (e.g. Find My Phone is great for security, but terrible for privacy, and anonymous payments may be good for privacy but less secure than insured fiat currency). Again it is about assessing your situation, understanding the risks and making an informed decision.
 
 Open source software has long had a reputation of being more secure than its closed source counterparts. Since bugs are raised transparently, fixed quickly, the code can be checked by experts in the community and there is usually little or no data collection or analytics. That being said, there is no piece of software that it totally bug free, and hence never truly secure or private. Being open source, is in no way a guarantee that something is safe. There is no shortage of poorly-written, obsolete or sometimes plain malicious open source projects on the internet.
 
 When using a hosted or property solution- always check the privacy policy, research the reputation of the organisation, and be weary about which data you trust them with. Where possible choose open source software for security-critical situations.
 
-This list contains packages that range from entry-level to extreme. It is in no way a definitive list of secure applications, and aims only to be a guide, a collection of software and services that myself and other have used, and would recommend. There will always be new vulnerabilities discovered or introduced, bugs and poorly configured systems. It is up to you to do your research, and decide where and how your data is managed.
+This list contains packages that range from entry-level to advanced, a lot of the software here will not be appropriate for all audiences.
+
+It is in no way a definitive list of secure applications, and aims only to be a guide, a collection of software and services that myself and others have used, and would recommend. There will always be new vulnerabilities discovered or introduced, bugs and poorly configured systems. It is up to you to do your research, and decide where and how your data is managed.
 
 
 ### Contributing
