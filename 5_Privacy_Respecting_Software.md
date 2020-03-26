@@ -66,9 +66,10 @@ Be aware that no software is perfect- there will always be bugs and vulnerabilit
   - [Payment Methods](#payment-methods)
 - **Bonus**
   - [Alternatives to Google](#bonus-1---alternatives-to-google)
-  - [Self-Hosted Services](#bonus-2---self-hosted-services)
-  - [Self-Hosted Sys-Admin](#bonus-3---self-hosted-sysadmin)
-  - [Self-Hosted Dev Tools](#bonus-4---self-hosted-development-tools)
+  - [Open Source Media Applications](#bonus-2---open-source-media-applications)
+  - [Self-Hosted Services](#bonus-3---self-hosted-services)
+  - [Self-Hosted Sys-Admin](#bonus-4---self-hosted-sysadmin)
+  - [Self-Hosted Dev Tools](#bonus-5---self-hosted-development-tools)
 - **See Also**
   - [Personal Security Checklist](/README.md)
   - [Gadgets for Privacy & Security](/6_Privacy_and-Security_Gadgets.md)
@@ -775,7 +776,42 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 
 
 
-## Bonus #2 - Self-Hosted Services
+## Bonus #2 - Open Source Media Applications
+
+Community-maintained media software can help you migrate away from providers that may not respect privacy. The following software packages are open source, cross-platform and free.
+
+- **Graphics**
+	- [GIMP](https://www.gimp.org) - Free open source image editor, with advanced features
+	- [Scribus](https://www.scribus.net) - Desktop publisher software, for developing posters, magazines, books and packaging
+	- [SwatchBooker](http://www.selapa.net/swatchbooker) - Manage colours, gradients, swatches. Supports importing and exporting to other applications
+	- [InkScape](https://inkscape.org) - Professional vector graphics editor
+	- [Kirta](https://krita.org) - Professional painting software. Great for concept art, texture and matte painters and illustrations and comics
+- **Audio**
+	- [Audacity](https://www.audacityteam.org) - An easy-to-use, multi-track audio editor and recorder, with advanced features
+	- [Mixxx](https://mixxx.org) - Comprehensive DJ and mixing software. Supports BPM, key detection & sync, sound effects, Vinyl Record Control and hardware support
+	- [MusicBrainz](https://picard.musicbrainz.org) - Music tagger and manager, supporting multiple formats, AcoustID, CD Lookups and plugins
+	- [Qtractor](https://qtractor.sourceforge.io) -  Audio/MIDI multi-track sequencer application written in C++, and using JACK for audio and ALSA sequencer for MIDI as multimedia infrastructures
+- **Video**
+	- [Shortcut](https://www.shotcutapp.com) - Video editor, with wide format support, many device and transport options and a sleek, intuitive interface
+	- [OpenShot](https://www.openshot.org) - Video editor with a clean UI and fast rendering, it is easy to use, quick to learn, but also surprisingly powerful
+	- [kdenlive](https://kdenlive.org) - Long standing video editor, with a configurable interface, color scopes, and a variety of effects and transitions
+- **Media Players and Servers**
+	- [VLC Player](https://www.videolan.org) - Multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols
+	- [Kodi](https://kodi.tv) - Highly customizable media server software, great for home theatres supporting Music, Movies, TV Shows and Photos
+	- [Plex](https://www.plex.tv) -  A powerful, secure and fully-featured and easy-to-install media server software
+	- [Subsonic](http://www.subsonic.org) - Feature-packed media streaming platform
+	- [Madsonic](https://beta.madsonic.org) - Flexible and secure web-based media server and media streamer
+	- [Emby](https://emby.media) - Powerful, easy-to-use media server software, great for accessing your content on any device
+	- [Gerbera](https://gerbera.io) - A free media server, making it easy to stream your media to devices on your home network
+	- [OpenELEC](https://openelec.tv) - OpenELEC (Open Embedded Linux Entertainment Centre) is a small Linux based JeOS as a platform to turn your computer into a Kodi media centre.
+	- [OpenFlixr 2](https://www.openflixr.com) - virtual, flexible, energy efficient and fully-automated media server software. It supports automated downloading and serving of media, encrypted connections, and smart auto-updating
+	- [OCMC](https://osmc.tv) -  Simple, easy-to-use, full-featured media server software and media streamer. Based on Kodi, it supports all well known media formats and a variety of sharing protocols. It has a remarkable interface, which looks great on the big screen
+- **Misc**
+	- [Blender](https://www.blender.org) - 3D creation suite, supporting modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline
+	- [GoDot](https://godotengine.org) - Open source game engine for Windows, providing a huge set of common tools
+
+
+## Bonus #3 - Self-Hosted Services
 
 - Analytics: [Matomo](https://matomo.org), [Fathom](https://github.com/usefathom/fathom), [GoatCounter](https://www.goatcounter.com), [Rudder](https://github.com/rudderlabs)
 - Blogging: [Hexo](https://hexo.io), [Noddity](http://noddity.com), [Plume](https://joinplu.me), [Ghost](https://github.com/TryGhost/Ghost), [Write.as](https://github.com/writeas)
@@ -801,7 +837,7 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 - XMP: Server: [ejabberd](https://github.com/processone/ejabberd), [MongooseIM](https://github.com/esl/MongooseIM), [OpenFire](https://github.com/igniterealtime/Openfire). Clients: [Candy](https://github.com/candy-chat/candy), [Converse](https://github.com/conversejs/converse.js)
 
 
-## Bonus #3 - Self-Hosted Sysadmin
+## Bonus #4 - Self-Hosted Sysadmin
 
 - Ad-Block (network-wide): [PiHole](https://pi-hole.net)
 - Content Filter: [E2Guardian](http://e2guardian.org), [Squid Guard](http://www.squidguard.org)
@@ -819,7 +855,7 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 - VPN: [OpenVPN](https://community.openvpn.net), [Pritunl](https://pritunl.com)
 - Web Servers: [NGINX](https://nginx.org), [Caddy](https://caddyserver.com), [Light TPD](https://www.lighttpd.net)
 
-## Bonus #4 - Self-Hosted Development Tools
+## Bonus #5 - Self-Hosted Development Tools
 
 - API Management: [Kong](https://github.com/Kong/kong), [Krakend](https://github.com/devopsfaith/krakend), [tyk](https://github.com/TykTechnologies/tyk), [Hasura](https://hasura.io)
 - Browser-based IDE: [Code Server](https://github.com/cdr/code-server) (VS Code), [Che](https://github.com/eclipse/che) (Eclipse), [ICEcoder](https://github.com/icecoder/ICEcoder), [ml-workspace](https://github.com/ml-tooling/ml-workspace) (for Data science and ML), [r-studio](https://github.com/rstudio/rstudio) (for R programming)
