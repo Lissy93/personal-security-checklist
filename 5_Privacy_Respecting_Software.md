@@ -778,37 +778,15 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 
 ## Bonus #2 - Open Source Media Applications
 
-Community-maintained media software can help you migrate away from providers that may not respect privacy. The following software packages are open source, cross-platform and free.
+Community-maintained media software can help you migrate away from providers that may not respect privacy. The following creative software packages are open source, cross-platform and free.
 
-- **Graphics**
-	- [GIMP](https://www.gimp.org) - Free open source image editor, with advanced features
-	- [Scribus](https://www.scribus.net) - Desktop publisher software, for developing posters, magazines, books and packaging
-	- [SwatchBooker](http://www.selapa.net/swatchbooker) - Manage colours, gradients, swatches. Supports importing and exporting to other applications
-	- [InkScape](https://inkscape.org) - Professional vector graphics editor
-	- [Kirta](https://krita.org) - Professional painting software. Great for concept art, texture and matte painters and illustrations and comics
-- **Audio**
-	- [Audacity](https://www.audacityteam.org) - An easy-to-use, multi-track audio editor and recorder, with advanced features
-	- [Mixxx](https://mixxx.org) - Comprehensive DJ and mixing software. Supports BPM, key detection & sync, sound effects, Vinyl Record Control and hardware support
-	- [MusicBrainz](https://picard.musicbrainz.org) - Music tagger and manager, supporting multiple formats, AcoustID, CD Lookups and plugins
-	- [Qtractor](https://qtractor.sourceforge.io) -  Audio/MIDI multi-track sequencer application written in C++, and using JACK for audio and ALSA sequencer for MIDI as multimedia infrastructures
-- **Video**
-	- [Shortcut](https://www.shotcutapp.com) - Video editor, with wide format support, many device and transport options and a sleek, intuitive interface
-	- [OpenShot](https://www.openshot.org) - Video editor with a clean UI and fast rendering, it is easy to use, quick to learn, but also surprisingly powerful
-	- [kdenlive](https://kdenlive.org) - Long standing video editor, with a configurable interface, color scopes, and a variety of effects and transitions
-- **Media Players and Servers**
-	- [VLC Player](https://www.videolan.org) - Multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols
-	- [Kodi](https://kodi.tv) - Highly customizable media server software, great for home theatres supporting Music, Movies, TV Shows and Photos
-	- [Plex](https://www.plex.tv) -  A powerful, secure and fully-featured and easy-to-install media server software
-	- [Subsonic](http://www.subsonic.org) - Feature-packed media streaming platform
-	- [Madsonic](https://beta.madsonic.org) - Flexible and secure web-based media server and media streamer
-	- [Emby](https://emby.media) - Powerful, easy-to-use media server software, great for accessing your content on any device
-	- [Gerbera](https://gerbera.io) - A free media server, making it easy to stream your media to devices on your home network
-	- [OpenELEC](https://openelec.tv) - OpenELEC (Open Embedded Linux Entertainment Centre) is a small Linux based JeOS as a platform to turn your computer into a Kodi media centre.
-	- [OpenFlixr 2](https://www.openflixr.com) - virtual, flexible, energy efficient and fully-automated media server software. It supports automated downloading and serving of media, encrypted connections, and smart auto-updating
-	- [OCMC](https://osmc.tv) -  Simple, easy-to-use, full-featured media server software and media streamer. Based on Kodi, it supports all well known media formats and a variety of sharing protocols. It has a remarkable interface, which looks great on the big screen
-- **Misc**
-	- [Blender](https://www.blender.org) - 3D creation suite, supporting modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline
-	- [GoDot](https://godotengine.org) - Open source game engine for Windows, providing a huge set of common tools
+- Graphics: [GIMP](https://www.gimp.org), [Scribus](https://www.scribus.net), [SwatchBooker](http://www.selapa.net/swatchbooker), [InkScape](https://inkscape.org), [Kirta](https://krita.org)
+- Audio: [Audacity](https://www.audacityteam.org), [Mixxx](https://mixxx.org), [MusicBrainz](https://picard.musicbrainz.org), [Qtractor](https://qtractor.sourceforge.io)
+- Video: [Shortcut](https://www.shotcutapp.com), [OpenShot](https://www.openshot.org), [kdenlive](https://kdenlive.org)
+- Media Players: [VLC Player](https://www.videolan.org)
+- Media Servers: [Kodi](https://kodi.tv), [Plex](https://www.plex.tv), [Subsonic](http://www.subsonic.org), [Madsonic](https://beta.madsonic.org), [Emby](https://emby.media), [Gerbera](https://gerbera.io), [OpenELEC](https://openelec.tv), [OpenFlixr 2](https://www.openflixr.com), [OCMC](https://osmc.tv)
+- 3D Rendering: [Blender](https://www.blender.org)
+- Game Engines: [GoDot](https://godotengine.org)
 
 
 ## Bonus #3 - Self-Hosted Services
