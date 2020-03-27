@@ -109,6 +109,8 @@ If you are using a depricated PM, you should migrate to something activley maint
 
 **Note:** Don't use your password manager to also store your 2-FA tokens- use a separate application.
 
+**See also** [2FA Checklist](/README.md#2-factor-authentication)
+
 
 ## File Encryption
 
@@ -192,6 +194,8 @@ Email clients are the programs used to interact with the mail server. For hosted
 - **Web** - If you are self-hosting your mail server, you will probably want a web-based email client. [RainLoop](http://www.rainloop.net) and [RoundCube](https://roundcube.net) are both good open source options.
 - **Mobile** - the most secure option is usually to use the app provided by your mail provider. If your mail server is self-hosted, then consider [FairMail](https://email.faircode.eu/) which is a fully featured, open source, privacy oriented email app for Android. There is also [pretty Easy privacy p≡p](https://play.google.com/store/apps/details?id=security.pEp), which has OpenPGP built in. [K-9 Mail](https://play.google.com/store/apps/details?id=com.fsck.k9), which has been around almost as long as Android, has a solid reputation for privacy and security features.
 
+**See also** [Email Security Checklist](/README.md#emails)
+
 
 ## Browsers
 
@@ -204,6 +208,8 @@ Email clients are the programs used to interact with the mail server. For hosted
 
 See also: [Recommended Browser Extensions](#browser-extensions)
 
+**See also** [Browser & Search Security Checklist](/README.md#browser-and-search)
+
 
 ## Search Engines
 
@@ -215,6 +221,8 @@ Google frequently modifies and manipulates search, and is in persuit of eliminat
 **[Qwant](https://www.qwant.com/)** | French service that aggregates Bings results, with it's own results. Quant doesn't plant any cookies, nor have any trackers or third-party advertising. It returns non-biased search results, with no promotions. Quant has a uinique, but nice UI
 
 Another option would be to host your own- [Searx](https://asciimoo.github.io/searx/) is a good option for self-hosting, since it is easy to set-up, secure, private and is backed by a strong community
+
+**See also** [Browser & Search Security Checklist](/README.md#browser-and-search)
 
 
 
@@ -236,6 +244,8 @@ The following browser add-ons give you better control over what content is able 
 
 #### Word of Warning
 *Be careful when installing unfamiliar browser add-ons, since some can compromise your security and privacy. The above list however are all open source, verified and safe extensions*
+
+**See also** [Browser & Search Security Checklist](/README.md#browser-and-search)
 
 
 ## Mobile Apps
@@ -266,6 +276,7 @@ For *advanced* users, the following tools can be used to closely monitor your de
 
 For offensive and defensive security applications, see [The Nethunter Catalogue](https://store.nethunter.com/en/packages)
 
+**See also** [Mobile Security Checklist](/README.md#mobile-devices)
 
 ## Online Tools
 
@@ -561,7 +572,7 @@ The content on many of the smaller video sites, often just doesn't compare to Yo
 | Provider | Description |
 | --- | --- |
 **[Write Freely](https://writefreely.org)** | Free and open source software with a clian UI, for creating a minimalist, federated blog. For premium or enterprise hosted plans, see [Write.as](https://write.as), or to host your own, check out the [repo on GitHub](https://github.com/writeas/writefreely)
-**[Telegraph](https://telegra.ph)** | Created by [Telegraph](https://www.theverge.com/2016/11/23/13728726/telegram-anonymous-blogging-platform-telegraph), Telegram is fast, anonymous and simple
+**[Telegraph](https://telegra.ph)** | Created by [Telegram](https://www.theverge.com/2016/11/23/13728726/telegram-anonymous-blogging-platform-telegraph), Telegraph is fast, anonymous and simple
 
 #### Notable Mentions
 
@@ -663,10 +674,16 @@ Windows 10 has many features, that violate your privacy. Microsoft and Apple are
 
 
 #### General Purpose Linux Distros
-If you do not want to use a specalist security-based distro, or you are new to Unix- then just switching to any well-maintained Linux distro, is going to be significantly more secure and private than Windows or Mac OS. Since it is open source, majour distros are constantly being audited by members of the community. Also Linux does not give users admin rights by default- this makes is much less likley that your system could become infected with malware.  There is no proprietary Microsoft or Apple software constantly monitoring everything you do, and building up a data profile on you. Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **[Debian](https://www.debian.org/)**, or **[Arch](https://www.archlinux.org/)**- all of which have a large community behind them. **[Manjaro](https://manjaro.org/)** (based of Arch), is also a good option, with a simple install process. Used by new comers, and expers alike. See [comparison](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions).
+If you do not want to use a specalist security-based distro, or you are new to Unix- then just switching to any well-maintained Linux distro, is going to be significantly more secure and private than Windows or Mac OS. Since it is open source, majour distros are constantly being audited by members of the community. Also Linux does not give users admin rights by default- this makes is much less likley that your system could become infected with malware.  And of course, there is no proprietary Microsoft or Apple software constantly monitoring everything you do, and building up a data profile on you.
+
+Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **[Debian](https://www.debian.org/)**, or **[Arch](https://www.archlinux.org/)**- all of which have a large community behind them. **[Manjaro](https://manjaro.org/)** (based of Arch), is also a good option, with a simple install process. Used by new comers, and expers alike. See [comparison](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions).
+
+Alternativley BSD systems arguably have far superior network stacks. **[OpenBSD](https://www.openbsd.org)**  is designed for maximum security — not just with its features, but with its implementation practices. It’s a commonly used OS by banks and critical systems. **[FreeBSD ](https://www.freebsd.org)** is more popular, and aims for high performance and ease of use.
+
 
 #### Improve the Security and Privacy of your current OS
-If you want to stick with your current OS, then see this [Windows 10 guide](https://heimdalsecurity.com/en/windows-10-security-guide/privacy), by Heimdal Security- it will guide you through the settings that you should update, to minimise the amount that Microsoft and other third-parties track you. For Apple users, this [Mac OS guide](https://spreadprivacy.com/mac-privacy-tips/), will walk you through the equivalent steps. For Linux, you are far more secure by default, but there are a few steps to take, as seen in this [Linux guide](https://spreadprivacy.com/linux-privacy-tips/).
+
+If you have chosen to stick with your current OS, there are a couple of things you can do to improve security, see: [Windows 10 security guide](https://heimdalsecurity.com/en/windows-10-security-guide/privacy), [Mac OS security guide](https://spreadprivacy.com/mac-privacy-tips/) or [Linux security guide](https://spreadprivacy.com/linux-privacy-tips/).
 
 
 ## Windows Defences
