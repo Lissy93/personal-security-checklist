@@ -70,6 +70,7 @@ Be aware that no software is perfect- there will always be bugs and vulnerabilit
   - [Self-Hosted Services](#bonus-3---self-hosted-services)
   - [Self-Hosted Sys-Admin](#bonus-4---self-hosted-sysadmin)
   - [Self-Hosted Dev Tools](#bonus-5---self-hosted-development-tools)
+  - [Security Testing Tools](#bonus-6---security-testing-tools)
 - **See Also**
   - [Personal Security Checklist](/README.md)
   - [Gadgets for Privacy & Security](/6_Privacy_and-Security_Gadgets.md)
@@ -854,6 +855,80 @@ Community-maintained media software can help you migrate away from providers tha
 	- [Koding](https://github.com/koding/koding) - A development platform to orchestrates your project-specific dev environment
 	- [Judge0](https://github.com/judge0) - A web compiler accessed through either an API of web-IDE, for executing trusted or untrusted code
 	- [SourceGraph](https://github.com/sourcegraph/sourcegraph) - Self-hosted universal code search and navigation engine
+
+
+## Bonus #6 - Security Testing Tools
+
+This list is intended to aid you in auditing the security of your own systems, and help detect and eliminate vulnerabilities. It is intended for advanced users and sysadmins. For penetration testing, see [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) GitHub list instead
+
+- [Amass] - In-depth Attack Surface Mapping and Asset Discovery, to help you identify issues and secure your network
+- [CloudFail] - Ensure there are no misconfigured DNS and old database records, accessible by bypassing CloudFlare network
+- [CrackMapExec] - A CLI tool for pen testing all areas of your local and remote networks, to ensure their integrity
+- [DNSdumpster] - A domain research tool that can discover hosts related to a domain. It can be used to test and ensure there are no visible hosts that a hacker could exploit
+- [DNSTracer] - Scan your domain, to show which records are publicly visible and need to be obfuscated
+- [dnstwist] - Domain name permutation engine for detecting typo squatting, phishing and corporate espionage, to protect those on your network
+- [GRR] - incident response framework focused on remote live forensics
+- [Impacket] - A collection of Python classes for working with network protocols, focused on providing low-level programmatic access to the packets and for the protocol implementation themselves
+- [Kali Linux] - A Debian-based distro for security testing, bundled with 1000's of powerful packages and scripts. Saves a lot of time configuring sys-admin tools and drivers
+- [Lynis] - A security tool that performs an extensive health scan of your systems to support system hardening and compliance testing
+- [Masscan] - TCP port scanner, that checks packets asynchronously, configure it to check only your IP ranges and it completes in milliseconds
+- [Metasploit] - Popular and powerful penetration testing framework, for exploitation and vulnerability validation- bundled with a full suit of tools, it makes it easy to divide your penetration testing workflow into manageable sections. Very useful for testing your entire network E2E
+- [Moloch] - Full packet capture, indexing, and database system. The elastic search backend makes searching through pcaps fast, and the frontend displays captured data clearly with good support for protocol decoding
+- [Nikto2] - Well-established web server testing tool, useful for firing at your web server to find known vulnerable scripts, configuration mistakes and related security problems
+- [Nmap] - Powerful utility for network discovery and security auditing. Useful for your network inventory, managing service upgrade schedules, and monitoring host or service uptime
+- [OpenAudit] - An application to tell you exactly what is on your network, how it is configured and when it changes
+- [OpenVAS] - Fully-featured security vulnerability management system, with web-based dashboards. Useful for fast and easy scans of your network
+- [OSQuery] - SQL powered operating system instrumentation, monitoring, and analytics. Very performant cross-platform tool, useful for monitoring a host for changes and providing endpoint visibility
+- [OSSEC HIDS] - A host based intrusion detection system that is easy to setup and configure, which performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response
+- [Otseca] - Search and dump your system configuration + generate HTML reports
+- [RouterSploit]: An exploitation framework for checking the security of local embedded devices, to ensure they are safe
+- [Security Onion] - Linux distro for intrusion detection, enterprise security monitoring, and log management. It includes a suit of security testing tools. Useful for collecting, storing and managing a variety of system data, for use on your networks
+- [Snort] - Intrusion detection system aimed at real time traffic analysis and packet logging tool
+- [SPARTA] - GUI tool that makes pen testing your network infrastructure easier
+- [Wireshark] - Popular, powerful feature-rich network protocol analyser. Lets you analyse everything that is going on in your network in great detail
+- [Zeek] - Powerful intrusion detection system and network security monitoring, that (rather than focusing on signatures) decodes protocols and looks for anomalies within the traffic
+
+
+[Amass]: https://github.com/OWASP/Amass
+[CloudFail]: https://github.com/m0rtem/CloudFail
+[CrackMapExec]: https://github.com/byt3bl33d3r/CrackMapExec
+[DNSdumpster]: https://dnsdumpster.com/
+[DNSTracer]: http://www.mavetju.org/unix/dnstracer.php
+[dnstwist]: https://github.com/elceef/dnstwist
+[GRR]: https://github.com/google/grr
+[Impacket]: https://github.com/SecureAuthCorp/impacket
+[Kali Linux]: https://www.kali.org
+[Kali Linux_source]: https://gitlab.com/kalilinux
+[Lynis]: https://cisofy.com/lynis
+[Masscan]: https://github.com/robertdavidgraham/masscan
+[Metasploit]: https://www.metasploit.com
+[Metasploit_source]: https://github.com/rapid7/metasploit-framework
+[Moloch]: https://molo.ch
+[Moloch_source]: https://github.com/aol/moloch
+[Nikto2]: https://cirt.net/nikto2
+[Nikto2_source]: https://github.com/sullo/nikto
+[Nmap]: https://nmap.org
+[Nmap_source]: https://github.com/nmap/nmap
+[OpenAudit]: https://www.open-audit.org
+[OpenVAS]: https://openvas.org
+[OpenVAS_source]: https://github.com/greenbone/openvas
+[OSQuery]: https://osquery.io
+[OSQuery_source]: https://github.com/osquery/osquery
+[OSSEC HIDS]: https://www.ossec.net
+[OSSEC HIDS_source]: https://github.com/ossec/ossec-hids
+[Otseca]: https://github.com/trimstray/otseca
+[RouterSploit]: https://github.com/threat9/routersploit
+[Security Onion]: https://securityonion.net
+[Security Onion_source]: https://github.com/Security-Onion-Solutions/security-onion
+[Snort]: https://snort.org
+[SPARTA]: https://sparta.secforce.com
+[SPARTA_source]: https://github.com/SECFORCE/sparta
+[Wireshark]: https://www.wireshark.org
+[Wireshark_source]: https://code.wireshark.org/review/#/admin/projects/wireshark
+[Zeek]: https://zeek.org
+[Zeek_source]: https://github.com/zeek/zeek
+
+
 
 
 ## Final Notes
