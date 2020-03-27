@@ -25,35 +25,36 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
   - [Other GitHub Security Lists](#other-github-security-lists)
 
 
-## Resources
-- Tips for safer online communications: https://ssd.eff.org
-- Tools to protect agains mass surveillance: https://www.privacytools.io
-- Secure app alternatives: https://prism-break.org/en/all
-- Guides for securing mobile, web and home tech https://bit.ly/2ptl4Wm
-- Complete guide to secure email: https://emailselfdefense.fsf.org
-- Check which websites support 2FA: https://twofactorauth.org
-- Great advise for beginners: https://securityplanner.org
+## Getting Started Guides
+
+- [EFF SSD](https://ssd.eff.org) - Tips for safer online communications
+- [PrivacyTools.io]( https://www.privacytools.io) - Tools to protect agains mass surveillance
+- [PrismBreak](https://prism-break.org/en/all) - Secure app alternatives
+- [The VERGE guide to privacy](https://bit.ly/2ptl4Wm) - Guides for securing mobile, web and home tech
+- [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
+- [TwoFactorAuth.org](https://twofactorauth.org) - Check which websites support 2FA
+- [Security Planner](https://securityplanner.org) - Great advise for beginners
 
 
 ## Foundations
-- Contract for the Web: https://contractfortheweb.org
-- Electronic Frountier Foundation, Defending digital privacy + more: https://www.eff.org
-- OWASP Foundation: https://www.owasp.org
-- The Privacy Project, by the NYT: https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html
-- Freedom House, Fighting for freedom on the net: https://freedomhouse.org
-- Privacy International: https://privacyinternational.org
-- Open Tech Fund: https://www.opentech.fund
-- Freedom of the Press Foundation: https://freedom.press
-- Open Rights Group: https://www.openrightsgroup.org
-- LEAP Encryption Access Project: https://leap.se
-- The Guardian Project: https://guardianproject.info
-- Foundation for Applied Privacy: https://applied-privacy.net
-- Safe + Secure (advise for journalists and film makers): https://safeandsecure.film
-- Citizen Lab: https://citizenlab.ca
 
+- [Contract for the Web](https://contractfortheweb.org)
+- [Electronic Frountier Foundation](https://www.eff.org) - Defending digital privacy + more
+- [OWASP Foundation](https://www.owasp.org)
+- [Freedom House](https://freedomhouse.org) - Fighting for freedom on the net
+- [Privacy International](https://privacyinternational.org)
+- [Open Tech Fund](https://www.opentech.fund)
+- [Freedom of the Press Foundation](https://freedom.press)
+- [Open Rights Group](https://www.openrightsgroup.org)
+- [LEAP Encryption Access Project](https://leap.se)
+- [The Guardian Project](https://guardianproject.info)
+- [Foundation for Applied Privacy](https://applied-privacy.net)
+- [Safe + Secure](https://safeandsecure.film) - advise for journalists and film makers
+- [Citizen Lab](https://citizenlab.ca)
 
 
 ## How-To Guides and Specific Articles
+
 - Complete guide to configureing Firefox for Privacy + Speed: https://12bytes.org/7750
 - Overview of projects working on next-generation secure email: https://github.com/OpenTechFund/secure-email
 - ISP and DNS privacy tips: https://bluz71.github.io/2018/06/20/digital-privacy-tips.html
@@ -69,100 +70,102 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 
 
 ## Blogs
-- Spread Privacy, Raising the standard of trust online, by DuckDuckGo: https://spreadprivacy.com/
-- Restore Privacy, tools and guides about privacy and security: https://restoreprivacy.com/
-- That One Privacy Site, impartial comparisons and discussions: https://thatoneprivacysite.net/ 
-- The Hated One, Privacy and security videos: https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q
-- 12Bytes, Opinion Articles about Tech, Privacy and more: https://12bytes.org/articles/tech
-- BringBackPrivacy, easy-reading, sharable privacy articles: https://bringingprivacyback.com/
-- Heimdal, Cyber Security Blog: https://heimdalsecurity.com/blog/
-- Tech Crunch, Cyber Security 101: https://techcrunch.com/tag/cybersecurity-101/
-- OONI, Internet freedom and analysis on blocked sites: https://ooni.org/post/
-- Cyber Security Discusions on Reddit: https://www.reddit.com/r/cybersecurity/
-- Pixel Privacy: https://pixelprivacy.com/resources/
+- [Spread Privacy](https://spreadprivacy.com) - Raising the standard of trust online, by DuckDuckGo
+- [Restore Privacy](https://restoreprivacy.com) - Tools and guides about privacy and security
+- [That One Privacy Site](https://thatoneprivacysite.net) - impartial comparisons and discussions
+- [The Hated One](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q) - Privacy and security videos
+- [12Bytes](https://12bytes.org/articles/tech) - Opinion Articles about Tech, Privacy and more
+- [BringBackPrivacy](https://bringingprivacyback.com) - Easy-reading, sharable privacy articles
+- [Heimdal](https://heimdalsecurity.com/blog) - Cyber Security Blog
+- [Tech Crunch](https://techcrunch.com/tag/cybersecurity-101) - Cyber Security 101
+- [OONI](https://ooni.org/post), Internet freedom and analysis on blocked sites
+- [Pixel Privacy](https://pixelprivacy.com/resources) - Online privacy guides
+- [The Privacy Project](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html) - Articles and reporting on Privacy, by the NYT
+
 
 
 ## Books
-- Permanent Record (by Edward Snowden): https://amzn.to/30wxxXi
-- Sandworm (by  Andy Greenberg): https://amzn.to/2FVByeJ
+- [Permanent Record](https://amzn.to/30wxxXi) (by Edward Snowden)
+- [Sandworm](https://amzn.to/2FVByeJ) (by  Andy Greenberg)
 
 
 ## Podcasts
-- Darknet Diaries (by Jack Rhysider): [https://darknetdiaries.com]. Or listen on [Stitcher][da-stitch]
-- CYBER (by Motherboard, Vice): [Motherboard CYBER]. Or listen on [Stitcher][cy-stitch]
+- [Darknet Diaries] (by Jack Rhysider): Stories from the dark sides of the internet. Listen on [Stitcher][da-stitch]
+- [CYBER] (by Motherboard, Vice): News and analysis about the latest cyber threats. Listen on [Stitcher][cy-stitch]
 
-[https://darknetdiaries.com]: https://darknetdiaries.com
+[Darknet Diaries]: https://darknetdiaries.com
 [da-stitch]: https://www.stitcher.com/podcast/darknet-diaries
 
-[Motherboard CYBER]: https://www.vice.com/en_us/article/59vpnx/introducing-cyber-a-hacking-podcast-by-motherboard
+[CYBER]: https://www.vice.com/en_us/article/59vpnx/introducing-cyber-a-hacking-podcast-by-motherboard
 [cy-stitch]: https://www.stitcher.com/podcast/vice-2/cyber
 
 
 ## Videos
-- Why you should switch you should switch off your home WiFi: https://youtu.be/2GpNhYy2l08
-- You are being watched, by The New York Times: https://youtu.be/c8jDsg-M6qM
-- The Power of Privacy, by The Guardian: https://youtu.be/KGX-c5BJNFk
-- Why Privacy matters, even if you have nothing to hide: https://youtu.be/Hjspu7QV7O0
+- [Why you should switch off your home WiFi](https://youtu.be/2GpNhYy2l08) by Bram Bonné
+- [You are being watched](https://youtu.be/c8jDsg-M6qM) by The New York Times
+- [The Power of Privacy](https://youtu.be/KGX-c5BJNFk) by The Guardian
+- [Why Privacy matters, even if you have nothing to hide](https://youtu.be/Hjspu7QV7O0) by The Hated One
 
 
 ## Data and API's
-- A database or Current software vulnerabilities, Exploit Database: https://www.exploit-db.com/
-- Detailed VPN Comparison Data: https://thatoneprivacysite.net/#detailed-vpn-comparison
-- Trackers in Android Apps, Exodus: https://reports.exodus-privacy.eu.org/en/trackers/stats/
+- [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
+- [That One Privacy Site](https://thatoneprivacysite.net/#detailed-vpn-comparison) - Detailed VPN Comparison Data
+- [Exodus](https://reports.exodus-privacy.eu.org/en/trackers/stats) - Trackers in Android Apps
+- [URLScan](https://urlscan.io) - Service scanning for malisious domains
+- [Dehashed](https://www.dehashed.com/breach) - Data Breaches and Credentials
+- [VirusTotal](https://developers.virustotal.com/v3.0/reference) - Detailed virus scans of software
 - Hosts to block: https://someonewhocares.org/hosts/ and  https://github.com/StevenBlack/hosts
-- Service scanning for malisious domains, URLScan: https://urlscan.io/
-- Data Breaches and Credentials: https://www.dehashed.com/breach
 
 
 ## Academic Journals
-- Crypto Paper: https://github.com/cryptoseb/cryptopaper/
-- WireGuard White Paper: https://www.wireguard.com/papers/wireguard.pdf
+- [Crypto Paper](https://github.com/cryptoseb/cryptopaper) by Crypto Seb- Privacy, Security, and Anonymity For Every Internet User
 
 
 ## Implementations and Standards
-- The GNU Privacy Guard: https://www.gnupg.org/
-- OpenPGP JavaScript Implementation: https://openpgpjs.org/
-- Nym- Next Generation of Privacy infrastructure: https://as93.link/nym-blog-post
+- [The GNU Privacy Guard](https://www.gnupg.org)
+- [OpenPGP JavaScript Implementation](https://openpgpjs.org)
+- [WireGuard](https://www.wireguard.com/papers/wireguard.pdf)
+- [Nym](https://as93.link/nym-blog-post) - Next Generation of Privacy infrastructure
 
 
 
 ## Government Cyber Security Organisations
-- UK National Cyber Security Center: https://www.ncsc.gov.uk/
-- US Cybersecurity: https://www.nist.gov/topics/cybersecurity
+- [UK National Cyber Security Center](https://www.ncsc.gov.uk)
+- [US Cybersecurity - NIST](https://www.nist.gov/topics/cybersecurity)
 
 
 ## Anonymous Services
-- NixNet: https://nixnet.services
-- Snopyta: https://snopyta.org
-- Disroot: https://disroot.org
+- [NixNet](https://nixnet.services)
+- [Snopyta](https://snopyta.org)
+- [Disroot](https://disroot.org)
 
 
 
 ## Online Tools
-- Check if your details have been compromised: https://haveibeenpwned.com and https://www.dehashed.com/
-- Check where a suspicious URL redirects to, Redirect Detective: https://redirectdetective.com/
-- Check which trackers any app on the Play Store has, εxodus: https://reports.exodus-privacy.eu.org/en/
-- Analyse a suspicious web resource for malware, VirusTotal: https://www.virustotal.com/
-- Check if a website is a scam, before buying from it, ScamAdviser: https://www.scamadviser.com/
-- Clean up your online presence: https://www.deseat.me/
-- Avoid revealing your real email address, by auto-generating aliases for each accound, 33Mail: http://33mail.com/Dg0gkEA
-- Check if your browser is checking you, Panopticlick: https://panopticlick.eff.org/
-- A suit of online tools, with online freedom in mind, Disroot: https://disroot.org/
-- Check if your website is blocked by certain ISPs, Blocked by ORG: https://www.blocked.org.uk/
-- Find, understand and use information from privacy policies, Data Rights Finder: https://www.datarightsfinder.org/
-- Check which information is being leaked by your browser, Browser Leaks: https://browserleaks.com/
-- Check for, and fix a DNS leak: https://www.dnsleaktest.com/
-- Shows your IP address, and other associated details, IP Leak: https://ipleak.net
-- Remove Meta/ EXIF data online, ExifRemove: https://www.exifremove.com/
+- [Have I been Pwned](https://haveibeenpwned.com) and [Dehashed](https://www.dehashed.com) - Check if your details have been compromised
+- [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
+- [εxodus](https://reports.exodus-privacy.eu.org) - Check which trackers any app on the Play Store has
+- [VirusTotal](https://www.virustotal.com) - Analyse a suspicious web resource for malware
+- [ScamAdviser](https://www.scamadviser.com) - Check if a website is a scam, before buying from it
+- [Deseat Me](https://www.deseat.me) - Clean up your online presence
+- [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) Avoid revealing your real email address, by auto-generating aliases for each accound
+- [Panopticlick](https://panopticlick.eff.org) - Check if, and how your browser is tracking  you
+- [Disroot](https://disroot.org) - A suit of online tools, with online freedom in mind
+- [Blocked by ORG](https://www.blocked.org.uk) - Check if your website is blocked by certain ISPs
+- [Data Rights Finder](https://www.datarightsfinder.org) - Find, understand and use information from privacy policies
+- [Browser Leaks](https://browserleaks.com) - Check which information is being leaked by your browser
+- [DNSLeakTest](https://www.dnsleaktest.com) - Check for and fix a DNS leak
+- [IP Leak](https://ipleak.net) - Shows your IP address, and other associated details
+- [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
 
 
 ## Mega Guides
-- https://fried.com/privacy
-- https://www.ivpn.net/privacy-guides
-- https://proprivacy.com/guides/the-ultimate-privacy-guide
-- https://heimdalsecurity.com/blog/cyber-security-mega-guide
-- https://www.wired.com/2017/12/digital-security-guide
-- https://www.vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide
+- by [Fried](https://fried.com/privacy)
+- by [ivpn](https://www.ivpn.net/privacy-guides)
+- by [ProPrivacy](https://proprivacy.com/guides/the-ultimate-privacy-guide)
+- by [Heimdal Security](https://heimdalsecurity.com/blog/cyber-security-mega-guide)
+- by [Wired](https://www.wired.com/2017/12/digital-security-guide)
+- by [Vice](https://www.vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide)
 
 ## More Awesome GitHub Lists
 
@@ -182,8 +185,8 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 
 
 ## Unrelated Awesome Lists
- - awesome by @sindresorhus: https://github.com/sindresorhus/awesome
- - lists by @jnv: https://github.com/jnv/lists
+ - [awesome]( https://github.com/sindresorhus/awesome) by @sindresorhus
+ - [lists](https://github.com/jnv/lists) by @jnv
 
 ---
 
