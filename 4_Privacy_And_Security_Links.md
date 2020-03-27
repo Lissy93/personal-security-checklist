@@ -34,6 +34,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
 - [TwoFactorAuth.org](https://twofactorauth.org) - Check which websites support 2FA
 - [Security Planner](https://securityplanner.org) - Great advise for beginners
+- [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
 
 
 ## Foundations
