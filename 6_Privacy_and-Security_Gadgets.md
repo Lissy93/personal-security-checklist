@@ -186,11 +186,13 @@ Word of Warning: Sometimes the cable itself can be dangerous. See [O.M.G Cable](
 
 Using a physical 2-factor authentication key can greatly improve the security of your online accounts. See [twofactorauth.org](https://twofactorauth.org) for a list of websites that provide 2FA.
 
-- Yubico USB A + NFC Key, classic key with solid reputation. [UK](https://amzn.to/38ddnUG) | [US]() | [Yubico](https://www.yubico.com/store)
-- YubiKey 5 Mobile and Nano Keys. [USB A Nano](https://amzn.to/2wkCmbe) | [USB C](https://amzn.to/2VGkClz) | [USB C Nano](https://amzn.to/39b2zYA)
-- Thetis - Durable. mobile-friendly USB-A FIDO U2F Key. [US](https://amzn.to/39f6Dqu) | [UK](https://amzn.to/3cm9xvK) | [Thetis.io](https://thetis.io)
-- Solo Key is an open source U2F and FIDO2 key, USB A + NFC. [US](https://amzn.to/39cJR2P) | [UK](https://amzn.to/3ajnBo0) | [SoloKeys.com](https://solokeys.com)
-- OnlyKey is a pin-protected hardware password manager with FIDO2/ U2F. It allows a user to log in without a password or typing out a 2FA code. [OnlyKey.com](onlykey.io/alicia) | [US](https://amzn.to/38blkd3) | [UK](https://amzn.to/3clwTli)
+- **Yubico USB A + NFC Key** - classic key with solid reputation. [UK](https://amzn.to/38ddnUG) | [US]() | [Yubico](https://www.yubico.com/store)
+- **YubiKey 5 Mobile and Nano Keys** - [USB A Nano](https://amzn.to/2wkCmbe) | [USB C](https://amzn.to/2VGkClz) | [USB C Nano](https://amzn.to/39b2zYA)
+- **Thetis** - Durable. mobile-friendly USB-A FIDO U2F Key. [US](https://amzn.to/39f6Dqu) | [UK](https://amzn.to/3cm9xvK) | [Thetis.io](https://thetis.io)
+- **Solo Key** - An open source U2F and FIDO2 key, USB A + NFC. [US](https://amzn.to/39cJR2P) | [UK](https://amzn.to/3ajnBo0) | [SoloKeys.com](https://solokeys.com)
+- **OnlyKey** - A pin-protected hardware password manager with FIDO2/ U2F. It allows a user to log in without a password or typing out a 2FA code. [OnlyKey.com](onlykey.io/alicia) | [US](https://amzn.to/38blkd3) | [UK](https://amzn.to/3clwTli)
+- **Librem Key** - Makes encryption, key management, and tamper detection convenient and secure. Includes an integrated password manager, random number generator, tamper-resistant smart card plus more. [Puri.sm](https://puri.sm/products/librem-key)
+
 
 The Verge has a good [article](https://www.theverge.com/2019/2/22/18235173/the-best-hardware-security-keys-yubico-titan-key-u2f) comparing hardware keys. 
 
