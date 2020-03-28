@@ -178,6 +178,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - [awesome-crypto-papers](https://github.com/pFarb/awesome-crypto-papers) by @pFarb
 - [awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) by @hslatman
 - [awesome-incident-response](https://github.com/meirwah/awesome-incident-response) by @meirwah
+- [awesome-anti-forensic](https://github.com/remiflavien1/awesome-anti-forensic) by @remiflavien1
 - [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) by @rshipp
 - [awesome-honeypots](https://github.com/paralax/awesome-honeypots) by @paralax
 - [awesome-hacking](https://github.com/carpedm20/awesome-hacking) by @carpedm20
