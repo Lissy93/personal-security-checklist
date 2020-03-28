@@ -3,18 +3,9 @@
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
 # Hardware for Protecting Privacy and Security
-> ### A curated list of (DIY and pre-build) devices, to help preserve privacy and improve physical cyber security 🔐
+A curated list of (DIY and pre-built) devices, to help preserve privacy and improve physical cyber security 🔐
 
 **Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md#security-hardware) instead.
-
-[⏬ Skip to Content ⏬](#basics)
-
-#### See Also
-- [Ultimate Personal Security Checklist](/README.md)
-- [The Importance of Digital Security & Privacy](/0_Why_It_Matters.md)
-- [Why Privacy & Security Matters](/0_Why_It_Matters.md)
-- [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
-- [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)
 
 ---
 
@@ -23,6 +14,7 @@
 - [DIY Security Products](#diy-security-products)
 - [Paranoid Security Gadgets](#paranoid-security-gadgets)
 - [Network Security](#network-security)
+- [Secure Computing Devices](#secure-computing-devices)
 - [Hardware Encrypted Storage](#hardware-encrypted-storage)
 - [USB Data Blockers](#usb-data-blockers)
 - [FIDO U2F Keys](#fido-u2f-keys)
@@ -101,6 +93,8 @@ We can go even further, these products are far from essential and are maybe a li
 - **Tor Travel-Router** - Plug-and-play travel router, providing WiFi with VPN or Tor for more private internet access, also has Wi-Fi uplink and range extender with a clear user interface. See more: [Anonabox.com](https://www.anonabox.com) | [Amazon](https://amzn.to/2HHV0fG)
 - **GPS Jammer** - In the DIY list, there was a link to how to build a GPS spoof device using an SDR. But you can also buy a GPS jammer, which may be useful if you fear that you are being tracked. They are aimed at preventing UAVs from operating in your area, but can also be used to confuse other tracking devices near by, there's a variety of models with varying power and range availible from $50 - $500. [AliExpress](https://www.aliexpress.com/item/4000214903055.html)
 - **Faraday Cases** - A Faraday cage or Faraday shield is an enclosure used to block electromagnetic fields. This can be really useful for electronics, since many devices are constantly transmitting and recieving, which is the worst when you are trying to avoid being tracked. Their have been numerous reportings that governments can apparently track phones, even when they are [powered off](https://slate.com/technology/2013/07/nsa-can-reportedly-track-cellphones-even-when-they-re-turned-off.html), and since smart phones often do not have removable batteries, the only option is often to shield them from any em waves. See [SilentPocket.com](https://silent-pocket.com/collections/all-products) | [Faraday Box](https://amzn.to/3cj9z7r) | [Faraday Phone Pouch](https://amzn.to/38faum5)
+- **Forensic bridge kit** - Allows for write blocking to prevent unauthorized writing to a device, and for crating images with out modifying data. See more: [Amazon](https://www.amazon.com/dp/B00Q76XG5W)
+- **Stand-alone Drive Eraser** - Allows you to erase drives, without connecting them to your PC. Availible in different modesls for different needs. See More: [Amazon](https://www.amazon.com/StarTech-com-Hard-Drive-Eraser-Standalone/dp/B073X3YZNL)
 
 
 ## Network Security
@@ -131,6 +125,20 @@ Gadgets that help protect and anonamise your internet, detect & prevent intrusio
 [See more](https://geekflare.com/best-open-source-firewall) open source firewall apps
 
 For most projects, a Raspberry Pi 3 or 4 is more than enough. You could also build your own hardware, see [this guide](https://www.instructables.com/id/Build-your-own-gateway-firewall) on constructing a gateware firewall yourself.
+
+
+## Secure Computing Devices
+
+- **ORWL PC** - A self-destroying PC, that will wipe all data if it is compromised, and has many other safeguards to ensure no one other than you can access anything from your drive. Comes with QubeOS, Windows or Linux, and requires both a password and fob to log in. See more: [orwl.org](https://orwl.org)
+- **Librem 5** - An open source security and privacy-focused phone, running PureOS, built by Prism. See More: [puri.sm/products/librem-5](https://puri.sm/products/librem-5)
+- **Armadillo Phones** - Encrypted phones, SIMs and Networks, provide zero-trust  communications and pro-active defences. Their keychain software is open source, and they also provide encrypted SIMs, and servers.
+See More: [ArmadilloPhone.com](https://www.armadillophone.com/store#diamond)
+- **KryptAll** - Provides secure mobile networking, for encrypted celluar calling. However without being open source, these devices are harder to verify. See More: [KryptAll.com](https://www.kryptall.com)
+- **Ano-Phone** - Android devices loaded with additional security defences. Not open source. 
+See More: [ano-phone.com](https://ano-phone.com)
+- **Secure Group** - Hardware-encrypted smart phones, for privacy and security. See more: [SecureGroup.com](https://securegroup.com/hardware)
+- **Librem Laptop** - The Librem 13, Librem 15 and Librem  Mini are well-speced, open source hardware-encrypted computing devices by Purism. They have several hardware features, like physical connectivity switches, and tamper-proof hardware. See More [puri.sm](https://puri.sm/products)
+
 
 
 ## Hardware Encrypted Storage
@@ -199,3 +207,30 @@ The most secure medium to store your currency is cold (offline) wallets, since t
 - Indestructible Steel Wallet, for private key. [US](https://amzn.to/2Px0EFV) | [UK](https://amzn.to/2VLeVmr)
 
 Always ensure the packaging has not been tampered with, buy direct from the manufacturer when possible.
+
+
+---
+
+## See Also
+
+- [Awesome Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
+- [Ultimate Personal Security Checklist](/README.md)
+- [Why Privacy and Security Matters](/0_Why_It_Matters.md)
+- [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)
+
+
+Contributions welcome and appreciated - to propose an edit [raise an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose) or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md)
+
+*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
+
+[![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE.md)
+
+---
+
+Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
+
+[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](
+http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
+[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40Lissy93%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
