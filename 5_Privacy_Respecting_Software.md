@@ -536,12 +536,13 @@ Over the past decade, social networks have revolutionized the way we communicate
 | Provider | Description |
 | --- | --- |
 **[Aether](https://getaether.net)** | Self-governing communities with auditable moderation- a similar concept to Reddit, but more privacy-sensitive, democratic and transparent. Aether is open source and peer-to-peer, it runs on Windows, Mac and Linux
+**[Discourse](https://www.discourse.org/)** | A 100% open source and self-hostable discussion platform you can use as a mailing list, discussion forum or long-form chat room.
 **[Mastodon](https://mastodon.social/invite/A5JwL72F)** | A shameless Twitter clone, but open-source, distributed across independent servers, and with no algorithms that mess with users timelines
 **[Minds](https://www.minds.com/register?referrer=as93)** | A social media site, which aims to bring people together and support open conversations. Get paid for creating content
 **[Vero](https://vero.co/)** | (closed-source) A mobile-based social network, whose USP is that they have "No Ads. No Data Mining. No Algorithms." Since Vero is not open source, it is not possible to verify the validity of these claims
 
 #### Other Notable Mentions
-- [diaspora*](https://diasporafoundation.org), [Pleroma](https://pleroma.social) and [Friendica](https://friendi.ca) - distributed, decentralized social networks, built on open protocols
+- [diaspora\*](https://diasporafoundation.org), [Pleroma](https://pleroma.social) and [Friendica](https://friendi.ca) - distributed, decentralized social networks, built on open protocols
 - [Tildes](https://tildes.net), [Lemmy](https://dev.lemmy.ml) and [notabug.io](https://notabug.io) - bulletin boards and news aggregators (similar to Reddit)
 - [Pixelfed](https://pixelfed.org) - photo sharing (similar to Instagram)
 
@@ -730,7 +731,7 @@ If you have chosen to stick with your current OS, there are a couple of things y
 
 ## Home Automation
 
-If you have smart devices within your home, you should consider running the automation locally, rather than using a cloud service. This will reduce the amount of exploits you could potentially be vulnrable to. It is also important to have network monitoring and firewalls enabled, to ensure suspicious activity is flagged or blocked. The following projects will make controlling and monitoring IoT devices within your home easier, safer and more private
+If you have smart devices within your home, you should consider running the automation locally, rather than using a cloud service. This will reduce the amount of exploits you could potentially be vulnerable to. It is also important to have network monitoring and firewalls enabled, to ensure suspicious activity is flagged or blocked. The following projects will make controlling and monitoring IoT devices within your home easier, safer and more private
 
 | Provider | Description |
 | --- | --- |
