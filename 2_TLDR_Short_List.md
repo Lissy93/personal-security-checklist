@@ -26,33 +26,32 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 
 ### Phone
-- Have a strong pin/ password on your mobile device.
-- Turn of WiFi when your not using it, and delete saved networks that you no longer need (Settings --> WiFi --> Saved Networks).
+- Have a strong pin/password on your mobile device.
+- Turn off WiFi when your not using it, and delete saved networks that you no longer need (Settings --> WiFi --> Saved Networks).
 - Don't grant apps permissions that they don't need. For Android, you can use [Exodus](https://exodus-privacy.eu.org/en/) to quickly see the permissions and trackers for each of your installed apps.
 
 
 ### Email
-- It's important to protect your email account, as if a hacker gains access to it they will be able to reset the passwords for all your other accounts. Ensure you have a strong and unique password, and enablle 2FA.
-- Emails are not encrypted by default, meaning they are able to be read by anyone who intercepts them as well as your email provider (Google, Microsoft, Apple, Yahoo etc all monitor emails). Consider switching to a secure mail provider, such as [ProtonMail](https://protonmail.com/).
+- It's important to protect your email account, as if a hacker gains access to it he/she will be able to reset the passwords for all your other accounts. Ensure you have a strong and unique password, and enable 2FA.
+- Emails are not encrypted by default, meaning they are able to be read by anyone who intercepts them as well as your email provider (Google, Microsoft, Apple, Yahoo etc all monitor emails). Consider switching to a secure mail provider using end-to-end encryption, such as [ProtonMail](https://protonmail.com/) or [Tutanota](https://tutanota.com/).
 
 
 ### Networking
-- Use a reputable VPN, to keep your IP protected, and reduce the amount of browsing data your ISP can log. (Note, VPN's do not provide ultimate protection as advertisers commonly state). See [thatoneprivacysite.net](https://thatoneprivacysite.net/) for a detailed comparison chart. [ProtonVPN](https://protonvpn.com/) has a free starter plan, [Mullvad](https://mullvad.net/) is great for anonimity. Other good all-rounders include [IVPN](https://www.ivpn.net/), NordVPN, TorGuard and AirVPN.
+- Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log. (Note: VPN's do not provide ultimate protection as advertisers commonly state). See [thatoneprivacysite.net](https://thatoneprivacysite.net/) for a detailed comparison chart. [ProtonVPN](https://protonvpn.com/) has a free starter plan, [Mullvad](https://mullvad.net/) is great for anonymity. Other good all-rounders include [IVPN](https://www.ivpn.net/), NordVPN, TorGuard and AirVPN.
 - Change your routers default password. Anyone connected to your WiFi is able to listen to network traffic, so in order to prevent people you don't know from connecting, use WPA2 and set a strong password.
 - Update your router settings to use a secure DNS, such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/), this should also speed up your internet. If you cannot modify your roters settings, you can set the DNS on your phone (with the [1.1.1.1. app](https://1.1.1.1/)), or [Windows](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/windows/), [Mac](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/mac/) or [Linux](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/linux/). DNS is the system used to resolve URL's to their server addresses, many DNS providers collect data on your browsing habbits and use it to target you with ads or sell it on. 
 
 
 ### Devices
-- Keep software up-to-date. Security fixes and patches are released as updates, so it is important to install updates when prompted, for your phone, PC, router, IoT devices and all software/ apps.
+- Keep software up-to-date. Security fixes and patches are released as updates, so it is important to install updates when prompted, for your phone, PC, router, IoT devices and all software/apps.
 
-📜 **See More**: [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)
+**📜 See More**: [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)
 
 ----
 
 
 ## OPEN-SOURCE, PRIVACY-FOCUSED SOFTWARE
-
-Switch to alternative open-source, privacy-respecting apps and services, which won't collect your data, track you or show targetted ads
+Switch to alternative open-source, privacy-respecting apps and services, which won't collect your data, track you or show targetted ads.
 
 #### Security
 - Password Managers: [BitWarden] | [1Password] *(proprietary)* | [KeePassXC] *(offline)* | [LessPass] *(stateless)*
@@ -66,7 +65,7 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 - App Firewall: [NetGuard] (Android) | [Lockdown] (iOS) | [OpenSnitch] (Linux) | [LuLu] (MacOS)
 
 #### Browser Extensions
-[Privacy Badger] - Blocks trackers. [HTTPS Everywhere] - Upgrates requests to HTTPS. [uBlock] - Blocks ads. [ScriptSafe] - Block execution of certain scripts. [WebRTC Leak Prevent] - Prevents IP leaks. [Vanilla Cookie Manager] - Auto-removes unwanted cookies. [Privacy Essentials] - Shows which sites are insecure
+[Privacy Badger] - Blocks trackers. [HTTPS Everywhere] - Upgrates requests to HTTPS. [uBlock Origin] - Blocks ads, trackers and malwares. [ScriptSafe] - Block execution of certain scripts. [WebRTC Leak Prevent] - Prevents IP leaks. [Vanilla Cookie Manager] - Auto-removes unwanted cookies. [Privacy Essentials] - Shows which sites are insecure
 
 #### Mobile Apps
 [Exodus] - Shows which trackers are on your device. [Orbot]- System-wide Tor Proxy. [Island] - Sand-box environment for apps. [NetGuard] - Controll which apps have network access. [Bouncer] - Grant temporary permissions. [Greenify] - Controll which apps can run in the background. [1.1.1.1] - Use CloudFlares DNS over HTTPS. [Fing App] - Monitor your home WiFi network for intruders
@@ -83,7 +82,7 @@ File Storage: [NextCloud]. File Sync: [Syncthing]. File Drop: [Firefox Send]. No
 
 ## SECURITY HARDWARE
 
-There are also some gadgets can help improve your physical and digital security. Although often, it is not actually necissary to spend money, as most of these products can be [built at home](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_and-Security_Gadgets.md#diy-security-products)
+There are also some gadgets that can help improve your physical and digital security. Although often, it is not actually necissary to spend money, as most of these products can be [built at home](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_and-Security_Gadgets.md#diy-security-products)
 
 - **Blockers and Protectors**: [USB Data Blocker], [Mic-Lock], [Faraday Pouch], [RFID Card Protector], [ArmourCard], [Web Cam Covers], [Port Blockers], [Privacy Screen]
 - **Encrypted Storage**: [Hardware-Encrypted USB Drive], [Hardware-Encrypted HDD], [Encrypted Kingston]
@@ -140,10 +139,10 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [Signal]: https://signal.org
 [KeyBase]: https://keybase.io
 [ProtonMail]: https://protonmail.com
-[MailFence]: https://mailfence.com?src=digitald
+[MailFence]: https://mailfence.com
 [Tutanota]: https://tutanota.com
 [Brave Browser]: https://brave.com/?ref=ali721
-[Firefox]: https://www.mozilla.org/en-GB/firefox/browsers
+[Firefox]: https://www.mozilla.org/
 [DuckDuckGo]: https://duckduckgo.com
 [StartPage]: https://www.startpage.com
 [Quant]: https://www.qwant.com

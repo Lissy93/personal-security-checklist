@@ -28,7 +28,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 ## Getting Started Guides
 
 - [EFF SSD](https://ssd.eff.org) - Tips for safer online communications
-- [PrivacyTools.io]( https://www.privacytools.io) - Tools to protect agains mass surveillance
+- [PrivacyTools.io]( https://www.privacytools.io) - Tools to protect against mass surveillance
 - [PrismBreak](https://prism-break.org/en/all) - Secure app alternatives
 - [The VERGE guide to privacy](https://bit.ly/2ptl4Wm) - Guides for securing mobile, web and home tech
 - [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
@@ -87,7 +87,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 
 ## Books
 - [Permanent Record](https://amzn.to/30wxxXi) (by Edward Snowden)
-- [Sandworm](https://amzn.to/2FVByeJ) (by  Andy Greenberg)
+- [Sandworm](https://amzn.to/2FVByeJ) (by Andy Greenberg)
 
 
 ## Podcasts
@@ -115,7 +115,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - [URLScan](https://urlscan.io) - Service scanning for malisious domains
 - [Dehashed](https://www.dehashed.com/breach) - Data Breaches and Credentials
 - [VirusTotal](https://developers.virustotal.com/v3.0/reference) - Detailed virus scans of software
-- Hosts to block: https://someonewhocares.org/hosts/ and  https://github.com/StevenBlack/hosts
+- Hosts to block: https://someonewhocares.org/hosts/ and https://github.com/StevenBlack/hosts
 
 
 ## Academic Journals
