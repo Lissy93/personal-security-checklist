@@ -1,6 +1,7 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
+[![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](/ATTRIBUTIONS.md#contributors-)
 
 # Privacy & Security-Focused Software and Services
 A curated list of privacy-respecting apps, software, and providers 🔐
@@ -102,14 +103,15 @@ If you are using a deprecated PM, you should migrate to something actively maint
 
 | Provider | Description |
 | --- | --- |
-**[Aegis](https://getaegis.app)**  | Free, secure and open source app for managing 2-step verification tokens, on Android
-**[AndOTP](https://github.com/andOTP/andOTP)** | Another open source, secure authenticator app. AndOTP is well established with a strong large user base
+**[Aegis](https://getaegis.app)** (Android)  | Free, secure and open source authenticator app for Android. Has a backup/ restore feature and a customisable UI with dark mode
+**[AndOTP](https://github.com/andOTP/andOTP)** (Android) | Another open source, secure authenticator app. AndOTP is well established with a strong user base
+**[Tofu](https://www.tofuauth.com)** (iOS) | An easy-to-use, open-source two-factor authentication app designed specifically for iOS
 
 *Check which websites support multi-factor authentication: [twofactorauth.org](https://twofactorauth.org)*
 
 **Note:** Don't use your password manager to also store your 2-FA tokens- use a separate application.
 
-**See also** [2FA Checklist](/README.md#2-factor-authentication)
+**See also** [2FA Security Checklist](/README.md#2-factor-authentication)
 
 
 ## File Encryption
@@ -270,11 +272,11 @@ The following browser add-ons give you better control over what content is able 
 **[Blokada](https://blokada.org/)** | This application blocks ads and trackers, doesn't require root and works for all the apps on your Android phone. Check out how it works [here](https://block.blokada.org/post/2018/06/17/how-does-blokada-work/).
 
 #### Other Notable Mentions
-For more open source security & privacy apps, check out [The Guardian Project], [The Tor Project], [Oasis Feng] and [Marcel Bokhorst]- all of which are trusted developers or organisations, who've done amazing work.
+For more open source security & privacy apps, check out [The Guardian Project], [The Tor Project], [Oasis Feng], [Marcel Bokhorst] and [Simple Mobile Tools]- all of which are trusted developers or organisations, who've done amazing work.
+
+For offensive and defensive security, see The Kali [Nethunter Catalogue](https://store.nethunter.com/en/packages) of apps
 
 For *advanced* users, the following tools can be used to closely monitor your devise and networks, in order to detect any unusual activity. [PortDroid] for network analysis, [Packet Capture] to monitor network traffic, [SysLog] for viewing system logs, [Dexplorer] to read .dex or .apk files for your installed apps, and [Check and Test] to check status and details of devices hardware.
-
-For offensive and defensive security applications, see [The Nethunter Catalogue](https://store.nethunter.com/en/packages)
 
 **See also** [Mobile Security Checklist](/README.md#mobile-devices)
 
@@ -348,7 +350,7 @@ Fun little projects that you can run on a Raspberry Pi, or other low-powered com
 **[PF Sense](https://www.pfsense.org)** | Widley used, open source firewall/router
 **[Zeek](https://www.zeek.org)** |  Detect if you have a malware-infected computer on your network, and powerful network analysis framework and monitor
 
-Don't want to build? See also: [Pre-configured security boxes](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_and-Security_Gadgets.md#network-security)
+Don't want to build? See also: [Pre-configured security boxes](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_and-Security_Gadgets.md#network-security)
 
 
 ## Mix Networks
@@ -611,11 +613,13 @@ Paying for goods and services is a good example of where privacy and security co
 
 
 #### Notable Mentions
-Cash is still the most private option, with no chance of leaving any transactional records. See also PIVX, Bitcoin Private and Verge. Also Pirate, Komodo and ZenCash which are hard-forks off of ZCash, with some additional privacy features built-in.
+Actual physical cash is still the most private option, with no chance of leaving any transactional records. See also [PIVX](https://pivx.org), [Bitcoin Private](https://btcprivate.org) and [Verge](https://vergecurrency.com).
 
 
 #### Word of Warning
 Not all cryptocurrencies are anonymous, and without using a privacy-focused coin, a record of your transaction will live on a publicly available distributed ledger, forever. If you send of receive multiple payments, ensure you switch up addresses or use a mixer, to make it harder for anyone trying to trace your transactions. Store private keys somewhere safe, but offline and preferably cold.
+
+Note: Cryptocurrency prices can go down. Storing any wealth in crypto may result in losses. If you are new to digital currencies- do your research first, don't invest more than you can afford, and be very weary of scams and cryptocurrency-related malware. 
 
 
 ## Anti-Virus and Malware Prevention
@@ -625,12 +629,13 @@ Not all cryptocurrencies are anonymous, and without using a privacy-focused coin
 **[CalmAV](https://www.clamav.net)** | An open source  cross-platform antivirus engine for detecting viruses, malware & other malicious threats. It is versatile, performant and very effective
 **[Windows Spy Blocker](https://github.com/crazy-max/WindowsSpyBlocker)** | Capture and interprets network traffic based on a set of rules, and depending on the interactions certain assignments are blocked. Open source, written in Go and delivered as a single executable
 **[Cylance](https://www.cylance.com)** | Takes more of an application whitelisting approach, where it generates the list of trusted software through machine learning. So instead of identifying bad software to block, it identifies good software instead, and blocks the rest by default
-**[MalwareBytes](https://www.malwarebytes.com)** | If you think your computer may be infected, or have malicious files, then Malware Bytes is a good option for running 1-off scans. It is thorough in identifying threats, with minimum data collection- however it is [not open source](https://forums.malwarebytes.com/topic/5495-open-source), so should be used with caution
 
 #### Notable Mentions
 Your operating system's built-in protection is probably adequate for detecting 99% of threats. Installing additional software can introduce more vulnerabilities, so downloading AV may actually increase your attack surface.
 
 Windows, by default is not very private. There are several packages that can be used to quickly tweak privacy settings. Such as [Simple Wall](https://github.com/henrypp/simplewall), [priv10](https://github.com/DavidXanatos/priv10), [Fix-Windows-Privacy](https://modzero.github.io/fix-windows-privacy/) and [W10 Privacy](https://www.w10privacy.de/english-home) (see [Video Tutorial](https://www.youtube.com/watch?v=qttbd2Ouxmc)). Use at your own risk, disabling some OS features can cause unintended consequences. See also, this [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) for manual steps.
+
+For 1-off malware scans, [MalwareBytes](https://www.malwarebytes.com) is very effective- thorough in identifying threats, with minimum data collection. However it is [not open source](https://forums.malwarebytes.com/topic/5495-open-source).
 
 
 #### Word of Warning
@@ -676,11 +681,12 @@ Windows 10 has many features that violate your privacy. Microsoft and Apple are 
 
 
 #### General Purpose Linux Distros
-If you do not want to use a specalist security-based distro, or you are new to Unix- then just switching to any well-maintained Linux distro, is going to be significantly more secure and private than Windows or Mac OS. Since it is open source, major distros are constantly being audited by members of the community. Also Linux does not give users admin rights by default- this makes is much less likley that your system could become infected with malware. And of course, there is no proprietary Microsoft or Apple software constantly monitoring everything you do, and building up a data profile on you.
+If you do not want to use a specalist security-based distro, or you are new to Unix- then just switching to any well-maintained Linux distro, is going to be significantly more secure and private than Windows or Mac OS.
+Since it is open source, major distros are constantly being audited by members of the community. Linux does not give users admin rights by default- this makes is much less likley that your system could become infected with malware. And of course, there is no proprietary Microsoft or Apple software constantly monitoring everything you do.
 
-Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **[Debian](https://www.debian.org/)**, or **[Arch](https://www.archlinux.org/)**- all of which have a large community behind them. **[Manjaro](https://manjaro.org/)** (based of Arch), is also a good option, with a simple install process. Used by new comers, and expers alike. See [comparison](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions).
+Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **[Debian](https://www.debian.org/)**, or **[Arch](https://www.archlinux.org/)**- all of which have a large community behind them. **[Manjaro](https://manjaro.org/)** (based of Arch) is a good option, with a simple install process, used by new comers, and expers alike. See [comparison](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions).
 
-Alternativley BSD systems arguably have far superior network stacks. **[OpenBSD](https://www.openbsd.org)** is designed for maximum security — not just with its features, but with its implementation practices. It’s a commonly used OS by banks and critical systems. **[FreeBSD](https://www.freebsd.org)** is more popular, and aims for high performance and ease of use.
+BSD systems arguably have far superior network stacks. **[OpenBSD](https://www.openbsd.org)** is designed for maximum security — not just with its features, but with its implementation practices. It’s a commonly used OS by banks and critical systems. **[FreeBSD](https://www.freebsd.org)** is more popular, and aims for high performance and ease of use.
 
 
 #### Improve the Security and Privacy of your current OS
@@ -779,6 +785,7 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 - Docs: [NextCloud](https://nextcloud.com), [CryptPad](https://cryptpad.fr)
 - Finance: [Wallmine](https://wallmine.com), [MarketWatch](https://www.marketwatch.com/tools/quotes/lookup.asp), [Nasdaq Lookup](https://www.nasdaq.com/market-activity/stocks)
 - Flights: [SkyScanner](https://www.skyscanner.net), [Kayak](https://www.kayak.co.uk) (Note: Beware of tracking, use Tor)
+- Location Tracker: [Private Kit](https://play.google.com/store/apps/details?id=edu.mit.privatekit)
 - Mail: [ProtonMail](https://protonmail.com), [MailFence](https://mailfence.com?src=digitald), [HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [33Mail](http://33mail.com/Dg0gkEA)
 - Maps: [OpenStreetMaps](https://www.openstreetmap.org)
 - Messaging: [Signal](https://signal.org), [KeyBase](https://keybase.io)
@@ -790,8 +797,8 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 - Search: [DuckDuckGo](https://duckduckgo.com), [Start Page](https://www.startpage.com), [Qwant](https://www.qwant.com)
 - Sync: [SeaFile](https://www.seafile.com), [Syncthing](https://syncthing.net), [NextCloud](https://nextcloud.com), [Duplicacy](https://duplicacy.com)
 - Translate: [Apertium](https://www.apertium.org)
-- Youtube: [PeerTube](https://joinpeertube.org), [BitChute](https://www.bitchute.com) (Caution: Not moderated)
 - Weather: [Open Weather Map](https://openweathermap.org)
+- Youtube: [PeerTube](https://joinpeertube.org), [BitChute](https://www.bitchute.com) (Caution: Not moderated)
 
 
 
@@ -1069,3 +1076,4 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://git.io/Jv66u&title=Th
 [The Tor Project]: https://play.google.com/store/apps/developer?id=The+Tor+Project
 [Oasis Feng]: https://play.google.com/store/apps/dev?id=7664242523989527886
 [Marcel Bokhorst]: https://play.google.com/store/apps/dev?id=8420080860664580239
+[Simple Mobile Tools]: https://play.google.com/store/apps/dev?id=9070296388022589266
