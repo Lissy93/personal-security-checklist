@@ -95,8 +95,6 @@ There are also some gadgets that can help improve your physical and digital secu
 
 There's no need to spend money- Most of these products can be made at home with open source software. Here's a list of [DIY Security Gadgets](/6_Privacy_and-Security_Gadgets.md#diy-security-products).
 
-The links above **do not** contain any affiliate links or tracking. They are to independent providers where possible, but these products are all available from Amazon, eBay, eBuyer etc
-
 📜 **See More**: [Privacy and Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
 
 ----
@@ -245,37 +243,3 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [Reflectacles]: https://www.reflectacles.com
 [Spacehuhn]: https://github.com/spacehuhn/DeauthDetector
 
-
-[USB Data Blocker]: https://amzn.to/2HDArRP
-[Mic-Lock]: https://amzn.to/2uQ3r5L
-[Faraday Pouch]: https://amzn.to/3bIkfw4
-[RFID Card Protector]: https://amzn.to/38ycMxN
-[Web Cam Covers]: https://amzn.to/2uEz16H
-[Port Blockers]: https://amzn.to/327Yn9n
-[Privacy Screen]: https://amzn.to/3bAa9xv
-[YubiKey]: https://amzn.to/38wcG9R
-[SoloKey]: https://amzn.to/32i6QGQ
-[NitroKey]: https://www.nitrokey.com
-[Encrypted Kingston]: https://amzn.to/38xsnO5
-[Hardware-Encrypted USB Drive]: https://amzn.to/2vD32Ug
-[Hardware-Encrypted HDD]: https://amzn.to/37pTmK8
-[Fingbox]: https://amzn.to/2V5gATx
-[Drive Eraser]: https://amzn.to/2SsL67Y
-[Phone privacy screen]: https://amzn.to/2OZO3Lc
-[Anonabox]: https://amzn.to/2T5KnJ5
-[Fing Box]: https://amzn.to/2SPeRQn
-[BitDefender Box]: https://amzn.to/39WSBd4
-[Travel VPN]: https://amzn.to/37T1V0a
-[OnlyKey]: https://amzn.to/2Pem62a
-[Physical Metal Wallet]: https://amzn.to/32gO2bb
-[Leger Nano]: https://amzn.to/37Mu4pH
-[Trezor]: https://amzn.to/32mEJqe
-[ArmourCard]: https://armourcard.com
-[Bootable Drive Eraser]: https://amzn.to/38SClcW
-[Anti-Surveillance Clothing]: https://adversarialfashion.com
-[Voice Changer]: https://amzn.to/3bXqpsn
-[Passphrase Dice]: https://amzn.to/2OTE4Hw
-[Ultra-Sonic Microphone Jammer]: https://amzn.to/37LsSCV
-[Bug Detector]: https://amzn.to/2ulRFQp
-[Deauth Detector]: https://amzn.to/2T1sH16
-[Card Skimmer Detector]: https://lab401.com/products/hunter-cat-card-skimmer-detector
