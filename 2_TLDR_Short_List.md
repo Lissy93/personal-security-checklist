@@ -1,4 +1,4 @@
-# Personal Cyber Security | TLDR [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
+# Personal Cyber Security | TLDR [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)[![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](/ATTRIBUTIONS.md#contributors-)
 
 #### Contents
 - [Personal Security Checklist](#personal-security-checklist)
@@ -76,34 +76,45 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 #### Productivity Tools
 File Storage: [NextCloud]. File Sync: [Syncthing]. File Drop: [Firefox Send]. Notes: [Standard Notes], [Cryptee], [Joplin]. Blogging: [Write Freely]. Calendar/ Contacts Sync: [ETE Sync]
 
-📜 **See More**: [Complete List of Privacy-Respecing Sofware](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_Respecting_Software.md)
+📜 **See More**: [Complete List of Privacy-Respecing Sofware](/5_Privacy_Respecting_Software.md)
 
 ----
 
 ## SECURITY HARDWARE
 
-There are also some gadgets that can help improve your physical and digital security. Although often, it is not actually necissary to spend money, as most of these products can be [built at home](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_and-Security_Gadgets.md#diy-security-products)
+There are also some gadgets that can help improve your physical and digital security.
 
-- **Blockers and Protectors**: [USB Data Blocker], [Mic-Lock], [Faraday Pouch], [RFID Card Protector], [ArmourCard], [Web Cam Covers], [Port Blockers], [Privacy Screen]
-- **Encrypted Storage**: [Hardware-Encrypted USB Drive], [Hardware-Encrypted HDD], [Encrypted Kingston]
-- **Authentication**: [YubiKey], [SoloKey], [NitroKey]
-- **Networking**: [Anonabox] (Tor travel router), [Fing Box] (Network monitoring)
-- **Crypto**: [Leger Nano], [Trezor], [Physical Metal Wallet]
-- **Misc**: [Bootable Drive Eraser], [Anti-Surveillance Clothing], [Passphrase Dice], [Voice Changer], [Deauth Detector], [Bug Detector], [Card Skimmer Detector], [Ultra-Sonic Microphone Jammer]
+- **Blockers & Shields**: [PortaPow] - USB Data Blocker | [Mic Block] - Physically disables microphone | [Silent-Pocket] - Signal-blocking faraday pouches | [Lindy] - Physical port blockers | [RFID Shields] | [Webcam Covers] | [Privacy Screen]
+- **Crypto Wallets**: [Trezor] - Hardware wallet | [CryptoSteel] - Indestructible steel crypto wallet
+- **FIDO U2F Keys**: [Solo Key] | [Nitro Key] | [Librem Key]
+- **Data Blockers**: [PortaPow] - Blocks data to protect against malware upload attacks, enables FastCharge.
+- **Hardware-encrypted storage**:  [iStorage]- PIN-authenticated 256-bit hardware encrypted storage | [Encrypted Drive Enclosure]
+- **Networking**: [Anonabox] - Plug-and-play Tor router | [FingBox] - Easy home network automated security monitoring
+- **Paranoid Gadgets!** [Orwl]- Self-destroying PC | [Hunter-Cat]- Card-skim detector | [Adversarial Fashion]- Anti-facial-recognition clothing | [DSTIKE Deauth Detector] - Detect deauth attacks, from [Spacehuhn] | [Reflectacles]- Anti-surveillance glasses | [Armourcard]- Active RFID jamming | [Bug-Detector]- Check for RF-enabled eavesdropping equipment | [Ultrasonic Microphone Jammer] - Emits signals thats silent to humans, but interfere with recording equipment.
 
-📜 **See More**: [Privacy and Security Gadgets](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_and-Security_Gadgets.md)
+
+There's no need to spend money- Most of these products can be made at home with open source software. Here's a list of [DIY Security Gadgets](/6_Privacy_and-Security_Gadgets.md#diy-security-products).
+
+The links above **do not** contain any affiliate links or tracking. They are to independent providers where possible, but these products are all available from Amazon, eBay, eBuyer etc
+
+📜 **See More**: [Privacy and Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
 
 ----
 
 *Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 
-*Found this helpful? Consider sharing it with others, to help them also improvde their digital security* 😇
+----
 
-[![Share on Twitter](https://i.ibb.co/pypyYMJ/share-twitter.png)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
-[![Share on LinkedIn](https://i.ibb.co/2ScNMJY/share-linkedin.png)](
+Found this helpful? Consider sharing, to help others improve their digital security 😇
+
+[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=flat-square&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=flat-square&logo=LinkedIn)](
 http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
-[![Share on Facebook](https://i.ibb.co/J2DXDNf/share-facebook.png)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
-[![Share on Pinterest](https://i.ibb.co/ZVgcTC9/share-pinterest.png)](https://pinterest.com/pin/create/button/?url=https%3A//repository-images.githubusercontent.com/123631418/79c58980-3a13-11ea-97e8-e45591ef2d97&media=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&description=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020)
+[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=flat-square&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=flat-square&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40Lissy93%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
+
+
+
 
 
 *Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
@@ -208,6 +219,33 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [Marcel Bokhorst]: https://play.google.com/store/apps/dev?id=8420080860664580239
 
 [//]: # (SECURITY HARDWARE LINKS)
+[Encrypted Drive Enclosure]: https://www.startech.com/HDD/Enclosures/encrypted-sata-enclosure-2-5in-hdd-ssd-usb-3~S2510BU33PW
+[iStorage]: https://istorage-uk.com
+[PortaPow]: https://portablepowersupplies.co.uk/product/usb-data-blocker
+[Lindy]: https://lindy.com/en/technology/port-blockers
+[Mic Block]: https://www.aliexpress.com/item/4000542324471.html
+[RFID Shields]: https://www.aliexpress.com/item/32976382478.html
+[Webcam Covers]: https://www.aliexpress.com/item/4000393683866.html
+[Privacy Screen]: https://www.aliexpress.com/item/32906889317.html
+[Trezor]: https://trezor.io
+[CryptoSteel]: https://cryptosteel.com/product/cryptosteel/?v=79cba1185463
+[Solo Key]: https://solokeys.com
+[Nitro Key]: https://www.nitrokey.com
+[Librem Key]: https://puri.sm/products/librem-key
+[Anonabox]: https://www.anonabox.com
+[FingBox]: https://www.fing.com/products/fingbox
+[Orwl]: https://orwl.org
+[Hunter-Cat]: https://lab401.com/products/hunter-cat-card-skimmer-detector
+[DSTIKE Deauth Detector]: https://www.tindie.com/products/lspoplove/dstike-deauth-detector-pre-flashed-with-detector
+[Bug-Detector]: https://www.brickhousesecurity.com/counter-surveillance/multi-bug
+[Ultrasonic Microphone Jammer]: https://uspystore.com/silent-ultrasonic-microphone-defeater
+[Silent-Pocket]: https://silent-pocket.com
+[Armourcard]: https://armourcard.com
+[Adversarial Fashion]: https://adversarialfashion.com
+[Reflectacles]: https://www.reflectacles.com
+[Spacehuhn]: https://github.com/spacehuhn/DeauthDetector
+
+
 [USB Data Blocker]: https://amzn.to/2HDArRP
 [Mic-Lock]: https://amzn.to/2uQ3r5L
 [Faraday Pouch]: https://amzn.to/3bIkfw4
