@@ -764,6 +764,8 @@ Google Assistant, Alexa and Siri don't have the best [reputation](https://srlabs
 **[Kalliope](https://kalliope-project.github.io)** | An open source, modular always-on voice controlled personal assistant designed for home automation. It runs well on Raspberry Pi, Debian or Ubuntu and is easy to program with simple YAML-based skills, but does not have a wide library of pre-built add-ons
 
 #### Notable Mentions
+If you choose to continue using Google Home/ Alexa, then check out **[Project Alias](https://github.com/bjoernkarmann/project_alias)**. It's a small app that runs on a Pi, and gives you more control over your smart assistants, for both customisation and privacy.
+
 For a desktop-based assistant, see [Dragonfire](https://github.com/DragonComputer/Dragonfire) for Ubuntu, and [Jarvis](https://github.com/sukeesh/Jarvis) for MacOS.  [LinTO](https://linto.ai), [Jovo](https://www.jovo.tech) and [Snips](https://snips.ai) are private-by-design voice assistant frameworks that can be built on by developers, or used by enterprises. [Jasper](https://jasperproject.github.io), [Stephanie](https://github.com/SlapBot/stephanie-va) and [Hey Athena](https://github.com/rcbyron/hey-athena-client) are Python-based voice assistant, but neither is under active development anymore. See also [OpenAssistant](https://openassistant.org).
 
 #### Word of Warning
@@ -775,7 +777,7 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 
 - Academic: [RefSeek](https://www.refseek.com), [Microsoft Academic](https://academic.microsoft.com), [More Academic Search Engines](https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines)
 - Analytics: [Matomo](https://matomo.org), [Privalytics](https://www.privalytics.io)
-- Assistant: [Mycroft](https://mycroft.ai), [Kalliope](https://kalliope-project.github.io)
+- Assistant: [Mycroft](https://mycroft.ai), [Kalliope](https://kalliope-project.github.io), [Project-Alias](https://github.com/bjoernkarmann/project_alias) (for Google Home/ Alexa)
 - Authenticator: [Aegis](https://getaegis.app), [AndOTP](https://github.com/andOTP/andOTP), [FreeOTP](https://freeotp.github.io), [Authenticator (ios)](https://github.com/mattrubin/authenticator)
 - Blogging: [Write Freely](https://writefreely.org), [Telegraph](https://telegra.ph), [Ghost](https://ghost.org)
 - Browsers: [Brave](https://brave.com/?ref=ali721), [Firefox](https://www.mozilla.org/firefox) (with some [tweaks](https://restoreprivacy.com/firefox-privacy/)), [Vivaldi](https://vivaldi.com/)
