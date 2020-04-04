@@ -52,6 +52,9 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - [Foundation for Applied Privacy](https://applied-privacy.net)
 - [Safe + Secure](https://safeandsecure.film) - advise for journalists and film makers
 - [Citizen Lab](https://citizenlab.ca)
+- [Electronic Privacy Information Center](https://epic.org)
+- [American Civil Liberties Union](https://www.aclu.org/issues/privacy-technology)
+- [Free Software Foundation](https://www.fsf.org)
 
 
 ## How-To Guides and Specific Articles
