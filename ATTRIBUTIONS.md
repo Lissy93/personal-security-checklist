@@ -34,3 +34,15 @@ Thanks goes to these wonderful people
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
 Contributions of any kind welcome!
 
+
+
+## References 📝
+
+ // Todo
+
+## Stars 🌟
+
+[![Stargazers over time](https://starchart.cc/Lissy93/personal-security-checklist.svg)](https://starchart.cc/Lissy93/personal-security-checklist)
+
+Thank you [@caarlos0](https://github.com/caarlos0) for the above [Star Chart](https://github.com/caarlos0/starcharts) ☺️
+
