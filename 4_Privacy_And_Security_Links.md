@@ -55,9 +55,10 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - [Electronic Privacy Information Center](https://epic.org)
 - [American Civil Liberties Union](https://www.aclu.org/issues/privacy-technology)
 - [Free Software Foundation](https://www.fsf.org)
+- [Courage Foundation](https://www.couragefound.org) - Supports those who risk life / liberty to make significant contributions to the historical record
 
 
-## How-To Guides and Specific Articles
+## How-To Guides
 
 - Complete guide to configureing Firefox for Privacy + Speed: https://12bytes.org/7750
 - Overview of projects working on next-generation secure email: https://github.com/OpenTechFund/secure-email
@@ -71,6 +72,10 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - How to resolve DNS leak issue: https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html 
 - Windows data sending: https://thehackernews.com/2016/02/microsoft-windows10-privacy.html
 - How to spot a phishing attack: https://ssd.eff.org/en/module/how-avoid-phishing-attacks
+
+## Notable Articles
+
+- Turns Out Police Stingray Spy Tools Can Indeed Record Calls: Article on [Wired](https://www.wired.com/2015/10/stingray-government-spy-tools-can-record-calls-new-documents-confirm)
 
 
 ## Blogs
@@ -162,6 +167,13 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - [IP Leak](https://ipleak.net) - Shows your IP address, and other associated details
 - [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
 
+## Cybercrime
+- [Consumer Fraud Reporting](http://consumerfraudreporting.org) - US's Catalogue of online scams currently circulating, and a means to report cases
+- [Action Fraud](https://www.actionfraud.police.uk) - UK’s national reporting centre for fraud and cyber crime
+
+## Interesting Websites
+- [The Intercept: Surveillance Catalogue](https://theintercept.com/surveillance-catalogue) - A database secret of government and military surveillance equpment, that was leaked in the Snowden files
+   - See also: The source code for these projects, on WikiLeaks [Vault7](https://wikileaks.org/vault7) and [Vault8](https://wikileaks.org/vault8), and the accompanying [press release](https://wikileaks.org/ciav7p1)
 
 ## Mega Guides
 - by [Fried](https://fried.com/privacy)
