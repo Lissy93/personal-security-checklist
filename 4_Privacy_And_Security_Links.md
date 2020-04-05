@@ -9,6 +9,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
   - [Foundations](#foundations)
   - [How-To Guides](#how-to-guides-and-specific-articles)
 - **Media**
+  - [Talks](#talks)
   - [Blogs](#blogs)
   - [Books](#books)
   - [Podcasts](#podcasts)
@@ -60,23 +61,30 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 
 ## How-To Guides
 
-- Complete guide to configureing Firefox for Privacy + Speed: https://12bytes.org/7750
-- Overview of projects working on next-generation secure email: https://github.com/OpenTechFund/secure-email
-- ISP and DNS privacy tips: https://bluz71.github.io/2018/06/20/digital-privacy-tips.html
-- Layers of Personal Tech Security: https://thewirecutter.com/blog/internet-security-layers/
-- Improving security on iPhone: https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831
-- Protect against SIM-swap scam: https://www.wired.com/story/sim-swap-attack-defend-phone/
-- Is your Anti-Virus spying on you: https://restoreprivacy.com/antivirus-privacy/
-- How to use Vera Crypt: https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt
-- How to enable DNS over HTTPS: https://geekwire.co.uk/privacy-and-security-focused-dns-resolver
-- How to resolve DNS leak issue: https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html 
-- Windows data sending: https://thehackernews.com/2016/02/microsoft-windows10-privacy.html
-- How to spot a phishing attack: https://ssd.eff.org/en/module/how-avoid-phishing-attacks
+- Complete guide to configureing Firefox for Privacy + Speed: via [12bytes](https://12bytes.org/7750)
+- Overview of projects working on next-generation secure email: via [OpenTechFund](https://github.com/OpenTechFund/secure-email)
+- ISP and DNS privacy tips: via [bluz71](https://bluz71.github.io/2018/06/20/digital-privacy-tips.html)
+- Layers of Personal Tech Security: via [The Wire Cutter](https://thewirecutter.com/blog/internet-security-layers)
+- Improving security on iPhone: via [lifehacker](https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831)
+- Protect against SIM-swap scam: via [wired](https://www.wired.com/story/sim-swap-attack-defend-phone)
+- Is your Anti-Virus spying on you: via [Restore Privacy](https://restoreprivacy.com/antivirus-privacy)
+- How to use Vera Crypt: via [howtogeek](https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt)
+- How to enable DNS over HTTPS: via [geekwire](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver)
+- How to resolve DNS leak issue: via [DNSLeakTest](https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html) 
+- Windows data sending: via [The Hacker News](https://thehackernews.com/2016/02/microsoft-windows10-privacy.html)
+- How to spot a phishing attack: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
 
 ## Notable Articles
 
 - Turns Out Police Stingray Spy Tools Can Indeed Record Calls: Article on [Wired](https://www.wired.com/2015/10/stingray-government-spy-tools-can-record-calls-new-documents-confirm)
 
+## Talks
+- [Through a PRISM, Darkly](https://youtu.be/e4woRYs0mM4) - Everything we know about NSA spying, by Kurt Opsahl
+- [DEF CON 27](https://www.youtube.com/playlist?list=PL9fPq3eQfaaA4qJEQQyXDYtTIfxCNA0wB) - Collection of talks from DEF CON 2019, Vegas
+- [RSA Conference](https://www.youtube.com/user/RSAConference) - Collection of security talks from the RSA conferences
+- [Administraitor.video](https://administraitor.video) - A regularly updated collection of new and interesting security confrence talks
+
+See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @PaulSec
 
 ## Blogs
 - [Spread Privacy](https://spreadprivacy.com) - Raising the standard of trust online, by DuckDuckGo
