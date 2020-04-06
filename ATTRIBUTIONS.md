@@ -42,7 +42,7 @@ Contributions of any kind welcome!
 
 ## Stars 🌟
 
-[![Stargazers over time](https://starchart.cc/Lissy93/personal-security-checklist.svg)](https://starchart.cc/Lissy93/personal-security-checklist)
+[![Stargazers over time](https://starchart.cc/Lissy93/personal-security-checklist.svg)](https://star-history.t9t.io/#Lissy93/personal-security-checklist)
 
 Thank you [@caarlos0](https://github.com/caarlos0) for the above [Star Chart](https://github.com/caarlos0/starcharts) ☺️
 
