@@ -17,15 +17,15 @@
 
 ## Contents
 
-[![-](/_assets/1_passwords.jpg) Passwords](#passwords)<br>
-[![-](/_assets/2_2fa.jpg) 2 Factor Authentication](#2-factor-authentication)<br>
-[![-](/_assets/3_web.jpg) Browsing the Web](#browser-and-search)<br>
-[![-](/_assets/5_email.jpg) Email](#emails)<br>
-[![-](/_assets/6_social.jpg) Social Media](#social-media)<br>
-[![-](/_assets/4_vpn.jpg) Networking](#networking)<br>
-[![-](/_assets/7_devices.jpg) Mobile Phones](#mobile-devices)<br>
-[![-](/_assets/10_os.jpg) Personal Computer](#personal-computers)<br>
-[![-](/_assets/9_router.jpg) Smart Home](#smart-home)<br>
+[![-](https://i.ibb.co/0ZV22MT/1-passwords.png](#passwords)<br>
+[![-](https://i.ibb.co/thf142G/2-2fa.png) 2 Factor Authentication](#2-factor-authentication)<br>
+[![-](https://i.ibb.co/N7D7g6D/3-web.png) Browsing the Web](#browser-and-search)<br>
+[![-](https://i.ibb.co/7yQq5Sx/5-email.png) Email](#emails)<br>
+[![-](https://i.ibb.co/HT2DTcC/6-social.png) Social Media](#social-media)<br>
+[![-](https://i.ibb.co/NjHcZJc/4-vpn.png) Networking](#networking)<br>
+[![-](https://i.ibb.co/J255QkL/7-devices.png) Mobile Phones](#mobile-devices)<br>
+[![-](https://i.ibb.co/SvMPntJ/10-os.png](#personal-computers)<br>
+[![-](https://i.ibb.co/3N3mszQ/9-router.png) Smart Home](#smart-home)<br>
 
 ## Passwords
 
