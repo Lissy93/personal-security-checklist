@@ -80,6 +80,7 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 
 ## Talks
 - [Through a PRISM, Darkly](https://youtu.be/e4woRYs0mM4) - Everything we know about NSA spying, by Kurt Opsahl
+- [Why Privacy Matters](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters) - The case for why you shuold care about privacy, by Glenn Greenwald
 - [DEF CON 27](https://www.youtube.com/playlist?list=PL9fPq3eQfaaA4qJEQQyXDYtTIfxCNA0wB) - Collection of talks from DEF CON 2019, Vegas
 - [RSA Conference](https://www.youtube.com/user/RSAConference) - Collection of security talks from the RSA conferences
 - [Administraitor.video](https://administraitor.video) - A regularly updated collection of new and interesting security confrence talks
