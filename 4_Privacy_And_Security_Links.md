@@ -1,29 +1,35 @@
-**Personal Cyber Security: Useful Links**<br>
-See also: [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md) 🔐
+# Awesome Privacy & Securty [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/) [![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](https://github.com/Lissy93/personal-security-checklist/graphs/contributors)
 
-# Awesome Privacy & Securty [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 > A curated list of useful tools and resources online, that help protect your privacy and keep you safe.
 
-- **Main Content**
-  - [Resources](#resources)
-  - [Foundations](#foundations)
-  - [How-To Guides](#how-to-guides-and-specific-articles)
-- **Media**
-  - [Talks](#talks)
+**See also**: [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md) | [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) 🔐
+
+
+- **Information and Guides**
+  - [Getting Started Guides](#getting-started-guides)
+  - [How-To Guides](#how-to-guides)
+  - [Notable Articles](#notable-articles)
   - [Blogs](#blogs)
+- **Media**
   - [Books](#books)
   - [Podcasts](#podcasts)
   - [Videos](#videos)
+- **Websites & Services**
+  - [Online Tools](#online-tools)
+  - [Anonymous Services](#anonymous-services)
+  - [Interesting Websites](#interesting-websites)
+  - [Privacy-Respecting Software](#privacy-respecting-software)
+- **Organisations**
+  - [Foundations](#foundations)
+  - [Government Organisations](#government-organisations)
+  - [Cybercrime](#cybercrime)
 - **Research**
   - [Data and API's](#data-and-apis)
   - [Academic Journals](#academic-journals)
   - [Implementations and Standards](#implementations-and-standards)
-- **Tools and Services**
-  - [Online Tools](#online-tools)
-  - [Anonymous Services](#anonymous-services)
 - **More Lists**
   - [Mega Guides](#mega-guides)
-  - [Other GitHub Security Lists](#other-github-security-lists)
+  - [Other GitHub Security Lists](#unrelated-awesome-lists)
 
 
 ## Getting Started Guides
@@ -37,26 +43,6 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 - [Security Planner](https://securityplanner.org) - Great advise for beginners
 - [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
 
-
-## Foundations
-
-- [Contract for the Web](https://contractfortheweb.org)
-- [Electronic Frountier Foundation](https://www.eff.org) - Defending digital privacy + more
-- [OWASP Foundation](https://www.owasp.org)
-- [Freedom House](https://freedomhouse.org) - Fighting for freedom on the net
-- [Privacy International](https://privacyinternational.org)
-- [Open Tech Fund](https://www.opentech.fund)
-- [Freedom of the Press Foundation](https://freedom.press)
-- [Open Rights Group](https://www.openrightsgroup.org)
-- [LEAP Encryption Access Project](https://leap.se)
-- [The Guardian Project](https://guardianproject.info)
-- [Foundation for Applied Privacy](https://applied-privacy.net)
-- [Safe + Secure](https://safeandsecure.film) - advise for journalists and film makers
-- [Citizen Lab](https://citizenlab.ca)
-- [Electronic Privacy Information Center](https://epic.org)
-- [American Civil Liberties Union](https://www.aclu.org/issues/privacy-technology)
-- [Free Software Foundation](https://www.fsf.org)
-- [Courage Foundation](https://www.couragefound.org) - Supports those who risk life / liberty to make significant contributions to the historical record
 
 
 ## How-To Guides
@@ -77,15 +63,6 @@ See also: [Personal Security Checklist](https://github.com/Lissy93/personal-secu
 ## Notable Articles
 
 - Turns Out Police Stingray Spy Tools Can Indeed Record Calls: Article on [Wired](https://www.wired.com/2015/10/stingray-government-spy-tools-can-record-calls-new-documents-confirm)
-
-## Talks
-- [Through a PRISM, Darkly](https://youtu.be/e4woRYs0mM4) - Everything we know about NSA spying, by Kurt Opsahl
-- [Why Privacy Matters](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters) - The case for why you shuold care about privacy, by Glenn Greenwald
-- [DEF CON 27](https://www.youtube.com/playlist?list=PL9fPq3eQfaaA4qJEQQyXDYtTIfxCNA0wB) - Collection of talks from DEF CON 2019, Vegas
-- [RSA Conference](https://www.youtube.com/user/RSAConference) - Collection of security talks from the RSA conferences
-- [Administraitor.video](https://administraitor.video) - A regularly updated collection of new and interesting security confrence talks
-
-See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @PaulSec
 
 ## Blogs
 - [Spread Privacy](https://spreadprivacy.com) - Raising the standard of trust online, by DuckDuckGo
@@ -119,10 +96,92 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
 
 
 ## Videos
-- [Why you should switch off your home WiFi](https://youtu.be/2GpNhYy2l08) by Bram Bonné
-- [You are being watched](https://youtu.be/c8jDsg-M6qM) by The New York Times
-- [The Power of Privacy](https://youtu.be/KGX-c5BJNFk) by The Guardian
-- [Why Privacy matters, even if you have nothing to hide](https://youtu.be/Hjspu7QV7O0) by The Hated One
+- **General**
+  - [You are being watched](https://youtu.be/c8jDsg-M6qM) by The New York Times
+  - [The Power of Privacy](https://youtu.be/KGX-c5BJNFk) by The Guardian
+  - [Why Privacy matters, even if you have nothing to hide](https://youtu.be/Hjspu7QV7O0) by The Hated One
+- **TED Talks**
+  - [Why you should switch off your home WiFi](https://youtu.be/2GpNhYy2l08) by Bram Bonné
+  - [Why Privacy Matters](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters), by Glenn Greenwald
+  - [Fighting viruses, defending the net](https://www.ted.com/talks/mikko_hypponen_fighting_viruses_defending_the_net), by Mikko Hypponen
+  - [The 1s and 0s behind cyber warfare](https://www.ted.com/talks/chris_domas_the_1s_and_0s_behind_cyber_warfare), by Chris Domas
+  - [State Sanctioned Hacking - The Elephant in the Room](https://youtu.be/z-A2MxHmnU4) - Historic, economic and demographic overview of the growing threat to the U.S. from Chinese cyber invasions, by Frank Heidt
+  - [How the IoT is Making Cybercrime Investigation Easier](https://youtu.be/9CemONO6vrY) - How our data is changing the nature of "evidence" in digital forensics, by Jonathan Rajewski
+- **Conferences**
+  - [DEF CON 27](https://www.youtube.com/playlist?list=PL9fPq3eQfaaA4qJEQQyXDYtTIfxCNA0wB) - Collection of talks from DEF CON 2019, Vegas
+  - [RSA Conference](https://www.youtube.com/user/RSAConference) - Collection of security talks from the RSA conferences
+  - [Administraitor.video](https://administraitor.video) - A regularly updated collection of new and interesting security confrence talks
+- **Misc**
+  - [Through a PRISM, Darkly](https://youtu.be/e4woRYs0mM4) - Everything we know about NSA spying, by Kurt Opsahl
+
+See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @PaulSec
+
+
+
+
+
+## Online Tools
+- [Have I been Pwned](https://haveibeenpwned.com) and [Dehashed](https://www.dehashed.com) - Check if your details have been compromised
+- [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
+- [εxodus](https://reports.exodus-privacy.eu.org) - Check which trackers any app on the Play Store has
+- [VirusTotal](https://www.virustotal.com) - Analyse a suspicious web resource for malware
+- [ScamAdviser](https://www.scamadviser.com) - Check if a website is a scam, before buying from it
+- [Deseat Me](https://www.deseat.me) - Clean up your online presence
+- [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) Avoid revealing your real email address, by auto-generating aliases for each accound
+- [Panopticlick](https://panopticlick.eff.org) - Check if, and how your browser is tracking  you
+- [Disroot](https://disroot.org) - A suit of online tools, with online freedom in mind
+- [Blocked by ORG](https://www.blocked.org.uk) - Check if your website is blocked by certain ISPs
+- [Data Rights Finder](https://www.datarightsfinder.org) - Find, understand and use information from privacy policies
+- [Browser Leaks](https://browserleaks.com) - Check which information is being leaked by your browser
+- [DNSLeakTest](https://www.dnsleaktest.com) - Check for and fix a DNS leak
+- [IP Leak](https://ipleak.net) - Shows your IP address, and other associated details
+- [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
+
+## Anonymous Services
+- [NixNet](https://nixnet.services)
+- [Snopyta](https://snopyta.org)
+- [Disroot](https://disroot.org)
+
+
+## Interesting Websites
+- [The Intercept: Surveillance Catalogue](https://theintercept.com/surveillance-catalogue) - A database secret of government and military surveillance equpment, that was leaked in the Snowden files
+   - See also: The source code for these projects, on WikiLeaks [Vault7](https://wikileaks.org/vault7) and [Vault8](https://wikileaks.org/vault8), and the accompanying [press release](https://wikileaks.org/ciav7p1)
+
+## Privacy-Respecting Software
+
+This section has moved to [here](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md)
+
+
+
+## Foundations
+
+- [Contract for the Web](https://contractfortheweb.org)
+- [Electronic Frountier Foundation](https://www.eff.org) - Defending digital privacy + more
+- [OWASP Foundation](https://www.owasp.org)
+- [Freedom House](https://freedomhouse.org) - Fighting for freedom on the net
+- [Privacy International](https://privacyinternational.org)
+- [Open Tech Fund](https://www.opentech.fund)
+- [Freedom of the Press Foundation](https://freedom.press)
+- [Open Rights Group](https://www.openrightsgroup.org)
+- [LEAP Encryption Access Project](https://leap.se)
+- [The Guardian Project](https://guardianproject.info)
+- [Foundation for Applied Privacy](https://applied-privacy.net)
+- [Safe + Secure](https://safeandsecure.film) - advise for journalists and film makers
+- [Citizen Lab](https://citizenlab.ca)
+- [Electronic Privacy Information Center](https://epic.org)
+- [American Civil Liberties Union](https://www.aclu.org/issues/privacy-technology)
+- [Free Software Foundation](https://www.fsf.org)
+- [Courage Foundation](https://www.couragefound.org) - Supports those who risk life / liberty to make significant contributions to the historical record
+
+
+## Government Organisations
+- [UK National Cyber Security Center](https://www.ncsc.gov.uk)
+- [US Cybersecurity - NIST](https://www.nist.gov/topics/cybersecurity)
+
+
+## Cybercrime
+- [Consumer Fraud Reporting](http://consumerfraudreporting.org) - US's Catalogue of online scams currently circulating, and a means to report cases
+- [Action Fraud](https://www.actionfraud.police.uk) - UK’s national reporting centre for fraud and cyber crime
 
 
 ## Data and API's
@@ -145,44 +204,6 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
 - [WireGuard](https://www.wireguard.com/papers/wireguard.pdf)
 - [Nym](https://as93.link/nym-blog-post) - Next Generation of Privacy infrastructure
 
-
-
-## Government Cyber Security Organisations
-- [UK National Cyber Security Center](https://www.ncsc.gov.uk)
-- [US Cybersecurity - NIST](https://www.nist.gov/topics/cybersecurity)
-
-
-## Anonymous Services
-- [NixNet](https://nixnet.services)
-- [Snopyta](https://snopyta.org)
-- [Disroot](https://disroot.org)
-
-
-
-## Online Tools
-- [Have I been Pwned](https://haveibeenpwned.com) and [Dehashed](https://www.dehashed.com) - Check if your details have been compromised
-- [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
-- [εxodus](https://reports.exodus-privacy.eu.org) - Check which trackers any app on the Play Store has
-- [VirusTotal](https://www.virustotal.com) - Analyse a suspicious web resource for malware
-- [ScamAdviser](https://www.scamadviser.com) - Check if a website is a scam, before buying from it
-- [Deseat Me](https://www.deseat.me) - Clean up your online presence
-- [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) Avoid revealing your real email address, by auto-generating aliases for each accound
-- [Panopticlick](https://panopticlick.eff.org) - Check if, and how your browser is tracking  you
-- [Disroot](https://disroot.org) - A suit of online tools, with online freedom in mind
-- [Blocked by ORG](https://www.blocked.org.uk) - Check if your website is blocked by certain ISPs
-- [Data Rights Finder](https://www.datarightsfinder.org) - Find, understand and use information from privacy policies
-- [Browser Leaks](https://browserleaks.com) - Check which information is being leaked by your browser
-- [DNSLeakTest](https://www.dnsleaktest.com) - Check for and fix a DNS leak
-- [IP Leak](https://ipleak.net) - Shows your IP address, and other associated details
-- [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
-
-## Cybercrime
-- [Consumer Fraud Reporting](http://consumerfraudreporting.org) - US's Catalogue of online scams currently circulating, and a means to report cases
-- [Action Fraud](https://www.actionfraud.police.uk) - UK’s national reporting centre for fraud and cyber crime
-
-## Interesting Websites
-- [The Intercept: Surveillance Catalogue](https://theintercept.com/surveillance-catalogue) - A database secret of government and military surveillance equpment, that was leaked in the Snowden files
-   - See also: The source code for these projects, on WikiLeaks [Vault7](https://wikileaks.org/vault7) and [Vault8](https://wikileaks.org/vault8), and the accompanying [press release](https://wikileaks.org/ciav7p1)
 
 ## Mega Guides
 - by [Fried](https://fried.com/privacy)
