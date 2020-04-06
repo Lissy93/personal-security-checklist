@@ -17,14 +17,14 @@
 
 ## Contents
 
-[![-](https://i.ibb.co/0ZV22MT/1-passwords.png](#passwords)<br>
+[![-](https://i.ibb.co/0ZV22MT/1-passwords.png) Passwords](#passwords)<br>
 [![-](https://i.ibb.co/thf142G/2-2fa.png) 2 Factor Authentication](#2-factor-authentication)<br>
 [![-](https://i.ibb.co/N7D7g6D/3-web.png) Browsing the Web](#browser-and-search)<br>
 [![-](https://i.ibb.co/7yQq5Sx/5-email.png) Email](#emails)<br>
 [![-](https://i.ibb.co/HT2DTcC/6-social.png) Social Media](#social-media)<br>
 [![-](https://i.ibb.co/NjHcZJc/4-vpn.png) Networking](#networking)<br>
 [![-](https://i.ibb.co/J255QkL/7-devices.png) Mobile Phones](#mobile-devices)<br>
-[![-](https://i.ibb.co/SvMPntJ/10-os.png](#personal-computers)<br>
+[![-](https://i.ibb.co/SvMPntJ/10-os.png) Personal Computers](#personal-computers)<br>
 [![-](https://i.ibb.co/3N3mszQ/9-router.png) Smart Home](#smart-home)<br>
 
 ## Passwords
