@@ -1,0 +1,163 @@
+
+/*****************************************************/
+/******* OVERIDE DOCSIFY ELEMENTS - COVER-PAGE *******/
+/*****************************************************/
+
+section.cover.show {
+    background: rgb(6,11,43);
+    background: linear-gradient(
+        135deg,
+        #060b2b 15%,
+        #0c0f61 15%,
+        #0e0e4a 50%,
+        #0c0f61 85%,
+        #060b2b 85%) !important;
+}
+
+.cover-main {
+    margin-top: -80px !important;
+}
+
+
+/********************************************/
+/******* CUSTOM ELEMENTS - COVER-PAGE *******/
+/********************************************/
+
+/* Container, for cover page elements */
+.cover-page {
+    max-width: 1000px !important;
+    margin: 0 auto !important;
+}
+
+/* Main Heading */
+.cover-page h1{
+    font-family: 'Cutive Mono', monospace;
+    color: #fff !important;
+    font-size: 4rem !important;
+}
+
+/* Sub-Heading */
+.cover-page h2{
+    font-family: 'Cutive Mono', monospace;
+    color: #fff !important;
+    font-size: 2rem !important;
+    font-weight: 400;
+}
+
+/* Container for the Button links, within cover page*/
+.cover-page .cover-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+/* Mobile- Container for the Button links, within cover page*/
+@media (max-width: 820px) {
+    .cover-page .cover-link-container {
+        flex-direction: column;
+    }
+}
+
+/* Link button (Navigates to main sections) */
+.cover-page .cover-link-container .cover-link {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #fff;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 3px;
+    
+}
+
+/* Main text within Button on cover page*/
+.cover-page .cover-link-container .cover-link .link-title {
+    font-family: 'Cutive Mono', monospace;
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Description of button, on cover page */
+.cover-page .cover-link-container .cover-link .link-description {
+    font-family: 'Cutive Mono', monospace;
+    color: #fff;
+    font-size: 1.1rem;
+    border-top: 1px solid #fff;
+    padding-top: 2px;
+}
+
+/* View on GitHub button*/
+.github-button {
+    font-family: 'Cutive Mono', monospace;
+    color: #fff !important;
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    background: #060b2b;
+    padding: 0.2rem 0;
+}
+
+/* GitHub Star Button */
+.github-star {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 120px;
+    opacity: 0.85;
+}
+
+/* License Text */
+footer.license span {
+    color: #434c8a;
+    bottom: 0;
+    display: block;
+    cursor: default;
+    margin-top: 2%;
+}
+footer.license span a{
+    text-decoration: underline;
+}
+
+/* Animated Action Buttons */
+a.cover-link:link, a.cover-link:visited {
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.cover-link:link:after, a.cover-link:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.cover-link:link:hover:after, a.cover-link:visited:hover:after {
+	height: 450%;
+}
+a.cover-link:link, a.cover-link:visited {
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.cover-link:after {
+	background: #060b2b;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(135deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(135deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(135deg);
+	transform: translateX(-50%) translateY(-50%) rotate(135deg);
+}
+
