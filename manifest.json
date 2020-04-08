@@ -1,0 +1,17 @@
+{
+    "short_name": "Security List",
+    "name": "Security List",
+    "description": "Curated lists of tools, tips and resources for protecting digital security and privacy",
+    "icons": [
+      {
+        "src": "/app-iconx512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#060b2b"
+  }
