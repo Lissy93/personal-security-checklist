@@ -14,8 +14,18 @@ section.cover.show {
         #060b2b 85%) !important;
 }
 
-.cover-main {
-    margin-top: -80px !important;
+@media (max-width: 820px) {
+    section.cover.show {
+        height: auto !important;
+    }
+}
+
+/***************************************************/
+/******* OVERIDE DOCSIFY ELEMENTS - SIDE BAR *******/
+/***************************************************/
+
+.app-name-link img {
+    max-width: 140px !important;
 }
 
 
@@ -26,7 +36,13 @@ section.cover.show {
 /* Container, for cover page elements */
 .cover-page {
     max-width: 1000px !important;
-    margin: 0 auto !important;
+    margin: 3rem auto !important;
+}
+
+/* Main Image for Cover Page */
+img.cover-image {
+    width: 200px;
+    height: 200px;
 }
 
 /* Main Heading */
@@ -34,6 +50,7 @@ section.cover.show {
     font-family: 'Cutive Mono', monospace;
     color: #fff !important;
     font-size: 4rem !important;
+    margin: 1rem auto !important;
 }
 
 /* Sub-Heading */
@@ -41,6 +58,7 @@ section.cover.show {
     font-family: 'Cutive Mono', monospace;
     color: #fff !important;
     font-size: 2rem !important;
+    margin: 1rem auto !important;
     font-weight: 400;
 }
 
@@ -104,12 +122,30 @@ section.cover.show {
 .github-star {
     position: absolute;
     top: 0.5rem;
-    right: 0.5rem;
+    right: 5rem;
     width: 120px;
-    opacity: 0.85;
+    opacity: 0.8;
+}
+
+@media (max-width: 820px) {
+    .github-star {
+        left: 0.5rem;
+        width: 85px;
+    }
 }
 
 /* License Text */
+footer.license {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0.2rem;
+}
+@media (max-width: 820px) {
+    footer.license {
+        position: relative;
+    }
+}
 footer.license span {
     color: #434c8a;
     bottom: 0;
@@ -160,4 +196,3 @@ a.cover-link:after {
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(135deg);
 	transform: translateX(-50%) translateY(-50%) rotate(135deg);
 }
-

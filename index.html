@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Security List 🔐</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -14,12 +14,24 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      name: 'Security List',
+      repo: 'https://github.com/Lissy93/personal-security-checklist',
+      logo: '/main-icon-x512.png',
+      themeColor: '#060b2b',
+      notFoundPage: '_404.html',
       coverpage: '_coverpage.html',
       onlyCover: true,
       executeScript: true,
-      themeColor: '#151e3c',
-      name: '',
-      repo: ''
+      maxLevel: 3,
+      subMaxLevel: 2,
+      auto2top: true,
+      formatUpdated: '{DD}/{MM}/{YYYY} {HH}:{mm}',
+      mergeNavbar: true,
+      sidebar: [
+      { slug: '/', title: 'HELLO WORLD' },
+      ]
+      
+      
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
