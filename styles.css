@@ -28,6 +28,41 @@ section.cover.show {
     max-width: 140px !important;
 }
 
+/******************************************************/
+/******* OVERIDE DOCSIFY ELEMENTS - TOP NAV BAR *******/
+/******************************************************/
+
+nav.app-nav {
+    width: calc(100% - 300px);
+    right: 1rem !important;
+}
+
+nav.app-nav li {
+    padding: 0 !important;
+    display: inline-block !important;
+    margin: 0 0.3rem 1rem 0 !important;
+}
+
+nav.app-nav a {
+    background: none;
+    box-sizing: border-box;
+    padding: 0.3rem;
+    border: 2px solid #060b2b;
+    border-radius: 3px;
+}
+
+nav.app-nav a.active, nav.app-nav a:active, nav.app-nav a:hover  {
+    background: #060b2b !important;
+    color: #fff;
+}
+
+@media (max-width: 820px) {
+    nav.app-nav { display: none; }
+}
+
+a.github-corner {
+    max-width: 80px;
+}
 
 /********************************************/
 /******* CUSTOM ELEMENTS - COVER-PAGE *******/

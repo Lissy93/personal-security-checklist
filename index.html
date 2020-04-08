@@ -9,6 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   <link rel="stylesheet" href="/styles.css">
+  <style type="text/css">
+    a.github-corner svg { max-width: 80px; }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -16,10 +19,11 @@
     window.$docsify = {
       name: 'Security List',
       repo: 'https://github.com/Lissy93/personal-security-checklist',
-      logo: '/main-icon-x512.png',
+      // logo: '/main-icon-x512.png',
       themeColor: '#060b2b',
       notFoundPage: '_404.html',
       coverpage: '_coverpage.html',
+      loadNavbar: true,
       onlyCover: true,
       executeScript: true,
       maxLevel: 3,
@@ -27,14 +31,16 @@
       auto2top: true,
       formatUpdated: '{DD}/{MM}/{YYYY} {HH}:{mm}',
       mergeNavbar: true,
-      sidebar: [
-      { slug: '/', title: 'HELLO WORLD' },
-      ]
-      
-      
+      search: {
+        depth: 5,
+        paths: [
+        '/', '0_Why_It_Matters', '2_TLDR_Short_List', '4_Privacy_And_Security_Links',
+        '5_Privacy_Respecting_Software', '6_Privacy_and-Security_Gadgets', 'ATTRIBUTIONS', 'LICENSE', 'README'
+      ],
+      }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
