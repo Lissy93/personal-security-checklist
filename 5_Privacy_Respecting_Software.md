@@ -915,6 +915,27 @@ This list is intended to aid you in auditing the security of your own systems, a
 - [Wireshark] - Popular, powerful feature-rich network protocol analyser. Lets you analyse everything that is going on in your network in great detail
 - [Zeek] - Powerful intrusion detection system and network security monitoring, that (rather than focusing on signatures) decodes protocols and looks for anomalies within the traffic
 
+## Bonus #7 - Raspberry Pi/ IoT Security Software
+
+- [OnionPi](https://github.com/breadtk/onion_pi) - Create an Anonymizing Tor Proxy using a Raspberry Pi
+- [CIRCLean](https://www.circl.lu/projects/CIRCLean) - A Pi-based USB Sanitizer, plug an untrusted USB in, and get clean files out
+- [Pi Hole](https://pi-hole.net) - A network-wide ad-block, that improves network performance as well as privacy
+- [Project Alias](https://github.com/bjoernkarmann/project_alias) - Gives you full-control, and better privacy of your Google Home or Alexa
+- [Raspiblitz](https://github.com/rootzoll/raspiblitz) - Build your own Bitcoin & Lightning Node on a Pi, see also [Trezor](https://github.com/trezor/trezor-firmware) wallet
+- [PiVPN](https://www.pivpn.io) - Simple low-cost yet secure VPN, for the Raspberry Pi (or set up manually, as outlined in [this guide](https://pimylifeup.com/raspberry-pi-vpn-server/))
+- [DeauthDetector](https://github.com/spacehuhn/DeauthDetector) - Detect deauthentication frames using an ESP8266, useful to be aware of ongoing wireless attacks
+- [IPFire](https://www.ipfire.org) - Hardened open source firewall to prevent common attacks on your network. Capable of running on a Pi
+- [SquidGuard](http://www.squidguard.org) - Fast and free URL redirector, which can work well as a home caching server
+- [E2guardian](http://e2guardian.org) - Comprehensive content filtering, with powerful configuration options
+
+
+USB-based projects include:
+- [DBAN](https://dban.org) - Bootable hard drive erasers for destroying data
+- [Syncthing](https://syncthing.net) - Create automated backups to an external medium
+- [KeePass Portable](https://keepass.info/download.html) - Portable password manager. For hardware-encrypted password manager, see [HardPass 2.0](https://hackaday.io/project/21227-hardpass02-hardware-passwd-manager-w-smart-card)
+- [VeraCrypt](https://www.veracrypt.fr) - Full drive encryption for USB devices
+
+See more [hardware-based security solutions](/6_Privacy_and-Security_Gadgets.md)
 
 [Amass]: https://github.com/OWASP/Amass
 [CloudFail]: https://github.com/m0rtem/CloudFail
