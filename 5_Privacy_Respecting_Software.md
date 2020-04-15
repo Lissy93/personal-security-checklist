@@ -298,6 +298,7 @@ A selection of free online tools and utilities, to check, test and protect
 **[Is Legit?](https://www.islegitsite.com/)** | Checks if a website or business is a scam, before buying something from it
 **[Deseat Me](https://www.deseat.me)** | Tool to help you clean up your online presence- Instantly get a list of all your accounts, delete the ones you are not using
 **[10 Minute Mail](https://10minemail.com/)** | Generates temporary disposable email address, to avoid giving your real details
+**[MXToolBox Mail Headers](https://mxtoolbox.com/Public/Tools/EmailHeaders.aspx)** | Tool for analyzing email headers, useful for checking the authenticity of messages, as well as knowing what info you are revealing in your outbound messages
 **[33Mail](http://33mail.com/Dg0gkEA)** | Automatically generates new email aliases, the first time you use them, to avoid revealing your real email address. Unlike 10 Minute Mail, these email addresses are permanent, and get forwarded to your real email inbox
 
 #### Word of Warning
