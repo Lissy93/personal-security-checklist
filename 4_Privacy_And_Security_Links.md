@@ -107,6 +107,7 @@
   - [The 1s and 0s behind cyber warfare](https://www.ted.com/talks/chris_domas_the_1s_and_0s_behind_cyber_warfare), by Chris Domas
   - [State Sanctioned Hacking - The Elephant in the Room](https://youtu.be/z-A2MxHmnU4) - Historic, economic and demographic overview of the growing threat to the U.S. from Chinese cyber invasions, by Frank Heidt
   - [How the IoT is Making Cybercrime Investigation Easier](https://youtu.be/9CemONO6vrY) - How our data is changing the nature of "evidence" in digital forensics, by Jonathan Rajewski
+  - [Online Privacy Doesn't Exist](https://youtu.be/LgWrD3EJ1Do) - The unexpected dangers our digital breadcrumbs can lead to, by Denelle Dixon
 - **Conferences**
   - [DEF CON 27](https://www.youtube.com/playlist?list=PL9fPq3eQfaaA4qJEQQyXDYtTIfxCNA0wB) - Collection of talks from DEF CON 2019, Vegas
   - [RSA Conference](https://www.youtube.com/user/RSAConference) - Collection of security talks from the RSA conferences
