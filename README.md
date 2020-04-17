@@ -1,5 +1,5 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/zbetcheckin/Security_list)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Financial Contributors on Open Collective](https://opencollective.com/personal-security-checklist/all/badge.svg?label=financial+contributors)](https://opencollective.com/personal-security-checklist) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 [![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](https://github.com/Lissy93/personal-security-checklist/graphs/contributors)
 
@@ -334,3 +334,33 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
 [![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40Lissy93%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
 
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/Lissy93/personal-security-checklist/graphs/contributors"><img src="https://opencollective.com/personal-security-checklist/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/personal-security-checklist/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/personal-security-checklist"><img src="https://opencollective.com/personal-security-checklist/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/personal-security-checklist/contribute)]
+
+<a href="https://opencollective.com/personal-security-checklist/organization/0/website"><img src="https://opencollective.com/personal-security-checklist/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/personal-security-checklist/organization/1/website"><img src="https://opencollective.com/personal-security-checklist/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/personal-security-checklist/organization/2/website"><img src="https://opencollective.com/personal-security-checklist/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/personal-security-checklist/organization/3/website"><img src="https://opencollective.com/personal-security-checklist/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/personal-security-checklist/organization/4/website"><img src="https://opencollective.com/personal-security-checklist/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/personal-security-checklist/organization/5/website"><img src="https://opencollective.com/personal-security-checklist/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/personal-security-checklist/organization/6/website"><img src="https://opencollective.com/personal-security-checklist/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/personal-security-checklist/organization/7/website"><img src="https://opencollective.com/personal-security-checklist/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/personal-security-checklist/organization/8/website"><img src="https://opencollective.com/personal-security-checklist/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/personal-security-checklist/organization/9/website"><img src="https://opencollective.com/personal-security-checklist/organization/9/avatar.svg"></a>
