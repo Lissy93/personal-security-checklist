@@ -22,7 +22,6 @@
 - **Organisations**
   - [Foundations](#foundations)
   - [Government Organisations](#government-organisations)
-  - [Cybercrime](#cybercrime)
 - **Research**
   - [Data and API's](#data-and-apis)
   - [Academic Journals](#academic-journals)
@@ -58,8 +57,10 @@
   - ISP and DNS privacy tips: via [bluz71](https://bluz71.github.io/2018/06/20/digital-privacy-tips.html)
   - Complete guide to configureing Firefox for Privacy + Speed: via [12bytes](https://12bytes.org/7750)
   - Beginners guide on getting started with Tor: via [ProPrivacy](https://proprivacy.com/privacy-service/guides/ultimate-tor-browser-guide)
+  - Beginners guide to I2P: via [The Tin Hat](https://thetinhat.com/tutorials/darknets/i2p.html)
   - How to Use a VPN and Tor together: via [ProPrivacy](https://proprivacy.com/vpn/guides/using-vpn-tor-together)
 - **Communication**
+   - Configure your email client securly, from scratch - via [FSF](https://emailselfdefense.fsf.org)
   - Overview of projects working on next-generation secure email: via [OpenTechFund](https://github.com/OpenTechFund/secure-email)
 - **Devices**
   - Layers of Personal Tech Security: via [The Wire Cutter](https://thewirecutter.com/blog/internet-security-layers)
@@ -87,6 +88,7 @@
 - [Pixel Privacy](https://pixelprivacy.com/resources) - Online privacy guides
 - [The Privacy Project](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html) - Articles and reporting on Privacy, by the NYT
 - [The Tin Hat](https://thetinhat.com) - Tutorials and Articles for Online Privacy
+- [FOSS Bytes- Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
 
 
 
@@ -112,6 +114,7 @@
   - [The Power of Privacy](https://youtu.be/KGX-c5BJNFk) by The Guardian
   - [Why Privacy matters, even if you have nothing to hide](https://youtu.be/Hjspu7QV7O0) by The Hated One
 - **TED Talks**
+  - [How Online Trackers Track You, and What To Do About It](https://youtu.be/jVeqAemtC6w) by Luke Crouch
   - [Why you should switch off your home WiFi](https://youtu.be/2GpNhYy2l08) by Bram Bonné
   - [Why Privacy Matters](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters), by Glenn Greenwald
   - [Fighting viruses, defending the net](https://www.ted.com/talks/mikko_hypponen_fighting_viruses_defending_the_net), by Mikko Hypponen
@@ -119,6 +122,7 @@
   - [State Sanctioned Hacking - The Elephant in the Room](https://youtu.be/z-A2MxHmnU4) - Historic, economic and demographic overview of the growing threat to the U.S. from Chinese cyber invasions, by Frank Heidt
   - [How the IoT is Making Cybercrime Investigation Easier](https://youtu.be/9CemONO6vrY) - How our data is changing the nature of "evidence" in digital forensics, by Jonathan Rajewski
   - [Online Privacy Doesn't Exist](https://youtu.be/LgWrD3EJ1Do) - The unexpected dangers our digital breadcrumbs can lead to, by Denelle Dixon
+  - [Data is the new gold, who are the new thieves?](https://youtu.be/XNF-rGiGb50) - Introduction and demonstration of the power of data, by Tijmen Schep
 - **Conferences**
   - [DEF CON 27](https://www.youtube.com/playlist?list=PL9fPq3eQfaaA4qJEQQyXDYtTIfxCNA0wB) - Collection of talks from DEF CON 2019, Vegas
   - [RSA Conference](https://www.youtube.com/user/RSAConference) - Collection of security talks from the RSA conferences
@@ -262,7 +266,7 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 - [URLScan](https://urlscan.io) - Service scanning for malisious domains
 - [Dehashed](https://www.dehashed.com/breach) - Data Breaches and Credentials
 - [VirusTotal](https://developers.virustotal.com/v3.0/reference) - Detailed virus scans of software
-- Hosts to block: https://someonewhocares.org/hosts/ and https://github.com/StevenBlack/hosts
+- Hosts to block: [someonewhocares/ hosts](https://someonewhocares.org/hosts) and [StevenBlack/ hosts](https://github.com/StevenBlack/hosts)
 
 
 ## Academic Journals
