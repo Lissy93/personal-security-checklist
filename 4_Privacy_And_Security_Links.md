@@ -93,20 +93,46 @@
 
 
 ## Books
-- [Permanent Record](https://amzn.to/30wxxXi) (by Edward Snowden)
-- [Sandworm](https://amzn.to/2FVByeJ) (by Andy Greenberg)
+- [Permanent Record](https://amzn.to/30wxxXi) by Edward Snowden
+- [Sandworm](https://amzn.to/2FVByeJ) by Andy Greenberg
 
 
 ## Podcasts
-- [Darknet Diaries] (by Jack Rhysider): Stories from the dark sides of the internet. Listen on [Stitcher][da-stitch]
-- [CYBER] (by Motherboard, Vice): News and analysis about the latest cyber threats. Listen on [Stitcher][cy-stitch]
+- [Darknet Diaries] by Jack Rhysider: Stories from the dark sides of the internet. Listen on [Stitcher][da-stitch]
+  - Listen on [Stitcher][da-stitch], [iTunes][da-itunes], [Spotify][da-spotify], [PocketCasts][cy-pocketcasts]
+- [CYBER] by Motherboard: News and analysis about the latest cyber threats
+  - Listen on [Stitcher][cy-stitch], [SoundCloud][cy-soundcloud], [iTunes][cy-itunes], [Spotify][cy-spotify], [PocketCasts][cy-pocketcasts]
+- [The Privacy, Security, & OSINT Show] by Michael Bazzell: Comprehensive guides on Privacy and OSINT
+  - Listen on [Stitcher][tp-stitcher], [SoundCloud][tp-soundcloud], [iTunes][tp-itunes], [Spotify][tp-spofify], [PocketCasts][tp-pocketcasts]
+- [Smashing Security] by Graham Cluley and Carole Theriault: Casual, opinionated and humerous chat about current cybersecurity news
+  - Listen on [Stitcher][sm-stitcher], [iTunes][sm-itunes], [Spotify][sm-spofify], [PocketCasts][sm-pocketcasts]
+
 
 [Darknet Diaries]: https://darknetdiaries.com
 [da-stitch]: https://www.stitcher.com/podcast/darknet-diaries
+[da-itunes]: https://podcasts.apple.com/us/podcast/darknet-diaries/id1296350485
+[da-spotify]: https://open.spotify.com/show/4XPl3uEEL9hvqMkoZrzbx5
+[da-pocketcasts]: https://pca.st/darknetdiaries
 
 [CYBER]: https://www.vice.com/en_us/article/59vpnx/introducing-cyber-a-hacking-podcast-by-motherboard
 [cy-stitch]: https://www.stitcher.com/podcast/vice-2/cyber
+[cy-soundcloud]: https://soundcloud.com/motherboard
+[cy-itunes]: https://podcasts.apple.com/us/podcast/cyber/id1441708044
+[cy-spotify]: https://open.spotify.com/show/3smcGJaAF6F7sioqFDQjzn
+[cy-pocketcasts]: https://pca.st/z7m3
 
+[The Privacy, Security, & OSINT Show]: https://inteltechniques.com/podcast.html
+[tp-stitcher]: https://www.stitcher.com/podcast/michael-bazzell/the-complete-privacy-security-podcast
+[tp-soundcloud]: https://soundcloud.com/user-98066669
+[tp-itunes]: https://podcasts.apple.com/us/podcast/complete-privacy-security/id1165843330
+[tp-spofify]: https://open.spotify.com/show/6QPWpZJ6bRTdbkI7GgLHBM
+[tp-pocketcasts]: https://pca.st/zdIq
+
+[Smashing Security]: https://www.smashingsecurity.com
+[sm-stitcher]: https://www.stitcher.com/podcast/smashing-security
+[sm-itunes]: https://podcasts.apple.com/gb/podcast/smashing-security/id1195001633
+[sm-spofify]: https://open.spotify.com/show/3J7pBxEu43nCnRTSXaan8S
+[sm-pocketcasts]: https://pca.st/47UH
 
 ## Videos
 - **General**
