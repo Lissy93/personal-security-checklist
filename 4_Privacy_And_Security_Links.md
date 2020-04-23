@@ -70,8 +70,10 @@
 
 ## Notable Articles
 
+- Twelve Million Phones, One Dataset, Zero Privacy: via [NY Times](https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html)
 - Windows data sending: via [The Hacker News](https://thehackernews.com/2016/02/microsoft-windows10-privacy.html)
 - Is your Anti-Virus spying on you: via [Restore Privacy](https://restoreprivacy.com/antivirus-privacy)
+- What does your car know about you?: via [Washington Post](https://www.washingtonpost.com/technology/2019/12/17/what-does-your-car-know-about-you-we-hacked-chevy-find-out)
 - Turns Out Police Stingray Spy Tools Can Indeed Record Calls: via [Wired](https://www.wired.com/2015/10/stingray-government-spy-tools-can-record-calls-new-documents-confirm)
 - UK Police Accessing Private Phone Data Without Warrant: via [Restore Privacy](https://restoreprivacy.com/uk-police-accessing-phone-data)
 
@@ -169,7 +171,7 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
 - [VirusTotal](https://www.virustotal.com) - Analyse a suspicious web resource for malware
 - [ScamAdviser](https://www.scamadviser.com) - Check if a website is a scam, before buying from it
 - [Deseat Me](https://www.deseat.me) - Clean up your online presence
-- [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) Avoid revealing your real email address, by auto-generating aliases for each accound
+- [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso) Protect your email address, by auto-generating unique permant aliases for each account, so all emails land in your primary inbox
 - [Panopticlick](https://panopticlick.eff.org) - Check if, and how your browser is tracking  you
 - [Disroot](https://disroot.org) - A suit of online tools, with online freedom in mind
 - [Blocked by ORG](https://www.blocked.org.uk) - Check if your website is blocked by certain ISPs
