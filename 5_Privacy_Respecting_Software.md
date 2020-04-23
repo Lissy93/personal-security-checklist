@@ -42,7 +42,7 @@ Be aware that no software is perfect- there will always be bugs and vulnerabilit
   - [Proxies](#proxies)
   - [DNS Providers](#dns)
   - [Firewalls](#firewalls)
-  - [Firewall Analysis](#firewall-analysis)
+  - [Network Analysis](#network-analysis)
   - [Cloud Hosting](#cloud-hosting)
   - [Domain Registrars](#domain-registrars)
 - **Productivity**
@@ -181,20 +181,22 @@ See [OpenTechFund- Secure Email](https://github.com/OpenTechFund/secure-email) f
 #### Other Notable Mentions
 [HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Kolab Now](https://kolabnow.com), [Posteo](https://posteo.de), and [Disroot](https://disroot.org/en)
 
-#### Alias Services
+### Alias Services
 Revealing your real email address online can put you at risk. Email aliasing allows messages to be sent to [anything]@my-domain.com and still land in your primary inbox. This protects your real email address from being revealed. Aliases are generated automatically, the first time they are used. This approach lets you identify which provider leaked your email address, and block an alias with 1-click.
 
 - **[Anonaddy](https://anonaddy.com)** - An open source anonymous email forwarding service, allowing you to create unlimited email aliases. Has a free plan.
 - **[33Mail](http://33mail.com/Dg0gkEA)** - A long-standing aliasing service. As well as receiving, 33Mail also lets you reply to forwarded addresses anonymously. Free plan, as well as Premium plan ($1/ month) if you'd like to use a custom domain 
-- **[ProtonMail](https://protonmail.com/pricing) Visionary** - If you already have ProtonMail's Visionary package, then an implementation of this feature is available. However not the most price-effective, and does not include dashboard
+- **[SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso)** - Fully open source (view on [GitHub](https://github.com/simple-login)) allias service with many additional features. Can be self-hosted, or the managed version has a free plan, as well as hosted premium option ($2.99/ month) for using custom domains
+- **[ProtonMail](https://protonmail.com/pricing) Visionary** - If you already have ProtonMail's Visionary package, then an implementation of this feature is available. Very secure, however not the most price-effective (€30/month), and does not include dashboard
+- **[ForwardEmail](https://forwardemail.net)** - Simple open source catch-all email forwarding service. Easy to self-host (see on [GitHub](https://github.com/forwardemail/free-email-forwarding)), or the hosted version has a free plan as well as a ($3/month) premium plan
 
-Alternatively you could host your own service
+Alternatively you could host your own catch-all email service. [Mailu](https://github.com/Mailu/Mailu) can be configured to accept wildcards, or for Microsoft Exchange see [exchange-catchall](https://github.com/Pro/exchange-catchall)
 
 
-#### Self-Hosted Email
+### Self-Hosted Email
 If you do not want to trust an email provider with your messages, you can host your own mail server. Without experience, this can be notoriously hard to correctly configure, especially when it comes to security. You may also find that cost, performance and features make it a less attractive option. If you do decide to go down this route, [Mail-in-a-box](https://mailinabox.email/), is an easy to deploy, open source mail server. It aims to promote decentralization, innovation, and privacy on the web, as well as have automated, auditable, and idempotent system configuration. Other ready-to-go self-hosted mail options include [Mailu](https://mailu.io/1.7/) and [Mail Cow](https://mailcow.email/), both of which are docker containers.
 
-#### Mail Clients
+### Mail Clients
 Email clients are the programs used to interact with the mail server. For hosted email, then the web and mobile clients provided by your email service are usually adequate, and may be the most secure option. For self-hosted email, you will need to install and configure mail clients for web, desktop or mobile.
 
 - **Desktop** - [Mozilla Thunderbird](https://www.thunderbird.net) is an open source, highly customizable, secure and private desktop email client, for Windows, macOS, and Linux. If you are using ProtonMail, then you can use the [ProtonMail Bridge](https://protonmail.com/bridge/thunderbird), to sync your emails to either Thunderbird or Microsoft Outlook. In terms of security, the disadvantage, is that most desktop clients do not support 2FA, so it is important to keep your computer secured, however they are not vulnerable to the common browser attacks, that a web client would be. 
