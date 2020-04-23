@@ -7,7 +7,7 @@
 
 - **Information and Guides**
   - [Getting Started Guides](#getting-started-guides)
-  - [How-To Guides](#how-to-guides)
+  - [Specific How-To Guides](#how-to-guides)
   - [Notable Articles](#notable-articles)
   - [Blogs](#blogs)
 - **Media**
@@ -22,7 +22,6 @@
 - **Organisations**
   - [Foundations](#foundations)
   - [Government Organisations](#government-organisations)
-  - [Cybercrime](#cybercrime)
 - **Research**
   - [Data and API's](#data-and-apis)
   - [Academic Journals](#academic-journals)
@@ -39,30 +38,44 @@
 - [PrismBreak](https://prism-break.org/en/all) - Secure app alternatives
 - [The VERGE guide to privacy](https://bit.ly/2ptl4Wm) - Guides for securing mobile, web and home tech
 - [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
-- [TwoFactorAuth.org](https://twofactorauth.org) - Check which websites support 2FA
 - [Security Planner](https://securityplanner.org) - Great advise for beginners
 - [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
-
+- [TwoFactorAuth.org](https://twofactorauth.org) - A direcory of websites, apps and services supporting 2FA
+- [Just Delete Me](https://justdeleteme.xyz) - A directory of direct links to delete your account from web services
 
 
 ## How-To Guides
 
-- Complete guide to configureing Firefox for Privacy + Speed: via [12bytes](https://12bytes.org/7750)
-- Overview of projects working on next-generation secure email: via [OpenTechFund](https://github.com/OpenTechFund/secure-email)
-- ISP and DNS privacy tips: via [bluz71](https://bluz71.github.io/2018/06/20/digital-privacy-tips.html)
-- Layers of Personal Tech Security: via [The Wire Cutter](https://thewirecutter.com/blog/internet-security-layers)
-- Improving security on iPhone: via [lifehacker](https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831)
-- Protect against SIM-swap scam: via [wired](https://www.wired.com/story/sim-swap-attack-defend-phone)
-- Is your Anti-Virus spying on you: via [Restore Privacy](https://restoreprivacy.com/antivirus-privacy)
-- How to use Vera Crypt: via [howtogeek](https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt)
-- How to enable DNS over HTTPS: via [geekwire](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver)
-- How to resolve DNS leak issue: via [DNSLeakTest](https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html) 
-- Windows data sending: via [The Hacker News](https://thehackernews.com/2016/02/microsoft-windows10-privacy.html)
-- How to spot a phishing attack: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
+- **Threat Protection**
+  - Protect against SIM-swap scam: via [wired](https://www.wired.com/story/sim-swap-attack-defend-phone)
+  - How to spot a phishing attack: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
+  - Protection from Identity Theft: via [Restore Privacy](https://restoreprivacy.com/identity-theft-fraud)
+- **Netowkring**
+  - How to enable DNS over HTTPS: via [geekwire](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver)
+  - How to resolve DNS leak issue: via [DNSLeakTest](https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html) 
+  - Protect against WebRTC Leaks: via [Restore Privacy](https://restoreprivacy.com/webrtc-leaks)
+  - ISP and DNS privacy tips: via [bluz71](https://bluz71.github.io/2018/06/20/digital-privacy-tips.html)
+  - Complete guide to configureing Firefox for Privacy + Speed: via [12bytes](https://12bytes.org/7750)
+  - Beginners guide on getting started with Tor: via [ProPrivacy](https://proprivacy.com/privacy-service/guides/ultimate-tor-browser-guide)
+  - Beginners guide to I2P: via [The Tin Hat](https://thetinhat.com/tutorials/darknets/i2p.html)
+  - How to Use a VPN and Tor together: via [ProPrivacy](https://proprivacy.com/vpn/guides/using-vpn-tor-together)
+- **Communication**
+   - Configure your email client securly, from scratch - via [FSF](https://emailselfdefense.fsf.org)
+  - Overview of projects working on next-generation secure email: via [OpenTechFund](https://github.com/OpenTechFund/secure-email)
+- **Devices**
+  - Layers of Personal Tech Security: via [The Wire Cutter](https://thewirecutter.com/blog/internet-security-layers)
+  - Improving security on iPhone: via [lifehacker](https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831)
+- **Software**
+  - How to use Vera Crypt: via [howtogeek](https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt)
 
 ## Notable Articles
 
-- Turns Out Police Stingray Spy Tools Can Indeed Record Calls: Article on [Wired](https://www.wired.com/2015/10/stingray-government-spy-tools-can-record-calls-new-documents-confirm)
+- Twelve Million Phones, One Dataset, Zero Privacy: via [NY Times](https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html)
+- Windows data sending: via [The Hacker News](https://thehackernews.com/2016/02/microsoft-windows10-privacy.html)
+- Is your Anti-Virus spying on you: via [Restore Privacy](https://restoreprivacy.com/antivirus-privacy)
+- What does your car know about you?: via [Washington Post](https://www.washingtonpost.com/technology/2019/12/17/what-does-your-car-know-about-you-we-hacked-chevy-find-out)
+- Turns Out Police Stingray Spy Tools Can Indeed Record Calls: via [Wired](https://www.wired.com/2015/10/stingray-government-spy-tools-can-record-calls-new-documents-confirm)
+- UK Police Accessing Private Phone Data Without Warrant: via [Restore Privacy](https://restoreprivacy.com/uk-police-accessing-phone-data)
 
 ## Blogs
 - [Spread Privacy](https://spreadprivacy.com) - Raising the standard of trust online, by DuckDuckGo
@@ -76,24 +89,52 @@
 - [OONI](https://ooni.org/post), Internet freedom and analysis on blocked sites
 - [Pixel Privacy](https://pixelprivacy.com/resources) - Online privacy guides
 - [The Privacy Project](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html) - Articles and reporting on Privacy, by the NYT
+- [The Tin Hat](https://thetinhat.com) - Tutorials and Articles for Online Privacy
+- [FOSS Bytes- Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
 
 
 
 ## Books
-- [Permanent Record](https://amzn.to/30wxxXi) (by Edward Snowden)
-- [Sandworm](https://amzn.to/2FVByeJ) (by Andy Greenberg)
+- [Permanent Record](https://amzn.to/30wxxXi) by Edward Snowden
+- [Sandworm](https://amzn.to/2FVByeJ) by Andy Greenberg
 
 
 ## Podcasts
-- [Darknet Diaries] (by Jack Rhysider): Stories from the dark sides of the internet. Listen on [Stitcher][da-stitch]
-- [CYBER] (by Motherboard, Vice): News and analysis about the latest cyber threats. Listen on [Stitcher][cy-stitch]
+- [Darknet Diaries] by Jack Rhysider: Stories from the dark sides of the internet. Listen on [Stitcher][da-stitch]
+  - Listen on [Stitcher][da-stitch], [iTunes][da-itunes], [Spotify][da-spotify], [PocketCasts][cy-pocketcasts]
+- [CYBER] by Motherboard: News and analysis about the latest cyber threats
+  - Listen on [Stitcher][cy-stitch], [SoundCloud][cy-soundcloud], [iTunes][cy-itunes], [Spotify][cy-spotify], [PocketCasts][cy-pocketcasts]
+- [The Privacy, Security, & OSINT Show] by Michael Bazzell: Comprehensive guides on Privacy and OSINT
+  - Listen on [Stitcher][tp-stitcher], [SoundCloud][tp-soundcloud], [iTunes][tp-itunes], [Spotify][tp-spofify], [PocketCasts][tp-pocketcasts]
+- [Smashing Security] by Graham Cluley and Carole Theriault: Casual, opinionated and humerous chat about current cybersecurity news
+  - Listen on [Stitcher][sm-stitcher], [iTunes][sm-itunes], [Spotify][sm-spofify], [PocketCasts][sm-pocketcasts]
+
 
 [Darknet Diaries]: https://darknetdiaries.com
 [da-stitch]: https://www.stitcher.com/podcast/darknet-diaries
+[da-itunes]: https://podcasts.apple.com/us/podcast/darknet-diaries/id1296350485
+[da-spotify]: https://open.spotify.com/show/4XPl3uEEL9hvqMkoZrzbx5
+[da-pocketcasts]: https://pca.st/darknetdiaries
 
 [CYBER]: https://www.vice.com/en_us/article/59vpnx/introducing-cyber-a-hacking-podcast-by-motherboard
 [cy-stitch]: https://www.stitcher.com/podcast/vice-2/cyber
+[cy-soundcloud]: https://soundcloud.com/motherboard
+[cy-itunes]: https://podcasts.apple.com/us/podcast/cyber/id1441708044
+[cy-spotify]: https://open.spotify.com/show/3smcGJaAF6F7sioqFDQjzn
+[cy-pocketcasts]: https://pca.st/z7m3
 
+[The Privacy, Security, & OSINT Show]: https://inteltechniques.com/podcast.html
+[tp-stitcher]: https://www.stitcher.com/podcast/michael-bazzell/the-complete-privacy-security-podcast
+[tp-soundcloud]: https://soundcloud.com/user-98066669
+[tp-itunes]: https://podcasts.apple.com/us/podcast/complete-privacy-security/id1165843330
+[tp-spofify]: https://open.spotify.com/show/6QPWpZJ6bRTdbkI7GgLHBM
+[tp-pocketcasts]: https://pca.st/zdIq
+
+[Smashing Security]: https://www.smashingsecurity.com
+[sm-stitcher]: https://www.stitcher.com/podcast/smashing-security
+[sm-itunes]: https://podcasts.apple.com/gb/podcast/smashing-security/id1195001633
+[sm-spofify]: https://open.spotify.com/show/3J7pBxEu43nCnRTSXaan8S
+[sm-pocketcasts]: https://pca.st/47UH
 
 ## Videos
 - **General**
@@ -101,12 +142,15 @@
   - [The Power of Privacy](https://youtu.be/KGX-c5BJNFk) by The Guardian
   - [Why Privacy matters, even if you have nothing to hide](https://youtu.be/Hjspu7QV7O0) by The Hated One
 - **TED Talks**
+  - [How Online Trackers Track You, and What To Do About It](https://youtu.be/jVeqAemtC6w) by Luke Crouch
   - [Why you should switch off your home WiFi](https://youtu.be/2GpNhYy2l08) by Bram Bonné
   - [Why Privacy Matters](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters), by Glenn Greenwald
   - [Fighting viruses, defending the net](https://www.ted.com/talks/mikko_hypponen_fighting_viruses_defending_the_net), by Mikko Hypponen
   - [The 1s and 0s behind cyber warfare](https://www.ted.com/talks/chris_domas_the_1s_and_0s_behind_cyber_warfare), by Chris Domas
   - [State Sanctioned Hacking - The Elephant in the Room](https://youtu.be/z-A2MxHmnU4) - Historic, economic and demographic overview of the growing threat to the U.S. from Chinese cyber invasions, by Frank Heidt
   - [How the IoT is Making Cybercrime Investigation Easier](https://youtu.be/9CemONO6vrY) - How our data is changing the nature of "evidence" in digital forensics, by Jonathan Rajewski
+  - [Online Privacy Doesn't Exist](https://youtu.be/LgWrD3EJ1Do) - The unexpected dangers our digital breadcrumbs can lead to, by Denelle Dixon
+  - [Data is the new gold, who are the new thieves?](https://youtu.be/XNF-rGiGb50) - Introduction and demonstration of the power of data, by Tijmen Schep
 - **Conferences**
   - [DEF CON 27](https://www.youtube.com/playlist?list=PL9fPq3eQfaaA4qJEQQyXDYtTIfxCNA0wB) - Collection of talks from DEF CON 2019, Vegas
   - [RSA Conference](https://www.youtube.com/user/RSAConference) - Collection of security talks from the RSA conferences
@@ -127,7 +171,7 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
 - [VirusTotal](https://www.virustotal.com) - Analyse a suspicious web resource for malware
 - [ScamAdviser](https://www.scamadviser.com) - Check if a website is a scam, before buying from it
 - [Deseat Me](https://www.deseat.me) - Clean up your online presence
-- [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) Avoid revealing your real email address, by auto-generating aliases for each accound
+- [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso) Protect your email address, by auto-generating unique permant aliases for each account, so all emails land in your primary inbox
 - [Panopticlick](https://panopticlick.eff.org) - Check if, and how your browser is tracking  you
 - [Disroot](https://disroot.org) - A suit of online tools, with online freedom in mind
 - [Blocked by ORG](https://www.blocked.org.uk) - Check if your website is blocked by certain ISPs
@@ -175,13 +219,72 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 
 
 ## Government Organisations
-- [UK National Cyber Security Center](https://www.ncsc.gov.uk)
-- [US Cybersecurity - NIST](https://www.nist.gov/topics/cybersecurity)
 
-
-## Cybercrime
-- [Consumer Fraud Reporting](http://consumerfraudreporting.org) - US's Catalogue of online scams currently circulating, and a means to report cases
-- [Action Fraud](https://www.actionfraud.police.uk) - UK’s national reporting centre for fraud and cyber crime
+- **Citizen/ Small business Advice and Infrormation**
+  - [UK National Cyber Security Center](https://www.ncsc.gov.uk)
+  - [US Cybersecurity - NIST](https://www.nist.gov/topics/cybersecurity)
+  - [Stay Safe Online](https://staysafeonline.org) - US government-backed project, aimed to inform and educate individuals and small businesses about basic digital security
+- **Cybercrime**
+    - [Consumer Fraud Reporting](http://consumerfraudreporting.org) - US's Catalogue of online scams currently circulating, and a means to report cases
+    - [Action Fraud](https://www.actionfraud.police.uk) - UK’s national reporting centre for fraud and cyber crime
+- **CERT** - Your local jurisdiction will likely have a Computer emergency response team (historically known as CERT). Who is in charge of handline handles domestic and international computer security incidents.
+	- Australia - [auscert.org.au](https://www.auscert.org.au)
+	- Austria - [cert.at](https://www.cert.at)
+	- Bangladesh - [cirt.gov.bd](https://www.cirt.gov.bd)
+	- Bolivia - [cgii.gob.bo](https://cgii.gob.bo)
+	- Brazil - [cert.br](https://www.cert.br)
+	- Canada - [cyber.gc.ca](https://cyber.gc.ca/en/about-cyber-centre)
+	- China - [cert.org.cn](https://www.cert.org.cn)
+	- Columbia - [colcert.gov.co](http://www.colcert.gov.co)
+	- Croatia - [carnet.hr](https://www.carnet.hr)
+	- Czech Republic - [csirt.cz](https://csirt.cz)
+	- Denmark - [cert.dk](https://www.cert.dk)
+	- Ecuador - [ecucert.gob.ec](https://www.ecucert.gob.ec)
+	- Egypt - [egcert.eg](https://www.egcert.eg)
+	- Estonia - [ria.ee / CERT-EE](https://ria.ee/en/cyber-security/cert-ee.html)
+	- Finland - [kyberturvallisuuskeskus.fi](https://www.kyberturvallisuuskeskus.fi/en/homepage)
+	- France - [cert.ssi.gouv.fr](https://www.cert.ssi.gouv.fr) 
+	- Germany - [cert-bund.de](https://www.cert-bund.de)
+	- Ghana - [nca-cert.org.gh](https://nca-cert.org.gh)
+	- Hong Kong - [hkcert.org](https://www.hkcert.org)
+	- Iceland - [cert.is](https://www.cert.is)
+	- India - [CERT-IN](https://www.cert-in.org.in)
+	- Indonesia - [idsirtii.or.id](https://idsirtii.or.id)
+	- Iran - [cert.ir](https://cert.ir)
+	- Italy - [cert-pa.it](https://www.cert-pa.it)
+	- Japan - [JPCERT](https://www.jpcert.or.jp)
+	- Kyrgyzstan - [cert.gov.kg](http://cert.gov.kg)
+	- Luxembourg - [circl.lu](https://circl.lu)
+	- Macau - [mocert.org](www.mocert.org)
+	- Malaysia - [mycert.org.my](http://www.mycert.org.my)
+	- Morocco - [educert.ma](http://www.educert.ma)
+	- Netherlands - [ncsc.nl](https://www.ncsc.nl)
+	- New Zealand - [cert.govt.nz](https://www.cert.govt.nz)
+	- Nigeria - [cert.gov.ng](https://cert.gov.ng)
+	- Norway - [norcert](https://www.nsm.stat.no/norcert)
+	- Pakistan - [pakcert.org](http://www.pakcert.org)
+	- Papua New Guinea - [pngcert.org.pg](https://www.pngcert.org.pg)
+	- Philippines - [cspcert.ph](https://cspcert.ph)
+	- Poland - [cert.pl](https://www.cert.pl)
+	- Portugal - [cncs.gov.pt/certpt](https://www.cncs.gov.pt/certpt)
+	- Qatar - [qcert.org](https://qcert.org)
+	- Rep of Ireland - [ncsc.gov.ie](https://www.ncsc.gov.ie)
+	- Romania - [cert.ro](https://www.cert.ro)
+	- Russia - [gov-cert.ru](http://www.gov-cert.ru) / [cert.ru](https://www.cert.ru)
+	- Singapore - [csa.gov.sg/singcert](https://www.csa.gov.sg/singcert)
+	- Slovenia - [sk-cert.sk](https://www.sk-cert.sk)
+	- South Korea - [krcert.or.kr](https://www.krcert.or.kr)
+	- Spain - [incibe.es](https://www.incibe.es)
+	- Sri Lanka - [cert.gov.lk](https://www.cert.gov.lk)
+	- Sweden - [cert.se](https://www.cert.se)
+	- Switzerland - [govcert.ch](https://www.govcert.ch)
+	- Taiwan - [twcert.org.tw](https://www.twcert.org.tw)
+	- Thailand - [thaicert.or.th](https://www.thaicert.or.th)
+	- Tonga  [cert.to](https://www.cert.to)
+	- Ukraine - [cert.gov.ua](https://cert.gov.ua)
+	- UAE - [tra.gov.ae/aecert](https://www.tra.gov.ae/aecert)
+	- United Kingdom - [ncsc.gov.uk](https://www.ncsc.gov.uk)
+	- United States - [us-cert.gov](https://www.us-cert.gov)
 
 
 ## Data and API's
@@ -191,7 +294,7 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 - [URLScan](https://urlscan.io) - Service scanning for malisious domains
 - [Dehashed](https://www.dehashed.com/breach) - Data Breaches and Credentials
 - [VirusTotal](https://developers.virustotal.com/v3.0/reference) - Detailed virus scans of software
-- Hosts to block: https://someonewhocares.org/hosts/ and https://github.com/StevenBlack/hosts
+- Hosts to block: [someonewhocares/ hosts](https://someonewhocares.org/hosts) and [StevenBlack/ hosts](https://github.com/StevenBlack/hosts)
 
 
 ## Academic Journals

@@ -42,7 +42,7 @@ Be aware that no software is perfect- there will always be bugs and vulnerabilit
   - [Proxies](#proxies)
   - [DNS Providers](#dns)
   - [Firewalls](#firewalls)
-  - [Firewall Analysis](#firewall-analysis)
+  - [Network Analysis](#network-analysis)
   - [Cloud Hosting](#cloud-hosting)
   - [Domain Registrars](#domain-registrars)
 - **Productivity**
@@ -109,7 +109,11 @@ If you are using a deprecated PM, you should migrate to something actively maint
 
 *Check which websites support multi-factor authentication: [twofactorauth.org](https://twofactorauth.org)*
 
-**Note:** Don't use your password manager to also store your 2-FA tokens- use a separate application.
+#### Notable Mentions
+
+[WinAuth](https://winauth.github.io/winauth) *(Windows)*, [mattrubin - authenticator](https://mattrubin.me/authenticator) *(iOS)*, [Authenticator by World](https://gitlab.gnome.org/World/Authenticator) *(GNOME, Linux)*, [OTPClient](https://github.com/paolostivanin/OTPClient) *(Linux)*, [gauth](https://github.com/gbraad/gauth) *(Self-Hosted, Web-based)*
+
+For KeePass users, [TrayTop](https://keepass.info/plugins.html#traytotp) is a plugin for managing TOTP's-  offline and compatible with Windows, Mac and Linux.
 
 **See also** [2FA Security Checklist](/README.md#2-factor-authentication)
 
@@ -131,8 +135,9 @@ Without using a secure app for instant messaging, all your conversations, meta d
 | Provider | Description |
 | --- | --- |
 **[Signal](https://signal.org/)** | Probably one of the most popular, secure private messaging apps that combines strong encryption (see [Signal Protocol](https://en.wikipedia.org/wiki/Signal_Protocol)) with a simple UI and plenty of features. It's widely used across the world, and easy-to-use, functioning similar to WhatsApp - with instant messaging, read-receipts, support for media attachments and allows for high-quality voice and video calls. It's cross-platform, open-source and totally free. Signal is [recommended](https://twitter.com/Snowden/status/661313394906161152) by Edward Snowden, and is a perfect solution for most users
-**[KeyBase](keybase.io/inv/6d7deedbc1)** | KeyBase allows encrypted real-time chat, group chats, and public and private file sharing. It also lets you cryptographically sign messages, and prove your ownership to other social identities (Twitter, Reddit, GitHub, etc), and send or receive Stella or BitCoin to other users. It's slightly more complex to use than Signal, but has some great cryptography features, and is good for group chats
+**[Session](https://getsession.org)** | Session is a fork of Signal, however unlike Signal it does not require a mobile number (or any other personal data) to register, instead each user is identified by a public key. It is also decentralized, with servers being run by the community though [Loki Net](https://loki.network), messages are encrypted and routed through several of these nodes. All communications are E2E encrypted, and there is no meta data.
 **[Silence](https://silence.im/)** | If you're restricted to only sending SMS/MMS, then Silence makes it easy to encrypt messages between 2 devices. This is important since traditional text messaging is inherently insecure. It's easy-to-use, reliable and secure- but has fallen in popularity, now that internet-based messaging is often faster and more flexible
+**[KeyBase](keybase.io/inv/6d7deedbc1)** | KeyBase allows encrypted real-time chat, group chats, and public and private file sharing. It also lets you cryptographically sign messages, and prove your ownership to other social identities (Twitter, Reddit, GitHub, etc), and send or receive Stella or BitCoin to other users. It's slightly more complex to use than Signal, but it's features extend much further than just a messaging app. Keybase core is built upon some great cryptography features, and it is an excellant choice for managing public keys, signing messages and for group chats.
 **[OpenPGP](https://www.openpgp.org/)** |  Provides cryptographic privacy and authentication, PGP is used to encrypt messages sent over existing chat networks (such as email or message boards). Slightly harder to use (than IM apps), slower, but still widely used. Using [GnuPG](https://gnupg.org/download/index.html), encrypts messages following the OpenPGP standard, defined by the IETF, proposed in [RFC 4880](https://tools.ietf.org/html/rfc4880) (originally derived from the PGP software, created by Phil Zimmermann, now owned by [Symantec](https://www.symantec.com/products/encryption)). **Note**  there have been vulnerabilities found in the OpenPGP and S/MIME, defined in [EFAIL](https://efail.de/), so although it still considered secure for general purpose use, it may be better to use an encrypted messaging or email app instead- especially for sensitive communications.
 
 #### Other Notable Mentions
@@ -147,9 +152,9 @@ With [Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer) networks, there 
 
 | Provider | Description |
 | --- | --- |
+**[Matrix](https://matrix.org)** + **[Riot](https://about.riot.im)** client | Matrix is a decentralized open network for secure communications, with E2E encryption with Olm and Megolm. Along with the Riot client, it supports VOIP + video calling and IM + group chats. Since Matrix has an open specification and Simple pragmatic RESTful HTTP/JSON API it makes it easy to integrates with existing 3rd party IDs to authenticate and discover users, as well as to build apps on top of it.
 **[Session](https://getsession.org)** + **[LokiNet](https://loki.network)** client | Loki is an open source set of tools that allow users to transact and communicate anonymously and privately, through a decentralised, encrypted, onion-based network. Session is a desktop and mobile app that uses these private routing protocols to secure messages, media and metadata.
 **[Briar](https://briarproject.org)** | Tor-based Android app for P2P encrypted messaging and forums. Where content is stored securely on your device (not in the cloud). It also allows you to connect directly with nearby contacts, without internet access (using Bluetooth or WiFi).
-**[Matrix](https://matrix.org)** + **[Riot](https://about.riot.im)** client | Matrix is a decentralized open network for secure communications, with E2E encryption with Olm and Megolm. Along with the Riot client, it supports VOIP + video calling and IM + group chats. Since Matrix has an open specification and Simple pragmatic RESTful HTTP/JSON API it makes it easy to integrates with existing 3rd party IDs to authenticate and discover users, as well as to build apps on top of it.
 **[Riochet](https://ricochet.im)** | Desktop instant messenger, that uses the Tor network to rendezvous with your contacts without revealing your identity, location/ IP or meta data. There are no servers to monitor, censor, or hack so Ricochet is secure, automatic and easy to use.
 **[Jami](https://jami.net)** | P2P encrypted chat network with cross-platform GNU client apps. Jami supports audio and video calls, screen sharing, conference hosting and instant messaging.
 **[Tox](https://tox.chat)** + **[qTox](https://qtox.github.io)** client | Open source, encrypted, distributed chat network, with clients for desktop and mobile- see [supported clients](https://tox.chat/clients.html). Clearly documented code and multiple language bindings make it easy for developers to integrate with Tox.
@@ -160,9 +165,9 @@ With [Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer) networks, there 
 
 ## Encrypted Email
 
-Email, is not secure- your messages can be easily intercepted and read. Corporations scan the content of your mail, to build up a profile of you, either to show you targeted ads or to sell onto third-parties. Through the [Prism Program](https://en.wikipedia.org/wiki/PRISM_(surveillance_program)), the government also has full access to your emails not end-to-end encrypted. This applies to Gmail, Outlook Mail, Yahoo Mail, GMX, ZoHo, iCloud, AOL and more.
+Email is not secure- your messages can be easily intercepted and read. Corporations scan the content of your mail, to build up a profile of you, either to show you targeted ads or to sell onto third-parties. Through the [Prism Program](https://en.wikipedia.org/wiki/PRISM_(surveillance_program)), the government also has full access to your emails (if not end-to-end encrypted) - this applies to Gmail, Outlook Mail, Yahoo Mail, GMX, ZoHo, iCloud, AOL and more.
 
-The below email providers are private, end-to-end encrypted (E2EE) and safe.
+The below email providers are private, end-to-end encrypted (E2EE) and reasonably secure. This should be used in conjunction with [good email practices](/README.md#emails)
 
 | Provider | Description |
 | --- | --- |
@@ -176,20 +181,22 @@ See [OpenTechFund- Secure Email](https://github.com/OpenTechFund/secure-email) f
 #### Other Notable Mentions
 [HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Kolab Now](https://kolabnow.com), [Posteo](https://posteo.de), and [Disroot](https://disroot.org/en)
 
-#### Alias Services
+### Alias Services
 Revealing your real email address online can put you at risk. Email aliasing allows messages to be sent to [anything]@my-domain.com and still land in your primary inbox. This protects your real email address from being revealed. Aliases are generated automatically, the first time they are used. This approach lets you identify which provider leaked your email address, and block an alias with 1-click.
 
 - **[Anonaddy](https://anonaddy.com)** - An open source anonymous email forwarding service, allowing you to create unlimited email aliases. Has a free plan.
 - **[33Mail](http://33mail.com/Dg0gkEA)** - A long-standing aliasing service. As well as receiving, 33Mail also lets you reply to forwarded addresses anonymously. Free plan, as well as Premium plan ($1/ month) if you'd like to use a custom domain 
-- **[ProtonMail](https://protonmail.com/pricing) Visionary** - If you already have ProtonMail's Visionary package, then an implementation of this feature is available. However not the most price-effective, and does not include dashboard
+- **[SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso)** - Fully open source (view on [GitHub](https://github.com/simple-login)) allias service with many additional features. Can be self-hosted, or the managed version has a free plan, as well as hosted premium option ($2.99/ month) for using custom domains
+- **[ProtonMail](https://protonmail.com/pricing) Visionary** - If you already have ProtonMail's Visionary package, then an implementation of this feature is available. Very secure, however not the most price-effective (€30/month), and does not include dashboard
+- **[ForwardEmail](https://forwardemail.net)** - Simple open source catch-all email forwarding service. Easy to self-host (see on [GitHub](https://github.com/forwardemail/free-email-forwarding)), or the hosted version has a free plan as well as a ($3/month) premium plan
 
-Alternatively you could host your own service
+Alternatively you could host your own catch-all email service. [Mailu](https://github.com/Mailu/Mailu) can be configured to accept wildcards, or for Microsoft Exchange see [exchange-catchall](https://github.com/Pro/exchange-catchall)
 
 
-#### Self-Hosted Email
+### Self-Hosted Email
 If you do not want to trust an email provider with your messages, you can host your own mail server. Without experience, this can be notoriously hard to correctly configure, especially when it comes to security. You may also find that cost, performance and features make it a less attractive option. If you do decide to go down this route, [Mail-in-a-box](https://mailinabox.email/), is an easy to deploy, open source mail server. It aims to promote decentralization, innovation, and privacy on the web, as well as have automated, auditable, and idempotent system configuration. Other ready-to-go self-hosted mail options include [Mailu](https://mailu.io/1.7/) and [Mail Cow](https://mailcow.email/), both of which are docker containers.
 
-#### Mail Clients
+### Mail Clients
 Email clients are the programs used to interact with the mail server. For hosted email, then the web and mobile clients provided by your email service are usually adequate, and may be the most secure option. For self-hosted email, you will need to install and configure mail clients for web, desktop or mobile.
 
 - **Desktop** - [Mozilla Thunderbird](https://www.thunderbird.net) is an open source, highly customizable, secure and private desktop email client, for Windows, macOS, and Linux. If you are using ProtonMail, then you can use the [ProtonMail Bridge](https://protonmail.com/bridge/thunderbird), to sync your emails to either Thunderbird or Microsoft Outlook. In terms of security, the disadvantage, is that most desktop clients do not support 2FA, so it is important to keep your computer secured, however they are not vulnerable to the common browser attacks, that a web client would be. 
@@ -239,10 +246,15 @@ The following browser add-ons give you better control over what content is able 
 **[uBlock Origin](https://github.com/gorhill/uBlock)** | Block ads, trackers and malware sites. **Download**: [Chrome][ublock-chrome] \ [Firefox][ublock-firefox]
 **[ScriptSafe](https://github.com/andryou/scriptsafe)** | Allows you yo block the execution of certain scripts. **Download**: [Chrome][script-safe-chrome] \ [Firefox][script-safe-firefox]
 **[WebRTC-Leak-Prevent](https://github.com/aghorler/WebRTC-Leak-Prevent)** | Provides user control over WebRTC privacy settings in Chromium, in order to prevent WebRTC leaks. **Download**: [Chrome][web-rtc-chrome]. For Firefox users, you can do this through [browser settings](https://www.privacytools.io/browsers/#webrtc). Test for WebRTC leaks, with [browserleaks.com/webrtc](https://browserleaks.com/webrtc)
+**[Decentraleyes](https://decentraleyes.org)** | Prevents requests for common scripts hosted on 3rd-party CDNs, by serving local versions instead. Protects privacy by evading tracking imposed by large delivery networks, and will also improve page load times. Works out-of-the-box and plays nicely with regular content blockers. **Download**: [Chrome][decentraleyes-chrome] \ [Firefox][decentraleyes-firefox] \ [Opera][decentraleyes-opera] \ [Pale Moon][decentraleyes-pale-moon] \ [Source][decentraleyes-source]
 **[Vanilla Cookie Manager](https://github.com/laktak/vanilla-chrome)** | A Whitelist Manager that helps protect your privacy, through automatically removing unwanted cookies. **Download**: [Chrome][vanilla-cookie-chrome]
 **[Privacy Essentials](https://duckduckgo.com/app)** | Simple extension by DuckDuckGo, which grades the security of each site. **Download**: [Chrome][privacy-essentials-chrome] \ [Firefox][privacy-essentials-firefox]
 **[Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)** | Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs that preserve your privacy. Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously. **Download**: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 **[Temporary Containers](https://github.com/stoically/temporary-containers)** | This Extension, combined with Firefox Multi-Account Containers, let's you isolate cookies and other private data for each web site. **Download**: [Firefox](https://github.com/stoically/temporary-containers)
+**[Self-Destructing Cookies](https://add0n.com/self-destructing-cookies.html)** | Prevents websites from tracking you by storing unique cookies (note Fingerprinting is often also used for tracking). It removes all related cookies whenever you end a session. **Download**: [Chrome][self-destructing-cookies-chrome] \ [Firefox][self-destructing-cookies-firefox] \ [Opera][self-destructing-cookies-opera] \ [Source][self-destructing-cookies-source]
+**[Lightbeam](https://github.com/mozilla/lightbeam-we)** | Visualize in detail the servers you are contacting when you are surfing on the Internet. Created by Gary Kovacs (former CEO of Mozilla), presented in his [TED Talk](https://www.ted.com/talks/gary_kovacs_tracking_our_online_trackers). **Download**: [Firefox][lightbeam-firefox] \ [Source][lightbeam-source]
+**[Track Me Not](http://trackmenot.io)** | Helps protect web searchers from surveillance and data-profiling, through creating meaningless noise and obfuscation, outlined in their [whitepaper][tmn-whitepaper]. **Download**: [Chrome][tmn-chrome] \ [Firefox][tmn-firefox] \ [Source][tmn-source]
+**[AmIUnique Timeline](https://amiunique.org/timeline)** | Enables you to better understand the evolution of browser fingerprints (which is what websites use to uniquely identify and track you). **Download**: [Chrome][amiunique-chrome] \ [Firefox][amiunique-firefox]
 
 #### Word of Warning
 *Be careful when installing unfamiliar browser add-ons, since some can compromise your security and privacy. The above list however are all open source, verified and safe extensions*
@@ -288,6 +300,7 @@ A selection of free online tools and utilities, to check, test and protect
 | --- | --- |
 **[';--have i been pwned?](https://haveibeenpwned.com)** | Checks if your credentials (Email address or Password) have been compromised in a data breach
 **[εxodus](https://reports.exodus-privacy.eu.org)** | Checks how many, and which trackers any Android app has. Useful to understand how data is being collected before you install a certain APK, it also shows which permissions the app asks for
+**[Am I Unique?](https://amiunique.org)** | Show how identifiable you are on the Internet by generating a fingerprint based on device information. This is how many websites track you (even without cookies enabled), so the aim is to not be unique
 **[Panopticlick](https://panopticlick.eff.org/)** | Check if your browser safe against tracking. Analyzes how well your browser and add-ons protect you against online tracking techniques, and if your system is uniquely configured—and thus identifiable
 **[Browser Leak Test](https://browserleaks.com)** | Shows which of personal identity data is being leaked through your browser, so you can better protect yourself against fingerprinting
 **[IP Leak Test](https://ipleak.net)** | Shows your IP address, and other associated details (location, ISP, WebRTC check, DNS, and lots more)
@@ -298,6 +311,7 @@ A selection of free online tools and utilities, to check, test and protect
 **[Is Legit?](https://www.islegitsite.com/)** | Checks if a website or business is a scam, before buying something from it
 **[Deseat Me](https://www.deseat.me)** | Tool to help you clean up your online presence- Instantly get a list of all your accounts, delete the ones you are not using
 **[10 Minute Mail](https://10minemail.com/)** | Generates temporary disposable email address, to avoid giving your real details
+**[MXToolBox Mail Headers](https://mxtoolbox.com/Public/Tools/EmailHeaders.aspx)** | Tool for analyzing email headers, useful for checking the authenticity of messages, as well as knowing what info you are revealing in your outbound messages
 **[33Mail](http://33mail.com/Dg0gkEA)** | Automatically generates new email aliases, the first time you use them, to avoid revealing your real email address. Unlike 10 Minute Mail, these email addresses are permanent, and get forwarded to your real email inbox
 
 #### Word of Warning
@@ -915,6 +929,27 @@ This list is intended to aid you in auditing the security of your own systems, a
 - [Wireshark] - Popular, powerful feature-rich network protocol analyser. Lets you analyse everything that is going on in your network in great detail
 - [Zeek] - Powerful intrusion detection system and network security monitoring, that (rather than focusing on signatures) decodes protocols and looks for anomalies within the traffic
 
+## Bonus #7 - Raspberry Pi/ IoT Security Software
+
+- [OnionPi](https://github.com/breadtk/onion_pi) - Create an Anonymizing Tor Proxy using a Raspberry Pi
+- [CIRCLean](https://www.circl.lu/projects/CIRCLean) - A Pi-based USB Sanitizer, plug an untrusted USB in, and get clean files out
+- [Pi Hole](https://pi-hole.net) - A network-wide ad-block, that improves network performance as well as privacy
+- [Project Alias](https://github.com/bjoernkarmann/project_alias) - Gives you full-control, and better privacy of your Google Home or Alexa
+- [Raspiblitz](https://github.com/rootzoll/raspiblitz) - Build your own Bitcoin & Lightning Node on a Pi, see also [Trezor](https://github.com/trezor/trezor-firmware) wallet
+- [PiVPN](https://www.pivpn.io) - Simple low-cost yet secure VPN, for the Raspberry Pi (or set up manually, as outlined in [this guide](https://pimylifeup.com/raspberry-pi-vpn-server/))
+- [DeauthDetector](https://github.com/spacehuhn/DeauthDetector) - Detect deauthentication frames using an ESP8266, useful to be aware of ongoing wireless attacks
+- [IPFire](https://www.ipfire.org) - Hardened open source firewall to prevent common attacks on your network. Capable of running on a Pi
+- [SquidGuard](http://www.squidguard.org) - Fast and free URL redirector, which can work well as a home caching server
+- [E2guardian](http://e2guardian.org) - Comprehensive content filtering, with powerful configuration options
+
+
+USB-based projects include:
+- [DBAN](https://dban.org) - Bootable hard drive erasers for destroying data
+- [Syncthing](https://syncthing.net) - Create automated backups to an external medium
+- [KeePass Portable](https://keepass.info/download.html) - Portable password manager. For hardware-encrypted password manager, see [HardPass 2.0](https://hackaday.io/project/21227-hardpass02-hardware-passwd-manager-w-smart-card)
+- [VeraCrypt](https://www.veracrypt.fr) - Full drive encryption for USB devices
+
+See more [hardware-based security solutions](/6_Privacy_and-Security_Gadgets.md)
 
 [Amass]: https://github.com/OWASP/Amass
 [CloudFail]: https://github.com/m0rtem/CloudFail
@@ -1046,9 +1081,26 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://git.io/Jv66u&title=Th
 [script-safe-chrome]: https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf?hl=en-GB
 [script-safe-firefox]: https://addons.mozilla.org/en-GB/firefox/addon/script-safe/
 [web-rtc-chrome]: https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml?hl=en-GB
+[decentraleyes-chrome]: https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj
+[decentraleyes-firefox]: https://addons.mozilla.org/en-US/firefox/addon/decentraleyes
+[decentraleyes-pale-moon]: https://addons.palemoon.org/addon/decentraleyes
+[decentraleyes-opera]: https://addons.opera.com/en/extensions/details/decentraleyes
+[decentraleyes-source]: https://git.synz.io/Synzvato/decentraleyes
 [vanilla-cookie-chrome]: https://chrome.google.com/webstore/detail/vanilla-cookie-manager/gieohaicffldbmiilohhggbidhephnjj?hl=en-GB
 [privacy-essentials-chrome]: https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=en-GB
 [privacy-essentials-firefox]: https://addons.mozilla.org/en-GB/firefox/addon/duckduckgo-for-firefox/
+[self-destructing-cookies-chrome]: https://chrome.google.com/webstore/detail/self-destructing-cookies/igdpjhaninpfanncfifdoogibpdidddf
+[self-destructing-cookies-firefox]: https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies-webex/
+[self-destructing-cookies-opera]: https://addons.opera.com/en/extensions/details/self-destructing-cookies/
+[self-destructing-cookies-source]: https://github.com/joue-quroi/self-destructing-cookies
+[lightbeam-firefox]: https://addons.mozilla.org/en-US/firefox/addon/lightbeam-3-0/
+[lightbeam-source]: https://github.com/mozilla/lightbeam-we
+[tmn-chrome]: https://chrome.google.com/webstore/detail/trackmenot/cgllkjmdafllcidaehjejjhpfkmanmka
+[tmn-firefox]: https://addons.mozilla.org/en-US/firefox/addon/trackmenot/
+[tmn-whitepaper]: http://trackmenot.io/resources/trackmenot2009.pdf
+[tmn-source]: https://github.com/vtoubiana/TrackMeNot
+[amiunique-chrome]: https://chrome.google.com/webstore/detail/amiunique/pigjfndpomdldkmoaiiigpbncemhjeca
+[amiunique-firefox]: https://addons.mozilla.org/en-US/firefox/addon/amiunique
 
 [//]: # (ANDROID APP LINKS)
 [Island]: https://play.google.com/store/apps/details?id=com.oasisfeng.island
