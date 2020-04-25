@@ -32,7 +32,7 @@ Thanks goes to these wonderful people
 
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
-Contributions of any kind welcome!
+[Contributions](/CONTRIBUTING.md) of any kind welcome!
 
 
 
@@ -41,7 +41,8 @@ Contributions of any kind welcome!
 
 <blockquote>
 [1]"2019 Data Breach Investigations Report - EMEA", Verizon Enterprise Solutions, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/2019-data-breach-investigations-report-emea.pdf. [Accessed: 25- Apr- 2020]
-  [11]"Cracking DES: Secrets of Encryption Research, Wiretap Politics, and Chip Design", 1998. [Online]. Available: https://dl.packetstormsecurity.net/cracked/des/cracking-des.htm. [Accessed: 25- Apr- 2020]
+
+[11]"Cracking DES: Secrets of Encryption Research, Wiretap Politics, and Chip Design", 1998. [Online]. Available: https://dl.packetstormsecurity.net/cracked/des/cracking-des.htm. [Accessed: 25- Apr- 2020]
 
 [2]"Digital Identity Guidelines", 2020. [Online]. Available: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf. [Accessed: 25- Apr- 2020]
 
@@ -64,11 +65,17 @@ Contributions of any kind welcome!
 [6]S. Topuzov, "Phone hacking through SS7 is frighteningly easy and effective", Blog.securegroup.com, 2020. [Online]. Available: https://blog.securegroup.com/phone-hacking-through-ss7-is-frighteningly-easy-and-effective. [Accessed: 25- Apr- 2020]
 </blockquote>
 
-
+**Above References apply to the Content in the Following Files**:<br>
+[TLDR](/2_TLDR_Short_List.md) | [Intro](/0_Why_It_Matters.md) | [The Personal Security Checklist](/README.md) | [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md) | [Security Hardware](/6_Privacy_and-Security_Gadgets.md) | [Further Links](/4_Privacy_And_Security_Links.md)
 
 ## Stars 🌟
 
 [![Stargazers over time](https://starchart.cc/Lissy93/personal-security-checklist.svg)](https://star-history.t9t.io/#Lissy93/personal-security-checklist)
 
 Thank you [@caarlos0](https://github.com/caarlos0) for the above [Star Chart](https://github.com/caarlos0/starcharts) ☺️
+
+
+---
+
+Licensed under [Creative Commons, CC BY 4.0](/LICENSE.md), © [Alicia Sykes](https://aliciasykes.com) 2020
 
