@@ -182,6 +182,7 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
 - [DNSLeakTest](https://www.dnsleaktest.com) - Check for and fix a DNS leak
 - [IP Leak](https://ipleak.net) - Shows your IP address, and other associated details
 - [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
+- [Hetrix Tools - Blacklist Check](https://hetrixtools.com/blacklist-check) - Check if your Domain or IP appears on any common blacklists
 
 ## Anonymous Services
 - [NixNet](https://nixnet.services)
