@@ -974,45 +974,18 @@ USB-based projects include:
 
 See more [hardware-based security solutions](/6_Privacy_and-Security_Gadgets.md)
 
-[Amass]: https://github.com/OWASP/Amass
-[CloudFail]: https://github.com/m0rtem/CloudFail
-[CrackMapExec]: https://github.com/byt3bl33d3r/CrackMapExec
-[DNSdumpster]: https://dnsdumpster.com/
-[DNSTracer]: http://www.mavetju.org/unix/dnstracer.php
-[dnstwist]: https://github.com/elceef/dnstwist
-[GRR]: https://github.com/google/grr
-[Impacket]: https://github.com/SecureAuthCorp/impacket
-[Kali Linux]: https://www.kali.org
-[Kali Linux_source]: https://gitlab.com/kalilinux
-[Lynis]: https://cisofy.com/lynis
-[Masscan]: https://github.com/robertdavidgraham/masscan
-[Metasploit]: https://www.metasploit.com
-[Metasploit_source]: https://github.com/rapid7/metasploit-framework
-[Moloch]: https://molo.ch
-[Moloch_source]: https://github.com/aol/moloch
-[Nikto2]: https://cirt.net/nikto2
-[Nikto2_source]: https://github.com/sullo/nikto
-[Nmap]: https://nmap.org
-[Nmap_source]: https://github.com/nmap/nmap
-[OpenAudit]: https://www.open-audit.org
-[OpenVAS]: https://openvas.org
-[OpenVAS_source]: https://github.com/greenbone/openvas
-[OSQuery]: https://osquery.io
-[OSQuery_source]: https://github.com/osquery/osquery
-[OSSEC HIDS]: https://www.ossec.net
-[OSSEC HIDS_source]: https://github.com/ossec/ossec-hids
-[Otseca]: https://github.com/trimstray/otseca
-[RouterSploit]: https://github.com/threat9/routersploit
-[Security Onion]: https://securityonion.net
-[Security Onion_source]: https://github.com/Security-Onion-Solutions/security-onion
-[Snort]: https://snort.org
-[SPARTA]: https://sparta.secforce.com
-[SPARTA_source]: https://github.com/SECFORCE/sparta
-[Wireshark]: https://www.wireshark.org
-[Wireshark_source]: https://code.wireshark.org/review/#/admin/projects/wireshark
-[Zeek]: https://zeek.org
-[Zeek_source]: https://github.com/zeek/zeek
 
+## More Awesome Software Lists
+
+This list was focused on privacy-respecting software. Below are other awesome lists, of open source software categorised by operating system.
+
+- [awesome-windows-apps](https://github.com/Awesome-Windows/Awesome) by 'many'
+- [awesome-macOS-apps](https://github.com/iCHAIT/awesome-macOS) by @iCHAIT
+- [awesome-linux-software](https://github.com/luong-komorebi/Awesome-Linux-Software) by @luong-komorebi
+- [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) by @dkhamsing
+- [open-source-android-apps](https://github.com/pcqpcq/open-source-android-apps) by @pcqpcq
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) by 'many'
+- [**More GitHub Awesome Lists →**](/4_Privacy_And_Security_Links.md#more-awesome-github-lists)
 
 
 
@@ -1158,3 +1131,43 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://git.io/Jv66u&title=Th
 [Oasis Feng]: https://play.google.com/store/apps/dev?id=7664242523989527886
 [Marcel Bokhorst]: https://play.google.com/store/apps/dev?id=8420080860664580239
 [Simple Mobile Tools]: https://play.google.com/store/apps/dev?id=9070296388022589266
+
+[//]: # (SECURITY TESTING TOOLS)
+[Amass]: https://github.com/OWASP/Amass
+[CloudFail]: https://github.com/m0rtem/CloudFail
+[CrackMapExec]: https://github.com/byt3bl33d3r/CrackMapExec
+[DNSdumpster]: https://dnsdumpster.com/
+[DNSTracer]: http://www.mavetju.org/unix/dnstracer.php
+[dnstwist]: https://github.com/elceef/dnstwist
+[GRR]: https://github.com/google/grr
+[Impacket]: https://github.com/SecureAuthCorp/impacket
+[Kali Linux]: https://www.kali.org
+[Kali Linux_source]: https://gitlab.com/kalilinux
+[Lynis]: https://cisofy.com/lynis
+[Masscan]: https://github.com/robertdavidgraham/masscan
+[Metasploit]: https://www.metasploit.com
+[Metasploit_source]: https://github.com/rapid7/metasploit-framework
+[Moloch]: https://molo.ch
+[Moloch_source]: https://github.com/aol/moloch
+[Nikto2]: https://cirt.net/nikto2
+[Nikto2_source]: https://github.com/sullo/nikto
+[Nmap]: https://nmap.org
+[Nmap_source]: https://github.com/nmap/nmap
+[OpenAudit]: https://www.open-audit.org
+[OpenVAS]: https://openvas.org
+[OpenVAS_source]: https://github.com/greenbone/openvas
+[OSQuery]: https://osquery.io
+[OSQuery_source]: https://github.com/osquery/osquery
+[OSSEC HIDS]: https://www.ossec.net
+[OSSEC HIDS_source]: https://github.com/ossec/ossec-hids
+[Otseca]: https://github.com/trimstray/otseca
+[RouterSploit]: https://github.com/threat9/routersploit
+[Security Onion]: https://securityonion.net
+[Security Onion_source]: https://github.com/Security-Onion-Solutions/security-onion
+[Snort]: https://snort.org
+[SPARTA]: https://sparta.secforce.com
+[SPARTA_source]: https://github.com/SECFORCE/sparta
+[Wireshark]: https://www.wireshark.org
+[Wireshark_source]: https://code.wireshark.org/review/#/admin/projects/wireshark
+[Zeek]: https://zeek.org
+[Zeek_source]: https://github.com/zeek/zeek
