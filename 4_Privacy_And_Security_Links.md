@@ -321,23 +321,31 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 
 ## More Awesome GitHub Lists
 
-- [privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting) by @nikitavoloboev
-- [awesome-privacy](https://github.com/KevinColemanInc/awesome-privacy) by @KevinColemanInc
-- [Security_list](https://github.com/zbetcheckin/Security_list) by @zbetcheckin
-- [awesome-security](https://github.com/sbilly/awesome-security) by @sbilly
-- [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @PaulSec
-- [awesome-crypto-papers](https://github.com/pFarb/awesome-crypto-papers) by @pFarb
-- [awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) by @hslatman
-- [awesome-incident-response](https://github.com/meirwah/awesome-incident-response) by @meirwah
-- [awesome-anti-forensic](https://github.com/remiflavien1/awesome-anti-forensic) by @remiflavien1
-- [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) by @rshipp
-- [awesome-honeypots](https://github.com/paralax/awesome-honeypots) by @paralax
-- [awesome-hacking](https://github.com/carpedm20/awesome-hacking) by @carpedm20
-- [awesome-pentest](https://github.com/enaqx/awesome-pentest) by @enaqx
-- [awesome-ctf](https://github.com/apsdehal/awesome-ctf) by @apsdehal
-
-
-## Unrelated Awesome Lists
+- **Awesome Open Source Apps**
+  - [awesome-windows-apps](https://github.com/Awesome-Windows/Awesome)
+  - [awesome-macOS-apps](https://github.com/iCHAIT/awesome-macOS) by @iCHAIT
+  - [awesome-linux-software](https://github.com/luong-komorebi/Awesome-Linux-Software) by @luong-komorebi
+  - [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) by @dkhamsing
+  - [open-source-android-apps](https://github.com/pcqpcq/open-source-android-apps) by @pcqpcq
+  - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+  - [privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting) by @nikitavoloboev
+  - [awesome-privacy](https://github.com/KevinColemanInc/awesome-privacy) by @KevinColemanInc
+  - [security-checklist: privacy-respecting-software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md)
+- **Security (Hacking / Pen Testing / Threat Inteligence / CFTs)**
+  - [Security_list](https://github.com/zbetcheckin/Security_list) by @zbetcheckin
+  - [awesome-security](https://github.com/sbilly/awesome-security) by @sbilly
+  - [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @PaulSec
+  - [awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) by @hslatman
+  - [awesome-incident-response](https://github.com/meirwah/awesome-incident-response) by @meirwah
+  - [awesome-anti-forensic](https://github.com/remiflavien1/awesome-anti-forensic) by @remiflavien1
+  - [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) by @rshipp
+  - [awesome-honeypots](https://github.com/paralax/awesome-honeypots) by @paralax
+  - [awesome-hacking](https://github.com/carpedm20/awesome-hacking) by @carpedm20
+  - [awesome-pentest](https://github.com/enaqx/awesome-pentest) by @enaqx
+  - [awesome-ctf](https://github.com/apsdehal/awesome-ctf) by @apsdehal
+- **Misc**
+  - [awesome-crypto-papers](https://github.com/pFarb/awesome-crypto-papers) by @pFarb
+- **Awesome Lists of Awesome Lists**
  - [awesome]( https://github.com/sindresorhus/awesome) by @sindresorhus
  - [lists](https://github.com/jnv/lists) by @jnv
 
