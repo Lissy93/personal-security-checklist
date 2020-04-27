@@ -84,7 +84,7 @@ Be aware that no software is perfect- there will always be bugs and vulnerabilit
 | Provider | Description |
 | --- | --- |
 **[BitWarden](https://bitwarden.com)**  | Fully-featured, open source password manager with cloud-sync. BitWarden is easy-to-use with a clean UI and client apps for desktop, web and mobile.
-**[KeePass](https://keepass.info)** | Hardened open source, secure password manager, without cloud-sync capabilities. See also [KeePassXC](https://keepassxc.org), [KeePassX](https://www.keepassx.org) and [KeePass Web](https://keeweb.info) which are popular community forks of KeePass, with additional features and UI refinements
+**[KeePass](https://keepass.info)** | Hardened, secure and offline password manager. Does not have cloud-sync baked in, but deemed to be [gold standard](https://keepass.info/ratings.html) for secure password managers. KeePass clients: [Strongbox](https://apps.apple.com/us/app/strongbox-keepass-pwsafe/id897283731) *(Mac & iOS)*, [KeePassDX](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) *(Android)*, [KeeWeb](https://keeweb.info) *(Web-based/ self-hosted)*, [KeePassXC](https://keepassxc.org) *(Windows, Mac & Linux)*, see more KeePass clients and extensions at [awesome-keepass](https://github.com/lgg/awesome-keepass) by @lgg. 
 **[LessPass](https://lesspass.com)** *(Self-Hosted)* | LessPass is a little different, since it generates your passwords using a hash of the website name, your username and a single master-passphrase that you reuse. It omits the need for you to ever need to store or sync your passwords. They have apps for all the common platforms and a CLI, but you can also self-host it.
 
 #### Notable Mentions
@@ -650,13 +650,17 @@ Paying for goods and services is a good example of where privacy and security co
 
 
 #### Notable Mentions
-Actual physical cash is still the most private option, with no chance of leaving any transactional records. See also [PIVX](https://pivx.org), [Bitcoin Private](https://btcprivate.org) and [Verge](https://vergecurrency.com).
+Actual physical cash is still the most private option, with no chance of leaving any transactional records. Other privacy-focused cryptocurrencies include: [PIVX](https://pivx.org), [Bitcoin Private](https://btcprivate.org) and [Verge](https://vergecurrency.com).
 
 
 #### Word of Warning
 Not all cryptocurrencies are anonymous, and without using a privacy-focused coin, a record of your transaction will live on a publicly available distributed ledger, forever. If you send of receive multiple payments, ensure you switch up addresses or use a mixer, to make it harder for anyone trying to trace your transactions. Store private keys somewhere safe, but offline and preferably cold.
 
 Note: Cryptocurrency prices can go down. Storing any wealth in crypto may result in losses. If you are new to digital currencies- do your research first, don't invest more than you can afford, and be very weary of scams and cryptocurrency-related malware. 
+
+#### Virtual Card Payments
+
+When paying for goods or services on websites that only accept card payments, consider using a virtual card number, to avoid sharing real payment details with a potentially unsafe vendor. [Privacy.com](https://privacy.com/join/VW7WC) offer disposable virtual pre-paid cards and also allow for setting spend-limits and generating single-use cards. Other options (with monthly fee) include [Revolut METAL](https://revolut.ngih.net/Q9jdx) and [MySudo](https://mysudo.com)
 
 
 ## Anti-Virus and Malware Prevention
