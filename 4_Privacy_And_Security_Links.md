@@ -97,9 +97,9 @@
 
 
 ## Books
-- [Permanent Record](https://amzn.to/30wxxXi) by Edward Snowden
-- [Sandworm](https://amzn.to/2FVByeJ) by Andy Greenberg
-
+- [Permanent Record](https://www.amazon.co.uk/Permanent-Record-Edward-Snowden/dp/1529035651) by Edward Snowden
+- [Sandworm](https://www.amazon.co.uk/Sandworm-Cyberwar-Kremlins-Dangerous-Hackers/dp/0385544405) by Andy Greenberg: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers
+- [Ghost in the Wires](https://www.amazon.co.uk/gp/product/B00FOQS8D6) by Kevin Mitnick: Kevin tells his story of being the world's most wanted hacker
 
 ## Podcasts
 - [Darknet Diaries] by Jack Rhysider: Stories from the dark sides of the internet. Listen on [Stitcher][da-stitch]
