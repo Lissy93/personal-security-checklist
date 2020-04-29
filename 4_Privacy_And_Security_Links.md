@@ -110,7 +110,11 @@
   - Listen on [Stitcher][tp-stitcher], [SoundCloud][tp-soundcloud], [iTunes][tp-itunes], [Spotify][tp-spofify], [PocketCasts][tp-pocketcasts]
 - [Smashing Security] by Graham Cluley and Carole Theriault: Casual, opinionated and humerous chat about current cybersecurity news
   - Listen on [Stitcher][sm-stitcher], [iTunes][sm-itunes], [Spotify][sm-spofify], [PocketCasts][sm-pocketcasts]
+ 
+More Security Podcasts on [player.fm](https://player.fm/featured/security)
 
+ More Podcasts (Verification Required): [Naked Security](https://nakedsecurity.sophos.com) | [Open Source Security Podcast](opensourcesecuritypodcast.com) | [Defensive Security Podcast](https://defensivesecurity.org) | [Malicious Life](https://malicious.life) | [Down the Security Rabbit Hole](http://podcast.wh1t3rabbit.net) | [Cyber Wire](https://thecyberwire.com/podcasts/daily-podcast) | [Hacking Humans](https://thecyberwire.com/podcasts/hacking-humans) | [Security Now](https://twit.tv/shows/security-now) | [Cyber Security Interviews](https://cybersecurityinterviews.com) | [Security Weekly](https://securityweekly.com) | [The Shared Security Podcast](https://sharedsecurity.net) | [Risky Business](https://risky.biz/netcasts/risky-business) | [Crypto-Gram Security Podcast](https://crypto-gram.libsyn.com) | [Off the Hook](https://player.fm/series/off-the-hook-84511)
+ 
 
 [Darknet Diaries]: https://darknetdiaries.com
 [da-stitch]: https://www.stitcher.com/podcast/darknet-diaries
