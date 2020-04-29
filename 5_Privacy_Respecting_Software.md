@@ -995,6 +995,13 @@ This list was focused on privacy-respecting software. Below are other awesome li
 - Server: [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) by 'many'
 - [**More GitHub Awesome Lists →**](/4_Privacy_And_Security_Links.md#more-awesome-github-lists)
 
+This page is just one in this repository of open source privacy & security resources.
+I have a range of guides, checklists, links and tutorials, all aimed to provide a starting point for anyone looking to get serious about security. So while your here, why not also check out the other files linked to below 😊
+
+- [Personal Security Checklist](/README.md)
+- [Gadgets for Privacy & Security](/6_Privacy_and-Security_Gadgets.md)
+- [Further Links: Privacy & Security](/4_Privacy_And_Security_Links.md)
+- [The Importance of Digital Security & Privacy](/0_Why_It_Matters.md)
 
 
 ## Final Notes
@@ -1002,27 +1009,17 @@ This list was focused on privacy-respecting software. Below are other awesome li
 
 ### Conclusion
 
-Many coporations put profit before people, collecting data and exploiting privacy. Many claim to be secure but without being open source it can't be verified and it is always too late once there has been a breach. Switching to privacy-respecting open source software will drastically help improving your security, privacy and anonymity online.
+Many coporations put profit before people, collecting data and exploiting privacy. They claim to be secure but without being open source it can't be verified, until there's been a breach and it's too late. Switching to privacy-respecting open source software will drastically help improving your security, privacy and anonymity online.
 
 However, that's not all you need to do. It is also important to : use strong and unique passwords, 2-factor authentication,
 adopt good networking practices and be mindful of data that are collected when browsing the web. You can see the full
 **[personal security checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)** for more tips to stay safe. 
 
-### See Also
-
-- [Personal Security Checklist](/README.md)
-- [Gadgets for Privacy & Security](/6_Privacy_and-Security_Gadgets.md)
-- [Further Links: Privacy & Security](/4_Privacy_And_Security_Links.md)
-- [The Importance of Digital Security & Privacy](/0_Why_It_Matters.md)
-
-This page is just one in this repository of open source privacy & security resources.
-So while your here, why not also check out the files linked to above 😉
 
 ### Disclaimer
 
-No piece of software is truly secure or private. 
-
-Software is only as secure as the system it is running on. You need to keep your devices up-to-date and follow good security practices.
+**Compartmentalise**<br>
+No piece of software is truly secure or private.  Further to this, software can only as secure as the system it is running on. Vulnerabilities are being discovered and patched all the time, so you much keep your system up-to-date. Breaches occur regularly, so compartmentalise your data to minimise damage. It's not just about choosing secure software, you must also follow good security practices.
 
 **Attack Surface**<br>
 It is a good idea to keep your trusted software base small, to reduce potential attack surface. At the same time trusting a single application for too many tasks could be a weakness in your system. So you will need to judge the situation according to your threat model, and carefully plan which software and applications you trust with each segment of your data.
