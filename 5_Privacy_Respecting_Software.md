@@ -985,14 +985,14 @@ See more [hardware-based security solutions](/6_Privacy_and-Security_Gadgets.md)
 
 ## More Awesome Software Lists
 
-This list was focused on privacy-respecting software. Below are other awesome lists, of open source software categorised by operating system.
+This list was focused on privacy-respecting software. Below are other awesome lists, maintained by the community of open source software, categorised by operating system.
 
-- [awesome-windows-apps](https://github.com/Awesome-Windows/Awesome) by 'many'
-- [awesome-macOS-apps](https://github.com/iCHAIT/awesome-macOS) by @iCHAIT
-- [awesome-linux-software](https://github.com/luong-komorebi/Awesome-Linux-Software) by @luong-komorebi
-- [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) by @dkhamsing
-- [open-source-android-apps](https://github.com/pcqpcq/open-source-android-apps) by @pcqpcq
-- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) by 'many'
+- Windows: [awesome-windows-apps](https://github.com/Awesome-Windows/Awesome) by 'many'
+- MacOS: [awesome-macOS-apps](https://github.com/iCHAIT/awesome-macOS) by @iCHAIT
+- Linux: [awesome-linux-software](https://github.com/luong-komorebi/Awesome-Linux-Software) by @luong-komorebi
+- iOS: [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) by @dkhamsing
+- Android: [open-source-android-apps](https://github.com/pcqpcq/open-source-android-apps) by @pcqpcq
+- Server: [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) by 'many'
 - [**More GitHub Awesome Lists →**](/4_Privacy_And_Security_Links.md#more-awesome-github-lists)
 
 
@@ -1024,19 +1024,23 @@ No piece of software is truly secure or private.
 
 Software is only as secure as the system it is running on. You need to keep your devices up-to-date and follow good security practices.
 
+**Attack Surface**<br>
 It is a good idea to keep your trusted software base small, to reduce potential attack surface. At the same time trusting a single application for too many tasks could be a weakness in your system. So you will need to judge the situation according to your threat model, and carefully plan which software and applications you trust with each segment of your data.
 
+**Convenience Vs Security**<br>
 There is often a trade-off between convenience and security. Construct a threat model, and choose a balance that is right for you. In a similar way in some situations there is privacy and security conflict (e.g. Find My Phone is great for security, but terrible for privacy, and anonymous payments may be good for privacy but less secure than insured fiat currency). Again it is about assessing your situation, understanding the risks and making an informed decision.
 
+**Open Source Considerations**<br>
 Open source software has long had a reputation of being more secure than its closed source counterparts. Since bugs are raised transparently, fixed quickly, the code can be checked by experts in the community and there is usually little or no data collection or analytics. That being said, there is no piece of software that it totally bug free, and hence never truly secure or private. Being open source, is in no way a guarantee that something is safe. There is no shortage of poorly-written, obsolete or sometimes plain malicious open source projects on the internet.
 
+**Hosted Vs Self-Hosted Considerations**<br>
 When using a hosted or managed application that is open-source software- there is often no easyily way to tell if the version running is the same as that of the published source code (even published signatures can be faked). There is always the possibility that additional backdoors may have been knowingly or unknowingly implemented in the running instance. One way round this is to self-host software yourself. When self-hosting you will then know for sure which code is running, however you will also be responsible for the managing security of the server, and so may not be recommended for beginners.
 
-When using a hosted or property solution- always check the privacy policy, research the reputation of the organisation, and be weary about which data you trust them with. Where possible choose open source software for security-critical situations.
+**Proprietary Considerations**<br>
+When using a hosted or proprietary solution- always check the privacy policy, research the reputation of the organisation, and be weary about which data you trust them with. Where possible choose open source software for security-critical situations.
 
-This list contains packages that range from entry-level to advanced, a lot of the software here will not be appropriate for all audiences.
-
-It is in no way a definitive list of secure applications, and aims only to be a guide, a collection of software and services that myself and others have used, and would recommend. There will always be new vulnerabilities discovered or introduced, bugs and poorly configured systems. It is up to you to do your research, and decide where and how your data are managed.
+**This List: Disclaimer**<br>
+This list contains packages that range from entry-level to advanced, a lot of the software here will not be appropriate for all audiences. It is in no way a definitive list of secure applications, and aims only to be a guide, a collection of software and services that myself and others have used, and would recommend. There will always be new vulnerabilities discovered or introduced, bugs and poorly configured systems. It is up to you to do your research, and decide where and how your data are managed.
 
 If you find something on this list that should no longer be deemed secure, please raise an issue. In the same way if you know of something that is missing, or would like to make an edit, the pull requests are welcome, and are much appreiciated!
 
