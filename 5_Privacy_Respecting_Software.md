@@ -29,6 +29,7 @@ Be aware that no software is perfect- there will always be bugs and vulnerabilit
   - [Encrypted Messaging](#encrypted-messaging)
   - [P2P Messaging](#p2p-messaging)
   - [Encrypted Email](#encrypted-email)
+  - [Anonymous Mail Forwarding](#anonymous-mail-forwarding)
   - [Private Browsers](#browsers)
   - [Non-Tracking Search Engines](#search-engines)
 - **Security**
@@ -181,18 +182,6 @@ See [OpenTechFund- Secure Email](https://github.com/OpenTechFund/secure-email) f
 #### Other Notable Mentions
 [HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Kolab Now](https://kolabnow.com), [Posteo](https://posteo.de), and [Disroot](https://disroot.org/en)
 
-### Alias Services
-Revealing your real email address online can put you at risk. Email aliasing allows messages to be sent to [anything]@my-domain.com and still land in your primary inbox. This protects your real email address from being revealed. Aliases are generated automatically, the first time they are used. This approach lets you identify which provider leaked your email address, and block an alias with 1-click.
-
-- **[Anonaddy](https://anonaddy.com)** - An open source anonymous email forwarding service, allowing you to create unlimited email aliases. Has a free plan.
-- **[33Mail](http://33mail.com/Dg0gkEA)** - A long-standing aliasing service. As well as receiving, 33Mail also lets you reply to forwarded addresses anonymously. Free plan, as well as Premium plan ($1/ month) if you'd like to use a custom domain 
-- **[SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso)** - Fully open source (view on [GitHub](https://github.com/simple-login)) allias service with many additional features. Can be self-hosted, or the managed version has a free plan, as well as hosted premium option ($2.99/ month) for using custom domains
-- **[ProtonMail](https://protonmail.com/pricing) Visionary** - If you already have ProtonMail's Visionary package, then an implementation of this feature is available. Very secure, however not the most price-effective (€30/month), and does not include dashboard
-- **[ForwardEmail](https://forwardemail.net)** - Simple open source catch-all email forwarding service. Easy to self-host (see on [GitHub](https://github.com/forwardemail/free-email-forwarding)), or the hosted version has a free plan as well as a ($3/month) premium plan
-
-Alternatively you could host your own catch-all email service. [Mailu](https://github.com/Mailu/Mailu) can be configured to accept wildcards, or for Microsoft Exchange see [exchange-catchall](https://github.com/Pro/exchange-catchall)
-
-
 ### Self-Hosted Email
 If you do not want to trust an email provider with your messages, you can host your own mail server. Without experience, this can be notoriously hard to correctly configure, especially when it comes to security. You may also find that cost, performance and features make it a less attractive option. If you do decide to go down this route, [Mail-in-a-box](https://mailinabox.email/), is an easy to deploy, open source mail server. It aims to promote decentralization, innovation, and privacy on the web, as well as have automated, auditable, and idempotent system configuration. Other ready-to-go self-hosted mail options include [Mailu](https://mailu.io/1.7/) and [Mail Cow](https://mailcow.email/), both of which are docker containers.
 
@@ -206,6 +195,20 @@ Email clients are the programs used to interact with the mail server. For hosted
 It is important to keep the device/ server running your mail client secure.
 
 **See also** [Email Security Checklist](/README.md#emails)
+
+## Anonymous Mail Forwarding
+
+Revealing your real email address online can put you at risk. Email aliasing allows messages to be sent to [anything]@my-domain.com and still land in your primary inbox. This protects your real email address from being revealed. Aliases are generated automatically, the first time they are used. This approach lets you identify which provider leaked your email address, and block an alias with 1-click.
+
+| Provider | Description |
+| --- | --- |
+**[Anonaddy](https://anonaddy.com)** | An open source anonymous email forwarding service, allowing you to create unlimited email aliases. Has a free plan.
+**[33Mail](http://33mail.com/Dg0gkEA)** | A long-standing aliasing service. As well as receiving, 33Mail also lets you reply to forwarded addresses anonymously. Free plan, as well as Premium plan ($1/ month) if you'd like to use a custom domain 
+**[SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso)** | Fully open source (view on [GitHub](https://github.com/simple-login)) allias service with many additional features. Can be self-hosted, or the managed version has a free plan, as well as hosted premium option ($2.99/ month) for using custom domains
+**[ForwardEmail](https://forwardemail.net)** | Simple open source catch-all email forwarding service. Easy to self-host (see on [GitHub](https://github.com/forwardemail/free-email-forwarding)), or the hosted version has a free plan as well as a ($3/month) premium plan
+**[ProtonMail](https://protonmail.com/pricing) Visionary** | If you already have ProtonMail's Visionary package, then an implementation of this feature is available. Very secure, however not the most price-effective (€30/month), and does not include dashboard
+
+Alternatively you could host your own catch-all email service. [Mailu](https://github.com/Mailu/Mailu) can be configured to accept wildcards, or for Microsoft Exchange see [exchange-catchall](https://github.com/Pro/exchange-catchall)
 
 
 ## Browsers
@@ -312,9 +315,10 @@ A selection of free online tools and utilities, to check, test and protect
 **[Virus Total](https://www.virustotal.com)** | Analyses a potentially-suspicious web resources (by URL, IP, domain or file hash) to detect types of malware (*note: files are scanned publicly*)
 **[Is Legit?](https://www.islegitsite.com/)** | Checks if a website or business is a scam, before buying something from it
 **[Deseat Me](https://www.deseat.me)** | Tool to help you clean up your online presence- Instantly get a list of all your accounts, delete the ones you are not using
+**[Should I Remove It?](https://www.shouldiremoveit.com)** | Ever been uninstalling programs from your Windows PC and been unsure of what something is? Should I Remove It is a database of Windows software, detailing weather it is essential, harmless or dangerous
 **[10 Minute Mail](https://10minemail.com/)** | Generates temporary disposable email address, to avoid giving your real details
 **[MXToolBox Mail Headers](https://mxtoolbox.com/Public/Tools/EmailHeaders.aspx)** | Tool for analyzing email headers, useful for checking the authenticity of messages, as well as knowing what info you are revealing in your outbound messages
-**[33Mail](http://33mail.com/Dg0gkEA)** | Automatically generates new email aliases, the first time you use them, to avoid revealing your real email address. Unlike 10 Minute Mail, these email addresses are permanent, and get forwarded to your real email inbox
+**[SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso)** | Automatically generates new email aliases, the first time you use them, to avoid revealing your real email address. Unlike 10 Minute Mail, these email addresses are permanent, and get forwarded to your real email inbox. Other options include [33Mail](http://33mail.com/Dg0gkEA), [Anonaddy](https://anonaddy.com) and [ForwardEmail](https://forwardemail.net) (self-hosted)
 
 #### Word of Warning
 *Browsers are inherently insecure, be careful when uploading, or entering personal details.*
