@@ -262,12 +262,15 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 ## Academic
 
 - **Journals**
-  - [Crypto Paper](https://github.com/cryptoseb/cryptopaper) by Crypto Seb- Privacy, Security, and Anonymity For Every Internet User
+  - Rethinking information privacy‐security: Does it really matter? By Waseem Afzal: via [Wiley](https://asistdl.onlinelibrary.wiley.com/doi/10.1002/meet.14505001095)
+  - Crypto Paper: Privacy, Security, and Anonymity For Every Internet User, by Crypto Seb: via [GitHub](https://github.com/cryptoseb/cryptopaper)
+  - Challenges in assessing privacy impact, Tales from the Front Line: via [Wiley](https://onlinelibrary.wiley.com/doi/10.1002/spy2.101)
+  - A privacy‐preserving multifactor authentication system: via [Wiley](https://onlinelibrary.wiley.com/doi/10.1002/spy2.88)
 - **Implementations and Standards**
   - [The GNU Privacy Guard](https://www.gnupg.org)
   - [OpenPGP JavaScript Implementation](https://openpgpjs.org)
   - [WireGuard](https://www.wireguard.com/papers/wireguard.pdf)
- - [Nym](https://as93.link/nym-blog-post) - Next Generation of Privacy infrastructure
+  - [Nym](https://as93.link/nym-blog-post) - Next Generation of Privacy infrastructure
 
 
 
@@ -376,15 +379,15 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 ## More Awesome GitHub Lists
 
 - **Awesome Open Source Apps**
-  - [awesome-windows-apps](https://github.com/Awesome-Windows/Awesome)
+  - [awesome-windows-apps](https://github.com/Awesome-Windows/Awesome) by 'many'
   - [awesome-macOS-apps](https://github.com/iCHAIT/awesome-macOS) by @iCHAIT
   - [awesome-linux-software](https://github.com/luong-komorebi/Awesome-Linux-Software) by @luong-komorebi
   - [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) by @dkhamsing
   - [open-source-android-apps](https://github.com/pcqpcq/open-source-android-apps) by @pcqpcq
-  - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+  - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) by 'many'
   - [privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting) by @nikitavoloboev
   - [awesome-privacy](https://github.com/KevinColemanInc/awesome-privacy) by @KevinColemanInc
-  - [security-checklist: privacy-respecting-software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md)
+  - [security-checklist: privacy-respecting-software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) by @lissy93
 - **Security (Hacking / Pen Testing / Threat Inteligence / CFTs)**
   - [Security_list](https://github.com/zbetcheckin/Security_list) by @zbetcheckin
   - [awesome-security](https://github.com/sbilly/awesome-security) by @sbilly
