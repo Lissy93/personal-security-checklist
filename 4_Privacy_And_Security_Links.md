@@ -63,10 +63,13 @@
 - **Devices**
   - Layers of Personal Tech Security: via [The Wire Cutter](https://thewirecutter.com/blog/internet-security-layers)
   - Improving security on iPhone: via [lifehacker](https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831)
+  - Guide to scrubbing Windows OSs from forensic investigation: by u/moschles, via [Reddit](https://www.reddit.com/r/security/comments/32fb1l/open_guide_to_scrubbing_windows_oss_from_forensic)
+  - A curated list of Windows Domain Hardening techniques: by @PaulSec, via: [GitHub](https://github.com/PaulSec/awesome-windows-domain-hardening)
 - **Software**
   - How to use Vera Crypt: via [howtogeek](https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt)
 - **Physical Security**
   - Hiding from Physical Surveillance: via [Snallabolaget](http://snallabolaget.com/hiding-from-surveillance-how-and-why)
+  - Guide to opting-out of public data listings and marketing lists: via [World Privacy Forum](https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs)
 
 ## Notable Articles
 
@@ -165,40 +168,43 @@ More Security Podcasts on [player.fm](https://player.fm/featured/security)
 See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @PaulSec
 
 
+## Online Tools
+
 - **Check and Test**
-	- [εxodus](https://reports.exodus-privacy.eu.org) - Check which trackers any app on the Play Store has
-	- [Have I been Pwned](https://haveibeenpwned.com) and [Dehashed](https://www.dehashed.com) - Check if your details have been compromised
-	- [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
+  - [εxodus](https://reports.exodus-privacy.eu.org) - Check which trackers any app on the Play Store has
+  - [Have I been Pwned](https://haveibeenpwned.com) and [Dehashed](https://www.dehashed.com) - Check if your details have been compromised
+  - [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
 - **Utilities**
-	- [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
-	- [Secure Password Check](https://password.kaspersky.com) - Fun little tool, to demonstrate how long it could take to crack a password
-	- [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso) Protect your email address, by auto-generating unique permeant aliases for each account, so all emails land in your primary inbox
-	- [Deseat Me](https://www.deseat.me) - Clean up your online presence
+  - [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
+  - [Secure Password Check](https://password.kaspersky.com) - Fun little tool, to demonstrate how long it could take to crack a password
+  - [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso) Protect your email address, by auto-generating unique permeant aliases for each account, so all emails land in your primary inbox
+  - [Deseat Me](https://www.deseat.me) - Clean up your online presence
 - **Anti-Tracking Analysis**
-	- [Panopticlick](https://panopticlick.eff.org) - Check if, and how your browser is tracking  you
-	- [Browser Leaks](https://browserleaks.com) - Check which information is being leaked by your browser
-	- [DNSLeakTest](https://www.dnsleaktest.com) - Check for and fix a DNS leak
-	- [IP Leak](https://ipleak.net) - IP Leak test
-	- [Am I Unique?](http://amiunique.org) - If your fingerprint is unique, then websites can track you
+  - [Panopticlick](https://panopticlick.eff.org) - Check if, and how your browser is tracking  you
+  - [Browser Leaks](https://browserleaks.com) - Check which information is being leaked by your browser
+  - [DNSLeakTest](https://www.dnsleaktest.com) - Check for and fix a DNS leak
+  - [IP Leak](https://ipleak.net) - IP Leak test
+  - [Am I Unique?](http://amiunique.org) - If your fingerprint is unique, then websites can track you
 - **Phishing, Hacking and Abuse**
-	- [VirusTotal](https://www.virustotal.com) - Analyse a suspicious web resource for malware
+  - [VirusTotal](https://www.virustotal.com) - Analyse a suspicious web resource for malware
   - [ScamAdviser](https://www.scamadviser.com) - Check if a website is a scam, before buying from it
   - [Abuse IP DB](https://www.abuseipdb.com) - Report an IP address for abuse, spam or attacks, and check the status of any IP
   - [Phish Tank](https://www.phishtank.com) - Check if a link is a known phishing URL, Submit a phishing URL, browse recent phishing URLs
-	- [Is It Hacked?](http://www.isithacked.com) - Check if a website or page appears to be hacked, hijacked or generally suspicious 
+  - [Is It Hacked?](http://www.isithacked.com) - Check if a website or page appears to be hacked, hijacked or generally suspicious 
 - **IP, Domain and Network Tools**
-	- [Hetrix Tools - Blacklist Check](https://hetrixtools.com/blacklist-check) - Check if your Domain or IP appears on any common blacklists
-	- [RIPEstat](https://stat.ripe.net) - Detailed analysis of IP Addresses (Routing, DNS, Abuse History, Activity etc)
-	- [Multirbl](http://multirbl.valli.org) - Complete IP check for sending Mailservers
-	- [IPVoid](https://www.ipvoid.com) - Full suit of Domain, IP, and DNS tools for Tracing, Lookup, Checking and Pinging
+  - [Qualys SSL Client Test](https://clienttest.ssllabs.com:8443/ssltest/viewMyClient.html) - Check the SSL/TLS capabilities of your browser
+  - [Qualys SSL Server Test](https://www.ssllabs.com/ssltest) - Perform a deep analysis of the configuration of any SSL web server on the public Internet
+  - [Hetrix Tools - Blacklist Check](https://hetrixtools.com/blacklist-check) - Check if your Domain or IP appears on any common blacklists
+  - [RIPEstat](https://stat.ripe.net) - Detailed analysis of IP Addresses (Routing, DNS, Abuse History, Activity etc)
+  - [Multirbl](http://multirbl.valli.org) - Complete IP check for sending Mailservers
+  - [IPVoid](https://www.ipvoid.com) - Full suit of Domain, IP, and DNS tools for Tracing, Lookup, Checking and Pinging
 - **Net Neutrality**
-	- [Blocked by ORG](https://www.blocked.org.uk) - Check if your website is blocked by certain ISPs
-	- [Data Rights Finder](https://www.datarightsfinder.org) - Find, understand and use information from privacy policies
+  - [Blocked by ORG](https://www.blocked.org.uk) - Check if your website is blocked by certain ISPs
+  - [Data Rights Finder](https://www.datarightsfinder.org) - Find, understand and use information from privacy policies
 - **Anonymous Services** - The following sites host a veriety of anonymous online services
   - [NixNet](https://nixnet.services)
   - [Snopyta](https://snopyta.org)
   - [Disroot](https://disroot.org)
-
 
 
 ## Interesting Websites
@@ -214,31 +220,41 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 ## Data, API's and Visualisations
 
 - **Information Tables**
-	- [That One Privacy Site](https://thatoneprivacysite.net/#detailed-vpn-comparison) - Detailed VPN Comparison Data
-	- Hosts to block: [someonewhocares/ hosts](https://someonewhocares.org/hosts) and [StevenBlack/ hosts](https://github.com/StevenBlack/hosts)
-	- [File Signature Table](https://www.garykessler.net/library/file_sigs.html) - An up-to-date list of magic numbers, used to identify / verify the content of a file to ensure it has not been tampered with
+  - [That One Privacy Site](https://thatoneprivacysite.net/#detailed-vpn-comparison) - Detailed VPN Comparison Data
+  - Hosts to block: [someonewhocares/ hosts](https://someonewhocares.org/hosts) and [StevenBlack/ hosts](https://github.com/StevenBlack/hosts)
+  - [File Signature Table](https://www.garykessler.net/library/file_sigs.html) - An up-to-date list of magic numbers, used to identify / verify the content of a file to ensure it has not been tampered with
+  - [Nirsoft - Country IP](https://www.nirsoft.net/countryip) - List of IP address ranges per country
 - **Databases**
-	- [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
-	- [Exodus](https://reports.exodus-privacy.eu.org/en/trackers/stats) - Trackers in Android Apps
-	- [URLScan](https://urlscan.io) - Service scanning for malicious domains
-	- [Dehashed](https://www.dehashed.com/breach) - Data Breaches and Credentials
-	- [VirusTotal](https://developers.virustotal.com/v3.0/reference) - Detailed virus scans of software
+  - [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
+  - [Exodus](https://reports.exodus-privacy.eu.org/en/trackers/stats) - Trackers in Android Apps
+  - [URLScan](https://urlscan.io) - Service scanning for malicious domains
+  - [Dehashed](https://www.dehashed.com/breach) - Data Breaches and Credentials
+  - [VirusTotal](https://developers.virustotal.com/v3.0/reference) - Detailed virus scans of software
+  - [Abuse IP DB](https://www.abuseipdb.com) - Database of IPs reported for abuse
+  - [SnusBase](https://snusbase.com) - Long standing database hosting breached data
+  - [OpenPhish](https://openphish.com) - A feed of current phishing endpoints
+  - [Default Password](https://default-password.info) - Database of default passwords for various devices by manufacturer and model
+  - [HashToolkit](http://hashtoolkit.com) - Database of 'cracked' hashes
+  - [SecLists](https://github.com/danielmiessler/SecLists) - Starter list of leaked databases, passwords, usernames etc (Great for programming)
+  - [Qualys SSL Pulse](https://www.ssllabs.com/ssl-pulse) - A continuous and global dashboard for monitoring the quality of SSL / TLS support over time across 150,000 SSL- and TLS-enabled websites, based on Alexa’s list of the most popular sites in the world
 - **Fun with Live Data** 🌠
-	- [Tor Flow](https://torflow.uncharted.software) - Real-time data flow between Tor nodes
-	- [Submarine Cable Map](https://www.submarinecablemap.com) - An up-to-date map of major global internet cables (see also [he.net globe](https://he.net/3d-map) and [this map](https://submarine-cable-map-2016.telegeography.com))
-	- [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
-[BGP Stream](https://bgpstream.com) - Shows all current outages
-	- [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
-	- **Threat Maps** - Real-time hack attempts (malware, phishing, exploit and spam), visualised geographically
-		- [Checkpoint](https://threatmap.checkpoint.com)
-		- [FortiGuard](https://threatmap.fortiguard.com)
-		- [Fire Eye](https://www.fireeye.com/cyber-map/threat-map.html)
-		- [Kaspersky](https://cybermap.kaspersky.com)
-		- [BitDefender](https://threatmap.bitdefender.com)
-		- [ESET](https://www.virusradar.com)
-		- [Threat But Map](https://threatbutt.com/map)
-		- [Digital Attack Map](https://www.digitalattackmap.com)
-		- [Kaspersky LogBook](https://apt.securelist.com) - Historic Threat Time Line
+  - [Tor Flow](https://torflow.uncharted.software) - Real-time data flow between Tor nodes
+  - [Submarine Cable Map](https://www.submarinecablemap.com) - An up-to-date map of major global internet cables (see also [he.net globe](https://he.net/3d-map) and [this map](https://submarine-cable-map-2016.telegeography.com))
+  - [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
+  - [BGP Stream](https://bgpstream.com) - Shows all current outages
+  - [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
+  - [Airport WiFi Map](https://www.google.com/maps/d/u/0/viewer?mid=1Z1dI8hoBZSJNWFx2xr_MMxSxSxY) - Shows WiFi networks and their passwords for airports around the world
+  - [Wiggle](https://wigle.net) - Worlds largest WiFi Map showing personal hotspot statistics geographically
+  - **Threat Maps** - Real-time hack attempts (malware, phishing, exploit and spam), visualised geographically
+    - [Checkpoint](https://threatmap.checkpoint.com)
+    - [FortiGuard](https://threatmap.fortiguard.com)
+    - [Fire Eye](https://www.fireeye.com/cyber-map/threat-map.html)
+    - [Kaspersky](https://cybermap.kaspersky.com)
+    - [BitDefender](https://threatmap.bitdefender.com)
+    - [ESET](https://www.virusradar.com)
+    - [Threat But Map](https://threatbutt.com/map)
+    - [Digital Attack Map](https://www.digitalattackmap.com)
+    - [Kaspersky LogBook](https://apt.securelist.com) - Historic Threat Time Line
 
 
 ## Academic
@@ -273,6 +289,9 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 - [American Civil Liberties Union](https://www.aclu.org/issues/privacy-technology)
 - [Free Software Foundation](https://www.fsf.org)
 - [Courage Foundation](https://www.couragefound.org) - Supports those who risk life / liberty to make significant contributions to the historical record
+- [Fight for the Future](https://www.fightforthefuture.org) - Fighting for a future where technology liberates
+- [Public Citizen](https://www.citizen.org) - Standing up to corporate power and hold the government accountable
+
 
 
 ## Government Organisations
