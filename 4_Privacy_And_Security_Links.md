@@ -6,7 +6,6 @@
 
 
 - **Information and Guides**
-  - [Getting Started Guides](#getting-started-guides)
   - [Specific How-To Guides](#how-to-guides)
   - [Notable Articles](#notable-articles)
   - [Blogs](#blogs)
@@ -29,19 +28,6 @@
   - [Other GitHub Security Lists](#unrelated-awesome-lists)
 
 
-## Getting Started Guides
-
-- [EFF SSD](https://ssd.eff.org) - Tips for safer online communications
-- [PrivacyTools.io]( https://www.privacytools.io) - Tools to protect against mass surveillance
-- [PrismBreak](https://prism-break.org/en/all) - Secure app alternatives
-- [The VERGE guide to privacy](https://bit.ly/2ptl4Wm) - Guides for securing mobile, web and home tech
-- [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
-- [Security Planner](https://securityplanner.org) - Great advise for beginners
-- [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
-- [TwoFactorAuth.org](https://twofactorauth.org) - A direcory of websites, apps and services supporting 2FA
-- [Just Delete Me](https://justdeleteme.xyz) - A directory of direct links to delete your account from web services
-
-
 ## How-To Guides
 
 - **Threat Protection**
@@ -58,7 +44,7 @@
   - Beginners guide to I2P: via [The Tin Hat](https://thetinhat.com/tutorials/darknets/i2p.html)
   - How to Use a VPN and Tor together: via [ProPrivacy](https://proprivacy.com/vpn/guides/using-vpn-tor-together)
 - **Communication**
-   - Configure your email client securly, from scratch - via [FSF](https://emailselfdefense.fsf.org)
+  - Email Self-Defense, Configure your mail client securly, from scratch - via [FSF.org](https://emailselfdefense.fsf.org)
   - Overview of projects working on next-generation secure email: via [OpenTechFund](https://github.com/OpenTechFund/secure-email)
 - **Devices**
   - Layers of Personal Tech Security: via [The Wire Cutter](https://thewirecutter.com/blog/internet-security-layers)
@@ -70,6 +56,9 @@
 - **Physical Security**
   - Hiding from Physical Surveillance: via [Snallabolaget](http://snallabolaget.com/hiding-from-surveillance-how-and-why)
   - Guide to opting-out of public data listings and marketing lists: via [World Privacy Forum](https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs)
+- **Reference Info**
+  - [TwoFactorAuth.org](https://twofactorauth.org) - A direcory of websites, apps and services supporting 2FA
+  - [Just Delete Me](https://justdeleteme.xyz) - A directory of direct links to delete your account from web services
 
 ## Notable Articles
 
@@ -94,7 +83,13 @@
 - [The Privacy Project](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html) - Articles and reporting on Privacy, by the NYT
 - [The Tin Hat](https://thetinhat.com) - Tutorials and Articles for Online Privacy
 - [FOSS Bytes- Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
-
+- [EFF SSD](https://ssd.eff.org) - Tips for safer online communications
+- [PrivacyTools.io]( https://www.privacytools.io) - Tools to protect against mass surveillance
+- [PrismBreak](https://prism-break.org/en/all) - Secure app alternatives
+- [The VERGE guide to privacy](https://bit.ly/2ptl4Wm) - Guides for securing mobile, web and home tech
+- [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
+- [Security Planner](https://securityplanner.org) - Great advise for beginners
+- [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
 
 
 ## Books
@@ -398,9 +393,15 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 - **Misc**
   - [awesome-crypto-papers](https://github.com/pFarb/awesome-crypto-papers) by @pFarb
 - **Awesome Lists of Awesome Lists**
- - [awesome]( https://github.com/sindresorhus/awesome) by @sindresorhus
- - [lists](https://github.com/jnv/lists) by @jnv
-
+  - [awesome]( https://github.com/sindresorhus/awesome) by @sindresorhus
+  - [lists](https://github.com/jnv/lists) by @jnv
+- **More In This Repo**
+  - [Personal Security Checklist](/README.md) by @lissy93
+  - [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
+  - [Importance of Privacy & Security](/0_Why_It_Matters.md)
+  - [Digital Security Gadgets / DIY hardware](/6_Privacy_and-Security_Gadgets.md)
+  - [TLDR - Condensed Summary of this Repo](/2_TLDR_Short_List.md)
+  
 ---
 
 *Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
