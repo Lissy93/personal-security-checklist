@@ -102,7 +102,7 @@ We can go even further, these products are far from essential and are maybe a li
 - **Stand-alone Drive Eraser** - Allows you to erase drives, without connecting them to your PC. Availible in different modesls for different needs. See More: [Amazon](https://www.amazon.com/StarTech-com-Hard-Drive-Eraser-Standalone/dp/B073X3YZNL)
 - **Shredder** - It is important to safely dispose of any documents that contain personal information. This is a very affordable shredder - it cuts pieces into security level P-4 sizes (5/32" by 15/32"). It also shreds credit cards into the same size. [Amazon](https://www.amazon.com/AmazonBasics-6-Sheet-High-Security-Micro-Cut-Shredder/dp/B00Q3KFX8U)
 - **Device Timer** - This non-smart device can be used to turn various devices (such as lights or radio) on or off at certain times. It's useful to deter people when you are away. [Amazon](https://www.amazon.com/Century-Digital-Programmable-Packaging-Security/dp/B00MVF16JG)
-
+- **[SurfEasy Key](https://shop.fightforthefuture.org/products/surfeasy-key)** - A portable web browser you can carry in your pocket for private and secure browsing on the go. Provides encrypted storage and anonymous browsing features. Again, you can make your own version with an encrypted USB, and a portable executable
 
 
 ## Network Security
