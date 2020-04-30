@@ -165,27 +165,40 @@ More Security Podcasts on [player.fm](https://player.fm/featured/security)
 See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @PaulSec
 
 
-## Online Tools
-- [Have I been Pwned](https://haveibeenpwned.com) and [Dehashed](https://www.dehashed.com) - Check if your details have been compromised
-- [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
-- [εxodus](https://reports.exodus-privacy.eu.org) - Check which trackers any app on the Play Store has
-- [VirusTotal](https://www.virustotal.com) - Analyse a suspicious web resource for malware
-- [ScamAdviser](https://www.scamadviser.com) - Check if a website is a scam, before buying from it
-- [Deseat Me](https://www.deseat.me) - Clean up your online presence
-- [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso) Protect your email address, by auto-generating unique permant aliases for each account, so all emails land in your primary inbox
-- [Panopticlick](https://panopticlick.eff.org) - Check if, and how your browser is tracking  you
-- [Disroot](https://disroot.org) - A suit of online tools, with online freedom in mind
-- [Blocked by ORG](https://www.blocked.org.uk) - Check if your website is blocked by certain ISPs
-- [Data Rights Finder](https://www.datarightsfinder.org) - Find, understand and use information from privacy policies
-- [Browser Leaks](https://browserleaks.com) - Check which information is being leaked by your browser
-- [DNSLeakTest](https://www.dnsleaktest.com) - Check for and fix a DNS leak
-- [IP Leak](https://ipleak.net) - Shows your IP address, and other associated details
-- [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
-- [Hetrix Tools - Blacklist Check](https://hetrixtools.com/blacklist-check) - Check if your Domain or IP appears on any common blacklists
+- **Check and Test**
+	- [εxodus](https://reports.exodus-privacy.eu.org) - Check which trackers any app on the Play Store has
+	- [Have I been Pwned](https://haveibeenpwned.com) and [Dehashed](https://www.dehashed.com) - Check if your details have been compromised
+	- [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
+- **Utilities**
+	- [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
+	- [Secure Password Check](https://password.kaspersky.com) - Fun little tool, to demonstrate how long it could take to crack a password
+	- [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso) Protect your email address, by auto-generating unique permeant aliases for each account, so all emails land in your primary inbox
+	- [Deseat Me](https://www.deseat.me) - Clean up your online presence
+- **Anti-Tracking Analysis**
+	- [Panopticlick](https://panopticlick.eff.org) - Check if, and how your browser is tracking  you
+	- [Browser Leaks](https://browserleaks.com) - Check which information is being leaked by your browser
+	- [DNSLeakTest](https://www.dnsleaktest.com) - Check for and fix a DNS leak
+	- [IP Leak](https://ipleak.net) - IP Leak test
+	- [Am I Unique?](http://amiunique.org) - If your fingerprint is unique, then websites can track you
+- **Phishing, Hacking and Abuse**
+	- [VirusTotal](https://www.virustotal.com) - Analyse a suspicious web resource for malware
+  - [ScamAdviser](https://www.scamadviser.com) - Check if a website is a scam, before buying from it
+  - [Abuse IP DB](https://www.abuseipdb.com) - Report an IP address for abuse, spam or attacks, and check the status of any IP
+  - [Phish Tank](https://www.phishtank.com) - Check if a link is a known phishing URL, Submit a phishing URL, browse recent phishing URLs
+	- [Is It Hacked?](http://www.isithacked.com) - Check if a website or page appears to be hacked, hijacked or generally suspicious 
+- **IP, Domain and Network Tools**
+	- [Hetrix Tools - Blacklist Check](https://hetrixtools.com/blacklist-check) - Check if your Domain or IP appears on any common blacklists
+	- [RIPEstat](https://stat.ripe.net) - Detailed analysis of IP Addresses (Routing, DNS, Abuse History, Activity etc)
+	- [Multirbl](http://multirbl.valli.org) - Complete IP check for sending Mailservers
+	- [IPVoid](https://www.ipvoid.com) - Full suit of Domain, IP, and DNS tools for Tracing, Lookup, Checking and Pinging
+- **Net Neutrality**
+	- [Blocked by ORG](https://www.blocked.org.uk) - Check if your website is blocked by certain ISPs
+	- [Data Rights Finder](https://www.datarightsfinder.org) - Find, understand and use information from privacy policies
 - **Anonymous Services** - The following sites host a veriety of anonymous online services
   - [NixNet](https://nixnet.services)
   - [Snopyta](https://snopyta.org)
   - [Disroot](https://disroot.org)
+
 
 
 ## Interesting Websites
@@ -216,7 +229,7 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 	- [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
 [BGP Stream](https://bgpstream.com) - Shows all current outages
 	- [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
-	- Threat Maps - Real-time hack attempts (malware, phishing, exploit and spam), visualised geographically
+	- **Threat Maps** - Real-time hack attempts (malware, phishing, exploit and spam), visualised geographically
 		- [Checkpoint](https://threatmap.checkpoint.com)
 		- [FortiGuard](https://threatmap.fortiguard.com)
 		- [Fire Eye](https://www.fireeye.com/cyber-map/threat-map.html)
