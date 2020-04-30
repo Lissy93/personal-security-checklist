@@ -16,16 +16,14 @@
   - [Videos](#videos)
 - **Websites & Services**
   - [Online Tools](#online-tools)
-  - [Anonymous Services](#anonymous-services)
   - [Interesting Websites](#interesting-websites)
   - [Privacy-Respecting Software](#privacy-respecting-software)
+- **Research**
+  - [Data and API's](#data-apis-and-visualisations)
+  - [Academic](#academic)
 - **Organisations**
   - [Foundations](#foundations)
   - [Government Organisations](#government-organisations)
-- **Research**
-  - [Data and API's](#data-and-apis)
-  - [Academic Journals](#academic-journals)
-  - [Implementations and Standards](#implementations-and-standards)
 - **More Lists**
   - [Mega Guides](#mega-guides)
   - [Other GitHub Security Lists](#unrelated-awesome-lists)
@@ -167,9 +165,6 @@ More Security Podcasts on [player.fm](https://player.fm/featured/security)
 See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @PaulSec
 
 
-
-
-
 ## Online Tools
 - [Have I been Pwned](https://haveibeenpwned.com) and [Dehashed](https://www.dehashed.com) - Check if your details have been compromised
 - [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
@@ -187,11 +182,10 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
 - [IP Leak](https://ipleak.net) - Shows your IP address, and other associated details
 - [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
 - [Hetrix Tools - Blacklist Check](https://hetrixtools.com/blacklist-check) - Check if your Domain or IP appears on any common blacklists
-
-## Anonymous Services
-- [NixNet](https://nixnet.services)
-- [Snopyta](https://snopyta.org)
-- [Disroot](https://disroot.org)
+- **Anonymous Services** - The following sites host a veriety of anonymous online services
+  - [NixNet](https://nixnet.services)
+  - [Snopyta](https://snopyta.org)
+  - [Disroot](https://disroot.org)
 
 
 ## Interesting Websites
@@ -201,6 +195,49 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
 ## Privacy-Respecting Software
 
 This section has moved to [here](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md)
+
+
+
+## Data, API's and Visualisations
+
+- **Information Tables**
+	- [That One Privacy Site](https://thatoneprivacysite.net/#detailed-vpn-comparison) - Detailed VPN Comparison Data
+	- Hosts to block: [someonewhocares/ hosts](https://someonewhocares.org/hosts) and [StevenBlack/ hosts](https://github.com/StevenBlack/hosts)
+	- [File Signature Table](https://www.garykessler.net/library/file_sigs.html) - An up-to-date list of magic numbers, used to identify / verify the content of a file to ensure it has not been tampered with
+- **Databases**
+	- [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
+	- [Exodus](https://reports.exodus-privacy.eu.org/en/trackers/stats) - Trackers in Android Apps
+	- [URLScan](https://urlscan.io) - Service scanning for malicious domains
+	- [Dehashed](https://www.dehashed.com/breach) - Data Breaches and Credentials
+	- [VirusTotal](https://developers.virustotal.com/v3.0/reference) - Detailed virus scans of software
+- **Fun with Live Data** 🌠
+	- [Tor Flow](https://torflow.uncharted.software) - Real-time data flow between Tor nodes
+	- [Submarine Cable Map](https://www.submarinecablemap.com) - An up-to-date map of major global internet cables (see also [he.net globe](https://he.net/3d-map) and [this map](https://submarine-cable-map-2016.telegeography.com))
+	- [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
+[BGP Stream](https://bgpstream.com) - Shows all current outages
+	- [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
+	- Threat Maps - Real-time hack attempts (malware, phishing, exploit and spam), visualised geographically
+		- [Checkpoint](https://threatmap.checkpoint.com)
+		- [FortiGuard](https://threatmap.fortiguard.com)
+		- [Fire Eye](https://www.fireeye.com/cyber-map/threat-map.html)
+		- [Kaspersky](https://cybermap.kaspersky.com)
+		- [BitDefender](https://threatmap.bitdefender.com)
+		- [ESET](https://www.virusradar.com)
+		- [Threat But Map](https://threatbutt.com/map)
+		- [Digital Attack Map](https://www.digitalattackmap.com)
+		- [Kaspersky LogBook](https://apt.securelist.com) - Historic Threat Time Line
+
+
+## Academic
+
+- **Journals**
+  - [Crypto Paper](https://github.com/cryptoseb/cryptopaper) by Crypto Seb- Privacy, Security, and Anonymity For Every Internet User
+- **Implementations and Standards**
+  - [The GNU Privacy Guard](https://www.gnupg.org)
+  - [OpenPGP JavaScript Implementation](https://openpgpjs.org)
+  - [WireGuard](https://www.wireguard.com/papers/wireguard.pdf)
+ - [Nym](https://as93.link/nym-blog-post) - Next Generation of Privacy infrastructure
+
 
 
 
@@ -292,27 +329,6 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 	- UAE - [tra.gov.ae/aecert](https://www.tra.gov.ae/aecert)
 	- United Kingdom - [ncsc.gov.uk](https://www.ncsc.gov.uk)
 	- United States - [us-cert.gov](https://www.us-cert.gov)
-
-
-## Data and API's
-- [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
-- [That One Privacy Site](https://thatoneprivacysite.net/#detailed-vpn-comparison) - Detailed VPN Comparison Data
-- [Exodus](https://reports.exodus-privacy.eu.org/en/trackers/stats) - Trackers in Android Apps
-- [URLScan](https://urlscan.io) - Service scanning for malisious domains
-- [Dehashed](https://www.dehashed.com/breach) - Data Breaches and Credentials
-- [VirusTotal](https://developers.virustotal.com/v3.0/reference) - Detailed virus scans of software
-- Hosts to block: [someonewhocares/ hosts](https://someonewhocares.org/hosts) and [StevenBlack/ hosts](https://github.com/StevenBlack/hosts)
-
-
-## Academic Journals
-- [Crypto Paper](https://github.com/cryptoseb/cryptopaper) by Crypto Seb- Privacy, Security, and Anonymity For Every Internet User
-
-
-## Implementations and Standards
-- [The GNU Privacy Guard](https://www.gnupg.org)
-- [OpenPGP JavaScript Implementation](https://openpgpjs.org)
-- [WireGuard](https://www.wireguard.com/papers/wireguard.pdf)
-- [Nym](https://as93.link/nym-blog-post) - Next Generation of Privacy infrastructure
 
 
 ## Mega Guides
