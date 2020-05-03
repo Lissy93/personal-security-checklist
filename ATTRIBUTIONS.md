@@ -40,7 +40,13 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 
 <blockquote>
-[1]"2019 Data Breach Investigations Report - EMEA", Verizon Enterprise Solutions, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/2019-data-breach-investigations-report-emea.pdf. [Accessed: 25- Apr- 2020]
+[1]"2019 Data Breach Investigations Report - EMEA", Verizon Enterprise Solutions, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/2019-data-breach-investigations-report-emea.pdf. [Accessed: 25- Apr- 2020]  
+  
+[13]"Web Browser Privacy: What Do Browsers Say When They Phone Home?", Feb 2020. [Online].
+Available: https://www.scss.tcd.ie/Doug.Leith/pubs/browser_privacy.pdf. [Accessed: 27- Apr- 2020]
+
+[14]"Comments on the Competition and Markets Authority’s interim report on online platforms and digital advertising", Privacyinternational.org, Jan 2020. [Online].
+Available: https://privacyinternational.org/sites/default/files/2020-04/20.02.12_CMA_PI_Comments_Interim_Report_FINAL.pdf. [Accessed: 02- May- 2020]
 
 [11]"Cracking DES: Secrets of Encryption Research, Wiretap Politics, and Chip Design", 1998. [Online]. Available: https://dl.packetstormsecurity.net/cracked/des/cracking-des.htm. [Accessed: 25- Apr- 2020]
 
