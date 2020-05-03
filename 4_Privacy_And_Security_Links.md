@@ -7,7 +7,7 @@
 
 - **Information and Guides**
   - [Specific How-To Guides](#how-to-guides)
-  - [Notable Articles](#notable-articles)
+  - [Notable Articles](#articles)
   - [Blogs](#blogs)
 - **Media**
   - [Books](#books)
@@ -63,7 +63,7 @@
   - A direcory of websites, apps and services supporting 2FA: via [TwoFactorAuth.org](https://twofactorauth.org)
   - A directory of direct links to delete your account from web services: via [JustDeleteMe.xyz](https://justdeleteme.xyz)
 
-## Notable Articles
+## Articles
 
 - **Encryption**
   - Overview of projects working on next-generation secure email: via [OpenTechFund](https://github.com/OpenTechFund/secure-email)
@@ -74,6 +74,8 @@
   - What does your car know about you?: via [Washington Post](https://www.washingtonpost.com/technology/2019/12/17/what-does-your-car-know-about-you-we-hacked-chevy-find-out)
   - Turns Out Police Stingray Spy Tools Can Indeed Record Calls: via [Wired](https://www.wired.com/2015/10/stingray-government-spy-tools-can-record-calls-new-documents-confirm)
   - UK Police Accessing Private Phone Data Without Warrant: via [Restore Privacy](https://restoreprivacy.com/uk-police-accessing-phone-data)
+- **Breaches**
+  - Grindr and OkCupid Spread Personal Details Study Says: via [NY Times](https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html)
 
 
 ## Blogs
@@ -187,14 +189,21 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
   - [DNSLeakTest](https://www.dnsleaktest.com) - Check for and fix a DNS leak
   - [IP Leak](https://ipleak.net) - IP Leak test
   - [Am I Unique?](http://amiunique.org) - If your fingerprint is unique, then websites can track you
+  - [Qualys SSL Client Test](https://clienttest.ssllabs.com:8443/ssltest/viewMyClient.html) - Check the SSL/TLS capabilities of your browser
 - **Phishing, Hacking and Abuse**
   - [VirusTotal](https://www.virustotal.com) - Analyse a suspicious web resource for malware
   - [ScamAdviser](https://www.scamadviser.com) - Check if a website is a scam, before buying from it
   - [Abuse IP DB](https://www.abuseipdb.com) - Report an IP address for abuse, spam or attacks, and check the status of any IP
   - [Phish Tank](https://www.phishtank.com) - Check if a link is a known phishing URL, Submit a phishing URL, browse recent phishing URLs
   - [Is It Hacked?](http://www.isithacked.com) - Check if a website or page appears to be hacked, hijacked or generally suspicious 
-- **IP, Domain and Network Tools**
-  - [Qualys SSL Client Test](https://clienttest.ssllabs.com:8443/ssltest/viewMyClient.html) - Check the SSL/TLS capabilities of your browser
+- **IP, Domain and Website Scanning Tools**
+  - [URL Scan](https://urlscan.io) - Scan and analyse websites, shows IP, DNS, domain and host data, as well as info about resources and requests
+  - [Security Trails](https://securitytrails.com/#search) - Shows all DNS records, historical DNS data and sub domains
+  - [crt.sh](https://crt.sh) - Shows current and previous SSL/ TLS certificates for a given domain, has advanced search option
+  - [Virus Total](https://www.virustotal.com) - Scans any URL, web asset or file for malware
+  - [Abuse IP DB](https://www.abuseipdb.com) - Check if an IP or domain has been reported for abuse, or file a report
+  - [DomainTools WhoIs](https://whois.domaintools.com) - Who Is Lookup. Check who registered a domain name, and find contact details
+  - [Pentest Tools Vulnerability Scanner](https://pentest-tools.com/website-vulnerability-scanning/website-scanner) - Light scan searches for client and server-side vulnerabilities and missing HTTP security headers
   - [Qualys SSL Server Test](https://www.ssllabs.com/ssltest) - Perform a deep analysis of the configuration of any SSL web server on the public Internet
   - [Hetrix Tools - Blacklist Check](https://hetrixtools.com/blacklist-check) - Check if your Domain or IP appears on any common blacklists
   - [RIPEstat](https://stat.ripe.net) - Detailed analysis of IP Addresses (Routing, DNS, Abuse History, Activity etc)
@@ -241,6 +250,7 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
   - [Qualys SSL Pulse](https://www.ssllabs.com/ssl-pulse) - A continuous and global dashboard for monitoring the quality of SSL / TLS support over time across 150,000 SSL- and TLS-enabled websites, based on Alexa’s list of the most popular sites in the world
 - **Fun with Live Data** 🌠
   - [Tor Flow](https://torflow.uncharted.software) - Real-time data flow between Tor nodes
+  - [DomainTools Statistics](https://research.domaintools.com/statistics) - Domain registration Numbers and Charts
   - [Submarine Cable Map](https://www.submarinecablemap.com) - An up-to-date map of major global internet cables (see also [he.net globe](https://he.net/3d-map) and [this map](https://submarine-cable-map-2016.telegeography.com))
   - [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
   - [BGP Stream](https://bgpstream.com) - Shows all current outages
@@ -266,6 +276,7 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
   - Crypto Paper: Privacy, Security, and Anonymity For Every Internet User, by Crypto Seb: via [GitHub](https://github.com/cryptoseb/cryptopaper)
   - Challenges in assessing privacy impact, Tales from the Front Line: via [Wiley](https://onlinelibrary.wiley.com/doi/10.1002/spy2.101)
   - A privacy‐preserving multifactor authentication system: via [Wiley](https://onlinelibrary.wiley.com/doi/10.1002/spy2.88)
+  - Web Browser Privacy: What Do Browsers Say When They Phone Home?: via [scss.tcd.ie](https://www.scss.tcd.ie/Doug.Leith/pubs/browser_privacy.pdf)
 - **Implementations and Standards**
   - [The GNU Privacy Guard](https://www.gnupg.org)
   - [OpenPGP JavaScript Implementation](https://openpgpjs.org)
