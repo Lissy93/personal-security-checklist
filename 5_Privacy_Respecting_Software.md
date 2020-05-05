@@ -205,6 +205,7 @@ Revealing your real email address online can put you at risk. Email aliasing all
 **[Anonaddy](https://anonaddy.com)** | An open source anonymous email forwarding service, allowing you to create unlimited email aliases. Has a free plan.
 **[33Mail](http://33mail.com/Dg0gkEA)** | A long-standing aliasing service. As well as receiving, 33Mail also lets you reply to forwarded addresses anonymously. Free plan, as well as Premium plan ($1/ month) if you'd like to use a custom domain 
 **[SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso)** | Fully open source (view on [GitHub](https://github.com/simple-login)) allias service with many additional features. Can be self-hosted, or the managed version has a free plan, as well as hosted premium option ($2.99/ month) for using custom domains
+**[Firefox Private Relay](https://relay.firefox.com)** | Developed and managed by Mozilla, Relay is a Firefox addon, that lets you make an email alias with 1 click, and have all messages forwarded onto your personal email. Relay is totally free to use, and very accessible to less experienced users, but also [open source](https://github.com/mozilla/fx-private-relay), and able to me self-hosted for advanced usage
 **[ForwardEmail](https://forwardemail.net)** | Simple open source catch-all email forwarding service. Easy to self-host (see on [GitHub](https://github.com/forwardemail/free-email-forwarding)), or the hosted version has a free plan as well as a ($3/month) premium plan
 **[ProtonMail](https://protonmail.com/pricing) Visionary** | If you already have ProtonMail's Visionary package, then an implementation of this feature is available. Very secure, however not the most price-effective (€30/month), and does not include dashboard
 
@@ -303,7 +304,7 @@ A selection of free online tools and utilities, to check, test and protect
 
 | Provider | Description |
 | --- | --- |
-**[';--have i been pwned?](https://haveibeenpwned.com)** | Checks if your credentials (Email address or Password) have been compromised in a data breach
+**[';--have i been pwned?](https://haveibeenpwned.com)** | Checks if your credentials (Email address or Password) have been compromised in a data breach. See also [Firefox Monitor](https://monitor.firefox.com)
 **[εxodus](https://reports.exodus-privacy.eu.org)** | Checks how many, and which trackers any Android app has. Useful to understand how data is being collected before you install a certain APK, it also shows which permissions the app asks for
 **[Am I Unique?](https://amiunique.org)** | Show how identifiable you are on the Internet by generating a fingerprint based on device information. This is how many websites track you (even without cookies enabled), so the aim is to not be unique
 **[Panopticlick](https://panopticlick.eff.org/)** | Check if your browser safe against tracking. Analyzes how well your browser and add-ons protect you against online tracking techniques, and if your system is uniquely configured—and thus identifiable
@@ -611,6 +612,8 @@ The content on many of the smaller video sites, often just doesn't compare to Yo
 - Good options are: [Invidio](https://invidio.us/) (web), [FreeTube](https://freetubeapp.io/) (Windows, Mac OS, Linux), [NewPipe](https://newpipe.schabi.org/) (Android), [YouTube++](https://iosninja.io/ipa-library/download-youtube-plus-ipa-ios) (iOS)
 - Or download videos with [youtube-dl](https://ytdl-org.github.io/youtube-dl/) (cli) or [youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui) (gui). For just audio, there is [PodSync](https://podsync.net/)
 
+#### Video Search Engines
+[Petey Vid](https://www.peteyvid.com) is a non-biased video search engine. Unlike normal search engines it indexes videos from a lot of sources, including Twitter, Veoh, Instagram, Twitch, MetaCafe, Minds, BitChute, Brighteon, D-Tube, PeerTube, and many others.
 
 ## Blogging Platforms
 
@@ -749,6 +752,10 @@ If you have chosen to stick with your current OS, there are a couple of things y
 **[Windows Secure Baseline]** | Group Policy objects, compliance checks, and configuration tools that provide an automated and flexible approach for securely deploying and maintaining the latest releases of Windows 10
 **[IIS Crypto]** | A utility for configuring encryption protocols, cyphers, hashing methods, and key exchanges for Windows components 
 **[NetLimiter]** | Internet traffic control and monitoring tool
+**[GhostPress]** | Anti low-level keylogger: Provides full system-wide key press protection, and target window screenshot protection
+**[KeyScrambler]** | Encryptes keypresses at driver level, and decrypts at application level, to protect against common keyloggers, developed by Qian Wang
+**[RKill]** | Useful utility, that attempts to terminate known malware processes, so that your normal security software can then run and clean your computer of infections
+
 
 **See Also**:
 - [github.com/Awesome-Windows/Awesome#security]
@@ -764,7 +771,9 @@ If you have chosen to stick with your current OS, there are a couple of things y
 [github.com/Awesome-Windows/Awesome#security]: https://github.com/Awesome-Windows/Awesome#security
 [github.com/PaulSec/awesome-windows-domain-hardening]: https://github.com/PaulSec/awesome-windows-domain-hardening
 [github.com/meitar/awesome-cybersecurity-blueteam#windows-based-defenses]: https://github.com/meitar/awesome-cybersecurity-blueteam#windows-based-defenses
-
+[KeyScrambler]: https://www.qfxsoftware.com
+[GhostPress]: https://schiffer.tech/ghostpress.html
+[RKill]: https://www.bleepingcomputer.com/download/rkill
 
 ## Mac OS Defences
 
