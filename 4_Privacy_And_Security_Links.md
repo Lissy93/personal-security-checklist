@@ -76,6 +76,8 @@
   - UK Police Accessing Private Phone Data Without Warrant: via [Restore Privacy](https://restoreprivacy.com/uk-police-accessing-phone-data)
 - **Breaches**
   - Grindr and OkCupid Spread Personal Details Study Says: via [NY Times](https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html)
+- **Misc**
+  - 23 reasons not to reveal your DNA: via [Internet Health Report](https://internethealthreport.org/2019/23-reasons-not-to-reveal-your-dna)
 
 
 ## Blogs
@@ -196,16 +198,18 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
   - [Abuse IP DB](https://www.abuseipdb.com) - Report an IP address for abuse, spam or attacks, and check the status of any IP
   - [Phish Tank](https://www.phishtank.com) - Check if a link is a known phishing URL, Submit a phishing URL, browse recent phishing URLs
   - [Is It Hacked?](http://www.isithacked.com) - Check if a website or page appears to be hacked, hijacked or generally suspicious 
-- **IP, Domain and Website Scanning Tools**
+- **IP Tools**
+  - [I Know What You Download](https://iknowwhatyoudownload.com) - Shows torrents that have been downloaded or distributed from your IP address
+  - [Hetrix Tools - Blacklist Check](https://hetrixtools.com/blacklist-check/) - Check if your Domain or IP appears on any common blacklists
+- **Public Domain and Website Scanning Tools**
   - [URL Scan](https://urlscan.io) - Scan and analyse websites, shows IP, DNS, domain and host data, as well as info about resources and requests
   - [Security Trails](https://securitytrails.com/#search) - Shows all DNS records, historical DNS data and sub domains
   - [crt.sh](https://crt.sh) - Shows current and previous SSL/ TLS certificates for a given domain, has advanced search option
   - [Virus Total](https://www.virustotal.com) - Scans any URL, web asset or file for malware
-  - [Abuse IP DB](https://www.abuseipdb.com) - Check if an IP or domain has been reported for abuse, or file a report
   - [DomainTools WhoIs](https://whois.domaintools.com) - Who Is Lookup. Check who registered a domain name, and find contact details
   - [Pentest Tools Vulnerability Scanner](https://pentest-tools.com/website-vulnerability-scanning/website-scanner) - Light scan searches for client and server-side vulnerabilities and missing HTTP security headers
   - [Qualys SSL Server Test](https://www.ssllabs.com/ssltest) - Perform a deep analysis of the configuration of any SSL web server on the public Internet
-  - [Hetrix Tools - Blacklist Check](https://hetrixtools.com/blacklist-check) - Check if your Domain or IP appears on any common blacklists
+  - [Abuse IP DB](https://www.abuseipdb.com) - Check if an IP or domain has been reported for abuse, or file a report
   - [RIPEstat](https://stat.ripe.net) - Detailed analysis of IP Addresses (Routing, DNS, Abuse History, Activity etc)
   - [Multirbl](http://multirbl.valli.org) - Complete IP check for sending Mailservers
   - [IPVoid](https://www.ipvoid.com) - Full suit of Domain, IP, and DNS tools for Tracing, Lookup, Checking and Pinging
@@ -237,6 +241,7 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
   - [Nirsoft - Country IP](https://www.nirsoft.net/countryip) - List of IP address ranges per country
 - **Databases**
   - [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
+  - [Internet Census Data](https://ant.isi.edu/datasets) - Includes data on address space allocation, traffic, DNS, service enumeration, internet outages and other internet topology data
   - [Exodus](https://reports.exodus-privacy.eu.org/en/trackers/stats) - Trackers in Android Apps
   - [URLScan](https://urlscan.io) - Service scanning for malicious domains
   - [Dehashed](https://www.dehashed.com/breach) - Data Breaches and Credentials
@@ -249,14 +254,22 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
   - [SecLists](https://github.com/danielmiessler/SecLists) - Starter list of leaked databases, passwords, usernames etc (Great for programming)
   - [Qualys SSL Pulse](https://www.ssllabs.com/ssl-pulse) - A continuous and global dashboard for monitoring the quality of SSL / TLS support over time across 150,000 SSL- and TLS-enabled websites, based on Alexa’s list of the most popular sites in the world
 - **Fun with Live Data** 🌠
-  - [Tor Flow](https://torflow.uncharted.software) - Real-time data flow between Tor nodes
-  - [DomainTools Statistics](https://research.domaintools.com/statistics) - Domain registration Numbers and Charts
-  - [Submarine Cable Map](https://www.submarinecablemap.com) - An up-to-date map of major global internet cables (see also [he.net globe](https://he.net/3d-map) and [this map](https://submarine-cable-map-2016.telegeography.com))
-  - [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
-  - [BGP Stream](https://bgpstream.com) - Shows all current outages
-  - [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
-  - [Airport WiFi Map](https://www.google.com/maps/d/u/0/viewer?mid=1Z1dI8hoBZSJNWFx2xr_MMxSxSxY) - Shows WiFi networks and their passwords for airports around the world
-  - [Wiggle](https://wigle.net) - Worlds largest WiFi Map showing personal hotspot statistics geographically
+  - **Internet**
+    - [Tor Flow](https://torflow.uncharted.software) - Real-time data flow between Tor nodes
+    - [Internet Census](http://census2012.sourceforge.net/images/geovideo.gif) - 24-hour world map of average utilization of IPv4 addresses
+      -  ICMP ping requests were sent out via the Carna botnet. Read how this was done on the [Official Site](http://census2012.sourceforge.net) or download similar [datasets](https://ant.isi.edu/datasets/all.html)
+    - [Map of Mobile Internet](https://labs.mapbox.com/labs/twitter-gnip/brands/) - Shows world data coverage, according to Twitter data
+    - [DomainTools Statistics](https://research.domaintools.com/statistics) - Domain registration Numbers and Charts
+    - [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
+    - [IKnow](https://iknowwhatyoudownload.com/en/stat/GB/daily) - Live data showing what content is being downloaded + distributed via torrents
+    - [Semantic Internet Map](http://internet-map.net) - Shows how different websites link together
+  - **Unrelated, but Awesome Data**
+    - [BGP Stream](https://bgpstream.com) - Shows all current outages
+    - [Submarine Cable Map](https://www.submarinecablemap.com) - An up-to-date map of major global internet cables (see also [he.net globe](https://he.net/3d-map) and [this map](https://submarine-cable-map-2016.telegeography.com))
+    - [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
+    - [Airport WiFi Map](https://www.google.com/maps/d/u/0/viewer?mid=1Z1dI8hoBZSJNWFx2xr_MMxSxSxY) - Shows WiFi networks and their passwords for airports around the world
+    - [Stuff in Space](http://stuffin.space) - Shows objects orbiting Earth
+    - [Wiggle](https://wigle.net) - Worlds largest WiFi Map showing personal hotspot statistics geographically
   - **Threat Maps** - Real-time hack attempts (malware, phishing, exploit and spam), visualised geographically
     - [Checkpoint](https://threatmap.checkpoint.com)
     - [FortiGuard](https://threatmap.fortiguard.com)
@@ -265,6 +278,7 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
     - [BitDefender](https://threatmap.bitdefender.com)
     - [ESET](https://www.virusradar.com)
     - [Threat But Map](https://threatbutt.com/map)
+    - [Looking Glass Cyber Map](https://map.lookingglasscyber.com)
     - [Digital Attack Map](https://www.digitalattackmap.com)
     - [Kaspersky LogBook](https://apt.securelist.com) - Historic Threat Time Line
 
