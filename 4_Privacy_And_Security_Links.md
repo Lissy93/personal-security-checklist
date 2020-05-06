@@ -226,11 +226,16 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
 - **Net Neutrality**
   - [Blocked by ORG](https://www.blocked.org.uk) - Check if your website is blocked by certain ISPs
   - [Data Rights Finder](https://www.datarightsfinder.org) - Find, understand and use information from privacy policies
+  - [Down For Everyone Or Just Me](https://downforeveryoneorjustme.com) - Quickly determine if a website is down, or just unavailable for you
 - **Anonymous Services** - The following sites host a veriety of anonymous online services
   - [NixNet](https://nixnet.services)
   - [Snopyta](https://snopyta.org)
   - [Disroot](https://disroot.org)
-
+- **Archives**
+  - [The Way Back Machine](https://archive.org/web/web.php) - See previous versions of any website. An archive of 431 billion snapshots over 20 years
+  - [Internet Archive Software Collection](https://archive.org/details/software) - The largest vintage and historical software library
+  - [OpenLibrary](https://openlibrary.org) - A free, digital library of over 2 million eBooks, and information on over 20 million books
+  - [Archive-It](https://archive-it.org) - Collecting and accessing cultural heritage on the web
 
 
 ## Privacy-Respecting Software
