@@ -2,21 +2,21 @@
 
 > A curated list of useful tools and resources online, that help protect your privacy and keep you safe.
 
-**See also**: [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md) | [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) 🔐
+**See also**: [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md) | [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) | [Security Gadgets](/6_Privacy_and-Security_Gadgets.md) | [Why Privacy Matters](/0_Why_It_Matters.md) | [TLDR](/2_TLDR_Short_List.md)🔐
 
 
 - **Information and Guides**
-  - [Specific How-To Guides](#how-to-guides)
-  - [Notable Articles](#articles)
+  - [How-To Guides](#how-to-guides)
+  - [Articles](#articles)
   - [Blogs](#blogs)
 - **Media**
   - [Books](#books)
   - [Podcasts](#podcasts)
   - [Videos](#videos)
-- **Websites & Services**
+- **Security Tools & Services**
   - [Online Tools](#online-tools)
-  - [Interesting Websites](#interesting-websites)
-  - [Privacy-Respecting Software](#privacy-respecting-software)
+  - Privacy-Respecting Software, moved to [here](/5_Privacy_Respecting_Software.md)
+  - Security Hardware, moved to [here](/6_Privacy_and-Security_Gadgets.md)
 - **Research**
   - [Data and API's](#data-apis-and-visualisations)
   - [Academic](#academic)
@@ -34,6 +34,7 @@
   - Protect against SIM-swap scam: via [wired](https://www.wired.com/story/sim-swap-attack-defend-phone)
   - How to spot a phishing attack: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
   - Protection from Identity Theft: via [Restore Privacy](https://restoreprivacy.com/identity-theft-fraud)
+  - Harden your MacOS Security: via [@drduh on GitHub](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 - **Netowkring**
   - How to enable DNS over HTTPS: via [geekwire](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver)
   - How to resolve DNS leak issue: via [DNSLeakTest](https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html) 
@@ -59,9 +60,16 @@
 - **Physical Security**
   - Hiding from Physical Surveillance: via [Snallabolaget](http://snallabolaget.com/hiding-from-surveillance-how-and-why)
   - Guide to opting-out of public data listings and marketing lists: via [World Privacy Forum](https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs)
+- **Enterprise**
+  - A basic checklist to harden GDPR compliancy: via [GDPR Checklist](https://gdprchecklist.io)
 - **Reference Info**
   - A direcory of websites, apps and services supporting 2FA: via [TwoFactorAuth.org](https://twofactorauth.org)
   - A directory of direct links to delete your account from web services: via [JustDeleteMe.xyz](https://justdeleteme.xyz)
+  - Product reviews from a privacy perspective, by Mozilla: via [Privacy Not Included](https://foundation.mozilla.org/en/privacynotincluded)
+  - Surveillance Catalogue - A database secret of government and military surveillance equipment, leaked in the Snowden files: via [The Intercept](https://theintercept.com/surveillance-catalogue)
+    - See also: The source code for these projects, on WikiLeaks [Vault7](https://wikileaks.org/vault7) and [Vault8](https://wikileaks.org/vault8), and the accompanying [press release](https://wikileaks.org/ciav7p1)
+
+
 
 ## Articles
 
@@ -74,10 +82,12 @@
   - What does your car know about you?: via [Washington Post](https://www.washingtonpost.com/technology/2019/12/17/what-does-your-car-know-about-you-we-hacked-chevy-find-out)
   - Turns Out Police Stingray Spy Tools Can Indeed Record Calls: via [Wired](https://www.wired.com/2015/10/stingray-government-spy-tools-can-record-calls-new-documents-confirm)
   - UK Police Accessing Private Phone Data Without Warrant: via [Restore Privacy](https://restoreprivacy.com/uk-police-accessing-phone-data)
+  - Rage Against Data Dominance: via [Privacy International](https://privacyinternational.org/long-read/3734/rage-against-data-dominance-new-hope)
 - **Breaches**
   - Grindr and OkCupid Spread Personal Details Study Says: via [NY Times](https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html)
-- **Misc**
+- **Threats**
   - 23 reasons not to reveal your DNA: via [Internet Health Report](https://internethealthreport.org/2019/23-reasons-not-to-reveal-your-dna)
+  - Security of Third-Party Keyboard Apps on Mobile Devices: via [Lenny Zelster](https://zeltser.com/third-party-keyboards-security)
 
 
 ## Blogs
@@ -222,15 +232,14 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
   - [Disroot](https://disroot.org)
 
 
-## Interesting Websites
-- [The Intercept: Surveillance Catalogue](https://theintercept.com/surveillance-catalogue) - A database secret of government and military surveillance equpment, that was leaked in the Snowden files
-   - See also: The source code for these projects, on WikiLeaks [Vault7](https://wikileaks.org/vault7) and [Vault8](https://wikileaks.org/vault8), and the accompanying [press release](https://wikileaks.org/ciav7p1)
 
 ## Privacy-Respecting Software
 
-This section has moved to [here](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md)
+This section has moved to [here](/5_Privacy_Respecting_Software.md). Complete list of privacy-respecting software and services
 
+## Security Hardware
 
+This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, gadgets and DIY projects to help improve security
 
 ## Data, API's and Visualisations
 
@@ -333,6 +342,8 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
 - **Cybercrime**
     - [Consumer Fraud Reporting](http://consumerfraudreporting.org) - US's Catalogue of online scams currently circulating, and a means to report cases
     - [Action Fraud](https://www.actionfraud.police.uk) - UK’s national reporting centre for fraud and cyber crime
+- **Fact Checkling**
+  - [Full Fact](https://fullfact.org) - UK independent fact checking charity, campaigning to expose bad information, and the harm it does
 - **CERT** - Your local jurisdiction will likely have a Computer emergency response team (historically known as CERT). Who is in charge of handline handles domestic and international computer security incidents.
 	- Australia - [auscert.org.au](https://www.auscert.org.au)
 	- Austria - [cert.at](https://www.cert.at)
@@ -412,7 +423,10 @@ This section has moved to [here](https://github.com/Lissy93/personal-security-ch
   - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) by 'many'
   - [privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting) by @nikitavoloboev
   - [awesome-privacy](https://github.com/KevinColemanInc/awesome-privacy) by @KevinColemanInc
-  - [security-checklist: privacy-respecting-software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) by @lissy93
+  - [privacy-respecting-software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) by @lissy93
+- **Guides**
+  - [MacOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) by @drduh
+  - [personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) by @lissy93
 - **Security (Hacking / Pen Testing / Threat Inteligence / CFTs)**
   - [Security_list](https://github.com/zbetcheckin/Security_list) by @zbetcheckin
   - [awesome-security](https://github.com/sbilly/awesome-security) by @sbilly
