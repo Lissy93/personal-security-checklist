@@ -116,6 +116,7 @@
 ## Books
 - [Permanent Record](https://www.amazon.co.uk/Permanent-Record-Edward-Snowden/dp/1529035651) by Edward Snowden
 - [Sandworm](https://www.amazon.co.uk/Sandworm-Cyberwar-Kremlins-Dangerous-Hackers/dp/0385544405) by Andy Greenberg: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers
+- [Extreme Privacy](https://www.amazon.co.uk/Extreme-Privacy-Takes-Disappear-America/dp/1093757620) by Michael Bazzell: Very thorough and detailed guide outlining the many critical steps needed, to protect your privacy both electronically and physically
 - [Ghost in the Wires](https://www.amazon.co.uk/gp/product/B00FOQS8D6) by Kevin Mitnick: Kevin tells his story of being the world's most wanted hacker
 
 ## Podcasts
