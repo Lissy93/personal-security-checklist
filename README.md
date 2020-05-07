@@ -17,7 +17,7 @@
 
 ## Contents
 
-[![-](https://i.ibb.co/0ZV22MT/1-passwords.png) Passwords](#passwords)<br>
+[![-](https://i.ibb.co/0ZV22MT/1-passwords.png) Authentication](#authentication)<br>
 [![-](https://i.ibb.co/thf142G/2-2fa.png) 2 Factor Authentication](#2-factor-authentication)<br>
 [![-](https://i.ibb.co/N7D7g6D/3-web.png) Browsing the Web](#browser-and-search)<br>
 [![-](https://i.ibb.co/7yQq5Sx/5-email.png) Email](#emails)<br>
@@ -27,11 +27,11 @@
 [![-](https://i.ibb.co/SvMPntJ/10-os.png) Personal Computers](#personal-computers)<br>
 [![-](https://i.ibb.co/3N3mszQ/9-router.png) Smart Home](#smart-home)<br>
 
-## Passwords
+## Authentication
 
-Most reported data breaches are caused by the use of weak, default or stolen passwords (according to [this Verizon report](http://www.verizonenterprise.com/resources/reports/rp_dbir-2016-executive-summary_xg_en.pdf)). Massive amounts of private data have been, and will continue to be stolen because of this.
+Most reported data breaches are caused by the use of weak, default or stolen passwords (according to [this Verizon report](http://www.verizonenterprise.com/resources/reports/rp_dbir-2016-executive-summary_xg_en.pdf)).
 
-Use strong passwords, which can't be easily guessed or cracked. Length is more important than complexity (at least 12+ characters), although it's a good idea to get a variety of symbols. Ideally you should use a different and secure password to access each service you use. To securely manage all of these, a password manager is usually the best option. [This guide](https://heimdalsecurity.com/blog/password-security-guide/) gives a lot more detail about choosing and managing passwords.
+Use long, strong and unique passwords, manage them in a secure password manager, enable 2-factor authentication, keep on top of breaches and take care while logging into your accounts.
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
@@ -58,25 +58,6 @@ Use strong passwords, which can't be easily guessed or cracked. Length is more i
 
 
 **Recommended Software**: [Password Managers](/5_Privacy_Respecting_Software.md#password-managers) | [2FA Authenticators](/5_Privacy_Respecting_Software.md#2-factor-authentication)
-
-
-## 2-Factor Authentication
-
-This is a more secure method of logging in, where you supply not just your password, but also an additional code usually from a device that only you have access to.
-
-Check which websites support multi-factor authentication: [twofactorauth.org](https://twofactorauth.org)
-
-**2FA Apps**: [Authy](https://authy.com/) *(with encrypted sync- not open source)*,   [Authenticator Plus](https://www.authenticatorplus.com), [Microsoft Authenticator](https://www.microsoft.com/en-us/account/authenticator) and [LastPassAuthenticator](https://lastpass.com/auth/) (synced with your LastPass). For open source Android-only apps, see [Aegis](https://getaegis.app), [FreeOTP](https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp) and [AndOTP](https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp). [See more](/5_Privacy_Respecting_Software.md#2-factor-authentication)
-
-**Security** | **Priority** | **Details and Hints**
---- | --- | ---
-**Enable 2FA on Security Critical Sites** | Recommended | In account settings, enable 2-factor authentication. Ideally do this for all your accounts, but at a minimum for all security-critical logins, (including your password manager, emails, finance and social sites).
-**Keep backup codes safe** | Recommended | When you enable 2FA, you'll be given a few one-time codes to download, in case you ever lose access to your authenticator app or key. It's important to keep these safe, either encrypt and store them on a USB, or print them on paper and store them somewhere secure like a locked safe. Delete them from your computer once you've made a backup, in case your PC is compromised.
-**Don't use SMS to receive OTPs** | Optional | Although SMS 2FA is certainly better than nothing, there are many weaknesses in this system, (such as SIM-swapping) ([read more](https://www.theverge.com/2017/9/18/16328172/sms-two-factor-authentication-hack-password-bitcoin)). Therefore avoid enabling SMS OTPs, even as backups.
-**Don't use your Password Manager to store 2FA tokens** | Optional | One of the quickest approaches is to use the same system that stores your passwords, to also generate and fill OTP tokens, both LastPass and 1Password have this functionality. However if a malicious actor is able to gain access to this, they will have both your passwords, and your 2FA tokens, for all your online accounts. Instead use a separate authenticator from your password manager.
-**Consider a hardware 2FA Key** | Optional | A physical 2FA key generates an OTP when inserted. Have a look at [NitroKey](https://www.nitrokey.com/) (open source), [YubiKey](https://www.yubico.com/) or [Solo Key](https://amzn.to/2Fe5Icw). You can also use it as a secondary method (in case your phone is lost or damaged). If this is your backup 2FA method, it should be kept somewhere secure, such as a locked safe, or if you use as physical key as your primary 2FA method, then keep it on you at all times.
-
-**See also** [Recommended 2FA Apps](/5_Privacy_Respecting_Software.md#2-factor-authentication)
 
 
 ## Browser and Search
