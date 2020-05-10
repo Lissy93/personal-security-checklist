@@ -35,6 +35,7 @@
   - How to spot a phishing attack: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
   - Protection from Identity Theft: via [Restore Privacy](https://restoreprivacy.com/identity-theft-fraud)
   - Harden your MacOS Security: via [@drduh on GitHub](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
+  - Protecting from key-stroke-logging, with KeyScrambler: via [TechRepublic](https://www.techrepublic.com/blog/it-security/keyscrambler-how-keystroke-encryption-works-to-thwart-keylogging-threats)
 - **Netowkring**
   - How to enable DNS over HTTPS: via [geekwire](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver)
   - How to resolve DNS leak issue: via [DNSLeakTest](https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html) 
@@ -60,6 +61,7 @@
 - **Physical Security**
   - Hiding from Physical Surveillance: via [Snallabolaget](http://snallabolaget.com/hiding-from-surveillance-how-and-why)
   - Guide to opting-out of public data listings and marketing lists: via [World Privacy Forum](https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs)
+  - Living Anonymously, Workbook: via [Intel Techniques](https://inteltechniques.com/data/workbook.pdf)
 - **Enterprise**
   - A basic checklist to harden GDPR compliancy: via [GDPR Checklist](https://gdprchecklist.io)
 - **Reference Info**
@@ -83,6 +85,7 @@
   - Turns Out Police Stingray Spy Tools Can Indeed Record Calls: via [Wired](https://www.wired.com/2015/10/stingray-government-spy-tools-can-record-calls-new-documents-confirm)
   - UK Police Accessing Private Phone Data Without Warrant: via [Restore Privacy](https://restoreprivacy.com/uk-police-accessing-phone-data)
   - Rage Against Data Dominance: via [Privacy International](https://privacyinternational.org/long-read/3734/rage-against-data-dominance-new-hope)
+  - NSA Files Decoded, What the revelations mean for you: via [The Guardian](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded)
 - **Breaches**
   - Grindr and OkCupid Spread Personal Details Study Says: via [NY Times](https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html)
 - **Threats**
@@ -111,6 +114,7 @@
 - [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
 - [Security Planner](https://securityplanner.org) - Great advise for beginners
 - [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
+- [Internet Health Report](https://foundation.mozilla.org/en/internet-health-report) - Mozilla is documenting and explaining what’s happening to openness and freedom on the Internet
 
 
 ## Books
@@ -165,6 +169,7 @@ More Security Podcasts on [player.fm](https://player.fm/featured/security)
   - [You are being watched](https://youtu.be/c8jDsg-M6qM) by The New York Times
   - [The Power of Privacy](https://youtu.be/KGX-c5BJNFk) by The Guardian
   - [Why Privacy matters, even if you have nothing to hide](https://youtu.be/Hjspu7QV7O0) by The Hated One
+  - [The Unhackable Email Service](https://youtu.be/NM8fAnEqs1Q) by Freethink
 - **TED Talks**
   - [How Online Trackers Track You, and What To Do About It](https://youtu.be/jVeqAemtC6w) by Luke Crouch
   - [Why you should switch off your home WiFi](https://youtu.be/2GpNhYy2l08) by Bram Bonné
@@ -441,10 +446,12 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [awesome-incident-response](https://github.com/meirwah/awesome-incident-response) by @meirwah
   - [awesome-anti-forensic](https://github.com/remiflavien1/awesome-anti-forensic) by @remiflavien1
   - [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) by @rshipp
-  - [awesome-honeypots](https://github.com/paralax/awesome-honeypots) by @paralax
   - [awesome-hacking](https://github.com/carpedm20/awesome-hacking) by @carpedm20
+  - [awesome-honeypots](https://github.com/paralax/awesome-honeypots) by @paralax
+  - [awesome-forensics](https://github.com/Cugu/awesome-forensics) by @cugu
   - [awesome-pentest](https://github.com/enaqx/awesome-pentest) by @enaqx
   - [awesome-ctf](https://github.com/apsdehal/awesome-ctf) by @apsdehal
+  - [awesome-osint](https://github.com/jivoi/awesome-osint) by @jivoi
 - **Misc**
   - [awesome-crypto-papers](https://github.com/pFarb/awesome-crypto-papers) by @pFarb
 - **Awesome Lists of Awesome Lists**
