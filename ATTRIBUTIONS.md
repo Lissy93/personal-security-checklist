@@ -48,27 +48,40 @@ Available: https://www.scss.tcd.ie/Doug.Leith/pubs/browser_privacy.pdf. [Accesse
 [14]"Comments on the Competition and Markets Authority’s interim report on online platforms and digital advertising", Privacyinternational.org, Jan 2020. [Online].
 Available: https://privacyinternational.org/sites/default/files/2020-04/20.02.12_CMA_PI_Comments_Interim_Report_FINAL.pdf. [Accessed: 02- May- 2020]
 
-[11]"Cracking DES: Secrets of Encryption Research, Wiretap Politics, and Chip Design", 1998. [Online]. Available: https://dl.packetstormsecurity.net/cracked/des/cracking-des.htm. [Accessed: 25- Apr- 2020]
+[11]"Cracking DES: Secrets of Encryption Research, Wiretap Politics, and Chip Design", 1998. [Online].
+Available: https://dl.packetstormsecurity.net/cracked/des/cracking-des.htm. [Accessed: 25- Apr- 2020]
 
-[2]"Digital Identity Guidelines", 2020. [Online]. Available: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf. [Accessed: 25- Apr- 2020]
+[2]"Digital Identity Guidelines", 2020. [Online].
+Available: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf. [Accessed: 25- Apr- 2020]
 
-[8]"DNS Security - Getting it Right", Open Rights Group, 2020. [Online]. Available: https://www.openrightsgroup.org/about/reports/dns-security-getting-it-right. [Accessed: 25- Apr- 2020]
+[8]"DNS Security - Getting it Right", Open Rights Group, 2020. [Online].
+Available: https://www.openrightsgroup.org/about/reports/dns-security-getting-it-right. [Accessed: 25- Apr- 2020]
 
-[9]"DNS-over-HTTPS performance | SamKnows", Samknows.com, 2020. [Online]. Available: https://www.samknows.com/blog/dns-over-https-performance. [Accessed: 25- Apr- 2020]
+[9]"DNS-over-HTTPS performance | SamKnows", Samknows.com, 2020. [Online].
+Available: https://www.samknows.com/blog/dns-over-https-performance. [Accessed: 25- Apr- 2020]
 
-[12]J. Eckenrode and S. Friedman, "The state of cybersecurity at financial institutions", 2018. [Online]. Available: https://www2.deloitte.com/us/en/insights/industry/financial-services/state-of-cybersecurity-at-financial-institutions.html. [Accessed: 25- Apr- 2020]
+[12]J. Eckenrode and S. Friedman, "The state of cybersecurity at financial institutions", 2018. [Online].
+Available: https://www2.deloitte.com/us/en/insights/industry/financial-services/state-of-cybersecurity-at-financial-institutions.html. [Accessed: 25- Apr- 2020]
 
-[10]E. Foundation, "Cracking DES", Shop.oreilly.com, 1998. [Online]. Available: http://shop.oreilly.com/product/9781565925205.do. [Accessed: 25- Apr- 2020]
+[10]E. Foundation, "Cracking DES", Shop.oreilly.com, 1998. [Online].
+Available: http://shop.oreilly.com/product/9781565925205.do. [Accessed: 25- Apr- 2020]
 
-[5]"Google data collection, research and findings", Digital Content Next, 2020. [Online]. Available: https://digitalcontentnext.org/blog/2018/08/21/google-data-collection-research/. [Accessed: 25- Apr- 2020]
+[5]"Google data collection, research and findings", Digital Content Next, 2020. [Online].
+Available: https://digitalcontentnext.org/blog/2018/08/21/google-data-collection-research/. [Accessed: 25- Apr- 2020]
 
 [3]S. Lekies, B. Stock, M. Wentzel and M. Johns, "The Unexpected Dangers of Dynamic JavaScript", UseNix & SAP, 2020. [Online]. Available: https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-lekies.pdf. [Accessed: 25- Apr- 2020]
 
 [7]"Privacy concerns with social networking services", 2020. [Online]. Available: https://en.wikipedia.org/wiki/Privacy_concerns_with_social_networking_services. [Accessed: 25- Apr- 2020]
 
-[4]D. Tian, G. Hernandez, J. Choi, V. Frost, C. Ruales, P. Traynor, H. Vijayakumar, L. Harrison, A. Rahmati, M. Grace and K. Butler, "Vulnerability Analysis of AT Commands Within the Android Ecosystem", Cise.ufl.edu, 2020. [Online]. Available: https://www.cise.ufl.edu/~butler/pubs/usenix18-atcmd.pdf. [Accessed: 25- Apr- 2020]
+[4]D. Tian, G. Hernandez, J. Choi, V. Frost, C. Ruales, P. Traynor, H. Vijayakumar, L. Harrison, A. Rahmati, M. Grace and K. Butler, "Vulnerability Analysis of AT Commands Within the Android Ecosystem", Cise.ufl.edu, 2020. [Online].
+Available: https://www.cise.ufl.edu/~butler/pubs/usenix18-atcmd.pdf. [Accessed: 25- Apr- 2020]
 
-[6]S. Topuzov, "Phone hacking through SS7 is frighteningly easy and effective", Blog.securegroup.com, 2020. [Online]. Available: https://blog.securegroup.com/phone-hacking-through-ss7-is-frighteningly-easy-and-effective. [Accessed: 25- Apr- 2020]
+[6]S. Topuzov, "Phone hacking through SS7 is frighteningly easy and effective", Blog.securegroup.com, 2020. [Online].
+Available: https://blog.securegroup.com/phone-hacking-through-ss7-is-frighteningly-easy-and-effective. [Accessed: 25- Apr- 2020]
+
+[15]J. Heidemann, Y. Pradkin, R. Govindan, C. Papadopoulos and J. Bannister, "Exploring Visible Internet Hosts through Census and Survey", Isi.edu, 2020. [Online].
+Available: https://www.isi.edu/~johnh/PAPERS/Heidemann07c.pdf. [Accessed: 10- May- 2020]
+
 </blockquote>
 
 **Above References apply to the Content in the Following Files**:<br>
