@@ -7,6 +7,9 @@ A curated list of (DIY and pre-built) devices, to help preserve privacy and impr
 
 **Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md#security-hardware) instead.
 
+**Note**: This section is intended just to be a bit of fun, it is entirely possible to stay secure and anonymous, without having to build or buy anything
+
+
 ---
 
 #### Contents
