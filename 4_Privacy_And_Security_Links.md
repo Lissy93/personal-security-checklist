@@ -272,6 +272,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [Default Password](https://default-password.info) - Database of default passwords for various devices by manufacturer and model
   - [HashToolkit](http://hashtoolkit.com) - Database of 'cracked' hashes
   - [SecLists](https://github.com/danielmiessler/SecLists) - Starter list of leaked databases, passwords, usernames etc (Great for programming)
+  - [Web Tracking Data](https://webtransparency.cs.princeton.edu/webcensus/#data) by Princeton University - This is the largest and most detailed analysis of online tracking to date, and measures both stateful (cookie-based) and stateless (fingerprinting-based) tracking. The crawls were made with [OpenWPM](https://github.com/mozilla/OpenWPM)
   - [Qualys SSL Pulse](https://www.ssllabs.com/ssl-pulse) - A continuous and global dashboard for monitoring the quality of SSL / TLS support over time across 150,000 SSL- and TLS-enabled websites, based on Alexa’s list of the most popular sites in the world
 - **Fun with Live Data** 🌠
   - **Internet**
@@ -311,6 +312,11 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - Challenges in assessing privacy impact, Tales from the Front Line: via [Wiley](https://onlinelibrary.wiley.com/doi/10.1002/spy2.101)
   - A privacy‐preserving multifactor authentication system: via [Wiley](https://onlinelibrary.wiley.com/doi/10.1002/spy2.88)
   - Web Browser Privacy: What Do Browsers Say When They Phone Home?: via [scss.tcd.ie](https://www.scss.tcd.ie/Doug.Leith/pubs/browser_privacy.pdf)
+  - Online Tracking, A 1-million-site Measurement and Analysis: via [Princeton University](https://www.cs.princeton.edu/~arvindn/publications/OpenWPM_1_million_site_tracking_measurement.pdf)
+  - Detecting and Defending Against Third-Party Tracking on the Web: via [Franziska Roesner](http://www.franziroesner.com/pdf/webtracking-NSDI2012.pdf)
+  - Is Google degrading search? Consumer Harm from Universal Search: via [law.berkeley.edu](https://www.law.berkeley.edu/wp-content/uploads/2015/04/Luca-Wu-Yelp-Is-Google-Degrading-Search-2015.pdf)
+  - A Comprehensive Evaluation of Third-Party Cookie Policies: via [WhoLeftOpenTheCookieJar.com](https://wholeftopenthecookiejar.com/static/tpc-paper.pdf)
+
 - **Implementations and Standards**
   - [The GNU Privacy Guard](https://www.gnupg.org)
   - [OpenPGP JavaScript Implementation](https://openpgpjs.org)
