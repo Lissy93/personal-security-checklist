@@ -259,20 +259,21 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - Hosts to block: [someonewhocares/ hosts](https://someonewhocares.org/hosts) and [StevenBlack/ hosts](https://github.com/StevenBlack/hosts)
   - [File Signature Table](https://www.garykessler.net/library/file_sigs.html) - An up-to-date list of magic numbers, used to identify / verify the content of a file to ensure it has not been tampered with
   - [Nirsoft - Country IP](https://www.nirsoft.net/countryip) - List of IP address ranges per country
-- **Databases**
-  - [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
+  - [Default Password](https://default-password.info) - Database of default passwords for various devices by manufacturer and model
+- **Research Results**
   - [Internet Census Data](https://ant.isi.edu/datasets) - Includes data on address space allocation, traffic, DNS, service enumeration, internet outages and other internet topology data
+  - [Web Tracking Data](https://webtransparency.cs.princeton.edu/webcensus/#data) by Princeton University - This is the largest and most detailed analysis of online tracking to date, and measures both stateful (cookie-based) and stateless (fingerprinting-based) tracking. The crawls were made with [OpenWPM](https://github.com/mozilla/OpenWPM)
+- **Databases**
   - [Exodus](https://reports.exodus-privacy.eu.org/en/trackers/stats) - Trackers in Android Apps
-  - [URLScan](https://urlscan.io) - Service scanning for malicious domains
+  - [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
+  - [URLScan](https://urlscan.io) - Service scanning for malicious domains, with historical results
   - [Dehashed](https://www.dehashed.com/breach) - Data Breaches and Credentials
   - [VirusTotal](https://developers.virustotal.com/v3.0/reference) - Detailed virus scans of software
   - [Abuse IP DB](https://www.abuseipdb.com) - Database of IPs reported for abuse
   - [SnusBase](https://snusbase.com) - Long standing database hosting breached data
   - [OpenPhish](https://openphish.com) - A feed of current phishing endpoints
-  - [Default Password](https://default-password.info) - Database of default passwords for various devices by manufacturer and model
   - [HashToolkit](http://hashtoolkit.com) - Database of 'cracked' hashes
   - [SecLists](https://github.com/danielmiessler/SecLists) - Starter list of leaked databases, passwords, usernames etc (Great for programming)
-  - [Web Tracking Data](https://webtransparency.cs.princeton.edu/webcensus/#data) by Princeton University - This is the largest and most detailed analysis of online tracking to date, and measures both stateful (cookie-based) and stateless (fingerprinting-based) tracking. The crawls were made with [OpenWPM](https://github.com/mozilla/OpenWPM)
   - [Qualys SSL Pulse](https://www.ssllabs.com/ssl-pulse) - A continuous and global dashboard for monitoring the quality of SSL / TLS support over time across 150,000 SSL- and TLS-enabled websites, based on Alexa’s list of the most popular sites in the world
 - **Fun with Live Data** 🌠
   - **Internet**
