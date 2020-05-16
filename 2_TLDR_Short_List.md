@@ -12,10 +12,10 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 
 ### Authentication
-- Use strong, unique passphrases for each of your accounts (12+ alpha-numeric upper and lower-case letters + symbols). Avoid predicitable patterns, dictionary words and names.
-- Use a password manager: It is going to be almost impossible to remember hundreds of unique passwords. A password manager will generate strong passwords, securly store and auto-fill them, with a browser extension and mobile app. All you will need to do, is remember 1 master password. [BitWarden](https://bitwarden.com) is a great option, as is [1Password](https://1password.com) (not open source). [KeePass XC](https://keepassxc.org) is more secure, but without any cloud-sync functionality.
-- Use 2-factor authentication for all secure accounts (email, cloud storage, financial accounts and social media). You can do this with [Authy](https://authy.com) (proprietary) which will also let you back up and sync your tokens across multiple devices. Or you can use [Aegis](https://getaegis.app) or [AndOTP](https://github.com/andOTP/andOTP) which are both open source.
-- Be cautious when logging into your accounts on someone elses device, as you cannot be sure that it is free of malware. If you do need to access one of your accounts, use incognito mode (Ctrl+Shift+N) so your credentials don't get cached.
+- Use a long, strong and unique password for each of your accounts (see [HowSecureIsMyPassword.net](https://howsecureismypassword.net))
+- Use a secure [password manager](/5_Privacy_Respecting_Software.md#password-managers), to encrypt, store and fill credentials, such as [BitWarden](https://bitwarden.com) or KeePass (no cloud-sync)
+- Enable 2-Factor authentication where available, and use an [authenticator app](/5_Privacy_Respecting_Software.md#2-factor-authentication) or hardware token
+- Sign up for breach alerts (with [Firefox Monitor](https://monitor.firefox.com) or [HavIBeenPwned](https://haveibeenpwned.com)), and update passwords of compromised accounts
 
 
 ### Browsing
