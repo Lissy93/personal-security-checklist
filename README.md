@@ -62,11 +62,11 @@ Use long, strong and unique passwords, manage them in a secure password manager,
 
 ## Web Browsing
 
-Most websites on the internet will use some form of tracking, often to gain insight into their users, their behaviour and preferences. This data can be incredibly detailed, often recording how long you spent looking at different sections of a page, where you went afterwards and what else you did in that browsing session. This data is extremely valuable to corporations, governments and intellectual property thieves
+Most websites on the internet will use some form of tracking, often to gain insight into their users behaviour and preferences. This data can be incredibly detailed, and so is extremely valuable to corporations, governments and intellectual property thieves. Data breaches and leaks are common, and deanonymizing users web activity is often a trivial task
 
-There are two primary methods of tracking; stateful (cookie-based), and stateless (fingerprint-based). Cookies are small pieces of information, stored in your browser with a unique ID that is used to identify you. Browser fingerprinting is a highly accurate way to identify and track users whenever they go online. The information collected is quite comprehensive, and often includes browser details, OS, screen resolution, supported fonts, plugins, time zone, language and font preferences, and even hardware configurations.
+There are two primary methods of tracking; stateful (cookie-based), and stateless (fingerprint-based). Cookies are small pieces of information, stored in your browser with a unique ID that is used to identify you. Browser fingerprinting is a highly accurate way to identify and track users wherever they go online. The information collected is quite comprehensive, and often includes browser details, OS, screen resolution, supported fonts, plugins, time zone, language and font preferences, and even hardware configurations.
 
-This section outlines the steps you can take, to be better protected, minimise online tracking and improve online pricacy
+This section outlines the steps you can take, to be better protected from threats, minimise online tracking and improve privacy. A summarized shorter version of this list can be found [here](/2_TLDR_Short_List.md#browsing)
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
@@ -116,7 +116,7 @@ This section outlines the steps you can take, to be better protected, minimise o
 - [Privacy Browsers](/5_Privacy_Respecting_Software.md#browsers)
 - [Non-Tracking Search Engines](/5_Privacy_Respecting_Software.md#search-engines)
 - [Browser Extensions for Security](/5_Privacy_Respecting_Software.md#browser-extensions)
-
+- [Secure Browser & Bookmark Sync](/5_Privacy_Respecting_Software.md#browser-sync)
 
 
 ## Emails
