@@ -19,10 +19,17 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 
 ### Browsing
-- Don't enter any personal details on websites that are not HTTPS
-- Switch to [Firefox](https://www.mozilla.org/en-GB/firefox/new/) or [Brave Browser](https://brave.com/?ref=ali721), both of which have strong privacy and security configurations by default, and will also make loading websites faster. Consider using [Tor](https://www.torproject.org/) for the greatest privacy.
-- Consider using search engine that doesn't track you, such as [DuckDuckGo](https://duckduckgo.com/) or [StartPage](https://www.startpage.com/), which show unbiased results and don't keep logs.
-- Install [PrivacyBadger](https://www.eff.org/privacybadger) extension to block invisible trackers, and [HTTPS Everywhere](https://www.eff.org/https-everywhere) to force sites to load via HTTPS. You can use [Panopticlick](https://panopticlick.eff.org/) to quickly check if your browser is safe against tracking.
+- Use a Privacy-Respecting Browser, [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/exp/firefox/new) are gtrat options. Set your default search to a non-tracking search engine, such as [DuckDuckGo](https://duckduckgo.com)
+- Do not enter any information on a non-HTTPS website (look for the lock icon), consider using [HTTPS-Everywhere](https://www.eff.org/https-everywhere) to make this easier
+- Block invasive 3rd-party trackers and ads using an extension like [Privacy Badger](https://privacybadger.org) or [uBlock](https://github.com/gorhill/uBlock)
+- Don't allow your browser to save your passwords or auto-fill personal details (instead use a [password manager](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md#password-managers), and [disable your browsers own auto-fill](https://www.computerhope.com/issues/ch001377.htm))
+- Clear your cookies, session data and cache regularly. You could use an extension such as [Cookie-Auto-Delete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) to automate this
+- Don't sign into your browser, as it further allows for your browsing data to be linked to your identity
+- Consider using [Decentraleyes](https://decentraleyes.org) to decrease the number of trackable CDN requests your device makes
+- Consider using compartmentalization to separate different areas of your browsing (such as work, social, shopping etc), in order to reduce tracking. This can be done with [Firefox Containers](https://support.mozilla.org/en-US/kb/containers), or by using separate browsers or browser profiles
+- Test your browser using a tool like [Panopticlick](https://panopticlick.eff.org) to ensure there are no major issues. [BrowserLeaks](https://browserleaks.com) and [Am I Unique](https://amiunique.org/fp) are also useful for exploring what device info your exposing to websites
+- Keep your browser up-to-date, explore the privacy settings and remove unnecessary add-ons/ extensions (as they may make you more trackable)
+- For anonymous browsing use [The Tor Browser](https://www.torproject.org/), and avoid logging into any of your personal accounts
 
 
 ### Phone
