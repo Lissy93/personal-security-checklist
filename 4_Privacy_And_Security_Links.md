@@ -68,13 +68,14 @@
   - A direcory of websites, apps and services supporting 2FA: via [TwoFactorAuth.org](https://twofactorauth.org)
   - A directory of direct links to delete your account from web services: via [JustDeleteMe.xyz](https://justdeleteme.xyz)
   - Product reviews from a privacy perspective, by Mozilla: via [Privacy Not Included](https://foundation.mozilla.org/en/privacynotincluded)
-  - Surveillance Catalogue - A database secret of government and military surveillance equipment, leaked in the Snowden files: via [The Intercept](https://theintercept.com/surveillance-catalogue)
+  - Surveillance Catalogue - Database of secret government & military surveillance equipment, leaked by Snowden: via [The Intercept](https://theintercept.com/surveillance-catalogue)
     - See also: The source code for these projects, on WikiLeaks [Vault7](https://wikileaks.org/vault7) and [Vault8](https://wikileaks.org/vault8), and the accompanying [press release](https://wikileaks.org/ciav7p1)
 
 
 
 ## Articles
-
+- **General**
+  - Rethinking Digital Ads: via [TheInternetHealthReport](https://internethealthreport.org/2019/rethinking-digital-ads)
 - **Encryption**
   - Overview of projects working on next-generation secure email: via [OpenTechFund](https://github.com/OpenTechFund/secure-email)
 - **Surveillance**
@@ -88,6 +89,7 @@
   - NSA Files Decoded, What the revelations mean for you: via [The Guardian](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded)
 - **Breaches**
   - Grindr and OkCupid Spread Personal Details Study Says: via [NY Times](https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html)
+  - The Asia-Pacific Cyber Espionage Campaign that Went Undetected for 5 Years: via [TheHackerNews](https://thehackernews.com/2020/05/asia-pacific-cyber-espionage.html)
 - **Threats**
   - 23 reasons not to reveal your DNA: via [Internet Health Report](https://internethealthreport.org/2019/23-reasons-not-to-reveal-your-dna)
   - Security of Third-Party Keyboard Apps on Mobile Devices: via [Lenny Zelster](https://zeltser.com/third-party-keyboards-security)
@@ -115,6 +117,7 @@
 - [Security Planner](https://securityplanner.org) - Great advise for beginners
 - [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
 - [Internet Health Report](https://foundation.mozilla.org/en/internet-health-report) - Mozilla is documenting and explaining what’s happening to openness and freedom on the Internet
+- [The Hacker News](https://thehackernews.com) - Up-to-date Cybersecurity News and Analysis
 
 
 ## Books
