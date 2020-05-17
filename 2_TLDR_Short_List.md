@@ -23,8 +23,8 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 - Do not enter any information on a non-HTTPS website (look for the lock icon), consider using [HTTPS-Everywhere](https://www.eff.org/https-everywhere) to make this easier
 - Block invasive 3rd-party trackers and ads using an extension like [Privacy Badger](https://privacybadger.org) or [uBlock](https://github.com/gorhill/uBlock)
 - Don't allow your browser to save your passwords or auto-fill personal details (instead use a [password manager](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md#password-managers), and [disable your browsers own auto-fill](https://www.computerhope.com/issues/ch001377.htm))
-- Clear your cookies, session data and cache regularly. You could use an extension such as [Cookie-Auto-Delete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) to automate this
-- Don't sign into your browser, as it further allows for your browsing data to be linked to your identity
+- Clear your cookies, session data and cache regularly. An extension such as [Cookie-Auto-Delete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) to automate this
+- Don't sign into your browser, as it can link further data to your identity. If you need to, you can use an open source [bookmark sync](/5_Privacy_Respecting_Software.md#browser-sync) app
 - Consider using [Decentraleyes](https://decentraleyes.org) to decrease the number of trackable CDN requests your device makes
 - Consider using compartmentalization to separate different areas of your browsing (such as work, social, shopping etc), in order to reduce tracking. This can be done with [Firefox Containers](https://support.mozilla.org/en-US/kb/containers), or by using separate browsers or browser profiles
 - Test your browser using a tool like [Panopticlick](https://panopticlick.eff.org) to ensure there are no major issues. [BrowserLeaks](https://browserleaks.com) and [Am I Unique](https://amiunique.org/fp) are also useful for exploring what device info your exposing to websites
@@ -39,12 +39,16 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 
 ### Email
-- It's important to protect your email account, as if a hacker gains access to it he/she will be able to reset the passwords for all your other accounts. Ensure you have a strong and unique password, and enable 2FA.
-- Emails are not encrypted by default, meaning they are able to be read by anyone who intercepts them as well as your email provider (Google, Microsoft, Apple, Yahoo etc all monitor emails). Consider switching to a secure mail provider using end-to-end encryption, such as [ProtonMail](https://protonmail.com/) or [Tutanota](https://tutanota.com/).
+It's important to protect your email account, as if a hacker gains access to it they will be able to pose as you, and reset the passwords for your other online accounts. Use a long, strong and unique password, enable 2FA and avoid publicly sharing your email address. One of the biggest threats to digital security is still phishing, and it can sometimes be incredibly convincing, so remain vigilant, and understand [how to spot malicious emails](https://heimdalsecurity.com/blog/abcs-detecting-preventing-phishing)
+
+- Consider switching to a secure and encrypted mail provider using, such as [ProtonMail](https://protonmail.com) or [Tutanota](https://tutanota.com)
+- Use email aliasing to protect your real mail address, with a provider such as [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io/?slref=bridsqrgvrnavso). This allows you to keep your real address private, yet still have all messages land in your primary inbox
+- Disable automatic loading of remote content, as it is often used for detailed tracking but can also be malicious
+- Using a custom domain, will mean you will not loose access to your email address if your current provider disappears. You can also back up messages easily with a secure client, such as [Thuderbird](https://www.thunderbird.net) via IMAP
 
 
 ### Networking
-- Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log. (Note: VPN's do not provide ultimate protection as advertisers commonly state). See [thatoneprivacysite.net](https://thatoneprivacysite.net/) for a detailed comparison chart. [ProtonVPN](https://protonvpn.com/) has a free starter plan, [Mullvad](https://mullvad.net/) is great for anonymity. Other good all-rounders include [IVPN](https://www.ivpn.net/), NordVPN, TorGuard and AirVPN.
+- Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log, but understand their limitations.  Good options include [ProtonVPN](https://protonvpn.com) and [Mullvad](https://mullvad.net), see [thatoneprivacysite.net](https://thatoneprivacysite.net/) for detailed comparisons
 - Change your routers default password. Anyone connected to your WiFi is able to listen to network traffic, so in order to prevent people you don't know from connecting, use WPA2 and set a strong password.
 - Update your router settings to use a secure DNS, such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/), this should also speed up your internet. If you cannot modify your roters settings, you can set the DNS on your phone (with the [1.1.1.1. app](https://1.1.1.1/)), or [Windows](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/windows/), [Mac](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/mac/) or [Linux](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/linux/). DNS is the system used to resolve URL's to their server addresses, many DNS providers collect data on your browsing habbits and use it to target you with ads or sell it on. 
 
