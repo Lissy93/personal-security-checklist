@@ -43,6 +43,7 @@ Be aware that no software is perfect- there will always be bugs and vulnerabilit
   - [Proxies](#proxies)
   - [DNS Providers](#dns)
   - [Firewalls](#firewalls)
+  - [Router Firmware](#router-firmware)
   - [Network Analysis](#network-analysis)
   - [Cloud Hosting](#cloud-hosting)
   - [Domain Registrars](#domain-registrars)
@@ -477,6 +478,18 @@ A firewall is a program which monitors the incoming and outgoing traffic on your
 #### Word of Warning
 There are different [types](https://www.networkstraining.com/different-types-of-firewalls) of firewalls, that are used in different circumstances. This does not omit the need to configure your operating systems defences. Follow these instructions to enable your firewall in [Windows](https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off), [Mac OS](https://support.apple.com/en-us/HT201642), [Ubuntu](https://wiki.ubuntu.com/UncomplicatedFirewall) and other [Linux ditros](https://www.tecmint.com/start-stop-disable-enable-firewalld-iptables-firewall).
 Even when properly configured, having a firewall enabled does not guarantee bad network traffic can not get through and especially during boot if you don't have root privileges.
+
+## Router Firmware
+
+Installing a custom firmware on your Wi-Fi router gives you greater control over security, privacy and perfromance
+
+| Provider | Description |
+| --- | --- |
+**[OpenWRT](https://openwrt.org)** | Plenty of scope for customization and a ton of supported addons. Stateful firewall, NAT, and dynamically-configured port forwarding protocols (UPnP, NAT-PMP + upnpd, etc), Load balancing, IP tunneling, IPv4 & IPv6 support
+**[DD-WRT](https://dd-wrt.com)** | Easy and powerful user interface. Great access control, bandwidth monitoring and quality of service. [IPTables](https://linux.die.net/man/8/iptables) is built-in for firewall, and there's great VPN support as well as additional plug-and-play and wake-on-lan features
+
+#### Notable Mentions
+[Tomato](https://www.polarcloud.com/tomato), [Gargoyle](https://www.gargoyle-router.com), [LibreCMC](https://librecmc.org) and [DebWRT](http://www.debwrt.net)
 
 
 ## Network Analysis
