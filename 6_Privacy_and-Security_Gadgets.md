@@ -106,7 +106,7 @@ We can go even further, these products are far from essential and are maybe a li
 - **Stand-alone Drive Eraser** - Allows you to erase drives, without connecting them to your PC. Availible in different modesls for different needs. See More: [Amazon](https://www.amazon.com/StarTech-com-Hard-Drive-Eraser-Standalone/dp/B073X3YZNL)
 - **Shredder** - It is important to safely dispose of any documents that contain personal information. This is a very affordable shredder - it cuts pieces into security level P-4 sizes (5/32" by 15/32"). It also shreds credit cards into the same size. [Amazon](https://www.amazon.com/AmazonBasics-6-Sheet-High-Security-Micro-Cut-Shredder/dp/B00Q3KFX8U)
 - **Device Timer** - This non-smart device can be used to turn various devices (such as lights or radio) on or off at certain times. It's useful to deter people when you are away. [Amazon](https://www.amazon.com/Century-Digital-Programmable-Packaging-Security/dp/B00MVF16JG)
-- **[SurfEasy Key](https://shop.fightforthefuture.org/products/surfeasy-key)** - A portable web browser you can carry in your pocket for private and secure browsing on the go. Provides encrypted storage and anonymous browsing features. Again, you can make your own version with an encrypted USB, and a portable executable
+- **SurfEasy Key** - A portable web browser you can carry in your pocket for private and secure browsing on the go. Provides encrypted storage and anonymous browsing features. Again, you can make your own version with an encrypted USB, and a portable executable. [fightforthefuture.org](https://shop.fightforthefuture.org/products/surfeasy-key)
 
 
 ## Network Security
@@ -116,6 +116,7 @@ Gadgets that help protect and anonamise your internet, detect & prevent intrusio
 - **Anonabox** - Plug-and-play Tor router. Wi-Fi uplink and range extender with user interface, also has VPN options and USB ports for local file sharing.  [Amazon](https://amzn.to/38bwZIA) | [Anonabox.com](anonabox.com)
 - **FingBox** - Network monitoring and security, for what it offers Fing is very affordable, and there is a free [app](https://www.fing.com/products/fing-app) that you can use before purchasing the hardware to get started. [Fing.com](https://www.fing.com/products/fingbox) | [US](https://amzn.to/2wlXfCT) | [UK](https://amzn.to/2I63hKP)
 - **BitdefenderBox** - Cybersecurity home firewall hub, for protecting IoT and other devices. Has other features such as parental controlls and is easy to set up. [US](https://amzn.to/2vrurZJ) | [UK](https://amzn.to/34Ul54w)
+- **Flashed-Routers** - Pre-configured branded routers, flashed with custom open source firmware, for better security, privacy and performance. [flashrouters.com](https://www.flashrouters.com/routers)
 - **Trend Micro Box** - Protect home networks from external and internal cyber attacks. Detects intrusions, vulnrabbilities, remote access, web threats and provides other security features. [US](https://amzn.to/2wk3Y0s) | [US](https://amzn.to/2uqX4Wv)
 - **AlwaysHome Duo** - USB VPN with accelerated virtual networking to your home or office network, crossing geo-blocking and firewall mechanisms. [US](https://amzn.to/2Ts6oSn) | [UK](https://amzn.to/3bi4cF0)
 - **Firewalla Red** - An intrusion detection and intrusion prevention system, with a web and mobile interface. Also has Ad-block, VPN, internet controll features and insights. [US](https://amzn.to/388BlAw) | [Firewalla.com](https://firewalla.com)
@@ -130,6 +131,7 @@ Gadgets that help protect and anonamise your internet, detect & prevent intrusio
 - **[IPFire](https://www.ipfire.org)** - A hardened, versatile, state-of-the-art open source firewall based on Linux. Its ease of use, high performance and extensibility make it usable for everyone
 - **[PiVPN](https://pivpn.io)** - A simple way to set up a home VPN on a any Debian server. Supports OpenVPN and WireGuard with elliptic curve encryption keys up to 512 bit. Supports multiple DNS providers and custom DNS provividers- works nicley along-side PiHole
 - **[E2guardian](http://e2guardian.org)** - Powerful open source web content filter
+- **[OpenWRT](https://openwrt.org)** Powerful custom router firmware, with great security, performance and customization features. See more [custom router firmware](/5_Privacy_Respecting_Software.md#router-firmware)
 - **[SquidGuard](http://www.squidguard.org)** - A URL redirector software, which can be used for content control of websites users can access. It is written as a plug-in for Squid and uses blacklists to define sites for which access is redirected
 - **[PF Sense](https://www.pfsense.org)** - Widley used, open source firewall/router
 - **[Zeek](https://www.zeek.org)** -  Detect if you have a malware-infected computer on your network, and powerful network analysis framework and monitor
