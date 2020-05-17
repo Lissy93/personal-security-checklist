@@ -46,6 +46,7 @@ Be aware that no software is perfect- there will always be bugs and vulnerabilit
   - [Network Analysis](#network-analysis)
   - [Cloud Hosting](#cloud-hosting)
   - [Domain Registrars](#domain-registrars)
+  - [Pre-Configured Mail-Servers](#pre-configured-mail-servers)
 - **Productivity**
   - [Digital Notes](#digital-notes)
   - [Cloud Productivity Suits](#cloud-productivity-suits)
@@ -514,6 +515,18 @@ The country that your data is hosted in, will be subject to local laws and regul
 | --- | --- |
 **[Njal.la](https://njal.la)** | Privacy-aware domain service with anonymous sign-up and accepts crypto currency
 **[Orange Website](https://www.orangewebsite.com/domain-registration.php)** | Anonymous domain registration, with low online censorship since they are based outside the 14-eyes jurisdiction (in Iceland)
+
+## Pre-Configured Mail-Servers
+
+| Provider | Description |
+| --- | --- |
+**[Mail-in-a-box](https://github.com/mail-in-a-box/mailinabox)** | Easy-to-deploy fully-featured and pre-configured SMTP mail server. It includes everything from webmail, to spam filtering and backups
+**[Docker Mailserver](https://github.com/tomav/docker-mailserver)** | A full-stack but simple mailserver (smtp, imap, antispam, antivirus, ssl...) using Docker. Very complete, with everything you will need, customizable and very easy to deploy with docker
+
+
+#### Word of Warning
+Self-hosting your own mail server is not recommended for everyone, it can be time consuming to setup and maintain and securing it correctly is critical
+
 
 
 ## Digital Notes
