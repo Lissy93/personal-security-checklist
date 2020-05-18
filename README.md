@@ -3,29 +3,31 @@
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 [![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](https://github.com/Lissy93/personal-security-checklist/graphs/contributors)
 
-# Personal Security Checklist
+<p align="center"><img src="https://i.ibb.co/rGQK71g/personal-security-checklist-6.png" /></p>
 
-> A curated checklist of tips to protect your dgital security and privacy
+*<p align="center">A curated checklist of tips to protect your dgital security and privacy</p>*
+
+### Contents
+
+[<img src="https://i.ibb.co/XbyGTrP/1-authentication-2-36x36.png" width="28" height="28" /> Authentication](#authentication)<br>
+[<img src="https://i.ibb.co/r2L4D8X/2-internet-36x36.png" width="28" height="28" /> Browsing the Web](#web-browsing)<br>
+[<img src="https://i.ibb.co/7NrXW3L/5-email-36x36.png" width="28" height="28" /> Email](#emails)<br>
+[<img src="https://i.ibb.co/GFYyXMd/6-social-media-36x36.png" width="28" height="28" /> Social Media](#social-media)<br>
+[<img src="https://i.ibb.co/SPVd9zt/3-networks-36x36.png" width="28" height="28" /> Networks](#networking)<br>
+[<img src="https://i.ibb.co/F3WwqsV/7-phones-36x36.png" width="28" height="28" /> Mobile Phones](#mobile-devices)<br>
+[<img src="https://i.ibb.co/ZftcgJq/8-computers-36x36.png" width="28" height="28" /> Personal Computers](#personal-computers)<br>
+[<img src="https://i.ibb.co/b2S9372/9-smart-home-36x36.png" width="28" height="28" /> Smart Home](#smart-home)<br>
+[<img src="https://i.ibb.co/KVPV1Lk/10-human-36x36.png" width="28" height="28" /> Human Aspect](#sensible-computing)<br>
 
 **Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md) instead.
 
-#### See Also
+### See Also
 - [Why Privacy & Security Matters](/0_Why_It_Matters.md)
 - [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
 - [Privacy & Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
 - [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)
 
-## Contents
-
-[![-](https://i.ibb.co/0ZV22MT/1-passwords.png) Authentication](#authentication)<br>
-[![-](https://i.ibb.co/thf142G/2-2fa.png) 2 Factor Authentication](#2-factor-authentication)<br>
-[![-](https://i.ibb.co/N7D7g6D/3-web.png) Browsing the Web](#web-browsing)<br>
-[![-](https://i.ibb.co/7yQq5Sx/5-email.png) Email](#emails)<br>
-[![-](https://i.ibb.co/HT2DTcC/6-social.png) Social Media](#social-media)<br>
-[![-](https://i.ibb.co/NjHcZJc/4-vpn.png) Networking](#networking)<br>
-[![-](https://i.ibb.co/J255QkL/7-devices.png) Mobile Phones](#mobile-devices)<br>
-[![-](https://i.ibb.co/SvMPntJ/10-os.png) Personal Computers](#personal-computers)<br>
-[![-](https://i.ibb.co/3N3mszQ/9-router.png) Smart Home](#smart-home)<br>
+----
 
 ## Authentication
 
