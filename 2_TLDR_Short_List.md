@@ -34,7 +34,7 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 ### Phone
 - Have a strong pin/password on your mobile device.
-- Turn off WiFi when your not using it, and delete saved networks that you no longer need (Settings --> WiFi --> Saved Networks).
+- Turn off WiFi when you're not using it, and delete saved networks that you no longer need (Settings --> WiFi --> Saved Networks).
 - Don't grant apps permissions that they don't need. For Android, you can use [Exodus](https://exodus-privacy.eu.org/en/) to quickly see the permissions and trackers for each of your installed apps.
 
 
