@@ -3,8 +3,9 @@
 [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 [![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](/ATTRIBUTIONS.md#contributors-)
 
-# Privacy & Security-Focused Software and Services
-A curated list of privacy-respecting apps, software, and providers 🔐
+<p align="center"><img src="https://i.ibb.co/S7pNxsd/Privacy-Respecting.png" /></p>
+
+*<p align="center">A curated list of privacy & security-focused apps, software, and providers 🔐</p>*
 
 **Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md#open-source-privacy-focused-software) instead.
 
