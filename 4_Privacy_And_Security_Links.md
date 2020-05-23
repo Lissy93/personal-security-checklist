@@ -70,7 +70,7 @@
   - Product reviews from a privacy perspective, by Mozilla: via [Privacy Not Included](https://foundation.mozilla.org/en/privacynotincluded)
   - Surveillance Catalogue - Database of secret government & military surveillance equipment, leaked by Snowden: via [The Intercept](https://theintercept.com/surveillance-catalogue)
     - See also: The source code for these projects, on WikiLeaks [Vault7](https://wikileaks.org/vault7) and [Vault8](https://wikileaks.org/vault8), and the accompanying [press release](https://wikileaks.org/ciav7p1)
-
+   - Who Has Your Back? - Government Data Requests 2019: via [EFF](https://www.eff.org/wp/who-has-your-back-2019)
 
 
 ## Articles
@@ -266,6 +266,8 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
 - **Research Results**
   - [Internet Census Data](https://ant.isi.edu/datasets) - Includes data on address space allocation, traffic, DNS, service enumeration, internet outages and other internet topology data
   - [Web Tracking Data](https://webtransparency.cs.princeton.edu/webcensus/#data) by Princeton University - This is the largest and most detailed analysis of online tracking to date, and measures both stateful (cookie-based) and stateless (fingerprinting-based) tracking. The crawls were made with [OpenWPM](https://github.com/mozilla/OpenWPM)
+  - [Who has your Back?](https://www.eff.org/files/2019/06/11/whyb_2019_report.pdf) by EFF - Anual report assessing how companies handle personal data
+    - Historic Reports: [2012](https://www.eff.org/files/who-has-your-back-2012_0.pdf) | [2013](https://www.eff.org/sites/default/files/who-has-your-back-2013-report-20130513.pdf) | [2014](https://www.eff.org/files/2014/05/15/who-has-your-back-2014-govt-data-requests.pdf) | [2015](https://www.eff.org/files/2015/06/18/who_has_your_back_2015_protecting_your_data_from_government_requests_20150618.pdf) | [2016](https://www.eff.org/files/2016/05/04/who-has-your-back-2016.pdf) | [2017](https://www.eff.org/files/2017/07/08/whohasyourback_2017.pdf) | [2018](https://www.eff.org/files/2018/05/31/whyb_2018_report.pdf) | [2019](https://www.eff.org/files/2019/06/11/whyb_2019_report.pdf)
 - **Databases**
   - [Exodus](https://reports.exodus-privacy.eu.org/en/trackers/stats) - Trackers in Android Apps
   - [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
