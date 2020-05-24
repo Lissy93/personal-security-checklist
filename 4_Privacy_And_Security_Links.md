@@ -70,7 +70,8 @@
   - Product reviews from a privacy perspective, by Mozilla: via [Privacy Not Included](https://foundation.mozilla.org/en/privacynotincluded)
   - Surveillance Catalogue - Database of secret government & military surveillance equipment, leaked by Snowden: via [The Intercept](https://theintercept.com/surveillance-catalogue)
     - See also: The source code for these projects, on WikiLeaks [Vault7](https://wikileaks.org/vault7) and [Vault8](https://wikileaks.org/vault8), and the accompanying [press release](https://wikileaks.org/ciav7p1)
-   - Who Has Your Back? - Government Data Requests 2019: via [EFF](https://www.eff.org/wp/who-has-your-back-2019)
+   - Who Has Your Back? - Which companies hand over your comply with Government Data Requests 2019: via [EFF](https://www.eff.org/wp/who-has-your-back-2019)
+   - Open project to rate, annotate, and archive privacy policies: via [PrivacySpy.org](https://privacyspy.org)
 
 
 ## Articles
