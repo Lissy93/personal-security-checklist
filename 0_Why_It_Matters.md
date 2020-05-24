@@ -1,4 +1,4 @@
-## Digital Privacy and Security- The Current Situation
+# Digital Privacy and Security- Why is Matters
 
 
 **TLDR;** Privacy is a fundamental right, and essential to democracy, liberty, and freedom of speech. Our privacy is being abused by governments (with mass-surveillance), corporations (profiting from selling personal data), and cyber criminals (stealing our poorly-secured personal data and using it against us). Security is needed in order to keep your private data private, and good digital security is critical to stay protected from the growing risks of cybercrime.
