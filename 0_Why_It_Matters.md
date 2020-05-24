@@ -1,8 +1,24 @@
 ## Digital Privacy and Security- The Current Situation
 
-Privacy is a fundamental right, and essential to democracy, liberty, and freedom of speech. Our privacy is being abused by governments (with mass-surveillance), corporations (profiting from selling personal data) and cybercriminals (stealing our poorly-secured personal data and using it against us). Security is needed in order to keep your private data private, and good digital security is critical to stay protected from the growing risks of cybercrime.
 
-## Who's Collecting Our Data?
+**TLDR;** Privacy is a fundamental right, and essential to democracy, liberty, and freedom of speech. Our privacy is being abused by governments (with mass-surveillance), corporations (profiting from selling personal data), and cyber criminals (stealing our poorly-secured personal data and using it against us). Security is needed in order to keep your private data private, and good digital security is critical to stay protected from the growing risks of cybercrime.
+
+----
+
+## What is Personal Data?
+Personal data is any information that relates to an identified or identifiable living individual. Even data that has been de-identified or pseudonymized can often still be used to re-identify a person, especially when combined with a secondary data set.
+
+This could be sensitive documents (such as medical records, bank statements, card numbers, etc), or user-generated content (messages, emails, photos, search history, home CCTV, etc) or apparently trivial metadata (such as mouse clicks, typing patterns, time spent on each web page, etc)
+
+## How is Data Collected?
+One of the most common data collection methods is web tracking. This is when websites use cookies, device fingerprints, and other methods to identify you, and follow you around the web. It is often done for advertising, analytics, and personalization. When aggregated together, this data can paint a very detailed picture of who you are.
+
+## How is Data Stored?
+Data that has been collected is stored in databases on a server. These servers are rarely owned by the companies managing them, [56% of servers](https://www.canalys.com/newsroom/global-cloud-market-Q3-2019) are owned by Amazon AWS, Google Cloud, and Microsoft Azure. If stored correctly the data will be encrypted, and authentication required to gain access. However that usually isn't the case, and large data leaks [occour almost dailey](https://selfkey.org/data-breaches-in-2019/). As well as that data breaches occur, when an adversary compromises a database storing personal data. In fact, you've probably already been caught up in a data breach (check your email, at [have i been pwned](https://haveibeenpwned.com))
+
+## What is Personal Data Used For?
+
+Data is collected, stored and used by governments, corporations and sometimes criminals:
 
 ### Government Mass Surveillance
 Intelligence and law enforcement agencies need surveillance powers to tackle serious crime and terrorism. However, since the Snowden revelations, we now know that this surveillance is not targeted at those suspected of wrongdoing- but instead the entire population. All our digital interactions are being logged and tracked by our very own governments.
@@ -20,21 +36,6 @@ Our computers, phones, wearables, digital assistants and IoT have been turned in
 Hackers and cybercriminals pose an ongoing and constantly evolving threat. With the ever-increasing amount of our personal data being collected and logged - we are more vulnerable to data breaches and identity fraud than ever before.
 
 In the same way, criminals will go to great lengths to use your data against you: either through holding it ransom, impersonating you, stealing money or just building up a profile on you and selling it on, to another criminal entity.
-
----
-
-
-## What data is Collected
-Every interaction that you have an internet-connected device is logged. This includes all the data that you physically enter, as well as everything that is passively collected, such as your clicks/ scrolls amount of time spent looking at each part of a page, etc, and finally data that is aggressively collected through background processes, GPS, gyroscope  measurements, microphones and sometimes cameras. All this data is sent to servers, where you have no guarantee of how it is stored, what it will be used for, or if it will be sold. When you request for your information to be deleted- it often isn't- the data is almost ever-lasting.
-
-
-## What Happens to Data that is Collected about You
-- It can be sold. Data brokers pay a high price for peoples personal details and habits
-- It can be used to determine your elegibility for certain products or services (such as insurance, credit cards etc)
-- It can be used to show you ads. You may see different search results than someone else because your search engine is subtly trying to sell things to you.
-- It can get into the wrong hands. Criminals use people's personal details to pull off scams, hold you to ransom, impersonate you to extract funds or further their control over your digital life.
-- It can allow both local and foreign governments to profile, and track you.
-- It can be stored, indefinitely- and some of it can be potentially used against you in the future
 
 ---
 
@@ -61,29 +62,25 @@ When different pieces of your data is aggregated together, it can create a very 
 #### The "I Have Nothing to Hide" Argument
 Privacy isn’t about hiding information; privacy is about protecting information, and everyone has information that they’d like to protect. Even with nothing to hide, we still put blinds on your window- and we wouldn't want your search history, bank statements, photos, notes or messages to be publicly available to the world.
 
-####
+#### Economies of Scale
 For online privacy to be effective, it needs to be adopted my the masses, and not just the few. By exercising your right to privacy, you make it easier for others, such as activists and journalists, to do so without sticking out.
 
 ----
 
-#### There's more to check out!
+#### Where to go from here:
 - [Ultimate Personal Security Checklist](/README.md)
-- [Why Privacy & Security Matters](/0_Why_It_Matters.md)
 - [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
 - [Privacy & Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
 - [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)
 
-<a href="https://twitter.com/intent/follow?screen_name=Lissy_Sykes">
-  <img src="https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter" alt="Follow Alicia Sykes on Twitter">
-</a>
+----
 
 #### Notes
 
 *Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 
-*I owe a lot of thanks others who've conducted research, written papers, developed software all in the interest of privacy and security. Full attributions and referenses found in [`ATTRIBUTIONS.md`](/ATTRIBUTIONS.md).*
+*I owe a lot of thanks others who've conducted research, written papers, developed software all in the interest of privacy and security. Full attributions and references found in [`ATTRIBUTIONS.md`](/ATTRIBUTIONS.md).*
 
-#### License
 
 *Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
 
@@ -91,10 +88,10 @@ For online privacy to be effective, it needs to be adopted my the masses, and no
 
 ----
 
-Found this helpful? Consider sharing it with others, to help them also improvde their digital security 😇
+Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
 
-[![Share on Twitter](https://i.ibb.co/2hqF59H/share-twitter.png)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
-[![Share on LinkedIn](https://i.ibb.co/9Ngh9jg/share-linkedin.png)](
+[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](
 http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
-[![Share on Facebook](https://i.ibb.co/cc6tFVj/share-facebook.png)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
-[![Share on Pinterest](https://i.ibb.co/x8L70b0/share-pinterest.png)](https://pinterest.com/pin/create/button/?url=https%3A//repository-images.githubusercontent.com/123631418/79c58980-3a13-11ea-97e8-e45591ef2d97&media=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&description=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020)
+[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-4267b2?style=for-the-badge&logo=Facebook)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=)
+[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40Lissy93%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
