@@ -132,6 +132,10 @@ For KeePass users, [TrayTop](https://keepass.info/plugins.html#traytotp) is a pl
 **[VeraCrypt](https://www.veracrypt.fr)** | VeraCrypt is open source cross-platform disk encryption software. You can use it to either encrypt a specific file or directory, or an entire disk or partition. VeraCrypt is incredibly feature-rich, with comprehensive encryption options, yet the GUI makes it easy to use. It has a CLI version, and a portable edition. VeraCrypt is the successor of (the now deprecated) TrueCrypt.
 **[Cryptomator](https://cryptomator.org)** | Open source client-side encryption for cloud files- Cryptomator is geared towards using alongside cloud-backup solutions, and hence preserves individual file structure, so that they can be uploaded. It too is easy to use, but has fewer technical customizations for how the data is encrypted, compared with VeraCrypt. Cryptomator works on Windows, Linux and Mac- but also has excellent mobile apps.
 
+#### Notable Mentions
+
+[CryptSetup](https://gitlab.com/cryptsetup/cryptsetup) is a convinient layer for use on top of [dm-crypt](https://wiki.archlinux.org/index.php/Dm-crypt). [EncFS](https://www.arg0.net/encfs) is a cross-platform file-based encryption module, for use within user local directories. [geli](https://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8) is a disk encryption subsystem included with FreeBSD
+
 If you need to create a compressed archive, prior to encrypting your files, then [PeaZip](https://www.peazip.org/) is a great little cross-platform open source file archiver utility. It allows you to create, open, and extract RAR TAR ZIP archives.
 
 
@@ -168,7 +172,7 @@ With [Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer) networks, there 
 **[Tox](https://tox.chat)** + **[qTox](https://qtox.github.io)** client | Open source, encrypted, distributed chat network, with clients for desktop and mobile- see [supported clients](https://tox.chat/clients.html). Clearly documented code and multiple language bindings make it easy for developers to integrate with Tox.
 
 #### Other Notable Mentions
-[Cwtch](https://cwtch.im), [BitMessage](https://github.com/Bitmessage/PyBitmessage), [Tor Messenger](https://blog.torproject.org/sunsetting-tor-messenger) *(deprecated)*, [TorChat2](https://github.com/prof7bit/TorChat) *(deprecated)*
+[Cwtch](https://cwtch.im), [BitMessage](https://github.com/Bitmessage/PyBitmessage), [RetroShare](https://retroshare.cc), [Tor Messenger](https://blog.torproject.org/sunsetting-tor-messenger) *(deprecated)*, [TorChat2](https://github.com/prof7bit/TorChat) *(deprecated)*
 
 
 ## Encrypted Email
@@ -186,7 +190,7 @@ The below email providers are private, end-to-end encrypted (E2EE) and reasonabl
 See [OpenTechFund- Secure Email](https://github.com/OpenTechFund/secure-email) for more details.
 
 #### Other Notable Mentions
-[HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Kolab Now](https://kolabnow.com), [Posteo](https://posteo.de), and [Disroot](https://disroot.org/en)
+[HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Posteo](https://posteo.de). For activists and journalists, see [Disroot](https://disroot.org/en), [Autistici](https://www.autistici.org) and [RiseUp](https://riseup.net/en)
 
 
 ### Self-Hosted Email
@@ -198,6 +202,8 @@ Email clients are the programs used to interact with the mail server. For hosted
 - **Desktop** - [Mozilla Thunderbird](https://www.thunderbird.net) is an open source, long-standing and secure desktop email client by Mozilla, for Windows, macOS, and Linux. If you are using ProtonMail, then you can use the [ProtonMail Bridge](https://protonmail.com/bridge/thunderbird), to sync your emails to either Thunderbird or Microsoft Outlook. In terms of security, the disadvantage, is that most desktop clients do not support 2FA, so it is important to keep your computer secured, however they are not vulnerable to the common browser attacks, that a web client would be. See also [eM Client](https://www.emclient.com)m which is a reputable but proprietary paid desktop client for Windows and Mac OS.
 - **Web** - If you are self-hosting your mail server, you will probably want a web-based email client. [RainLoop](http://www.rainloop.net) and [RoundCube](https://roundcube.net) are both good open source options.
 - **Mobile** - the most secure option is usually to use the app provided by your mail provider. If your mail server is self-hosted, then consider [FairMail](https://email.faircode.eu/) which is a fully featured, open source, privacy oriented email app for Android. There is also [pretty Easy privacy p≡p](https://play.google.com/store/apps/details?id=security.pEp), which has OpenPGP built in, and [K-9 Mail](https://play.google.com/store/apps/details?id=com.fsck.k9), (which has been around almost as long as Android!), has a solid reputation for privacy and security features.
+
+[TorBirdy](https://trac.torproject.org/projects/tor/wiki/torbirdy) is a Thunderbird addon, that configures it to make connections over the Tor network
 
 It is important to keep the device/ server running your mail client secure.
 
@@ -412,7 +418,7 @@ Don't want to build? See also: [Pre-configured security boxes](https://github.co
 | --- | --- |
 **[Tor](https://www.torproject.org)** | Tor provides robust anonymity, allowing you to defend against surveillance, circumvent censorship and reduce tracking. It blocks trackers, resists fingerprinting and implements multi-layered encryption by default, meaning you can browse freely. Tor also allows access to OnionLand: hidden services
 **[I2P](https://geti2p.net)** | I2P offers great generic transports, it is well geared towards accessing hidden services, and has a couple of technical benefits over Tor: P2P friendly with unidirectional short-lived tunnels, it is packet-switched (instead of circuit-switched) with TCP and UDP, and continuously profiles peers, in order to select the best performing ones. <br>I2P is less mature, but fully-distributed and self-organising, it's smaller size means that it hasn't yet been blocked or DOSed much
-**[Freenet]()** | Freenet is easy to setup, provides excellent friend To Friend Sharing vs I2P, and is great for publishing content anonymously. It's quite large in size, and very slow so not the best choice for casual browsing
+**[Freenet](https://freenetproject.org)** | Freenet is easy to setup, provides excellent friend To Friend Sharing vs I2P, and is great for publishing content anonymously. It's quite large in size, and very slow so not the best choice for casual browsing
 
 Tor, I2P and Freenet are all anonymity networks- but they work very differently and each is good for specific purposes. So a good and viable solution would be to use all of them, for different tasks.
 *You can read more about how I2P compares to Tor, [here](https://blokt.com/guides/what-is-i2p-vs-tor-browser)*
@@ -461,6 +467,7 @@ DNS-over-TLS was proposed in [RTC-7858](https://tools.ietf.org/html/rfc7858) by 
 - [Quad9](https://www.quad9.net) is a well-funded, performant DNS with a strong focus on privacy and security and easy set-up, however questions have been raised about the motivation of some of the financial backers.
 - [BlahDNS](https://blahdns.com) (Japan, Finland or Germany) is an excellent security-focused DNS
 - [OpenNIC](https://www.opennic.org/), [NixNet DNS](https://nixnet.services/dns) and [UncensoredDNS](https://blog.uncensoreddns.org) are open source and democratic, privacy-focused DNS
+- [Unbound](https://nlnetlabs.nl/projects/unbound/about/) is a validating, recursive, caching DNS resolver, designed to be fast and lean. Incorporates modern features and based on open standards
 - [Clean Browsing](https://cleanbrowsing.org/), is a good option for protecting kids,  they offer comprehensive DNS-based Content Filtering
 
 #### Word of Warning
