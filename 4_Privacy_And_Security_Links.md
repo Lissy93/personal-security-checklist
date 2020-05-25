@@ -72,10 +72,12 @@
     - See also: The source code for these projects, on WikiLeaks [Vault7](https://wikileaks.org/vault7) and [Vault8](https://wikileaks.org/vault8), and the accompanying [press release](https://wikileaks.org/ciav7p1)
    - Who Has Your Back? - Which companies hand over your comply with Government Data Requests 2019: via [EFF](https://www.eff.org/wp/who-has-your-back-2019)
    - Open project to rate, annotate, and archive privacy policies: via [PrivacySpy.org](https://privacyspy.org)
+   - Check who your local and government representatives in your local area are [WhoAreMyRepresentatives.org](https://whoaremyrepresentatives.org)
 
 
 ## Articles
 - **General**
+  - 8-point manifesto, of why Privacy Matters: via [whyprivacymatters.org](https://whyprivacymatters.org)
   - Rethinking Digital Ads: via [TheInternetHealthReport](https://internethealthreport.org/2019/rethinking-digital-ads)
 - **Encryption**
   - Overview of projects working on next-generation secure email: via [OpenTechFund](https://github.com/OpenTechFund/secure-email)
@@ -118,6 +120,7 @@
 - [Security Planner](https://securityplanner.org) - Great advise for beginners
 - [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
 - [Internet Health Report](https://foundation.mozilla.org/en/internet-health-report) - Mozilla is documenting and explaining what’s happening to openness and freedom on the Internet
+- [Worth Hiding](https://worthhiding.com) - Posts about privacy, politics and the law
 - [The Hacker News](https://thehackernews.com) - Up-to-date Cybersecurity News and Analysis
 
 
@@ -128,14 +131,30 @@
 - [Ghost in the Wires](https://www.amazon.co.uk/gp/product/B00FOQS8D6) by Kevin Mitnick: Kevin tells his story of being the world's most wanted hacker
 
 ## Podcasts
-- [Darknet Diaries] by Jack Rhysider: Stories from the dark sides of the internet. Listen on [Stitcher][da-stitch]
-  - Listen on [Stitcher][da-stitch], [iTunes][da-itunes], [Spotify][da-spotify], [PocketCasts][cy-pocketcasts]
-- [CYBER] by Motherboard: News and analysis about the latest cyber threats
-  - Listen on [Stitcher][cy-stitch], [SoundCloud][cy-soundcloud], [iTunes][cy-itunes], [Spotify][cy-spotify], [PocketCasts][cy-pocketcasts]
-- [The Privacy, Security, & OSINT Show] by Michael Bazzell: Comprehensive guides on Privacy and OSINT
-  - Listen on [Stitcher][tp-stitcher], [SoundCloud][tp-soundcloud], [iTunes][tp-itunes], [Spotify][tp-spofify], [PocketCasts][tp-pocketcasts]
-- [Smashing Security] by Graham Cluley and Carole Theriault: Casual, opinionated and humerous chat about current cybersecurity news
-  - Listen on [Stitcher][sm-stitcher], [iTunes][sm-itunes], [Spotify][sm-spofify], [PocketCasts][sm-pocketcasts]
+- [Darknet Diaries] by Jack Rhysider: Stories from the dark sides of the internet.<br>
+[![Stitcher](https://img.shields.io/badge/Listen-Stitcher-E88923?logo=stitcher&style=flat-square)][da-stitch]
+[![iTunes](https://img.shields.io/badge/Listen-iTunes-FB5BC5?logo=itunes&style=flat-square)][da-itunes]
+[![Spotify](https://img.shields.io/badge/Listen-Spotify-1ED760?logo=spotify&style=flat-square)][da-spotify]
+[![PocketCasts](https://img.shields.io/badge/Listen-PocketCasts-F43E37?logo=Pocket%20Casts&style=flat-square)][cy-pocketcasts]
+[![Google Podcasts](https://img.shields.io/badge/Listen-Google%20Podcasts-4285F4?logo=Google%20Podcasts&style=flat-square)][da-google]
+- [CYBER] by Motherboard: News and analysis about the latest cyber threats<br>
+[![Stitcher](https://img.shields.io/badge/Listen-Stitcher-E88923?logo=stitcher&style=flat-square)][cy-stitch]
+[![iTunes](https://img.shields.io/badge/Listen-iTunes-FB5BC5?logo=itunes&style=flat-square)][cy-itunes]
+[![Spotify](https://img.shields.io/badge/Listen-Spotify-1ED760?logo=spotify&style=flat-square)][cy-spotify]
+[![SoundCloud](https://img.shields.io/badge/Listen-SoundCloud-FF6600?logo=soundcloud&style=flat-square)][cy-soundcloud]
+[![PocketCasts](https://img.shields.io/badge/Listen-PocketCasts-F43E37?logo=Pocket%20Casts&style=flat-square)][cy-pocketcasts]
+- [The Privacy, Security, & OSINT Show] by Michael Bazzell: Comprehensive guides on Privacy and OSINT<br>
+[![Stitcher](https://img.shields.io/badge/Listen-Stitcher-E88923?logo=stitcher&style=flat-square)][tp-stitch]
+[![iTunes](https://img.shields.io/badge/Listen-iTunes-FB5BC5?logo=itunes&style=flat-square)][tp-itunes]
+[![Spotify](https://img.shields.io/badge/Listen-Spotify-1ED760?logo=spotify&style=flat-square)][tp-spotify]
+[![SoundCloud](https://img.shields.io/badge/Listen-SoundCloud-FF6600?logo=soundcloud&style=flat-square)][tp-soundcloud]
+[![PocketCasts](https://img.shields.io/badge/Listen-PocketCasts-F43E37?logo=Pocket%20Casts&style=flat-square)][tp-pocketcasts]
+- [Smashing Security] by Graham Cluley and Carole Theriault: Casual, opinionated and humerous chat about current cybersecurity news<br>
+[![Stitcher](https://img.shields.io/badge/Listen-Stitcher-E88923?logo=stitcher&style=flat-square)][sm-stitch]
+[![iTunes](https://img.shields.io/badge/Listen-iTunes-FB5BC5?logo=itunes&style=flat-square)][sm-itunes]
+[![Spotify](https://img.shields.io/badge/Listen-Spotify-1ED760?logo=spotify&style=flat-square)][sm-spotify]
+[![Google Podcasts](https://img.shields.io/badge/Listen-Google%20Podcasts-4285F4?logo=Google%20Podcasts&style=flat-square)][sm-google]
+[![PocketCasts](https://img.shields.io/badge/Listen-PocketCasts-F43E37?logo=Pocket%20Casts&style=flat-square)][sm-pocketcasts]
  
 More Security Podcasts on [player.fm](https://player.fm/featured/security)
 
@@ -147,6 +166,7 @@ More Security Podcasts on [player.fm](https://player.fm/featured/security)
 [da-itunes]: https://podcasts.apple.com/us/podcast/darknet-diaries/id1296350485
 [da-spotify]: https://open.spotify.com/show/4XPl3uEEL9hvqMkoZrzbx5
 [da-pocketcasts]: https://pca.st/darknetdiaries
+[da-google]: https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vZGFya25ldGRpYXJpZXM%3D
 
 [CYBER]: https://www.vice.com/en_us/article/59vpnx/introducing-cyber-a-hacking-podcast-by-motherboard
 [cy-stitch]: https://www.stitcher.com/podcast/vice-2/cyber
@@ -156,17 +176,18 @@ More Security Podcasts on [player.fm](https://player.fm/featured/security)
 [cy-pocketcasts]: https://pca.st/z7m3
 
 [The Privacy, Security, & OSINT Show]: https://inteltechniques.com/podcast.html
-[tp-stitcher]: https://www.stitcher.com/podcast/michael-bazzell/the-complete-privacy-security-podcast
+[tp-stitch]: https://www.stitcher.com/podcast/michael-bazzell/the-complete-privacy-security-podcast
 [tp-soundcloud]: https://soundcloud.com/user-98066669
 [tp-itunes]: https://podcasts.apple.com/us/podcast/complete-privacy-security/id1165843330
-[tp-spofify]: https://open.spotify.com/show/6QPWpZJ6bRTdbkI7GgLHBM
+[tp-spotify]: https://open.spotify.com/show/6QPWpZJ6bRTdbkI7GgLHBM
 [tp-pocketcasts]: https://pca.st/zdIq
 
 [Smashing Security]: https://www.smashingsecurity.com
-[sm-stitcher]: https://www.stitcher.com/podcast/smashing-security
+[sm-stitch]: https://www.stitcher.com/podcast/smashing-security
 [sm-itunes]: https://podcasts.apple.com/gb/podcast/smashing-security/id1195001633
-[sm-spofify]: https://open.spotify.com/show/3J7pBxEu43nCnRTSXaan8S
+[sm-spotify]: https://open.spotify.com/show/3J7pBxEu43nCnRTSXaan8S
 [sm-pocketcasts]: https://pca.st/47UH
+[sm-google]: https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc21hc2hpbmdzZWN1cml0eS5jb20vcnNz
 
 ## Videos
 - **General**
@@ -200,6 +221,7 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
   - [εxodus](https://reports.exodus-privacy.eu.org) - Check which trackers any app on the Play Store has
   - [Have I been Pwned](https://haveibeenpwned.com) and [Dehashed](https://www.dehashed.com) - Check if your details have been compromised
   - [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
+  - [Botometer](https://botometer.iuni.iu.edu/) - An AI script to check if a certain username is a bot
 - **Utilities**
   - [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
   - [Secure Password Check](https://password.kaspersky.com) - Fun little tool, to demonstrate how long it could take to crack a password
@@ -243,6 +265,7 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
   - [Disroot](https://disroot.org)
 - **Archives**
   - [The Way Back Machine](https://archive.org/web/web.php) - See previous versions of any website. An archive of 431 billion snapshots over 20 years
+  - [PolitiTweet](https://polititweet.org) -  Archives Tweets from powerful public figures, and records silent retractions and deleted tweets
   - [Internet Archive Software Collection](https://archive.org/details/software) - The largest vintage and historical software library
   - [OpenLibrary](https://openlibrary.org) - A free, digital library of over 2 million eBooks, and information on over 20 million books
   - [Archive-It](https://archive-it.org) - Collecting and accessing cultural heritage on the web
@@ -269,6 +292,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [Web Tracking Data](https://webtransparency.cs.princeton.edu/webcensus/#data) by Princeton University - This is the largest and most detailed analysis of online tracking to date, and measures both stateful (cookie-based) and stateless (fingerprinting-based) tracking. The crawls were made with [OpenWPM](https://github.com/mozilla/OpenWPM)
   - [Who has your Back?](https://www.eff.org/files/2019/06/11/whyb_2019_report.pdf) by EFF - Anual report assessing how companies handle personal data
     - Historic Reports: [2012](https://www.eff.org/files/who-has-your-back-2012_0.pdf) | [2013](https://www.eff.org/sites/default/files/who-has-your-back-2013-report-20130513.pdf) | [2014](https://www.eff.org/files/2014/05/15/who-has-your-back-2014-govt-data-requests.pdf) | [2015](https://www.eff.org/files/2015/06/18/who_has_your_back_2015_protecting_your_data_from_government_requests_20150618.pdf) | [2016](https://www.eff.org/files/2016/05/04/who-has-your-back-2016.pdf) | [2017](https://www.eff.org/files/2017/07/08/whohasyourback_2017.pdf) | [2018](https://www.eff.org/files/2018/05/31/whyb_2018_report.pdf) | [2019](https://www.eff.org/files/2019/06/11/whyb_2019_report.pdf)
+  - [Canalys Newsroom](https://www.canalys.com/newsroom) - Research Studies on Security, Privacy, Technology and Finance
 - **Databases**
   - [Exodus](https://reports.exodus-privacy.eu.org/en/trackers/stats) - Trackers in Android Apps
   - [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
