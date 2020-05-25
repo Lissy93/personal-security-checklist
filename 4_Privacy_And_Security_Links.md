@@ -135,8 +135,8 @@
 [![Stitcher](https://img.shields.io/badge/Listen-Stitcher-E88923?logo=stitcher&style=flat-square)][da-stitch]
 [![iTunes](https://img.shields.io/badge/Listen-iTunes-FB5BC5?logo=itunes&style=flat-square)][da-itunes]
 [![Spotify](https://img.shields.io/badge/Listen-Spotify-1ED760?logo=spotify&style=flat-square)][da-spotify]
-[![PocketCasts](https://img.shields.io/badge/Listen-PocketCasts-F43E37?logo=Pocket%20Casts&style=flat-square)][cy-pocketcasts]
 [![Google Podcasts](https://img.shields.io/badge/Listen-Google%20Podcasts-4285F4?logo=Google%20Podcasts&style=flat-square)][da-google]
+[![PocketCasts](https://img.shields.io/badge/Listen-PocketCasts-F43E37?logo=Pocket%20Casts&style=flat-square)][cy-pocketcasts]
 - [CYBER] by Motherboard: News and analysis about the latest cyber threats<br>
 [![Stitcher](https://img.shields.io/badge/Listen-Stitcher-E88923?logo=stitcher&style=flat-square)][cy-stitch]
 [![iTunes](https://img.shields.io/badge/Listen-iTunes-FB5BC5?logo=itunes&style=flat-square)][cy-itunes]
@@ -155,6 +155,20 @@
 [![Spotify](https://img.shields.io/badge/Listen-Spotify-1ED760?logo=spotify&style=flat-square)][sm-spotify]
 [![Google Podcasts](https://img.shields.io/badge/Listen-Google%20Podcasts-4285F4?logo=Google%20Podcasts&style=flat-square)][sm-google]
 [![PocketCasts](https://img.shields.io/badge/Listen-PocketCasts-F43E37?logo=Pocket%20Casts&style=flat-square)][sm-pocketcasts]
+- [IRL Podcast] by Mozilla: Online Life is Real Life, Stories about the future of the Web<br>
+[![Stitcher](https://img.shields.io/badge/Listen-Stitcher-E88923?logo=stitcher&style=flat-square)][irl-stitch]
+[![iTunes](https://img.shields.io/badge/Listen-iTunes-FB5BC5?logo=itunes&style=flat-square)][irl-itunes]
+[![Spotify](https://img.shields.io/badge/Listen-Spotify-1ED760?logo=spotify&style=flat-square)][irl-spotify]
+[![Google Podcasts](https://img.shields.io/badge/Listen-Google%20Podcasts-4285F4?logo=Google%20Podcasts&style=flat-square)][irl-google]
+[![PocketCasts](https://img.shields.io/badge/Listen-PocketCasts-F43E37?logo=Pocket%20Casts&style=flat-square)][irl-pocketcasts]
+- [Random but Memorable] by 1Password - A Security advice podcast<br>
+[![Stitcher](https://img.shields.io/badge/Listen-Stitcher-E88923?logo=stitcher&style=flat-square)][rbm-stitch]
+[![iTunes](https://img.shields.io/badge/Listen-iTunes-FB5BC5?logo=itunes&style=flat-square)][rbm-itunes]
+[![Spotify](https://img.shields.io/badge/Listen-Spotify-1ED760?logo=spotify&style=flat-square)][rbm-spotify]
+[![Google Podcasts](https://img.shields.io/badge/Listen-Google%20Podcasts-4285F4?logo=Google%20Podcasts&style=flat-square)][rbm-google]
+[![PocketCasts](https://img.shields.io/badge/Listen-PocketCasts-F43E37?logo=Pocket%20Casts&style=flat-square)][rbm-pocketcasts]
+
+
  
 More Security Podcasts on [player.fm](https://player.fm/featured/security)
 
@@ -188,6 +202,21 @@ More Security Podcasts on [player.fm](https://player.fm/featured/security)
 [sm-spotify]: https://open.spotify.com/show/3J7pBxEu43nCnRTSXaan8S
 [sm-pocketcasts]: https://pca.st/47UH
 [sm-google]: https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc21hc2hpbmdzZWN1cml0eS5jb20vcnNz
+
+[IRL Podcast]: https://irlpodcast.org
+[irl-stitch]: https://www.stitcher.com/podcast/smashing-security
+[irl-itunes]: https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&at=1010lbVy
+[irl-spotify]: https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08
+[irl-pocketcasts]: https://pca.st/irl
+[irl-google]: https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5tb3ppbGxhLXBvZGNhc3RzLm9yZy9pcmw
+
+[Random but Memorable]: https://blog.1password.com/random-but-memorable-the-security-advice-podcast-from-1password
+[rbm-stitch]: https://www.stitcher.com/podcast/1password/random-but-memorable
+[rbm-itunes]: https://podcasts.apple.com/us/podcast/random-but-memorable/id1435486599
+[rbm-pocketcasts]: https://pca.st/43AW
+[rbm-spotify]: https://open.spotify.com/show/5Sa3dy0xDvMT0h3O5MGMOr
+[rbm-google]: https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9lRVpIazJhTA
+
 
 ## Videos
 - **General**
