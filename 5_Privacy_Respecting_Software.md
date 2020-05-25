@@ -53,6 +53,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Backup and Sync](#backup-and-sync)
   - [File Drop](#file-drop)
   - [Browser Sync](#browser-sync)
+  - [PGP Managers](#pgp-managers)
 - **Social**
   - [Social Networks](#social-networks)
   - [Video Platforms](#video-platforms)
@@ -70,6 +71,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Cryptocurrencies](#cryptocurrencies)
   - [Virtual Credit Cards](#virtual-credit-cards)
   - [Other Payment Methods](#other-payment-methods)
+  - [Secure Budgeting](#budgeting-tools)
 - **Bonus**
   - [Alternatives to Google](#bonus-1---alternatives-to-google)
   - [Open Source Media Applications](#bonus-2---open-source-media-applications)
@@ -629,23 +631,23 @@ Finally, [Turtl Notes](https://turtlapp.com) has excellent link saving functiona
 Strip out unneeded GET parameters if they reveal any device or referrer information, so as to not inadvertently allow a website to link your devices. [ClearURLs](https://gitlab.com/KevinRoebert/ClearUrls) may help with this.
 
 
-## Personal Finance
+## PGP Managers
+
+Tools for signing, verifying, encrypting and decrypting text and files using [GnuPG](https://www.gnupg.org) standard
 
 | Provider | Description |
 | --- | --- |
-**[Firefly III](https://www.firefly-iii.org)** (Self-hosted) | A free and open source personal finance manager. Firefly III has all essential features, a clean and clear UI and is easy to set up and use (see [live demo](https://demo.firefly-iii.org)). It's backed by a strong community, and is regularly updated with new features, improvements and fixes. There is also a hass.io [addon](https://github.com/hassio-addons/addon-firefly-iii), and it works nicely with [Home Assistant](https://www.home-assistant.io). Note: Since it is self-hosted, you will need to ensure that your server (either local or remote) is correctly configured for security.
-**[EasyBudget](https://play.google.com/store/apps/details?id=com.benoitletondor.easybudgetapp)** (Android) | Clean and easy-to-use app open source budgeting app. It doesn't have all the features that alternatives offer, but it does simple budget management and planning very effectivley
-**[HomeBank](http://homebank.free.fr)** (Desktop) | Desktop personal financial management option. Great for generating charts, dynamic reports and visualising transactions. HomeBank makes it easy to import financial data from other software (Quick Books, Microsoft Money etc) and bank accounts (in OFX/QFX, QIF, CSV format), and has all the essential features you'd expect. Available on Linux and Windows (and a 3rd-party port for Mac OS)
-**[GnuCash](https://www.gnucash.org)** (Desktop) | Full-featured cross-platform accounting application, which works well for both personal and small business finance. First released in 1998, GnuCash is long standing and very stable, and despite a slightly dated UI, it's still a very popular option. Originally developed for Linux, GnuCash is now available for Windows, Mac and Linux and also has a well rated official [Android app](https://play.google.com/store/apps/details?id=org.gnucash.android&hl=en)
-
-#### Notable Mentions
-Spreadsheets remain a popular choice for managing budgets and financial planning.  [Collabora](https://nextcloud.com/collaboraonline) or [OnlyOffice](https://nextcloud.com/onlyoffice) (on [NextCloud](https://nextcloud.com)), [Libre Office](https://www.libreoffice.org) and [EtherCalc](https://ethercalc.net) are popular open source spread sheet applications. [Mintable](https://github.com/kevinschaich/mintable) allows you to auto-populate your spreadsheets from your financial data, using publicly accessible APIs- mitigating the requirement for a dedicated budgeting application.
-
-Other notable open source budgeting applications include: [Smart Wallet](https://apps.apple.com/app/smart-wallet/id1378013954) (iOS), [My-Budget](https://rezach.github.io/my-budget) (Desktop), [MoneyManager EX](https://www.moneymanagerex.org), [Skrooge](https://skrooge.org), [kMyMoney](https://kmymoney.org)
-
-See Also: [Cryptocurrencies](#cryptocurrencies), [Virtual Credit Cards](#virtual-credit-cards) and [Other Payment Methods](#other-payment-methods)
-
-See Also: [Personal Finance Security Tips](README.md#personal-finance)
+**[SeaHorse](https://wiki.gnome.org/Apps/Seahorse/)** (Linux/ GNOME) | Application for managing encryption keys and passwords, integrated with the [GNOME Keyring](https://wiki.gnome.org/action/show/Projects/GnomeKeyring?action=show&redirect=GnomeKeyring)
+**[Kleopatra](https://kde.org/applications/en/utilities/org.kde.kleopatra)** (Linux/ KDE) | Certificate manager and a universal crypto GUI. It supports managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving certificates from LDAP server
+**[GPG4Win](https://www.gpg4win.org)** (Windows) | Kleopatra ported to Windows
+**[GPG Suite](https://gpgtools.org)** (MacOS) | Successor of [MacGPG](https://macgpg.sourceforge.io). Note: no longer free
+**[OpenKeychain](https://www.openkeychain.org)** (Android) | Android appp for managing keys, and encrypting messages. Works both stand-alone, and as integrated into other apps, includion [k9-Mail](https://k9mail.app)
+**[PGP Everywhere](https://www.pgpeverywhere.com)** (iOS) | iOS app for encrypting/ decrypting text. Has native keyboard integration, which makes it quick to use. Note: Not open source
+**[FlowCrypt](https://flowcrypt.com)** (Browser) | Browser extension for using PGP within Gmail, for Chrome and Firefox. Mobile version supported on Android and iOS
+**[EnigMail](https://enigmail.net)** (Thunderbird) | OpenPGP extension for [Thunderbird](https://www.thunderbird.net) and [PostBox](https://www.postbox-inc.com), intergrates nativley within mail app
+**[p≡p](https://www.pep.security)** | Easy-to-use decentralied PGP encryption for Android, iOS, Thunderbird, Enigmail, and Outlook. Popular solution for enterprises
+**[Mailvelope](https://www.mailvelope.com)** (Email) | Mailvelope is an addon for email applications, that makes using PGP very easy for beginners. You can use the hosted version for free, or opt to host your own instance. It has good compatibility with all common mail applications, both on desktop and mobile
+**[PGP4USB](https://gpg4usb.org)** (Portable) | A portable desktop app, that can be run directly off a USB, useful for when you need to use without installing
 
 
 ## Social Networks
@@ -763,6 +765,25 @@ Paying for goods and services is a good example of where privacy and security co
 
 #### Word of Warning
 Note that credit card providers heavily track transaction metadata, which build up a detailed picture of each persons spending habits. This is done both to provide improved fraud alerts, but also because the data is extremely valuable and is often 'anonymized' and sold to 3rd parties. Hence your privacy is degraded if these cards are used for daily transactions
+
+
+## Budgeting Tools
+
+| Provider | Description |
+| --- | --- |
+**[Firefly III](https://www.firefly-iii.org)** (Self-hosted) | A free and open source personal finance manager. Firefly III has all essential features, a clean and clear UI and is easy to set up and use (see [live demo](https://demo.firefly-iii.org)). It's backed by a strong community, and is regularly updated with new features, improvements and fixes. There is also a hass.io [addon](https://github.com/hassio-addons/addon-firefly-iii), and it works nicely with [Home Assistant](https://www.home-assistant.io). Note: Since it is self-hosted, you will need to ensure that your server (either local or remote) is correctly configured for security.
+**[EasyBudget](https://play.google.com/store/apps/details?id=com.benoitletondor.easybudgetapp)** (Android) | Clean and easy-to-use app open source budgeting app. It doesn't have all the features that alternatives offer, but it does simple budget management and planning very effectivley
+**[HomeBank](http://homebank.free.fr)** (Desktop) | Desktop personal financial management option. Great for generating charts, dynamic reports and visualising transactions. HomeBank makes it easy to import financial data from other software (Quick Books, Microsoft Money etc) and bank accounts (in OFX/QFX, QIF, CSV format), and has all the essential features you'd expect. Available on Linux and Windows (and a 3rd-party port for Mac OS)
+**[GnuCash](https://www.gnucash.org)** (Desktop) | Full-featured cross-platform accounting application, which works well for both personal and small business finance. First released in 1998, GnuCash is long standing and very stable, and despite a slightly dated UI, it's still a very popular option. Originally developed for Linux, GnuCash is now available for Windows, Mac and Linux and also has a well rated official [Android app](https://play.google.com/store/apps/details?id=org.gnucash.android&hl=en)
+
+#### Notable Mentions
+Spreadsheets remain a popular choice for managing budgets and financial planning.  [Collabora](https://nextcloud.com/collaboraonline) or [OnlyOffice](https://nextcloud.com/onlyoffice) (on [NextCloud](https://nextcloud.com)), [Libre Office](https://www.libreoffice.org) and [EtherCalc](https://ethercalc.net) are popular open source spread sheet applications. [Mintable](https://github.com/kevinschaich/mintable) allows you to auto-populate your spreadsheets from your financial data, using publicly accessible APIs- mitigating the requirement for a dedicated budgeting application.
+
+Other notable open source budgeting applications include: [Smart Wallet](https://apps.apple.com/app/smart-wallet/id1378013954) (iOS), [My-Budget](https://rezach.github.io/my-budget) (Desktop), [MoneyManager EX](https://www.moneymanagerex.org), [Skrooge](https://skrooge.org), [kMyMoney](https://kmymoney.org)
+
+See Also: [Cryptocurrencies](#cryptocurrencies), [Virtual Credit Cards](#virtual-credit-cards) and [Other Payment Methods](#other-payment-methods)
+
+See Also: [Personal Finance Security Tips](README.md#personal-finance)
 
 
 ## Mobile Operating Systems
