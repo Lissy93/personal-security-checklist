@@ -33,18 +33,24 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 
 ### Phone
-- Have a strong pin/password on your mobile device.
-- Turn off WiFi when you're not using it, and delete saved networks that you no longer need (Settings --> WiFi --> Saved Networks).
-- Don't grant apps permissions that they don't need. For Android, you can use [Exodus](https://exodus-privacy.eu.org/en/) to quickly see the permissions and trackers for each of your installed apps.
+- Set a device PIN, ideally use a long passcode
+- Encrypt your device, in order to keep your data safe from physical access. To enable, for Android: `Settings --> Security --> Encryption`, or for iOS: `Settings --> TouchID & Passcode --> Data Protection`
+- Keep device up-to-date. System updates often contain patches for recently-discovered security vulnrabilities. You should install updates when prompted
+- Review application permissions. Don't grant access permissions to apps that do not need it. (For Android, see also [Bouncer](https://play.google.com/store/apps/details?id=com.samruston.permission&hl=en_US) - an app that allows you to grant temporary permissions)
+- Disable connectivity features that aren't being used, and 'forget' WiFi networks that you no longer need
+- Disable location tracking. By default, both Android and iOS logs your GPS location history. You can disable this, for Android: `Maps --> Settings --> Location History`, and iOS: `Settings --> Privacy --> Location Services --> System Services --> Places`. Be aware that third-party apps may still log your position, and there are other methods of determining your location other than GPS (Cell tower, WiFi, Bluetooth etc)
+- Use an application firewall to block internet connectivity for apps that shouldn't need it. Such as [NetGuard](https://www.netguard.me/) (Android) or [Lockdown](https://apps.apple.com/in/app/lockdown-apps/id1469783711) (iOS)
+- Understand that apps contain trackers, that collect, store and sometimes share your data. For Android, you could use [Exodus](https://exodus-privacy.eu.org/en/page/what/) to reveal which trackers your installed apps are using.
 
 
 ### Email
-It's important to protect your email account, as if a hacker gains access to it they will be able to pose as you, and reset the passwords for your other online accounts. Use a long, strong and unique password, enable 2FA and avoid publicly sharing your email address. One of the biggest threats to digital security is still phishing, and it can sometimes be incredibly convincing, so remain vigilant, and understand [how to spot malicious emails](https://heimdalsecurity.com/blog/abcs-detecting-preventing-phishing)
+It's important to protect your email account, as if a hacker gains access to it they will be able to pose as you, and reset the passwords for your other online accounts. One of the biggest threats to digital security is still phishing, and it can sometimes be incredibly convincing, so remain vigilant, and understand [how to spot malicious emails](https://heimdalsecurity.com/blog/abcs-detecting-preventing-phishing), and avoid publicly sharing your email address
 
+- Use a long, strong and unique password and enable 2FA
 - Consider switching to a secure and encrypted mail provider using, such as [ProtonMail](https://protonmail.com) or [Tutanota](https://tutanota.com)
 - Use email aliasing to protect your real mail address, with a provider such as [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io/?slref=bridsqrgvrnavso). This allows you to keep your real address private, yet still have all messages land in your primary inbox
 - Disable automatic loading of remote content, as it is often used for detailed tracking but can also be malicious
-- Using a custom domain, will mean you will not loose access to your email address if your current provider disappears. You can also back up messages easily with a secure client, such as [Thuderbird](https://www.thunderbird.net) via IMAP
+- Using a custom domain, will mean you will not loose access to your email address if your current provider disappears. If you need to back up messages, use a secure IMAP client [Thuderbird](https://www.thunderbird.net)
 
 
 ### Networking
