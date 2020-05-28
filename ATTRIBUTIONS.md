@@ -31,9 +31,13 @@ Thanks goes to these wonderful people
 <!-- To add yourself to the table, copy the row above and replace with your details. Max 7 <td> (columns) per <tr> (row). -->
 
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
+*This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.*
+
 [Contributions](/CONTRIBUTING.md) of any kind welcome!
 
+Special Thanks to [Stefan Keim](https://github.com/indus) and [Matt (IPv4) Cowley](https://github.com/MattIPv4) from [JS.org](https://js.org), for providing the domain used for our GitHub Page ([security-list.js.org](https://security-list.js.org)).
+
+And of course, and huge thank you to the awesome developers behind the projects listed in the [Privacy-Respecting Software list](/5_Privacy_Respecting_Software.md). The effort, time and love they've put into each one of those applications is immediately apparent, they've done an amazing job 💞
 
 
 ## References 📝
@@ -81,6 +85,10 @@ Available: https://blog.securegroup.com/phone-hacking-through-ss7-is-frightening
 
 [15]J. Heidemann, Y. Pradkin, R. Govindan, C. Papadopoulos and J. Bannister, "Exploring Visible Internet Hosts through Census and Survey", Isi.edu, 2020. [Online].
 Available: https://www.isi.edu/~johnh/PAPERS/Heidemann07c.pdf. [Accessed: 10- May- 2020]
+
+[16] Michalevsky, Y., Boneh, D. and Nakibly, G., 2014. Recognizing Speech From Gyroscope Signals. [online] Usenix.org. Available at: <https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-michalevsky.pdf> [Accessed 26 May 2020].
+
+[17] Favaretto, M., Clercq, E. and Simone Elger, B., 2019. Big Data And Discrimination: Perils, Promises And Solutions. A Systematic Review. [online] springeropen. Available at: <https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0177-4> [Accessed 26 May 2020].
 
 </blockquote>
 
