@@ -51,6 +51,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Digital Notes](#digital-notes)
   - [Cloud Productivity Suits](#cloud-productivity-suits)
   - [Backup and Sync](#backup-and-sync)
+  - [Encrypted Cloud Storage](#encrypted-cloud-storage)
   - [File Drop](#file-drop)
   - [Browser Sync](#browser-sync)
   - [PGP Managers](#pgp-managers)
@@ -598,6 +599,27 @@ Alternatively, consider a headless utility such as [Duplicacy](https://duplicacy
 
 #### Word of Warning
 You should always ensure that any data stored in the cloud is encrypted. If you are hosting your own server, then take the necessary precautions to [secure the server](https://med.stanford.edu/irt/security/servers.html). For hosted solutions- use a strong password, keep your credentials safe and enable 2FA.
+
+## Encrypted Cloud Storage
+
+Backing up important files is essential, and keeping an off-site copy is recommended. But many free providers do not respect your privacy, and are not secure enough for sensitive documents. Avoid free mainstream providers, such as Google Drive, cloud, Microsoft Overdrive, Dropbox.
+
+It is recommended to encrypt files on your client machine, before syncing to the cloud. [Cryptomator](https://cryptomator.org) is a cross-platform, open source encryption app, designed for just this.
+
+| Provider | Description |
+| --- | --- |
+**[Tresorit](https://tresorit.com)** | End-to-end encrypted zero knowledge file storage, syncing and sharing provider, based in Switzerland. The app is cross-platform, user-friendly client and with all expected features. £6.49/month for 500 GB
+**[IceD rive](https://icedrive.net)** | Very affordable encrypted storage provider, with cross-platform apps. Starts as £1.50/month for 150 GB or £3.33/month for 1 TB
+**[Sync.com](https://www.sync.com)** | Secure file sync, sharing, collaboration and backup for individuals, small businesses and sole practitioners. Starts at $8/month for 2 TB
+**[cloud](https://www.pcloud.com)** | Secure and simple to use cloud storage, with cross-platform client apps. £3.99/month for 500 GB
+
+#### Notable Mentions
+An alternative option, is to use a cloud computing provider, and implement the syncing functionality yourself, and encrypt data locally before uploading it- this may work out cheaper in some situations. You could also run a local server that you physically own at a secondary location, that would mitigate the need to trust a third party cloud provider. Note that some knowledge in securing networks is required.
+
+**See Also**:
+- [File Encryption Software](#file-encryption)
+- [File Sync Software](#backup-and-sync)
+- [Cloud Hosting Providers](#cloud-hosting)
 
 
 ## File Drop
