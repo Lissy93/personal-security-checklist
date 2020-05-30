@@ -55,6 +55,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [File Drop](#file-drop)
   - [Browser Sync](#browser-sync)
   - [PGP Managers](#pgp-managers)
+  - [Secure Conference Calle](#video-conference-calls)
 - **Social**
   - [Social Networks](#social-networks)
   - [Video Platforms](#video-platforms)
@@ -677,6 +678,20 @@ Tools for signing, verifying, encrypting and decrypting text and files using [Gn
 **[p≡p](https://www.pep.security)** | Easy-to-use decentralied PGP encryption for Android, iOS, Thunderbird, Enigmail, and Outlook. Popular solution for enterprises
 **[Mailvelope](https://www.mailvelope.com)** (Email) | Mailvelope is an addon for email applications, that makes using PGP very easy for beginners. You can use the hosted version for free, or opt to host your own instance. It has good compatibility with all common mail applications, both on desktop and mobile
 **[PGP4USB](https://gpg4usb.org)** (Portable) | A portable desktop app, that can be run directly off a USB, useful for when you need to use without installing
+
+## Video Conference Calls
+
+With the [many, many security issues with Zoom](https://www.tomsguide.com/uk/news/zoom-security-privacy-woes), and other mainsstram it becomes clear that a better, more private and secure alternative is required. As with other categories, the "best video calling app" will be different for each of us, depending on the ratio of performance + features to security + privacy required in your situation.
+
+| Provider | Description |
+| --- | --- |
+**[Jami](https://jami.net)** | A free and open source, distributed video, calling and screenshare platform with a focus on security. Jami is completely completely peer-to-peer, and has full end-to-end encryption with perfect forward secrecy for all communications, complying with the [X.509](https://en.wikipedia.org/wiki/X.509) standard. Supported nativity on Windows, macOS, iOS, GNU/Linux, Android and Android TV. Video quality is quite good, but very dependent on network speeds, some of the apps are lacking in features
+**[Jitsi](https://jitsi.org)** | Encrypted, free and open source video calling app, which does not require creating an account/ providing any personal details. Availible as a web app, and native app for Windows, MacOS, Linux, Android and iOS. You can use the public Jitsi instance, self-host your own, or use a [community hosted instance](https://github.com/jitsi/jitsi-meet/wiki/Jitsi-Meet-Instances)
+
+#### Notable Mentions
+[Apache OpenMeetings](https://openmeetings.apache.org) provides self-hosted video-conferencing, chat rooms, file server and tools for meetings. [together.brave.com](https://together.brave.com) is Brave's Jitsi Fork.
+For remote learning, [BigBlueButton](https://bigbluebutton.org) is self-hosted conference call software, aimed specifically at schools and Universities. It allows for the host/ teacher to have full control over the session, and provides high-quality video streaming, multi-user whiteboards, breakout rooms, and instant chat.
+For 1-to-1 mobile video calls, see [Encrypted Messaging](#encrypted-messaging), and for P2P single and group calls, see [P2P Messaging](#p2p-messaging).
 
 
 ## Social Networks
