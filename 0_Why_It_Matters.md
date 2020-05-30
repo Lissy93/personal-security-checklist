@@ -6,7 +6,7 @@
 ----
 
 ## What is Personal Data?
-Personal data is any information that relates to an identified or identifiable living individual. Even data that has been de-identified or pseudonymized can often still be used to re-identify a person, especially when combined with a secondary data set.
+Personal data is any information that relates to an identified or identifiable living individual. Even data that has been de-identified or anonymized  can often still be used to re-identify a person, especially when combined with a secondary data set.
 
 This could be sensitive documents (such as medical records, bank statements, card numbers, etc), or user-generated content (messages, emails, photos, search history, home CCTV, etc) or apparently trivial metadata (such as mouse clicks, typing patterns, time spent on each web page, etc)
 
@@ -23,12 +23,12 @@ Data is collected, stored and used by governments, corporations and sometimes cr
 ### Government Mass Surveillance
 Intelligence and law enforcement agencies need surveillance powers to tackle serious crime and terrorism. However, since the Snowden revelations, we now know that this surveillance is not targeted at those suspected of wrongdoing- but instead the entire population. All our digital interactions are being logged and tracked by our very own governments.
 
-Mass surveillance is a means of control and suppression. When you know you are being watched, you subconsciously change your behavior, it has this chilling effect. A society of surveillance is just 1 step away from a society of submission.
+Mass surveillance is a means of control and suppression, it takes away our inerrant freedoms and breeds conformity. When we know we are being watched, we subconsciously change your behavior. A society of surveillance is just 1 step away from a society of submission.
 
 ### Corporations
 On the internet the value of data is high. Companies all want to know exactly who you are and what you are doing. They collect data, store it, use it and sometimes sell it on.
 
-Everything that each of us does online leaves a trail of data. These traces make up a goldmine of information full of insights into people on a personal level as well as a valuable read on larger cultural, economic and political trends. Tech giants (such as Google, Facebook, Apple, Amazon, and Microsoft) are leveraging this, building billion-dollar businesses out of the data that are interactions with digital devices create. We, as users have no gaurantees that what is being collected is being stored securly, we often have no way to know for sure that it is deleted when we request so, and we don't have access to what their AI systems have refered from our data.
+Everything that each of us does online leaves a trail of data. These traces make up a goldmine of information full of insights into people on a personal level as well as a valuable read on larger cultural, economic and political trends. Tech giants (such as Google, Facebook, Apple, Amazon, and Microsoft) are leveraging this, building billion-dollar businesses out of the data that are interactions with digital devices create. We, as users have no guarantees that what is being collected is being stored securely, we often have no way to know for sure that it is deleted when we request so, and we don't have access to what their AI systems have refered from our data.
 
 Our computers, phones, wearables, digital assistants and IoT have been turned into tracking bugs that are plugged into a vast corporate-owned surveillance network. Where we go, what we do, what we talk about, who we talk to, and who we see – everything is recorded and, at some point, leveraged for value. They know us intimately, even the things that we hide from those closest to us. In our modern internet ecosystem, this kind of private surveillance is the norm.
 
@@ -41,33 +41,42 @@ In the same way, criminals will go to great lengths to use your data against you
 
 ## Why Data Privacy Matters
 
-#### Data Privacy and Freedom of Speach
-Privacy is a fundamental right, and you shouldn't need to prove the necessity of fundamental right to anyone. As Edward Snowden said, "Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say". There are many scenarios in which privacy is crucial and desirable like intimate conversations, medical procedures, and voting. When we know we are being watched, our behaviour changes, which in turn suppresses things like free speech.
+#### Data Privacy and Freedom of Speech
+Privacy is a fundamental right, and you shouldn't need to prove the necessity of fundamental right to anyone. As Edward Snowden said, "Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say". There are many scenarios in which privacy is crucial and desirable like intimate conversations, medical procedures, and voting. When we know we are being watched, our behavior changes, which in turn suppresses things like free speech.
 
 #### Data Can Have Control Over You
-Knowledge is power; Knowledge about you is power over you. Your information will be used to anticipate your actions and manipulate the way you shop, vote, and think.
-When you know you are being watched, you subconsciously change your behavior
-Without privacy, you might be so afraid of being judged by others, even if you're not doing anything wrong.
+Knowledge is power; Knowledge about you is power over you. Your information will be used to anticipate your actions and manipulate the way you shop, vote, and think. When you know you are being watched, you subconsciously change your behavior. Mass surveillance  is an effective, means of fostering compliance with social norms or with social orthodoxy. Without privacy, you might be afraid of being judged by others, even if you're not doing anything wrong. It can be a heavy burden constantly having to wonder how everything we do will be perceived by others.
 
 #### Data Can Be Used Against You
-Your personal information and private communications can be "cherrypicked" to paint a certain one-sided picture. It can make you look like a bad person, or criminal, even if you are not. Data often results in people not being judged fairley- standards differ between cultures, organisations, and generations. Since data records are permant, behavior that is deemed acceptable today, may be held against you tomorrow. Further to this, even things we don't think are worth hiding today, may later be used against us in unexpected ways.
+Your personal information and private communications can be "cherry-picked" to paint a certain one-sided picture. It can make you look like a bad person, or criminal, even if you are not. Data often results in people not being judged fairly- standards differ between cultures, organisations, and generations. Since data records are permanent, behavior that is deemed acceptable today, may be held against you tomorrow. Further to this, even things we don't think are worth hiding today, may later be used against us in unexpected ways.
 
-#### Data Collection Has No Respect For Boundtries
+#### Data Collection Has No Respect For Boundaries
 Data collection has no respect for social boundaries, you may wish to prevent some people (such as employers, family or former partners) from knowing certain things about you. Once you share personal data, even with a party you trust, it is then out of your control forever, and at risk of being hacked, leaked or sold. An attack on our privacy, also hurts the privacy of those we communicate with.
 
 #### Data Discriminates
-When different pieces of your data is aggregated together, it can create a very complete picture of who you are, where you spend your time. This data can lead to discrimination of minority groups in areas such as employment, marketing, credit scoring and criminal outcomes.
-
+When different pieces of your data is aggregated together, it can create a very complete picture of who you are. This data profile, is being used to influence decisions made about you: from insurance premiums, job prospects, bank loan eligibility and license decisions. It can determine whether we are investigated by the government, searched at the airport, or blocked from certain services. Even what content you see on the internet is affected by our personal data. This typically has a bigger impact on minority groups, who are unfairly judged the most. Without having the ability to know or control what, how, why and when our data is being used, we loose a level of control. One of the hallmarks of freedom is having autonomy and control over our lives, and we can’t have that if so many important decisions about us are being made in the dark, without our awareness or participation.
 
 #### The "I Have Nothing to Hide" Argument
-Privacy isn’t about hiding information; privacy is about protecting information, and everyone has information that they’d like to protect. Even with nothing to hide, we still put blinds on your window- and we wouldn't want your search history, bank statements, photos, notes or messages to be publicly available to the world.
+Privacy isn’t about hiding information; privacy is about protecting information, and everyone has information that they’d like to protect. Even with nothing to hide, you still put blinds on your window, locks on your door, and passwords on your email account.- Nobody would want their search history, bank statements, photos, notes or messages to be publicly available to the world.
 
-#### Economies of Scale
+#### Data Privacy needs to be for Everyone
 For online privacy to be effective, it needs to be adopted my the masses, and not just the few. By exercising your right to privacy, you make it easier for others, such as activists and journalists, to do so without sticking out.
 
 ----
 
-#### Where to go from here:
+## So What Should we Do?
+
+- Educate yourself about what's going on and why it matters
+- Be aware of changes to policies, revelations, recent data breaches and related news
+- Take steps to secure your online accounts, protect your devices
+- Understand how to communicate privately, and how use the internet anonymously
+- Use software and services that respect your privacy, and keep your data safe
+- Support organisations that fight for your privacy and internet freedom
+- Find a way to make your voice heard, and stand up for what you believe in
+
+----
+
+## Further Links
 - [Ultimate Personal Security Checklist](/README.md)
 - [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
 - [Privacy & Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
