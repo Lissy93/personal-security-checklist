@@ -55,7 +55,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [File Drop](#file-drop)
   - [Browser Sync](#browser-sync)
   - [PGP Managers](#pgp-managers)
-  - [Secure Conference Calle](#video-conference-calls)
+  - [Secure Conference Calls](#video-conference-calls)
 - **Social**
   - [Social Networks](#social-networks)
   - [Video Platforms](#video-platforms)
@@ -64,6 +64,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Operating Systems**
   - [Mobile Operating Systems](#mobile-operating-systems)
   - [PC Operating Systems](#pc-operating-systems)
+  - [Linux Defences](#linux-defences)
   - [Windows Defences](#windows-defences)
   - [Mac OS Defences](#mac-os-defences)
 - **Home/ IoT**
@@ -192,7 +193,7 @@ The below email providers are private, end-to-end encrypted (E2EE) and reasonabl
 See [OpenTechFund- Secure Email](https://github.com/OpenTechFund/secure-email) for more details.
 
 #### Other Notable Mentions
-[HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Posteo](https://posteo.de). For activists and journalists, see [Disroot](https://disroot.org/en), [Autistici](https://www.autistici.org) and [RiseUp](https://riseup.net/en)
+[HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Posteo](https://posteo.de), [Lavabit](https://lavabit.com). For activists and journalists, see [Disroot](https://disroot.org/en), [Autistici](https://www.autistici.org) and [RiseUp](https://riseup.net/en)
 
 
 ### Self-Hosted Email
@@ -237,9 +238,10 @@ Alternatively you could host your own catch-all email service. [Mailu](https://g
 **[Bromite](https://www.bromite.org/)** | Bromite is Chromium (Chrome without Google) plus ad blocking and enhanced privacy. It provides a no-clutter browsing experience without privacy-invasive features- it's lightweight and minimal
 **[Tor Browser](https://www.torproject.org/)** | Tor provides an extra layer of anonymity, by encrypting each of your requests, then routing it through several nodes, making it near-impossible for you to be tracked by your ISP/ provider. It does make every-day browsing a little slower, and some sites may not work correctly. As with everything there are [trade-offs](https://github.com/Lissy93/personal-security-checklist/issues/19)
 
-See also: [Recommended Browser Extensions](#browser-extensions)
+#### Notable Mentions
+[WaterFox](https://www.waterfox.net), [Epic Privacy Browser](https://www.epicbrowser.com) and [PaleMoon](https://www.palemoon.org).
 
-**See also** [Browser & Search Security Checklist](/README.md#browser-and-search)
+**See also** [Browser & Search Security Checklist](/README.md#browser-and-search) and recommended [Browser Extensions](#browser-extensions) for privacy & security.
 
 
 ## Search Engines
@@ -802,7 +804,7 @@ Virtual cards generated provide an extra layer of security, improve privacy and 
 | Provider | Description |
 | --- | --- |
 **Cash** | Actual physical cash is still the most private option, with no chance of leaving any transactional records
-**Gift Cards | Gift cards can be purchased for cash in many convenience stores, and redeemed online for goods or services. Try to avoid CCTV as best as possible.
+**Gift Cards** | Gift cards can be purchased for cash in many convenience stores, and redeemed online for goods or services. Try to avoid CCTV as best as possible.
 **Pre-paid Cards** | Similarly to gift cards, buying a pre-paid card for cash, can enable you to purchase goods and services in stores that only accept card payments.
 
 Paying for goods and services is a good example of where privacy and security conflict; the most secure option would be to pay with credit card, since most providers include comprehensive fraud protection, whereas the most private option would be to pay using crypto currency or cash, since neither can be easily tied back to your identity.
@@ -867,7 +869,8 @@ Windows 10 has many features that violate your privacy. Microsoft and Apple are 
 **[Discreete Linux](https://www.privacy-cd.org/)** (offline)| Aimed at journalists, activists and whistle-blowers, Discreete Linux is similar to Tails, in that it is booted live from external media, and leaves no/ minimal trace on the system. The aim of the project, was to provide all required cryptographic tools offline, to protect against Trojan-based surveillance
 **[Alpine Linux](https://www.alpinelinux.org/)** | Alpine is a security-oriented, lightweight distro based on musl libc and busybox. It compiles all user-space binaries as position-independent executables with stack-smashing protection. Install and setup may be quite complex for some new users
 
-
+#### Notable Mentions
+[Subgraph OS](https://subgraph.com), [PureOS](https://pureos.net), [Kali](https://www.kali.org) (defensive security), [BlackArch](https://blackarch.org) (defensive security), [Kodachi](https://www.digi77.com/linux-kodachi/), [IprediaOS](https://www.ipredia.org) (obsolete), [Fedora CoreOS](https://getfedora.org/coreos?stream=stable)
 
 #### General Purpose Linux Distros
 If you do not want to use a specalist security-based distro, or you are new to Unix- then just switching to any well-maintained Linux distro, is going to be significantly more secure and private than Windows or Mac OS.
@@ -881,21 +884,30 @@ BSD systems arguably have far superior network stacks. **[OpenBSD](https://www.o
 
 If you have chosen to stick with your current OS, there are a couple of things you can do to improve security, see: [Windows 10 security guide](https://heimdalsecurity.com/en/windows-10-security-guide/privacy), [Mac OS security guide](https://spreadprivacy.com/mac-privacy-tips/) or [Linux security guide](https://spreadprivacy.com/linux-privacy-tips/).
 
+## Linux Defences
+
+| Provider | Description |
+| --- | --- |
+**[Firejail](https://github.com/netblue30/firejail)** | Firejail is a SUID sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces and seccomp-bpf. Written in C, virtually no dependencies, runs on any modern Linux system, with no daemon running in the background, no complicated configuration, and it's super lightweight and super secure, since all actions are implemented by the kernel. It includes security profiles for over 800 common Linux applications. FireJail is recommended for running any app that may potential pose some kind of risk, such as torrenting through Transmission, browsing the web, opening downloaded attachments
+
 
 ## Windows Defences
 
 | Provider | Description |
 | --- | --- |
 **[HardenTools]** | A utility that disables a number of risky Windows features. These "features" are exposed by the OS and primary consumer applications, and very commonly abused by attackers, to execute malicious code on a victim's computer. So this tool just reduces the attack surface by disabling the low-hanging fruit
+**[ShutUp10](https://www.oo-software.com/en/shutup10)** | A portable app that lets you disable core Windows features (such as Cortana, Edge) and control which data is passed to Microsoft. (Note: Free, but not open source)
+**[GhostPress]** | Anti low-level keylogger: Provides full system-wide key press protection, and target window screenshot protection
+**[KeyScrambler]** | Provides protection against software keyloggers. Encrypts keypresses at driver level, and decrypts at application level, to protect against common keyloggers- read more about [how it works](https://www.techrepublic.com/blog/it-security/keyscrambler-how-keystroke-encryption-works-to-thwart-keylogging-threats). Developed by Qian Wang
+**[SafeKeys V3.0](http://www.aplin.com.au)** | Portable virtual keyboard. Useful for protecting from keyloggers when using a public computer, as it can run of a USB with no administrative permissions
+**[RKill]** | Useful utility, that attempts to terminate known malware processes, so that your normal security software can then run and clean your computer of infections
+**[IIS Crypto]** | A utility for configuring encryption protocols, cyphers, hashing methods, and key exchanges for Windows components. Useful for sysadmins on Windows Server
+**[NetLimiter]** | Internet traffic control and monitoring tool
 **[Sticky-Keys-Slayer]** | Scans for accessibility tools backdoors via RDP
 **[SigCheck]** | A CLI utility that shows file version number, timestamp information, and digital signature details. It's useful to audit a Windows host's root certificate store against Microsoft's Certificate Trust List (CTL), and lets you perform [VirusTotal](www.virustotal.com) lookups
 **[Windows Secure Baseline]** | Group Policy objects, compliance checks, and configuration tools that provide an automated and flexible approach for securely deploying and maintaining the latest releases of Windows 10
-**[IIS Crypto]** | A utility for configuring encryption protocols, cyphers, hashing methods, and key exchanges for Windows components. Useful for sysadmins on Windows Server
-**[NetLimiter]** | Internet traffic control and monitoring tool
-**[GhostPress]** | Anti low-level keylogger: Provides full system-wide key press protection, and target window screenshot protection
-**[KeyScrambler]** | Provides protection against software keyloggers. Encrypts keypresses at driver level, and decrypts at application level, to protect against common keyloggers- read more about [how it works](https://www.techrepublic.com/blog/it-security/keyscrambler-how-keystroke-encryption-works-to-thwart-keylogging-threats). Developed by Qian Wang
-**[RKill]** | Useful utility, that attempts to terminate known malware processes, so that your normal security software can then run and clean your computer of infections
-**[ShutUp10](https://www.oo-software.com/en/shutup10)** | A portable app that lets you disable core Windows features (such as Cortana, Edge) and control which data is passed to Microsoft. (Note: Free, but not open source)
+**[ScreenWings](https://schiffer.tech/screenwings.html)** | Blocks malicious background applications from taking screenshots
+**[CamWings](https://schiffer.tech/camwings.html)** | Blocks unauthorized webcam access
 
 #### Word of Warning
 Create a system restore point, before making any significant changes to your OS (such as disabling core features). From a security and privacy perspective, Linux may be a better option.  Many of the above tools are not necessary or suitable for beginners, and can cause your system to break.
@@ -1029,7 +1041,7 @@ Community-maintained media software can help you migrate away from providers tha
 - Video: [Shortcut](https://www.shotcutapp.com), [OpenShot](https://www.openshot.org), [LightWorks](https://www.lwks.com), [kdenlive](https://kdenlive.org)
 - Video Transcoders: [HandBreak](https://handbrake.fr)
 - Media Players: [VLC Player](https://www.videolan.org)
-- Media Servers: [Kodi](https://kodi.tv), [Plex](https://www.plex.tv), [Subsonic](http://www.subsonic.org), [Madsonic](https://beta.madsonic.org), [Emby](https://emby.media), [Gerbera](https://gerbera.io), [OpenELEC](https://openelec.tv), [OpenFlixr 2](https://www.openflixr.com), [OCMC](https://osmc.tv)
+- Media Servers: [Kodi](https://kodi.tv), [Plex](https://www.plex.tv), [Subsonic](http://www.subsonic.org), [Emby](https://emby.media), [Gerbera](https://gerbera.io), [OpenELEC](https://openelec.tv), [OpenFlixr 2](https://www.openflixr.com), [OCMC](https://osmc.tv)
 - 3D Rendering: [Blender](https://www.blender.org), [Wings3D](http://www.wings3d.com)
 - Game Engines: [GoDot](https://godotengine.org), [SpringEngine](https://springrts.com), [Panda3D](https://www.panda3d.org), [Cocos](https://www.cocos.com/en/)
 - Rendering Engines: [LuxCoreRender](https://luxcorerender.org), [AppleSeed](https://appleseedhq.net)
@@ -1042,7 +1054,7 @@ Community-maintained media software can help you migrate away from providers tha
 - Bookmarks: [Shiori](https://github.com/go-shiori/shiori), [Geek Marks](https://geekmarks.dmitryfrank.com), [Ymarks](https://bitbucket.org/ymarks), [xBrowserSync](https://www.xbrowsersync.org), [reminiscence](https://github.com/kanishka-linux/reminiscence), [unmark](https://github.com/cdevroe/unmark)
 - Chat Networks: [Gotify](https://gotify.net), [GNU:net](https://gnunet.org), [Centrifugo](https://github.com/centrifugal/centrifugo), [Mumble](https://www.mumble.info), [Tox](https://tox.chat), [Matrix](https://matrix.org) + [Riot](https://riot.im), [Retroshare](https://retroshare.cc)
 - CMS: [Strapi](https://strapi.io) (headless), [ApostropheCMS](https://github.com/apostrophecms/apostrophe), [Plone](https://github.com/plone), [Publify](https://publify.github.io), [Pico](http://picocms.org)
-- Conference: [BigBlueButton](https://github.com/bigbluebutton/bigbluebutton), [Osem](https://github.com/openSUSE/osem), [Dialogs](https://github.com/dialogs), [Spectrum](https://github.com/withspectrum/spectrum), [Mattermost](https://github.com/mattermost), [OpenMeetings](https://openmeetings.apache.org), [Jitsu](https://github.com/jitsi)
+- Conference: [Jami](https://jami.net), [Jitsu](https://github.com/jitsi), [BigBlueButton](https://github.com/bigbluebutton/bigbluebutton) (Academic Institutions), [OpenMeetings](https://openmeetings.apache.org)
 - Document Management: [Paperless](https://github.com/the-paperless-project/paperless)
 - E-Commerce: [Qor](https://getqor.com), [Magento](https://github.com/magento), [Grandnode](https://github.com/grandnode/grandnode)
 - Email Clients: [Rainloop](http://www.rainloop.net), [RoundCube](https://roundcube.net)
@@ -1190,7 +1202,7 @@ adopt good networking practices and be mindful of data that are collected when b
 **[personal security checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)** for more tips to stay safe. 
 
 
-### Disclaimer
+### Important Considerations
 
 **Compartmentalise**<br>
 No piece of software is truly secure or private.  Further to this, software can only as secure as the system it is running on. Vulnerabilities are being discovered and patched all the time, so you much keep your system up-to-date. Breaches occur regularly, so compartmentalise your data to minimise damage. It's not just about choosing secure software, you must also follow good security practices.
@@ -1201,14 +1213,18 @@ It is a good idea to keep your trusted software base small, to reduce potential 
 **Convenience Vs Security**<br>
 There is often a trade-off between convenience and security. Construct a threat model, and choose a balance that is right for you. In a similar way in some situations there is privacy and security conflict (e.g. Find My Phone is great for security, but terrible for privacy, and anonymous payments may be good for privacy but less secure than insured fiat currency). Again it is about assessing your situation, understanding the risks and making an informed decision.
 
-**Open Source Considerations**<br>
-Open source software has long had a reputation of being more secure than its closed source counterparts. Since bugs are raised transparently, fixed quickly, the code can be checked by experts in the community and there is usually little or no data collection or analytics. That being said, there is no piece of software that it totally bug free, and hence never truly secure or private. Being open source, is in no way a guarantee that something is safe. There is no shortage of poorly-written, obsolete or sometimes plain malicious open source projects on the internet.
-
 **Hosted Vs Self-Hosted Considerations**<br>
 When using a hosted or managed application that is open-source software- there is often no easyily way to tell if the version running is the same as that of the published source code (even published signatures can be faked). There is always the possibility that additional backdoors may have been knowingly or unknowingly implemented in the running instance. One way round this is to self-host software yourself. When self-hosting you will then know for sure which code is running, however you will also be responsible for the managing security of the server, and so may not be recommended for beginners.
 
-**Proprietary Considerations**<br>
+**Open Source Software Considerations**<br>
+Open source software has long had a reputation of being more secure than its closed source counterparts. Since bugs are raised transparently, fixed quickly, the code can be checked by experts in the community and there is usually little or no data collection or analytics. That being said, there is no piece of software that it totally bug free, and hence never truly secure or private. Being open source, is in no way a guarantee that something is safe. There is no shortage of poorly-written, obsolete or sometimes plain malicious open source projects on the internet.
+
+**Proprietary Software Considerations**<br>
 When using a hosted or proprietary solution- always check the privacy policy, research the reputation of the organisation, and be weary about which data you trust them with. Where possible choose open source software for security-critical situations.
+
+**Maintenance**<br>
+When selecting a new application, ensure it is still being regularly maintained, as this will allow for recently discovered security issues to be addressed. Software in an alpha or beta phase, may not only be buggy or lacking in features, but it could have critical vulnerabilities open to exploit. Similarly, applications that are no longer being actively maintained may pose a security risk. When using a forked application, or software that is based on an upstream code base, be aware that it may receive security-critical patches and updates at a slightly later date than the original application. 
+
 
 **This List: Disclaimer**<br>
 This list contains packages that range from entry-level to advanced, a lot of the software here will not be appropriate for all audiences. It is in no way a definitive list of secure applications, and aims only to be a guide, a collection of software and services that myself and others have used, and would recommend. There will always be new vulnerabilities discovered or introduced, bugs and poorly configured systems. It is up to you to do your research, and decide where and how your data are managed.
