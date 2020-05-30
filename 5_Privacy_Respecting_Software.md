@@ -54,8 +54,10 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Encrypted Cloud Storage](#encrypted-cloud-storage)
   - [File Drop](#file-drop)
   - [Browser Sync](#browser-sync)
-  - [PGP Managers](#pgp-managers)
   - [Secure Conference Calls](#video-conference-calls)
+- **Utilities**
+  - [PGP Managers](#pgp-managers)
+  - [Metadata Removal](#metadata-removal-tools)
 - **Social**
   - [Social Networks](#social-networks)
   - [Video Platforms](#video-platforms)
@@ -663,6 +665,21 @@ Finally, [Turtl Notes](https://turtlapp.com) has excellent link saving functiona
 Strip out unneeded GET parameters if they reveal any device or referrer information, so as to not inadvertently allow a website to link your devices. [ClearURLs](https://gitlab.com/KevinRoebert/ClearUrls) may help with this.
 
 
+## Video Conference Calls
+
+With the [many, many security issues with Zoom](https://www.tomsguide.com/uk/news/zoom-security-privacy-woes), and other mainsstram it becomes clear that a better, more private and secure alternative is required. As with other categories, the "best video calling app" will be different for each of us, depending on the ratio of performance + features to security + privacy required in your situation.
+
+| Provider | Description |
+| --- | --- |
+**[Jami](https://jami.net)** | A free and open source, distributed video, calling and screenshare platform with a focus on security. Jami is completely completely peer-to-peer, and has full end-to-end encryption with perfect forward secrecy for all communications, complying with the [X.509](https://en.wikipedia.org/wiki/X.509) standard. Supported nativity on Windows, macOS, iOS, GNU/Linux, Android and Android TV. Video quality is quite good, but very dependent on network speeds, some of the apps are lacking in features
+**[Jitsi](https://jitsi.org)** | Encrypted, free and open source video calling app, which does not require creating an account/ providing any personal details. Availible as a web app, and native app for Windows, MacOS, Linux, Android and iOS. You can use the public Jitsi instance, self-host your own, or use a [community hosted instance](https://github.com/jitsi/jitsi-meet/wiki/Jitsi-Meet-Instances)
+
+#### Notable Mentions
+[Apache OpenMeetings](https://openmeetings.apache.org) provides self-hosted video-conferencing, chat rooms, file server and tools for meetings. [together.brave.com](https://together.brave.com) is Brave's Jitsi Fork.
+For remote learning, [BigBlueButton](https://bigbluebutton.org) is self-hosted conference call software, aimed specifically at schools and Universities. It allows for the host/ teacher to have full control over the session, and provides high-quality video streaming, multi-user whiteboards, breakout rooms, and instant chat.
+For 1-to-1 mobile video calls, see [Encrypted Messaging](#encrypted-messaging), and for P2P single and group calls, see [P2P Messaging](#p2p-messaging).
+
+
 ## PGP Managers
 
 Tools for signing, verifying, encrypting and decrypting text and files using [GnuPG](https://www.gnupg.org) standard
@@ -681,19 +698,28 @@ Tools for signing, verifying, encrypting and decrypting text and files using [Gn
 **[Mailvelope](https://www.mailvelope.com)** (Email) | Mailvelope is an addon for email applications, that makes using PGP very easy for beginners. You can use the hosted version for free, or opt to host your own instance. It has good compatibility with all common mail applications, both on desktop and mobile
 **[PGP4USB](https://gpg4usb.org)** (Portable) | A portable desktop app, that can be run directly off a USB, useful for when you need to use without installing
 
-## Video Conference Calls
 
-With the [many, many security issues with Zoom](https://www.tomsguide.com/uk/news/zoom-security-privacy-woes), and other mainsstram it becomes clear that a better, more private and secure alternative is required. As with other categories, the "best video calling app" will be different for each of us, depending on the ratio of performance + features to security + privacy required in your situation.
+## Metadata Removal Tools
+
+[Exif](https://en.wikipedia.org/wiki/Exif)/ [Metadata](https://en.wikipedia.org/wiki/Metadata) is "data about data", this additional information attached to files can lead us to [share significantly more information than we intended](https://gizmodo.com/vice-magazine-just-accidentally-revealed-where-john-mca-5965295) to. 
+For example, if you upload an image of a sunset to the internet, but don't remove the metadata, it [may reveal the location](https://www.nytimes.com/2010/08/12/technology/personaltech/12basics.html?_r=1) (GPS lat + long) of where it was taken, the device is was taken on, precise camera data, details about modifications and the picture source + author. Social networks that remove metadata from your photos, often collect and store it, for their own use. This could obviously pose a security risk, and that is why it is recommended to strip out this data from a file before sharing.
 
 | Provider | Description |
 | --- | --- |
-**[Jami](https://jami.net)** | A free and open source, distributed video, calling and screenshare platform with a focus on security. Jami is completely completely peer-to-peer, and has full end-to-end encryption with perfect forward secrecy for all communications, complying with the [X.509](https://en.wikipedia.org/wiki/X.509) standard. Supported nativity on Windows, macOS, iOS, GNU/Linux, Android and Android TV. Video quality is quite good, but very dependent on network speeds, some of the apps are lacking in features
-**[Jitsi](https://jitsi.org)** | Encrypted, free and open source video calling app, which does not require creating an account/ providing any personal details. Availible as a web app, and native app for Windows, MacOS, Linux, Android and iOS. You can use the public Jitsi instance, self-host your own, or use a [community hosted instance](https://github.com/jitsi/jitsi-meet/wiki/Jitsi-Meet-Instances)
+**[ExifCleaner](https://exifcleaner.com)** | Cross-platform, open source, performant EXIF meta data removal tool. This GUI tool makes cleaning media files really easy, and has great batch process support. Created by @szTheory, and uses [ExifTool](https://exiftool.org)
+**[ExifTool](https://exiftool.org)** (CLI) | Platform-independent open source Perl library & CLI app, for reading, writing and editing meta data. Built by Phill Harvey. Very good performance, and supports all common metadata formats (including  EXIF, GPS, IPTC, XMP, JFIF, GeoTIFF, ICC Profile, Photoshop IRB, FlashPix, AFCP and ID3). An official [GUI application](https://exiftool.org/gui/) is available for Windows, implemented by Bogdan Hrastnik.
+**[ImageOptim](https://github.com/ImageOptim/ImageOptim)** (MacOS) | Native MacOS app, with drag 'n drop image optimization and meta data removal
 
 #### Notable Mentions
-[Apache OpenMeetings](https://openmeetings.apache.org) provides self-hosted video-conferencing, chat rooms, file server and tools for meetings. [together.brave.com](https://together.brave.com) is Brave's Jitsi Fork.
-For remote learning, [BigBlueButton](https://bigbluebutton.org) is self-hosted conference call software, aimed specifically at schools and Universities. It allows for the host/ teacher to have full control over the session, and provides high-quality video streaming, multi-user whiteboards, breakout rooms, and instant chat.
-For 1-to-1 mobile video calls, see [Encrypted Messaging](#encrypted-messaging), and for P2P single and group calls, see [P2P Messaging](#p2p-messaging).
+It's possible (but slower) to do this without a third-party tool. For Windows, right click on a file, and go to: `Properties --> Details --> Remove Properties --> Remove from this File --> Select All --> OK`.
+
+Alternatively, with [ImageMagic](https://imagemagick.org) installed, just run `convert -strip path/to/image.png` to remove all metadata. If you have [GIMP](https://www.gimp.org) installed, then just go to `File --> Export As --> Export --> Advanced Options --> Uncheck the "Save EXIF data" option`.
+
+Often you need to perform meta data removal programatically, as part of a script or automation process.  
+GoLang: [go-exif](https://github.com/dsoprea/go-exif) by @dsoprea | JS: [exifr](https://github.com/MikeKovarik/exifr) by @MikeKovarik | Python: [Piexif](https://github.com/hMatoba/Piexif) by @hMatoba | Ruby: [Exif](https://github.com/tonytonyjan/exif) by @tonytonyjan | PHP: [Pel](https://github.com/pel/pel) by @mgeisler.
+
+
+
 
 
 ## Social Networks
