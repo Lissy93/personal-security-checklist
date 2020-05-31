@@ -70,6 +70,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Linux Defences](#linux-defences)
   - [Windows Defences](#windows-defences)
   - [Mac OS Defences](#mac-os-defences)
+  - [Anti-Malware](#anti-malware)
 - **Home/ IoT**
   - [Home Automation](#home-automation)
   - [Voice Assistants](#ai-voice-assistants)
@@ -155,6 +156,7 @@ Without using a secure app for instant messaging, all your conversations, meta d
 **[Session](https://getsession.org)** | Session is a fork of Signal, however unlike Signal it does not require a mobile number (or any other personal data) to register, instead each user is identified by a public key. It is also decentralized, with servers being run by the community though [Loki Net](https://loki.network), messages are encrypted and routed through several of these nodes. All communications are E2E encrypted, and there is no meta data.
 **[Silence](https://silence.im/)** | If you're restricted to only sending SMS/MMS, then Silence makes it easy to encrypt messages between 2 devices. This is important since traditional text messaging is inherently insecure. It's easy-to-use, reliable and secure- but has fallen in popularity, now that internet-based messaging is often faster and more flexible
 **[KeyBase](keybase.io/inv/6d7deedbc1)** | KeyBase allows encrypted real-time chat, group chats, and public and private file sharing. It also lets you cryptographically sign messages, and prove your ownership to other social identities (Twitter, Reddit, GitHub, etc), and send or receive Stella or BitCoin to other users. It's slightly more complex to use than Signal, but it's features extend much further than just a messaging app. Keybase core is built upon some great cryptography features, and it is an excellant choice for managing public keys, signing messages and for group chats.
+**[Off-The-Record](https://otr.cypherpunks.ca/)** | Off-the-Record (OTR) Messaging allows you to have private conversations over instant messaging. It has fallen in popularity in recent years, in favor for simpler, mobile-based messaging apps, but still widely used and secure. It provides: Encryption (so no one else can read your messages), Authentication (assurance that the correspondent is who you think they are), Deniability (After a conversation, it cannot be proved you took part), Perfect Forwards Secrecy (if your keys are compromised, no previous messages can be decrypted). The easiest way to use OTR, is with a [plugin](https://otr.cypherpunks.ca/software.php) for your IM client
 **[OpenPGP](https://www.openpgp.org/)** |  Provides cryptographic privacy and authentication, PGP is used to encrypt messages sent over existing chat networks (such as email or message boards). Slightly harder to use (than IM apps), slower, but still widely used. Using [GnuPG](https://gnupg.org/download/index.html), encrypts messages following the OpenPGP standard, defined by the IETF, proposed in [RFC 4880](https://tools.ietf.org/html/rfc4880) (originally derived from the PGP software, created by Phil Zimmermann, now owned by [Symantec](https://www.symantec.com/products/encryption)). **Note**  there have been vulnerabilities found in the OpenPGP and S/MIME, defined in [EFAIL](https://efail.de/), so although it still considered secure for general purpose use, it may be better to use an encrypted messaging or email app instead- especially for sensitive communications.
 
 #### Other Notable Mentions
@@ -330,7 +332,8 @@ The following browser add-ons give you better control over what content is able 
 **[TrackerControl](https://f-droid.org/en/packages/net.kollnig.missioncontrol.fdroid/)** | Monitor and control hidden data collection in mobile apps about user behavior/ tracking
 **[Greentooth](https://f-droid.org/en/packages/com.smilla.greentooth/)** | Auto-disable Bluetooth, then it is not being used. Saves battery, and itigates some security risks
 **[PrivateLock](https://f-droid.org/en/packages/com.wesaphzt.privatelock/)** | Auto lock your phone based on movement force/ acceleration
-
+**[CamWings](https://schiffer.tech/camwings-mobile.html)** | Prevent background processes gaining unauthorized access to your devices camera. Better still, use a [webcam sticker](https://supporters.eff.org/shop/laptop-camera-cover-set-ii)
+**[ScreenWings](https://schiffer.tech/screenwings-mobile.html)** | Prevent background processes taking unauthorized screenshots, which could expose sensetive data
 
 #### Other Notable Mentions
 For more open source security & privacy apps, check out these publishers: [The Guardian Project], [The Tor Project], [Oasis Feng], [Marcel Bokhorst], [SECUSO Research Group] and [Simple Mobile Tools]- all of which are trusted developers or organisations, who've done amazing work.
@@ -490,9 +493,11 @@ A firewall is a program which monitors the incoming and outgoing traffic on your
 **[NoRoot Firewall](https://play.google.com/store/apps/details?id=app.greyshirts.firewall)** <br>(Android) | Notifies you when an app is trying to access the Internet, so all you need to do is just Allow or Deny. Allows you to create filter rules based on IP address, host name or domain name, and you can allow or deny only specific connections of an app
 **[Lockdown](https://apps.apple.com/in/app/lockdown-apps/id1469783711)** <br>(iOS) | Firewall app for iPhone, allowing you to block any connection to any domain
 **[SimpleWall](https://github.com/henrypp/simplewall)** <br>(Windows) | Tool to control Windows Filtering Platform (WFP), in order to configure detailed network activity on your PC
-**[OpenSnitch](https://github.com/evilsocket/opensnitch)** <br>(Linux) | Makes internet connections from all apps visible, allowing you to block or manage traffic on a per-app basis. GNU/Linux port of the Little Snitch application firewall
 **[LuLu](https://objective-see.com/products/lulu.html)** <br>(Mac OS) | Free, open source macOS firewall. It aims to block unknown outgoing connections, unless explicitly approved by the user
 **[Little Snitch](https://obdev.at/products/littlesnitch/index.html)** <br>(Mac OS) | A very polished application firewall, allowing you to easily manage internet connections on a per-app basis
+**[OpenSnitch](https://github.com/evilsocket/opensnitch)** <br>(Linux) | Makes internet connections from all apps visible, allowing you to block or manage traffic on a per-app basis. GNU/Linux port of the Little Snitch application firewall
+**[Gufw](http://gufw.org)**<br>(Linux) | Open source GUI firewall for Linux, allowing you to block internet access for certain applications. Supports both simple and advanced mode, GUI and CLI options, very easy to use, lightweight/ low-overhead, under active maintenance and backed by a strong community. Installable through most package managers, or compile from [source](https://answers.launchpad.net/gui-ufw)
+**[Uncomplicated Firewall](https://en.wikipedia.org/wiki/Uncomplicated_Firewall)**<br>(Linux) | The ufw (Uncomplicated Firewall) is a GUI application and CLI, that allows you to configure a firewall using [`iptables`](https://linux.die.net/man/8/iptables) much more easily
 **[IPFire](https://www.ipfire.org)** <br>(hardware) | IPFire is a hardened, versatile, state-of-the-art Open Source firewall based on Linux. Easy to install on a raspberry Pi, since it is lightweight and heavily customizable
 **[Shorewall](https://shorewall.org)** <br>(hardware) | An open source firewall tool for Linux that builds upon the [Netfilter](https://www.netfilter.org) system built into the Linux kernel, making it easier to manage more complex configuration schemes with [iptables](https://linux.die.net/man/8/iptables)
 **[OpenSense](https://opnsense.org)** <br>(hardware)  | Enterprise firewall and router for protecting networks, built on the FreeBSD system 
@@ -728,6 +733,7 @@ Simply deleting data, does [not remove it](https://uk.norton.com/internetsecurit
 **[Eraser](https://eraser.heidi.ie)** (Windows) |  Allows you to completely remove sensitive data from your hard drive by overwriting it several times with carefully selected patterns
 **[Hard Disk Scrubber](http://www.summitcn.com/hdscrub.html)** (Windows) | Easy to use, but with some advanced features, including custom wipe patterns. Data Sanitation Methods:  AFSSI-5020, DoD 5220.22-M, and Random Data
 **[SDelete](https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete)** (Windows) | Microsoft Secure Delete is a CLI utility, uses DoD 5220.22-M
+**[OW Shredder](https://schiffer.tech/ow-shredder.html)** (Windows) | File, folder and drive portable eraser for Windows. Bundled with other tools to scan, analyze, and wipe, and other traces that were left behind. Includes context menu item, recycle bin integration
 **[DBAN](https://dban.org)** (bootable) | Darik's Boot and Nuke ("DBAN") is a self-contained boot disk that securely wipes the hard disks of most computers. DBAN will automatically and completely delete the contents of any hard disk that it can detect, which makes it an appropriate utility for bulk or emergency data destruction. DBAN is the free edition of [Blanco](https://www.blancco.com/products/drive-eraser/), which is an enterprise tool designed for legal compliance.
 **[nwipe](https://github.com/martijnvanbrummelen/nwipe)** (Cross-platform) | C-based secure light-weight disk eraser, operated through the easy-to-use CLI or a GUI interface
 **[shred](https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html)** (Unix) | A CLI utility that can be used to securely delete files and devices, to make them extremely difficult to recover. See also, [wipe](https://linux.die.net/man/1/wipe) for erasing files from magnetic media
@@ -932,12 +938,20 @@ If you have chosen to stick with your current OS, there are a couple of things y
 | Provider | Description |
 | --- | --- |
 **[Firejail](https://github.com/netblue30/firejail)** | Firejail is a SUID sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces and seccomp-bpf. Written in C, virtually no dependencies, runs on any modern Linux system, with no daemon running in the background, no complicated configuration, and it's super lightweight and super secure, since all actions are implemented by the kernel. It includes security profiles for over 800 common Linux applications. FireJail is recommended for running any app that may potential pose some kind of risk, such as torrenting through Transmission, browsing the web, opening downloaded attachments
+**[Gufw](http://gufw.org)** (Linux) | Open source GUI firewall for Linux, allowing you to block internet access for certain applications. Supports both simple and advanced mode, GUI and CLI options, very easy to use, lightweight/ low-overhead, under active maintenance and backed by a strong community. Installable through most package managers, or compile from [source](https://answers.launchpad.net/gui-ufw)<br>Other popular firewalls are [OpenSnitch](https://github.com/evilsocket/opensnitch) and [Uncomplicated Firewall](https://en.wikipedia.org/wiki/Uncomplicated_Firewall), see more [firewalls](#firewalls)
+**[ClamTk](https://dave-theunsub.github.io/clamtk/)** | ClamTk is basically a graphical front-end for ClamAV, making it an easy to use, light-weight, on-demand virus scanner for Linux systems
+**[chkrootkit](http://www.chkrootkit.org)** | Locally checks for signs of a rootkit
+**[Snort](https://www.snort.org)** | open source intrusion prevention system capable of real-time traffic analysis and packet
+**[BleachBit](https://www.bleachbit.org)** | Clears cache and deletes temporary files very effectively. This frees up disk space, improves performance, but most importantly helps to protect privacy
 
+#### Notable Mentions
+[SecTools.org](https://sectools.org) is a directory or popular Unix security tools.
 
 ## Windows Defences
 
 | Provider | Description |
 | --- | --- |
+**[Windows Spy Blocker](https://github.com/crazy-max/WindowsSpyBlocker)** | Capture and interprets network traffic based on a set of rules, and depending on the interactions certain assignments are blocked. Open source, written in Go and delivered as a single executable
 **[HardenTools]** | A utility that disables a number of risky Windows features. These "features" are exposed by the OS and primary consumer applications, and very commonly abused by attackers, to execute malicious code on a victim's computer. So this tool just reduces the attack surface by disabling the low-hanging fruit
 **[ShutUp10](https://www.oo-software.com/en/shutup10)** | A portable app that lets you disable core Windows features (such as Cortana, Edge) and control which data is passed to Microsoft. (Note: Free, but not open source)
 **[GhostPress]** | Anti low-level keylogger: Provides full system-wide key press protection, and target window screenshot protection
@@ -948,12 +962,15 @@ If you have chosen to stick with your current OS, there are a couple of things y
 **[NetLimiter]** | Internet traffic control and monitoring tool
 **[Sticky-Keys-Slayer]** | Scans for accessibility tools backdoors via RDP
 **[SigCheck]** | A CLI utility that shows file version number, timestamp information, and digital signature details. It's useful to audit a Windows host's root certificate store against Microsoft's Certificate Trust List (CTL), and lets you perform [VirusTotal](www.virustotal.com) lookups
+**[BleachBit](https://www.bleachbit.org)** | Clears cache and deletes temporary files very effectively. This frees up disk space, improves performance, but most importantly helps to protect privacy
 **[Windows Secure Baseline]** | Group Policy objects, compliance checks, and configuration tools that provide an automated and flexible approach for securely deploying and maintaining the latest releases of Windows 10
+**[USBFix](https://www.usb-antivirus.com/)** | Detects infected USB removable devices
+**[GMER](http://www.gmer.net)** | Rootkit detection and removal utility
 **[ScreenWings](https://schiffer.tech/screenwings.html)** | Blocks malicious background applications from taking screenshots
 **[CamWings](https://schiffer.tech/camwings.html)** | Blocks unauthorized webcam access
 
 #### Word of Warning
-Create a system restore point, before making any significant changes to your OS (such as disabling core features). From a security and privacy perspective, Linux may be a better option.  Many of the above tools are not necessary or suitable for beginners, and can cause your system to break.
+(The above software was last tested on 01/05/20). Many of the above tools are not necessary or suitable for beginners, and can cause your system to break- only use sofware that you need, according to your threat moedl. Take care to only download from an official/ legitimate source, verify the executable before proceeding, and check reviews/ forums. Create a system restore point, before making any significant changes to your OS (such as disabling core features). From a security and privacy perspective, Linux may be a better option.  
 
 #### See Also
 - [github.com/Awesome-Windows/Awesome#security]
@@ -971,7 +988,7 @@ Create a system restore point, before making any significant changes to your OS 
 [github.com/meitar/awesome-cybersecurity-blueteam#windows-based-defenses]: https://github.com/meitar/awesome-cybersecurity-blueteam#windows-based-defenses
 [KeyScrambler]: https://www.qfxsoftware.com
 [GhostPress]: https://schiffer.tech/ghostpress.html
-[RKill]: https://www.bleepingcomputer.com/download/rkill
+[RKill]: https://www.bleepingcomputer.com/download/rkill/
 
 
 ## Mac OS Defences
@@ -987,22 +1004,22 @@ Create a system restore point, before making any significant changes to your OS 
 [Fortress]: https://github.com/essandess/macOS-Fortress
 
 
-## Anti-Virus and Malware Prevention
+## Anti-Malware
+
+Cross-platform, open source malware detection and virus prevention tools
 
 | Provider | Description |
 | --- | --- |
 **[CalmAV](https://www.clamav.net)** | An open source  cross-platform antivirus engine for detecting viruses, malware & other malicious threats. It is versatile, performant and very effective
-**[Windows Spy Blocker](https://github.com/crazy-max/WindowsSpyBlocker)** | Capture and interprets network traffic based on a set of rules, and depending on the interactions certain assignments are blocked. Open source, written in Go and delivered as a single executable
-**[Cylance](https://github.com/cylance)** | Takes more of an application whitelisting approach, where it generates the list of trusted software through machine learning. So instead of identifying bad software to block, it identifies good software instead, and blocks the rest by default
+**[VirusTotal](https://www.virustotal.com)** | Web-based malware scanner, that inspects files and URLs with over 70 antivirus scanners, URL/domain services, and other tools to extract signals and determine the legitimacy
+**[Armadito](https://www.armadito.com)** | Open source signature-based anti-virus and malware detection for Windows and Linux. Supports both ClamAV signatures and YARA rules. Has a user-friendly interface, and includes a web-based admin panel for remote access.
 
 #### Notable Mentions
-Your operating system's built-in protection is probably adequate for detecting 99% of threats. Installing additional software can introduce more vulnerabilities, so downloading AV may actually degrade your privacy and increase your attack surface.
-
-Windows, by default is not very private. There are several packages that can be used to quickly tweak privacy settings. Such as [Simple Wall](https://github.com/henrypp/simplewall), [priv10](https://github.com/DavidXanatos/priv10), [Fix-Windows-Privacy](https://modzero.github.io/fix-windows-privacy/) and [W10 Privacy](https://www.w10privacy.de/english-home) (see [Video Tutorial](https://www.youtube.com/watch?v=qttbd2Ouxmc)). Use at your own risk, disabling some OS features can cause unintended consequences. See also, this [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) for manual steps.
-
-For 1-off malware scans, [MalwareBytes](https://www.malwarebytes.com) is portable and very effective- thorough in identifying threats, with minimum data collection. However it is [not open source](https://forums.malwarebytes.com/topic/5495-open-source).
+For 1-off malware scans on Windows, [MalwareBytes](https://www.malwarebytes.com) is portable and very effective, but [not open source](https://forums.malwarebytes.com/topic/5495-open-source)
 
 #### Word of Warning
+For Microsoft Windows, Windows Defender provides totally adequate virus protection in most cases. These tools are intended for single-use in detecting/ removing threats on an infected machine, and are not recommended to be left running in the background, use portable editions where available.
+
 Many anti virus products have a history of introducing vulnerabilities themselves, and several of them seriously degrade the performance of your computer, as well as decrease your privacy. Never use a free anti-virus, and never trust the companies that offer free solutions, even if you pay for the premium package. This includes (but not limited to) Avast, AVG, McAfee and Kasperky. For AV to be effective, it needs intermate access to all areas of your PC, so it is important to go with a trusted vendor, and monitor it's activity closley. Read more about why you shouldn't use [Anti-Spy Tools, on Windows](https://as93.link/gjlj4).
 
 
