@@ -58,6 +58,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Utilities**
   - [PGP Managers](#pgp-managers)
   - [Metadata Removal](#metadata-removal-tools)
+  - [Data Erasers](#data-erasers)
 - **Social**
   - [Social Networks](#social-networks)
   - [Video Platforms](#video-platforms)
@@ -719,8 +720,24 @@ Often you need to perform meta data removal programatically, as part of a script
 GoLang: [go-exif](https://github.com/dsoprea/go-exif) by @dsoprea | JS: [exifr](https://github.com/MikeKovarik/exifr) by @MikeKovarik | Python: [Piexif](https://github.com/hMatoba/Piexif) by @hMatoba | Ruby: [Exif](https://github.com/tonytonyjan/exif) by @tonytonyjan | PHP: [Pel](https://github.com/pel/pel) by @mgeisler.
 
 
+## Data Erasers
+Simply deleting data, does [not remove it](https://uk.norton.com/internetsecurity-privacy-is-my-personal-data-really-gone-when-its-deleted-from-a-device.html) from the disk, and recovering deleted files is a [simple task](https://www.lifewire.com/how-to-recover-deleted-files-2622870). Therefore, to protect your privacy, you should erase/ overwrite data from the disk, before you destroy, sell or give away a hard drive.
 
+| Provider | Description |
+| --- | --- |
+**[Eraser](https://eraser.heidi.ie)** (Windows) |  Allows you to completely remove sensitive data from your hard drive by overwriting it several times with carefully selected patterns
+**[Hard Disk Scrubber](http://www.summitcn.com/hdscrub.html)** (Windows) | Easy to use, but with some advanced features, including custom wipe patterns. Data Sanitation Methods:  AFSSI-5020, DoD 5220.22-M, and Random Data
+**[SDelete](https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete)** (Windows) | Microsoft Secure Delete is a CLI utility, uses DoD 5220.22-M
+**[DBAN](https://dban.org)** (bootable) | Darik's Boot and Nuke ("DBAN") is a self-contained boot disk that securely wipes the hard disks of most computers. DBAN will automatically and completely delete the contents of any hard disk that it can detect, which makes it an appropriate utility for bulk or emergency data destruction. DBAN is the free edition of [Blanco](https://www.blancco.com/products/drive-eraser/), which is an enterprise tool designed for legal compliance.
+**[nwipe](https://github.com/martijnvanbrummelen/nwipe)** (Cross-platform) | C-based secure light-weight disk eraser, operated through the easy-to-use CLI or a GUI interface
+**[shred](https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html)** (Unix) | A CLI utility that can be used to securely delete files and devices, to make them extremely difficult to recover. See also, [wipe](https://linux.die.net/man/1/wipe) for erasing files from magnetic media
+**[Secure Remove](https://www.systutorials.com/docs/linux/man/1-srm/)** (Unix) | CLI utility for securely removing files, directories and whole disks, works on Linux, BSD and MacOS
+**[Mr. Phone](https://drfone.wondershare.com)** (Android/ iOS) | Propriety, closed-source suit of forensic data tools for mobile. The data eraser allows for both Android and iOS to be fully wiped, through connecting them to a PC.
 
+#### Notable Mentions
+There's no need to use a third-party tool. You can boot into a UNIX-based system, mount the disk you need to erase, and use a command to write it with arbitrary data. For best results, this process should be repeated several times. This is a good way to wipe a disk, before selling or destroying it, to protect your data.
+
+Such as the [`dd`](https://en.wikipedia.org/wiki/Dd_%28Unix%29) command, is a tool to convert and copy files, but running `sudo dd if=/dev/zero of=/dev/sdX bs=1M` will quickly overwrite the whole disk with zeros. Or [badblocks](https://linux.die.net/man/8/badblocks) which is intended to search for all bad blocks, but can also be used to write zeros to a disk, by running `sudo badblocks -wsv /dev/sdd`. An effective method of erasing an SSD, it to use [hdparm](https://en.wikipedia.org/wiki/Hdparm) to issue a [secure erase](https://en.wikipedia.org/wiki/Parallel_ATA#HDD_passwords_and_security) command, to your target storage device, for this, see step-by-step instructions via: [wiki.kernel.org](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase). Finally, `[srm](https://www.systutorials.com/docs/linux/man/1-srm/)` can be use to securely remove files or directories, just run `srm -zsv /path/to/file` for a single pass over.
 
 ## Social Networks
 
