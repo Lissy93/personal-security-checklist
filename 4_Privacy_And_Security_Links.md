@@ -1,6 +1,6 @@
 # Awesome Privacy & Securty [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/) [![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](https://github.com/Lissy93/personal-security-checklist/graphs/contributors)
 
-> A curated list of useful tools and resources online, that help protect your privacy and keep you safe.
+*A curated list of notable guides, articles, tools and media - relating to digital security, internet freedom and online privacy*
 
 **See also**: [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md) | [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) | [Security Gadgets](/6_Privacy_and-Security_Gadgets.md) | [Why Privacy Matters](/0_Why_It_Matters.md) | [TLDR](/2_TLDR_Short_List.md)🔐
 
@@ -36,6 +36,7 @@
   - Protection from Identity Theft: via [Restore Privacy](https://restoreprivacy.com/identity-theft-fraud)
   - Harden your MacOS Security: via [@drduh on GitHub](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
   - Protecting from key-stroke-logging, with KeyScrambler: via [TechRepublic](https://www.techrepublic.com/blog/it-security/keyscrambler-how-keystroke-encryption-works-to-thwart-keylogging-threats)
+  - Permanently and Securely Delete ‘Files and Directories’ in Linux: via [TechMint](https://www.tecmint.com/permanently-and-securely-delete-files-directories-linux/)
 - **Netowkring**
   - How to enable DNS over HTTPS: via [geekwire](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver)
   - How to resolve DNS leak issue: via [DNSLeakTest](https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html) 
@@ -50,11 +51,12 @@
   - How to avoid Phishing Attacks: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
   - How to use PGP: Via EFF - [Windows](https://ssd.eff.org/en/module/how-use-pgp-windows), [MacOS](https://ssd.eff.org/en/module/how-use-pgp-mac-os-x) and [Linux](https://ssd.eff.org/en/module/how-use-pgp-linux)
 - **Devices**
+  - How to Enable Encryption on your Devices: via [SpreadPrivacy.com](https://spreadprivacy.com/how-to-encrypt-devices/)
+  - How to Delete your Data Securely: Via EFF - [Windows](https://ssd.eff.org/en/module/how-delete-your-data-securely-windows), [MacOS](https://ssd.eff.org/en/module/how-delete-your-data-securely-macos) and [Linux](https://ssd.eff.org/en/module/how-delete-your-data-securely-linux) 
   - Layers of Personal Tech Security: via [The Wire Cutter](https://thewirecutter.com/blog/internet-security-layers)
   - Improving security on iPhone: via [lifehacker](https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831)
   - Guide to scrubbing Windows OSs from forensic investigation: by u/moschles, via [Reddit](https://www.reddit.com/r/security/comments/32fb1l/open_guide_to_scrubbing_windows_oss_from_forensic)
   - A curated list of Windows Domain Hardening techniques: by @PaulSec, via: [GitHub](https://github.com/PaulSec/awesome-windows-domain-hardening)
-  - How to Delete your Data Securely: Via EFF - [Windows](https://ssd.eff.org/en/module/how-delete-your-data-securely-windows), [MacOS](https://ssd.eff.org/en/module/how-delete-your-data-securely-macos) and [Linux](https://ssd.eff.org/en/module/how-delete-your-data-securely-linux)  
 - **Software**
   - How to use Vera Crypt: via [howtogeek](https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt)
   - How to use KeePassXC: via [EFF](https://ssd.eff.org/en/module/how-use-keepassxc)
@@ -381,13 +383,19 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - Recognizing Speech From Gyroscope Signals: via [Stanford](https://crypto.stanford.edu/gyrophone/)
   - A Study of Scripts Accessing Smartphone Sensors: via [sensor-js.xyz](https://sensor-js.xyz/webs-sixth-sense-ccs18.pdf)
   - Pixel Perfect, Fingerprinting Canvas in HTML5: [hovav.net](https://hovav.net/ucsd/dist/canvas.pdf)
-
-
+  - Shining the Floodlights on Mobile Web Tracking — A Privacy Survey: via [semanticscholar.org](https://pdfs.semanticscholar.org/80bb/5c9119ff4fc2374103b4f3d6a8f614b3c2ed.pdf)
+  - Characterizing the Use of Browser-Based Blocking Extensions To Prevent Online Tracking: via [aruneshmathur.co.in](http://aruneshmathur.co.in/files/publications/SOUPS18_Tracking.pdf)
+  - Privacy implications of email tracking: via [senglehardt.com](https://senglehardt.com/papers/pets18_email_tracking.pdf)
+  - Battery Status Not Included, Assessing Privacy in Web Standards: via [princeton.edu](https://www.cs.princeton.edu/~arvindn/publications/battery-status-case-study.pdf)
+  - De-anonymizing Web Browsing Data with Social Networks: via [princeton.edu](https://www.cs.princeton.edu/~arvindn/publications/browsing-history-deanonymization.pdf)
+  - The Surveillance Implications of Web Tracking: via [senglehardt.com](https://senglehardt.com/papers/www15_cookie_surveil.pdf)
+  - Understanding Facebook Connect login permissions: via [jbonneau.com](http://jbonneau.com/doc/RB14-fb_permissions.pdf)
 - **Implementations and Standards**
   - [The GNU Privacy Guard](https://www.gnupg.org)
   - [OpenPGP JavaScript Implementation](https://openpgpjs.org)
   - [WireGuard](https://www.wireguard.com/papers/wireguard.pdf)
   - [Nym](https://as93.link/nym-blog-post) - Next Generation of Privacy infrastructure
+  - [REC-X.509](https://www.itu.int/rec/T-REC-X.509) - The standard defining the format of public key certificates, used across most internet protocols and applications
 
 
 
@@ -467,6 +475,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [awesome-incident-response](https://github.com/meirwah/awesome-incident-response) by @meirwah
   - [awesome-anti-forensic](https://github.com/remiflavien1/awesome-anti-forensic) by @remiflavien1
   - [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) by @rshipp
+  - [awesome-lockpicking](https://github.com/fabacab/awesome-lockpicking) by @fabacab
   - [awesome-hacking](https://github.com/carpedm20/awesome-hacking) by @carpedm20
   - [awesome-honeypots](https://github.com/paralax/awesome-honeypots) by @paralax
   - [awesome-forensics](https://github.com/Cugu/awesome-forensics) by @cugu
