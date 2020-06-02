@@ -220,11 +220,10 @@ This section covers how you connect your devices to the internet securely, inclu
 
 ## Mobile Devices
 
-Most smartphone apps run in the background, collecting and logging data, making network requests and ultimately creating a clear picture of who you are, just from your data. This is a big problem from both a security and privacy perspective.  
+Smart phones are an amazing tool, they've revolutionized so many aspects of life, and brought the world to our fingertips. For many of us, smart phones are our primary means of communication, entertainment and access to knowledge. But while they've brought convenience to whole new level, there's some ugly things going on behind the screen.
 
-Even non-smart phones, (and even when the screen is off) are constantly connecting to the nearest cell phone towers, (it does this by broadcasting its IMEI and MEID number). The towers then relay this information, along with any communications, to your mobile carrier, who will store these records indefinitely. The movements of your phone are the movements of you as a person, so all phone proximity and data records can always be linked directly back to you. So whenever your phone is on, there is a record of your presence at that place, being created and maintained by companies.
+Geo-tracking is used to trace our every move, and we have little control over who has this data- your phone is even able to [track your location without GPS](https://gizmodo.com/how-to-track-a-cellphone-without-gps-or-consent-1821125371). Over the years numerous reports that surfaced, outlining ways in which your phone's [mic can eavesdrop](https://www.independent.co.uk/life-style/gadgets-and-tech/news/smartphone-apps-listening-privacy-alphonso-shazam-advertising-pool-3d-honey-quest-a8139451.html), and the [camera can watch you](https://www.businessinsider.com/hackers-governments-smartphone-iphone-camera-wikileaks-cybersecurity-hack-privacy-webcam-2017-6)- all without your knowledge or consent. And then there's the malicious apps, lack of security patches and potential/ likely backdoor.
 
-SMS texting and traditional phone calls are not secure, so it's important to avoid using that to send or receive anything secure (such as log in codes, OTPs or any personal details). Instead use encrypted messaging, like Signal whenever you can. Be wary of who you share your phone number with.
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
