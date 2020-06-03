@@ -15,7 +15,7 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 - Use a long, strong and unique password for each of your accounts (see [HowSecureIsMyPassword.net](https://howsecureismypassword.net))
 - Use a secure [password manager](/5_Privacy_Respecting_Software.md#password-managers), to encrypt, store and fill credentials, such as [BitWarden](https://bitwarden.com) or KeePass (no cloud-sync)
 - Enable 2-Factor authentication where available, and use an [authenticator app](/5_Privacy_Respecting_Software.md#2-factor-authentication) or hardware token
-- Sign up for breach alerts (with [Firefox Monitor](https://monitor.firefox.com) or [HavIBeenPwned](https://haveibeenpwned.com)), and update passwords of compromised accounts
+- Sign up for breach alerts (with [Firefox Monitor](https://monitor.firefox.com) or [HaveIBeenPwned](https://haveibeenpwned.com)), and update passwords of compromised accounts
 
 
 ### Browsing
