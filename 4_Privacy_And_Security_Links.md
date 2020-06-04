@@ -54,12 +54,16 @@
   - How to Enable Encryption on your Devices: via [SpreadPrivacy.com](https://spreadprivacy.com/how-to-encrypt-devices/)
   - How to Delete your Data Securely: Via EFF - [Windows](https://ssd.eff.org/en/module/how-delete-your-data-securely-windows), [MacOS](https://ssd.eff.org/en/module/how-delete-your-data-securely-macos) and [Linux](https://ssd.eff.org/en/module/how-delete-your-data-securely-linux) 
   - Layers of Personal Tech Security: via [The Wire Cutter](https://thewirecutter.com/blog/internet-security-layers)
-  - Improving security on iPhone: via [lifehacker](https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831)
+  - Device-Specific Privacy Guides: via [SpreadPrivacy](https://spreadprivacy.com/tag/device-privacy-tips/)
+    - For: [Windows 10](https://spreadprivacy.com/windows-10-privacy-tips/), [MacOS](https://spreadprivacy.com/mac-privacy-tips/), [Linux](https://spreadprivacy.com/linux-privacy-tips/), [Android](https://spreadprivacy.com/android-privacy-tips/) and [iOS](https://spreadprivacy.com/iphone-privacy-tips/)
   - Guide to scrubbing Windows OSs from forensic investigation: by u/moschles, via [Reddit](https://www.reddit.com/r/security/comments/32fb1l/open_guide_to_scrubbing_windows_oss_from_forensic)
   - A curated list of Windows Domain Hardening techniques: by @PaulSec, via: [GitHub](https://github.com/PaulSec/awesome-windows-domain-hardening)
+  - Settings to update on iPhone, for better privacy: via [lifehacker](https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831)
 - **Software**
   - How to use Vera Crypt: via [howtogeek](https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt)
   - How to use KeePassXC: via [EFF](https://ssd.eff.org/en/module/how-use-keepassxc)
+  - How to use uMatrix browser addon to block trackers: via [ProPrivacy](https://proprivacy.com/privacy-service/guides/lifehacks-setup-umatrix-beginners) 
+  - How to set up 2-Factor Auth on common websites: via [The Verge](https://www.theverge.com/2017/6/17/15772142/how-to-set-up-two-factor-authentication)
 - **Physical Security**
   - Hiding from Physical Surveillance: via [Snallabolaget](http://snallabolaget.com/hiding-from-surveillance-how-and-why)
   - Guide to opting-out of public data listings and marketing lists: via [World Privacy Forum](https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs)
@@ -97,6 +101,12 @@
   - UK Police Accessing Private Phone Data Without Warrant: via [Restore Privacy](https://restoreprivacy.com/uk-police-accessing-phone-data)
   - Rage Against Data Dominance: via [Privacy International](https://privacyinternational.org/long-read/3734/rage-against-data-dominance-new-hope)
   - NSA Files Decoded, What the revelations mean for you: via [The Guardian](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded)
+  - How to Track a Cellphone Without GPS—or Consent: via [Gizmodo](https://gizmodo.com/how-to-track-a-cellphone-without-gps-or-consent-1821125371)
+  - Apps able to track device location, through power manager: via [Wired](https://www.wired.com/2015/02/powerspy-phone-tracking/)
+  - Hackers and governments can see you through your phone’s camera: via [Business Insider](https://www.businessinsider.com/hackers-governments-smartphone-iphone-camera-wikileaks-cybersecurity-hack-privacy-webcam-2017-6)
+  - How a highly targeted ad can track your precise movements: via [Wired](https://www.wired.com/story/track-location-with-mobile-ads-1000-dollars-study/)
+    - Based on the paper, Using Ad Targeting for Surveillance on a Budget: via [Washington.edu](https://adint.cs.washington.edu/ADINT.pdf)
+  - Law Enforcement Geo-Fence Data Requests- How an Innocent cyclist became a suspect when cops accessed his Google location data: via [Daily Mail](https://www.dailymail.co.uk/news/article-8086095/Police-issue-warrant-innocent-mans-Google-information.html)
 - **Breaches**
   - Grindr and OkCupid Spread Personal Details Study Says: via [NY Times](https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html)
   - The Asia-Pacific Cyber Espionage Campaign that Went Undetected for 5 Years: via [TheHackerNews](https://thehackernews.com/2020/05/asia-pacific-cyber-espionage.html)
@@ -326,6 +336,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
     - Historic Reports: [2012](https://www.eff.org/files/who-has-your-back-2012_0.pdf) | [2013](https://www.eff.org/sites/default/files/who-has-your-back-2013-report-20130513.pdf) | [2014](https://www.eff.org/files/2014/05/15/who-has-your-back-2014-govt-data-requests.pdf) | [2015](https://www.eff.org/files/2015/06/18/who_has_your_back_2015_protecting_your_data_from_government_requests_20150618.pdf) | [2016](https://www.eff.org/files/2016/05/04/who-has-your-back-2016.pdf) | [2017](https://www.eff.org/files/2017/07/08/whohasyourback_2017.pdf) | [2018](https://www.eff.org/files/2018/05/31/whyb_2018_report.pdf) | [2019](https://www.eff.org/files/2019/06/11/whyb_2019_report.pdf)
   - [Sensor Access Data](https://databank.illinois.edu/datasets/IDB-9213932) - A Crawl of the Mobile Web Measuring Sensor Accesses, Illinois
   - [Canalys Newsroom](https://www.canalys.com/newsroom) - Research Studies on Security, Privacy, Technology and Finance
+  - [Data Never Sleeps](https://web-assets.domo.com/blog/wp-content/uploads/2019/07/data-never-sleeps-7-896kb.jpg) - An infographic visualizing how much data is generated every minute (2019)
 - **Databases**
   - [Exodus](https://reports.exodus-privacy.eu.org/en/trackers/stats) - Trackers in Android Apps
   - [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
@@ -390,6 +401,12 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - De-anonymizing Web Browsing Data with Social Networks: via [princeton.edu](https://www.cs.princeton.edu/~arvindn/publications/browsing-history-deanonymization.pdf)
   - The Surveillance Implications of Web Tracking: via [senglehardt.com](https://senglehardt.com/papers/www15_cookie_surveil.pdf)
   - Understanding Facebook Connect login permissions: via [jbonneau.com](http://jbonneau.com/doc/RB14-fb_permissions.pdf)
+  - Corporate Surveillance in Everyday Life, How Companies Collect, Combine, Analyze, Trade, and Use Personal Data on Billions: By Wolfie Christl, via [crackedlabs.org](https://crackedlabs.org/dl/CrackedLabs_Christl_CorporateSurveillance.pdf)
+  - Using Ad Targeting for Surveillance on a Budget: via [washington.edu](https://adint.cs.washington.edu/ADINT.pdf)
+  - Cross-Site WebSocket Hijacking: via [christian-schneider.net](http://www.christian-schneider.net/CrossSiteWebSocketHijacking.html)
+  - Location Tracking using Mobile Device Power Analysis: [scribd.com](https://www.scribd.com/doc/256304846/PowerSpy-Location-Tracking-using-Mobile-Device-Power-Analysis)
+  - Trackers Vs Firefox, Comparing different blocking utilities: via [GitHub- @jawz101](https://github.com/jawz101/TrackersVsFirefox)
+
 - **Implementations and Standards**
   - [The GNU Privacy Guard](https://www.gnupg.org)
   - [OpenPGP JavaScript Implementation](https://openpgpjs.org)
