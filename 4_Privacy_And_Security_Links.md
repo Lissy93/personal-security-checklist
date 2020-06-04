@@ -117,29 +117,33 @@
 
 
 ## Blogs
-- [Spread Privacy](https://spreadprivacy.com) - Raising the standard of trust online, by DuckDuckGo
-- [Restore Privacy](https://restoreprivacy.com) - Tools and guides about privacy and security
-- [That One Privacy Site](https://thatoneprivacysite.net) - impartial comparisons and discussions
-- [The Hated One](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q) - Privacy and security videos
-- [12Bytes](https://12bytes.org/articles/tech) - Opinion Articles about Tech, Privacy and more
-- [BringBackPrivacy](https://bringingprivacyback.com) - Easy-reading, sharable privacy articles
-- [Heimdal](https://heimdalsecurity.com/blog) - Cyber Security Blog
-- [Tech Crunch](https://techcrunch.com/tag/cybersecurity-101) - Cyber Security 101
-- [OONI](https://ooni.org/post), Internet freedom and analysis on blocked sites
-- [Pixel Privacy](https://pixelprivacy.com/resources) - Online privacy guides
-- [The Privacy Project](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html) - Articles and reporting on Privacy, by the NYT
-- [The Tin Hat](https://thetinhat.com) - Tutorials and Articles for Online Privacy
-- [FOSS Bytes- Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
-- [EFF SSD](https://ssd.eff.org) - Tips for safer online communications
-- [PrivacyTools.io]( https://www.privacytools.io) - Tools to protect against mass surveillance
-- [PrismBreak](https://prism-break.org/en/all) - Secure app alternatives
-- [The VERGE guide to privacy](https://bit.ly/2ptl4Wm) - Guides for securing mobile, web and home tech
-- [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
-- [Security Planner](https://securityplanner.org) - Great advise for beginners
-- [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
-- [Internet Health Report](https://foundation.mozilla.org/en/internet-health-report) - Mozilla is documenting and explaining what’s happening to openness and freedom on the Internet
-- [Worth Hiding](https://worthhiding.com) - Posts about privacy, politics and the law
-- [The Hacker News](https://thehackernews.com) - Up-to-date Cybersecurity News and Analysis
+- **Privacy**
+  - [EFF SSD](https://ssd.eff.org) - Tips for safer online communications
+  - [Spread Privacy](https://spreadprivacy.com) - Raising the standard of trust online, by DuckDuckGo
+  - [Restore Privacy](https://restoreprivacy.com) - Tools and guides about privacy and security
+  - [That One Privacy Site](https://thatoneprivacysite.net) - impartial comparisons and discussions
+  - [The Hated One](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q) - Privacy and security videos
+  - [12Bytes](https://12bytes.org/articles/tech) - Opinion Articles about Tech, Privacy and more
+  - [Pixel Privacy](https://pixelprivacy.com/resources) - Online privacy guides
+  - [The Tin Hat](https://thetinhat.com) - Tutorials and Articles for Online Privacy
+  - [PrivacyTools.io]( https://www.privacytools.io) - Tools to protect against mass surveillance
+  - [PrismBreak](https://prism-break.org/en/all) - Secure app alternatives
+  - [The VERGE guide to privacy](https://bit.ly/2ptl4Wm) - Guides for securing mobile, web and home tech
+  - [BringBackPrivacy](https://bringingprivacyback.com) - Easy-reading, sharable privacy articles
+- **Cyber Security**
+  - [FOSS Bytes- Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
+  - [Heimdal](https://heimdalsecurity.com/blog) - Personal Cyber Security Tutorials and Articles
+  - [Tech Crunch](https://techcrunch.com/tag/cybersecurity-101) - Cyber Security 101
+  - [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
+  - [Security Planner](https://securityplanner.org) - Great advise for beginners
+  - [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
+- **Internet Freedom**
+  - [OONI](https://ooni.org/post), Internet freedom and analysis on blocked sites
+  - [Internet Health Report](https://foundation.mozilla.org/en/internet-health-report) - Mozilla is documenting and explaining what’s happening to openness and freedom on the Internet
+  - [Worth Hiding](https://worthhiding.com) - Posts about privacy, politics and the law
+- **News and Updates**
+  - [The Privacy Project](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html) - Articles and reporting on Privacy, by the NYT
+  - [The Hacker News](https://thehackernews.com) - Up-to-date Cybersecurity News and Analysis
 
 
 ## Books
