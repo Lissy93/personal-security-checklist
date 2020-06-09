@@ -12,32 +12,49 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 
 ### Authentication
-- Use strong, unique passphrases for each of your accounts (12+ alpha-numeric upper and lower-case letters + symbols). Avoid predicitable patterns, dictionary words and names.
-- Use a password manager: It is going to be almost impossible to remember hundreds of unique passwords. A password manager will generate strong passwords, securly store and auto-fill them, with a browser extension and mobile app. All you will need to do, is remember 1 master password. [BitWarden](https://bitwarden.com) is a great option, as is [1Password](https://1password.com) (not open source). [KeePass XC](https://keepassxc.org) is more secure, but without any cloud-sync functionality.
-- Use 2-factor authentication for all secure accounts (email, cloud storage, financial accounts and social media). You can do this with [Authy](https://authy.com) (proprietary) which will also let you back up and sync your tokens across multiple devices. Or you can use [Aegis](https://getaegis.app) or [AndOTP](https://github.com/andOTP/andOTP) which are both open source.
-- Be cautious when logging into your accounts on someone elses device, as you cannot be sure that it is free of malware. If you do need to access one of your accounts, use incognito mode (Ctrl+Shift+N) so your credentials don't get cached.
+- Use a long, strong and unique password for each of your accounts (see [HowSecureIsMyPassword.net](https://howsecureismypassword.net))
+- Use a secure [password manager](/5_Privacy_Respecting_Software.md#password-managers), to encrypt, store and fill credentials, such as [BitWarden](https://bitwarden.com) or KeePass (no cloud-sync)
+- Enable 2-Factor authentication where available, and use an [authenticator app](/5_Privacy_Respecting_Software.md#2-factor-authentication) or hardware token
+- Sign up for breach alerts (with [Firefox Monitor](https://monitor.firefox.com) or [HaveIBeenPwned](https://haveibeenpwned.com)), and update passwords of compromised accounts
 
 
 ### Browsing
-- Don't enter any personal details on websites that are not HTTPS
-- Switch to [Firefox](https://www.mozilla.org/en-GB/firefox/new/) or [Brave Browser](https://brave.com/?ref=ali721), both of which have strong privacy and security configurations by default, and will also make loading websites faster. Consider using [Tor](https://www.torproject.org/) for the greatest privacy.
-- Consider using search engine that doesn't track you, such as [DuckDuckGo](https://duckduckgo.com/) or [StartPage](https://www.startpage.com/), which show unbiased results and don't keep logs.
-- Install [PrivacyBadger](https://www.eff.org/privacybadger) extension to block invisible trackers, and [HTTPS Everywhere](https://www.eff.org/https-everywhere) to force sites to load via HTTPS. You can use [Panopticlick](https://panopticlick.eff.org/) to quickly check if your browser is safe against tracking.
+- Use a Privacy-Respecting Browser, [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/exp/firefox/new) are gtrat options. Set your default search to a non-tracking search engine, such as [DuckDuckGo](https://duckduckgo.com)
+- Do not enter any information on a non-HTTPS website (look for the lock icon), consider using [HTTPS-Everywhere](https://www.eff.org/https-everywhere) to make this easier
+- Block invasive 3rd-party trackers and ads using an extension like [Privacy Badger](https://privacybadger.org) or [uBlock](https://github.com/gorhill/uBlock)
+- Don't allow your browser to save your passwords or auto-fill personal details (instead use a [password manager](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md#password-managers), and [disable your browsers own auto-fill](https://www.computerhope.com/issues/ch001377.htm))
+- Clear your cookies, session data and cache regularly. An extension such as [Cookie-Auto-Delete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) to automate this
+- Don't sign into your browser, as it can link further data to your identity. If you need to, you can use an open source [bookmark sync](/5_Privacy_Respecting_Software.md#browser-sync) app
+- Consider using [Decentraleyes](https://decentraleyes.org) to decrease the number of trackable CDN requests your device makes
+- Consider using compartmentalization to separate different areas of your browsing (such as work, social, shopping etc), in order to reduce tracking. This can be done with [Firefox Containers](https://support.mozilla.org/en-US/kb/containers), or by using separate browsers or browser profiles
+- Test your browser using a tool like [Panopticlick](https://panopticlick.eff.org) to ensure there are no major issues. [BrowserLeaks](https://browserleaks.com) and [Am I Unique](https://amiunique.org/fp) are also useful for exploring what device info your exposing to websites
+- Keep your browser up-to-date, explore the privacy settings and remove unnecessary add-ons/ extensions (as they may make you more trackable)
+- For anonymous browsing use [The Tor Browser](https://www.torproject.org/), and avoid logging into any of your personal accounts
 
 
 ### Phone
-- Have a strong pin/password on your mobile device.
-- Turn off WiFi when your not using it, and delete saved networks that you no longer need (Settings --> WiFi --> Saved Networks).
-- Don't grant apps permissions that they don't need. For Android, you can use [Exodus](https://exodus-privacy.eu.org/en/) to quickly see the permissions and trackers for each of your installed apps.
+- Set a device PIN, ideally use a long passcode
+- Encrypt your device, in order to keep your data safe from physical access. To enable, for Android: `Settings --> Security --> Encryption`, or for iOS: `Settings --> TouchID & Passcode --> Data Protection`
+- Keep device up-to-date. System updates often contain patches for recently-discovered security vulnrabilities. You should install updates when prompted
+- Review application permissions. Don't grant access permissions to apps that do not need it. (For Android, see also [Bouncer](https://play.google.com/store/apps/details?id=com.samruston.permission&hl=en_US) - an app that allows you to grant temporary permissions)
+- Disable connectivity features that aren't being used, and 'forget' WiFi networks that you no longer need
+- Disable location tracking. By default, both Android and iOS logs your GPS location history. You can disable this, for Android: `Maps --> Settings --> Location History`, and iOS: `Settings --> Privacy --> Location Services --> System Services --> Places`. Be aware that third-party apps may still log your position, and there are other methods of determining your location other than GPS (Cell tower, WiFi, Bluetooth etc)
+- Use an application firewall to block internet connectivity for apps that shouldn't need it. Such as [NetGuard](https://www.netguard.me/) (Android) or [Lockdown](https://apps.apple.com/in/app/lockdown-apps/id1469783711) (iOS)
+- Understand that apps contain trackers, that collect, store and sometimes share your data. For Android, you could use [Exodus](https://exodus-privacy.eu.org/en/page/what/) to reveal which trackers your installed apps are using.
 
 
 ### Email
-- It's important to protect your email account, as if a hacker gains access to it he/she will be able to reset the passwords for all your other accounts. Ensure you have a strong and unique password, and enable 2FA.
-- Emails are not encrypted by default, meaning they are able to be read by anyone who intercepts them as well as your email provider (Google, Microsoft, Apple, Yahoo etc all monitor emails). Consider switching to a secure mail provider using end-to-end encryption, such as [ProtonMail](https://protonmail.com/) or [Tutanota](https://tutanota.com/).
+It's important to protect your email account, as if a hacker gains access to it they will be able to pose as you, and reset the passwords for your other online accounts. One of the biggest threats to digital security is still phishing, and it can sometimes be incredibly convincing, so remain vigilant, and understand [how to spot malicious emails](https://heimdalsecurity.com/blog/abcs-detecting-preventing-phishing), and avoid publicly sharing your email address
+
+- Use a long, strong and unique password and enable 2FA
+- Consider switching to a secure and encrypted mail provider using, such as [ProtonMail](https://protonmail.com) or [Tutanota](https://tutanota.com)
+- Use email aliasing to protect your real mail address, with a provider such as [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io/?slref=bridsqrgvrnavso). This allows you to keep your real address private, yet still have all messages land in your primary inbox
+- Disable automatic loading of remote content, as it is often used for detailed tracking but can also be malicious
+- Using a custom domain, will mean you will not loose access to your email address if your current provider disappears. If you need to back up messages, use a secure IMAP client [Thuderbird](https://www.thunderbird.net)
 
 
 ### Networking
-- Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log. (Note: VPN's do not provide ultimate protection as advertisers commonly state). See [thatoneprivacysite.net](https://thatoneprivacysite.net/) for a detailed comparison chart. [ProtonVPN](https://protonvpn.com/) has a free starter plan, [Mullvad](https://mullvad.net/) is great for anonymity. Other good all-rounders include [IVPN](https://www.ivpn.net/), NordVPN, TorGuard and AirVPN.
+- Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log, but understand their limitations.  Good options include [ProtonVPN](https://protonvpn.com) and [Mullvad](https://mullvad.net), see [thatoneprivacysite.net](https://thatoneprivacysite.net/) for detailed comparisons
 - Change your routers default password. Anyone connected to your WiFi is able to listen to network traffic, so in order to prevent people you don't know from connecting, use WPA2 and set a strong password.
 - Update your router settings to use a secure DNS, such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/), this should also speed up your internet. If you cannot modify your roters settings, you can set the DNS on your phone (with the [1.1.1.1. app](https://1.1.1.1/)), or [Windows](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/windows/), [Mac](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/mac/) or [Linux](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/linux/). DNS is the system used to resolve URL's to their server addresses, many DNS providers collect data on your browsing habbits and use it to target you with ads or sell it on. 
 
