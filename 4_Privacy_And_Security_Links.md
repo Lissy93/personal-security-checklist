@@ -46,6 +46,7 @@
   - Beginners guide on getting started with Tor: via [ProPrivacy](https://proprivacy.com/privacy-service/guides/ultimate-tor-browser-guide)
   - Beginners guide to I2P: via [The Tin Hat](https://thetinhat.com/tutorials/darknets/i2p.html)
   - How to Use a VPN and Tor together: via [ProPrivacy](https://proprivacy.com/vpn/guides/using-vpn-tor-together)
+  - How to use `__nomap`, to reduce public exposure of SSID: via [ghacks](https://www.ghacks.net/2014/10/29/add-_nomap-to-your-routers-ssid-to-have-it-ignored-by-google-and-mozilla/)
 - **Communication**
   - Email Self-Defense, Configure your mail client securly, from scratch - via [FSF.org](https://emailselfdefense.fsf.org)
   - How to avoid Phishing Attacks: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
@@ -76,14 +77,14 @@
   - Product reviews from a privacy perspective, by Mozilla: via [Privacy Not Included](https://foundation.mozilla.org/en/privacynotincluded)
   - Surveillance Catalogue - Database of secret government surveillance equipment, Snowden: via [The Intercept](https://theintercept.com/surveillance-catalogue)
     - See also: The source code, on WikiLeaks [Vault7](https://wikileaks.org/vault7) and [Vault8](https://wikileaks.org/vault8), and the accompanying [press release](https://wikileaks.org/ciav7p1)
-   - Who Has Your Back? - Which companies hand over your comply with Government Data Requests 2019: via [EFF](https://www.eff.org/wp/who-has-your-back-2019)
-   - Open project to rate, annotate, and archive privacy policies: via [PrivacySpy.org](https://privacyspy.org)
-   - Check who your local and government representatives in your local area are [WhoAreMyRepresentatives.org](https://whoaremyrepresentatives.org)
-   - Impartial VPN Comparison Data: via [ThatOnePrivacySite](https://thatoneprivacysite.net/#detailed-vpn-comparison)
-   - Hosts to block: via [someonewhocares/ hosts](https://someonewhocares.org/hosts) / [StevenBlack/ hosts](https://github.com/StevenBlack/hosts)
-   - Magic Numbers - Up-to-date file signature table, to identify / verify files have not been tampered with: via [GaryKessler](https://www.garykessler.net/library/file_sigs.html)
-   - List of IP ranges per country: via [Nirsoft](https://www.nirsoft.net/countryip)
-   - Database of default passwords for various devices by manufacturer and model: via [Default-Password.info](https://default-password.info)
+  - Who Has Your Back? - Which companies hand over your comply with Government Data Requests 2019: via [EFF](https://www.eff.org/wp/who-has-your-back-2019)
+  - Open project to rate, annotate, and archive privacy policies: via [PrivacySpy.org](https://privacyspy.org)
+  - Check who your local and government representatives in your local area are [WhoAreMyRepresentatives.org](https://whoaremyrepresentatives.org)
+  - Impartial VPN Comparison Data: via [ThatOnePrivacySite](https://thatoneprivacysite.net/#detailed-vpn-comparison)
+  - Hosts to block: via [someonewhocares/ hosts](https://someonewhocares.org/hosts) / [StevenBlack/ hosts](https://github.com/StevenBlack/hosts)
+  - Magic Numbers - Up-to-date file signature table, to identify / verify files have not been tampered with: via [GaryKessler](https://www.garykessler.net/library/file_sigs.html)
+  - List of IP ranges per country: via [Nirsoft](https://www.nirsoft.net/countryip)
+  - Database of default passwords for various devices by manufacturer and model: via [Default-Password.info](https://default-password.info)
 
 
 ## Articles
@@ -108,12 +109,17 @@
     - Based on the paper, Using Ad Targeting for Surveillance on a Budget: via [Washington.edu](https://adint.cs.washington.edu/ADINT.pdf)
   - Law Enforcement Geo-Fence Data Requests- How an Innocent cyclist became a suspect when cops accessed his Google location data: via [Daily Mail](https://www.dailymail.co.uk/news/article-8086095/Police-issue-warrant-innocent-mans-Google-information.html)
 - **Breaches**
+  - Wired guide to data breaches- past, present and future: via [Wired](https://www.wired.com/story/wired-guide-to-data-breaches/)
   - Grindr and OkCupid Spread Personal Details Study Says: via [NY Times](https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html)
   - The Asia-Pacific Cyber Espionage Campaign that Went Undetected for 5 Years: via [TheHackerNews](https://thehackernews.com/2020/05/asia-pacific-cyber-espionage.html)
 - **Threats**
   - 23 reasons not to reveal your DNA: via [Internet Health Report](https://internethealthreport.org/2019/23-reasons-not-to-reveal-your-dna)
   - Security of Third-Party Keyboard Apps on Mobile Devices: via [Lenny Zelster](https://zeltser.com/third-party-keyboards-security)
   - Mobile Websites Can Tap Into Your Phone's Sensors Without Asking: via [Wired](https://www.wired.com/story/mobile-websites-can-tap-into-your-phones-sensors-without-asking)
+  - Non-admin accounts mitigate 94% of critical Windows vulnerabilities: via [ghacks](https://www.ghacks.net/2017/02/23/non-admin-accounts-mitigate-94-of-critical-windows-vulnerabilities/)
+  - Android Apps are able to monitor screen state, data usage, installed app details and more without any permissions: by @databurn-in, via [GitHub](https://github.com/databurn-in/Android-Privacy-Issues)
+    - See also, [PrivacyBreacher](https://github.com/databurn-in/PrivacyBreacher) - an app developed by @databurn-in, which demonstrates these issues
+
 
 
 ## Blogs
@@ -466,12 +472,15 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - **Global**: [first.org](https://www.first.org) - The global Forum of Incident Response and Security Teams
 
 ## Mega Guides
-- by [Fried](https://fried.com/privacy)
-- by [ivpn](https://www.ivpn.net/privacy-guides)
-- by [ProPrivacy](https://proprivacy.com/guides/the-ultimate-privacy-guide)
-- by [Heimdal Security](https://heimdalsecurity.com/blog/cyber-security-mega-guide)
-- by [Wired](https://www.wired.com/2017/12/digital-security-guide)
-- by [Vice](https://www.vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide)
+- Trusted software reccomendations and avice for privacy: [privacytools.io](https://www.privacytools.io/) 
+- Tips and tricks, for internet freedom, data health and privacy: [datadetoxkit.org](https://datadetoxkit.org/)
+- Digital security tools and tactics: [securityinabox.org](https://securityinabox.org/)
+- Online privacy guide, and software reccomendations: via [Fried](https://fried.com/privacy)
+- Guide to security through encryption: via [ProPrivacy](https://proprivacy.com/guides/the-ultimate-privacy-guide)
+- Large collection of beginner security guides: [Heimdal Security](https://heimdalsecurity.com/blog/cyber-security-mega-guide)
+- The Motherboard guide to not getting hacked: via [Vice](https://www.vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide)
+- Online anonimity, and Tor + VPN tutorials: via [ivpn](https://www.ivpn.net/privacy-guides)
+
 
 ## More Awesome GitHub Lists
 
