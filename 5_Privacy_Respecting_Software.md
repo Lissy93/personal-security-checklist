@@ -74,8 +74,10 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Home/ IoT**
   - [Home Automation](#home-automation)
   - [Voice Assistants](#ai-voice-assistants)
-- **Payment Methods**
+- **Finance**
   - [Cryptocurrencies](#cryptocurrencies)
+  - [Crypto Wallets](#crypto-wallets)
+  - [Crypto Exchanges](#crypto-exchanges)
   - [Virtual Credit Cards](#virtual-credit-cards)
   - [Other Payment Methods](#other-payment-methods)
   - [Secure Budgeting](#budgeting-tools)
@@ -832,6 +834,30 @@ Other privacy-focused cryptocurrencies include: [PIVX](https://pivx.org), [Bitco
 Not all cryptocurrencies are anonymous, and without using a privacy-focused coin, a record of your transaction will live on a publicly available distributed ledger, forever. If you send of receive multiple payments, ensure you switch up addresses or use a mixer, to make it harder for anyone trying to trace your transactions. Store private keys somewhere safe, but offline and preferably cold.
 
 Note: Cryptocurrency prices can go down. Storing any wealth in crypto may result in losses. If you are new to digital currencies- do your research first, don't invest more than you can afford, and be very weary of scams and cryptocurrency-related malware. 
+
+## Crypto Wallets
+
+| Provider | Description |
+| --- | --- |
+**[Wasabi Wallet](https://www.wasabiwallet.io/)** (BitCoin) | An open source, native desktop wallet for Windows, Linux and MacOS. Wasabi implements trustless CoinJoins over the Tor network. Neither an observer nor the participants can determine which output belongs to which input. This makes it difficult for outside parties to trace where a particular coin originated from and where it was sent to, which greatly improves privacy. Since it's trustless, the CoinJoin coordinator cannot breach the privacy of the participants. Wasabi is compatible with cold storage, and hardware wallets, including OpenCard and Trezor.
+**[Trezor](https://trezor.io/)** (All Coins) | Open source, cross-platform, offline, crypto wallet, compatible with 1000+ coins. Your private key is generated on the device, and never leaves it, all transactions are signed by the Trezor, which ensures your wallet is safe from theft. There are native apps for Windows, Linux, MacOS, Android and iOS, but Trezor is also compatible with other wallets, such as Wasabi. You can back the Trezor up, either by writing down the seed, or by duplicating it to another device. It is simple and intuitive to use, but also incredible customisable with a large range of advanced features
+**[ColdCard](https://coldcardwallet.com/)** (BitCoin) | An easy-to-use, super secure, open source BitCoin hardware wallet, which can be used independently as an air-gapped wallet. ColdCard is based on partially signed Bitcoin transactions following the [BIP174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki) standard. Built specifically for BitCoin, and with a variety of unique security features, ColdCard is secure, trustless, private and easy-to-use. Companion products for the ColdCard include: [BlockClock](http://blockclockmini.com/), [SeedPlate](http://bitcoinseedbackup.com/) and [ColdPower](http://usbcoldpower.com/)
+**[CryptoSteel](https://cryptosteel.com/how-it-works)** | A steel plate, with engraved letters which can be permanently screwed - CryptoSteel is a good fire-proof, shock-proof, water-proof and stainless cryptocurrency backup solution
+
+
+#### Word of Warning
+Avoid using any online/ hot-wallet, as you will have no control over the security of your private keys. Offline paper wallets are very secure, but ensure you store it properly- to keep it safe from theft, loss or damage.
+
+## Crypto Exchanges
+
+| Provider | Description |
+| --- | --- |
+**[Bisq](https://bisq.network)** | An open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies in exchange for national currencies. Fully decentralized, and no registration required.
+**[LocalBitcoins](https://localbitcoins.com/)** | Person-to-person exchange, find people local to your area, and trade directly with them, to avoid going through any central organisation. Primarily focused on BitCoin, Etherium, Ripple andd LiteCoin, as it gets harder to find people near you selling niche alt-coins
+
+#### Notable Mentions
+
+For traders, [BaseFEX](https://www.basefex.com/) doesn't require ID and has a good privacy policy. [BitMex](https://www.bitmex.com/) has more advanced trading features, but ID verification is required for higher value trades involving Fiat currency. For buying and selling alt-coins, [Binance](https://www.binance.com/en/register?ref=X2BHKID1) has a wide range of currencies, and ID verification is not needed for small-value trades.
 
 
 ## Virtual Credit Cards
