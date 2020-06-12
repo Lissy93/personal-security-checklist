@@ -42,6 +42,8 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Proxies](#proxies)
   - [DNS Providers](#dns)
   - [Firewalls](#firewalls)
+  - [Ad Blockers](#ad-blockers)
+  - [Host Block Lists](#host-block-lists)
   - [Router Firmware](#router-firmware)
   - [Network Analysis](#network-analysis)
   - [Cloud Hosting](#cloud-hosting)
@@ -507,6 +509,42 @@ A firewall is a program which monitors the incoming and outgoing traffic on your
 #### Word of Warning
 There are different [types](https://www.networkstraining.com/different-types-of-firewalls) of firewalls, that are used in different circumstances. This does not omit the need to configure your operating systems defences. Follow these instructions to enable your firewall in [Windows](https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off), [Mac OS](https://support.apple.com/en-us/HT201642), [Ubuntu](https://wiki.ubuntu.com/UncomplicatedFirewall) and other [Linux ditros](https://www.tecmint.com/start-stop-disable-enable-firewalld-iptables-firewall).
 Even when properly configured, having a firewall enabled does not guarantee bad network traffic can not get through and especially during boot if you don't have root privileges.
+
+## Ad Blockers
+
+
+There are a few different ways to block ads- browser-based ad-blockers, router-based / device blockers or VPN ad-blockers. Typically they work by taking a maintained list of hosts, and filtering each domain/ IP through it. Some also have other methods to detect certain content based on pattern mathcing
+
+| Provider | Description |
+| --- | --- |
+**[Pi-Hole](https://pi-hole.net/)** (Server/ VM/ Pi) | Incredibly powerful, network-wide ad-blocker. Works out-of-the-box, light-weight with an intuitive web interface, but still allows for a lot of advanced configuration for power users. As well as blocking ads and trackers, Pi-Hole speeds up your network speeds quite significantly. The dashboard has detailed statistics, and makes it easy to pause/ resume Pi-Hole if needed.
+**[Diversion](https://diversion.ch/)** (Router) | A shell script application to manage ad-blocking, Dnsmasq logging, Entware and pixelserv-tls installations and more on supported routers running [Asuswrt-Merlin firmware](https://www.asuswrt-merlin.net/), including its forks
+**[DN66](https://github.com/julian-klode/dns66)** (Android) | DNS-based host and ad blocker for Android. Easy to configure, but the default config uses several widely-respected host files. aimed at stopping ads, malware, and other weird stuff
+**[BlockParty](https://github.com/krishkumar/BlockParty)** (iOS/ MacOS) | Native Apple (Swift) apps, for system-wide ad-blocking. Can be customized with custom host lists, primarily aimed for just ad-blocking
+**[hBlock](https://hblock.molinero.dev/)** (Unix) | A POSIX-compliant shell script, designed for Unix-like systems, that gets a list of domains that serve ads, tracking scripts and malware from multiple sources and creates a hosts file (alternative formats are also supported) that prevents your system from connecting to them. Aimed at improving security and privacy through blocking advert, tracking and malware associated domains
+**[Ad Block Radio](https://github.com/adblockradio/adblockradio)** (Sound) | Python script that uses machine learning to block adverts in live audio streams, such as Radio, Podcasts, Audio Books, and music platforms such as Spotify. See [live demo](https://www.adblockradio.com/en/)
+**[uBlock Origin](https://github.com/gorhill/uBlock)** (Browser) | Light-weight, fast browser extension for Firefox and Chromium (Chrome, Edge, Brave Opera etc), that blocks tracking, ads and known malware. uBlock is easy-to-use out-of-the-box, but also has a highly customisable advanced mode, with a point-and-click firewall which can be configured on a per-site basis
+**[uMatrix]()** (Browser) | Another light-weight browser extension, for Chromium and Firefox browsers. uMatrix acts more like a firewall, giving you the option for super fine-grained control over every aspect of resource blocking. It is possible to use both uBlock (for simple/ cosmetic ad blocking) and uMatrix (for detailed JavaScript blocking) at the same time
+
+
+#### Notable Mentions
+[AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) is a cross-platform DNS Ad Blocker, similar to Pi Hole, but with some additional features, like parental controls, per-device configuration and the option to force safe search. This may be a good solution for families with young children.
+
+Some VPNs have ad-tracking blocking features, such as [TrackStop with PerfectPrivacy](https://www.perfect-privacy.com/en/features/trackstop?a_aid=securitychecklist). 
+[Private Internet Access](https://www.privateinternetaccess.com/), [CyberGhost](https://www.cyberghostvpn.com/), [PureVPN](https://www.anrdoezrs.net/click-9242873-13842740), and [NordVPN](https://www.kqzyfj.com/l5115shqnhp4E797DC8467D69A6D) also have ad-block features.
+
+
+## Host Block Lists
+
+| Provider | Description |
+| --- | --- |
+**[SomeoneWhoCares/ Hosts](https://someonewhocares.org/hosts/)** | An up-to-date host list, maintained by Dan Pollock- to make the internet not suck (as much)
+**[Hosts by StevenBlack](https://github.com/StevenBlack/hosts)** |  Open source, community-maintained consolidated and extending hosts files from several well-curated sources. You can optionally pick extensions to block p0rn, Social Media, gambling, fake news and other categories
+**[No Google](https://github.com/nickspaargaren/no-google)** | Totally block all direct and indirect content from Google, Amazon, Facebook, Apple and Microsoft (or just some)
+**[EasyList](https://easylist.to)** | Comprehensive list of domains for blocking tracking, social scripts, bad cookies and annoying stuff
+**[iBlockList](https://www.iblocklist.com/)** | Variety of lists (free and paid-for) for blocking content based on certain topics, inducing: spam, abuse, political, illegal, hijacked, bad peers and more
+**[Energized](https://github.com/EnergizedProtection/block)** | A variety of well-maintained lists, available in all common formats, with millions of hosts included
+
 
 ## Router Firmware
 
