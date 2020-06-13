@@ -17,6 +17,7 @@
 [<img src="https://i.ibb.co/F3WwqsV/7-phones-36x36.png" width="28" height="28" /> Mobile Phones](#mobile-devices)<br>
 [<img src="https://i.ibb.co/ZftcgJq/8-computers-36x36.png" width="28" height="28" /> Personal Computers](#personal-computers)<br>
 [<img src="https://i.ibb.co/b2S9372/9-smart-home-36x36.png" width="28" height="28" /> Smart Home](#smart-home)<br>
+[<img src="https://i.ibb.co/4JTqL5y/12-finance-36x36.png" width="28" height="28" /> Personal Finance](#personal-finance)<br>
 [<img src="https://i.ibb.co/KVPV1Lk/10-human-36x36.png" width="28" height="28" /> Human Aspect](#sensible-computing)<br>
 [<img src="https://i.ibb.co/9NbhBww/11-physical-36x36.png" width="28" height="28" /> Physical Security](#physical-security)<br>
 
@@ -349,10 +350,19 @@ Note about credit cards: Credit cards have technological methods in place to det
 **Use Virtual Cards** | Optional | Virtual card numbers let you pay for items without revealing your real card or banking details. They also offer additional features, such as single-use cards and spending limits for each card. This means you will not be charged more than you specified, or ongoing subscriptions or in the case of a data breach. [Privacy.com](https://privacy.com/join/VW7WC), [MySudo](https://mysudo.com/) and [others](/5_Privacy_Respecting_Software.md#virtual-credit-cards) offer this service
 **Use Cash for Local Transactions** | Optional | Unlike any digital payment method, cash is virtually untraceable. Using cash for local and everyday purchases will prevent any financial institution building up a comprehensive data profile based on your spending habits 
 **Use Cryptocurrency**  | Optional | Unlike card payments, most cryptocurrencies are not linked to your real identity. However many blockchains have a public ledger, where transaction details can be publicly viewed online. A privacy-focused currency, such as [Monero](https://www.getmonero.org) or [ZCash](https://z.cash) (see [more](/5_Privacy_Respecting_Software.md#cryptocurrencies)) will allow you to pay for goods and services without any direct link to your identity
-**Buy Crypto Anonymously** | Advanced | If you are buying a common cryptocurrency (such as BitCoin), in order to use it as a payment method avoid paying by card on an online exchange, since this will link directly back to your real identity. Instead use a service like [LocalBitcoins](https://localbitcoins.com), an anonymous exchange, such as [Bisq](https://bisq.network), or buy from a local BitCoin ATM ([find one here](https://coinatmradar.com)). Before converting BitCoin back to currency, consider using a [bitcoin mixer](https://en.bitcoin.it/wiki/Mixing_service), to make your transaction harder to trace.**Use an alias details for online shopping** | Advanced | When you pay for goods or services online, you do not know for sure who will have access to your data. Using an alias name, forwarding mail address and not disclosing your personal phone number will go a long way in keeping you safe. Services such as [SimpleLogin](https://simplelogin.io/?slref=bridsqrgvrnavso) or [Anonaddy](https://anonaddy.com) will allow you to create anonymous forwarding email addresses
+**Store Crypto Securely** | Advanced | Generate wallet address offline, never let your private key touch the internet and preferably avoid storing it on an internet-connected device. Use a secure wallet, such as [Wasabi](https://www.wasabiwallet.io/), or a hardware wallet, like [Trezor](https://trezor.io/) or [ColdCard](https://coldcardwallet.com/). For long-term storage consider a paper wallet, or use [CryptoSteel](https://cryptosteel.com/how-it-works)
+**Buy Crypto Anonymously** | Advanced | If you are buying a common cryptocurrency (such as BitCoin), purchasing it from an exchange with your debit/ credit card, will link directly back to your real identity. Instead use a service like [LocalBitcoins](https://localbitcoins.com), an anonymous exchange, such as [Bisq](https://bisq.network), or buy from a local BitCoin ATM ([find one here](https://coinatmradar.com)). Avoid any exchange that implements [KYC](https://en.wikipedia.org/wiki/Know_your_customer)
+**Tumble/ Mix Coins** | Advanced | Before converting BitCoin back to currency, consider using a [bitcoin mixer](https://en.bitcoin.it/wiki/Mixing_service), or [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin) to make your transaction harder to trace. (Some wallets, such as [Wasabi](https://www.wasabiwallet.io/) support this nativley)
+**Use an Alias Details for Online Shopping** | Advanced | When you pay for goods or services online, you do not know for sure who will have access to your data. Consider using an alias name, forwarding mail address (using a service like [SimpleLogin](https://simplelogin.io/?slref=bridsqrgvrnavso) or [Anonaddy](https://anonaddy.com)), or a VOIP number
 **Use alternate delivery address** | Advanced | When online shopping, if possible get goods delivered to an address that is not associated to you. For example, using a PO Box, forwarding address, corner-shop collection or pickup box
 
-
+**Recommended Software**
+- [Virtual Credit Cards](/5_Privacy_Respecting_Software.md#virtual-credit-cards)
+- [Cryptocurrencies](/5_Privacy_Respecting_Software.md#cryptocurrencies)
+- [Crypto Wallets](/5_Privacy_Respecting_Software.md#crypto-wallets)
+- [Crypto Exchanges](/5_Privacy_Respecting_Software.md#crypto-exchanges)
+- [Other Payment Methods](/5_Privacy_Respecting_Software.md#other-payment-methods)
+- [Budgeting Tools](/5_Privacy_Respecting_Software.md#budgeting-tools)
 
 ## Sensible Computing
 
