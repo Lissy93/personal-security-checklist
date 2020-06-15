@@ -58,6 +58,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Browser Sync](#browser-sync)
   - [Secure Conference Calls](#video-conference-calls)
 - **Utilities**
+  - [Virtual Machines](#virtual-machines)
   - [PGP Managers](#pgp-managers)
   - [Metadata Removal](#metadata-removal-tools)
   - [Data Erasers](#data-erasers)
@@ -68,7 +69,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [News Readers](#news-readers-and-aggregation)
 - **Operating Systems**
   - [Mobile Operating Systems](#mobile-operating-systems)
-  - [PC Operating Systems](#pc-operating-systems)
+  - [Desktop Operating Systems](#desktop-operating-systems)
   - [Linux Defences](#linux-defences)
   - [Windows Defences](#windows-defences)
   - [Mac OS Defences](#mac-os-defences)
@@ -572,6 +573,18 @@ Weather you live in a country behind a firewall, or accessing the internet throu
 **[Proxy Checker](https://ping.eu/proxy/)** | You can quickly check if a given IP is using a proxy, this can also be done through the [command line](https://superuser.com/questions/346372/how-do-i-know-what-proxy-server-im-using)
 
 
+## Intrusion Detection
+
+An IDS is an application that monitors a network or computer system for malicious activity or policy violations, and notifies you of any unusual or unexpected events. If you are running a server, then it's essential to know about an incident as soon as possible, in order to minimize damage.
+
+| Provider | Description |
+| --- | --- |
+**[Zeek](https://zeek.org/)** | Zeek (formally Bro) Passively monitors network traffic and looks for suspicious activity
+**[OSSEC](https://www.ossec.net/)** | OSSEC is an Open Source host-based intrusion detection system, that performs log analysis, integrity checking, monitoring, rootkit detection, real-time alerting and active response
+**[Kismet](https://www.kismetwireless.net/)** |An 802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+**[Snare](https://www.snaresolutions.com/products/snare-central/)** | SNARE (System iNtrusion Analysis and Reporting Environment) is a series of log collection agents that facilitate centralized analysis of audit log data. Logs from the OS are collected and audited. Full remote access, through a web interface easy to use manually, or by an automated process
+
+
 ## Cloud Hosting
 
 Weather you are hosting a website and want to keep your users data safe, or if you are hosting your own file backup, cloud productivity suit or VPN- then choosing a provider that respects your privacy and allows you to sign up anonymously, and will keep your files and data safe is be important.
@@ -620,7 +633,11 @@ Self-hosting your own mail server is not recommended for everyone, it can be tim
 **[Notable](https://notable.md)** | Markdown-based note editior for desktop, with a simple, yet feature-rich UI. All notes are saved individually as .md files, making them easy to manage. No mobile app, or built-in cloud-sync or encryption
 
 #### Notable Mentions
-If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com) is a utility that encrypts your entire notebook, before it is uploaded to the cloud. [Org Mode](https://orgmode.org) is a very comprehensive CLI tool for keeping notes, maintaining todo lists, planning projects, and authoring documents -based on a fast and effective plain-text system, from the command line. For a simple plain text note taking app, with strong encryption, see [Protected Text](https://www.protectedtext.com), which works well with the [Safe Notes](https://play.google.com/store/apps/details?id=com.protectedtext.android) Android app
+If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com) is a utility that encrypts your entire notebook, before it is uploaded to the cloud. 
+
+[Org Mode](https://orgmode.org) is a very comprehensive CLI tool for keeping notes, maintaining todo lists, planning projects, and authoring documents -based on a fast and effective plain-text system, from the command line.
+
+For a simple plain text note taking app, with strong encryption, see [Protected Text](https://www.protectedtext.com), which works well with the [Safe Notes](https://play.google.com/store/apps/details?id=com.protectedtext.android) Android app. [Laverna](https://laverna.cc/) is a cross-platform secure notes app, where all entries are formated with markdown.
 
 
 ## Cloud Productivity Suits
@@ -784,6 +801,22 @@ Simply deleting data, does [not remove it](https://uk.norton.com/internetsecurit
 There's no need to use a third-party tool. You can boot into a UNIX-based system, mount the disk you need to erase, and use a command to write it with arbitrary data. For best results, this process should be repeated several times. This is a good way to wipe a disk, before selling or destroying it, to protect your data.
 
 Such as the [`dd`](https://en.wikipedia.org/wiki/Dd_%28Unix%29) command, is a tool to convert and copy files, but running `sudo dd if=/dev/zero of=/dev/sdX bs=1M` will quickly overwrite the whole disk with zeros. Or [badblocks](https://linux.die.net/man/8/badblocks) which is intended to search for all bad blocks, but can also be used to write zeros to a disk, by running `sudo badblocks -wsv /dev/sdd`. An effective method of erasing an SSD, it to use [hdparm](https://en.wikipedia.org/wiki/Hdparm) to issue a [secure erase](https://en.wikipedia.org/wiki/Parallel_ATA#HDD_passwords_and_security) command, to your target storage device, for this, see step-by-step instructions via: [wiki.kernel.org](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase). Finally, `[srm](https://www.systutorials.com/docs/linux/man/1-srm/)` can be use to securely remove files or directories, just run `srm -zsv /path/to/file` for a single pass over.
+
+## Virtual Machines
+
+A VM is a sandboxed operating system, running within your current system. Useful for compartmentalisation and safley testing software, or handling potentially malicious files
+
+| Provider | Description |
+| --- | --- |
+**[VirtualBox](https://www.virtualbox.org/)** | Open source, powerful, feature-rich virtualization product, supporting x86 and AMD64/Intel64 architectures. Available for Windows, MacOS, Linux and BSD, and free for both personal and enterprise use. VirtualBox is backed by a strong community, and has been under active development since 2007.
+**[Xen Project](https://xenproject.org/)** (Servers) | Open source virtual machine monitor intended to serve as a type-1 hyperviser for multiple operating systems using the same hardware - very useful for servers, as it allows for fully independent virtual Linux machines 
+
+#### Notable Mentions
+
+[QEMU](https://wiki.qemu.org/Main_Page) is a virtual hardware emulation tool, meaning it is less appropriate for creating fully independant sandboxes, but performance is considerable better than that of a traditional virtual machine.
+
+[VMWare](https://www.vmware.com/) is popular in the enterprise world, it is not open source, and although there is a free version, a license is required to access all features. VMWare perfoms very well when running on a server, with hundreds of hosts and users. For Mac users, [Parallels](https://www.parallels.com/uk/) is a popular option which performs really well, but again is not open source. For Windows users, there's [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v), which is a native Windows product, developed by Microsoft.
+
 
 ## Social Networks
 
@@ -969,9 +1002,11 @@ It is not recommended to root, or flash your device with a custom ROM if you are
 - Finally, rooting and flashing your device, will void your warranty
 
 
-## PC Operating Systems
+## Desktop Operating Systems
 
 Windows 10 has many features that violate your privacy. Microsoft and Apple are able to collect all your data (including, but not limited to: keystrokes, searches and mic input, calendar data, music, photos, credit card information and purchases, identity, passwords, contacts, conversations and location data). Microsoft Windows is also more susceptible to malware and viruses, than alternative systems.
+
+Switching to Linux is a great choice in terms of security and privacy- you don't need necessarily need to use a security distro, any well-maintained stable distro is going to be considerably better than a propriety OS
 
 | Provider | Description |
 | --- | --- |
@@ -983,14 +1018,21 @@ Windows 10 has many features that violate your privacy. Microsoft and Apple are 
 **[Alpine Linux](https://www.alpinelinux.org/)** | Alpine is a security-oriented, lightweight distro based on musl libc and busybox. It compiles all user-space binaries as position-independent executables with stack-smashing protection. Install and setup may be quite complex for some new users
 
 #### Notable Mentions
-[Subgraph OS](https://subgraph.com), [PureOS](https://pureos.net), [Kali](https://www.kali.org) (defensive security), [BlackArch](https://blackarch.org) (defensive security), [Kodachi](https://www.digi77.com/linux-kodachi/), [IprediaOS](https://www.ipredia.org) (obsolete), [Fedora CoreOS](https://getfedora.org/coreos?stream=stable)
+[Septor](https://septor.sourceforge.io/) is a Debian-based distro with the KDE Plasma desktop environment, and Tor baked-in. Designed for surfing the web anonymously, and completing other internet-based activities (with Thunderbird, Ricochet IM, HexChat, QuiteRSS, OnionShare). Septor is light-weight, but comes bundled with all the essential privacy + security utilities (including: Gufw, Ark, Sweeper, KGpg, Kleopatra, KWallet, VeraCrypt, Metadata Anonymisation Toolkit and more).
+
+[Subgraph OS](https://subgraph.com) is designed to be an *adversary resistant computing platform*, it includes strong system-wide attack mitigations, and all key applications run in sandbox environments. Subgraph is still in beta (at the time of writing), but still is well tested, and has some nice anonymization features
+
+For defensive security, see [Kali](https://www.kali.org) and [BlackArch](https://blackarch.org), both are bundled with hundreds of security tools, ready for pretty much any job.  
+
+Note: [Kodachi](https://www.digi77.com/linux-kodachi/) and [IprediaOS](https://www.ipredia.org) are not under active maintenance, and so should be avoided., [Fedora CoreOS](https://getfedora.org/coreos?stream=stable)
 
 #### General Purpose Linux Distros
 If you do not want to use a specalist security-based distro, or you are new to Unix- then just switching to any well-maintained Linux distro, is going to be significantly more secure and private than Windows or Mac OS.
 Since it is open source, major distros are constantly being audited by members of the community. Linux does not give users admin rights by default- this makes is much less likley that your system could become infected with malware. And of course, there is no proprietary Microsoft or Apple software constantly monitoring everything you do.
 
-Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **[Debian](https://www.debian.org/)**, or **[Arch](https://www.archlinux.org/)**- all of which have a large community behind them. **[Manjaro](https://manjaro.org/)** (based of Arch) is a good option, with a simple install process, used by new comers, and expers alike. See [comparison](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions).
+Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **[Debian](https://www.debian.org/)**, or **[Arch](https://www.archlinux.org/)**- all of which have a large community behind them. **[Manjaro](https://manjaro.org/)** (based of Arch) is a good option, with a simple install process, used by new comers, and expers alike.  **[POP_OS](https://pop.system76.com/)** and **[PureOS](https://www.pureos.net/)** are reasonably new general purpose Linux, with a strong focus on privacy, but also very user-firendly with an intuitive interfac and install process. See [comparison](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions).
 
+#### BSD
 BSD systems arguably have far superior network stacks. **[OpenBSD](https://www.openbsd.org)** is designed for maximum security — not just with its features, but with its implementation practices. It’s a commonly used OS by banks and critical systems. **[FreeBSD](https://www.freebsd.org)** is more popular, and aims for high performance and ease of use.
 
 #### Improve the Security and Privacy of your current OS
@@ -1032,6 +1074,10 @@ If you have chosen to stick with your current OS, there are a couple of things y
 **[GMER](http://www.gmer.net)** | Rootkit detection and removal utility
 **[ScreenWings](https://schiffer.tech/screenwings.html)** | Blocks malicious background applications from taking screenshots
 **[CamWings](https://schiffer.tech/camwings.html)** | Blocks unauthorized webcam access
+**[SpyDish](https://github.com/mirinsoft/spydish)** | Open source GUI app built upon PowerShell, allowing you to perform a quick and easy privacy check, on Windows 10 systems. Highlights many serious issues, and provides assistance with fixing
+**[SharpApp](https://github.com/mirinsoft/sharpapp)** | Open source GUI app built upon PowerShell, for disabling telemetry functions in Windows 10, uninstalling preinstalled apps, installing software packages and automating Windows tasks with integrated PowerShell scripting
+**[Debotnet](https://github.com/Mirinsoft/Debotnet)** | Light-weight, portable app for controlling the many privacy-related settings within Windows 10- with the aim of helping to keep private data, private 
+**[PrivaZer](https://privazer.com/)** | Good alternative to CCleaner, for deleting unnecissary data- logs, cache, history, etc 
 
 #### Word of Warning
 (The above software was last tested on 01/05/20). Many of the above tools are not necessary or suitable for beginners, and can cause your system to break- only use sofware that you need, according to your threat moedl. Take care to only download from an official/ legitimate source, verify the executable before proceeding, and check reviews/ forums. Create a system restore point, before making any significant changes to your OS (such as disabling core features). From a security and privacy perspective, Linux may be a better option.  
