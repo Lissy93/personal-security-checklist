@@ -51,6 +51,7 @@
   - Email Self-Defense, Configure your mail client securly, from scratch - via [FSF.org](https://emailselfdefense.fsf.org)
   - How to avoid Phishing Attacks: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
   - How to use PGP: Via EFF - [Windows](https://ssd.eff.org/en/module/how-use-pgp-windows), [MacOS](https://ssd.eff.org/en/module/how-use-pgp-mac-os-x) and [Linux](https://ssd.eff.org/en/module/how-use-pgp-linux)
+  - How to Maintain Anonyimity in BitCoin Transactions: [coinsutra.com](https://coinsutra.com/anonymous-bitcoin-transactions/)
 - **Devices**
   - How to Enable Encryption on your Devices: via [SpreadPrivacy.com](https://spreadprivacy.com/how-to-encrypt-devices/)
   - How to Delete your Data Securely: Via EFF - [Windows](https://ssd.eff.org/en/module/how-delete-your-data-securely-windows), [MacOS](https://ssd.eff.org/en/module/how-delete-your-data-securely-macos) and [Linux](https://ssd.eff.org/en/module/how-delete-your-data-securely-linux) 
@@ -59,12 +60,14 @@
     - For: [Windows 10](https://spreadprivacy.com/windows-10-privacy-tips/), [MacOS](https://spreadprivacy.com/mac-privacy-tips/), [Linux](https://spreadprivacy.com/linux-privacy-tips/), [Android](https://spreadprivacy.com/android-privacy-tips/) and [iOS](https://spreadprivacy.com/iphone-privacy-tips/)
   - Guide to scrubbing Windows OSs from forensic investigation: by u/moschles, via [Reddit](https://www.reddit.com/r/security/comments/32fb1l/open_guide_to_scrubbing_windows_oss_from_forensic)
   - A curated list of Windows Domain Hardening techniques: by @PaulSec, via: [GitHub](https://github.com/PaulSec/awesome-windows-domain-hardening)
+  - Configuring Gboard for better Privacy: via [Ghacks](https://www.ghacks.net/2016/12/21/configure-gboard-privacy-google-keyboard/)
   - Settings to update on iPhone, for better privacy: via [lifehacker](https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831)
 - **Software**
   - How to use Vera Crypt: via [howtogeek](https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt)
   - How to use KeePassXC: via [EFF](https://ssd.eff.org/en/module/how-use-keepassxc)
   - How to use uMatrix browser addon to block trackers: via [ProPrivacy](https://proprivacy.com/privacy-service/guides/lifehacks-setup-umatrix-beginners) 
   - How to set up 2-Factor Auth on common websites: via [The Verge](https://www.theverge.com/2017/6/17/15772142/how-to-set-up-two-factor-authentication)
+  - How to use DuckDuckGo advanced search features: via [Ghacks](https://www.ghacks.net/2013/03/24/duckduckgo-another-bag-of-tricks-to-get-the-most-out-of-it/)
 - **Physical Security**
   - Hiding from Physical Surveillance: via [Snallabolaget](http://snallabolaget.com/hiding-from-surveillance-how-and-why)
   - Guide to opting-out of public data listings and marketing lists: via [World Privacy Forum](https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs)
@@ -119,6 +122,8 @@
   - Non-admin accounts mitigate 94% of critical Windows vulnerabilities: via [ghacks](https://www.ghacks.net/2017/02/23/non-admin-accounts-mitigate-94-of-critical-windows-vulnerabilities/)
   - Android Apps are able to monitor screen state, data usage, installed app details and more without any permissions: by @databurn-in, via [GitHub](https://github.com/databurn-in/Android-Privacy-Issues)
     - See also, [PrivacyBreacher](https://github.com/databurn-in/PrivacyBreacher) - an app developed by @databurn-in, which demonstrates these issues
+  - How URL Previews in Apps can Leak Personal Info: via [hunch.ly](https://hunch.ly/osint-articles/osint-article-how-to-blow-your-online-cover)
+  - Big data privacy risks: via [CSO Online](https://www.csoonline.com/article/2855641/the-5-worst-big-data-privacy-risks-and-how-to-guard-against-them.html)
 
 
 
@@ -158,6 +163,7 @@
 - [Extreme Privacy](https://www.amazon.co.uk/Extreme-Privacy-Takes-Disappear-America/dp/1093757620) by Michael Bazzell: Thoroughly detailed guide for protecting your privacy both electronically and physically
 - [Ghost in the Wires](https://www.amazon.co.uk/gp/product/B00FOQS8D6) by Kevin Mitnick: Kevin tells his story of being the world's most wanted hacker
 - [The Art of Invisibility](https://www.amazon.com/Art-Invisibility-Worlds-Teaches-Brother/dp/0316380504), by Kevin Mitnick: You How to Be Safe in the Age of Big Brother
+- [Eyes in the Sky](https://www.goodreads.com/book/show/40796190-eyes-in-the-sky): The Secret Rise of Gorgon Stare and How It Will Watch Us All, by Arthur Holla Michel: Outlines the capabilities of the digital imaging in continuous aerial and satellite surveillance, and discusses both the current systems that are deployed, and the technical feasibility of future plans
 
 ## Podcasts
 - [Darknet Diaries] by Jack Rhysider: Stories from the dark sides of the internet.<br>
@@ -401,6 +407,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - Detecting and Defending Against Third-Party Tracking on the Web: via [Franziska Roesner](http://www.franziroesner.com/pdf/webtracking-NSDI2012.pdf)
   - Is Google degrading search? Consumer Harm from Universal Search: via [law.berkeley.edu](https://www.law.berkeley.edu/wp-content/uploads/2015/04/Luca-Wu-Yelp-Is-Google-Degrading-Search-2015.pdf)
   - A Comprehensive Evaluation of Third-Party Cookie Policies: via [WhoLeftOpenTheCookieJar.com](https://wholeftopenthecookiejar.com/static/tpc-paper.pdf)
+  - The Dangers of Surveillance: via [Harvard Law Review](https://harvardlawreview.org/wp-content/uploads/pdfs/vol126_richards.pdf)
   - Recognizing Speech From Gyroscope Signals: via [Stanford](https://crypto.stanford.edu/gyrophone/)
   - A Study of Scripts Accessing Smartphone Sensors: via [sensor-js.xyz](https://sensor-js.xyz/webs-sixth-sense-ccs18.pdf)
   - Pixel Perfect, Fingerprinting Canvas in HTML5: [hovav.net](https://hovav.net/ucsd/dist/canvas.pdf)
