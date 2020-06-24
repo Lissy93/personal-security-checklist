@@ -1036,7 +1036,8 @@ Switching to Linux is a great choice in terms of security and privacy- you don't
 
 For defensive security, see [Kali](https://www.kali.org) and [BlackArch](https://blackarch.org), both are bundled with hundreds of security tools, ready for pretty much any job.  
 
-Note: [Kodachi](https://www.digi77.com/linux-kodachi/) and [IprediaOS](https://www.ipredia.org) are not under active maintenance, and so should be avoided., [Fedora CoreOS](https://getfedora.org/coreos?stream=stable)
+Other security-focused distros include: [TENS OS](https://www.tens.af.mil/), [Fedora CoreOS](https://getfedora.org/coreos?stream=stable), [Kodachi](https://www.digi77.com/linux-kodachi/) and [IprediaOS](https://www.ipredia.org). (Avoid systems that are not being activley maintained)
+
 
 #### General Purpose Linux Distros
 If you do not want to use a specalist security-based distro, or you are new to Unix- then just switching to any well-maintained Linux distro, is going to be significantly more secure and private than Windows or Mac OS.
