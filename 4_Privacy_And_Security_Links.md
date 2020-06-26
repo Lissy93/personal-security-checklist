@@ -128,6 +128,23 @@
 
 
 ## Blogs
+- **Security Reserachers**
+  - [Krebs on Security](https://krebsonsecurity.com/) - Lots of up-to-date, in-depth interesting cyber security news and investigations, by a true legend in the field and NY Times Bestseller, Brian Krebs. [RSS](https://krebsonsecurity.com/feed/)
+  - [Schneier on Security](https://www.schneier.com/) - Commentary, news, essays and more all about cryptography, cyber security and privacy. New posts are written almost daily, and this is also home to the famous [Crypto Gram](https://www.schneier.com/crypto-gram/) weekly newsletter, that's been popular since 1994. By the world-renowned security professional, and serial bestselling author, Bruce Schneier. [RSS](https://www.schneier.com/blog/atom.xml)
+  - [Troy Hunt](https://www.troyhunt.com/) - Security researcher and data breach collector. [RSS](https://feeds.feedburner.com/TroyHunt) 
+  - [Graham Cluley](https://www.grahamcluley.com/) - Security news, advise and opinion. From Graham Cluley, co-host of Smashing Security.
+  - [The Last Watch Dog](https://www.lastwatchdog.com/) - Privacy and Security articles, opinion and media by Byron Acohido
+  - [Daniel Miessler](https://danielmiessler.com/) - Summaries recent news and events, and focuses on security, technology and people. [RSS](https://danielmiessler.com/feed/)
+- **Cyber Security**
+  - [Dark Reading](https://www.darkreading.com/) - Well-known cyber security news site, with articles on a range of topics, ranging from data breaches, IoT, cloud security and threat intelligence. [RSS](https://www.darkreading.com/rss_simple.asp)
+  - [We Live Security](https://www.welivesecurity.com/) - Security news, views, and insight, by ESET + Community. [RSS](https://www.welivesecurity.com/rss-configurator/)
+  - [The Hacker News](https://thehackernews.com/)  - News and info covering Data Breaches, Cyber Attacks, Vulnerabilities, Malware. [RSS](https://feeds.feedburner.com/TheHackersNews)
+  - [FOSS Bytes- Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
+  - [Heimdal](https://heimdalsecurity.com/blog) - Personal Cyber Security Tutorials and Articles
+  - [Tech Crunch](https://techcrunch.com/tag/cybersecurity-101) - Cyber Security 101
+  - [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
+  - [Security Planner](https://securityplanner.org) - Great advise for beginners
+  - [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
 - **Privacy**
   - [EFF SSD](https://ssd.eff.org) - Tips for safer online communications
   - [Spread Privacy](https://spreadprivacy.com) - Raising the standard of trust online, by DuckDuckGo
@@ -141,21 +158,11 @@
   - [PrismBreak](https://prism-break.org/en/all) - Secure app alternatives
   - [The VERGE guide to privacy](https://bit.ly/2ptl4Wm) - Guides for securing mobile, web and home tech
   - [BringBackPrivacy](https://bringingprivacyback.com) - Easy-reading, sharable privacy articles
-- **Cyber Security**
-  - [FOSS Bytes- Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
-  - [Heimdal](https://heimdalsecurity.com/blog) - Personal Cyber Security Tutorials and Articles
-  - [Tech Crunch](https://techcrunch.com/tag/cybersecurity-101) - Cyber Security 101
-  - [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
-  - [Security Planner](https://securityplanner.org) - Great advise for beginners
-  - [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
+  - [The Privacy Project](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html) - Articles and reporting on Privacy, by the NYT
 - **Internet Freedom**
   - [OONI](https://ooni.org/post), Internet freedom and analysis on blocked sites
   - [Internet Health Report](https://foundation.mozilla.org/en/internet-health-report) - Mozilla is documenting and explaining what’s happening to openness and freedom on the Internet
   - [Worth Hiding](https://worthhiding.com) - Posts about privacy, politics and the law
-- **News and Updates**
-  - [The Privacy Project](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html) - Articles and reporting on Privacy, by the NYT
-  - [The Hacker News](https://thehackernews.com) - Up-to-date Cybersecurity News and Analysis
-
 
 ## Books
 - [Permanent Record](https://www.amazon.co.uk/Permanent-Record-Edward-Snowden/dp/1529035651) by Edward Snowden
