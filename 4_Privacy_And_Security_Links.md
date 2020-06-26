@@ -124,6 +124,7 @@
     - See also, [PrivacyBreacher](https://github.com/databurn-in/PrivacyBreacher) - an app developed by @databurn-in, which demonstrates these issues
   - How URL Previews in Apps can Leak Personal Info: via [hunch.ly](https://hunch.ly/osint-articles/osint-article-how-to-blow-your-online-cover)
   - Big data privacy risks: via [CSO Online](https://www.csoonline.com/article/2855641/the-5-worst-big-data-privacy-risks-and-how-to-guard-against-them.html)
+  - Anti-Doxing Guide (For Activists Facing Attacks): via [Equality Labs](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c)
 
 
 
@@ -135,10 +136,14 @@
   - [Graham Cluley](https://www.grahamcluley.com/) - Security news, advise and opinion. From Graham Cluley, co-host of Smashing Security.
   - [The Last Watch Dog](https://www.lastwatchdog.com/) - Privacy and Security articles, opinion and media by Byron Acohido
   - [Daniel Miessler](https://danielmiessler.com/) - Summaries recent news and events, and focuses on security, technology and people. [RSS](https://danielmiessler.com/feed/)
+  - [Errata Security](https://blog.erratasec.com/) - Covers latest interesting news, and explains concepts clearly. By Robert Graham and David Maynor. [RSS](https://blog.erratasec.com/feeds/posts/default?alt=rss)
 - **Cyber Security**
   - [Dark Reading](https://www.darkreading.com/) - Well-known cyber security news site, with articles on a range of topics, ranging from data breaches, IoT, cloud security and threat intelligence. [RSS](https://www.darkreading.com/rss_simple.asp)
+  - [Threat Post](https://threatpost.com/) - News and Articles Cloud Security, Malware, Vulnerabilities, Waterfall Security and Podcasts. [RSS](https://threatpost.com/feed/)
   - [We Live Security](https://www.welivesecurity.com/) - Security news, views, and insight, by ESET + Community. [RSS](https://www.welivesecurity.com/rss-configurator/)
   - [The Hacker News](https://thehackernews.com/)  - News and info covering Data Breaches, Cyber Attacks, Vulnerabilities, Malware. [RSS](https://feeds.feedburner.com/TheHackersNews)
+  - [Sophos: Naked Security](https://nakedsecurity.sophos.com/) - Security news and updates, presented in an easy-to-digest format. [RSS](https://nakedsecurity.sophos.com/feed/)
+  - [IT Security Guru](https://www.itsecurityguru.org/) - Combines top cyber security news from multiple sites, easier to stay up-to-date
   - [FOSS Bytes- Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
   - [Heimdal](https://heimdalsecurity.com/blog) - Personal Cyber Security Tutorials and Articles
   - [Tech Crunch](https://techcrunch.com/tag/cybersecurity-101) - Cyber Security 101
