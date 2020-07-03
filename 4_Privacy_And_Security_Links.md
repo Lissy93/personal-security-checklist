@@ -96,6 +96,7 @@
   - Rethinking Digital Ads: via [TheInternetHealthReport](https://internethealthreport.org/2019/rethinking-digital-ads)
 - **Encryption**
   - Overview of projects working on next-generation secure email: via [OpenTechFund](https://github.com/OpenTechFund/secure-email)
+  - Anatomy of a GPG Key: via [@DaveSteele](https://davesteele.github.io/gpg/2014/09/20/anatomy-of-a-gpg-key/)
 - **Surveillance**
   - Twelve Million Phones, One Dataset, Zero Privacy: via [NY Times](https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html)
   - Windows data sending: via [The Hacker News](https://thehackernews.com/2016/02/microsoft-windows10-privacy.html)
@@ -137,7 +138,7 @@
   - [The Last Watch Dog](https://www.lastwatchdog.com/) - Privacy and Security articles, opinion and media by Byron Acohido
   - [Daniel Miessler](https://danielmiessler.com/) - Summaries recent news and events, and focuses on security, technology and people. [RSS](https://danielmiessler.com/feed/)
   - [Errata Security](https://blog.erratasec.com/) - Covers latest interesting news, and explains concepts clearly. By Robert Graham and David Maynor. [RSS](https://blog.erratasec.com/feeds/posts/default?alt=rss)
-- **Cyber Security**
+- **Cyber Security News**
   - [Dark Reading](https://www.darkreading.com/) - Well-known cyber security news site, with articles on a range of topics, ranging from data breaches, IoT, cloud security and threat intelligence. [RSS](https://www.darkreading.com/rss_simple.asp)
   - [Threat Post](https://threatpost.com/) - News and Articles Cloud Security, Malware, Vulnerabilities, Waterfall Security and Podcasts. [RSS](https://threatpost.com/feed/)
   - [We Live Security](https://www.welivesecurity.com/) - Security news, views, and insight, by ESET + Community. [RSS](https://www.welivesecurity.com/rss-configurator/)
@@ -145,6 +146,7 @@
   - [Sophos: Naked Security](https://nakedsecurity.sophos.com/) - Security news and updates, presented in an easy-to-digest format. [RSS](https://nakedsecurity.sophos.com/feed/)
   - [IT Security Guru](https://www.itsecurityguru.org/) - Combines top cyber security news from multiple sites, easier to stay up-to-date
   - [FOSS Bytes- Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
+- **Cyber Security Infomation**
   - [Heimdal](https://heimdalsecurity.com/blog) - Personal Cyber Security Tutorials and Articles
   - [Tech Crunch](https://techcrunch.com/tag/cybersecurity-101) - Cyber Security 101
   - [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
@@ -271,6 +273,8 @@ More Security Podcasts on [player.fm](https://player.fm/featured/security)
   - [The Power of Privacy](https://youtu.be/KGX-c5BJNFk) by The Guardian
   - [Why Privacy matters, even if you have nothing to hide](https://youtu.be/Hjspu7QV7O0) by The Hated One
   - [The Unhackable Email Service](https://youtu.be/NM8fAnEqs1Q) by Freethink
+- **Cryptography**
+  - [Advanced Into to GnuPGP](https://begriffs.com/posts/2016-11-05-advanced-intro-gnupg.html) by  Neal Walfield ([walfield.org](http://walfield.org/))
 - **TED Talks**
   - [How Online Trackers Track You, and What To Do About It](https://youtu.be/jVeqAemtC6w) by Luke Crouch
   - [Why you should switch off your home WiFi](https://youtu.be/2GpNhYy2l08) by Bram Bonné
@@ -319,6 +323,7 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
 - **IP Tools**
   - [I Know What You Download](https://iknowwhatyoudownload.com) - Shows torrents that have been downloaded or distributed from your IP address
   - [Hetrix Tools - Blacklist Check](https://hetrixtools.com/blacklist-check/) - Check if your Domain or IP appears on any common blacklists
+  - [Check: The Tor Project](https://check.torproject.org/) - Check if your connected via Tor, and diagnose issues
 - **Public Domain and Website Scanning Tools**
   - [URL Scan](https://urlscan.io) - Scan and analyse websites, shows IP, DNS, domain and host data, as well as info about resources and requests
   - [Security Trails](https://securitytrails.com/#search) - Shows all DNS records, historical DNS data and sub domains
@@ -377,6 +382,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [HashToolkit](http://hashtoolkit.com) - Database of 'cracked' hashes
   - [SecLists](https://github.com/danielmiessler/SecLists) - Starter list of leaked databases, passwords, usernames etc (Great for programming)
   - [Qualys SSL Pulse](https://www.ssllabs.com/ssl-pulse) - A continuous and global dashboard for monitoring the quality of SSL / TLS support over time across 150,000 SSL- and TLS-enabled websites, based on Alexa’s list of the most popular sites in the world
+  - [Tor Bulk Exit List](https://check.torproject.org/torbulkexitlist) - List of all exit nodes (IP) in use on the Tor network
 - **Fun with Live Data** 🌠
   - **Internet**
     - [Tor Flow](https://torflow.uncharted.software) - Real-time data flow between Tor nodes
@@ -479,6 +485,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
 - **Cybercrime**
     - [Consumer Fraud Reporting](http://consumerfraudreporting.org) - US's Catalogue of online scams currently circulating, and a means to report cases
     - [Action Fraud](https://www.actionfraud.police.uk) - UK’s national reporting centre for fraud and cyber crime
+    - [Crime Stoppers](https://crimestoppers-uk.org/) - UK Independent Charity, for reporting crimes anonymously 
 - **Fact Checkling**
   - [Full Fact](https://fullfact.org) - UK independent fact checking charity, campaigning to expose bad information, and the harm it does
 - **CERT** - Your local jurisdiction will likely have a Computer emergency response team (historically known as [CERT](https://online.norwich.edu/academic-programs/resources/how-computer-emergency-response-teams-and-computer-security-incident-response-teams-combat-cyber-threats)). Who is in charge of handline handles domestic and international computer security incidents.
