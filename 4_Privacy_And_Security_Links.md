@@ -36,6 +36,7 @@
   - Protection from Identity Theft: via [Restore Privacy](https://restoreprivacy.com/identity-theft-fraud)
   - Harden your MacOS Security: via [@drduh on GitHub](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
   - Protecting from key-stroke-logging, with KeyScrambler: via [TechRepublic](https://www.techrepublic.com/blog/it-security/keyscrambler-how-keystroke-encryption-works-to-thwart-keylogging-threats)
+  - Guide to Hash Checks, to ensure a program has not been tampered with: via [ProPrivacy](https://proprivacy.com/guides/how-why-and-when-you-should-hash-check)
   - Permanently and Securely Delete ‘Files and Directories’ in Linux: via [TechMint](https://www.tecmint.com/permanently-and-securely-delete-files-directories-linux/)
 - **Netowkring**
   - How to enable DNS over HTTPS: via [geekwire](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver)
@@ -115,10 +116,6 @@
   - How a highly targeted ad can track your precise movements: via [Wired](https://www.wired.com/story/track-location-with-mobile-ads-1000-dollars-study/)
     - Based on the paper, Using Ad Targeting for Surveillance on a Budget: via [Washington.edu](https://adint.cs.washington.edu/ADINT.pdf)
   - Law Enforcement Geo-Fence Data Requests- How an Innocent cyclist became a suspect when cops accessed his Google location data: via [Daily Mail](https://www.dailymail.co.uk/news/article-8086095/Police-issue-warrant-innocent-mans-Google-information.html)
-- **Breaches**
-  - Wired guide to data breaches- past, present and future: via [Wired](https://www.wired.com/story/wired-guide-to-data-breaches/)
-  - Grindr and OkCupid Spread Personal Details Study Says: via [NY Times](https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html)
-  - The Asia-Pacific Cyber Espionage Campaign that Went Undetected for 5 Years: via [TheHackerNews](https://thehackernews.com/2020/05/asia-pacific-cyber-espionage.html)
 - **Threats**
   - 23 reasons not to reveal your DNA: via [Internet Health Report](https://internethealthreport.org/2019/23-reasons-not-to-reveal-your-dna)
   - Security of Third-Party Keyboard Apps on Mobile Devices: via [Lenny Zelster](https://zeltser.com/third-party-keyboards-security)
@@ -129,7 +126,15 @@
   - How URL Previews in Apps can Leak Personal Info: via [hunch.ly](https://hunch.ly/osint-articles/osint-article-how-to-blow-your-online-cover)
   - Big data privacy risks: via [CSO Online](https://www.csoonline.com/article/2855641/the-5-worst-big-data-privacy-risks-and-how-to-guard-against-them.html)
   - Anti-Doxing Guide (For Activists Facing Attacks): via [Equality Labs](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c)
-
+- **Breaches**
+  - Wired guide to data breaches- past, present and future: via [Wired](https://www.wired.com/story/wired-guide-to-data-breaches/)
+  - Grindr and OkCupid Spread Personal Details Study Says: via [NY Times](https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html)
+  - The Asia-Pacific Cyber Espionage Campaign that Went Undetected for 5 Years: via [TheHackerNews](https://thehackernews.com/2020/05/asia-pacific-cyber-espionage.html)
+  - ClearView AI Data Breach - 3 Billion Faces: via [Forbes](https://www.forbes.com/sites/kateoflahertyuk/2020/02/26/clearview-ai-the-company-whose-database-has-amassed-3-billion-photos-hacked/)
+  - The MongoDB hack and the importance of secure defaults: via [Synk](https://snyk.io/blog/mongodb-hack-and-secure-defaults/)
+  - Truecaller Data Breach – 47.5 Million Indian Truecaller Records On Sale: via [GBHackers](https://gbhackers.com/truecaller-data-breach/)
+  - Hundreds of millions of Facebook user records were exposed on Amazon cloud server: via [CBS News](https://www.cbsnews.com/news/millions-facebook-user-records-exposed-amazon-cloud-server/)
+  - Microsoft data breach exposes 250 million customer support records: via [Graham Cluley](https://www.grahamcluley.com/microsoft-data-breach/)  
 
 
 ## Blogs
