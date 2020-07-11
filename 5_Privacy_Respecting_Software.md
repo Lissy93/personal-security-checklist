@@ -91,6 +91,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Self-Hosted Sys-Admin](#bonus-4---self-hosted-sysadmin)
   - [Self-Hosted Dev Tools](#bonus-5---self-hosted-development-tools)
   - [Security Testing Tools](#bonus-6---security-testing-tools)
+  - [Raspberry Pi Security Projects](#bonus-7---raspberry-pi-iot-security-software)
 
 #### See Also
 - [Personal Security Checklist](/README.md)
