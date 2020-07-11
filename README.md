@@ -10,10 +10,11 @@
 ### Contents
 
 [<img src="https://i.ibb.co/XbyGTrP/1-authentication-2-36x36.png" width="28" height="28" /> Authentication](#authentication)<br>
-[<img src="https://i.ibb.co/r2L4D8X/2-internet-36x36.png" width="28" height="28" /> Browsing the Web](#web-browsing)<br>
+[<img src="https://i.ibb.co/8KMrdbX/2-internet-36x36.png" width="28" height="28" /> Browsing the Web](#web-browsing)<br>
 [<img src="https://i.ibb.co/7NrXW3L/5-email-36x36.png" width="28" height="28" /> Email](#emails)<br>
+[<img src="https://i.ibb.co/wYzjXv3/13-messaging-36x36.png" width="28" height="28" /> Secure Messaging](#secure-messaging)<br>
 [<img src="https://i.ibb.co/GFYyXMd/6-social-media-36x36.png" width="28" height="28" /> Social Media](#social-media)<br>
-[<img src="https://i.ibb.co/SPVd9zt/3-networks-36x36.png" width="28" height="28" /> Networks](#networking)<br>
+[<img src="https://i.ibb.co/0VTZQpH/3-networking-36x36.png" width="28" height="28" /> Networks](#networking)<br>
 [<img src="https://i.ibb.co/F3WwqsV/7-phones-36x36.png" width="28" height="28" /> Mobile Phones](#mobile-devices)<br>
 [<img src="https://i.ibb.co/ZftcgJq/8-computers-36x36.png" width="28" height="28" /> Personal Computers](#personal-computers)<br>
 [<img src="https://i.ibb.co/b2S9372/9-smart-home-36x36.png" width="28" height="28" /> Smart Home](#smart-home)<br>
