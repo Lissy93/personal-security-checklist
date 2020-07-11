@@ -2,7 +2,7 @@
 
 This article explains the considerations you should be aware of when selecting a secure messenger.
 
-**TLDR;** Opting for a secure messaging app can prevent any third-parties accessing your private conversions. Choose a platform that is E2E encrypted, open source and actively maintained. Advanced security features can harden defenses further, such as  self-destructing messages, contact verification, forward secrecy, the ability to sign up with an aliases (instead of phone number or allias) and a decentralized P2P network sending content over Tor.
+**TLDR;** Opting for a secure messaging app can prevent any third-parties accessing your private conversions. Choose a platform that is E2E encrypted, open source and actively maintained. Advanced security features can harden defenses further, such as  self-destructing messages, contact verification, forward secrecy, the ability to sign up with an aliases (instead of phone number or email) and a decentralized P2P network sending content over Tor.
 
 ## Considerations
 
