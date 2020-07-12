@@ -211,7 +211,10 @@ See [OpenTechFund- Secure Email](https://github.com/OpenTechFund/secure-email) f
 #### Other Notable Mentions
 [HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Posteo](https://posteo.de), [Lavabit](https://lavabit.com). For activists and journalists, see [Disroot](https://disroot.org/en), [Autistici](https://www.autistici.org) and [RiseUp](https://riseup.net/en)
 
-[CTemplar](https://ctemplar.com/) specializes in private & secure mail, with total 4096 bit RSA encryption, anonymous sign up, and full legal protection- currently still in beta
+**Beta Mail Providers**
+- **[CTemplar](https://ctemplar.com/)** - Swiss provider specializing in private & secure mail, with total 4096 bit RSA encryption, anonymous sign up, and full legal protection. Due to it still being in beta, the apps are still a little buggy
+- **[CriptText](https://www.criptext.com/)** - CriptText is another option- it's encrypted, free and open source, but works a little differently from convectional mail. There is no cloud storage, and all email is instead stored on your devices. This greatly improves security- however you must be signed into the app (either on desktop or mobile) in order to receive mail. If you are not signed in, then mail sent to you will be permanently lost. For mobile users, your device can be offline or in airplane mode for up to 30 days before mail becomes discarded. The client apps are very good, email is synced seamless between devices, and you can enable automated and encrypted backups. Since your email is stored on your device, they are able to work offline- due to this, there is no web client. Encryption is done with the Signal protocol (rather than PGP), and there are a bunch of really neat features that you can use while communicating to other Criptext users.
+Criptext is still in beta, but with an extremely smooth user experience, and no noticeable usability bugs.
 
 
 ### Self-Hosted Email
