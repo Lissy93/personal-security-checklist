@@ -53,6 +53,16 @@ It's important to protect your email account, as if a hacker gains access to it 
 - Using a custom domain, will mean you will not loose access to your email address if your current provider disappears. If you need to back up messages, use a secure IMAP client [Thuderbird](https://www.thunderbird.net)
 
 
+### Secure Messaging
+
+- Use a secure messaging app that is both fully open source and end-to-end encrypted with forward secrecy
+- Ensure that both your device, and that of your recipient(s) is secure (free from malware, encrypted and has a strong password)
+- Disable cloud services, such as web app companion or cloud backup feature, both of which increases attack surface
+- Strip meta data from media before sharing, as this can lead to unintentionally revealing more data than you intended
+- Verify your recipient is who they claim to be, which can be done cryptographically by using an app that offers contact verification
+- Opt for a stable and actively maintained messaging platform, that is backed by reputable developers and have a transparent revenue model or are able to account for where funding has originated from. It should ideally be based in a friendly jurisdiction and have undergone an independent security audit. 
+- In some situations, it may be appropriate to use an app that supports disappearing messages, and/ or allows for anonymous sign up (without phone number or email address). A decentralized platform can offer additional security and privacy benefits in some circumstances, as there is no single entity governing it
+
 ### Networking
 - Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log, but understand their limitations.  Good options include [ProtonVPN](https://protonvpn.com) and [Mullvad](https://mullvad.net), see [thatoneprivacysite.net](https://thatoneprivacysite.net/) for detailed comparisons
 - Change your routers default password. Anyone connected to your WiFi is able to listen to network traffic, so in order to prevent people you don't know from connecting, use WPA2 and set a strong password.
