@@ -127,7 +127,10 @@ img.cover-image {
     font-family: 'Cutive Mono', monospace;
     color: #fff;
     font-size: 2rem;
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-shadow:
+        0 0 1px rgba(0, 0, 0, 0.2),
+        0 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Description of button, on cover page */
@@ -137,6 +140,7 @@ img.cover-image {
     font-size: 1.1rem;
     border-top: 1px solid #fff;
     padding-top: 2px;
+    z-index: 1;
 }
 
 /* View on GitHub button*/
@@ -207,7 +211,6 @@ a.cover-link:link:after, a.cover-link:visited:after {
 	left: 50%;
 	top: 50%;
 	width: 150%;
-	z-index: -1;
 	-webkit-transition: all 0.75s ease 0s;
 	-moz-transition: all 0.75s ease 0s;
 	-o-transition: all 0.75s ease 0s;
