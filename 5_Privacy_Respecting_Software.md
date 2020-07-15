@@ -42,6 +42,8 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Proxies](#proxies)
   - [DNS Providers](#dns)
   - [Firewalls](#firewalls)
+  - [Ad Blockers](#ad-blockers)
+  - [Host Block Lists](#host-block-lists)
   - [Router Firmware](#router-firmware)
   - [Network Analysis](#network-analysis)
   - [Cloud Hosting](#cloud-hosting)
@@ -56,6 +58,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Browser Sync](#browser-sync)
   - [Secure Conference Calls](#video-conference-calls)
 - **Utilities**
+  - [Virtual Machines](#virtual-machines)
   - [PGP Managers](#pgp-managers)
   - [Metadata Removal](#metadata-removal-tools)
   - [Data Erasers](#data-erasers)
@@ -66,7 +69,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [News Readers](#news-readers-and-aggregation)
 - **Operating Systems**
   - [Mobile Operating Systems](#mobile-operating-systems)
-  - [PC Operating Systems](#pc-operating-systems)
+  - [Desktop Operating Systems](#desktop-operating-systems)
   - [Linux Defences](#linux-defences)
   - [Windows Defences](#windows-defences)
   - [Mac OS Defences](#mac-os-defences)
@@ -74,8 +77,10 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Home/ IoT**
   - [Home Automation](#home-automation)
   - [Voice Assistants](#ai-voice-assistants)
-- **Payment Methods**
+- **Finance**
   - [Cryptocurrencies](#cryptocurrencies)
+  - [Crypto Wallets](#crypto-wallets)
+  - [Crypto Exchanges](#crypto-exchanges)
   - [Virtual Credit Cards](#virtual-credit-cards)
   - [Other Payment Methods](#other-payment-methods)
   - [Secure Budgeting](#budgeting-tools)
@@ -86,6 +91,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Self-Hosted Sys-Admin](#bonus-4---self-hosted-sysadmin)
   - [Self-Hosted Dev Tools](#bonus-5---self-hosted-development-tools)
   - [Security Testing Tools](#bonus-6---security-testing-tools)
+  - [Raspberry Pi Security Projects](#bonus-7---raspberry-pi-iot-security-software)
 
 #### See Also
 - [Personal Security Checklist](/README.md)
@@ -120,6 +126,7 @@ If you are using a deprecated PM, you should migrate to something actively maint
 **[Aegis](https://getaegis.app)** (Android)  | Free, secure and open source authenticator app for Android. Has a backup/ restore feature and a customisable UI with dark mode
 **[AndOTP](https://github.com/andOTP/andOTP)** (Android) | Another open source, secure authenticator app. AndOTP is well established with a strong user base
 **[Tofu](https://www.tofuauth.com)** (iOS) | An easy-to-use, open-source two-factor authentication app designed specifically for iOS
+**[WinAuth](https://winauth.github.io/winauth)** (Windows) | Portable, encrypted desktop authenticator app for Microsoft Windows. With useful features, like hotkeys and some additional security tools, WinAuth is a great companion authenticator for desktop power-users. It's open source and well-established (since mid-2010)
 
 *Check which websites support multi-factor authentication: [twofactorauth.org](https://twofactorauth.org)*
 
@@ -128,6 +135,8 @@ If you are using a deprecated PM, you should migrate to something actively maint
 [WinAuth](https://winauth.github.io/winauth) *(Windows)*, [mattrubin - authenticator](https://mattrubin.me/authenticator) *(iOS)*, [Authenticator by World](https://gitlab.gnome.org/World/Authenticator) *(GNOME, Linux)*, [OTPClient](https://github.com/paolostivanin/OTPClient) *(Linux)*, [gauth](https://github.com/gbraad/gauth) *(Self-Hosted, Web-based)*
 
 For KeePass users, [TrayTop](https://keepass.info/plugins.html#traytotp) is a plugin for managing TOTP's-  offline and compatible with Windows, Mac and Linux.
+
+[Authy](https://authy.com/) (propriety) is a popular option among new users, due to it's ease of use and device sync capabilities, however it is not open source, and therefore can not recommended.
 
 **See also** [2FA Security Checklist](/README.md#2-factor-authentication)
 
@@ -140,8 +149,10 @@ For KeePass users, [TrayTop](https://keepass.info/plugins.html#traytotp) is a pl
 **[Cryptomator](https://cryptomator.org)** | Open source client-side encryption for cloud files- Cryptomator is geared towards using alongside cloud-backup solutions, and hence preserves individual file structure, so that they can be uploaded. It too is easy to use, but has fewer technical customizations for how the data is encrypted, compared with VeraCrypt. Cryptomator works on Windows, Linux and Mac- but also has excellent mobile apps.
 
 #### Notable Mentions
-
 [CryptSetup](https://gitlab.com/cryptsetup/cryptsetup) is a convinient layer for use on top of [dm-crypt](https://wiki.archlinux.org/index.php/Dm-crypt). [EncFS](https://www.arg0.net/encfs) is a cross-platform file-based encryption module, for use within user local directories. [geli](https://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8) is a disk encryption subsystem included with FreeBSD
+
+PGP may be useful for encrypting individual files and folders, preparing files for transmission, or adding an additional layer of security to sensitive 
+data. With PGP, you can encrypt, decrypt, sign and verify files and folders: see [PGP Tools](#pgp-managers)
 
 If you need to create a compressed archive, prior to encrypting your files, then [PeaZip](https://www.peazip.org/) is a great little cross-platform open source file archiver utility. It allows you to create, open, and extract RAR TAR ZIP archives.
 
@@ -192,13 +203,18 @@ The below email providers are private, end-to-end encrypted (E2EE) and reasonabl
 | Provider | Description |
 | --- | --- |
 **[ProtonMail](https://protonmail.com/)** | An open-source, end-to-end encrypted anonymous email service. ProtonMail has a modern easy-to-use and customizable UI, as well as fast, secure native mobile apps. ProtonMail has all the features that you'd expect from a modern email service and is based on simplicity without sacrificing security. It has a free plan or a premium option for using custom domains. ProtonMail requires no personally identifiable information for signup, they have a [.onion](https://protonirockerxow.onion) server, for access via Tor, and they accept anonymous payment: BTC and cash (as well as the normal credit card and PayPal).
-**[Tutanota](https://tutanota.com/)** | Free and open source email service based in Germany. It has a basic intuitive UI, secure native mobile apps, anonymous signup, and a .onion site. Tutonota has a full-featured free plan or a premium subscription for businesses allowing for custom domains ($12/ month).
+**[Tutanota](https://tutanota.com/)** | Free and open source email service based in Germany. It has a basic intuitive UI, secure native mobile apps, anonymous signup, and a .onion site. Tutonota has a full-featured free plan or a premium subscription for businesses allowing for custom domains ($12/ month).<br>Tutanota [does not use OpenPGP](https://tutanota.com/blog/posts/differences-email-encryption/) like most encrypted mail providers, instead they use a standardized, hybrid method consisting of a symmetrical and an asymmetrical algorithm (with 128 bit AES, and 2048 bit RSA). This causes compatibility issues when communicating with contacts using PGP. But it does allow them to encrypt much more of the header data (body, attachments, subject lines, and sender names etc) which PGP mail providers cannot do
 **[Mailfence](https://mailfence.com?src=digitald)** | Mailfence supports OpenPGP so that you can manually exchange encryption keys independently from the Mailfence servers, putting you in full control. Mailfence has a simple UI, similar to that of Outlook, and it comes with bundled with calendar, address book, and files. All mail settings are highly customizable, yet still clear and easy to use. Sign up is not anonymous, since your name, and prior email address is required. There is a fully-featured free plan, or you can pay for premium, and use a custom domain ($2.50/ month, or $7.50/ month for 5 domains), where BitCoin, LiteCoin or credit card is accepted.
 
 See [OpenTechFund- Secure Email](https://github.com/OpenTechFund/secure-email) for more details.
 
 #### Other Notable Mentions
 [HushMail](https://www.hushmail.com/tapfiliate/?tap_a=44784-d2adc0&tap_s=724845-260ce4&program=hushmail-for-small-business), [StartMail](https://www.startmail.com), [Posteo](https://posteo.de), [Lavabit](https://lavabit.com). For activists and journalists, see [Disroot](https://disroot.org/en), [Autistici](https://www.autistici.org) and [RiseUp](https://riseup.net/en)
+
+**Beta Mail Providers**
+- **[CTemplar](https://ctemplar.com/)** - Swiss provider specializing in private & secure mail, with total 4096 bit RSA encryption, anonymous sign up, and full legal protection. Due to it still being in beta, the apps are still a little buggy
+- **[CriptText](https://www.criptext.com/)** - CriptText is another option- it's encrypted, free and open source, but works a little differently from convectional mail. There is no cloud storage, and all email is instead stored on your devices. This greatly improves security- however you must be signed into the app (either on desktop or mobile) in order to receive mail. If you are not signed in, then mail sent to you will be permanently lost. For mobile users, your device can be offline or in airplane mode for up to 30 days before mail becomes discarded. The client apps are very good, email is synced seamless between devices, and you can enable automated and encrypted backups. Since your email is stored on your device, they are able to work offline- due to this, there is no web client. Encryption is done with the [Signal protocol](https://en.wikipedia.org/wiki/Signal_Protocol) (rather than PGP), and there are a bunch of really neat features that you can use while communicating to other Criptext users.
+Criptext is still in beta, but with an extremely smooth user experience, and no noticeable usability bugs.
 
 
 ### Self-Hosted Email
@@ -240,14 +256,17 @@ Alternatively you could host your own catch-all email service. [Mailu](https://g
 | --- | --- |
 **[Brave Browser](https://brave.com/?ref=ali721)** | Brave Browser, currently one of the most popular private browsers- it provides speed, security, and privacy by blocking trackers with a clean, yet fully-featured UI. It also pays you in [BAT tokens](https://basicattentiontoken.org/) for using it. Brave also has Tor built-in, when you open up a private tab/ window.
 **[FireFox](https://www.mozilla.org/firefox)** | Significantly more private, and offers some nifty privacy features than Chrome, Internet Explorer and Safari. After installing, there are a couple of small tweaks you will need to make, in order to secure Firefox. You can follow one of these guides by: [Restore Privacy](https://restoreprivacy.com/firefox-privacy/), [Security Gladiators](https://securitygladiators.com/firefox-privacy-tips/) or [12Bytes](https://12bytes.org/7750)
-**[Bromite](https://www.bromite.org/)** | Bromite is Chromium (Chrome without Google) plus ad blocking and enhanced privacy. It provides a no-clutter browsing experience without privacy-invasive features- it's lightweight and minimal
 **[Tor Browser](https://www.torproject.org/)** | Tor provides an extra layer of anonymity, by encrypting each of your requests, then routing it through several nodes, making it near-impossible for you to be tracked by your ISP/ provider. It does make every-day browsing a little slower, and some sites may not work correctly. As with everything there are [trade-offs](https://github.com/Lissy93/personal-security-checklist/issues/19)
 
 #### Notable Mentions
-[WaterFox](https://www.waterfox.net), [Epic Privacy Browser](https://www.epicbrowser.com) and [PaleMoon](https://www.palemoon.org).
+Mobile Browsers: [Bromite](https://www.bromite.org/) (Android), [Firefox Focus](https://support.mozilla.org/en-US/kb/focus) (Android/ iOS), [DuckDuckGo Browser](https://help.duckduckgo.com/duckduckgo-help-pages/mobile/ios/) (Android/ iOS), [Orbot](https://guardianproject.info/apps/orbot/) + [Tor](https://www.torproject.org/download/#android) (Android), [Onion Browser](https://onionbrowser.com/) (iOS), 
+
+Additional Desktop: [WaterFox](https://www.waterfox.net), [Epic Privacy Browser](https://www.epicbrowser.com), [PaleMoon](https://www.palemoon.org), [Iridium](https://iridiumbrowser.de/) and [Sea Monkey](https://www.seamonkey-project.org/).
+
+#### Word of Warning
+New vulnerabilities are being discovered and patched all the time - use a browser that is being actively maintained, in order to receive these security-critical updates
 
 **See also** [Browser & Search Security Checklist](/README.md#browser-and-search) and recommended [Browser Extensions](#browser-extensions) for privacy & security.
-
 
 ## Search Engines
 
@@ -317,9 +336,10 @@ The following browser add-ons give you better control over what content is able 
 **[Island]** | A sandbox environment, allowing you to clone selected apps and run them in an isolated box, preventing it from accessing your personal data, or device information
 **[Exodus]** | Shows which trackers, each of your installed apps is using, so that you can better understand how your data is being collected. Uses data from the Exodus database of scanned APKs.
 **[Bouncer]** | Gives you the ability to grant permissions temporarily, so that you could for example use the camera to take a profile picture, but when you close the given app, those permissions will be revoked
+**[XPrivacyLua](https://github.com/M66B/XPrivacyLua/)** | Simple to use privacy manager for Android, that enables you to feed apps fake data when they request intimate permissions. Solves the problem caused by apps malfunctioning when you revoke permissions, and protects your real data by only sharing fake information. Enables you to hide call log, calendar, SMS messages, location, installed apps, photos, clipboard, network data plus more. And prevents access to camera, microphone, telemetry, GPS and other sensors
+**[SuperFreezZ]** | Makes it possible to entirely freeze all background activities on a per-app basis. Intended purpose is to speed up your phone, and prolong battery life, but this app is also a great utility to stop certain apps from collecting data and tracking your actions while running in the background
 **[Haven]** | Allows you to protect yourself, your personal space and your possessions- without compromising on security. Leveraging device sensors to monitor nearby space, Haven was developed by [The Guardian Project](https://guardianproject.info/), in partnership with [Edward Snowden](https://techcrunch.com/2017/12/24/edward-snowden-haven-app/)
 **[XUMI Security]** |  Checks for, and resolves known security vulnerabilities. Useful to ensure that certain apps, or device settings are not putting your security or privacy at risk
-**[SuperFreezZ]** | Makes it possible to entirely freeze all background activities on a per-app basis. Intended purpose is to speed up your phone, and prolong battery life, but this app is also a great utility to stop certain apps from collecting data and tracking your actions while running in the background
 **[Daedalus]** | No root required Android DNS modifier and hosts/DNSMasq resolver, works by creating a VPN tunnel to modify the DNS settings. Useful if you want to change your resolver to a more secure/ private provider, or use DNS over HTTPS
 **[Secure Task]** | Triggers actions, when certain security conditions are met, such as multiple failed login attempts or monitor settings changed. It does require [Tasker], and needs to be set up with ADB, device does not need to be rooted
 **[Cryptomator]** | Encrypts files and folders client-side, before uploading them to cloud storage (such as Google Drive, One Drive or Dropbox), meaning none of your personal documents leave your device in plain text
@@ -334,6 +354,8 @@ The following browser add-ons give you better control over what content is able 
 **[PrivateLock](https://f-droid.org/en/packages/com.wesaphzt.privatelock/)** | Auto lock your phone based on movement force/ acceleration
 **[CamWings](https://schiffer.tech/camwings-mobile.html)** | Prevent background processes gaining unauthorized access to your devices camera. Better still, use a [webcam sticker](https://supporters.eff.org/shop/laptop-camera-cover-set-ii)
 **[ScreenWings](https://schiffer.tech/screenwings-mobile.html)** | Prevent background processes taking unauthorized screenshots, which could expose sensetive data
+**[AFWall+](https://github.com/ukanth/afwall/)** | Android Firewall+ (AFWall+) is an advanced iptables editor (GUI) for rooted Android devices, which provides very fine-grained control over which Android apps are allowed to access the network
+
 
 #### Other Notable Mentions
 For more open source security & privacy apps, check out these publishers: [The Guardian Project], [The Tor Project], [Oasis Feng], [Marcel Bokhorst], [SECUSO Research Group] and [Simple Mobile Tools]- all of which are trusted developers or organisations, who've done amazing work.
@@ -491,6 +513,7 @@ A firewall is a program which monitors the incoming and outgoing traffic on your
 | --- | --- |
 **[NetGuard](https://play.google.com/store/apps/details?id=eu.faircode.netguard)** <br>(Android) | Provides simple and advanced ways to block access to the internet. Applications and addresses can individually be allowed or denied access to Wi-Fi and/or mobile connection
 **[NoRoot Firewall](https://play.google.com/store/apps/details?id=app.greyshirts.firewall)** <br>(Android) | Notifies you when an app is trying to access the Internet, so all you need to do is just Allow or Deny. Allows you to create filter rules based on IP address, host name or domain name, and you can allow or deny only specific connections of an app
+**[AFWall+](https://github.com/ukanth/afwall/)** <br>(Android - Rooted) | Android Firewall+ (AFWall+) is an advanced iptables editor (GUI) for rooted Android devices, which provides very fine-grained control over which Android apps are allowed to access the network.
 **[Lockdown](https://apps.apple.com/in/app/lockdown-apps/id1469783711)** <br>(iOS) | Firewall app for iPhone, allowing you to block any connection to any domain
 **[SimpleWall](https://github.com/henrypp/simplewall)** <br>(Windows) | Tool to control Windows Filtering Platform (WFP), in order to configure detailed network activity on your PC
 **[LuLu](https://objective-see.com/products/lulu.html)** <br>(Mac OS) | Free, open source macOS firewall. It aims to block unknown outgoing connections, unless explicitly approved by the user
@@ -505,6 +528,42 @@ A firewall is a program which monitors the incoming and outgoing traffic on your
 #### Word of Warning
 There are different [types](https://www.networkstraining.com/different-types-of-firewalls) of firewalls, that are used in different circumstances. This does not omit the need to configure your operating systems defences. Follow these instructions to enable your firewall in [Windows](https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off), [Mac OS](https://support.apple.com/en-us/HT201642), [Ubuntu](https://wiki.ubuntu.com/UncomplicatedFirewall) and other [Linux ditros](https://www.tecmint.com/start-stop-disable-enable-firewalld-iptables-firewall).
 Even when properly configured, having a firewall enabled does not guarantee bad network traffic can not get through and especially during boot if you don't have root privileges.
+
+## Ad Blockers
+
+
+There are a few different ways to block ads- browser-based ad-blockers, router-based / device blockers or VPN ad-blockers. Typically they work by taking a maintained list of hosts, and filtering each domain/ IP through it. Some also have other methods to detect certain content based on pattern mathcing
+
+| Provider | Description |
+| --- | --- |
+**[Pi-Hole](https://pi-hole.net/)** (Server/ VM/ Pi) | Incredibly powerful, network-wide ad-blocker. Works out-of-the-box, light-weight with an intuitive web interface, but still allows for a lot of advanced configuration for power users. As well as blocking ads and trackers, Pi-Hole speeds up your network speeds quite significantly. The dashboard has detailed statistics, and makes it easy to pause/ resume Pi-Hole if needed.
+**[Diversion](https://diversion.ch/)** (Router) | A shell script application to manage ad-blocking, Dnsmasq logging, Entware and pixelserv-tls installations and more on supported routers running [Asuswrt-Merlin firmware](https://www.asuswrt-merlin.net/), including its forks
+**[DN66](https://github.com/julian-klode/dns66)** (Android) | DNS-based host and ad blocker for Android. Easy to configure, but the default config uses several widely-respected host files. aimed at stopping ads, malware, and other weird stuff
+**[BlockParty](https://github.com/krishkumar/BlockParty)** (iOS/ MacOS) | Native Apple (Swift) apps, for system-wide ad-blocking. Can be customized with custom host lists, primarily aimed for just ad-blocking
+**[hBlock](https://hblock.molinero.dev/)** (Unix) | A POSIX-compliant shell script, designed for Unix-like systems, that gets a list of domains that serve ads, tracking scripts and malware from multiple sources and creates a hosts file (alternative formats are also supported) that prevents your system from connecting to them. Aimed at improving security and privacy through blocking advert, tracking and malware associated domains
+**[Ad Block Radio](https://github.com/adblockradio/adblockradio)** (Sound) | Python script that uses machine learning to block adverts in live audio streams, such as Radio, Podcasts, Audio Books, and music platforms such as Spotify. See [live demo](https://www.adblockradio.com/en/)
+**[uBlock Origin](https://github.com/gorhill/uBlock)** (Browser) | Light-weight, fast browser extension for Firefox and Chromium (Chrome, Edge, Brave Opera etc), that blocks tracking, ads and known malware. uBlock is easy-to-use out-of-the-box, but also has a highly customisable advanced mode, with a point-and-click firewall which can be configured on a per-site basis
+**[uMatrix]()** (Browser) | Another light-weight browser extension, for Chromium and Firefox browsers. uMatrix acts more like a firewall, giving you the option for super fine-grained control over every aspect of resource blocking. It is possible to use both uBlock (for simple/ cosmetic ad blocking) and uMatrix (for detailed JavaScript blocking) at the same time
+
+
+#### Notable Mentions
+[AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) is a cross-platform DNS Ad Blocker, similar to Pi Hole, but with some additional features, like parental controls, per-device configuration and the option to force safe search. This may be a good solution for families with young children.
+
+Some VPNs have ad-tracking blocking features, such as [TrackStop with PerfectPrivacy](https://www.perfect-privacy.com/en/features/trackstop?a_aid=securitychecklist). 
+[Private Internet Access](https://www.privateinternetaccess.com/), [CyberGhost](https://www.cyberghostvpn.com/), [PureVPN](https://www.anrdoezrs.net/click-9242873-13842740), and [NordVPN](https://www.kqzyfj.com/l5115shqnhp4E797DC8467D69A6D) also have ad-block features.
+
+
+## Host Block Lists
+
+| Provider | Description |
+| --- | --- |
+**[SomeoneWhoCares/ Hosts](https://someonewhocares.org/hosts/)** | An up-to-date host list, maintained by Dan Pollock- to make the internet not suck (as much)
+**[Hosts by StevenBlack](https://github.com/StevenBlack/hosts)** |  Open source, community-maintained consolidated and extending hosts files from several well-curated sources. You can optionally pick extensions to block p0rn, Social Media, gambling, fake news and other categories
+**[No Google](https://github.com/nickspaargaren/no-google)** | Totally block all direct and indirect content from Google, Amazon, Facebook, Apple and Microsoft (or just some)
+**[EasyList](https://easylist.to)** | Comprehensive list of domains for blocking tracking, social scripts, bad cookies and annoying stuff
+**[iBlockList](https://www.iblocklist.com/)** | Variety of lists (free and paid-for) for blocking content based on certain topics, inducing: spam, abuse, political, illegal, hijacked, bad peers and more
+**[Energized](https://github.com/EnergizedProtection/block)** | A variety of well-maintained lists, available in all common formats, with millions of hosts included
+
 
 ## Router Firmware
 
@@ -530,6 +589,18 @@ Weather you live in a country behind a firewall, or accessing the internet throu
 **[Goodbye DPI](https://github.com/ValdikSS/GoodbyeDPI)** | Passive Deep Packet Inspection blocker and Active DPI circumvention utility, for Windows
 **[DPITunnel](https://github.com/zhenyolka/DPITunnel)** | An Android app to bypass deep packet inspection
 **[Proxy Checker](https://ping.eu/proxy/)** | You can quickly check if a given IP is using a proxy, this can also be done through the [command line](https://superuser.com/questions/346372/how-do-i-know-what-proxy-server-im-using)
+
+
+## Intrusion Detection
+
+An IDS is an application that monitors a network or computer system for malicious activity or policy violations, and notifies you of any unusual or unexpected events. If you are running a server, then it's essential to know about an incident as soon as possible, in order to minimize damage.
+
+| Provider | Description |
+| --- | --- |
+**[Zeek](https://zeek.org/)** | Zeek (formally Bro) Passively monitors network traffic and looks for suspicious activity
+**[OSSEC](https://www.ossec.net/)** | OSSEC is an Open Source host-based intrusion detection system, that performs log analysis, integrity checking, monitoring, rootkit detection, real-time alerting and active response
+**[Kismet](https://www.kismetwireless.net/)** |An 802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+**[Snare](https://www.snaresolutions.com/products/snare-central/)** | SNARE (System iNtrusion Analysis and Reporting Environment) is a series of log collection agents that facilitate centralized analysis of audit log data. Logs from the OS are collected and audited. Full remote access, through a web interface easy to use manually, or by an automated process
 
 
 ## Cloud Hosting
@@ -580,7 +651,11 @@ Self-hosting your own mail server is not recommended for everyone, it can be tim
 **[Notable](https://notable.md)** | Markdown-based note editior for desktop, with a simple, yet feature-rich UI. All notes are saved individually as .md files, making them easy to manage. No mobile app, or built-in cloud-sync or encryption
 
 #### Notable Mentions
-If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com) is a utility that encrypts your entire notebook, before it is uploaded to the cloud. [Org Mode](https://orgmode.org) is a very comprehensive CLI tool for keeping notes, maintaining todo lists, planning projects, and authoring documents -based on a fast and effective plain-text system, from the command line. For a simple plain text note taking app, with strong encryption, see [Protected Text](https://www.protectedtext.com), which works well with the [Safe Notes](https://play.google.com/store/apps/details?id=com.protectedtext.android) Android app
+If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com) is a utility that encrypts your entire notebook, before it is uploaded to the cloud. 
+
+[Org Mode](https://orgmode.org) is a very comprehensive CLI tool for keeping notes, maintaining todo lists, planning projects, and authoring documents -based on a fast and effective plain-text system, from the command line.
+
+For a simple plain text note taking app, with strong encryption, see [Protected Text](https://www.protectedtext.com), which works well with the [Safe Notes](https://play.google.com/store/apps/details?id=com.protectedtext.android) Android app. [Laverna](https://laverna.cc/) is a cross-platform secure notes app, where all entries are formated with markdown.
 
 
 ## Cloud Productivity Suits
@@ -745,6 +820,22 @@ There's no need to use a third-party tool. You can boot into a UNIX-based system
 
 Such as the [`dd`](https://en.wikipedia.org/wiki/Dd_%28Unix%29) command, is a tool to convert and copy files, but running `sudo dd if=/dev/zero of=/dev/sdX bs=1M` will quickly overwrite the whole disk with zeros. Or [badblocks](https://linux.die.net/man/8/badblocks) which is intended to search for all bad blocks, but can also be used to write zeros to a disk, by running `sudo badblocks -wsv /dev/sdd`. An effective method of erasing an SSD, it to use [hdparm](https://en.wikipedia.org/wiki/Hdparm) to issue a [secure erase](https://en.wikipedia.org/wiki/Parallel_ATA#HDD_passwords_and_security) command, to your target storage device, for this, see step-by-step instructions via: [wiki.kernel.org](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase). Finally, `[srm](https://www.systutorials.com/docs/linux/man/1-srm/)` can be use to securely remove files or directories, just run `srm -zsv /path/to/file` for a single pass over.
 
+## Virtual Machines
+
+A VM is a sandboxed operating system, running within your current system. Useful for compartmentalisation and safley testing software, or handling potentially malicious files
+
+| Provider | Description |
+| --- | --- |
+**[VirtualBox](https://www.virtualbox.org/)** | Open source, powerful, feature-rich virtualization product, supporting x86 and AMD64/Intel64 architectures. Available for Windows, MacOS, Linux and BSD, and free for both personal and enterprise use. VirtualBox is backed by a strong community, and has been under active development since 2007.
+**[Xen Project](https://xenproject.org/)** (Servers) | Open source virtual machine monitor intended to serve as a type-1 hyperviser for multiple operating systems using the same hardware - very useful for servers, as it allows for fully independent virtual Linux machines 
+
+#### Notable Mentions
+
+[QEMU](https://wiki.qemu.org/Main_Page) is a virtual hardware emulation tool, meaning it is less appropriate for creating fully independant sandboxes, but performance is considerable better than that of a traditional virtual machine.
+
+[VMWare](https://www.vmware.com/) is popular in the enterprise world, it is not open source, and although there is a free version, a license is required to access all features. VMWare perfoms very well when running on a server, with hundreds of hosts and users. For Mac users, [Parallels](https://www.parallels.com/uk/) is a popular option which performs really well, but again is not open source. For Windows users, there's [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v), which is a native Windows product, developed by Microsoft.
+
+
 ## Social Networks
 
 Over the past decade, social networks have revolutionized the way we communicate and bought the world closer together- but it came at the [cost of our privacy](https://en.wikipedia.org/wiki/Privacy_concerns_with_social_networking_services). Social networks are built on the principle of sharing- but you, the user should be able to choose with whom you share what, and that is what the following sites aim to do.
@@ -833,6 +924,30 @@ Not all cryptocurrencies are anonymous, and without using a privacy-focused coin
 
 Note: Cryptocurrency prices can go down. Storing any wealth in crypto may result in losses. If you are new to digital currencies- do your research first, don't invest more than you can afford, and be very weary of scams and cryptocurrency-related malware. 
 
+## Crypto Wallets
+
+| Provider | Description |
+| --- | --- |
+**[Wasabi Wallet](https://www.wasabiwallet.io/)** (BitCoin) | An open source, native desktop wallet for Windows, Linux and MacOS. Wasabi implements trustless CoinJoins over the Tor network. Neither an observer nor the participants can determine which output belongs to which input. This makes it difficult for outside parties to trace where a particular coin originated from and where it was sent to, which greatly improves privacy. Since it's trustless, the CoinJoin coordinator cannot breach the privacy of the participants. Wasabi is compatible with cold storage, and hardware wallets, including OpenCard and Trezor.
+**[Trezor](https://trezor.io/)** (All Coins) | Open source, cross-platform, offline, crypto wallet, compatible with 1000+ coins. Your private key is generated on the device, and never leaves it, all transactions are signed by the Trezor, which ensures your wallet is safe from theft. There are native apps for Windows, Linux, MacOS, Android and iOS, but Trezor is also compatible with other wallets, such as Wasabi. You can back the Trezor up, either by writing down the seed, or by duplicating it to another device. It is simple and intuitive to use, but also incredible customisable with a large range of advanced features
+**[ColdCard](https://coldcardwallet.com/)** (BitCoin) | An easy-to-use, super secure, open source BitCoin hardware wallet, which can be used independently as an air-gapped wallet. ColdCard is based on partially signed Bitcoin transactions following the [BIP174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki) standard. Built specifically for BitCoin, and with a variety of unique security features, ColdCard is secure, trustless, private and easy-to-use. Companion products for the ColdCard include: [BlockClock](http://blockclockmini.com/), [SeedPlate](http://bitcoinseedbackup.com/) and [ColdPower](http://usbcoldpower.com/)
+**[CryptoSteel](https://cryptosteel.com/how-it-works)** | A steel plate, with engraved letters which can be permanently screwed - CryptoSteel is a good fire-proof, shock-proof, water-proof and stainless cryptocurrency backup solution
+
+
+#### Word of Warning
+Avoid using any online/ hot-wallet, as you will have no control over the security of your private keys. Offline paper wallets are very secure, but ensure you store it properly- to keep it safe from theft, loss or damage.
+
+## Crypto Exchanges
+
+| Provider | Description |
+| --- | --- |
+**[Bisq](https://bisq.network)** | An open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies in exchange for national currencies. Fully decentralized, and no registration required.
+**[LocalBitcoins](https://localbitcoins.com/)** | Person-to-person exchange, find people local to your area, and trade directly with them, to avoid going through any central organisation. Primarily focused on BitCoin, Etherium, Ripple andd LiteCoin, as it gets harder to find people near you selling niche alt-coins
+
+#### Notable Mentions
+
+For traders, [BaseFEX](https://www.basefex.com/) doesn't require ID and has a good privacy policy. [BitMex](https://www.bitmex.com/) has more advanced trading features, but ID verification is required for higher value trades involving Fiat currency. For buying and selling alt-coins, [Binance](https://www.binance.com/en/register?ref=X2BHKID1) has a wide range of currencies, and ID verification is not needed for small-value trades.
+
 
 ## Virtual Credit Cards
 
@@ -905,9 +1020,11 @@ It is not recommended to root, or flash your device with a custom ROM if you are
 - Finally, rooting and flashing your device, will void your warranty
 
 
-## PC Operating Systems
+## Desktop Operating Systems
 
 Windows 10 has many features that violate your privacy. Microsoft and Apple are able to collect all your data (including, but not limited to: keystrokes, searches and mic input, calendar data, music, photos, credit card information and purchases, identity, passwords, contacts, conversations and location data). Microsoft Windows is also more susceptible to malware and viruses, than alternative systems.
+
+Switching to Linux is a great choice in terms of security and privacy- you don't need necessarily need to use a security distro, any well-maintained stable distro is going to be considerably better than a propriety OS
 
 | Provider | Description |
 | --- | --- |
@@ -919,14 +1036,22 @@ Windows 10 has many features that violate your privacy. Microsoft and Apple are 
 **[Alpine Linux](https://www.alpinelinux.org/)** | Alpine is a security-oriented, lightweight distro based on musl libc and busybox. It compiles all user-space binaries as position-independent executables with stack-smashing protection. Install and setup may be quite complex for some new users
 
 #### Notable Mentions
-[Subgraph OS](https://subgraph.com), [PureOS](https://pureos.net), [Kali](https://www.kali.org) (defensive security), [BlackArch](https://blackarch.org) (defensive security), [Kodachi](https://www.digi77.com/linux-kodachi/), [IprediaOS](https://www.ipredia.org) (obsolete), [Fedora CoreOS](https://getfedora.org/coreos?stream=stable)
+[Septor](https://septor.sourceforge.io/) is a Debian-based distro with the KDE Plasma desktop environment, and Tor baked-in. Designed for surfing the web anonymously, and completing other internet-based activities (with Thunderbird, Ricochet IM, HexChat, QuiteRSS, OnionShare). Septor is light-weight, but comes bundled with all the essential privacy + security utilities (including: Gufw, Ark, Sweeper, KGpg, Kleopatra, KWallet, VeraCrypt, Metadata Anonymisation Toolkit and more).
+
+[Subgraph OS](https://subgraph.com) is designed to be an *adversary resistant computing platform*, it includes strong system-wide attack mitigations, and all key applications run in sandbox environments. Subgraph is still in beta (at the time of writing), but still is well tested, and has some nice anonymization features
+
+For defensive security, see [Kali](https://www.kali.org) and [BlackArch](https://blackarch.org), both are bundled with hundreds of security tools, ready for pretty much any job.  
+
+Other security-focused distros include: [TENS OS](https://www.tens.af.mil/), [Fedora CoreOS](https://getfedora.org/coreos?stream=stable), [Kodachi](https://www.digi77.com/linux-kodachi/) and [IprediaOS](https://www.ipredia.org). (Avoid systems that are not being activley maintained)
+
 
 #### General Purpose Linux Distros
 If you do not want to use a specalist security-based distro, or you are new to Unix- then just switching to any well-maintained Linux distro, is going to be significantly more secure and private than Windows or Mac OS.
 Since it is open source, major distros are constantly being audited by members of the community. Linux does not give users admin rights by default- this makes is much less likley that your system could become infected with malware. And of course, there is no proprietary Microsoft or Apple software constantly monitoring everything you do.
 
-Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **[Debian](https://www.debian.org/)**, or **[Arch](https://www.archlinux.org/)**- all of which have a large community behind them. **[Manjaro](https://manjaro.org/)** (based of Arch) is a good option, with a simple install process, used by new comers, and expers alike. See [comparison](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions).
+Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **[Debian](https://www.debian.org/)**, or **[Arch](https://www.archlinux.org/)**- all of which have a large community behind them. **[Manjaro](https://manjaro.org/)** (based of Arch) is a good option, with a simple install process, used by new comers, and expers alike.  **[POP_OS](https://pop.system76.com/)** and **[PureOS](https://www.pureos.net/)** are reasonably new general purpose Linux, with a strong focus on privacy, but also very user-firendly with an intuitive interfac and install process. See [comparison](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions).
 
+#### BSD
 BSD systems arguably have far superior network stacks. **[OpenBSD](https://www.openbsd.org)** is designed for maximum security — not just with its features, but with its implementation practices. It’s a commonly used OS by banks and critical systems. **[FreeBSD](https://www.freebsd.org)** is more popular, and aims for high performance and ease of use.
 
 #### Improve the Security and Privacy of your current OS
@@ -968,6 +1093,10 @@ If you have chosen to stick with your current OS, there are a couple of things y
 **[GMER](http://www.gmer.net)** | Rootkit detection and removal utility
 **[ScreenWings](https://schiffer.tech/screenwings.html)** | Blocks malicious background applications from taking screenshots
 **[CamWings](https://schiffer.tech/camwings.html)** | Blocks unauthorized webcam access
+**[SpyDish](https://github.com/mirinsoft/spydish)** | Open source GUI app built upon PowerShell, allowing you to perform a quick and easy privacy check, on Windows 10 systems. Highlights many serious issues, and provides assistance with fixing
+**[SharpApp](https://github.com/mirinsoft/sharpapp)** | Open source GUI app built upon PowerShell, for disabling telemetry functions in Windows 10, uninstalling preinstalled apps, installing software packages and automating Windows tasks with integrated PowerShell scripting
+**[Debotnet](https://github.com/Mirinsoft/Debotnet)** | Light-weight, portable app for controlling the many privacy-related settings within Windows 10- with the aim of helping to keep private data, private 
+**[PrivaZer](https://privazer.com/)** | Good alternative to CCleaner, for deleting unnecissary data- logs, cache, history, etc 
 
 #### Word of Warning
 (The above software was last tested on 01/05/20). Many of the above tools are not necessary or suitable for beginners, and can cause your system to break- only use sofware that you need, according to your threat moedl. Take care to only download from an official/ legitimate source, verify the executable before proceeding, and check reviews/ forums. Create a system restore point, before making any significant changes to your OS (such as disabling core features). From a security and privacy perspective, Linux may be a better option.  

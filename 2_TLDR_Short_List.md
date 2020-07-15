@@ -13,27 +13,27 @@ It lays out the 20 most essential security + privacy tips, that you should compl
 
 ### Authentication
 - Use a long, strong and unique password for each of your accounts (see [HowSecureIsMyPassword.net](https://howsecureismypassword.net))
-- Use a secure [password manager](/5_Privacy_Respecting_Software.md#password-managers), to encrypt, store and fill credentials, such as [BitWarden](https://bitwarden.com) or KeePass (no cloud-sync)
-- Enable 2-Factor authentication where available, and use an [authenticator app](/5_Privacy_Respecting_Software.md#2-factor-authentication) or hardware token
+- Use a secure [password manager](/5_Privacy_Respecting_Software.md#password-managers), to encrypt, store and fill credentials, such as [BitWarden](https://bitwarden.com) or [KeePass](https://keepass.info) / [KeePassXC](https://keepassxc.org)
+- Enable 2-Factor authentication where available, and use an [authenticator app](/5_Privacy_Respecting_Software.md#2-factor-authentication) or [hardware token](/6_Privacy_and-Security_Gadgets.md#fido-u2f-keys)
 - Sign up for breach alerts (with [Firefox Monitor](https://monitor.firefox.com) or [HaveIBeenPwned](https://haveibeenpwned.com)), and update passwords of compromised accounts
 
 
 ### Browsing
-- Use a Privacy-Respecting Browser, [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/exp/firefox/new) are gtrat options. Set your default search to a non-tracking search engine, such as [DuckDuckGo](https://duckduckgo.com)
+- Use a Privacy-Respecting Browser, [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/exp/firefox/new) are good options. Set your default search to a non-tracking engine, such as [DuckDuckGo](https://duckduckgo.com)
 - Do not enter any information on a non-HTTPS website (look for the lock icon), consider using [HTTPS-Everywhere](https://www.eff.org/https-everywhere) to make this easier
 - Block invasive 3rd-party trackers and ads using an extension like [Privacy Badger](https://privacybadger.org) or [uBlock](https://github.com/gorhill/uBlock)
-- Don't allow your browser to save your passwords or auto-fill personal details (instead use a [password manager](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md#password-managers), and [disable your browsers own auto-fill](https://www.computerhope.com/issues/ch001377.htm))
+- Keep your browser up-to-date, explore the privacy settings and remove unnecessary add-ons/ extensions
+- Consider using compartmentalization to separate different areas of your browsing (such as work, social, shopping etc), in order to reduce tracking. This can be done with [Firefox Containers](https://support.mozilla.org/en-US/kb/containers), or by using separate browsers or browser profiles
+- Don't allow your browser to save your passwords or auto-fill personal details (instead use a [password manager](/5_Privacy_Respecting_Software.md#password-managers), and [disable your browsers own auto-fill](https://www.computerhope.com/issues/ch001377.htm))
 - Clear your cookies, session data and cache regularly. An extension such as [Cookie-Auto-Delete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) to automate this
 - Don't sign into your browser, as it can link further data to your identity. If you need to, you can use an open source [bookmark sync](/5_Privacy_Respecting_Software.md#browser-sync) app
 - Consider using [Decentraleyes](https://decentraleyes.org) to decrease the number of trackable CDN requests your device makes
-- Consider using compartmentalization to separate different areas of your browsing (such as work, social, shopping etc), in order to reduce tracking. This can be done with [Firefox Containers](https://support.mozilla.org/en-US/kb/containers), or by using separate browsers or browser profiles
 - Test your browser using a tool like [Panopticlick](https://panopticlick.eff.org) to ensure there are no major issues. [BrowserLeaks](https://browserleaks.com) and [Am I Unique](https://amiunique.org/fp) are also useful for exploring what device info your exposing to websites
-- Keep your browser up-to-date, explore the privacy settings and remove unnecessary add-ons/ extensions (as they may make you more trackable)
 - For anonymous browsing use [The Tor Browser](https://www.torproject.org/), and avoid logging into any of your personal accounts
 
 
 ### Phone
-- Set a device PIN, ideally use a long passcode
+- Set a device PIN, ideally use a long passcode. If supported, configure fingerprint authentication, but avoid face unlock
 - Encrypt your device, in order to keep your data safe from physical access. To enable, for Android: `Settings --> Security --> Encryption`, or for iOS: `Settings --> TouchID & Passcode --> Data Protection`
 - Keep device up-to-date. System updates often contain patches for recently-discovered security vulnrabilities. You should install updates when prompted
 - Review application permissions. Don't grant access permissions to apps that do not need it. (For Android, see also [Bouncer](https://play.google.com/store/apps/details?id=com.samruston.permission&hl=en_US) - an app that allows you to grant temporary permissions)
@@ -53,14 +53,21 @@ It's important to protect your email account, as if a hacker gains access to it 
 - Using a custom domain, will mean you will not loose access to your email address if your current provider disappears. If you need to back up messages, use a secure IMAP client [Thuderbird](https://www.thunderbird.net)
 
 
+### Secure Messaging
+- Use a [secure messaging app](/5_Privacy_Respecting_Software.md#encrypted-messaging) that is both fully open source and end-to-end encrypted with perfect forward secrecy (e.g. [Signal](https://www.signal.org/))
+- Ensure that both your device, and that of your recipient(s) is secure (free from malware, encrypted and has a strong password)
+- Disable cloud services, such as web app companion or cloud backup feature, both of which increases attack surface
+- Strip meta data from media before sharing, as this can lead to unintentionally revealing more data than you intended
+- Verify your recipient is who they claim to be, which can be done cryptographically by using an app that offers contact verification
+- Opt for a stable and actively maintained messaging platform, that is backed by reputable developers and have a transparent revenue model or are able to account for where funding has originated from. It should ideally be based in a friendly jurisdiction and have undergone an independent security audit. 
+- In some situations, it may be appropriate to use an app that supports disappearing messages, and/ or allows for anonymous sign up (without phone number or email address). A [decentralized platform](/5_Privacy_Respecting_Software.md#p2p-messaging) can offer additional security and privacy benefits in some circumstances, as there is no single entity governing it, e.g. [Matrix](https://matrix.org/), [Session](https://getsession.org/), [Tox](https://tox.chat/) or [Briar](https://briarproject.org/)
+- Avoid SMS, but if you must use it then encrypt your messages, e.g. using the [Silence](https://silence.im/) app
+
 ### Networking
-- Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log, but understand their limitations.  Good options include [ProtonVPN](https://protonvpn.com) and [Mullvad](https://mullvad.net), see [thatoneprivacysite.net](https://thatoneprivacysite.net/) for detailed comparisons
+- Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log, but understand their [limitations](5_Privacy_Respecting_Software.md#word-of-warning-4).  Good options include [ProtonVPN](https://protonvpn.com) and [Mullvad](https://mullvad.net), see [thatoneprivacysite.net](https://thatoneprivacysite.net/) for detailed comparisons
 - Change your routers default password. Anyone connected to your WiFi is able to listen to network traffic, so in order to prevent people you don't know from connecting, use WPA2 and set a strong password.
 - Update your router settings to use a secure DNS, such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/), this should also speed up your internet. If you cannot modify your roters settings, you can set the DNS on your phone (with the [1.1.1.1. app](https://1.1.1.1/)), or [Windows](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/windows/), [Mac](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/mac/) or [Linux](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/linux/). DNS is the system used to resolve URL's to their server addresses, many DNS providers collect data on your browsing habbits and use it to target you with ads or sell it on. 
 
-
-### Devices
-- Keep software up-to-date. Security fixes and patches are released as updates, so it is important to install updates when prompted, for your phone, PC, router, IoT devices and all software/apps.
 
 **📜 See More**: [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)
 
