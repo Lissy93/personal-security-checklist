@@ -7,9 +7,7 @@
 
 ## PERSONAL SECURITY CHECKLIST
 
-> This is the shortened version of [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md). 
-It lays out the 20 most essential security + privacy tips, that you should complete to protect your digital life.
-
+> This checklist of privacy and security tips, is a summarized version of [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md). It lays out the most essential steps you should take to protect your digital life.
 
 ### Authentication
 - Use a long, strong and unique password for each of your accounts (see [HowSecureIsMyPassword.net](https://howsecureismypassword.net))
@@ -59,14 +57,15 @@ It's important to protect your email account, as if a hacker gains access to it 
 - Disable cloud services, such as web app companion or cloud backup feature, both of which increases attack surface
 - Strip meta data from media before sharing, as this can lead to unintentionally revealing more data than you intended
 - Verify your recipient is who they claim to be, which can be done cryptographically by using an app that offers contact verification
-- Opt for a stable and actively maintained messaging platform, that is backed by reputable developers and have a transparent revenue model or are able to account for where funding has originated from. It should ideally be based in a friendly jurisdiction and have undergone an independent security audit. 
-- In some situations, it may be appropriate to use an app that supports disappearing messages, and/ or allows for anonymous sign up (without phone number or email address). A [decentralized platform](/5_Privacy_Respecting_Software.md#p2p-messaging) can offer additional security and privacy benefits in some circumstances, as there is no single entity governing it, e.g. [Matrix](https://matrix.org/), [Session](https://getsession.org/), [Tox](https://tox.chat/) or [Briar](https://briarproject.org/)
 - Avoid SMS, but if you must use it then encrypt your messages, e.g. using the [Silence](https://silence.im/) app
+- Opt for a stable and actively maintained messaging platform, that is backed by reputable developers and have a transparent revenue model or are able to account for where funding has originated from. It should ideally be based in a friendly jurisdiction and have undergone an independent security audit. 
+- In some situations, it may be appropriate to use an app that supports disappearing messages, and/ or allows for anonymous sign up (without phone number or email address). A [decentralized platform](/5_Privacy_Respecting_Software.md#p2p-messaging) can also offer additional security and privacy benefits in some circumstances, as there is no single entity governing it, e.g. [Matrix](https://matrix.org/), [Session](https://getsession.org/), [Tox](https://tox.chat/) or [Briar](https://briarproject.org/)
+
 
 ### Networking
 - Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log, but understand their [limitations](5_Privacy_Respecting_Software.md#word-of-warning-4).  Good options include [ProtonVPN](https://protonvpn.com) and [Mullvad](https://mullvad.net), see [thatoneprivacysite.net](https://thatoneprivacysite.net/) for detailed comparisons
 - Change your routers default password. Anyone connected to your WiFi is able to listen to network traffic, so in order to prevent people you don't know from connecting, use WPA2 and set a strong password.
-- Update your router settings to use a secure DNS, such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/), this should also speed up your internet. If you cannot modify your roters settings, you can set the DNS on your phone (with the [1.1.1.1. app](https://1.1.1.1/)), or [Windows](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/windows/), [Mac](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/mac/) or [Linux](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/linux/). DNS is the system used to resolve URL's to their server addresses, many DNS providers collect data on your browsing habbits and use it to target you with ads or sell it on. 
+- Use a [secure DNS](/5_Privacy_Respecting_Software.md#dns) provider, (such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/) to reduce tracking. Ideally configure this on your router, but if that's not possible, then it can be done on each device. 
 
 
 **📜 See More**: [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)
@@ -194,7 +193,7 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [//]: # (BROWSER EXTENSION LINKS)
 [Privacy Badger]: https://www.eff.org/privacybadger
 [HTTPS Everywhere]: https://eff.org/https-everywhere
-[uBlock]: https://github.com/gorhill/uBlock
+[uBlock Origin]: https://github.com/gorhill/uBlock
 [ScriptSafe]: https://github.com/andryou/scriptsafe
 [WebRTC Leak Prevent]: https://github.com/aghorler/WebRTC-Leak-Prevent
 [Vanilla Cookie Manager]: https://github.com/laktak/vanilla-chrome
