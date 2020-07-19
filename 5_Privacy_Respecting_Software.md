@@ -21,7 +21,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 
 ### Categories
 
-- **Basics**
+- **Essentials**
   - [Password Managers](#password-managers)
   - [2-Factor Authentication](#2-factor-authentication)
   - [File Encryption](#file-encryption)
