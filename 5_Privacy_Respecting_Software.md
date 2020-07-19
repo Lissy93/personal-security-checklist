@@ -1054,9 +1054,12 @@ Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **
 #### BSD
 BSD systems arguably have far superior network stacks. **[OpenBSD](https://www.openbsd.org)** is designed for maximum security — not just with its features, but with its implementation practices. It’s a commonly used OS by banks and critical systems. **[FreeBSD](https://www.freebsd.org)** is more popular, and aims for high performance and ease of use.
 
-#### Improve the Security and Privacy of your current OS
+#### Windows
+One option for Windows users is the LTSC stream, that provides several security benefits over a standard Win 10 Installation. [Windows 10 LTSC](https://docs.microsoft.com/en-us/windows/whats-new/ltsc/) (or Long Term Servicing Channel) is a lightweight, low-cost Windows 10 version, that is intended for specialized systems, and receives less regular feature updates. What makes it appealing, is that it doesn't come with any bloatware or non-essential applications, and needs to be configured from the ground up by the user. This gives you much better control over what is running on your system, ultimately improving security and privacy. It also includes several enterprise-grade [security features](https://docs.microsoft.com/en-us/windows/whats-new/ltsc/whats-new-windows-10-2019#security), which are not available in a standard Windows 10 instance. It does require some technical knowledge to get started with, but once setup should perform just as any other Windows 10 system. Note that you should only download the LTSC ISO from the Microsoft's [official page](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-10-enterprise) 
 
-If you have chosen to stick with your current OS, there are a couple of things you can do to improve security, see: [Windows 10 security guide](https://heimdalsecurity.com/en/windows-10-security-guide/privacy), [Mac OS security guide](https://spreadprivacy.com/mac-privacy-tips/) or [Linux security guide](https://spreadprivacy.com/linux-privacy-tips/).
+
+#### Improve the Security and Privacy of your current OS
+After installing your new operating system, or if you have chosen to stick with your current OS, there are a couple of things you can do to improve security. See: [Windows 10 security guide](https://heimdalsecurity.com/en/windows-10-security-guide/privacy), [Mac OS security guide](https://spreadprivacy.com/mac-privacy-tips/) or [Linux security guide](https://spreadprivacy.com/linux-privacy-tips/).
 
 ## Linux Defences
 
