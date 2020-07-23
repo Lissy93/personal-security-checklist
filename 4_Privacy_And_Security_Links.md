@@ -378,6 +378,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [Sensor Access Data](https://databank.illinois.edu/datasets/IDB-9213932) - A Crawl of the Mobile Web Measuring Sensor Accesses, Illinois
   - [Canalys Newsroom](https://www.canalys.com/newsroom) - Research Studies on Security, Privacy, Technology and Finance
   - [Data Never Sleeps](https://web-assets.domo.com/blog/wp-content/uploads/2019/07/data-never-sleeps-7-896kb.jpg) - An infographic visualizing how much data is generated every minute (2019)
+  - [What they Know about You](https://external-preview.redd.it/KU3pS4LIhLWqeYSluiYyJMhLQW1fEjTdh8lEKL2jafc.png?auto=webp&s=fe015c1e32731bc61cd0d57313f5a261173846ca) - An Infographic showing what information are Giant Tech Companies collecting from you (2020)
 - **Databases**
   - [Exodus](https://reports.exodus-privacy.eu.org/en/trackers/stats) - Trackers in Android Apps
   - [Exploit Database](https://www.exploit-db.com) - A database or Current software vulnerabilities
