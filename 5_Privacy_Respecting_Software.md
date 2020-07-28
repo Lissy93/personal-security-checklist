@@ -112,7 +112,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 
 **[Password Safe](https://www.pwsafe.org/)** is an offline, open source password manager designed by [Bruce Schneiser](https://www.schneier.com/academic/passsafe/), with native applications for Windows, Linux, MacOS, Android and iOS, and support for YubiKey. The UI is a little dated, and there is no official browser extension, making is slightly less convenient to use compared with other options
 
-**[PassBold](https://www.passbolt.com/)** is a good option for teams. It is free, open source, self-hosted, extensible and OpenPGP based. It is specifically good for development and DevOps ussage, with integrations for the terminal, browser and chat, and can be easily extended for custom usage, and deployed quickly with Docker
+**[PassBolt](https://www.passbolt.com/)** is a good option for teams. It is free, open source, self-hosted, extensible and OpenPGP based. It is specifically good for development and DevOps ussage, with integrations for the terminal, browser and chat, and can be easily extended for custom usage, and deployed quickly with Docker
 
 **[1Password](https://1password.com)** (proprietary) is a fully-featured cross-platform password manager with sync. Free for self-hosted data (or $3/ month hosted). Be aware that 1Password is not fully open source, but they do regularly publish results of their indepentand security [audits](https://support.1password.com/security-assessments), and they have a solid reputation for transparently disclosing and fixing vulnerabilities
 
@@ -140,7 +140,7 @@ If you are using a deprecated PM, you should migrate to something actively maint
 
 For KeePass users, [TrayTop](https://keepass.info/plugins.html#traytotp) is a plugin for managing TOTP's-  offline and compatible with Windows, Mac and Linux.
 
-[Authy](https://authy.com/) (propriety) is a popular option among new users, due to it's ease of use and device sync capabilities, however it is not open source, and therefore can not recommended.
+[Authy](https://authy.com/) (propriety) is a popular option among new users, due to it's ease of use and device sync capabilities. Cloud sync may be useful, but will also increase attack surface. Authy is not open source, and therefore can not recommended
 
 **See also** [2FA Security Checklist](/README.md#2-factor-authentication)
 
@@ -587,6 +587,8 @@ Installing a custom firmware on your Wi-Fi router gives you greater control over
 #### Notable Mentions
 [Tomato](https://www.polarcloud.com/tomato), [Gargoyle](https://www.gargoyle-router.com), [LibreCMC](https://librecmc.org) and [DebWRT](http://www.debwrt.net)
 
+#### Word of Warning
+Flashing custom firmware may void your warrenty. If power is interupted mid-way through a firmware install/ upgrade it is possible for your device to become bricked. So long as you follow a guide, and use a well supported system, on a supported router, than it should be safe
 
 ## Network Analysis
 
