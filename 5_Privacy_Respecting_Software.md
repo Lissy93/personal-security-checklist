@@ -67,6 +67,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Video Platforms](#video-platforms)
   - [Blogging Platforms](#blogging-platforms)
   - [News Readers](#news-readers-and-aggregation)
+  - [Proxy Sites](#proxy-sites)
 - **Operating Systems**
   - [Mobile Operating Systems](#mobile-operating-systems)
   - [Desktop Operating Systems](#desktop-operating-systems)
@@ -917,6 +918,16 @@ For iPhone users in the US, [Tonic](https://canopy.cr/tonic) is a great little a
 
 #### Word of Warning
 News reader apps don't have a good [reputation](https://vpnoverview.com/privacy/apps/privacy-risks-news-apps) when it comes to protecting users privacy, and often display biased content. Many have revenue models based on making recommendations, with the aim of trying to get you to click on sponsored articles- and for that a lot of data needs to have been collected about you, your habits, interests and routines. 
+
+
+## Proxy Sites
+
+These are websites that enable you to access existing social media platforms, without using their primary website- with the aim of improving privacy & security and providing better user experience. The below options are open source (so can be self-hosted, if you wish), and they do not display ads or tracking (unless otherwise stated).
+
+| Provider | Description |
+| --- | --- |
+**[Nitter](https://nitter.net/)** (Twitter) | Nitter is a free and open source alternative Twitter front-end focused on privacy, it prevents Twitter from tracking your IP or browser fingerprint. It does not include any JavaScript, and all requests go through the backend, so the client never talks directly to Twitter. It's written in Nim, is super lightweight, with multiple themes and a responsive mobile version available, as well as customizable RSS feeds. Uses an unofficial API, with no rate limits or and no developer account required
+
 
 
 ## Cryptocurrencies 
