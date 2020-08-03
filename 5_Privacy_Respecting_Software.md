@@ -1036,7 +1036,7 @@ collecting a wealth of information, and logging your every move. A [custom ROM](
 | Provider | Description |
 | --- | --- |
 **[LineageOS](https://www.lineageos.org/)** | A free and open-source operating system for various devices, based on the Android mobile platform- Lineage is light-weight, well maintained, supports a wide range of devices, and comes bundled with [Privacy Guard](https://en.wikipedia.org/wiki/Android_Privacy_Guard)
-**[GrapheneOS](https://grapheneos.org/)** | GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility. Developed by the team behind [CoperheadOS](https://copperhead.co/android/). Graphene is a young project, and currently only supports Pixel devices, partially due to their strong hardware security
+**[GrapheneOS](https://grapheneos.org/)** | GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility. Developed by [Daniel Micay](https://twitter.com/DanielMicay). GrapheneOS is a young project, and currently only supports Pixel devices, partially due to their [strong hardware security](https://grapheneos.org/faq#device-support).
 
 #### Other Notable Mentions
 [Replicant OS](https://www.replicant.us/) is a fully-featured distro, with an emphasis on freedom, privacy and security. [MmniRom](https://www.omnirom.org/), [Recursion Remix](https://forum.xda-developers.com/remix), and [Paranoid Android](http://paranoidandroid.co/) are also popular options. Alternativley, [Ubuntu Touch](https://ubports.com/) is a Linux (Ubuntu)- based OS. It is secure by design and runs on almost any device, - but it does fall short when it comes to the app store.
