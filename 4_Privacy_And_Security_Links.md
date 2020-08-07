@@ -22,7 +22,7 @@
   - [Academic](#academic)
 - **Organisations**
   - [Foundations](#foundations)
-  - [Government Organisations](#government-organisations)
+  - [Government and Independant Organisations](#governance)
 - **More Lists**
   - [Mega Guides](#mega-guides)
   - [Other GitHub Security Lists](#more-awesome-github-lists)
@@ -487,7 +487,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
 
 
 
-## Government Organisations
+## Governance
 
 - **Citizen/ Small business Advice and Infrormation**
   - [UK National Cyber Security Center](https://www.ncsc.gov.uk)
@@ -499,6 +499,10 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
     - [Crime Stoppers](https://crimestoppers-uk.org/) - UK Independent Charity, for reporting crimes anonymously 
 - **Fact Checkling**
   - [Full Fact](https://fullfact.org) - UK independent fact checking charity, campaigning to expose bad information, and the harm it does
+  - [Snopes](https://www.snopes.com/) - Transparent fact checking service, with documented sources. Their investigative reporting uses evidence-based and contextualized analysis
+  - [FactCheck.org](https://www.factcheck.org/fake-news/) - US Site debunking misinformation shared on social media
+  - [Media Bias Fact Check](https://mediabiasfactcheck.com/) - Focusing on media bias, and comparing different view points on each story from over 3000 sources
+  - [AP Fact Check](https://apnews.com/APFactCheck) - Fact checking service provided by AP News
 - **CERT** - Your local jurisdiction will likely have a Computer emergency response team (historically known as [CERT](https://online.norwich.edu/academic-programs/resources/how-computer-emergency-response-teams-and-computer-security-incident-response-teams-combat-cyber-threats)). Who is in charge of handline handles domestic and international computer security incidents.
   - **A-C** - Australia: [auscert.org.au](https://www.auscert.org.au) | Austria: [cert.at](https://www.cert.at) | Bangladesh: [cirt.gov.bd](https://www.cirt.gov.bd) |  Bolivia: [cgii.gob.bo](https://cgii.gob.bo) | Brazil: [cert.br](https://www.cert.br) | Canada: [cyber.gc.ca](https://cyber.gc.ca/en/about-cyber-centre) | China: [cert.org.cn](https://www.cert.org.cn) | Columbia: [colcert.gov.co](http://www.colcert.gov.co) | Croatia: [carnet.hr](https://www.carnet.hr) |  Czech Republic: [csirt.cz](https://csirt.cz) 
   - **D-G** - Denmark: [cert.dk](https://www.cert.dk) | Ecuador: [ecucert.gob.ec](https://www.ecucert.gob.ec) | Egypt: [egcert.eg](https://www.egcert.eg) | Estonia: [ria.ee / CERT-EE](https://ria.ee/en/cyber-security/cert-ee.html) | Finland: [kyberturvallisuuskeskus.fi](https://www.kyberturvallisuuskeskus.fi/en/homepage) | France: [cert.ssi.gouv.fr](https://www.cert.ssi.gouv.fr) | Germany: [cert-bund.de](https://www.cert-bund.de) | Ghana: [nca-cert.org.gh](https://nca-cert.org.gh) 
