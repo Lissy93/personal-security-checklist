@@ -25,12 +25,15 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Password Managers](#password-managers)
   - [2-Factor Authentication](#2-factor-authentication)
   - [File Encryption](#file-encryption)
+  - [Private Browsers](#browsers)
+  - [Non-Tracking Search Engines](#search-engines)
+- **Communication**   
   - [Encrypted Messaging](#encrypted-messaging)
   - [P2P Messaging](#p2p-messaging)
   - [Encrypted Email](#encrypted-email)
+  - [Email Clients](#email-clients)
   - [Anonymous Mail Forwarding](#anonymous-mail-forwarding)
-  - [Private Browsers](#browsers)
-  - [Non-Tracking Search Engines](#search-engines)
+  - [Email Security Tools](#email-security-tools)
 - **Security Tools**
   - [Browser Extensions](#browser-extensions)
   - [Mobile Apps](#mobile-apps)
@@ -162,6 +165,40 @@ data. With PGP, you can encrypt, decrypt, sign and verify files and folders: see
 If you need to create a compressed archive, prior to encrypting your files, then [PeaZip](https://www.peazip.org/) is a great little cross-platform open source file archiver utility. It allows you to create, open, and extract RAR TAR ZIP archives.
 
 
+## Browsers
+
+| Provider | Description |
+| --- | --- |
+**[Brave Browser](https://brave.com/?ref=ali721)** | Brave Browser, currently one of the most popular private browsers- it provides speed, security, and privacy by blocking trackers with a clean, yet fully-featured UI. It also pays you in [BAT tokens](https://basicattentiontoken.org/) for using it. Brave also has Tor built-in, when you open up a private tab/ window.
+**[FireFox](https://www.mozilla.org/firefox)** | Significantly more private, and offers some nifty privacy features than Chrome, Internet Explorer and Safari. After installing, there are a couple of small tweaks you will need to make, in order to secure Firefox. You can follow one of these guides by: [Restore Privacy](https://restoreprivacy.com/firefox-privacy/), [Security Gladiators](https://securitygladiators.com/firefox-privacy-tips/) or [12Bytes](https://12bytes.org/7750)
+**[Tor Browser](https://www.torproject.org/)** | Tor provides an extra layer of anonymity, by encrypting each of your requests, then routing it through several nodes, making it near-impossible for you to be tracked by your ISP/ provider. It does make every-day browsing a little slower, and some sites may not work correctly. As with everything there are [trade-offs](https://github.com/Lissy93/personal-security-checklist/issues/19)
+
+#### Notable Mentions
+Mobile Browsers: [Bromite](https://www.bromite.org/) (Android), [Firefox Focus](https://support.mozilla.org/en-US/kb/focus) (Android/ iOS), [DuckDuckGo Browser](https://help.duckduckgo.com/duckduckgo-help-pages/mobile/ios/) (Android/ iOS), [Orbot](https://guardianproject.info/apps/orbot/) + [Tor](https://www.torproject.org/download/#android) (Android), [Onion Browser](https://onionbrowser.com/) (iOS), 
+
+Additional Desktop: [WaterFox](https://www.waterfox.net), [Epic Privacy Browser](https://www.epicbrowser.com), [PaleMoon](https://www.palemoon.org), [Iridium](https://iridiumbrowser.de/) and [Sea Monkey](https://www.seamonkey-project.org/).
+
+#### Word of Warning
+New vulnerabilities are being discovered and patched all the time - use a browser that is being actively maintained, in order to receive these security-critical updates
+
+**See also** [Browser & Search Security Checklist](/README.md#browser-and-search) and recommended [Browser Extensions](#browser-extensions) for privacy & security.
+
+## Search Engines
+
+Google frequently modifies and manipulates search, and is in pursuit of eliminating competition and promoting their own services above others. They also track, collect, use and sell detailed user search and meta data.
+
+| Provider | Description |
+| --- | --- |
+**[DuckDuckGo](https://duckduckgo.com/)** | DuckDuckGo is a very user-friendly, fast and secure search engine. It's totally private, with no trackers, cookies or ads. It's also highly customisable, with dark-mode, many languages and features. They even have a [.onion](https://3g2upl4pq6kufc4m.onion) URL, for use with Tor and a [no Javascript version](https://duckduckgo.com/html/)
+**[Qwant](https://www.qwant.com/)** | French service that aggregates Bings results, with it's own results. Quant doesn't plant any cookies, nor have any trackers or third-party advertising. It returns non-biased search results, with no promotions. Quant has a unique, but nice UI.
+**[Startpage](https://www.startpage.com/)** | Dutch search engine that searches on google and shows the results (slightly rearranged). It has several configurations that improve privacy during use (it is not open source)
+
+#### Notable Mentions
+[MetaGear](https://metager.org), [YaCy](https://yacy.net). Alternativley, host your own instance of [Searx](https://asciimoo.github.io/searx/)
+
+**See also** [Browser & Search Security Checklist](/README.md#browser-and-search)
+
+
 ## Encrypted Messaging
 
 Without using a secure app for instant messaging, all your conversations, meta data and more are unprotected. Signal is one of the best options- it's easy, yet also highly secure and privacy-centric.
@@ -231,7 +268,7 @@ Criptext is still in beta, but with an extremely smooth user experience, and no 
 ### Self-Hosted Email
 If you do not want to trust an email provider with your messages, you can host your own mail server. Without experience, this can be notoriously hard to correctly configure, especially when it comes to security. You may also find that cost, performance and features make it a less attractive option. If you do decide to go down this route, [Mail-in-a-box](https://mailinabox.email/), is an easy to deploy, open source mail server. It aims to promote decentralization, innovation, and privacy on the web, as well as have automated, auditable, and idempotent system configuration. Other ready-to-go self-hosted mail options include [Mailu](https://mailu.io/1.7/) and [Mail Cow](https://mailcow.email/), both of which are docker containers.
 
-## Mail Clients
+## Email Clients
 Email clients are the programs used to interact with the mail server. For hosted email, then the web and mobile clients provided by your email service are usually adequate, and may be the most secure option. For self-hosted email, you will need to install and configure mail clients for web, desktop or mobile. A benefit of using an IMAP client, is that you will always have an offline backup of all email messages (which can then be encrypted and archived), and many applications let you aggregate multiple mailboxes for convenience. Desktop mail clients are not vulnerable to the common browser attacks, that their web app counterparts are.
 
 
@@ -270,42 +307,10 @@ Alternatively you could host your own catch-all email service. [Mailu](https://g
 **[Enigmail](https://www.enigmail.net)** | Mail client add-on, enabling the use of OpenPGP to easily encrypt, decrypt, verify and sign emails. Free and open source, Enifmail is compatible with Mozilla Thunderbird, Interlink Mail & News and Postbox. Their website contains thorough documentation and quick-start guides, once set up it is extremely convenient to use
 **[TorBirdy](https://trac.torproject.org/projects/tor/wiki/torbirdy)** |  Thunderbird extension, that configures it to make connections over the Tor network, in order to provide an additional layer of anonymity and security
 **[Email Privacy Tester](https://www.emailprivacytester.com/)** | Quick tool, that enables you to test whether your mail client "reads" your emails before you've opened them, and also checks what analytics, read-receipts or other tracking data your mail client allows to be sent back to the sender. The system is open source ([on GitLab](https://gitlab.com/mikecardwell/ept3)), developed by [Mike Cardwell](https://www.grepular.com/) and trusted, but if you do not want to use your real email, creating a second account with the same provider, should yield identical results
+**[DKIM Verifier](https://addons.thunderbird.net/en-US/thunderbird/addon/dkim-verifier/?collection_id=a5557f08-eafd-7a39-81c6-09127da790f7)** | Verifies DKIM signatures and shows the result in the e-mail header, in order to help spot spoofed emails (which do not come from the comain that claim to)
 
 #### Notable Mentions
 If you are using ProtonMail, then the [ProtonMail Bridge](https://protonmail.com/bridge/thunderbird) enables you to sync your emails to your own desktop mail client. It works well with Thunderbird, Microsoft Outlook and others
-
-## Browsers
-
-| Provider | Description |
-| --- | --- |
-**[Brave Browser](https://brave.com/?ref=ali721)** | Brave Browser, currently one of the most popular private browsers- it provides speed, security, and privacy by blocking trackers with a clean, yet fully-featured UI. It also pays you in [BAT tokens](https://basicattentiontoken.org/) for using it. Brave also has Tor built-in, when you open up a private tab/ window.
-**[FireFox](https://www.mozilla.org/firefox)** | Significantly more private, and offers some nifty privacy features than Chrome, Internet Explorer and Safari. After installing, there are a couple of small tweaks you will need to make, in order to secure Firefox. You can follow one of these guides by: [Restore Privacy](https://restoreprivacy.com/firefox-privacy/), [Security Gladiators](https://securitygladiators.com/firefox-privacy-tips/) or [12Bytes](https://12bytes.org/7750)
-**[Tor Browser](https://www.torproject.org/)** | Tor provides an extra layer of anonymity, by encrypting each of your requests, then routing it through several nodes, making it near-impossible for you to be tracked by your ISP/ provider. It does make every-day browsing a little slower, and some sites may not work correctly. As with everything there are [trade-offs](https://github.com/Lissy93/personal-security-checklist/issues/19)
-
-#### Notable Mentions
-Mobile Browsers: [Bromite](https://www.bromite.org/) (Android), [Firefox Focus](https://support.mozilla.org/en-US/kb/focus) (Android/ iOS), [DuckDuckGo Browser](https://help.duckduckgo.com/duckduckgo-help-pages/mobile/ios/) (Android/ iOS), [Orbot](https://guardianproject.info/apps/orbot/) + [Tor](https://www.torproject.org/download/#android) (Android), [Onion Browser](https://onionbrowser.com/) (iOS), 
-
-Additional Desktop: [WaterFox](https://www.waterfox.net), [Epic Privacy Browser](https://www.epicbrowser.com), [PaleMoon](https://www.palemoon.org), [Iridium](https://iridiumbrowser.de/) and [Sea Monkey](https://www.seamonkey-project.org/).
-
-#### Word of Warning
-New vulnerabilities are being discovered and patched all the time - use a browser that is being actively maintained, in order to receive these security-critical updates
-
-**See also** [Browser & Search Security Checklist](/README.md#browser-and-search) and recommended [Browser Extensions](#browser-extensions) for privacy & security.
-
-## Search Engines
-
-Google frequently modifies and manipulates search, and is in pursuit of eliminating competition and promoting their own services above others. They also track, collect, use and sell detailed user search and meta data.
-
-| Provider | Description |
-| --- | --- |
-**[DuckDuckGo](https://duckduckgo.com/)** | DuckDuckGo is a very user-friendly, fast and secure search engine. It's totally private, with no trackers, cookies or ads. It's also highly customisable, with dark-mode, many languages and features. They even have a [.onion](https://3g2upl4pq6kufc4m.onion) URL, for use with Tor and a [no Javascript version](https://duckduckgo.com/html/)
-**[Qwant](https://www.qwant.com/)** | French service that aggregates Bings results, with it's own results. Quant doesn't plant any cookies, nor have any trackers or third-party advertising. It returns non-biased search results, with no promotions. Quant has a unique, but nice UI.
-**[Startpage](https://www.startpage.com/)** | Dutch search engine that searches on google and shows the results (slightly rearranged). It has several configurations that improve privacy during use (it is not open source)
-
-#### Notable Mentions
-[MetaGear](https://metager.org), [YaCy](https://yacy.net). Alternativley, host your own instance of [Searx](https://asciimoo.github.io/searx/)
-
-**See also** [Browser & Search Security Checklist](/README.md#browser-and-search)
 
 
 ## Browser Extensions
