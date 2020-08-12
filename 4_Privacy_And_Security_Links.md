@@ -411,6 +411,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
     - [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
     - [Airport WiFi Map](https://www.google.com/maps/d/u/0/viewer?mid=1Z1dI8hoBZSJNWFx2xr_MMxSxSxY) - Shows WiFi networks and their passwords for airports around the world
     - [Stuff in Space](http://stuffin.space) - Shows objects orbiting Earth
+    - [Grid Watch](https://www.gridwatch.templar.co.uk/) - Realtime energy ussage and demand 
     - [Wiggle](https://wigle.net) - Worlds largest WiFi Map showing personal hotspot statistics geographically
   - **Threat Maps** - Real-time hack attempts (malware, phishing, exploit and spam), visualised geographically
     - [Checkpoint](https://threatmap.checkpoint.com)
