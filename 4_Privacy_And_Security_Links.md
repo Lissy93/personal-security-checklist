@@ -55,6 +55,7 @@
   - How to use PGP: Via EFF - [Windows](https://ssd.eff.org/en/module/how-use-pgp-windows), [MacOS](https://ssd.eff.org/en/module/how-use-pgp-mac-os-x) and [Linux](https://ssd.eff.org/en/module/how-use-pgp-linux)
   - How to Maintain Anonyimity in BitCoin Transactions: [coinsutra.com](https://coinsutra.com/anonymous-bitcoin-transactions/)
   - Beginners Guide to Signal (secure messaging app): via [Freedom of the Press Foundation](https://freedom.press/news/signal-beginners/)
+  - How to use OTR messaging with Adium (MacOS): via [CalyxiIstitute.org](https://calyxinstitute.org/docs/howto-encrypted-instant-messaging-with-osx-adium-and-otr)
 - **Devices**
   - How to Enable Encryption on your Devices: via [SpreadPrivacy.com](https://spreadprivacy.com/how-to-encrypt-devices/)
   - How to Delete your Data Securely: Via EFF - [Windows](https://ssd.eff.org/en/module/how-delete-your-data-securely-windows), [MacOS](https://ssd.eff.org/en/module/how-delete-your-data-securely-macos) and [Linux](https://ssd.eff.org/en/module/how-delete-your-data-securely-linux) 
@@ -481,6 +482,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
 - [Electronic Privacy Information Center](https://epic.org)
 - [American Civil Liberties Union](https://www.aclu.org/issues/privacy-technology)
 - [Free Software Foundation](https://www.fsf.org)
+- [Calyx Institute](https://calyxinstitute.org/) - Brooklyn-based organisation, aiming to educate the public about privacy in digital communications
 - [Courage Foundation](https://www.couragefound.org) - Supports those who risk life / liberty to make significant contributions to the historical record
 - [Fight for the Future](https://www.fightforthefuture.org) - Fighting for a future where technology liberates
 - [Public Citizen](https://www.citizen.org) - Standing up to corporate power and hold the government accountable
