@@ -366,7 +366,10 @@ The following browser add-ons give you better control over what content is able 
 **[CamWings](https://schiffer.tech/camwings-mobile.html)** | Prevent background processes gaining unauthorized access to your devices camera. Better still, use a [webcam sticker](https://supporters.eff.org/shop/laptop-camera-cover-set-ii)
 **[ScreenWings](https://schiffer.tech/screenwings-mobile.html)** | Prevent background processes taking unauthorized screenshots, which could expose sensetive data
 **[AFWall+](https://github.com/ukanth/afwall/)** | Android Firewall+ (AFWall+) is an advanced iptables editor (GUI) for rooted Android devices, which provides very fine-grained control over which Android apps are allowed to access the network
+**[Catch the Man-in-the-Middle](https://play.google.com/store/apps/details?id=me.brax.certchecker)** | Simple tool, that compares SHA-1 fingerprints of the the SSL certificates seen fron your device, and the certificate seen from an external network. If they do not match, this may indicate a man-in-the-middle modifying requests
 
+#### Word of Warning
+Too many installed apps will increase your attack surface- only install applications that you need 
 
 #### Other Notable Mentions
 For more open source security & privacy apps, check out these publishers: [The Guardian Project], [The Tor Project], [Oasis Feng], [Marcel Bokhorst], [SECUSO Research Group] and [Simple Mobile Tools]- all of which are trusted developers or organisations, who've done amazing work.
