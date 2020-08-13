@@ -67,6 +67,7 @@
   - Configuring Gboard for better Privacy: via [Ghacks](https://www.ghacks.net/2016/12/21/configure-gboard-privacy-google-keyboard/)
   - Settings to update on iPhone, for better privacy: via [lifehacker](https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831)
   - How to check App Permissions (Android, iOS, Mac & Windows): via [Wired](https://www.wired.com/story/how-to-check-app-permissions-ios-android-macos-windows/)
+  - How to manage Self-Encrypting Drives: via [TechSpot](https://www.techspot.com/guides/869-self-encrypting-drives/)
 - **Software**
   - How to use Vera Crypt: via [howtogeek](https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt)
   - How to use KeePassXC: via [EFF](https://ssd.eff.org/en/module/how-use-keepassxc)
