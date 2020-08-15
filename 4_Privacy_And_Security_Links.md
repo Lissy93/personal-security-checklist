@@ -558,6 +558,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [awesome-ctf](https://github.com/apsdehal/awesome-ctf) by @apsdehal
   - [awesome-osint](https://github.com/jivoi/awesome-osint) by @jivoi
   - [SecLists](https://github.com/danielmiessler/SecLists) by @danielmiessler
+  - [Infosec_Reference](https://github.com/rmusser01/Infosec_Reference) by @rmusser01
 - **Misc**
   - [awesome-crypto-papers](https://github.com/pFarb/awesome-crypto-papers) by @pFarb
 - **Awesome Lists of Awesome Lists**
