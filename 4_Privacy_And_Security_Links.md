@@ -120,6 +120,7 @@
   - How a highly targeted ad can track your precise movements: via [Wired](https://www.wired.com/story/track-location-with-mobile-ads-1000-dollars-study/)
     - Based on the paper, Using Ad Targeting for Surveillance on a Budget: via [Washington.edu](https://adint.cs.washington.edu/ADINT.pdf)
   - Law Enforcement Geo-Fence Data Requests- How an Innocent cyclist became a suspect when cops accessed his Google location data: via [Daily Mail](https://www.dailymail.co.uk/news/article-8086095/Police-issue-warrant-innocent-mans-Google-information.html)
+  - IBM Used NYPD Surveillance Footage to Develop Technology That Lets Police Search by Skin Color: via [TheIntercept](https://theintercept.com/2018/09/06/nypd-surveillance-camera-skin-tone-search/)
 - **Threats**
   - 23 reasons not to reveal your DNA: via [Internet Health Report](https://internethealthreport.org/2019/23-reasons-not-to-reveal-your-dna)
   - Security of Third-Party Keyboard Apps on Mobile Devices: via [Lenny Zelster](https://zeltser.com/third-party-keyboards-security)
@@ -139,6 +140,13 @@
   - Truecaller Data Breach – 47.5 Million Indian Truecaller Records On Sale: via [GBHackers](https://gbhackers.com/truecaller-data-breach/)
   - Hundreds of millions of Facebook user records were exposed on Amazon cloud server: via [CBS News](https://www.cbsnews.com/news/millions-facebook-user-records-exposed-amazon-cloud-server/)
   - Microsoft data breach exposes 250 million customer support records: via [Graham Cluley](https://www.grahamcluley.com/microsoft-data-breach/)  
+- **Data Collection**
+  - Ring Doorbell App Packed with Third-Party Trackers: via [EFF](https://www.eff.org/deeplinks/2020/01/ring-doorbell-app-packed-third-party-trackers)
+  - How websites can see your full personal details, from your phone contract info: via [Medium/@philipn](https://medium.com/@philipn/want-to-see-something-crazy-open-this-link-on-your-phone-with-wifi-turned-off-9e0adb00d024)
+  - Facebook and America’s largest companies give worker data to Equifax: via [FastCompany](https://www.fastcompany.com/40485634/equifax-salary-data-and-the-work-number-database)
+  - Exfiltration of personal data by session-replay scripts: via [Freedom-to-Tinker](https://freedom-to-tinker.com/2017/11/15/no-boundaries-exfiltration-of-personal-data-by-session-replay-scripts/)
+  - Apple's iTerm2 Leaks Everything You Hover in Your Terminal via DNS Requests: via [BleepingComputer](https://www.bleepingcomputer.com/news/security/iterm2-leaks-everything-you-hover-in-your-terminal-via-dns-requests/)
+  - Google Has Quietly Dropped Ban on Personally Identifiable Web Tracking: via [propublica.org](https://www.propublica.org/article/google-has-quietly-dropped-ban-on-personally-identifiable-web-tracking)
 
 
 ## Blogs
@@ -150,6 +158,7 @@
   - [The Last Watch Dog](https://www.lastwatchdog.com/) - Privacy and Security articles, opinion and media by Byron Acohido
   - [Daniel Miessler](https://danielmiessler.com/) - Summaries recent news and events, and focuses on security, technology and people. [RSS](https://danielmiessler.com/feed/)
   - [Errata Security](https://blog.erratasec.com/) - Covers latest interesting news, and explains concepts clearly. By Robert Graham and David Maynor. [RSS](https://blog.erratasec.com/feeds/posts/default?alt=rss)
+  - [Underground Tradecraft](https://gru.gq/blog-feed/) - Counterintelligence, OPSEC and Tradecraft for everyone
 - **Cyber Security News**
   - [Dark Reading](https://www.darkreading.com/) - Well-known cyber security news site, with articles on a range of topics, ranging from data breaches, IoT, cloud security and threat intelligence. [RSS](https://www.darkreading.com/rss_simple.asp)
   - [Threat Post](https://threatpost.com/) - News and Articles Cloud Security, Malware, Vulnerabilities, Waterfall Security and Podcasts. [RSS](https://threatpost.com/feed/)
@@ -303,6 +312,7 @@ More Security Podcasts on [player.fm](https://player.fm/featured/security)
   - [Administraitor.video](https://administraitor.video) - A regularly updated collection of new and interesting security confrence talks
 - **Misc**
   - [Through a PRISM, Darkly](https://youtu.be/e4woRYs0mM4) - Everything we know about NSA spying, by Kurt Opsahl
+  - [What it REALLY takes to have True Privacy in the 21st Cen](https://youtu.be/bxQSu06yuZc) by @MalcomVetter
 
 See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @PaulSec
 
@@ -379,6 +389,8 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [Web Tracking Data](https://webtransparency.cs.princeton.edu/webcensus/#data) by Princeton University - This is the largest and most detailed analysis of online tracking to date, and measures both stateful (cookie-based) and stateless (fingerprinting-based) tracking. The crawls were made with [OpenWPM](https://github.com/mozilla/OpenWPM)
   - [Who has your Back?](https://www.eff.org/files/2019/06/11/whyb_2019_report.pdf) by EFF - Anual report assessing how companies handle personal data
     - Historic Reports: [2012](https://www.eff.org/files/who-has-your-back-2012_0.pdf) | [2013](https://www.eff.org/sites/default/files/who-has-your-back-2013-report-20130513.pdf) | [2014](https://www.eff.org/files/2014/05/15/who-has-your-back-2014-govt-data-requests.pdf) | [2015](https://www.eff.org/files/2015/06/18/who_has_your_back_2015_protecting_your_data_from_government_requests_20150618.pdf) | [2016](https://www.eff.org/files/2016/05/04/who-has-your-back-2016.pdf) | [2017](https://www.eff.org/files/2017/07/08/whohasyourback_2017.pdf) | [2018](https://www.eff.org/files/2018/05/31/whyb_2018_report.pdf) | [2019](https://www.eff.org/files/2019/06/11/whyb_2019_report.pdf)
+  - [Lists of Websites Abusing Session Replay](https://webtransparency.cs.princeton.edu/no_boundaries/session_replay_sites.html) - Third-party sesssion replay scripts, record all your acions and allow them to be watched by a human. This list of websites include this
+    - See also, the accompaniing [blog post](https://freedom-to-tinker.com/2017/11/15/no-boundaries-exfiltration-of-personal-data-by-session-replay-scripts/) and the [WebTAP](https://webtap.princeton.edu/) project
   - [Sensor Access Data](https://databank.illinois.edu/datasets/IDB-9213932) - A Crawl of the Mobile Web Measuring Sensor Accesses, Illinois
   - [Canalys Newsroom](https://www.canalys.com/newsroom) - Research Studies on Security, Privacy, Technology and Finance
   - [Data Never Sleeps](https://web-assets.domo.com/blog/wp-content/uploads/2019/07/data-never-sleeps-7-896kb.jpg) - An infographic visualizing how much data is generated every minute (2019)
@@ -447,6 +459,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - Characterizing the Use of Browser-Based Blocking Extensions To Prevent Online Tracking: via [aruneshmathur.co.in](http://aruneshmathur.co.in/files/publications/SOUPS18_Tracking.pdf)
   - Privacy implications of email tracking: via [senglehardt.com](https://senglehardt.com/papers/pets18_email_tracking.pdf)
   - Battery Status Not Included, Assessing Privacy in Web Standards: via [princeton.edu](https://www.cs.princeton.edu/~arvindn/publications/battery-status-case-study.pdf)
+  - Achieving Anonymity Against Major Face Recognition Algorithms: via [ruhr-uni-bochum.de](https://www.mobsec.ruhr-uni-bochum.de/media/ei/veroeffentlichungen/2016/01/15/2013-cms-face-recognition.pdf)
   - De-anonymizing Web Browsing Data with Social Networks: via [princeton.edu](https://www.cs.princeton.edu/~arvindn/publications/browsing-history-deanonymization.pdf)
   - The Surveillance Implications of Web Tracking: via [senglehardt.com](https://senglehardt.com/papers/www15_cookie_surveil.pdf)
   - Understanding Facebook Connect login permissions: via [jbonneau.com](http://jbonneau.com/doc/RB14-fb_permissions.pdf)
@@ -454,7 +467,11 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - Using Ad Targeting for Surveillance on a Budget: via [washington.edu](https://adint.cs.washington.edu/ADINT.pdf)
   - Cross-Site WebSocket Hijacking: via [christian-schneider.net](http://www.christian-schneider.net/CrossSiteWebSocketHijacking.html)
   - Location Tracking using Mobile Device Power Analysis: [scribd.com](https://www.scribd.com/doc/256304846/PowerSpy-Location-Tracking-using-Mobile-Device-Power-Analysis)
+  - HORNET, High-speed Onion Routing at the Network Layer: via [arxiv.org](https://arxiv.org/pdf/1507.05724v1.pdf)
+  - Decoy Routing: Toward Unblockable Internet Communication: via [usenix.org](https://www.usenix.org/legacy/events/foci11/tech/final_files/Karlin.pdf)
   - Trackers Vs Firefox, Comparing different blocking utilities: via [GitHub- @jawz101](https://github.com/jawz101/TrackersVsFirefox)
+  - 'I've Got Nothing to Hide' and Other Misunderstandings of Privacy: via [ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565&)
+
 
 - **Implementations and Standards**
   - [The GNU Privacy Guard](https://www.gnupg.org)
@@ -462,6 +479,8 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [WireGuard](https://www.wireguard.com/papers/wireguard.pdf)
   - [Nym](https://as93.link/nym-blog-post) - Next Generation of Privacy infrastructure
   - [REC-X.509](https://www.itu.int/rec/T-REC-X.509) - The standard defining the format of public key certificates, used across most internet protocols and applications
+  - [obfs4-spec](https://gitweb.torproject.org/pluggable-transports/obfs4.git/tree/doc/obfs4-spec.txt) & [obfs3-protocol-spec](https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/tree/doc/obfs3/obfs3-protocol-spec.txt) - The Tor obfourscator and Pluggable transport for obfuscated traffic
+  
 
 
 
@@ -541,8 +560,10 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [privacy-respecting-software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) by @lissy93
 - **Guides**
   - [MacOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) by @drduh
+  - [YubiKey-Guide](https://github.com/drduh/YubiKey-Guide) by @drduh
+  - [Debian-Privacy-Server-Guide](https://github.com/drduh/Debian-Privacy-Server-Guide) by @drduh
   - [personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) by @lissy93
-- **Security (Hacking / Pen Testing / Threat Inteligence / CFTs)**
+- **Security Links (Hacking / Pen Testing / Threat Inteligence / CFTs)**
   - [Security_list](https://github.com/zbetcheckin/Security_list) by @zbetcheckin
   - [awesome-security](https://github.com/sbilly/awesome-security) by @sbilly
   - [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @PaulSec
