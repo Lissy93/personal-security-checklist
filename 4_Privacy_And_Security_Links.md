@@ -296,6 +296,7 @@ More Security Podcasts on [player.fm](https://player.fm/featured/security)
   - [The Power of Privacy](https://youtu.be/KGX-c5BJNFk) by The Guardian
   - [Why Privacy matters, even if you have nothing to hide](https://youtu.be/Hjspu7QV7O0) by The Hated One
   - [The Unhackable Email Service](https://youtu.be/NM8fAnEqs1Q) by Freethink
+  - [NSA Whistleblower: Government Collecting Everything You Do](https://youtu.be/SjHs-E2e2V4) by Empire Files
 - **Cryptography**
   - [Advanced Into to GnuPGP](https://begriffs.com/posts/2016-11-05-advanced-intro-gnupg.html) by  Neal Walfield ([walfield.org](http://walfield.org/))
 - **TED Talks**
