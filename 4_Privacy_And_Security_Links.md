@@ -87,6 +87,7 @@
   - A directory of direct links to delete your account from web services: via [JustDeleteMe.xyz](https://justdeleteme.xyz)
   - Impartial VPN Comparison Data: via [ThatOnePrivacySite](https://thatoneprivacysite.net/#detailed-vpn-comparison)
   - Terms of Service; Didn't Read - Vital resource that summarizes and extracts the key details from Privacy Policies/ Terms of Services, aiming to fix the issues caused by blindly agreeing to these Terms: via [tosdr.org](https://tosdr.org/)
+  - Free, open-source and privacy-respecting alternatives to popular software: via [Switching.Software](https://switching.software/)
   - Product reviews from a privacy perspective, by Mozilla: via [Privacy Not Included](https://foundation.mozilla.org/en/privacynotincluded)
   - Surveillance Catalogue - Database of secret government surveillance equipment, Snowden: via [The Intercept](https://theintercept.com/surveillance-catalogue)
     - See also: The source code, on WikiLeaks [Vault7](https://wikileaks.org/vault7) and [Vault8](https://wikileaks.org/vault8), and the accompanying [press release](https://wikileaks.org/ciav7p1)
