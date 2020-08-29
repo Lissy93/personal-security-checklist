@@ -56,10 +56,10 @@ It's important to protect your email account, as if a hacker gains access to it 
 - Ensure that both your device, and that of your recipient(s) is secure (free from malware, encrypted and has a strong password)
 - Disable cloud services, such as web app companion or cloud backup feature, both of which increases attack surface
 - Strip meta data from media before sharing, as this can lead to unintentionally revealing more data than you intended
-- Verify your recipient is who they claim to be, which can be done cryptographically by using an app that offers contact verification
+- Verify your recipient is who they claim to be, either physically or cryptographically by using an app that offers contact verification
 - Avoid SMS, but if you must use it then encrypt your messages, e.g. using the [Silence](https://silence.im/) app
 - Opt for a stable and actively maintained messaging platform, that is backed by reputable developers and have a transparent revenue model or are able to account for where funding has originated from. It should ideally be based in a friendly jurisdiction and have undergone an independent security audit. 
-- In some situations, it may be appropriate to use an app that supports disappearing messages, and/ or allows for anonymous sign up (without phone number or email address). A [decentralized platform](/5_Privacy_Respecting_Software.md#p2p-messaging) can also offer additional security and privacy benefits in some circumstances, as there is no single entity governing it, e.g. [Matrix](https://matrix.org/), [Session](https://getsession.org/), [Tox](https://tox.chat/) or [Briar](https://briarproject.org/)
+- In some situations, it may be appropriate to use an app that supports disappearing messages, and/ or allows for anonymous sign up (without any PII: phone number, email address etc). A [decentralized platform](/5_Privacy_Respecting_Software.md#p2p-messaging) can offer additional security and privacy benefits in some circumstances, as there is no single entity governing it, e.g. [Matrix](https://matrix.org/), [Session](https://getsession.org/), [Tox](https://tox.chat/) or [Briar](https://briarproject.org/)
 
 
 ### Networking
