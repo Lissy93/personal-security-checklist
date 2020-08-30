@@ -145,6 +145,7 @@ Gadgets that help protect and anonamise your internet, detect & prevent intrusio
 - **Firewalla Red** - An intrusion detection and intrusion prevention system, with a web and mobile interface. Also has Ad-block, VPN, internet controll features and insights. [US](https://amzn.to/388BlAw) | [Firewalla.com](https://firewalla.com)
 - **LibertyShield** - Pre-configured, plug-and-play multi-country VPN router, note that after 1 year there is a monthly subscription. [US](https://amzn.to/2T89vzU) | [UK](https://amzn.to/2twJlwM)
 - **Gigabit Travel AC VPN Router** - A fully-featured dual-band travel router with VPN capabilities. [US](https://amzn.to/32HD1zU) | [UK](https://amzn.to/2SkUxFg)
+- **Helios 64** - ARM-powered fully open source NAS. Using a local backup solution mitigates a lot of the privacy concerns of popular cloud storage providers, and Kobol's Helios 64 is a great option in terms of cost, reliability, functionality and security. High capacity (up to 80TB across 5-bays), with good network throughput (2.5GB multi-Gigabit Ethernet and dual LAN), adequate computing power and memory, great reliability, (with a built-in UPS, dual DC input). [Kobol.io](https://kobol.io/)
 - **InvizBox** - Tor router, that provides speed, privacy and security for all devices connected to it. [Invizbox.com](https://www.invizbox.com) | [Amazon](https://amzn.to/2w4v7V3) 
 - **InviziBox Go** - Portable VPN: https://amzn.to/386ikPT
 - **WatchGuard Firebox** - Business-grade network firewall. [US](https://amzn.to/2VF0MqR) | [UK](https://amzn.to/2VF12WR)
