@@ -78,9 +78,9 @@
   - How to use DuckDuckGo advanced search features: via [Ghacks](https://www.ghacks.net/2013/03/24/duckduckgo-another-bag-of-tricks-to-get-the-most-out-of-it/)
   - How to use Cryptomator (encrypt files on cloud storage): via [It's Foss](https://itsfoss.com/cryptomator/)
 - **Physical Security**
+  - Guide to Living Anonymously, Personal Data Removal and Credit Freeze: via [IntelTechniques.com](https://inteltechniques.com/data/workbook.pdf)
   - Hiding from Physical Surveillance: via [Snallabolaget](http://snallabolaget.com/hiding-from-surveillance-how-and-why)
   - Guide to opting-out of public data listings and marketing lists: via [World Privacy Forum](https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs)
-  - Living Anonymously, Workbook: via [Intel Techniques](https://inteltechniques.com/data/workbook.pdf)
 - **Enterprise**
   - A basic checklist to harden GDPR compliancy: via [GDPR Checklist](https://gdprchecklist.io)
 - **Reference Info**
@@ -520,6 +520,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [UK National Cyber Security Center](https://www.ncsc.gov.uk)
   - [US Cybersecurity - NIST](https://www.nist.gov/topics/cybersecurity)
   - [Stay Safe Online](https://staysafeonline.org) - US government-backed project, aimed to inform and educate individuals and small businesses about basic digital security
+  - [Annual Credit Report](https://www.annualcreditreport.com) - US Free Credit Reports
 - **Cybercrime**
     - [Consumer Fraud Reporting](http://consumerfraudreporting.org) - US's Catalogue of online scams currently circulating, and a means to report cases
     - [Action Fraud](https://www.actionfraud.police.uk) - UK’s national reporting centre for fraud and cyber crime
