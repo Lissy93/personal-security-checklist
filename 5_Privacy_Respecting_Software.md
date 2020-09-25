@@ -44,6 +44,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Mix Networks](#mix-networks)
   - [Proxies](#proxies)
   - [DNS Providers](#dns)
+  - [DNS Clients](#dns-clients)
   - [Firewalls](#firewalls)
   - [Ad Blockers](#ad-blockers)
   - [Host Block Lists](#host-block-lists)
@@ -526,9 +527,6 @@ Without using a secure, privacy-centric DNS all your web requests can be seen in
 
 See also this [Full List of Public DoH Servers](https://github.com/curl/curl/wiki/DNS-over-HTTPS), you can then check the performance of your chosen server with [DNSPerf](https://www.dnsperf.com/). To read more about choosing secure DNS servers, see [this article](https://medium.com/@nykolas.z/dns-security-and-privacy-choosing-the-right-provider-61fc6d54b986), and [this article](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver/).
 
-#### DNS Protocols
-DNS-over-TLS was proposed in [RTC-7858](https://tools.ietf.org/html/rfc7858) by the IETF, then 2 years later, the DNS-over-HTTPS specification was outlined in [RFC8484](https://tools.ietf.org/html/rfc8484) in October '18. [DNSCrypt](https://dnscrypt.info/), is a protocol that authenticates communications between a DNS client and a DNS resolver. It prevents DNS spoofing, through using cryptographic signatures to verify that responses originate from the chosen DNS resolver, and haven’t been tampered with. DNSCrypt is a well battle-tested protocol, that has been in use since 2013, and is still widely used.
-
 #### Notable Mentions
 - [Quad9](https://www.quad9.net) is a well-funded, performant DNS with a strong focus on privacy and security and easy set-up, however questions have been raised about the motivation of some of the financial backers.
 - [BlahDNS](https://blahdns.com) (Japan, Finland or Germany) is an excellent security-focused DNS
@@ -539,6 +537,18 @@ DNS-over-TLS was proposed in [RTC-7858](https://tools.ietf.org/html/rfc7858) by 
 #### Word of Warning
 Using an encrypted DNS resolver will not make you anonymous, it just makes it harder for third-partied to discover your domain history. If you are using a VPN, take a [DNS leak test](https://www.dnsleaktest.com/), to ensure that some requests are not being exposed.
 
+#### DNS Protocols
+DNS-over-TLS was proposed in [RTC-7858](https://tools.ietf.org/html/rfc7858) by the IETF, then 2 years later, the DNS-over-HTTPS specification was outlined in [RFC8484](https://tools.ietf.org/html/rfc8484) in October '18. [DNSCrypt](https://dnscrypt.info/), is a protocol that authenticates communications between a DNS client and a DNS resolver. It prevents DNS spoofing, through using cryptographic signatures to verify that responses originate from the chosen DNS resolver, and haven’t been tampered with. DNSCrypt is a well battle-tested protocol, that has been in use since 2013, and is still widely used.
+
+## DNS Clients
+
+| Provider | Description |
+| --- | --- |
+**[DNScrypt-proxy 2](https://github.com/DNSCrypt/dnscrypt-proxy)** <br>(Desktop - BSD, Linux, Solaris, Windows, MacOS & Android) | A flexible DNS proxy, with support for modern encrypted DNS protocols including DNSCrypt V2, DNS-over-HTTPS and Anonymized DNSCrypt. Also allows for advanced monitoring, filtering, caching and client IP protection through Tor, SOCKS proxies or Anonymized DNS relays.
+**[Unbound](https://nlnetlabs.nl/projects/unbound/about/)** <br>(Desktop - BSD, Linux, Windows & MacOS) | Validating, recursive, caching DNS resolve with support for DNS-over-TLS. Designed to be fast, lean, and secure Unbound incorporates modern features based on open standards. It's fully open source, and recently audited. *(For an in-depth tutorial, see [this article](https://dnswatch.com/dns-docs/UNBOUND/) by DNSWatch.)*
+**[Nebulo](https://git.frostnerd.com/PublicAndroidApps/smokescreen/)**<br> (Android) | Non-root, small-sized DNS changer utilizing DNS-over-HTTPS and DNS-over-TLS. *(Note, since this uses Android's VPN API, it is not possible to run a VPN while using Nebulo)* 
+**[DNS_Cloak](https://github.com/s-s/dnscloak)**<br> (iOS) | Simple all that allows for the use for dnscrypt-proxy 2 on an iPhone.
+**[Stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby)**<br> (Desktop - Linux, Mac, OpenWrt & [Windows](https://dnsprivacy.org/wiki/display/DP/Windows+installer+for+Stubby)) | Acts as a local DNS Privacy stub resolver (using DNS-over-TLS). Stubby encrypts DNS queries sent from a client machine (desktop or laptop) to a DNS Privacy resolver increasing end user privacy. Stubby can be used in combination wtih Unbound - Unbound provides a local cache and Stubby manages the upstream TLS connections (since Unbound cannot yet re-use TCP/TLS connections), [see example configuration](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Clients)
 
 ## Firewalls
 A firewall is a program which monitors the incoming and outgoing traffic on your network, and blocks requests based on rules set during its configuration. Properly configured, a firewall can help protect against attempts to remotely access your computer, as well as control which applications can access which IPs.
