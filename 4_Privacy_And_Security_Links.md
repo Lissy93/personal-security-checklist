@@ -511,7 +511,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
 - [Courage Foundation](https://www.couragefound.org) - Supports those who risk life / liberty to make significant contributions to the historical record
 - [Fight for the Future](https://www.fightforthefuture.org) - Fighting for a future where technology liberates
 - [Public Citizen](https://www.citizen.org) - Standing up to corporate power and hold the government accountable
-
+- [The DNS Privacy Project](https://dnsprivacy.org/wiki/display/DP) - Collaborative open project to promote, implement and deploy DNS Privacy
 
 
 ## Governance
