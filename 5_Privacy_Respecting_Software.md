@@ -425,6 +425,7 @@ A selection of free online tools and utilities, to check, test and protect
 **[10 Minute Mail](https://10minemail.com/)** | Generates temporary disposable email address, to avoid giving your real details
 **[MXToolBox Mail Headers](https://mxtoolbox.com/Public/Tools/EmailHeaders.aspx)** | Tool for analyzing email headers, useful for checking the authenticity of messages, as well as knowing what info you are revealing in your outbound messages
 **[SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso)** | Automatically generates new email aliases, the first time you use them, to avoid revealing your real email address. Unlike 10 Minute Mail, these email addresses are permanent, and get forwarded to your real email inbox. Other options include [33Mail](http://33mail.com/Dg0gkEA), [Anonaddy](https://anonaddy.com) and [ForwardEmail](https://forwardemail.net) (self-hosted)
+**[BlackLight](https://themarkup.org/blacklight)** | Real-Time Website Privacy Inspector - Shows trackers, third-party cookies, session recoding services, keystroke capturing scripts and analytics services embedded on a given website
 
 #### Word of Warning
 *Browsers are inherently insecure, be careful when uploading, or entering personal details.*
