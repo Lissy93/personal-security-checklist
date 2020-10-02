@@ -1449,6 +1449,9 @@ I have a range of guides, checklists, links and tutorials, all aimed to provide 
 - [Further Links: Privacy & Security](/4_Privacy_And_Security_Links.md)
 - [The Importance of Digital Security & Privacy](/0_Why_It_Matters.md)
 
+## News & Updates
+
+A custom Reddit feed covering news and updates for privacy-respecting apps, software & services can be found [here](https://www.reddit.com/user/lissy93/m/software_projects/)
 
 ## Final Notes
 
