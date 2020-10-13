@@ -7,6 +7,8 @@ A curated list of (DIY and pre-built) devices, to help preserve privacy and impr
 
 **Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md#security-hardware) instead.
 
+See Also, [The Hackers Hardware Toolkit](https://raw.githubusercontent.com/yadox666/The-Hackers-Hardware-Toolkit/master/TheHackersHardwareToolkit.pdf) by [@yadox666](https://github.com/yadox666)- Ultimate guide of gadgets for Red Team pentesters and security researchers
+
 **Note**: This section is intended just to be a bit of fun, it is entirely possible to stay secure and anonymous, without having to build or buy anything. Now that more devices have been added, it's not been possible to test everything here, so these products should not be taken as recommendations, just interesting ideas, and a bit of fun
 
 
