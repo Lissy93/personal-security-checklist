@@ -164,8 +164,14 @@ For KeePass users, [TrayTop](https://keepass.info/plugins.html#traytotp) is a pl
 PGP may be useful for encrypting individual files and folders, preparing files for transmission, or adding an additional layer of security to sensitive 
 data. With PGP, you can encrypt, decrypt, sign and verify files and folders: see [PGP Tools](#pgp-managers)
 
-If you need to create a compressed archive, prior to encrypting your files, then [PeaZip](https://www.peazip.org/) is a great little cross-platform open source file archiver utility. It allows you to create, open, and extract RAR TAR ZIP archives.
+[BitLocker](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) is popular among Microsoft Windows and enterprise users, and provides fast, efficient and reasonabley secure full drive encryption. However it is not open source, and has poor compatibility with other operating systems
 
+If you need to create a compressed archive, then [PeaZip](https://www.peazip.org/) is a great little cross-platform open source file archiver utility. It allows you to create, open, and extract RAR TAR ZIP archives. It also has a [password-protection feature](https://peazip.github.io/peazip-password.html), which encryptes compressed files using AES-256, which is also compatible with most other archive utilities
+
+#### Word of Warning
+Where possible, choose a cross-platform and well established encryption method, so that you are never faced with not being able to access your files using your current system.
+
+Although well-established encryption methods are usually very secure, if the password is not strong, then an adversary may be able to gain access to your files, with a powerful enough GPU. If your system is compromised, then the password may also be able to be skimmed with a keylogger or other similar malware, so take care to follow good basic security practices
 
 ## Browsers
 
