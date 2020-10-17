@@ -1,7 +1,7 @@
 # Digital Privacy and Security- Why is Matters
 
 
-**TLDR;** Privacy is a fundamental right, and essential to democracy, liberty, and freedom of speech. Our privacy is being abused by governments (with mass-surveillance), corporations (profiting from selling personal data), and cyber criminals (stealing our poorly-secured personal data and using it against us). Security is needed in order to keep your private data private, and good digital security is critical to stay protected from the growing risks of cybercrime.
+**TLDR;** Privacy is a fundamental right, and essential to democracy, liberty, and freedom of speech. Our privacy is being abused by governments (with mass-surveillance), corporations (profiting from selling personal data), and cyber criminals (stealing our poorly-secured personal data and using it against us). Security is needed in order to keep your private data private, and good digital security is critical to stay protected from the growing risks associated with the war on data.
 
 ----
 
@@ -14,11 +14,11 @@ This could be sensitive documents (such as medical records, bank statements, car
 One of the most common data collection methods is web tracking. This is when websites use cookies, device fingerprints, and other methods to identify you, and follow you around the web. It is often done for advertising, analytics, and personalization. When aggregated together, this data can paint a very detailed picture of who you are.
 
 ## How is Data Stored?
-Data that has been collected is stored in databases on a server. These servers are rarely owned by the companies managing them, [56% of servers](https://www.canalys.com/newsroom/global-cloud-market-Q3-2019) are owned by Amazon AWS, Google Cloud, and Microsoft Azure. If stored correctly the data will be encrypted, and authentication required to gain access. However that usually isn't the case, and large data leaks [occour almost dailey](https://selfkey.org/data-breaches-in-2019/). As well as that data breaches occur, when an adversary compromises a database storing personal data. In fact, you've probably already been caught up in a data breach (check your email, at [have i been pwned](https://haveibeenpwned.com))
+Data that has been collected is typically stored in databases on a server. These servers are rarely owned by the companies managing them, [56% of servers](https://www.canalys.com/newsroom/global-cloud-market-Q3-2019) are owned by Amazon AWS, Google Cloud, and Microsoft Azure. If stored correctly the data will be encrypted, and authentication required to gain access. However that usually isn't the case, and large data leaks [occour almost dailey](https://selfkey.org/data-breaches-in-2019/). As well as that data breaches occur, when an adversary compromises a database storing personal data. In fact, you've probably already been caught up in a data breach (check your email, at [have i been pwned](https://haveibeenpwned.com))
 
 ## What is Personal Data Used For?
 
-Data is collected, stored and used by governments, corporations and sometimes criminals:
+Data is collected, stored and used by governments, law enforcement, corporations and sometimes criminals:
 
 ### Government Mass Surveillance
 Intelligence and law enforcement agencies need surveillance powers to tackle serious crime and terrorism. However, since the Snowden revelations, we now know that this surveillance is not targeted at those suspected of wrongdoing- but instead the entire population. All our digital interactions are being logged and tracked by our very own governments.
@@ -68,7 +68,7 @@ For online privacy to be effective, it needs to be adopted my the masses, and no
 
 - Educate yourself about what's going on and why it matters
 - Be aware of changes to policies, revelations, recent data breaches and related news
-- Take steps to secure your online accounts, protect your devices
+- Take steps to secure your online accounts and protect your devices
 - Understand how to communicate privately, and how use the internet anonymously
 - Use software and services that respect your privacy, and keep your data safe
 - Support organisations that fight for your privacy and internet freedom

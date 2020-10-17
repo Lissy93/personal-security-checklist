@@ -7,7 +7,9 @@ A curated list of (DIY and pre-built) devices, to help preserve privacy and impr
 
 **Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md#security-hardware) instead.
 
-**Note**: This section is intended just to be a bit of fun, it is entirely possible to stay secure and anonymous, without having to build or buy anything
+See Also, [The Hackers Hardware Toolkit](https://raw.githubusercontent.com/yadox666/The-Hackers-Hardware-Toolkit/master/TheHackersHardwareToolkit.pdf) by [@yadox666](https://github.com/yadox666)- Ultimate guide of gadgets for Red Team pentesters and security researchers
+
+**Note**: This section is intended just to be a bit of fun, it is entirely possible to stay secure and anonymous, without having to build or buy anything. Now that more devices have been added, it's not been possible to test everything here, so these products should not be taken as recommendations, just interesting ideas, and a bit of fun
 
 
 ---
@@ -25,6 +27,7 @@ A curated list of (DIY and pre-built) devices, to help preserve privacy and impr
 
 
 ## Basics
+(All products in this section have been tested.)
 
 **Item** | **Description**
 --- | ---
@@ -74,6 +77,7 @@ See Also [DIY Networking Hardware](#diy-networking-hardware)
 - **Encrypted USB** - You can use [VeraCrypt](https://www.veracrypt.fr/en/Home.html) to create an encrypted USB drive, using any off-the shelf [USB drive](https://amzn.to/2RykcLD)
 - **Home VPN** - [Pi_VPN](https://www.pivpn.io) lets you use [OpenVPN](https://openvpn.net) to connect to your home network from anywhere, through your [Pi](https://amzn.to/2uniPqa). See [this guide](https://pimylifeup.com/raspberry-pi-vpn-server) for set-up instructions. This will work particularly well in combination with Pi Hole.
 - **USB Password Manager** - Storing your passwords in the cloud may be convinient, but you cannot ever be certain they won't be breached. [KeePass](https://keepass.info/help/v2/setup.html) is an offline password manager, with a portable ddition that can run of a USB. There's also an [app](https://play.google.com/store/apps/details?id=com.korovan.kpass). See also [KeePassX](https://www.keepassx.org) and [KeePassXC](https://keepassxc.org) which are popular communnity forks with additional functionality
+- **Secure Chat Platform** Tinfoil Chat (TFC) is an onion-routed, endpoint secure messaging system, that relies on high assurance hardware architecture to protect users from passive collection, MITM attacks and most importantly, remote key exfiltration. See [TFC](https://github.com/maqp/tfc)
 - **Automated Backups** - [Syncthing](https://syncthing.net) is a privacy-focused continuous file synchronization program. You can use it to make on-site backups as well as encrypted and sync your data with your chosen cloud storage provider
 - **GPS Spoofer** - If you don't want to be tracked with GPS, then using a SDR you can send out spoof GPS signals, making near-by GPS-enabled devices think that they are in a totally different location. (Wouldn't recommend using this while on an airplane though!). You can use [gps-sdr-sim](https://github.com/osqzss/gps-sdr-sim) by [@osqzss](https://github.com/osqzss), and run it on a [Hacker RF](https://greatscottgadgets.com/hackrf) or similar SDR. Here's a [guide](https://www.rtl-sdr.com/tag/gps-spoofing) outlineing how to get started, you'll also need a [NooElec HackRF One](https://amzn.to/2Ta1s5J) or similar [SDR](https://amzn.to/39cLiOx). Check your local laws first, you may need a radio license.
 - **No-Mic Laptop** - You can go one step further than using a mic-blcoker, and physically remove the microphone from your laptop. (And then use a removable external mic when needed). See how, for [Apple MacBook and iPhone](https://www.wired.com/story/remove-the-mic-from-your-phone/) | [Video Guide](https://www.youtube.com/watch?v=Eo-IwQMeVLc). If that seems to extreme, there are [other options](https://security.stackexchange.com/a/130402)
@@ -92,7 +96,8 @@ If you are confident with electronics, then you could also make:
 We can go even further, these products are far from essential and are maybe a little over-the-top. But fun to play around with, if you really want to avoid being tracked!
 
 - **Self-Destroying PC** - The ORWL PC will wipe all data if it is compromised, and has many other safeguards to ensure no one other than you can access anything from your drive. Comes with QubeOS, Windows or Linux, and requires both a password and fob to log in. See more: [orwl.org](https://orwl.org)
-- **Tor Travel-Router** - Plug-and-play travel router, providing WiFi with VPN or Tor for more private internet access, also has Wi-Fi uplink and range extender with a clear user interface. See more: [Anonabox.com](https://www.anonabox.com) | [Amazon](https://amzn.to/2HHV0fG)
+- **Tor Travel-Router** - Plug-and-play travel router, providing WiFi with VPN or Tor for more private internet access, also has Wi-Fi uplink and range extender with a clear user interface. See more: [Anonabox.com](https://www.anonabox.com) | [Amazon](https://amzn.to/2HHV0fG) | [shop.itsfoss.com](https://shop.itsfoss.com/sales/anonabox-pro)
+- **Hardware Data Encryption Token** - Savvi Solutions Purrtec Encryption Keys provide an extra layer of protection for ofline data encryption, requiring the USB to be inserted as well as the password, in order to encrypt or decrypt files and data. [Purrtec.com](http://www.purrtec.com/) | [shop.itsfoss.com](https://shop.itsfoss.com/sales/purrtec-encryption-keys-2-pack)
 - **Active RFID Jamming** - Armour Card is a slim credit-card shaped device, which when in contact with any readers creates an electronic force field, strong enough to "jam" and readings from being taken by emmiting arbitrary data. Aimed at protecting cred cards, identity documents, key cards and cell phones. [US](https://amzn.to/38bJxB9) | [ArmourCard Website](https://armourcard.com)
 - **Ultra-Sonic Microphone Jammer** - Blocks phones, dictaphones, voice assistants and other recording devices. Uses built-in transducers to generate ultrasonic signals that can not be heard by humans, but cause indistinct noise, on redording devices, making it impossible to distinguish any details of the conversations. See more [UK](https://amzn.to/2Hnk63s) | [US](https://amzn.to/2v2fwVG)
 - **GPS Jammer** - In the DIY list, there was a link to how to build a GPS spoof device using an SDR. But you can also buy a GPS jammer, which may be useful if you fear that you are being tracked. They are aimed at preventing UAVs from operating in your area, but can also be used to confuse other tracking devices near by, there's a variety of models with varying power and range availible from $50 - $500. [AliExpress](https://www.aliexpress.com/item/4000214903055.html)
@@ -131,7 +136,8 @@ We can go even further, these products are far from essential and are maybe a li
 
 Gadgets that help protect and anonamise your internet, detect & prevent intrusions and provide additional network controlls, both at home and while traveling. There are many products like this availible, some of them are over-priced for what they are, others provide some really essential network security features. It is possible to re-create some of these solutions yourself, to save money [above](#diy-security-products).
 
-- **Anonabox** - Plug-and-play Tor router. Wi-Fi uplink and range extender with user interface, also has VPN options and USB ports for local file sharing.  [Amazon](https://amzn.to/38bwZIA) | [Anonabox.com](anonabox.com)
+- **Anonabox** - Plug-and-play Tor router. Wi-Fi uplink and range extender with user interface, also has VPN options and USB ports for local file sharing.  [Amazon](https://amzn.to/38bwZIA) | [Anonabox.com](anonabox.com) | [shop.itsfoss.com](https://shop.itsfoss.com/sales/anonabox-pro)
+- **Turris Omnia Router** - Open source wireless router, running OpenWrt. Above average specs, and useful features including automatic updates, distributed adaptive firewall and virtual server. Via [turris.com](https://www.turris.com/en/omnia/overview/) | [Amazon](https://www.amazon.com/Turris-hi-Performance-printserver-Virtual-Dual-core/dp/B07XCKK146)
 - **FingBox** - Network monitoring and security, for what it offers Fing is very affordable, and there is a free [app](https://www.fing.com/products/fing-app) that you can use before purchasing the hardware to get started. [Fing.com](https://www.fing.com/products/fingbox) | [US](https://amzn.to/2wlXfCT) | [UK](https://amzn.to/2I63hKP)
 - **BitdefenderBox** - Cybersecurity home firewall hub, for protecting IoT and other devices. Has other features such as parental controlls and is easy to set up. [US](https://amzn.to/2vrurZJ) | [UK](https://amzn.to/34Ul54w)
 - **Flashed-Routers** - Pre-configured branded routers, flashed with custom open source firmware, for better security, privacy and performance. [flashrouters.com](https://www.flashrouters.com/routers)
@@ -141,6 +147,7 @@ Gadgets that help protect and anonamise your internet, detect & prevent intrusio
 - **Firewalla Red** - An intrusion detection and intrusion prevention system, with a web and mobile interface. Also has Ad-block, VPN, internet controll features and insights. [US](https://amzn.to/388BlAw) | [Firewalla.com](https://firewalla.com)
 - **LibertyShield** - Pre-configured, plug-and-play multi-country VPN router, note that after 1 year there is a monthly subscription. [US](https://amzn.to/2T89vzU) | [UK](https://amzn.to/2twJlwM)
 - **Gigabit Travel AC VPN Router** - A fully-featured dual-band travel router with VPN capabilities. [US](https://amzn.to/32HD1zU) | [UK](https://amzn.to/2SkUxFg)
+- **Helios 64** - ARM-powered fully open source NAS. Using a local backup solution mitigates a lot of the privacy concerns of popular cloud storage providers, and Kobol's Helios 64 is a great option in terms of cost, reliability, functionality and security. High capacity (up to 80TB across 5-bays), with good network throughput (2.5GB multi-Gigabit Ethernet and dual LAN), adequate computing power and memory, great reliability, (with a built-in UPS, dual DC input). [Kobol.io](https://kobol.io/)
 - **InvizBox** - Tor router, that provides speed, privacy and security for all devices connected to it. [Invizbox.com](https://www.invizbox.com) | [Amazon](https://amzn.to/2w4v7V3) 
 - **InviziBox Go** - Portable VPN: https://amzn.to/386ikPT
 - **WatchGuard Firebox** - Business-grade network firewall. [US](https://amzn.to/2VF0MqR) | [UK](https://amzn.to/2VF12WR)
