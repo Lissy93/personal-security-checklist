@@ -191,7 +191,9 @@ Mobile Browsers: [Bromite](https://www.bromite.org/) (Android), [Firefox Focus](
 Additional Desktop: [WaterFox](https://www.waterfox.net), [Epic Privacy Browser](https://www.epicbrowser.com), [PaleMoon](https://www.palemoon.org), [Iridium](https://iridiumbrowser.de/) and [Sea Monkey](https://www.seamonkey-project.org/).
 
 #### Word of Warning
-New vulnerabilities are being discovered and patched all the time - use a browser that is being actively maintained, in order to receive these security-critical updates
+New vulnerabilities are being discovered and patched all the time - use a browser that is being actively maintained, in order to receive these security-critical updates.
+
+Even privacy-respecting browsers, often do not have the best privacy options enabled by default. After installing, check the privacy & security settings, and update the configuration to something that you are comfortable with. 12Bytes maintains a comprehensive guide on [Firefox Configuration for Privacy and Performance](https://12bytes.org/articles/tech/firefox/firefoxgecko-configuration-guide-for-privacy-and-performance-buffs/)
 
 **See also** [Browser & Search Security Checklist](/README.md#browser-and-search) and recommended [Browser Extensions](#browser-extensions) for privacy & security.
 
