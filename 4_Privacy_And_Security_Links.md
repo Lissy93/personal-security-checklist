@@ -176,18 +176,19 @@
   - [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
   - [Security Planner](https://securityplanner.org) - Great advise for beginners
   - [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
-- **Privacy**
+- **Privacy Guides**
   - [EFF SSD](https://ssd.eff.org) - Tips for safer online communications
-  - [Spread Privacy](https://spreadprivacy.com) - Raising the standard of trust online, by DuckDuckGo
   - [Restore Privacy](https://restoreprivacy.com) - Tools and guides about privacy and security
   - [That One Privacy Site](https://thatoneprivacysite.net) - impartial comparisons and discussions
   - [The Hated One](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q) - Privacy and security videos
-  - [12Bytes](https://12bytes.org/articles/tech) - Opinion Articles about Tech, Privacy and more
+  - [12Bytes](https://12bytes.org/articles/tech) - Tech, Privacy and more (Note, sometimes covers controversial topics)
   - [Pixel Privacy](https://pixelprivacy.com/resources) - Online privacy guides
   - [The Tin Hat](https://thetinhat.com) - Tutorials and Articles for Online Privacy
   - [PrivacyTools.io]( https://www.privacytools.io) - Tools to protect against mass surveillance
   - [PrismBreak](https://prism-break.org/en/all) - Secure app alternatives
   - [The VERGE guide to privacy](https://bit.ly/2ptl4Wm) - Guides for securing mobile, web and home tech
+- **Privacy News**
+  - [Spread Privacy](https://spreadprivacy.com) - Raising the standard of trust online, by DuckDuckGo
   - [BringBackPrivacy](https://bringingprivacyback.com) - Easy-reading, sharable privacy articles
   - [The Privacy Project](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html) - Articles and reporting on Privacy, by the NYT
 - **Internet Freedom**
@@ -416,33 +417,43 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - **Internet**
     - [Tor Flow](https://torflow.uncharted.software) - Real-time data flow between Tor nodes
     - [Internet Census](http://census2012.sourceforge.net/images/geovideo.gif) - 24-hour world map of average utilization of IPv4 addresses
-      -  ICMP ping requests were sent out via the Carna botnet. Read how this was done on the [Official Site](http://census2012.sourceforge.net) or download similar [datasets](https://ant.isi.edu/datasets/all.html)
+    -  ICMP ping requests were sent out via the Carna botnet. Read how this was done on the [Official Site](http://census2012.sourceforge.net) or download similar [datasets](https://ant.isi.edu/datasets/all.html)
     - [Map of Mobile Internet](https://labs.mapbox.com/labs/twitter-gnip/brands/) - Shows world data coverage, according to Twitter data
-    - [DomainTools Statistics](https://research.domaintools.com/statistics) - Domain registration Numbers and Charts
-    - [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
     - [IKnow](https://iknowwhatyoudownload.com/en/stat/GB/daily) - Live data showing what content is being downloaded + distributed via torrents
     - [Semantic Internet Map](http://internet-map.net) - Shows how different websites link together
-  - **Unrelated, but Awesome Data**
-    - [BGP Stream](https://bgpstream.com) - Shows all current outages
-    - [Submarine Cable Map](https://www.submarinecablemap.com) - An up-to-date map of major global internet cables (see also [he.net globe](https://he.net/3d-map) and [this map](https://submarine-cable-map-2016.telegeography.com))
-    - [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
-    - [Airport WiFi Map](https://www.google.com/maps/d/u/0/viewer?mid=1Z1dI8hoBZSJNWFx2xr_MMxSxSxY) - Shows WiFi networks and their passwords for airports around the world
-    - [Stuff in Space](http://stuffin.space) - Shows objects orbiting Earth
-    - [Grid Watch](https://www.gridwatch.templar.co.uk/) - Realtime energy ussage and demand 
     - [Wiggle](https://wigle.net) - Worlds largest WiFi Map showing personal hotspot statistics geographically
-  - **Threat Maps** - Real-time hack attempts (malware, phishing, exploit and spam), visualised geographically
-    - [Checkpoint](https://threatmap.checkpoint.com)
-    - [FortiGuard](https://threatmap.fortiguard.com)
-    - [Fire Eye](https://www.fireeye.com/cyber-map/threat-map.html)
-    - [Kaspersky](https://cybermap.kaspersky.com)
-    - [BitDefender](https://threatmap.bitdefender.com)
-    - [ESET](https://www.virusradar.com)
-    - [Threat But Map](https://threatbutt.com/map)
-    - [Looking Glass Cyber Map](https://map.lookingglasscyber.com)
-    - [Digital Attack Map](https://www.digitalattackmap.com)
+    - [BGP Stream](https://bgpstream.com) - Shows all current outages
+    - [DomainTools Statistics](https://research.domaintools.com/statistics) - Domain registration Numbers and Charts
+    - [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
+  - **Cyber**
+    - [Checkpoint](https://threatmap.checkpoint.com) - Geographical plotting of Malware, Phishing and Exploits
+    - [FortiGuard](https://threatmap.fortiguard.com) - Incoming & Outgoing Attacks per Country
+    - [Kaspersky Stats](https://cybermap.kaspersky.com/stats) - Shows detailed threats per second from a variety of categories
     - [Kaspersky LogBook](https://apt.securelist.com) - Historic Threat Time Line
-
-
+    - See also
+      - Every AV-provider and wannabe security company has a matrix-style cyber map nowadays, here are some less-spectacular ones, which didn't make it onto the list: [Fire Eye](https://www.fireeye.com/cyber-map/threat-map.html), [BitDefender](https://threatmap.bitdefender.com), [ESET](https://www.virusradar.com), [Looking Glass Cyber Map](https://map.lookingglasscyber.com), [Digital Attack Map](https://www.digitalattackmap.com)
+      - [pewpew](https://github.com/hrbrmstr/pewpew) is a sweet web component, that you can use to build your own threat map (with sound effects!)
+  - **Unrelated, but Awesome Data**
+    - [Submarine Cable Map](https://www.submarinecablemap.com) - An up-to-date map of major global internet cables (see also [he.net](https://he.net/3d-map) and [this](https://submarine-cable-map-2016.telegeography.com))
+    - [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
+    - [Marine Traffic](https://www.marinetraffic.com/) - World-wide map of live ships, tankers, cargo & passenger vessels and more
+    - [Stuff in Space](http://stuffin.space) - Shows objects orbiting Earth
+	  - [Asterank](http://www.asterank.com/) - A scientific and economic database of over 600,000 asteroids
+ 	  - [Flight Misery Map](https://uk.flightaware.com/miserymap/) - Real-time US geographical flight delay & cancellation trends
+	  - [Meteor Showers](https://www.meteorshowers.org/) - Shows commit locations, simulating meteor showers with time
+ 	  - [Airport WiFi Map](https://www.google.com/maps/d/u/0/viewer?mid=1Z1dI8hoBZSJNWFx2xr_MMxSxSxY) - Shows WiFi networks and their passwords for airports around the world
+    - [One in a Million](https://onemilliontweetmap.com/) - A real-time Twitter map
+	  - [ListenToWikipedia](http://listen.hatnote.com/) - Wikipedia edits, represented by a tone, depending on size, built by Hatnote
+	  - [BitListen](https://www.bitlisten.com/) - Real-time BTC transactions, represented by bubbles and tones
+	  - [FiatLeak](https://fiatleak.com/) - Real-time crypto stats
+	  - [Google Search Terms](https://trends.google.com/trends/hottrends/visualize?pn=p9&nrow=4&ncol=4) - Hourly Google Search Trends, in your location
+	  - [Sentiment Sweep](https://sentiment-sweep.com/now) - Geographic sentiment analysis on real-time Twitter data (- I made this one)
+	  - [Three Thousand Years](http://histography.io/) - Shows major events throughout history, using Wikipedia data
+	  - [Wiki-Atlas](https://wiki-atlas.org/) - Wikipedia articles, categorized and plotted on a map
+	  - [ncov2019/live](https://ncov2019.live/) - Real-time Covid-19 data, map and dashboard (by Avi Schiffmann)
+	  - [National Grid: Live Status](http://grid.iamkate.com/) - Real-time UK energy stats (by Kate Morley) (similar to [Grid Watch](https://www.gridwatch.templar.co.uk/))
+	  - [Globe of Economic Complexity](http://globe.cid.harvard.edu/) - Visualize's 15 Trillion dollars of world trade, where each dot is $100,000,000 of export
+ 
 ## Academic
 
 - **Journals**
