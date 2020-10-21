@@ -1,9 +1,12 @@
-# Awesome Privacy & Securty [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/) [![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](https://github.com/Lissy93/personal-security-checklist/graphs/contributors)
+# Awesome Privacy & Securty
+
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/) [![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](https://github.com/Lissy93/personal-security-checklist/graphs/contributors)
 
 *A curated list of notable guides, articles, tools and media - relating to digital security, internet freedom and online privacy*
 
 **See also**: [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md) | [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) | [Security Gadgets](/6_Privacy_and-Security_Gadgets.md) | [Why Privacy Matters](/0_Why_It_Matters.md) | [TLDR](/2_TLDR_Short_List.md)🔐
 
+## Contents
 
 - **Information and Guides**
   - [How-To Guides](#how-to-guides)
@@ -438,21 +441,21 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
     - [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
     - [Marine Traffic](https://www.marinetraffic.com/) - World-wide map of live ships, tankers, cargo & passenger vessels and more
     - [Stuff in Space](http://stuffin.space) - Shows objects orbiting Earth
-	  - [Asterank](http://www.asterank.com/) - A scientific and economic database of over 600,000 asteroids
- 	  - [Flight Misery Map](https://uk.flightaware.com/miserymap/) - Real-time US geographical flight delay & cancellation trends
-	  - [Meteor Showers](https://www.meteorshowers.org/) - Shows commit locations, simulating meteor showers with time
- 	  - [Airport WiFi Map](https://www.google.com/maps/d/u/0/viewer?mid=1Z1dI8hoBZSJNWFx2xr_MMxSxSxY) - Shows WiFi networks and their passwords for airports around the world
+    - [Asterank](http://www.asterank.com/) - A scientific and economic database of over 600,000 asteroids
+    - [Flight Misery Map](https://uk.flightaware.com/miserymap/) - Real-time US geographical flight delay & cancellation trends
+    - [Meteor Showers](https://www.meteorshowers.org/) - Shows commit locations, simulating meteor showers with time
+    - [Airport WiFi Map](https://www.google.com/maps/d/u/0/viewer?mid=1Z1dI8hoBZSJNWFx2xr_MMxSxSxY) - Shows WiFi networks and their passwords for airports around the world
     - [One in a Million](https://onemilliontweetmap.com/) - A real-time Twitter map
-	  - [ListenToWikipedia](http://listen.hatnote.com/) - Wikipedia edits, represented by a tone, depending on size, built by Hatnote
-	  - [BitListen](https://www.bitlisten.com/) - Real-time BTC transactions, represented by bubbles and tones
-	  - [FiatLeak](https://fiatleak.com/) - Real-time crypto stats
-	  - [Google Search Terms](https://trends.google.com/trends/hottrends/visualize?pn=p9&nrow=4&ncol=4) - Hourly Google Search Trends, in your location
-	  - [Sentiment Sweep](https://sentiment-sweep.com/now) - Geographic sentiment analysis on real-time Twitter data (- I made this one)
-	  - [Three Thousand Years](http://histography.io/) - Shows major events throughout history, using Wikipedia data
-	  - [Wiki-Atlas](https://wiki-atlas.org/) - Wikipedia articles, categorized and plotted on a map
-	  - [ncov2019/live](https://ncov2019.live/) - Real-time Covid-19 data, map and dashboard (by Avi Schiffmann)
-	  - [National Grid: Live Status](http://grid.iamkate.com/) - Real-time UK energy stats (by Kate Morley) (similar to [Grid Watch](https://www.gridwatch.templar.co.uk/))
-	  - [Globe of Economic Complexity](http://globe.cid.harvard.edu/) - Visualize's 15 Trillion dollars of world trade, where each dot is $100,000,000 of export
+    - [ListenToWikipedia](http://listen.hatnote.com/) - Wikipedia edits, represented by a tone, depending on size, built by Hatnote
+    - [BitListen](https://www.bitlisten.com/) - Real-time BTC transactions, represented by bubbles and tones
+    - [FiatLeak](https://fiatleak.com/) - Real-time crypto stats
+    - [Google Search Terms](https://trends.google.com/trends/hottrends/visualize?pn=p9&nrow=4&ncol=4) - Hourly Google Search Trends, in your location
+    - [Sentiment Sweep](https://sentiment-sweep.com/now) - Geographic sentiment analysis on real-time Twitter data (- I made this one)
+    - [Three Thousand Years](http://histography.io/) - Shows major events throughout history, using Wikipedia data
+    - [Wiki-Atlas](https://wiki-atlas.org/) - Wikipedia articles, categorized and plotted on a map
+    - [ncov2019/live](https://ncov2019.live/) - Real-time Covid-19 data, map and dashboard (by Avi Schiffmann)
+    - [National Grid: Live Status](http://grid.iamkate.com/) - Real-time UK energy stats (by Kate Morley) (similar to [Grid Watch](https://www.gridwatch.templar.co.uk/))
+    - [Globe of Economic Complexity](http://globe.cid.harvard.edu/) - Visualize's 15 Trillion dollars of world trade, where each dot is $100,000,000 of export
  
 ## Academic
 
