@@ -426,6 +426,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
     - [Semantic Internet Map](http://internet-map.net) - Shows how different websites link together
     - [Wiggle](https://wigle.net) - Worlds largest WiFi Map showing personal hotspot statistics geographically
     - [BGP Stream](https://bgpstream.com) - Shows all current outages
+    - [Freedom House - Censorship Map](https://freedomhouse.org/explore-the-map) - Global internet freedom and democracy status per country, over time
     - [DomainTools Statistics](https://research.domaintools.com/statistics) - Domain registration Numbers and Charts
     - [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
   - **Cyber**
