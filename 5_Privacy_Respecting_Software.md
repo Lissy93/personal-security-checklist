@@ -34,6 +34,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Email Clients](#email-clients)
   - [Anonymous Mail Forwarding](#anonymous-mail-forwarding)
   - [Email Security Tools](#email-security-tools)
+  - [Team Collaboration Platforms](#team-collaboration-platforms)
 - **Security Tools**
   - [Browser Extensions](#browser-extensions)
   - [Mobile Apps](#mobile-apps)
@@ -325,6 +326,23 @@ Alternatively you could host your own catch-all email service. [Mailu](https://g
 
 #### Notable Mentions
 If you are using ProtonMail, then the [ProtonMail Bridge](https://protonmail.com/bridge/thunderbird) enables you to sync your emails to your own desktop mail client. It works well with Thunderbird, Microsoft Outlook and others
+
+## Team Collaboration Platforms
+
+Now more than ever we are relying on software to help with team collaboration. Unfortunately many popular options, such as [Slack](https://www.wired.co.uk/article/slack-privacy-settings-notifications), [Microsoft Teams](https://www.wired.co.uk/article/microsoft-teams-meeting-data-privacy), [Google for Work](https://www.wired.com/story/google-tracks-you-privacy/) and [Discord](https://cybernews.com/privacy/discord-privacy-tips-that-you-should-use-in-2020/) all come with some serious privacy implications.
+
+Typical features of team collaboration software includes: instant messaging, closed and open group messaging, voice and video conference calling, file sharing/ file drop, and some level or scheduling functionality.
+
+| Provider | Description |
+| --- | --- |
+**[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** | Easy-to-deploy, self-hosted team collaboration platform with stable, feature-rich cross-platform client apps. The UI is fast, good looking and intuitive, so very little technical experience is needed for users of the platform. Rocket.Chat's feature set is similar to Slack's, making it a good replacement for any team looking to have greater control over their data
+**[RetroShare](https://retroshare.cc/)** | Secure group communications, with the option to be used over Tor or I2P. Fast intuitive group and 1-to-1 chats with text and rich media using decentralized chat rooms, with a mail feature for delivering messages to offline contacts. A channels feature makes it possible for members of different teams to stay up-to-date with each other, and to share files. Also includes built-in forums, link aggregations, file sharing and voice and video calling. RetroShare is a bit more complex to use than some alternatives, and the UI is quite *retro*, so may not be appropriate for a non-technical team
+**[Element](https://element.io/)** | Privacy-focused messenger using the Matrix protocol. The Element client allows for group chat rooms, media sharing voice and video group calls.
+
+### Notable Mentions
+Some chat platforms allow for cross-platform group chats, voice and video conferencing, but without the additional collaboration features. For example, [Tox](https://tox.chat/), [Session](https://getsession.org/), [Ricochet](https://ricochet.im/), [Mumble](https://www.mumble.info/) and [Jami](https://jami.net/).
+
+[Mattermost](https://mattermost.com/pricing-self-managed/) has an open-source version of their collaboration software, which can be self-hosted for free, for small teams
 
 
 ## Browser Extensions
