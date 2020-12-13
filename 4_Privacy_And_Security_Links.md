@@ -72,8 +72,8 @@
   - How to check App Permissions (Android, iOS, Mac & Windows): via [Wired](https://www.wired.com/story/how-to-check-app-permissions-ios-android-macos-windows/)
   - How to manage Self-Encrypting Drives: via [TechSpot](https://www.techspot.com/guides/869-self-encrypting-drives/)
 - **Software**
-  - Complete guide to configuring Firefox for Privacy + Speed: via [12bytes](https://12bytes.org/7750)
-  - Firefox Configuration Guide for Beginners: via [12bytes](https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies)
+  - Complete guide to configuring Firefox for Privacy + Speed: via [12bytes](https://12bytes.org/articles/tech/firefox/firefoxgecko-configuration-guide-for-privacy-and-performance-buffs/)
+  - Firefox Configuration Guide for Beginners: via [12bytes](https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/)
   - How to use Vera Crypt: via [howtogeek](https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt)
   - How to use KeePassXC: via [EFF](https://ssd.eff.org/en/module/how-use-keepassxc)
   - How to use uMatrix browser addon to block trackers: via [ProPrivacy](https://proprivacy.com/privacy-service/guides/lifehacks-setup-umatrix-beginners) 
