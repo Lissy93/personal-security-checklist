@@ -492,6 +492,8 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - Decoy Routing: Toward Unblockable Internet Communication: via [usenix.org](https://www.usenix.org/legacy/events/foci11/tech/final_files/Karlin.pdf)
   - Trackers Vs Firefox, Comparing different blocking utilities: via [GitHub- @jawz101](https://github.com/jawz101/TrackersVsFirefox)
   - 'I've Got Nothing to Hide' and Other Misunderstandings of Privacy: via [ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565&)
+- **Write-Ups**
+  - Privacy - An Encyclopedic Definition and Background [stanford.edu](https://plato.stanford.edu/entries/privacy/)
 
 
 - **Implementations and Standards**
@@ -529,6 +531,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
 - [Fight for the Future](https://www.fightforthefuture.org) - Fighting for a future where technology liberates
 - [Public Citizen](https://www.citizen.org) - Standing up to corporate power and hold the government accountable
 - [The DNS Privacy Project](https://dnsprivacy.org/wiki/display/DP) - Collaborative open project to promote, implement and deploy DNS Privacy
+- [Epic](https://www.epic.org/) - Washington DC-based organisation raising attention to emerging privacy and civil liberties issues
 
 
 ## Governance
