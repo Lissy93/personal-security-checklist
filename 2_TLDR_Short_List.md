@@ -83,7 +83,7 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 - Encrypted Messaging: [Signal] | [KeyBase] *(for groups/ communities)*
 - Encrypted Email: [ProtonMail] | [MailFence] | [Tutanota] | (+ also [33Mail] | [anonaddy] for aliasing)
 - Private Browsers: [Brave Browser] | [Firefox] *with [some tweaks](https://restoreprivacy.com/firefox-privacy/)* | [Tor]
-- Non-Tracking Search Engines: [DuckDuckGo] | [StartPage] | [SearX] *(self-hosted)* | [Quant]
+- Non-Tracking Search Engines: [DuckDuckGo] | [StartPage] | [SearX] *(self-hosted)* | [Qwant]
 - VPN: [Mullvad] | [ProtonVPN]  | [Windscribe] | [IVPN] *(better still, use [Tor])*
 - App Firewall: [NetGuard] (Android) | [Lockdown] (iOS) | [OpenSnitch] (Linux) | [LuLu] (MacOS)
 
@@ -177,7 +177,7 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [Firefox]: https://www.mozilla.org/
 [DuckDuckGo]: https://duckduckgo.com
 [StartPage]: https://www.startpage.com
-[Quant]: https://www.qwant.com
+[Qwant]: https://www.qwant.com
 [SearX]: https://asciimoo.github.io/searx
 
 [//]: # (PRODUCTIVITY SOFTWARE LINKS)

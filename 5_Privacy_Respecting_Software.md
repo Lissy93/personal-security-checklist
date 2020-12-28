@@ -34,6 +34,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Email Clients](#email-clients)
   - [Anonymous Mail Forwarding](#anonymous-mail-forwarding)
   - [Email Security Tools](#email-security-tools)
+  - [Team Collaboration Platforms](#team-collaboration-platforms)
 - **Security Tools**
   - [Browser Extensions](#browser-extensions)
   - [Mobile Apps](#mobile-apps)
@@ -135,6 +136,7 @@ If you are using a deprecated PM, you should migrate to something actively maint
 **[Aegis](https://getaegis.app)** (Android)  | Free, secure and open source authenticator app for Android. Has a backup/ restore feature and a customisable UI with dark mode
 **[AndOTP](https://github.com/andOTP/andOTP)** (Android) | Another open source, secure authenticator app. AndOTP is well established with a strong user base
 **[Tofu](https://www.tofuauth.com)** (iOS) | An easy-to-use, open-source two-factor authentication app designed specifically for iOS
+**[Authenticator](https://mattrubin.me/authenticator/)** (iOS) | Simple, native, open source 2-FA Client for iOS, which never connects to the internet - built by @mattrubin.me
 **[WinAuth](https://winauth.github.io/winauth)** (Windows) | Portable, encrypted desktop authenticator app for Microsoft Windows. With useful features, like hotkeys and some additional security tools, WinAuth is a great companion authenticator for desktop power-users. It's open source and well-established (since mid-2010)
 
 *Check which websites support multi-factor authentication: [twofactorauth.org](https://twofactorauth.org)*
@@ -158,13 +160,23 @@ For KeePass users, [TrayTop](https://keepass.info/plugins.html#traytotp) is a pl
 **[Cryptomator](https://cryptomator.org)** | Open source client-side encryption for cloud files- Cryptomator is geared towards using alongside cloud-backup solutions, and hence preserves individual file structure, so that they can be uploaded. It too is easy to use, but has fewer technical customizations for how the data is encrypted, compared with VeraCrypt. Cryptomator works on Windows, Linux and Mac- but also has excellent mobile apps.
 
 #### Notable Mentions
-[CryptSetup](https://gitlab.com/cryptsetup/cryptsetup) is a convinient layer for use on top of [dm-crypt](https://wiki.archlinux.org/index.php/Dm-crypt). [EncFS](https://www.arg0.net/encfs) is a cross-platform file-based encryption module, for use within user local directories. [geli](https://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8) is a disk encryption subsystem included with FreeBSD
+[AES Crypt](https://www.aescrypt.com/) is a light-weight and easy file encryption utility. It includes applications for Windows, Mac OS, BSD and Linux, all of which can be interacted with either through the GUI, CLI or programatically though an API (available for Java, C, C# and Python). Although it is well estabilished, with an overall positive reputation, there have been some [security issues](https://www.reddit.com/r/privacytoolsIO/comments/b7riov/aes_crypt_security_audit_1_serious_issue_found/) raised recentley.
+
+[CryptSetup](https://gitlab.com/cryptsetup/cryptsetup) is a convinient layer for use on top of [dm-crypt](https://wiki.archlinux.org/index.php/Dm-crypt). [EncFS](https://www.arg0.net/encfs) is a cross-platform file-based encryption module, for use within user local directories. [geli](https://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8) is a disk encryption subsystem included with FreeBSD.
 
 PGP may be useful for encrypting individual files and folders, preparing files for transmission, or adding an additional layer of security to sensitive 
 data. With PGP, you can encrypt, decrypt, sign and verify files and folders: see [PGP Tools](#pgp-managers)
 
-If you need to create a compressed archive, prior to encrypting your files, then [PeaZip](https://www.peazip.org/) is a great little cross-platform open source file archiver utility. It allows you to create, open, and extract RAR TAR ZIP archives.
+[BitLocker](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) is popular among Microsoft Windows and enterprise users, and provides fast, efficient and (if correctly configured) reasonabley secure full drive encryption. However it is not open source, has poor compatibility with other operating systems, and has some very dodgy [defaults](https://www.diskcryptor.org/why-not-bitlocker/), which could lead to your system being compromised. Similarly, Apple's [VileVault](https://support.apple.com/en-us/HT204837) on MacOS is easy and secure, but again, the source code is proprietary.
 
+[DiskCryptor](https://www.diskcryptor.org/) is a Windows-only, open source, file and volume encryption solution, that makes a good alternative to BitLocker.
+
+If you need to create a compressed archive, then [PeaZip](https://www.peazip.org/) is a great little cross-platform open source file archiver utility. It allows you to create, open, and extract RAR TAR ZIP archives. It also has a [password-protection feature](https://peazip.github.io/peazip-password.html), which encryptes compressed files using AES-256, which is also compatible with most other archive utilities
+
+#### Word of Warning
+Where possible, choose a cross-platform and well established encryption method, so that you are never faced with not being able to access your files using your current system.
+
+Although well-established encryption methods are usually very secure, if the password is not strong, then an adversary may be able to gain access to your files, with a powerful enough GPU. If your system is compromised, then the password may also be able to be skimmed with a keylogger or other similar malware, so take care to follow good basic security practices
 
 ## Browsers
 
@@ -180,7 +192,9 @@ Mobile Browsers: [Bromite](https://www.bromite.org/) (Android), [Firefox Focus](
 Additional Desktop: [WaterFox](https://www.waterfox.net), [Epic Privacy Browser](https://www.epicbrowser.com), [PaleMoon](https://www.palemoon.org), [Iridium](https://iridiumbrowser.de/) and [Sea Monkey](https://www.seamonkey-project.org/).
 
 #### Word of Warning
-New vulnerabilities are being discovered and patched all the time - use a browser that is being actively maintained, in order to receive these security-critical updates
+New vulnerabilities are being discovered and patched all the time - use a browser that is being actively maintained, in order to receive these security-critical updates.
+
+Even privacy-respecting browsers, often do not have the best privacy options enabled by default. After installing, check the privacy & security settings, and update the configuration to something that you are comfortable with. 12Bytes maintains a comprehensive guide on [Firefox Configuration for Privacy and Performance](https://12bytes.org/articles/tech/firefox/firefoxgecko-configuration-guide-for-privacy-and-performance-buffs/)
 
 **See also** [Browser & Search Security Checklist](/README.md#browser-and-search) and recommended [Browser Extensions](#browser-extensions) for privacy & security.
 
@@ -281,7 +295,7 @@ Email clients are the programs used to interact with the mail server. For hosted
 **[RoundCube](https://roundcube.net)** (Web) | Browser-based multilingual IMAP client with an application-like user interface. It provides full functionality you expect from an email client, including MIME support, address book, folder manipulation, message searching and spell checking
 **[FairMail](https://email.faircode.eu/)** (Andoird) | Open source, fully-featured and easy mail client for Android. Supports unlimited accounts and email addresses with the option for a unified inbox. Clean user interface, with a dark mode option, it is also very lightweight and consumes minimal data usage
 **[K-9 Mail](https://k9mail.app/)** (Android) | K-9 is open source, very well supported and trusted-  k9 has been around for nearly as long as Android itself! It supports multiple accounts, search, IMAP push email, multi-folder sync, flagging, filing, signatures, BCC-self, PGP/MIME & more. Install OpenKeychain along side it, in order to encrypt/ decrypt emails using OpenPGP
-**[p≡p](https://www.pep.security/)** (Android | iOS) | The Pretty Easy Privacy (p≡p) client is a fully decentralized and end-to-end encrypted mail client, for "automatic privacy". It has some nice features, however it is not open source
+**[p≡p](https://www.pep.security/)** (Android/ iOS) | The Pretty Easy Privacy (p≡p) client is a fully decentralized and end-to-end encrypted mail client, for "automatic privacy". It has some nice features, however it is not open source
 
 #### Word of Warning
 One disadvantage of mail clients, is that many of them do not support 2FA, so it is important to keep your device secured and encrypted
@@ -312,6 +326,25 @@ Alternatively you could host your own catch-all email service. [Mailu](https://g
 
 #### Notable Mentions
 If you are using ProtonMail, then the [ProtonMail Bridge](https://protonmail.com/bridge/thunderbird) enables you to sync your emails to your own desktop mail client. It works well with Thunderbird, Microsoft Outlook and others
+
+## Team Collaboration Platforms
+
+Now more than ever we are relying on software to help with team collaboration. Unfortunately many popular options, such as [Slack](https://www.wired.co.uk/article/slack-privacy-settings-notifications), [Microsoft Teams](https://www.wired.co.uk/article/microsoft-teams-meeting-data-privacy), [Google for Work](https://www.wired.com/story/google-tracks-you-privacy/) and [Discord](https://cybernews.com/privacy/discord-privacy-tips-that-you-should-use-in-2020/) all come with some serious privacy implications.
+
+Typical features of team collaboration software includes: instant messaging, closed and open group messaging, voice and video conference calling, file sharing/ file drop, and some level or scheduling functionality.
+
+| Provider | Description |
+| --- | --- |
+**[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** | Easy-to-deploy, self-hosted team collaboration platform with stable, feature-rich cross-platform client apps. The UI is fast, good looking and intuitive, so very little technical experience is needed for users of the platform. Rocket.Chat's feature set is similar to Slack's, making it a good replacement for any team looking to have greater control over their data
+**[RetroShare](https://retroshare.cc/)** | Secure group communications, with the option to be used over Tor or I2P. Fast intuitive group and 1-to-1 chats with text and rich media using decentralized chat rooms, with a mail feature for delivering messages to offline contacts. A channels feature makes it possible for members of different teams to stay up-to-date with each other, and to share files. Also includes built-in forums, link aggregations, file sharing and voice and video calling. RetroShare is a bit more complex to use than some alternatives, and the UI is quite *retro*, so may not be appropriate for a non-technical team
+**[Element](https://element.io/)** | Privacy-focused messenger using the Matrix protocol. The Element client allows for group chat rooms, media sharing voice and video group calls.
+**Internet Relay Chat** | An IRC-based solution is another option, being decentralized there is no point of failure, and it's easy to self-host. However it's important to keep security in mind while configuring your IRC instance and ensure that channels are properly encrypted- IRC tends to be better for open communications. There's a [variety of clients](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) to choose from- popular options include: [The Longe](https://thelounge.chat/) (Web-based), [HexChat](https://hexchat.github.io/) (Linux), [Pidgin](https://pidgin.im/help/protocols/irc/) (Linux), [WeeChat](https://weechat.org/) (Linux, terminal-based), [IceChat](https://www.icechat.net/) (Windows), [XChat Aqua](https://xchataqua.github.io/) (MacOS), [Palaver](https://palaverapp.com/) (iOS) and [Revolution](https://github.com/MCMrARM/revolution-irc) (Android)
+
+
+### Notable Mentions
+Some chat platforms allow for cross-platform group chats, voice and video conferencing, but without the additional collaboration features. For example, [Tox](https://tox.chat/), [Session](https://getsession.org/), [Ricochet](https://ricochet.im/), [Mumble](https://www.mumble.info/) and [Jami](https://jami.net/).
+
+[Mattermost](https://mattermost.com/pricing-self-managed/) has an open-source version of their collaboration software, which can be self-hosted for free, for small teams
 
 
 ## Browser Extensions
@@ -470,6 +503,7 @@ Fun little projects that you can run on a Raspberry Pi, or other low-powered com
 | Provider | Description |
 | --- | --- |
 **[Pi-Hole](https://pi-hole.net)** | Network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole. Pi-Hole can significantly speed up your internet, remove ads and block malware. It comes with a nice web interface and a mobile app with monitoring features, it's open source, easy to install and very widely used
+**[Technitium](https://technitium.com/dns/)** | Another DNS server for blocking privacy-invasive content at it's source. Technitium doesn't require much of a setup, and basically works straight out of the box, it supports a wide range of systems (and can even run as a portable app on Windows). It allows you to do some additional tasks, such as add local DNS addresses and zones with specific DNS records. Compared to Pi-Hole, Technitium is very lightweight, but lacks the deep insights that Pi-Hole provides, and has a significantly smaller community behind it
 **[IPFire](https://www.ipfire.org)** | A hardened, versatile, state-of-the-art open source firewall based on Linux. Its ease of use, high performance and extensibility make it usable for everyone
 **[PiVPN](https://pivpn.io)** | A simple way to set up a home VPN on a any Debian server. Supports OpenVPN and WireGuard with elliptic curve encryption keys up to 512 bit. Supports multiple DNS providers and custom DNS providers- works nicely along-side PiHole
 **[E2guardian](http://e2guardian.org)** | Powerful open source web content filter
@@ -1149,6 +1183,7 @@ After installing your new operating system, or if you have chosen to stick with 
 **[Windows Spy Blocker](https://github.com/crazy-max/WindowsSpyBlocker)** | Capture and interprets network traffic based on a set of rules, and depending on the interactions certain assignments are blocked. Open source, written in Go and delivered as a single executable
 **[HardenTools]** | A utility that disables a number of risky Windows features. These "features" are exposed by the OS and primary consumer applications, and very commonly abused by attackers, to execute malicious code on a victim's computer. So this tool just reduces the attack surface by disabling the low-hanging fruit
 **[ShutUp10](https://www.oo-software.com/en/shutup10)** | A portable app that lets you disable core Windows features (such as Cortana, Edge) and control which data is passed to Microsoft. (Note: Free, but not open source)
+**[WPD](https://wpd.app/)** | Portable app with a GUI, that makes it really easy to safely block key telemetry features, from sending data to Microsoft and other third parties (It uses the Windows API to interact with key features of Local Group Police, Services, Tasks Scheduler, etc)
 **[GhostPress]** | Anti low-level keylogger: Provides full system-wide key press protection, and target window screenshot protection
 **[KeyScrambler]** | Provides protection against software keyloggers. Encrypts keypresses at driver level, and decrypts at application level, to protect against common keyloggers- read more about [how it works](https://www.techrepublic.com/blog/it-security/keyscrambler-how-keystroke-encryption-works-to-thwart-keylogging-threats). Developed by Qian Wang
 **[SafeKeys V3.0](http://www.aplin.com.au)** | Portable virtual keyboard. Useful for protecting from keyloggers when using a public computer, as it can run of a USB with no administrative permissions
