@@ -37,7 +37,6 @@
   - Protect against SIM-swap scam: via [wired](https://www.wired.com/story/sim-swap-attack-defend-phone)
   - How to spot a phishing attack: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
   - Protection from Identity Theft: via [Restore Privacy](https://restoreprivacy.com/identity-theft-fraud)
-  - Harden your MacOS Security: via [@drduh on GitHub](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
   - Protecting from key-stroke-logging, with KeyScrambler: via [TechRepublic](https://www.techrepublic.com/blog/it-security/keyscrambler-how-keystroke-encryption-works-to-thwart-keylogging-threats)
   - Guide to Hash Checks, to ensure a program has not been tampered with: via [ProPrivacy](https://proprivacy.com/guides/how-why-and-when-you-should-hash-check)
   - Permanently and Securely Delete ‘Files and Directories’ in Linux: via [TechMint](https://www.tecmint.com/permanently-and-securely-delete-files-directories-linux/)
@@ -48,9 +47,9 @@
   - ISP and DNS privacy tips: via [bluz71](https://bluz71.github.io/2018/06/20/digital-privacy-tips.html)
   - Beginners guide on getting started with Tor: via [ProPrivacy](https://proprivacy.com/privacy-service/guides/ultimate-tor-browser-guide)
   - Beginners guide to I2P: via [The Tin Hat](https://thetinhat.com/tutorials/darknets/i2p.html)
-  - How to Use a VPN and Tor together: via [ProPrivacy](https://proprivacy.com/vpn/guides/using-vpn-tor-together)
+  - About Using VPN and Tor together: via [ProPrivacy](https://proprivacy.com/vpn/guides/using-vpn-tor-together)
   - How to use `__nomap`, to reduce public exposure of SSID: via [ghacks](https://www.ghacks.net/2014/10/29/add-_nomap-to-your-routers-ssid-to-have-it-ignored-by-google-and-mozilla/)
-  - Detailed guide, outlining up-to-date router configurations for ultimate security: via [RouterSecurity.org](https://routersecurity.org/)
+  - Up-to-date router configurations for advanced security: via [RouterSecurity.org](https://routersecurity.org/)
 - **Communication**
   - Email Self-Defense, Configure your mail client securly, from scratch - via [FSF.org](https://emailselfdefense.fsf.org)
   - How to avoid Phishing Attacks: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
@@ -71,6 +70,7 @@
   - Settings to update on iPhone, for better privacy: via [lifehacker](https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831)
   - How to check App Permissions (Android, iOS, Mac & Windows): via [Wired](https://www.wired.com/story/how-to-check-app-permissions-ios-android-macos-windows/)
   - How to manage Self-Encrypting Drives: via [TechSpot](https://www.techspot.com/guides/869-self-encrypting-drives/)
+  - Harden your MacOS Security: via [@drduh on GitHub](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 - **Software**
   - Complete guide to configuring Firefox for Privacy + Speed: via [12bytes](https://12bytes.org/articles/tech/firefox/firefoxgecko-configuration-guide-for-privacy-and-performance-buffs/)
   - Firefox Configuration Guide for Beginners: via [12bytes](https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/)
@@ -123,8 +123,6 @@
   - How to Track a Cellphone Without GPS—or Consent: via [Gizmodo](https://gizmodo.com/how-to-track-a-cellphone-without-gps-or-consent-1821125371)
   - Apps able to track device location, through power manager: via [Wired](https://www.wired.com/2015/02/powerspy-phone-tracking/)
   - Hackers and governments can see you through your phone’s camera: via [Business Insider](https://www.businessinsider.com/hackers-governments-smartphone-iphone-camera-wikileaks-cybersecurity-hack-privacy-webcam-2017-6)
-  - How a highly targeted ad can track your precise movements: via [Wired](https://www.wired.com/story/track-location-with-mobile-ads-1000-dollars-study/)
-    - Based on the paper, Using Ad Targeting for Surveillance on a Budget: via [Washington.edu](https://adint.cs.washington.edu/ADINT.pdf)
   - Law Enforcement Geo-Fence Data Requests- How an Innocent cyclist became a suspect when cops accessed his Google location data: via [Daily Mail](https://www.dailymail.co.uk/news/article-8086095/Police-issue-warrant-innocent-mans-Google-information.html)
   - IBM Used NYPD Surveillance Footage to Develop Technology That Lets Police Search by Skin Color: via [TheIntercept](https://theintercept.com/2018/09/06/nypd-surveillance-camera-skin-tone-search/)
 - **Threats**
@@ -148,6 +146,8 @@
   - Microsoft data breach exposes 250 million customer support records: via [Graham Cluley](https://www.grahamcluley.com/microsoft-data-breach/)  
 - **Data Collection**
   - Ring Doorbell App Packed with Third-Party Trackers: via [EFF](https://www.eff.org/deeplinks/2020/01/ring-doorbell-app-packed-third-party-trackers)
+  - How a highly targeted ad can track your precise movements: via [Wired](https://www.wired.com/story/track-location-with-mobile-ads-1000-dollars-study/)
+    - Based on the paper, Using Ad Targeting for Surveillance on a Budget: via [Washington.edu](https://adint.cs.washington.edu/ADINT.pdf)
   - How websites can see your full personal details, from your phone contract info: via [Medium/@philipn](https://medium.com/@philipn/want-to-see-something-crazy-open-this-link-on-your-phone-with-wifi-turned-off-9e0adb00d024)
   - Facebook and America’s largest companies give worker data to Equifax: via [FastCompany](https://www.fastcompany.com/40485634/equifax-salary-data-and-the-work-number-database)
   - Exfiltration of personal data by session-replay scripts: via [Freedom-to-Tinker](https://freedom-to-tinker.com/2017/11/15/no-boundaries-exfiltration-of-personal-data-by-session-replay-scripts/)
