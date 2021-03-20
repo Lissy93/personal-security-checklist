@@ -53,6 +53,7 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Network Analysis](#network-analysis)
   - [Cloud Hosting](#cloud-hosting)
   - [Domain Registrars](#domain-registrars)
+  - [DNS Hosting](#dns-hosting)
   - [Pre-Configured Mail-Servers](#pre-configured-mail-servers)
 - **Productivity**
   - [Digital Notes](#digital-notes)
@@ -709,6 +710,13 @@ The country that your data is hosted in, will be subject to local laws and regul
 | --- | --- |
 **[Njal.la](https://njal.la)** | Privacy-aware domain service with anonymous sign-up and accepts crypto currency
 **[Orange Website](https://www.orangewebsite.com/domain-registration.php)** | Anonymous domain registration, with low online censorship since they are based outside the 14-eyes jurisdiction (in Iceland)
+
+## DNS Hosting
+
+| Provider | Description |
+| --- | --- |
+**[deSEC](https://desec.io/)** | Free DNS hosting provider designed with security in mind, and running on purley open source software. deSEC is backed and funded by [SSE](https://securesystems.de/en/).
+
 
 ## Pre-Configured Mail-Servers
 
