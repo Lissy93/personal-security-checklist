@@ -48,7 +48,7 @@ It's important to protect your email account, as if a hacker gains access to it 
 - Consider switching to a secure and encrypted mail provider using, such as [ProtonMail](https://protonmail.com) or [Tutanota](https://tutanota.com)
 - Use email aliasing to protect your real mail address, with a provider such as [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io/?slref=bridsqrgvrnavso). This allows you to keep your real address private, yet still have all messages land in your primary inbox
 - Disable automatic loading of remote content, as it is often used for detailed tracking but can also be malicious
-- Using a custom domain, will mean you will not loose access to your email address if your current provider disappears. If you need to back up messages, use a secure IMAP client [Thunderbird](https://www.thunderbird.net)
+- Using a custom domain, will mean you will not lose access to your email address if your current provider disappears. If you need to back up messages, use a secure IMAP client [Thunderbird](https://www.thunderbird.net)
 
 
 ### Secure Messaging
