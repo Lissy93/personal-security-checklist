@@ -132,6 +132,7 @@ We can go even further, these products are far from essential and are maybe a li
 - **TrueRNG** - Generates a stream of True Random Numbers for use in Simulations, Security, and Gaming. [Tindie](https://www.tindie.com/products/ubldit/truerng-v3/)
 - **Wire Tap Detector** - Easily check both single and multi-line phone systems for series and parallel taps. Via [BrickHouseSecurity](https://www.brickhousesecurity.com/counter-surveillance/wiretap/)
 - **True Random Number Generator** - FST-01SZ is a tiny stand alone USB 32-bit computer based on a free hardware design. (NeuG is an implementation of a TRNG for GD32F103 MCU). See More: [Free Software Foundation: Shop](https://shop.fsf.org/storage-devices/neug-usb-true-random-number-generator)
+- **Bug Detector Finding Cameras** | Counter Surveillance anti-spy gadgets are the best devices for you to be able to find any tracking device, GPS tracker, or hidden camera. Sweeping out an area to find the hidden electronic is easy when you have a high quality bug tracker to buy online. (K-68 Is one example of a high quality hidden camera detector) [Hidden Camera Detectors](https://buytechgifts.com/collections/hidden-camera-detectors)
 
 
 ## Network Security
