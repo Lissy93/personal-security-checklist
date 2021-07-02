@@ -84,6 +84,7 @@
   - Guide to Living Anonymously, Personal Data Removal and Credit Freeze: via [IntelTechniques.com](https://inteltechniques.com/data/workbook.pdf)
   - Hiding from Physical Surveillance: via [Snallabolaget](http://snallabolaget.com/hiding-from-surveillance-how-and-why)
   - Guide to opting-out of public data listings and marketing lists: via [World Privacy Forum](https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs)
+  -
 - **Enterprise**
   - A basic checklist to harden GDPR compliancy: via [GDPR Checklist](https://gdprchecklist.io)
 - **Reference Info**
@@ -102,6 +103,9 @@
   - Magic Numbers - Up-to-date file signature table, to identify / verify files have not been tampered with: via [GaryKessler](https://www.garykessler.net/library/file_sigs.html)
   - List of IP ranges per country: via [Nirsoft](https://www.nirsoft.net/countryip)
   - Database of default passwords for various devices by manufacturer and model: via [Default-Password.info](https://default-password.info)
+- **All-in-one digital and physical security**
+  - Umbrella: an open source iOS/Android/Web app for learning about and managing digital, operational and physical security (from safe communication to dealing with a kidnap) via [Security First](https://www.secfirst.org)
+
 
 
 ## Articles
