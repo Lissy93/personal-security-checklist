@@ -431,6 +431,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
     - [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
   - **Cyber**
     - [Checkpoint](https://threatmap.checkpoint.com) - Geographical plotting of Malware, Phishing and Exploits
+    - [Comparitech Ransomware Attack Map](https://www.comparitech.com/ransomware-attack-map/) - Geographically plotted ransomware attacks and stats
     - [FortiGuard](https://threatmap.fortiguard.com) - Incoming & Outgoing Attacks per Country
     - [Kaspersky Stats](https://cybermap.kaspersky.com/stats) - Shows detailed threats per second from a variety of categories
     - [Kaspersky LogBook](https://apt.securelist.com) - Historic Threat Time Line
