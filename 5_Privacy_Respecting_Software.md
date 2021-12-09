@@ -808,6 +808,7 @@ It is recommended to encrypt files on your client machine, before syncing to the
 **[IceD rive](https://icedrive.net)** | Very affordable encrypted storage provider, with cross-platform apps. Starts as £1.50/month for 150 GB or £3.33/month for 1 TB
 **[Sync.com](https://www.sync.com)** | Secure file sync, sharing, collaboration and backup for individuals, small businesses and sole practitioners. Starts at $8/month for 2 TB
 **[cloud](https://www.pcloud.com)** | Secure and simple to use cloud storage, with cross-platform client apps. £3.99/month for 500 GB
+**[Peergos](https://peergos.org/)** | A peer-to-peer end-to-end encrypted global filesystem with fine grained access control. Provides a secure and private space online where you can store, share and view your photos, videos, music and documents. Also includes a calendar, news feed, task lists, chat and email client.  Fully open source and self-hostable (or use hosted solution, £5/month for 50 GB)
 
 #### Notable Mentions
 An alternative option, is to use a cloud computing provider, and implement the syncing functionality yourself, and encrypt data locally before uploading it- this may work out cheaper in some situations. You could also run a local server that you physically own at a secondary location, that would mitigate the need to trust a third party cloud provider. Note that some knowledge in securing networks is required.
