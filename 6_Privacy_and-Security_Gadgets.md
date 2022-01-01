@@ -53,11 +53,9 @@ See Also, [The Hackers Hardware Toolkit](https://raw.githubusercontent.com/yadox
 **Cold Storage**<br>[![__](https://i.ibb.co/nj6xyv1/23.jpg)](https://amzn.to/2HqVy9x) | If you are not planning on spending your crypto any time soon, and do not want to trust a tech-based solution, then consider this metal cold storage wallet. Unlike writing your private key down on paper, this will not fade, and cannot be destroyed by water, fire of other environmental circumstances. Of course you could just engrave your key on a small sheet of aluminium
 **Anonabox**<br>[![__](https://i.ibb.co/L177XDJ/24.jpg)](https://amzn.to/2UWtP8E) | Plug-and-play Tor router, that can be used with public WiFi while travelling, or at home. Anonabox provides easy access to the deep web and lets you bypass censorship, protect your location, deter data collection and more. It can also be used with a VPN, or for online hosting. Of course you could build a similar product your self using a Raspberry Pi and a WiFi range extender
 **Deauth Detector**<br>[![__](https://i.ibb.co/BqNGRCW/19.jpg)](https://amzn.to/2HtUy4B) | Most WiFi hacks begin by sending deauth packets, so that connected clients will briefly be disconnected to the network. This [ESP8266](https://en.wikipedia.org/wiki/ESP8266) comes pre-flashed with [@SpaceHuhn's](https://github.com/spacehuhn) deauth detector (which you can view [here, on GitHub](https://github.com/spacehuhn/DeauthDetector)). Once it detects [deauthentication or disassociation frames](https://mrncciew.com/2014/10/11/802-11-mgmt-deauth-disassociation-frames), it will activate a speaker to notify you
+**WiPhone**<br>[![__](https://i.ibb.co/grnJjKt/wiphone.jpg)](https://www.wiphone.io/) | A fully open source, modular and easily customizable phone for VOIP and LoRa. Great for making free calls over WiFi, communicating locally over LoRa, or just tinkering thanks to its ESP32 pinouts
 **Librem 5**<br>[![__](https://i.ibb.co/3TNh5Vt/l5-v1-front-100x100.png)](https://shop.puri.sm/shop/librem-5/) | Security and Privacy focused smart phone by Purism. With hardware kill switches and specially designed software, this device runs Linux, and does not track you. It Separates CPU from Cellular Baseband, uses IP-Native Communication First and Decentralized Communication by Default. The source code is user-controlled, and has layered security protection. Purism also have [other security-focused products](https://puri.sm/products)
 **Slate Travel Router**<br>[![__](https://i.ibb.co/Nt7hmfW/ar750s-ext-1000x1000.jpg)](https://www.gl-inet.com/products/gl-ar750s/) | The GL-AR750S-Ext can serve as a Wi-Fi access point, a pfSense firewall or a portable router with always-on VPN connectivity. It's great for controlling your network (firewall, VPN, ad-block, web filtering, data limits and more) when traveling or away from home
-
-
-
 
 
 ## DIY Security Products
@@ -176,6 +174,7 @@ For most projects, a Raspberry Pi 3 or 4 is more than enough. You could also bui
 - **Armadillo Phones** - Encrypted phones, SIMs and Networks, provide zero-trust  communications and pro-active defences. Their keychain software is open source, and they also provide encrypted SIMs, and servers.
 See More: [ArmadilloPhone.com](https://www.armadillophone.com/store#diamond)
 - **KryptAll** - Provides secure mobile networking, for encrypted celluar calling. However without being open source, these devices are harder to verify. See More: [KryptAll.com](https://www.kryptall.com)
+- **WiPhone** - A fully open source, modular and easily customizable phone for VOIP and LoRa. Great for making free calls over WiFi, communicating locally over LoRa, or just tinkering thanks to its ESP32 pinouts. See more: [WiPhone.io](https://www.wiphone.io/)
 - **Ano-Phone** - Android devices loaded with additional security defences. Not open source. 
 See More: [ano-phone.com](https://ano-phone.com)
 - **Secure Group** - Hardware-encrypted smart phones, for privacy and security. See more: [SecureGroup.com](https://securegroup.com/hardware)
