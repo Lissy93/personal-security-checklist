@@ -142,7 +142,7 @@ If you are using a deprecated PM, you should migrate to something actively maint
 **[Raivo OTP](https://github.com/raivo-otp/ios-application)** (iOS) | A native, lightweight and secure one-time-password (OTP) client built for iOS; Raivo OTP! - built by @tijme
 **[WinAuth](https://winauth.github.io/winauth)** (Windows) | Portable, encrypted desktop authenticator app for Microsoft Windows. With useful features, like hotkeys and some additional security tools, WinAuth is a great companion authenticator for desktop power-users. It's open source and well-established (since mid-2010)
 
-*Check which websites support multi-factor authentication: [twofactorauth.org](https://twofactorauth.org)*
+*Check which websites support multi-factor authentication: [2fa.directory](https://2fa.directory/)*
 
 #### Notable Mentions
 
