@@ -334,6 +334,7 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
   - [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
   - [Botometer](https://botometer.iuni.iu.edu/) - An AI script to check if a certain username is a bot
 - **Utilities**
+  - [Privacy.sexy](https://privacy.sexy/) - A collection of commands you can run to impplement best prctices on Windows or MacOS
   - [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
   - [Secure Password Check](https://password.kaspersky.com) - Fun little tool, to demonstrate how long it could take to crack a password
   - [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso) Protect your email address, by auto-generating unique permeant aliases for each account, so all emails land in your primary inbox
