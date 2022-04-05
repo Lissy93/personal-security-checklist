@@ -41,7 +41,7 @@ jobs:
     name: Inserts contributors into ATTRIBUTIONS.md
     steps:
     - name: Contribute List - Attributions Page
-      uses: akhilmhdh/contributors-readme-action@v2.2
+      uses: akhilmhdh/contributors-readme-action@v2.3.4
       env:
           GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
       with:
