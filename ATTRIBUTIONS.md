@@ -1,47 +1,49 @@
+# Attributions
+
+## Sponsors 💖
+
+<!-- readme: sponsors -start -->
+<!-- readme: sponsors -end -->
 
 ## Contributors 🙌
 
 Thanks goes to these wonderful people
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://gitlab.com/W1nst0n"><img src="https://avatars3.githubusercontent.com/u/55300518?v=4" width="90px;" alt=""/><br /><sub><b>0x192</b></sub></a><br /><a href="#security-0x192" title="Security">🛡️</a></td>
-    <td align="center"><a href="https://keybase.io/pipboy96"><img src="https://avatars1.githubusercontent.com/u/46632672?v=4" width="90px;" alt=""/><br /><sub><b>pipboy96</b></sub></a><br /><a href="#security-pipboy96" title="Security">🛡️</a></td>
-    <td align="center"><a href="https://aliciasykes.com"><img src="https://avatars1.githubusercontent.com/u/1862727?v=4" width="90px;" alt=""/><br /><sub><b>Alicia Sykes</b></sub></a><br /><a href="#security-Lissy93" title="Security">🛡️</a></td>
-    <td align="center"><a href="https://twitter.com/mwleeds"><img src="https://avatars2.githubusercontent.com/u/7833263?v=4" width="90px;" alt=""/><br /><sub><b>Matthew Leeds</b></sub></a><br /><a href="#security-mwleeds" title="Security">🛡️</a></td>
-    <td align="center"><a href="http://jaiminpandya.com"><img src="https://avatars0.githubusercontent.com/u/20967911?v=4" width="90px;" alt=""/><br /><sub><b>Jaimin Pandya</b></sub></a><br /><a href="#security-pndyjack" title="Security">🛡️</a></td>
-    <td align="center"><a href="https://twitter.com/ilesinge"><img src="https://avatars3.githubusercontent.com/u/501674?v=4" width="90px;" alt=""/><br /><sub><b>Alexandre G.-Raymond</b></sub></a><br /><a href="#security-ilesinge" title="Security">🛡️</a></td>
-    <td align="center"><a href="https://github.com/guestx86"><img src="https://avatars2.githubusercontent.com/u/56132403?v=4" width="90px;" alt=""/><br /><sub><b>guestx86</b></sub></a><br /><a href="#security-guestx86" title="Security">🛡️</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://www.baturin.org"><img src="https://avatars0.githubusercontent.com/u/482212?v=4" width="90px;" alt=""/><br /><sub><b>Daniil Baturin</b></sub></a><br /><a href="#security-dmbaturin" title="Security">🛡️</a></td>
-    <td align="center"><a href="https://transitiontech.ca"><img src="https://avatars2.githubusercontent.com/u/1264398?v=4" width="90px;" alt=""/><br /><sub><b>ansuz</b></sub></a><br /><a href="#security-ansuz" title="Security">🛡️</a></td>
-    <td align="center"><a href="https://github.com/8264"><img src="https://avatars0.githubusercontent.com/u/23311938?v=4" width="90px;" alt=""/><br /><sub><b>8264</b></sub></a><br /><a href="#security-8264" title="Security">🛡️</a></td>
-    <td align="center"><a href="https://github.com/101lols"><img src="https://avatars1.githubusercontent.com/u/29000894?v=4" width="90px;" alt=""/><br /><sub><b>101lols</b></sub></a><br /><a href="#security-101lols" title="Security">🛡️</a></td>
-  </tr>
-</table>
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+## Stargazers 🌟
 
-<!-- To add yourself to the table, copy the row above and replace with your details. Max 7 <td> (columns) per <tr> (row). -->
+[![Recent Star Gazers](https://reporoster.com/stars/dark/Lissy93/personal-security-checklist)](https://github.com/Lissy93/personal-security-checklist/stargazers)
 
+[![Recent Forkers](https://reporoster.com/forks/dark/lissy93/personal-security-checklist)](https://github.com/lissy93/personal-security-checklist/network/members)
 
-*This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.*
-
-[Contributions](/CONTRIBUTING.md) of any kind welcome!
+## Special Thanks 🤗
 
 Special Thanks to [Stefan Keim](https://github.com/indus) and [Matt (IPv4) Cowley](https://github.com/MattIPv4) from [JS.org](https://js.org), for providing the domain used for our GitHub Page ([security-list.js.org](https://security-list.js.org)).
 
 And of course, and huge thank you to the awesome developers behind the projects listed in the [Privacy-Respecting Software list](/5_Privacy_Respecting_Software.md). The effort, time and love they've put into each one of those applications is immediately apparent, they've done an amazing job 💞
 
+## You? 👈
+
+Want to get involved? You can support the continued development of this project by submitting a PR, sponsoring us on GitHub, sharing this repo with your network or staring the repository. [Contributions](/CONTRIBUTING.md) of any kind are very welcome!
+
+#### Submit an Improvement
+
+[![Submit a PR](https://img.shields.io/badge/Submit_a_PR-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/Lissy93/dashy/compare)
+
+#### Sponsor the Project
+
+[![Sponsor Lissy93 on GitHub](https://img.shields.io/badge/Sponsor_on_GitHub-Lissy93-%23ff4dda?style=for-the-badge&logo=githubsponsors&logoColor=ff4dda)](https://github.com/sponsors/Lissy93)
+
+#### Share with your Network
+
+[![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
+[![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/personal-security-checklist&title=The%20Ultimate%20Personal%20Cyber%20Security%20Checklist&summary=%F0%9F%94%92%20A%20curated%20list%20of%20100%2B%20tips%20for%20protecting%20digital%20security%20and%20privacy%20in%202020&source=https://github.com/Lissy93)
+[![Share on Mastodon](https://img.shields.io/badge/Share-Mastodon-56a7e1?style=for-the-badge&logo=Mastodon)](https://mastodon.social/web/statuses/new?text=Check%20out%20the%20Ultimate%20Personal%20Cyber%20Security%20Checklist%20by%20%40Lissy93%20on%20%23GitHub%20%20%F0%9F%94%90%20%E2%9C%A8)
+
 
 ## References 📝
-
 
 <blockquote>
 "2019 Data Breach Investigations Report - EMEA", Verizon Enterprise Solutions, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/2019-data-breach-investigations-report-emea.pdf. [Accessed: 25- Apr- 2020]  
@@ -151,14 +153,7 @@ Yelp, Luca Wu. Is Google degrading search? Consumer Harm from Universal Search, 
 **Above References apply to the Content in the Following Files**:<br>
 [TLDR](/2_TLDR_Short_List.md) | [Intro](/0_Why_It_Matters.md) | [The Personal Security Checklist](/README.md) | [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md) | [Security Hardware](/6_Privacy_and-Security_Gadgets.md) | [Further Links](/4_Privacy_And_Security_Links.md)
 
-## Stars 🌟
-
-[![Stargazers over time](https://starchart.cc/Lissy93/personal-security-checklist.svg)](https://star-history.t9t.io/#Lissy93/personal-security-checklist)
-
-Thank you [@caarlos0](https://github.com/caarlos0) for the above [Star Chart](https://github.com/caarlos0/starcharts) ☺️
-
-
 ---
 
-Licensed under [Creative Commons, CC BY 4.0](/LICENSE.md), © [Alicia Sykes](https://aliciasykes.com) 2020
+Licensed under [Creative Commons, CC BY 4.0](/LICENSE.md), © [Alicia Sykes](https://aliciasykes.com) 2022
 
