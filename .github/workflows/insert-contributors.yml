@@ -46,7 +46,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
       with:
         image_size: 80
-        readme_path: docs/ATTRIBUTIONS.md
+        readme_path: ATTRIBUTIONS.md
         columns_per_row: 6
         commit_message: '💓 Updates contributors list'
         committer_username: liss-bot
