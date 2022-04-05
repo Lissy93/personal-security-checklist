@@ -13,7 +13,7 @@
 - Use a long, strong and unique password for each of your accounts (see [HowSecureIsMyPassword.net](https://howsecureismypassword.net))
 - Use a secure [password manager](/5_Privacy_Respecting_Software.md#password-managers), to encrypt, store and fill credentials, such as [BitWarden](https://bitwarden.com) or [KeePass](https://keepass.info) / [KeePassXC](https://keepassxc.org)
 - Enable 2-Factor authentication where available, and use an [authenticator app](/5_Privacy_Respecting_Software.md#2-factor-authentication) or [hardware token](/6_Privacy_and-Security_Gadgets.md#fido-u2f-keys)
-- When you enable multi-factor authentication, you will usually be given several codes that you can use if your 2FA method is lost, broken or unavailable. You could store them in your password manager or on paper in a safe place so you will not be locked out
+- When you enable multi-factor authentication, you will usually be given several codes that you can use if your 2FA method is lost, broken or unavailable. You should store these on paper or in a safe place on disk (e.g. in offline storage or as in an encrypted file/drive).
 - Sign up for breach alerts (with [Firefox Monitor](https://monitor.firefox.com) or [HaveIBeenPwned](https://haveibeenpwned.com)), and update passwords of compromised accounts
 
 
