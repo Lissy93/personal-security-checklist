@@ -20,7 +20,7 @@ jobs:
           includeBots: false
           avatarSize: 96
           userNameHeight: 20
-          svgWidth: 830
+          svgWidth: 1024
           commitMessage: '💓 Updates contributor SVG'
 
   # Job #2 - Fetches sponsors and inserts table into attributions page
