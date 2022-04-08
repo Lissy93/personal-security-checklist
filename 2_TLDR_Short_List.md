@@ -89,16 +89,39 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 - App Firewall: [NetGuard] (Android) | [Lockdown] (iOS) | [OpenSnitch] (Linux) | [LuLu] (MacOS)
 
 #### Browser Extensions
-[Privacy Badger] - Blocks trackers. [HTTPS Everywhere] - Upgrades requests to HTTPS. [uBlock Origin] - Blocks ads, trackers and malwares. [ScriptSafe] - Block execution of certain scripts. [WebRTC Leak Prevent] - Prevents IP leaks. [Vanilla Cookie Manager] - Auto-removes unwanted cookies. [Privacy Essentials] - Shows which sites are insecure
+- [Privacy Badger] - Blocks trackers.
+- [HTTPS Everywhere] - Upgrades requests to HTTPS.
+- [uBlock Origin] - Blocks ads, trackers and malwares.
+- [ScriptSafe] - Block execution of certain scripts.
+- [WebRTC Leak Prevent] - Prevents IP leaks.
+- [Vanilla Cookie Manager] - Auto-removes unwanted cookies.
+- [Privacy Essentials] - Shows which sites are insecure
 
 #### Mobile Apps
-[Exodus] - Shows which trackers are on your device. [Orbot]- System-wide Tor Proxy. [Island] - Sand-box environment for apps. [NetGuard] - Controll which apps have network access. [Bouncer] - Grant temporary permissions. [Greenify] - Control which apps can run in the background. [1.1.1.1] - Use CloudFlare's DNS over HTTPS. [Fing App] - Monitor your home WiFi network for intruders
+- [Exodus] - Shows which trackers are on your device.
+- [Orbot]- System-wide Tor Proxy.
+- [Island] - Sand-box environment for apps.
+- [NetGuard] - Controll which apps have network access.
+- [Bouncer] - Grant temporary permissions.
+- [Greenify] - Control which apps can run in the background.
+- [1.1.1.1] - Use CloudFlare's DNS over HTTPS.
+- [Fing App] - Monitor your home WiFi network for intruders
 
 #### Online Tools
-[εxodus] - Shows which trackers an app has. [';--have i been pwned?] - Check if your details have been exposed in a breach. [EXIF Remover] - Removes meta data from image or file. [Redirect Detective] - Shows where link redirects to. [Virus Total] - Scans file or URL for malware. [Panopticlick], [Browser Leak Test] and [IP Leak Test] - Check for system and browser leaks
+- [εxodus] - Shows which trackers an app has.
+- [';--have i been pwned?] - Check if your details have been exposed in a breach.
+- [EXIF Remover] - Removes meta data from image or file.
+- [Redirect Detective] - Shows where link redirects to.
+- [Virus Total] - Scans file or URL for malware.
+- [Panopticlick], [Browser Leak Test] and [IP Leak Test] - Check for system and browser leaks
 
 #### Productivity Tools
-File Storage: [NextCloud]. File Sync: [Syncthing]. File Drop: [Firefox Send]. Notes: [Standard Notes], [Cryptee], [Joplin]. Blogging: [Write Freely]. Calendar/ Contacts Sync: [ETE Sync]
+- File Storage: [NextCloud].
+- File Sync: [Syncthing].
+- File Drop: [Firefox Send].
+- Notes: [Standard Notes], [Cryptee], [Joplin].
+- Blogging: [Write Freely].
+- Calendar/ Contacts Sync: [ETE Sync]
 
 📜 **See More**: [Complete List of Privacy-Respecting Sofware](/5_Privacy_Respecting_Software.md)
 
