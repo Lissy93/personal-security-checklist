@@ -118,7 +118,7 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 #### Productivity Tools
 - File Storage: [NextCloud].
 - File Sync: [Syncthing].
-- File Drop: [Firefox Send].
+- File Drop: [FilePizza].
 - Notes: [Standard Notes], [Cryptee], [Joplin].
 - Blogging: [Write Freely].
 - Calendar/ Contacts Sync: [ETE Sync]
@@ -212,7 +212,7 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [Cryptee]: https://crypt.ee
 [Joplin]: https://joplinapp.org
 [ETE Sync]: https://www.etesync.com/accounts/signup/?referrer=QK6g
-[Firefox Send]: https://send.firefox.com
+[FilePizza]: https://file.pizza/
 [Syncthing]: https://syncthing.net
 [Write Freely]: https://writefreely.org
 
