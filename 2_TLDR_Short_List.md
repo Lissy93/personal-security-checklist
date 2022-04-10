@@ -66,7 +66,7 @@ It's important to protect your email account, as if a hacker gains access to it 
 ### Networking
 - Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log, but understand their [limitations](5_Privacy_Respecting_Software.md#word-of-warning-4).  Good options include [ProtonVPN](https://protonvpn.com) and [Mullvad](https://mullvad.net), see [thatoneprivacysite.net](https://thatoneprivacysite.net/) for detailed comparisons
 - Change your routers default password. Anyone connected to your WiFi is able to listen to network traffic, so in order to prevent people you don't know from connecting, use WPA2 and set a strong password.
-- Use a [secure DNS](/5_Privacy_Respecting_Software.md#dns) provider, (such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/) to reduce tracking. Ideally configure this on your router, but if that's not possible, then it can be done on each device. 
+- Use a [secure DNS](/5_Privacy_Respecting_Software.md#dns) provider, (such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/)) to reduce tracking. Ideally configure this on your router, but if that's not possible, then it can be done on each device. 
 
 
 **📜 See More**: [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)
