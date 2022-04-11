@@ -128,7 +128,7 @@
   - How to Track a Cellphone Without GPS—or Consent: via [Gizmodo](https://gizmodo.com/how-to-track-a-cellphone-without-gps-or-consent-1821125371)
   - Apps able to track device location, through power manager: via [Wired](https://www.wired.com/2015/02/powerspy-phone-tracking/)
   - Hackers and governments can see you through your phone’s camera: via [Business Insider](https://www.businessinsider.com/hackers-governments-smartphone-iphone-camera-wikileaks-cybersecurity-hack-privacy-webcam-2017-6)
-  - Law Enforcement Geo-Fence Data Requests- How an Innocent cyclist became a suspect when cops accessed his Google location data: via [Daily Mail](https://www.dailymail.co.uk/news/article-8086095/Police-issue-warrant-innocent-mans-Google-information.html)
+  - Law Enforcement Geo-Fence Data Request - How an Innocent cyclist became a suspect when cops accessed his Google location data: via [Daily Mail](https://www.dailymail.co.uk/news/article-8086095/Police-issue-warrant-innocent-mans-Google-information.html)
   - IBM Used NYPD Surveillance Footage to Develop Technology That Lets Police Search by Skin Color: via [TheIntercept](https://theintercept.com/2018/09/06/nypd-surveillance-camera-skin-tone-search/)
 - **Threats**
   - 23 reasons not to reveal your DNA: via [Internet Health Report](https://internethealthreport.org/2019/23-reasons-not-to-reveal-your-dna)
@@ -141,7 +141,7 @@
   - Big data privacy risks: via [CSO Online](https://www.csoonline.com/article/2855641/the-5-worst-big-data-privacy-risks-and-how-to-guard-against-them.html)
   - Anti-Doxing Guide (For Activists Facing Attacks): via [Equality Labs](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c)
 - **Breaches**
-  - Wired guide to data breaches- past, present and future: via [Wired](https://www.wired.com/story/wired-guide-to-data-breaches/)
+  - Wired guide to data breache - past, present and future: via [Wired](https://www.wired.com/story/wired-guide-to-data-breaches/)
   - Grindr and OkCupid Spread Personal Details Study Says: via [NY Times](https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html)
   - The Asia-Pacific Cyber Espionage Campaign that Went Undetected for 5 Years: via [TheHackerNews](https://thehackernews.com/2020/05/asia-pacific-cyber-espionage.html)
   - ClearView AI Data Breach - 3 Billion Faces: via [Forbes](https://www.forbes.com/sites/kateoflahertyuk/2020/02/26/clearview-ai-the-company-whose-database-has-amassed-3-billion-photos-hacked/)
@@ -177,7 +177,7 @@
   - [The Hacker News](https://thehackernews.com/)  - News and info covering Data Breaches, Cyber Attacks, Vulnerabilities, Malware. [RSS](https://feeds.feedburner.com/TheHackersNews)
   - [Sophos: Naked Security](https://nakedsecurity.sophos.com/) - Security news and updates, presented in an easy-to-digest format. [RSS](https://nakedsecurity.sophos.com/feed/)
   - [IT Security Guru](https://www.itsecurityguru.org/) - Combines top cyber security news from multiple sites, easier to stay up-to-date
-  - [FOSS Bytes- Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
+  - [FOSS Byte - Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
 - **Cyber Security Infomation**
   - [Heimdal](https://heimdalsecurity.com/blog) - Personal Cyber Security Tutorials and Articles
   - [Tech Crunch](https://techcrunch.com/tag/cybersecurity-101) - Cyber Security 101
@@ -420,7 +420,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [OpenPhish](https://openphish.com) - A feed of current phishing endpoints
   - [HashToolkit](http://hashtoolkit.com) - Database of 'cracked' hashes
   - [SecLists](https://github.com/danielmiessler/SecLists) - Starter list of leaked databases, passwords, usernames etc (Great for programming)
-  - [Qualys SSL Pulse](https://www.ssllabs.com/ssl-pulse) - A continuous and global dashboard for monitoring the quality of SSL / TLS support over time across 150,000 SSL- and TLS-enabled websites, based on Alexa’s list of the most popular sites in the world
+  - [Qualys SSL Pulse](https://www.ssllabs.com/ssl-pulse) - A continuous and global dashboard for monitoring the quality of SSL / TLS support over time across 150,000 SS - and TLS-enabled websites, based on Alexa’s list of the most popular sites in the world
   - [Tor Bulk Exit List](https://check.torproject.org/torbulkexitlist) - List of all exit nodes (IP) in use on the Tor network
 - **Fun with Live Data** 🌠
   - **Internet**
@@ -497,7 +497,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - Location Tracking using Mobile Device Power Analysis: [scribd.com](https://www.scribd.com/doc/256304846/PowerSpy-Location-Tracking-using-Mobile-Device-Power-Analysis)
   - HORNET, High-speed Onion Routing at the Network Layer: via [arxiv.org](https://arxiv.org/pdf/1507.05724v1.pdf)
   - Decoy Routing: Toward Unblockable Internet Communication: via [usenix.org](https://www.usenix.org/legacy/events/foci11/tech/final_files/Karlin.pdf)
-  - Trackers Vs Firefox, Comparing different blocking utilities: via [GitHub- @jawz101](https://github.com/jawz101/TrackersVsFirefox)
+  - Trackers Vs Firefox, Comparing different blocking utilities: via [GitHu - @jawz101](https://github.com/jawz101/TrackersVsFirefox)
   - 'I've Got Nothing to Hide' and Other Misunderstandings of Privacy: via [ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565&)
 - **Write-Ups**
   - Privacy - An Encyclopedic Definition and Background [stanford.edu](https://plato.stanford.edu/entries/privacy/)
