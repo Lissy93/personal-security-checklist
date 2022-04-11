@@ -1,4 +1,4 @@
-# Digital Privacy and Securit - Why is Matters
+# Digital Privacy and Security - Why is Matters
 
 
 **TLDR;** Privacy is a fundamental right, and essential to democracy, liberty, and freedom of speech. Our privacy is being abused by governments (with mass-surveillance), corporations (profiting from selling personal data), and cyber criminals (stealing our poorly-secured personal data and using it against us). Security is needed in order to keep your private data private, and good digital security is critical to stay protected from the growing risks associated with the war on data.
@@ -21,7 +21,7 @@ Data that has been collected is typically stored in databases on a server. These
 Data is collected, stored and used by governments, law enforcement, corporations and sometimes criminals:
 
 ### Government Mass Surveillance
-Intelligence and law enforcement agencies need surveillance powers to tackle serious crime and terrorism. However, since the Snowden revelations, we now know that this surveillance is not targeted at those suspected of wrongdoin - but instead the entire population. All our digital interactions are being logged and tracked by our very own governments.
+Intelligence and law enforcement agencies need surveillance powers to tackle serious crime and terrorism. However, since the Snowden revelations, we now know that this surveillance is not targeted at those suspected of wrongdoing - but instead the entire population. All our digital interactions are being logged and tracked by our very own governments.
 
 Mass surveillance is a means of control and suppression, it takes away our inerrant freedoms and breeds conformity. When we know we are being watched, we subconsciously change our behavior. A society of surveillance is just one step away from a society of submission.
 
@@ -48,7 +48,7 @@ Privacy is a fundamental right, and you shouldn't need to prove the necessity of
 Knowledge is power; Knowledge about you is power over you. Your information will be used to anticipate your actions and manipulate the way you shop, vote, and think. When you know you are being watched, you subconsciously change your behavior. Mass surveillance is an effective means of fostering compliance with social norms or with social orthodoxy. Without privacy, you might be afraid of being judged by others, even if you're not doing anything wrong. It can be a heavy burden constantly having to wonder how everything we do will be perceived by others.
 
 #### Data Can Be Used Against You
-Your personal information and private communications can be "cherry-picked" to paint a certain one-sided picture. It can make you look like a bad person, or criminal, even if you are not. Data often results in people not being judged fairl - standards differ between cultures, organisations, and generations. Since data records are permanent, behavior that is deemed acceptable today, may be held against you tomorrow. Further to this, even things we don't think are worth hiding today, may later be used against us in unexpected ways.
+Your personal information and private communications can be "cherry-picked" to paint a certain one-sided picture. It can make you look like a bad person, or criminal, even if you are not. Data often results in people not being judged fairly - standards differ between cultures, organisations, and generations. Since data records are permanent, behavior that is deemed acceptable today, may be held against you tomorrow. Further to this, even things we don't think are worth hiding today, may later be used against us in unexpected ways.
 
 #### Data Collection Has No Respect For Boundaries
 Data collection has no respect for social boundaries, you may wish to prevent some people (such as employers, family or former partners) from knowing certain things about you. Once you share personal data, even with a party you trust, it is then out of your control forever, and at risk of being hacked, leaked or sold. An attack on our privacy, also hurts the privacy of those we communicate with.
