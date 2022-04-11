@@ -141,7 +141,7 @@ If you are using a deprecated PM, you should migrate to something actively maint
 **[Authenticator](https://mattrubin.me/authenticator/)** (iOS) | Simple, native, open source 2-FA Client for iOS, which never connects to the internet - built by @mattrubin.me
 **[Raivo OTP](https://github.com/raivo-otp/ios-application)** (iOS) | A native, lightweight and secure one-time-password (OTP) client built for iOS; Raivo OTP! - built by @tijme
 **[WinAuth](https://winauth.github.io/winauth)** (Windows) | Portable, encrypted desktop authenticator app for Microsoft Windows. With useful features, like hotkeys and some additional security tools, WinAuth is a great companion authenticator for desktop power-users. It's open source and well-established (since mid-2010)
-**[Etopa](https://play.google.com/store/apps/details?id=de.ltheinrich.etopa)** (Android)  |free and open source app for two-factor-authentication (2FA), which runs as a web server and can be accessed using a web browser or using an Android app
+**[Etopa](https://play.google.com/store/apps/details?id=de.ltheinrich.etopa)** (Android)  | Free and open source app for two-factor-authentication (2FA), which runs as a web server and can be accessed using a web browser or using an Android app
 
 *Check which websites support multi-factor authentication: [2fa.directory](https://2fa.directory/)*
 
