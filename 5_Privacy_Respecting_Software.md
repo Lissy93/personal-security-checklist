@@ -217,6 +217,8 @@ Google frequently modifies and manipulates search, and is in pursuit of eliminat
 #### Notable Mentions
 [MetaGear](https://metager.org), [YaCy](https://yacy.net). Alternativley, host your own instance of [Searx](https://asciimoo.github.io/searx/)
 
+12Bytes also maintains a list of [privacy-respecting search engines](https://12bytes.org/articles/tech/alternative-search-engines-that-respect-your-privacy/)
+
 **See also** [Browser & Search Security Checklist](/README.md#browser-and-search)
 
 
