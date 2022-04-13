@@ -1026,7 +1026,7 @@ Of course you could also host your blog on your own server, using a standard ope
 **[Feedly](https://feedly.com)** | A more premium option. Feedly displays news from your selected sources in an easy-to-digest clean and modern interface. It works with more than just RSS feeds, since it is well integrated with many major news outlets. It does not manipulate the stories you see, and is mostly open source
 
 #### Notable Mentions
-For iPhone users in the US, [Tonic](https://canopy.cr/tonic) is a great little app that provides you with a selection of personalized new stories and articles daily. It is possible to us [Reddit](https://www.reddit.com) anonymously too - you can use throwaway accounts for posting.
+For iPhone users in the US, [Tonic](https://canopy.cr/tonic) is a great little app that provides you with a selection of personalized new stories and articles daily. It is possible to use [Reddit](https://www.reddit.com) anonymously too - you can use throwaway accounts for posting.
 
 #### Word of Warning
 News reader apps don't have a good [reputation](https://vpnoverview.com/privacy/apps/privacy-risks-news-apps) when it comes to protecting users privacy, and often display biased content. Many have revenue models based on making recommendations, with the aim of trying to get you to click on sponsored articles - and for that a lot of data needs to have been collected about you, your habits, interests and routines. 
