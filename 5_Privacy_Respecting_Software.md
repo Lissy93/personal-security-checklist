@@ -717,6 +717,7 @@ An IDS is an application that monitors a network or computer system for maliciou
 **[OSSEC](https://www.ossec.net/)** | OSSEC is an Open Source host-based intrusion detection system, that performs log analysis, integrity checking, monitoring, rootkit detection, real-time alerting and active response
 **[Kismet](https://www.kismetwireless.net/)** |An 802.11 layer2 wireless network detector, sniffer, and intrusion detection system
 **[Snare](https://www.snaresolutions.com/products/snare-central/)** | SNARE (System iNtrusion Analysis and Reporting Environment) is a series of log collection agents that facilitate centralized analysis of audit log data. Logs from the OS are collected and audited. Full remote access, through a web interface easy to use manually, or by an automated process
+**[picosnitch](https://github.com/elesiuta/picosnitch)** | picosnitch helps protect your security and privacy by "snitching" on anything that connects to the internet, letting you know when, how much data was transferred, and to where. It uses BPF to monitor network traffic per application, and per parent to cover those that just call others. It also hashes every executable, and will complain if some mischievous program is giving it trouble.
 
 
 ## Cloud Hosting
