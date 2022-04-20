@@ -172,7 +172,7 @@ For KeePass users, [TrayTop](https://keepass.info/plugins.html#traytotp) is a pl
 PGP may be useful for encrypting individual files and folders, preparing files for transmission, or adding an additional layer of security to sensitive 
 data. With PGP, you can encrypt, decrypt, sign and verify files and folders: see [PGP Tools](#pgp-managers)
 
-[BitLocker](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) is popular among Microsoft Windows and enterprise users, and provides fast, efficient and (if correctly configured) reasonabley secure full drive encryption. However it is not open source, has poor compatibility with other operating systems, and has some very dodgy [defaults](https://www.diskcryptor.org/why-not-bitlocker/), which could lead to your system being compromised. Similarly, Apple's [FileVault](https://support.apple.com/en-us/HT204837) on MacOS is easy and secure, but again, the source code is proprietary.
+[BitLocker](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) is popular among Microsoft Windows and enterprise users, and provides fast, efficient and (if correctly configured) reasonably secure full drive encryption. However it is not open source, has poor compatibility with other operating systems, and has some very dodgy [defaults](https://www.diskcryptor.org/why-not-bitlocker/), which could lead to your system being compromised. Similarly, Apple's [FileVault](https://support.apple.com/en-us/HT204837) on MacOS is easy and secure, but again, the source code is proprietary.
 
 [DiskCryptor](https://www.diskcryptor.org/) is a Windows-only, open source, file and volume encryption solution, that makes a good alternative to BitLocker.
 
@@ -217,7 +217,7 @@ Google frequently modifies and manipulates search, and is in pursuit of eliminat
 **[Startpage](https://www.startpage.com/)** | Dutch search engine that searches on google and shows the results (slightly rearranged). It has several configurations that improve privacy during use (it is not open source)
 
 #### Notable Mentions
-[MetaGear](https://metager.org), [YaCy](https://yacy.net). Alternativley, host your own instance of [Searx](https://asciimoo.github.io/searx/)
+[MetaGear](https://metager.org), [YaCy](https://yacy.net). Alternatively, host your own instance of [Searx](https://asciimoo.github.io/searx/)
 
 12Bytes also maintains a list of [privacy-respecting search engines](https://12bytes.org/articles/tech/alternative-search-engines-that-respect-your-privacy/)
 
@@ -531,7 +531,7 @@ Fun little projects that you can run on a Raspberry Pi, or other low-powered com
 **[PiVPN](https://pivpn.io)** | A simple way to set up a home VPN on a any Debian server. Supports OpenVPN and WireGuard with elliptic curve encryption keys up to 512 bit. Supports multiple DNS providers and custom DNS providers - works nicely along-side PiHole
 **[E2guardian](http://e2guardian.org)** | Powerful open source web content filter
 **[SquidGuard](http://www.squidguard.org)** | A URL redirector software, which can be used for content control of websites users can access. It is written as a plug-in for Squid and uses blacklists to define sites for which access is redirected
-**[PF Sense](https://www.pfsense.org)** | Widley used, open source firewall/router
+**[PF Sense](https://www.pfsense.org)** | Widely used, open source firewall/router
 **[Zeek](https://www.zeek.org)** |  Detect if you have a malware-infected computer on your network, and powerful network analysis framework and monitor
 
 Don't want to build? See also: [Pre-configured security boxes](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_and-Security_Gadgets.md#network-security)
@@ -742,7 +742,7 @@ The country that your data is hosted in, will be subject to local laws and regul
 
 | Provider | Description |
 | --- | --- |
-**[deSEC](https://desec.io/)** | Free DNS hosting provider designed with security in mind, and running on purley open source software. deSEC is backed and funded by [SSE](https://securesystems.de/en/).
+**[deSEC](https://desec.io/)** | Free DNS hosting provider designed with security in mind, and running on purely open source software. deSEC is backed and funded by [SSE](https://securesystems.de/en/).
 
 
 ## Pre-Configured Mail-Servers
@@ -894,7 +894,7 @@ Tools for signing, verifying, encrypting and decrypting text and files using [Gn
 **[OpenKeychain](https://www.openkeychain.org)** (Android) | Android appp for managing keys, and encrypting messages. Works both stand-alone, and as integrated into other apps, includion [k9-Mail](https://k9mail.app)
 **[PGP Everywhere](https://www.pgpeverywhere.com)** (iOS) | iOS app for encrypting/ decrypting text. Has native keyboard integration, which makes it quick to use. Note: Not open source
 **[FlowCrypt](https://flowcrypt.com)** (Browser) | Browser extension for using PGP within Gmail, for Chrome and Firefox. Mobile version supported on Android and iOS
-**[EnigMail](https://enigmail.net)** (Thunderbird) | OpenPGP extension for [Thunderbird](https://www.thunderbird.net) and [PostBox](https://www.postbox-inc.com), intergrates nativley within mail app
+**[EnigMail](https://enigmail.net)** (Thunderbird) | OpenPGP extension for [Thunderbird](https://www.thunderbird.net) and [PostBox](https://www.postbox-inc.com), intergrates natively within mail app
 **[p≡p](https://www.pep.security)** | Easy-to-use decentralied PGP encryption for Android, iOS, Thunderbird, Enigmail, and Outlook. Popular solution for enterprises
 **[Mailvelope](https://www.mailvelope.com)** (Email) | Mailvelope is an addon for email applications, that makes using PGP very easy for beginners. You can use the hosted version for free, or opt to host your own instance. It has good compatibility with all common mail applications, both on desktop and mobile
 **[PGP4USB](https://gpg4usb.org)** (Portable) | A portable desktop app, that can be run directly off a USB, useful for when you need to use without installing
@@ -942,7 +942,7 @@ Such as the [`dd`](https://en.wikipedia.org/wiki/Dd_%28Unix%29) command, is a to
 
 ## Virtual Machines
 
-A VM is a sandboxed operating system, running within your current system. Useful for compartmentalisation and safley testing software, or handling potentially malicious files
+A VM is a sandboxed operating system, running within your current system. Useful for compartmentalisation and safely testing software, or handling potentially malicious files
 
 | Provider | Description |
 | --- | --- |
@@ -991,7 +991,7 @@ Without moderation, some of these platforms accommodate video creators, who cont
 
 #### YouTube Proxies
 The content on many of the smaller video sites, often just doesn't compare to YouTube. So another alternative, is to access YouTube through a proxy client, which reduces what Google can track).
-- Good options are: [Invidio](https://invidio.us/) (web), [FreeTube](https://freetubeapp.io/) (Windows, Mac OS, Linux), [NewPipe](https://newpipe.schabi.org/) (Android), [YouTube++](https://iosninja.io/ipa-library/download-youtube-plus-ipa-ios) (iOS)
+- Good options are: [Invidious](https://invidious.io/) (web), [Piped](https://piped.kavin.rocks) (web), [FreeTube](https://freetubeapp.io/) (Windows, Mac OS, Linux), [NewPipe](https://newpipe.schabi.org/) (Android), [YouTube++](https://iosninja.io/ipa-library/download-youtube-plus-ipa-ios) (iOS)
 - Or download videos with [youtube-dl](https://ytdl-org.github.io/youtube-dl/) (cli) or [youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui) (gui). For just audio, there is [PodSync](https://podsync.net/)
 
 #### Video Search Engines
@@ -1033,15 +1033,15 @@ These are websites that enable you to access existing social media platforms, wi
 
 | Provider | Description |
 | --- | --- |
-**[Nitter](https://nitter.net/)** (Twitter) | Nitter is a free and open source alternative Twitter front-end focused on privacy, it prevents Twitter from tracking your IP or browser fingerprint. It does not include any JavaScript, and all requests go through the backend, so the client never talks directly to Twitter. It's written in Nim, is super lightweight, with multiple themes and a responsive mobile version available, as well as customizable RSS feeds. Uses an unofficial API, with no rate limits or and no developer account required
-**[Invidio](https://invidio.us/)** (YouTube) | Privacy-focused, open source alternative frontend for YouTube. It prevents/ reduces Google tracking, and adds additional features, including an audio-only mode, Reddit comment feed, advanced video playback settings. It's super lightweight, and does not require JavaScript to be enabled, and you can import/ export your subscriptions list, and customize your feed. See list of [Invidious Public Instances](https://github.com/iv-org/invidious/wiki/Invidious-Instances)
-**[Bibliogram](https://bibliogram.art/)** (Instagram) | Enables you to view Instagram profiles through their proxy without any tracking, great for anonymity. Bibliogram also has several other benefits over using the official Instagram website - Pages also load much faster, it gives you downloadable images, eliminates ads, generates RSS feeds, and doesn't urge you to sign up. It can also easily be self-hosted. However, there is no functionality to create posts via this service
+**[Nitter](https://nitter.net/)** (Twitter) | Nitter is a free and open source alternative Twitter front-end focused on privacy, it prevents Twitter from tracking your IP or browser fingerprint. It does not include any JavaScript, and all requests go through the backend, so the client never talks directly to Twitter. It's written in Nim, is super lightweight, with multiple themes and a responsive mobile version available, as well as customizable RSS feeds. Uses an unofficial API, with no rate limits or and no developer account required.
+**[Invidious](https://invidious.io/)** (YouTube) | Privacy-focused, open source alternative frontend for YouTube. It prevents/ reduces Google tracking, and adds additional features, including an audio-only mode, Reddit comment feed, advanced video playback settings. It's super lightweight, and does not require JavaScript to be enabled, and you can import/ export your subscriptions list, and customize your feed. See list of [Invidious Public Instances](https://github.com/iv-org/invidious/wiki/Invidious-Instances).
+**[Bibliogram](https://bibliogram.art/)** (Instagram) | Enables you to view Instagram profiles through their proxy without any tracking, great for anonymity. Bibliogram also has several other benefits over using the official Instagram website - Pages also load much faster, it gives you downloadable images, eliminates ads, generates RSS feeds, and doesn't urge you to sign up. It can also easily be self-hosted. However, there is no functionality to create posts via this service.
 **[Libreddit](https://libredd.it/)** (Reddit) |  Private front-end for Reddit written in Rust. Massively [faster than Reddit](https://github.com/spikecodes/libreddit#speed) by not including ads, trackers or bloat. Libreddit can be deployed and selfhosted through `cargo`, Docker and Repl.it and proxies all requests through the back-end. Libreddit currently implements most of Reddit's functionalities that don't require users to be signed in.
-**[WebProxy](https://weboproxy.com/)** | Free proxy service, with Tor mode (which is recommended to enable). Designed to be used to evade censorship and access geo-blocked content. The service is maintained by [DevroLabs](https://devrolabs.com/), who also run the [OnionSite](https://onionsite.weboproxy.com/) web proxy, they claim to that all traffic is 256-bit SSL-encrypted, but this cannot be verified - never enter any potentially personally identifiable infomation, and use it purely for consuming content
+**[WebProxy](https://weboproxy.com/)** | Free proxy service, with Tor mode (which is recommended to enable). Designed to be used to evade censorship and access geo-blocked content. The service is maintained by [DevroLabs](https://devrolabs.com/), who also run the [OnionSite](https://onionsite.weboproxy.com/) web proxy, they claim to that all traffic is 256-bit SSL-encrypted, but this cannot be verified - never enter any potentially personally identifiable infomation, and use it purely for consuming content.
 
 #### Notable Mentions
-**[NewPipe](https://newpipe.schabi.org/)** is an open source, privacy-respecting YouTube client for Android.
-**[FreeTube](https://freetubeapp.io/)** an open source YouTube client for Windows, MacOS and Linux, providing a more private experience, with a native-feel desktop app. It is built upon the [Invidio](https://invidio.us/) API.
+- **[NewPipe](https://newpipe.schabi.org/)** is an open source, privacy-respecting YouTube client for Android.
+- **[FreeTube](https://freetubeapp.io/)** an open source YouTube client for Windows, MacOS and Linux, providing a more private experience, with a native-feel desktop app. It is built upon the [Invidious](https://invidious.io/) API.
 
 #### Word of Warning
 When proxies are involved - only use reputable services, and **never** enter any personal information
@@ -1130,7 +1130,7 @@ Note that credit card providers heavily track transaction metadata, which build 
 | Provider | Description |
 | --- | --- |
 **[Firefly III](https://www.firefly-iii.org)** (Self-hosted) | A free and open source personal finance manager. Firefly III has all essential features, a clean and clear UI and is easy to set up and use (see [live demo](https://demo.firefly-iii.org)). It's backed by a strong community, and is regularly updated with new features, improvements and fixes. There is also a hass.io [addon](https://github.com/hassio-addons/addon-firefly-iii), and it works nicely with [Home Assistant](https://www.home-assistant.io). Note: Since it is self-hosted, you will need to ensure that your server (either local or remote) is correctly configured for security.
-**[EasyBudget](https://play.google.com/store/apps/details?id=com.benoitletondor.easybudgetapp)** (Android) | Clean and easy-to-use app open source budgeting app. It doesn't have all the features that alternatives offer, but it does simple budget management and planning very effectivley
+**[EasyBudget](https://play.google.com/store/apps/details?id=com.benoitletondor.easybudgetapp)** (Android) | Clean and easy-to-use app open source budgeting app. It doesn't have all the features that alternatives offer, but it does simple budget management and planning very effectively
 **[HomeBank](http://homebank.free.fr)** (Desktop) | Desktop personal financial management option. Great for generating charts, dynamic reports and visualising transactions. HomeBank makes it easy to import financial data from other software (Quick Books, Microsoft Money etc) and bank accounts (in OFX/QFX, QIF, CSV format), and has all the essential features you'd expect. Available on Linux and Windows (and a 3rd-party port for Mac OS)
 **[GnuCash](https://www.gnucash.org)** (Desktop) | Full-featured cross-platform accounting application, which works well for both personal and small business finance. First released in 1998, GnuCash is long standing and very stable, and despite a slightly dated UI, it's still a very popular option. Originally developed for Linux, GnuCash is now available for Windows, Mac and Linux and also has a well rated official [Android app](https://play.google.com/store/apps/details?id=org.gnucash.android&hl=en)
 
@@ -1158,7 +1158,7 @@ collecting a wealth of information, and logging your every move. A [custom ROM](
 
 
 #### Other Notable Mentions
-[Replicant OS](https://www.replicant.us/) is a fully-featured distro, with an emphasis on freedom, privacy and security. [MmniRom](https://www.omnirom.org/), [Recursion Remix](https://forum.xda-developers.com/remix), and [Paranoid Android](http://paranoidandroid.co/) are also popular options. Alternativley, [Ubuntu Touch](https://ubports.com/) is a Linux (Ubuntu)- based OS. It is secure by design and runs on almost any device, - but it does fall short when it comes to the app store.
+[Replicant OS](https://www.replicant.us/) is a fully-featured distro, with an emphasis on freedom, privacy and security. [MmniRom](https://www.omnirom.org/), [Recursion Remix](https://forum.xda-developers.com/remix), and [Paranoid Android](http://paranoidandroid.co/) are also popular options. Alternatively, [Ubuntu Touch](https://ubports.com/) is a Linux (Ubuntu)- based OS. It is secure by design and runs on almost any device, - but it does fall short when it comes to the app store.
 
 To install apps on the Play Store without using the Play Store app see [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore). For Google Play Service see [MicroG](https://microg.org/)
 
@@ -1193,12 +1193,12 @@ Switching to Linux is a great choice in terms of security and privacy - you don'
 
 For defensive security, see [Kali](https://www.kali.org) and [BlackArch](https://blackarch.org), both are bundled with hundreds of security tools, ready for pretty much any job.  
 
-Other security-focused distros include: [TENS OS](https://www.tens.af.mil/), [Fedora CoreOS](https://getfedora.org/coreos?stream=stable), [Kodachi](https://www.digi77.com/linux-kodachi/) and [IprediaOS](https://www.ipredia.org). (Avoid systems that are not being activley maintained)
+Other security-focused distros include: [TENS OS](https://www.tens.af.mil/), [Fedora CoreOS](https://getfedora.org/coreos?stream=stable), [Kodachi](https://www.digi77.com/linux-kodachi/) and [IprediaOS](https://www.ipredia.org). (Avoid systems that are not being actively maintained)
 
 
 #### General Purpose Linux Distros
 If you do not want to use a specalist security-based distro, or you are new to Unix - then just switching to any well-maintained Linux distro, is going to be significantly more secure and private than Windows or Mac OS.
-Since it is open source, major distros are constantly being audited by members of the community. Linux does not give users admin rights by default - this makes is much less likley that your system could become infected with malware. And of course, there is no proprietary Microsoft or Apple software constantly monitoring everything you do.
+Since it is open source, major distros are constantly being audited by members of the community. Linux does not give users admin rights by default - this makes is much less likely that your system could become infected with malware. And of course, there is no proprietary Microsoft or Apple software constantly monitoring everything you do.
 
 Some good distros to consider would be: **[Fedora](https://getfedora.org/)**, **[Debian](https://www.debian.org/)**, or **[Arch](https://www.archlinux.org/)**- all of which have a large community behind them. **[Manjaro](https://manjaro.org/)** (based of Arch) is a good option, with a simple install process, used by new comers, and expers alike.  **[POP_OS](https://pop.system76.com/)** and **[PureOS](https://www.pureos.net/)** are reasonably new general purpose Linux, with a strong focus on privacy, but also very user-firendly with an intuitive interfac and install process. See [Simple Comparison](https://computefreely.org/) or [Detailed Comparison](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions).
 
@@ -1306,7 +1306,7 @@ For 1-off malware scans on Windows, [MalwareBytes](https://www.malwarebytes.com)
 #### Word of Warning
 For Microsoft Windows, Windows Defender provides totally adequate virus protection in most cases. These tools are intended for single-use in detecting/ removing threats on an infected machine, and are not recommended to be left running in the background, use portable editions where available.
 
-Many anti virus products have a history of introducing vulnerabilities themselves, and several of them seriously degrade the performance of your computer, as well as decrease your privacy. Never use a free anti-virus, and never trust the companies that offer free solutions, even if you pay for the premium package. This includes (but not limited to) Avast, AVG, McAfee and Kasperky. For AV to be effective, it needs intermate access to all areas of your PC, so it is important to go with a trusted vendor, and monitor it's activity closley. Read more about why you shouldn't use [Anti-Spy Tools, on Windows](https://as93.link/gjlj4).
+Many anti virus products have a history of introducing vulnerabilities themselves, and several of them seriously degrade the performance of your computer, as well as decrease your privacy. Never use a free anti-virus, and never trust the companies that offer free solutions, even if you pay for the premium package. This includes (but not limited to) Avast, AVG, McAfee and Kasperky. For AV to be effective, it needs intermate access to all areas of your PC, so it is important to go with a trusted vendor, and monitor it's activity closely. Read more about why you shouldn't use [Anti-Spy Tools, on Windows](https://as93.link/gjlj4).
 
 
 ## Home Automation
