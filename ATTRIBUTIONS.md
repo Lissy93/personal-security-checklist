@@ -237,6 +237,13 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/austinhuang0131">
+            <img src="https://avatars.githubusercontent.com/u/16656689?v=4" width="80;" alt="austinhuang0131"/>
+            <br />
+            <sub><b>Austin Huang</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/ben-thul">
             <img src="https://avatars.githubusercontent.com/u/13566569?v=4" width="80;" alt="ben-thul"/>
             <br />
@@ -256,15 +263,15 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>Bruno Bernardino</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/chemmi">
             <img src="https://avatars.githubusercontent.com/u/15739060?v=4" width="80;" alt="chemmi"/>
             <br />
             <sub><b>Christian Hemminghaus</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/danielgtaylor">
             <img src="https://avatars.githubusercontent.com/u/106826?v=4" width="80;" alt="danielgtaylor"/>
@@ -299,15 +306,15 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>Florian Kohrt</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/freddy-m">
             <img src="https://avatars.githubusercontent.com/u/25013506?v=4" width="80;" alt="freddy-m"/>
             <br />
             <sub><b>Freddy</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/hw4n">
             <img src="https://avatars.githubusercontent.com/u/38372575?v=4" width="80;" alt="hw4n"/>
@@ -342,15 +349,15 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>John Karahalis</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/edelbluth">
             <img src="https://avatars.githubusercontent.com/u/4939388?v=4" width="80;" alt="edelbluth"/>
             <br />
             <sub><b>Juergen Edelbluth</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/fetzu">
             <img src="https://avatars.githubusercontent.com/u/6372605?v=4" width="80;" alt="fetzu"/>
@@ -366,6 +373,13 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/kdenhartog">
+            <img src="https://avatars.githubusercontent.com/u/23125059?v=4" width="80;" alt="kdenhartog"/>
+            <br />
+            <sub><b>Kyle Den Hartog</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/leon-costa">
             <img src="https://avatars.githubusercontent.com/u/83498565?v=4" width="80;" alt="leon-costa"/>
             <br />
@@ -378,7 +392,8 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>Luke Carr</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/mschwrdtnr">
             <img src="https://avatars.githubusercontent.com/u/39745446?v=4" width="80;" alt="mschwrdtnr"/>
@@ -392,8 +407,7 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>Nick Ali</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Oymate">
             <img src="https://avatars.githubusercontent.com/u/50857856?v=4" width="80;" alt="Oymate"/>
@@ -421,7 +435,8 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>Rory Byrne</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Silvhr">
             <img src="https://avatars.githubusercontent.com/u/71043300?v=4" width="80;" alt="Silvhr"/>
@@ -435,8 +450,7 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>Spike</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/ThomasRettig">
             <img src="https://avatars.githubusercontent.com/u/68767503?v=4" width="80;" alt="ThomasRettig"/>
@@ -464,7 +478,8 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>Apraile</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/elesiuta">
             <img src="https://avatars.githubusercontent.com/u/8146662?v=4" width="80;" alt="elesiuta"/>
@@ -478,8 +493,7 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>Fireneat</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/ignoramous">
             <img src="https://avatars.githubusercontent.com/u/852289?v=4" width="80;" alt="ignoramous"/>
@@ -507,7 +521,8 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>Oğuzhan</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/partoneoftwo">
             <img src="https://avatars.githubusercontent.com/u/1677630?v=4" width="80;" alt="partoneoftwo"/>
@@ -521,13 +536,12 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>Pipboy96</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/theblackmallard">
             <img src="https://avatars.githubusercontent.com/u/42389961?v=4" width="80;" alt="theblackmallard"/>
             <br />
-            <sub><b>theblackmallard</b></sub>
+            <sub><b>Theblackmallard</b></sub>
         </a>
     </td>
     <td align="center">
