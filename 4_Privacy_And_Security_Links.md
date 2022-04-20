@@ -1,9 +1,12 @@
-# Awesome Privacy & Securty [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/) [![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](https://github.com/Lissy93/personal-security-checklist/graphs/contributors)
+# Awesome Privacy & Security Links
+
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/) [![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](https://github.com/Lissy93/personal-security-checklist/graphs/contributors)
 
 *A curated list of notable guides, articles, tools and media - relating to digital security, internet freedom and online privacy*
 
 **See also**: [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md) | [Privacy-Respecting Software](https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md) | [Security Gadgets](/6_Privacy_and-Security_Gadgets.md) | [Why Privacy Matters](/0_Why_It_Matters.md) | [TLDR](/2_TLDR_Short_List.md)🔐
 
+## Contents
 
 - **Information and Guides**
   - [How-To Guides](#how-to-guides)
@@ -34,20 +37,19 @@
   - Protect against SIM-swap scam: via [wired](https://www.wired.com/story/sim-swap-attack-defend-phone)
   - How to spot a phishing attack: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
   - Protection from Identity Theft: via [Restore Privacy](https://restoreprivacy.com/identity-theft-fraud)
-  - Harden your MacOS Security: via [@drduh on GitHub](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
   - Protecting from key-stroke-logging, with KeyScrambler: via [TechRepublic](https://www.techrepublic.com/blog/it-security/keyscrambler-how-keystroke-encryption-works-to-thwart-keylogging-threats)
   - Guide to Hash Checks, to ensure a program has not been tampered with: via [ProPrivacy](https://proprivacy.com/guides/how-why-and-when-you-should-hash-check)
   - Permanently and Securely Delete ‘Files and Directories’ in Linux: via [TechMint](https://www.tecmint.com/permanently-and-securely-delete-files-directories-linux/)
-- **Netowkring**
+- **Networking**
   - How to enable DNS over HTTPS: via [geekwire](https://geekwire.co.uk/privacy-and-security-focused-dns-resolver)
   - How to resolve DNS leak issue: via [DNSLeakTest](https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html) 
   - Protect against WebRTC Leaks: via [Restore Privacy](https://restoreprivacy.com/webrtc-leaks)
   - ISP and DNS privacy tips: via [bluz71](https://bluz71.github.io/2018/06/20/digital-privacy-tips.html)
   - Beginners guide on getting started with Tor: via [ProPrivacy](https://proprivacy.com/privacy-service/guides/ultimate-tor-browser-guide)
   - Beginners guide to I2P: via [The Tin Hat](https://thetinhat.com/tutorials/darknets/i2p.html)
-  - How to Use a VPN and Tor together: via [ProPrivacy](https://proprivacy.com/vpn/guides/using-vpn-tor-together)
+  - About Using VPN and Tor together: via [ProPrivacy](https://proprivacy.com/vpn/guides/using-vpn-tor-together)
   - How to use `__nomap`, to reduce public exposure of SSID: via [ghacks](https://www.ghacks.net/2014/10/29/add-_nomap-to-your-routers-ssid-to-have-it-ignored-by-google-and-mozilla/)
-  - Detailed guide, outlining up-to-date router configurations for ultimate security: via [RouterSecurity.org](https://routersecurity.org/)
+  - Up-to-date router configurations for advanced security: via [RouterSecurity.org](https://routersecurity.org/)
 - **Communication**
   - Email Self-Defense, Configure your mail client securly, from scratch - via [FSF.org](https://emailselfdefense.fsf.org)
   - How to avoid Phishing Attacks: via [EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
@@ -56,6 +58,7 @@
   - How to Maintain Anonyimity in BitCoin Transactions: [coinsutra.com](https://coinsutra.com/anonymous-bitcoin-transactions/)
   - Beginners Guide to Signal (secure messaging app): via [Freedom of the Press Foundation](https://freedom.press/news/signal-beginners/)
   - How to use OTR messaging with Adium (MacOS): via [CalyxiIstitute.org](https://calyxinstitute.org/docs/howto-encrypted-instant-messaging-with-osx-adium-and-otr)
+  - Full guide to using plaintext emails: via [useplaintext.email](https://useplaintext.email/)
 - **Devices**
   - How to Enable Encryption on your Devices: via [SpreadPrivacy.com](https://spreadprivacy.com/how-to-encrypt-devices/)
   - How to Delete your Data Securely: Via EFF - [Windows](https://ssd.eff.org/en/module/how-delete-your-data-securely-windows), [MacOS](https://ssd.eff.org/en/module/how-delete-your-data-securely-macos) and [Linux](https://ssd.eff.org/en/module/how-delete-your-data-securely-linux) 
@@ -68,9 +71,10 @@
   - Settings to update on iPhone, for better privacy: via [lifehacker](https://lifehacker.com/the-privacy-enthusiasts-guide-to-using-an-iphone-1792386831)
   - How to check App Permissions (Android, iOS, Mac & Windows): via [Wired](https://www.wired.com/story/how-to-check-app-permissions-ios-android-macos-windows/)
   - How to manage Self-Encrypting Drives: via [TechSpot](https://www.techspot.com/guides/869-self-encrypting-drives/)
+  - Harden your MacOS Security: via [@drduh on GitHub](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 - **Software**
-  - Complete guide to configuring Firefox for Privacy + Speed: via [12bytes](https://12bytes.org/7750)
-  - Firefox Configuration Guide for Beginners: via [12bytes](https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies)
+  - Complete guide to configuring Firefox for Privacy + Speed: via [12bytes](https://12bytes.org/articles/tech/firefox/firefoxgecko-configuration-guide-for-privacy-and-performance-buffs/)
+  - Firefox Configuration Guide for Beginners: via [12bytes](https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/)
   - How to use Vera Crypt: via [howtogeek](https://www.howtogeek.com/108501/the-how-to-geek-guide-to-getting-started-with-truecrypt)
   - How to use KeePassXC: via [EFF](https://ssd.eff.org/en/module/how-use-keepassxc)
   - How to use uMatrix browser addon to block trackers: via [ProPrivacy](https://proprivacy.com/privacy-service/guides/lifehacks-setup-umatrix-beginners) 
@@ -81,6 +85,7 @@
   - Guide to Living Anonymously, Personal Data Removal and Credit Freeze: via [IntelTechniques.com](https://inteltechniques.com/data/workbook.pdf)
   - Hiding from Physical Surveillance: via [Snallabolaget](http://snallabolaget.com/hiding-from-surveillance-how-and-why)
   - Guide to opting-out of public data listings and marketing lists: via [World Privacy Forum](https://www.worldprivacyforum.org/2015/08/consumer-tips-top-ten-opt-outs)
+  -
 - **Enterprise**
   - A basic checklist to harden GDPR compliancy: via [GDPR Checklist](https://gdprchecklist.io)
 - **Reference Info**
@@ -99,6 +104,9 @@
   - Magic Numbers - Up-to-date file signature table, to identify / verify files have not been tampered with: via [GaryKessler](https://www.garykessler.net/library/file_sigs.html)
   - List of IP ranges per country: via [Nirsoft](https://www.nirsoft.net/countryip)
   - Database of default passwords for various devices by manufacturer and model: via [Default-Password.info](https://default-password.info)
+- **All-in-one digital and physical security**
+  - Umbrella: an open source iOS/Android/Web app for learning about and managing digital, operational and physical security (from safe communication to dealing with a kidnap) via [Security First](https://www.secfirst.org)
+
 
 
 ## Articles
@@ -120,9 +128,7 @@
   - How to Track a Cellphone Without GPS—or Consent: via [Gizmodo](https://gizmodo.com/how-to-track-a-cellphone-without-gps-or-consent-1821125371)
   - Apps able to track device location, through power manager: via [Wired](https://www.wired.com/2015/02/powerspy-phone-tracking/)
   - Hackers and governments can see you through your phone’s camera: via [Business Insider](https://www.businessinsider.com/hackers-governments-smartphone-iphone-camera-wikileaks-cybersecurity-hack-privacy-webcam-2017-6)
-  - How a highly targeted ad can track your precise movements: via [Wired](https://www.wired.com/story/track-location-with-mobile-ads-1000-dollars-study/)
-    - Based on the paper, Using Ad Targeting for Surveillance on a Budget: via [Washington.edu](https://adint.cs.washington.edu/ADINT.pdf)
-  - Law Enforcement Geo-Fence Data Requests- How an Innocent cyclist became a suspect when cops accessed his Google location data: via [Daily Mail](https://www.dailymail.co.uk/news/article-8086095/Police-issue-warrant-innocent-mans-Google-information.html)
+  - Law Enforcement Geo-Fence Data Requests - How an Innocent cyclist became a suspect when cops accessed his Google location data: via [Daily Mail](https://www.dailymail.co.uk/news/article-8086095/Police-issue-warrant-innocent-mans-Google-information.html)
   - IBM Used NYPD Surveillance Footage to Develop Technology That Lets Police Search by Skin Color: via [TheIntercept](https://theintercept.com/2018/09/06/nypd-surveillance-camera-skin-tone-search/)
 - **Threats**
   - 23 reasons not to reveal your DNA: via [Internet Health Report](https://internethealthreport.org/2019/23-reasons-not-to-reveal-your-dna)
@@ -135,7 +141,7 @@
   - Big data privacy risks: via [CSO Online](https://www.csoonline.com/article/2855641/the-5-worst-big-data-privacy-risks-and-how-to-guard-against-them.html)
   - Anti-Doxing Guide (For Activists Facing Attacks): via [Equality Labs](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c)
 - **Breaches**
-  - Wired guide to data breaches- past, present and future: via [Wired](https://www.wired.com/story/wired-guide-to-data-breaches/)
+  - Wired guide to data breaches - past, present and future: via [Wired](https://www.wired.com/story/wired-guide-to-data-breaches/)
   - Grindr and OkCupid Spread Personal Details Study Says: via [NY Times](https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html)
   - The Asia-Pacific Cyber Espionage Campaign that Went Undetected for 5 Years: via [TheHackerNews](https://thehackernews.com/2020/05/asia-pacific-cyber-espionage.html)
   - ClearView AI Data Breach - 3 Billion Faces: via [Forbes](https://www.forbes.com/sites/kateoflahertyuk/2020/02/26/clearview-ai-the-company-whose-database-has-amassed-3-billion-photos-hacked/)
@@ -145,6 +151,8 @@
   - Microsoft data breach exposes 250 million customer support records: via [Graham Cluley](https://www.grahamcluley.com/microsoft-data-breach/)  
 - **Data Collection**
   - Ring Doorbell App Packed with Third-Party Trackers: via [EFF](https://www.eff.org/deeplinks/2020/01/ring-doorbell-app-packed-third-party-trackers)
+  - How a highly targeted ad can track your precise movements: via [Wired](https://www.wired.com/story/track-location-with-mobile-ads-1000-dollars-study/)
+    - Based on the paper, Using Ad Targeting for Surveillance on a Budget: via [Washington.edu](https://adint.cs.washington.edu/ADINT.pdf)
   - How websites can see your full personal details, from your phone contract info: via [Medium/@philipn](https://medium.com/@philipn/want-to-see-something-crazy-open-this-link-on-your-phone-with-wifi-turned-off-9e0adb00d024)
   - Facebook and America’s largest companies give worker data to Equifax: via [FastCompany](https://www.fastcompany.com/40485634/equifax-salary-data-and-the-work-number-database)
   - Exfiltration of personal data by session-replay scripts: via [Freedom-to-Tinker](https://freedom-to-tinker.com/2017/11/15/no-boundaries-exfiltration-of-personal-data-by-session-replay-scripts/)
@@ -169,25 +177,26 @@
   - [The Hacker News](https://thehackernews.com/)  - News and info covering Data Breaches, Cyber Attacks, Vulnerabilities, Malware. [RSS](https://feeds.feedburner.com/TheHackersNews)
   - [Sophos: Naked Security](https://nakedsecurity.sophos.com/) - Security news and updates, presented in an easy-to-digest format. [RSS](https://nakedsecurity.sophos.com/feed/)
   - [IT Security Guru](https://www.itsecurityguru.org/) - Combines top cyber security news from multiple sites, easier to stay up-to-date
-  - [FOSS Bytes- Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
+  - [FOSS Bytes - Cyber Security](https://fossbytes.com/category/security) - News about the latest exploits and hacks
 - **Cyber Security Infomation**
   - [Heimdal](https://heimdalsecurity.com/blog) - Personal Cyber Security Tutorials and Articles
   - [Tech Crunch](https://techcrunch.com/tag/cybersecurity-101) - Cyber Security 101
   - [Email Self-Defense](https://emailselfdefense.fsf.org) - Complete guide to secure email
   - [Security Planner](https://securityplanner.org) - Great advise for beginners
   - [My Shaddow](https://myshadow.org) - Resources and guides, to help you take controll of your data
-- **Privacy**
+- **Privacy Guides**
   - [EFF SSD](https://ssd.eff.org) - Tips for safer online communications
-  - [Spread Privacy](https://spreadprivacy.com) - Raising the standard of trust online, by DuckDuckGo
   - [Restore Privacy](https://restoreprivacy.com) - Tools and guides about privacy and security
   - [That One Privacy Site](https://thatoneprivacysite.net) - impartial comparisons and discussions
   - [The Hated One](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q) - Privacy and security videos
-  - [12Bytes](https://12bytes.org/articles/tech) - Opinion Articles about Tech, Privacy and more
+  - [12Bytes](https://12bytes.org/articles/tech) - Tech, Privacy and more (Note, sometimes covers controversial topics)
   - [Pixel Privacy](https://pixelprivacy.com/resources) - Online privacy guides
   - [The Tin Hat](https://thetinhat.com) - Tutorials and Articles for Online Privacy
   - [PrivacyTools.io]( https://www.privacytools.io) - Tools to protect against mass surveillance
   - [PrismBreak](https://prism-break.org/en/all) - Secure app alternatives
   - [The VERGE guide to privacy](https://bit.ly/2ptl4Wm) - Guides for securing mobile, web and home tech
+- **Privacy News**
+  - [Spread Privacy](https://spreadprivacy.com) - Raising the standard of trust online, by DuckDuckGo
   - [BringBackPrivacy](https://bringingprivacyback.com) - Easy-reading, sharable privacy articles
   - [The Privacy Project](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html) - Articles and reporting on Privacy, by the NYT
 - **Internet Freedom**
@@ -245,7 +254,7 @@
  
 More Security Podcasts on [player.fm](https://player.fm/featured/security)
 
- More Podcasts (Verification Required): [Naked Security](https://nakedsecurity.sophos.com) | [Open Source Security Podcast](opensourcesecuritypodcast.com) | [Defensive Security Podcast](https://defensivesecurity.org) | [Malicious Life](https://malicious.life) | [Down the Security Rabbit Hole](http://podcast.wh1t3rabbit.net) | [Cyber Wire](https://thecyberwire.com/podcasts/daily-podcast) | [Hacking Humans](https://thecyberwire.com/podcasts/hacking-humans) | [Security Now](https://twit.tv/shows/security-now) | [Cyber Security Interviews](https://cybersecurityinterviews.com) | [Security Weekly](https://securityweekly.com) | [The Shared Security Podcast](https://sharedsecurity.net) | [Risky Business](https://risky.biz/netcasts/risky-business) | [Crypto-Gram Security Podcast](https://crypto-gram.libsyn.com) | [Off the Hook](https://player.fm/series/off-the-hook-84511)
+ More Podcasts (Verification Required): [Naked Security](https://nakedsecurity.sophos.com) | [Open Source Security Podcast](opensourcesecuritypodcast.com) | [Defensive Security Podcast](https://defensivesecurity.org) | [Malicious Life](https://malicious.life) | [Down the Security Rabbit Hole](http://podcast.wh1t3rabbit.net) | [Cyber Wire](https://thecyberwire.com/podcasts/daily-podcast) | [Hacking Humans](https://thecyberwire.com/podcasts/hacking-humans) | [Security Now](https://twit.tv/shows/security-now) | [Cyber Security Interviews](https://cybersecurityinterviews.com) | [Security Weekly](https://securityweekly.com) | [The Shared Security Podcast](https://sharedsecurity.net) | [Risky Business](https://risky.biz/netcasts/risky-business) | [Crypto-Gram Security Podcast](https://crypto-gram.libsyn.com) | [Off the Hook](https://player.fm/series/off-the-hook-84511) | [Opt Out Podcast](https://optoutpod.com/)
  
 
 [Darknet Diaries]: https://darknetdiaries.com
@@ -329,6 +338,7 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
   - [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
   - [Botometer](https://botometer.iuni.iu.edu/) - An AI script to check if a certain username is a bot
 - **Utilities**
+  - [Privacy.sexy](https://privacy.sexy/) - A collection of commands you can run to impplement best prctices on Windows or MacOS
   - [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online
   - [Secure Password Check](https://password.kaspersky.com) - Fun little tool, to demonstrate how long it could take to crack a password
   - [33Mail](http://33mail.com/Dg0gkEA) or [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io?slref=bridsqrgvrnavso) Protect your email address, by auto-generating unique permeant aliases for each account, so all emails land in your primary inbox
@@ -410,39 +420,53 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [OpenPhish](https://openphish.com) - A feed of current phishing endpoints
   - [HashToolkit](http://hashtoolkit.com) - Database of 'cracked' hashes
   - [SecLists](https://github.com/danielmiessler/SecLists) - Starter list of leaked databases, passwords, usernames etc (Great for programming)
-  - [Qualys SSL Pulse](https://www.ssllabs.com/ssl-pulse) - A continuous and global dashboard for monitoring the quality of SSL / TLS support over time across 150,000 SSL- and TLS-enabled websites, based on Alexa’s list of the most popular sites in the world
+  - [Qualys SSL Pulse](https://www.ssllabs.com/ssl-pulse) - A continuous and global dashboard for monitoring the quality of SSL / TLS support over time across 150,000 SSL - and TLS-enabled websites, based on Alexa’s list of the most popular sites in the world
   - [Tor Bulk Exit List](https://check.torproject.org/torbulkexitlist) - List of all exit nodes (IP) in use on the Tor network
 - **Fun with Live Data** 🌠
   - **Internet**
     - [Tor Flow](https://torflow.uncharted.software) - Real-time data flow between Tor nodes
     - [Internet Census](http://census2012.sourceforge.net/images/geovideo.gif) - 24-hour world map of average utilization of IPv4 addresses
-      -  ICMP ping requests were sent out via the Carna botnet. Read how this was done on the [Official Site](http://census2012.sourceforge.net) or download similar [datasets](https://ant.isi.edu/datasets/all.html)
+    -  ICMP ping requests were sent out via the Carna botnet. Read how this was done on the [Official Site](http://census2012.sourceforge.net) or download similar [datasets](https://ant.isi.edu/datasets/all.html)
     - [Map of Mobile Internet](https://labs.mapbox.com/labs/twitter-gnip/brands/) - Shows world data coverage, according to Twitter data
-    - [DomainTools Statistics](https://research.domaintools.com/statistics) - Domain registration Numbers and Charts
-    - [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
     - [IKnow](https://iknowwhatyoudownload.com/en/stat/GB/daily) - Live data showing what content is being downloaded + distributed via torrents
     - [Semantic Internet Map](http://internet-map.net) - Shows how different websites link together
-  - **Unrelated, but Awesome Data**
-    - [BGP Stream](https://bgpstream.com) - Shows all current outages
-    - [Submarine Cable Map](https://www.submarinecablemap.com) - An up-to-date map of major global internet cables (see also [he.net globe](https://he.net/3d-map) and [this map](https://submarine-cable-map-2016.telegeography.com))
-    - [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
-    - [Airport WiFi Map](https://www.google.com/maps/d/u/0/viewer?mid=1Z1dI8hoBZSJNWFx2xr_MMxSxSxY) - Shows WiFi networks and their passwords for airports around the world
-    - [Stuff in Space](http://stuffin.space) - Shows objects orbiting Earth
-    - [Grid Watch](https://www.gridwatch.templar.co.uk/) - Realtime energy ussage and demand 
     - [Wiggle](https://wigle.net) - Worlds largest WiFi Map showing personal hotspot statistics geographically
-  - **Threat Maps** - Real-time hack attempts (malware, phishing, exploit and spam), visualised geographically
-    - [Checkpoint](https://threatmap.checkpoint.com)
-    - [FortiGuard](https://threatmap.fortiguard.com)
-    - [Fire Eye](https://www.fireeye.com/cyber-map/threat-map.html)
-    - [Kaspersky](https://cybermap.kaspersky.com)
-    - [BitDefender](https://threatmap.bitdefender.com)
-    - [ESET](https://www.virusradar.com)
-    - [Threat But Map](https://threatbutt.com/map)
-    - [Looking Glass Cyber Map](https://map.lookingglasscyber.com)
-    - [Digital Attack Map](https://www.digitalattackmap.com)
+    - [BGP Stream](https://bgpstream.com) - Shows all current outages
+    - [Freedom House - Censorship Map](https://freedomhouse.org/explore-the-map) - Global internet freedom and democracy status per country, over time
+    - [DomainTools Statistics](https://research.domaintools.com/statistics) - Domain registration Numbers and Charts
+    - [Insecam](http://www.insecam.org) - A directory and feed of insecure or public live webcams
+  - **Cyber**
+    - [Checkpoint](https://threatmap.checkpoint.com) - Geographical plotting of Malware, Phishing and Exploits
+    - [Comparitech Ransomware Attack Map](https://www.comparitech.com/ransomware-attack-map/) - Geographically plotted ransomware attacks and stats
+    - [FortiGuard](https://threatmap.fortiguard.com) - Incoming & Outgoing Attacks per Country
+    - [Kaspersky Stats](https://cybermap.kaspersky.com/stats) - Shows detailed threats per second from a variety of categories
     - [Kaspersky LogBook](https://apt.securelist.com) - Historic Threat Time Line
-
-
+    - See also
+      - Every AV-provider and wannabe security company has a matrix-style cyber map nowadays, here are some less-spectacular ones, which didn't make it onto the list: [Fire Eye](https://www.fireeye.com/cyber-map/threat-map.html), [BitDefender](https://threatmap.bitdefender.com), [ESET](https://www.virusradar.com), [Looking Glass Cyber Map](https://map.lookingglasscyber.com), [Digital Attack Map](https://www.digitalattackmap.com)
+      - [pewpew](https://github.com/hrbrmstr/pewpew) is a sweet web component, that you can use to build your own threat map (with sound effects!)
+  - **Unrelated, but Awesome Data**
+    - [Submarine Cable Map](https://www.submarinecablemap.com) - An up-to-date map of major global internet cables (see also [he.net](https://he.net/3d-map) and [this](https://submarine-cable-map-2016.telegeography.com))
+    - [FlightRadar24](https://www.flightradar24.com) - World-wide map of live aircraft positions
+    - [Marine Traffic](https://www.marinetraffic.com/) - World-wide map of live ships, tankers, cargo & passenger vessels and more
+    - [Stuff in Space](http://stuffin.space) - Shows objects orbiting Earth
+    - [Asterank](http://www.asterank.com/) - A scientific and economic database of over 600,000 asteroids
+    - [Flight Misery Map](https://uk.flightaware.com/miserymap/) - Real-time US geographical flight delay & cancellation trends
+    - [Meteor Showers](https://www.meteorshowers.org/) - Shows commit locations, simulating meteor showers with time
+    - [Airport WiFi Map](https://www.google.com/maps/d/u/0/viewer?mid=1Z1dI8hoBZSJNWFx2xr_MMxSxSxY) - Shows WiFi networks and their passwords for airports around the world
+    - [One in a Million](https://onemilliontweetmap.com/) - A real-time Twitter map
+    - [ListenToWikipedia](http://listen.hatnote.com/) - Wikipedia edits, represented by a tone, depending on size, built by Hatnote
+    - [BitListen](https://www.bitlisten.com/) - Real-time BTC transactions, represented by bubbles and tones
+    - [FiatLeak](https://fiatleak.com/) - Real-time crypto stats
+    - [Google Search Terms](https://trends.google.com/trends/hottrends/visualize?pn=p9&nrow=4&ncol=4) - Hourly Google Search Trends, in your location
+    - [Sentiment Sweep](https://sentiment-sweep.com/now) - Geographic sentiment analysis on real-time Twitter data (- I made this one)
+    - [Three Thousand Years](http://histography.io/) - Shows major events throughout history, using Wikipedia data
+    - [Wiki-Atlas](https://wiki-atlas.org/) - Wikipedia articles, categorized and plotted on a map
+    - [ncov2019/live](https://ncov2019.live/) - Real-time Covid-19 data, map and dashboard (by Avi Schiffmann)
+    - [National Grid: Live Status](http://grid.iamkate.com/) - Real-time UK energy stats (by Kate Morley) (similar to [Grid Watch](https://www.gridwatch.templar.co.uk/))
+    - [Globe of Economic Complexity](http://globe.cid.harvard.edu/) - Visualize's 15 Trillion dollars of world trade, where each dot is $100,000,000 of export
+ 
+ Interested in discovering more awesome real-time data visualizations? Check out [this post, here](https://listed.to/@lissy93/18611/fun-with-real-time-data) 🌠
+ 
 ## Academic
 
 - **Journals**
@@ -473,8 +497,10 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - Location Tracking using Mobile Device Power Analysis: [scribd.com](https://www.scribd.com/doc/256304846/PowerSpy-Location-Tracking-using-Mobile-Device-Power-Analysis)
   - HORNET, High-speed Onion Routing at the Network Layer: via [arxiv.org](https://arxiv.org/pdf/1507.05724v1.pdf)
   - Decoy Routing: Toward Unblockable Internet Communication: via [usenix.org](https://www.usenix.org/legacy/events/foci11/tech/final_files/Karlin.pdf)
-  - Trackers Vs Firefox, Comparing different blocking utilities: via [GitHub- @jawz101](https://github.com/jawz101/TrackersVsFirefox)
+  - Trackers Vs Firefox, Comparing different blocking utilities: via [GitHub - @jawz101](https://github.com/jawz101/TrackersVsFirefox)
   - 'I've Got Nothing to Hide' and Other Misunderstandings of Privacy: via [ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565&)
+- **Write-Ups**
+  - Privacy - An Encyclopedic Definition and Background [stanford.edu](https://plato.stanford.edu/entries/privacy/)
 
 
 - **Implementations and Standards**
@@ -512,6 +538,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
 - [Fight for the Future](https://www.fightforthefuture.org) - Fighting for a future where technology liberates
 - [Public Citizen](https://www.citizen.org) - Standing up to corporate power and hold the government accountable
 - [The DNS Privacy Project](https://dnsprivacy.org/wiki/display/DP) - Collaborative open project to promote, implement and deploy DNS Privacy
+- [Epic](https://www.epic.org/) - Washington DC-based organisation raising attention to emerging privacy and civil liberties issues
 
 
 ## Governance

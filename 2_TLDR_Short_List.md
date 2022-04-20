@@ -13,6 +13,7 @@
 - Use a long, strong and unique password for each of your accounts (see [HowSecureIsMyPassword.net](https://howsecureismypassword.net))
 - Use a secure [password manager](/5_Privacy_Respecting_Software.md#password-managers), to encrypt, store and fill credentials, such as [BitWarden](https://bitwarden.com) or [KeePass](https://keepass.info) / [KeePassXC](https://keepassxc.org)
 - Enable 2-Factor authentication where available, and use an [authenticator app](/5_Privacy_Respecting_Software.md#2-factor-authentication) or [hardware token](/6_Privacy_and-Security_Gadgets.md#fido-u2f-keys)
+- When you enable multi-factor authentication, you will usually be given several codes that you can use if your 2FA method is lost, broken or unavailable. You should store these on paper or in a safe place on disk (e.g. in offline storage or as in an encrypted file/drive).
 - Sign up for breach alerts (with [Firefox Monitor](https://monitor.firefox.com) or [HaveIBeenPwned](https://haveibeenpwned.com)), and update passwords of compromised accounts
 
 
@@ -23,22 +24,22 @@
 - Keep your browser up-to-date, explore the privacy settings and remove unnecessary add-ons/ extensions
 - Consider using compartmentalization to separate different areas of your browsing (such as work, social, shopping etc), in order to reduce tracking. This can be done with [Firefox Containers](https://support.mozilla.org/en-US/kb/containers), or by using separate browsers or browser profiles
 - Don't allow your browser to save your passwords or auto-fill personal details (instead use a [password manager](/5_Privacy_Respecting_Software.md#password-managers), and [disable your browsers own auto-fill](https://www.computerhope.com/issues/ch001377.htm))
-- Clear your cookies, session data and cache regularly. An extension such as [Cookie-Auto-Delete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) to automate this
+- Clear your cookies, session data and cache regularly. An extension such as [Cookie-Auto-Delete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) can be used to automate this
 - Don't sign into your browser, as it can link further data to your identity. If you need to, you can use an open source [bookmark sync](/5_Privacy_Respecting_Software.md#browser-sync) app
 - Consider using [Decentraleyes](https://decentraleyes.org) to decrease the number of trackable CDN requests your device makes
-- Test your browser using a tool like [Panopticlick](https://panopticlick.eff.org) to ensure there are no major issues. [BrowserLeaks](https://browserleaks.com) and [Am I Unique](https://amiunique.org/fp) are also useful for exploring what device info your exposing to websites
+- Test your browser using a tool like [Panopticlick](https://panopticlick.eff.org) to ensure there are no major issues. [BrowserLeaks](https://browserleaks.com) and [Am I Unique](https://amiunique.org/fp) are also useful for exploring what device info you are exposing to websites
 - For anonymous browsing use [The Tor Browser](https://www.torproject.org/), and avoid logging into any of your personal accounts
 
 
 ### Phone
 - Set a device PIN, ideally use a long passcode. If supported, configure fingerprint authentication, but avoid face unlock
 - Encrypt your device, in order to keep your data safe from physical access. To enable, for Android: `Settings --> Security --> Encryption`, or for iOS: `Settings --> TouchID & Passcode --> Data Protection`
-- Keep device up-to-date. System updates often contain patches for recently-discovered security vulnrabilities. You should install updates when prompted
+- Keep device up-to-date. System updates often contain patches for recently-discovered security vulnerabilities. You should install updates when prompted
 - Review application permissions. Don't grant access permissions to apps that do not need it. (For Android, see also [Bouncer](https://play.google.com/store/apps/details?id=com.samruston.permission&hl=en_US) - an app that allows you to grant temporary permissions)
 - Disable connectivity features that aren't being used, and 'forget' WiFi networks that you no longer need
-- Disable location tracking. By default, both Android and iOS logs your GPS location history. You can disable this, for Android: `Maps --> Settings --> Location History`, and iOS: `Settings --> Privacy --> Location Services --> System Services --> Places`. Be aware that third-party apps may still log your position, and there are other methods of determining your location other than GPS (Cell tower, WiFi, Bluetooth etc)
+- Disable location tracking. By default, both Android and iOS logs your GPS location history. You can disable this, for Android: `Maps --> Settings --> Location History`, and iOS: `Settings --> Privacy --> Location Services --> System Services --> Places`. Be aware that third-party apps may still log your position, and that there are other methods of determining your location other than GPS (Cell tower, WiFi, Bluetooth etc)
 - Use an application firewall to block internet connectivity for apps that shouldn't need it. Such as [NetGuard](https://www.netguard.me/) (Android) or [Lockdown](https://apps.apple.com/in/app/lockdown-apps/id1469783711) (iOS)
-- Understand that apps contain trackers, that collect, store and sometimes share your data. For Android, you could use [Exodus](https://exodus-privacy.eu.org/en/page/what/) to reveal which trackers your installed apps are using.
+- Understand that apps contain trackers that collect, store and sometimes share your data. For Android, you could use [Exodus](https://exodus-privacy.eu.org/en/page/what/) to reveal which trackers your installed apps are using.
 
 
 ### Email
@@ -48,7 +49,7 @@ It's important to protect your email account, as if a hacker gains access to it 
 - Consider switching to a secure and encrypted mail provider using, such as [ProtonMail](https://protonmail.com) or [Tutanota](https://tutanota.com)
 - Use email aliasing to protect your real mail address, with a provider such as [Anonaddy](https://anonaddy.com) or [SimpleLogin](https://simplelogin.io/?slref=bridsqrgvrnavso). This allows you to keep your real address private, yet still have all messages land in your primary inbox
 - Disable automatic loading of remote content, as it is often used for detailed tracking but can also be malicious
-- Using a custom domain, will mean you will not loose access to your email address if your current provider disappears. If you need to back up messages, use a secure IMAP client [Thuderbird](https://www.thunderbird.net)
+- Using a custom domain, will mean you will not lose access to your email address if your current provider disappears. If you need to back up messages, use a secure IMAP client [Thunderbird](https://www.thunderbird.net)
 
 
 ### Secure Messaging
@@ -65,7 +66,7 @@ It's important to protect your email account, as if a hacker gains access to it 
 ### Networking
 - Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log, but understand their [limitations](5_Privacy_Respecting_Software.md#word-of-warning-4).  Good options include [ProtonVPN](https://protonvpn.com) and [Mullvad](https://mullvad.net), see [thatoneprivacysite.net](https://thatoneprivacysite.net/) for detailed comparisons
 - Change your routers default password. Anyone connected to your WiFi is able to listen to network traffic, so in order to prevent people you don't know from connecting, use WPA2 and set a strong password.
-- Use a [secure DNS](/5_Privacy_Respecting_Software.md#dns) provider, (such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/) to reduce tracking. Ideally configure this on your router, but if that's not possible, then it can be done on each device. 
+- Use a [secure DNS](/5_Privacy_Respecting_Software.md#dns) provider, (such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/)) to reduce tracking. Ideally configure this on your router, but if that's not possible, then it can be done on each device. 
 
 
 **📜 See More**: [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)
@@ -83,23 +84,46 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 - Encrypted Messaging: [Signal] | [KeyBase] *(for groups/ communities)*
 - Encrypted Email: [ProtonMail] | [MailFence] | [Tutanota] | (+ also [33Mail] | [anonaddy] for aliasing)
 - Private Browsers: [Brave Browser] | [Firefox] *with [some tweaks](https://restoreprivacy.com/firefox-privacy/)* | [Tor]
-- Non-Tracking Search Engines: [DuckDuckGo] | [StartPage] | [SearX] *(self-hosted)* | [Quant]
-- VPN: [Mullvad] | [ProtonVPN]  | [Windscribe] | [IVPN] *(better still, use [Tor])*
+- Non-Tracking Search Engines: [DuckDuckGo] | [StartPage] | [SearX] *(self-hosted)* | [Qwant]
+- VPN: [Mullvad] | [ProtonVPN]  | [Windscribe] | [IVPN] *(better still, use [Tor] for anonimity)*. See also [VPN Warning Note]
 - App Firewall: [NetGuard] (Android) | [Lockdown] (iOS) | [OpenSnitch] (Linux) | [LuLu] (MacOS)
 
 #### Browser Extensions
-[Privacy Badger] - Blocks trackers. [HTTPS Everywhere] - Upgrates requests to HTTPS. [uBlock Origin] - Blocks ads, trackers and malwares. [ScriptSafe] - Block execution of certain scripts. [WebRTC Leak Prevent] - Prevents IP leaks. [Vanilla Cookie Manager] - Auto-removes unwanted cookies. [Privacy Essentials] - Shows which sites are insecure
+- [Privacy Badger] - Blocks trackers.
+- [HTTPS Everywhere] - Upgrades requests to HTTPS.
+- [uBlock Origin] - Blocks ads, trackers and malwares.
+- [ScriptSafe] - Block execution of certain scripts.
+- [WebRTC Leak Prevent] - Prevents IP leaks.
+- [Vanilla Cookie Manager] - Auto-removes unwanted cookies.
+- [Privacy Essentials] - Shows which sites are insecure
 
 #### Mobile Apps
-[Exodus] - Shows which trackers are on your device. [Orbot]- System-wide Tor Proxy. [Island] - Sand-box environment for apps. [NetGuard] - Controll which apps have network access. [Bouncer] - Grant temporary permissions. [Greenify] - Controll which apps can run in the background. [1.1.1.1] - Use CloudFlares DNS over HTTPS. [Fing App] - Monitor your home WiFi network for intruders
+- [Exodus] - Shows which trackers are on your device.
+- [Orbot]- System-wide Tor Proxy.
+- [Island] - Sand-box environment for apps.
+- [NetGuard] - Controll which apps have network access.
+- [Bouncer] - Grant temporary permissions.
+- [Greenify] - Control which apps can run in the background.
+- [1.1.1.1] - Use CloudFlare's DNS over HTTPS.
+- [Fing App] - Monitor your home WiFi network for intruders
 
 #### Online Tools
-[εxodus] - Shows which trackers an app has. [';--have i been pwned?] - Check if your details have been exposed in a breach. [EXIF Remover] - Removes meta data from image or file. [Redirect Detective] - Shows where link redirects to. [Virus Total] - Scans file or URL for malware. [Panopticlick], [Browser Leak Test] and [IP Leak Test] - Check for system and browser leaks
+- [εxodus] - Shows which trackers an app has.
+- [';--have i been pwned?] - Check if your details have been exposed in a breach.
+- [EXIF Remover] - Removes meta data from image or file.
+- [Redirect Detective] - Shows where link redirects to.
+- [Virus Total] - Scans file or URL for malware.
+- [Panopticlick], [Browser Leak Test] and [IP Leak Test] - Check for system and browser leaks
 
 #### Productivity Tools
-File Storage: [NextCloud]. File Sync: [Syncthing]. File Drop: [Firefox Send]. Notes: [Standard Notes], [Cryptee], [Joplin]. Blogging: [Write Freely]. Calendar/ Contacts Sync: [ETE Sync]
+- File Storage: [NextCloud].
+- File Sync: [Syncthing].
+- File Drop: [FilePizza].
+- Notes: [Standard Notes], [Cryptee], [Joplin].
+- Blogging: [Write Freely].
+- Calendar/ Contacts Sync: [ETE Sync]
 
-📜 **See More**: [Complete List of Privacy-Respecing Sofware](/5_Privacy_Respecting_Software.md)
+📜 **See More**: [Complete List of Privacy-Respecting Sofware](/5_Privacy_Respecting_Software.md)
 
 ----
 
@@ -113,10 +137,10 @@ There are also some gadgets that can help improve your physical and digital secu
 - **Data Blockers**: [PortaPow] - Blocks data to protect against malware upload attacks, enables FastCharge.
 - **Hardware-encrypted storage**:  [iStorage]- PIN-authenticated 256-bit hardware encrypted storage | [Encrypted Drive Enclosure]
 - **Networking**: [Anonabox] - Plug-and-play Tor router | [FingBox] - Easy home network automated security monitoring
-- **Paranoid Gadgets!** [Orwl]- Self-destroying PC | [Hunter-Cat]- Card-skim detector | [Adversarial Fashion]- Anti-facial-recognition clothing | [DSTIKE Deauth Detector] - Detect deauth attacks, from [Spacehuhn] | [Reflectacles]- Anti-surveillance glasses | [Armourcard]- Active RFID jamming | [Bug-Detector]- Check for RF-enabled eavesdropping equipment | [Ultrasonic Microphone Jammer] - Emits signals thats silent to humans, but interfere with recording equipment.
+- **Paranoid Gadgets!** [Orwl]- Self-destroying PC | [Hunter-Cat]- Card-skim detector | [Adversarial Fashion]- Anti-facial-recognition clothing | [DSTIKE Deauth Detector] - Detect deauth attacks, from [Spacehuhn] | [Reflectacles]- Anti-surveillance glasses | [Armourcard]- Active RFID jamming | [Bug-Detector]- Check for RF-enabled eavesdropping equipment | [Ultrasonic Microphone Jammer] - Emits signals that's silent to humans, but interfere with recording equipment.
 
 
-There's no need to spend money- Most of these products can be made at home with open source software. Here's a list of [DIY Security Gadgets](/6_Privacy_and-Security_Gadgets.md#diy-security-products).
+There's no need to spend money - Most of these products can be made at home with open source software. Here's a list of [DIY Security Gadgets](/6_Privacy_and-Security_Gadgets.md#diy-security-products).
 
 📜 **See More**: [Privacy and Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
 
@@ -177,8 +201,10 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [Firefox]: https://www.mozilla.org/
 [DuckDuckGo]: https://duckduckgo.com
 [StartPage]: https://www.startpage.com
-[Quant]: https://www.qwant.com
+[Qwant]: https://www.qwant.com
 [SearX]: https://asciimoo.github.io/searx
+
+[VPN Warning Note]: https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md#word-of-warning-8
 
 [//]: # (PRODUCTIVITY SOFTWARE LINKS)
 [NextCloud]: https://nextcloud.com
@@ -186,7 +212,7 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [Cryptee]: https://crypt.ee
 [Joplin]: https://joplinapp.org
 [ETE Sync]: https://www.etesync.com/accounts/signup/?referrer=QK6g
-[Firefox Send]: https://send.firefox.com
+[FilePizza]: https://file.pizza/
 [Syncthing]: https://syncthing.net
 [Write Freely]: https://writefreely.org
 

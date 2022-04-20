@@ -1,0 +1,54 @@
+# Inserts list of contributors and community members into ./ATTRIBUTIONS.md
+# Also generates an SVG showing all contributors, which is embedded into readme
+name: 💓 Generate Contributor & SponsorCredits
+on:
+  workflow_dispatch: # Manual dispatch
+  schedule:
+    - cron: '0 1 * * 0' # At 01:00 on Sunday.
+
+jobs:
+  # Job #1 - Generate an embedded SVG asset, showing all contributors
+  generate-contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contributor SVG 💓
+        uses: bubkoo/contributors-list@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          svgPath: .github/CONTRIBUTORS.svg
+          affiliation: all
+          includeBots: false
+          avatarSize: 96
+          userNameHeight: 20
+          svgWidth: 1024
+          commitMessage: '💓 Updates contributor SVG'
+
+  # Job #2 - Fetches sponsors and inserts table into attributions page
+  insert-sponsors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+      - name: Generate Sponsors in Credits 💓
+        uses: JamesIves/github-sponsors-readme-action@1.0.5
+        with:
+          token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          file: 'ATTRIBUTIONS.md'
+
+  # Job #3 - Fetches contributors and inserts table into attributions page
+  insert-credits:
+    runs-on: ubuntu-latest
+    name: Inserts contributors into ATTRIBUTIONS.md
+    steps:
+    - name: Contribute List - Attributions Page
+      uses: akhilmhdh/contributors-readme-action@v2.3.4
+      env:
+          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+      with:
+        image_size: 80
+        readme_path: ATTRIBUTIONS.md
+        columns_per_row: 6
+        commit_message: '💓 Updates contributors list'
+        committer_username: liss-bot
+        committer_email: liss-bot@d0h.co
+
