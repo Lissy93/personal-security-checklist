@@ -108,17 +108,17 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/lucadidomenico">
-            <img src="https://avatars.githubusercontent.com/u/56132403?v=4" width="80;" alt="lucadidomenico"/>
-            <br />
-            <sub><b>Luca Di Domenico</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/liss-bot">
             <img src="https://avatars.githubusercontent.com/u/87835202?v=4" width="80;" alt="liss-bot"/>
             <br />
             <sub><b>Alicia Bot</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/lucadidomenico">
+            <img src="https://avatars.githubusercontent.com/u/56132403?v=4" width="80;" alt="lucadidomenico"/>
+            <br />
+            <sub><b>Luca Di Domenico</b></sub>
         </a>
     </td>
     <td align="center">
