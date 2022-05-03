@@ -532,6 +532,7 @@ Fun little projects that you can run on a Raspberry Pi, or other low-powered com
 **[SquidGuard](http://www.squidguard.org)** | A URL redirector software, which can be used for content control of websites users can access. It is written as a plug-in for Squid and uses blacklists to define sites for which access is redirected
 **[PF Sense](https://www.pfsense.org)** | Widely used, open source firewall/router
 **[Zeek](https://www.zeek.org)** |  Detect if you have a malware-infected computer on your network, and powerful network analysis framework and monitor
+**[Firezone](https://github.com/firezone/firezone)** | Open-source self-hosted VPN and firewall built on WireGuard®.
 
 Don't want to build? See also: [Pre-configured security boxes](https://github.com/Lissy93/personal-security-checklist/blob/master/6_Privacy_and-Security_Gadgets.md#network-security)
 
