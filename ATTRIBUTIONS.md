@@ -14,7 +14,7 @@
     </td>
     <td align="center">
         <a href="https://github.com/emlazzarin">
-            <img src="https://avatars.githubusercontent.com/u/1141361?v=4" width="80;" alt="emlazzarin"/>
+            <img src="https://avatars.githubusercontent.com/u/1141361?u=714e3487a3f2e0df721b01a0133945f075d3ff68&v=4" width="80;" alt="emlazzarin"/>
             <br />
             <sub><b>Eddy Lazzarin</b></sub>
         </a>
@@ -57,7 +57,7 @@
     </td>
     <td align="center">
         <a href="https://github.com/shadowking001">
-            <img src="https://avatars.githubusercontent.com/u/43928955?v=4" width="80;" alt="shadowking001"/>
+            <img src="https://avatars.githubusercontent.com/u/43928955?u=a00b44f22e5a82234d9b406ac048def1fbc16e31&v=4" width="80;" alt="shadowking001"/>
             <br />
             <sub><b>LawrenceP.</b></sub>
         </a>
@@ -67,6 +67,13 @@
             <img src="https://avatars.githubusercontent.com/u/46445781?u=5502f8fb780938e2825735d7bbb9236642d212c0&v=4" width="80;" alt="KierenConnell"/>
             <br />
             <sub><b>Kieren Connell</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Antiz96">
+            <img src="https://avatars.githubusercontent.com/u/53110319?v=4" width="80;" alt="Antiz96"/>
+            <br />
+            <sub><b>Robin Candau</b></sub>
         </a>
     </td>
     <td align="center">
@@ -82,7 +89,8 @@
             <br />
             <sub><b>AwesomeCodingTutorials</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/jtfinley72">
             <img src="https://avatars.githubusercontent.com/u/96497997?v=4" width="80;" alt="jtfinley72"/>
