@@ -987,7 +987,7 @@ The content on many of these smaller sites tends to be more *niche*. To continue
 **[BitChute](https://www.bitchute.com/)** | A video hosting platform, that was founded in 2017 to allow uploaders to avoid content rules enforced on other platforms, such as YouTube
 
 #### Word of Warning
-Without moderation, some of these platforms accommodate video creators, who content may not be appropriate for all audiences
+Without moderation, some of these platforms accommodate video creators whose content may not be appropriate for all audiences
 
 #### YouTube Proxies
 The content on many of the smaller video sites, often just doesn't compare to YouTube. So another alternative, is to access YouTube through a proxy client, which reduces what Google can track).
