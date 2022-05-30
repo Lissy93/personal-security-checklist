@@ -490,6 +490,7 @@ Strong authentication, encrypted devices, patched software and anonymous web bro
 - @hslatman/[awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence)
 - @PaulSec/[awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks)
 - @Zbetcheckin/[security_list](https://github.com/zbetcheckin/Security_list)
+- Michael Horowitz / [defensivecomputingchecklist.com](https://defensivecomputingchecklist.com/)
 
 [See More](/4_Privacy_And_Security_Links.md#other-github-security-lists)
 
