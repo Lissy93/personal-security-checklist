@@ -568,7 +568,8 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - **Global**: [first.org](https://www.first.org) - The global Forum of Incident Response and Security Teams
 
 ## Mega Guides
-- Trusted software reccomendations and avice for privacy: [privacytools.io](https://www.privacytools.io/) 
+- Very thorough list of things to be aware of and defensive steps, by Michael Horowitz: [defensivecomputingchecklist.com](https://defensivecomputingchecklist.com/)
+- Software reccomendations and advice for privacy: [privacytools.io](https://www.privacytools.io/) 
 - Tips and tricks, for internet freedom, data health and privacy: [datadetoxkit.org](https://datadetoxkit.org/)
 - Digital security tools and tactics: [securityinabox.org](https://securityinabox.org/)
 - Online privacy guide, and software reccomendations: via [Fried](https://fried.com/privacy)
