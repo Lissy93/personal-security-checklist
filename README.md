@@ -351,7 +351,7 @@ Although Windows and OS X are easy to use and convenient, they both are far from
 **Use Canary Tokens** | Advanced | Breaches happen, but the longer it takes for you to find out about it, the more damage is done. A [canary trap](https://en.wikipedia.org/wiki/Canary_trap) can help you know that someone's gained access to your files or emails much faster, and gain a bit of inform about the incident. A canary token is a file, email, note or webpage that's like a little hacker honeypot, something that looks appealing to them once they've gained access to your system. When they open the file, unknowingly to them, a script is run which will not only alert you of the breach, but also grab some of the intruders system details. These have been used to catch Dropbox employees opening users files, and Yahoo Mail employees reading emails. <br>[CanaryTokens.org](https://canarytokens.org/generate) and [BlueCloudDrive](https://blueclouddrive.com/generate) are excellent sites, that you can use to generate your tokens. Then just leave them somewhere prominent on your system. [Learn more](https://blog.thinkst.com/p/canarytokensorg-quick-free-detection.html) about canary tokens, or see [this guide](https://resources.infosecinstitute.com/how-to-protect-files-with-canary-tokens/) for details on how to create them yourself.
 
 **Recommended Software**
-- [Secure Operating Systems](/5_Privacy_Respecting_Software.md#pc-operating-systems)
+- [Secure Operating Systems](/5_Privacy_Respecting_Software.md#desktop-operating-systems)
 - [Linux Defenses](/5_Privacy_Respecting_Software.md#linux-defences)
 - [Windows Defenses](/5_Privacy_Respecting_Software.md#windows-defences)
 - [Mac OS Defenses](/5_Privacy_Respecting_Software.md#mac-os-defences)
