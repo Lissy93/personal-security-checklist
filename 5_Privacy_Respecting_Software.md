@@ -1003,6 +1003,8 @@ The content on many of the smaller video sites, often just doesn't compare to Yo
 | --- | --- |
 **[Write Freely](https://writefreely.org)** | Free and open source software with a clean UI, for creating a minimalist, federated blog. For premium or enterprise hosted plans, see [Write.as](https://write.as), or to host your own, check out the [repo on GitHub](https://github.com/writeas/writefreely)
 **[Telegraph](https://telegra.ph)** | Created by [Telegram](https://www.theverge.com/2016/11/23/13728726/telegram-anonymous-blogging-platform-telegraph), Telegraph is fast, anonymous and simple
+**[Mataroa](https://mataroa.blog)** | Naked blogging platform, for minimalists. [Open source](https://github.com/mataroa-blog/mataroa) and privacy-conscious.
+**[Bear Blog](https://bearblog.dev/)** | A privacy-first, no-nonsense, super-fast blogging platform. [Repo on GitHub](https://github.com/HermanMartinus/bearblog).
 
 #### Notable Mentions
 If you use [Standard Notes](https://standardnotes.com/?s=chelvq36), then [Listed.to](https://listed.to) is a public blogging platform with strong privacy features. It lets you publish posts directly through the Standard Notes app or web interface. Other minimalistic platforms include [Notepin.co](https://notepin.co) and [Pen.io](http://pen.io).
@@ -1352,7 +1354,7 @@ Moving away from Google, and using multiple alternative apps will mean there is 
 - Analytics: [Matomo](https://matomo.org), [Privalytics](https://www.privalytics.io), [Plausible](https://plausible.io), [Fathom](https://github.com/usefathom/fathom), [GoatCounter](https://www.goatcounter.com), [ShyNet](https://github.com/milesmcc/shynet)
 - Assistant: [Mycroft](https://mycroft.ai), [Kalliope](https://kalliope-project.github.io), [Project-Alias](https://github.com/bjoernkarmann/project_alias) (for Google Home/ Alexa)
 - Authenticator: [Aegis](https://getaegis.app) (Android), [AndOTP](https://github.com/andOTP/andOTP) (Android), [Authenticator](https://github.com/mattrubin/authenticator) (ios)
-- Blogging: [Write Freely](https://writefreely.org), [Telegraph](https://telegra.ph), [Ghost](https://ghost.org) (Self-Hosted)
+- Blogging: [Write Freely](https://writefreely.org), [Telegraph](https://telegra.ph), [Mataroa](https://mataroa.blog/), [Bear Blog](https://bearblog.dev/), [Ghost](https://ghost.org) (Self-Hosted)
 - Browsers: [Brave](https://brave.com/?ref=ali721), [Firefox](https://www.mozilla.org/firefox) (with some [tweaks](https://restoreprivacy.com/firefox-privacy/)), [Vivaldi](https://vivaldi.com)
 - Calendar: [EteSync](https://www.etesync.com/accounts/signup/?referrer=QK6g), [ProtonCalendar](https://protonmail.com/blog/protoncalendar-beta-announcement), [NextCloud Calendar](https://apps.nextcloud.com/apps/calendar) (self-hosted), [Radicale](https://radicale.org/v3.html) (self-hosted, also supports contact lists)
 - Cloud: [Njalla](https://njal.la), [Vindo](https://www.vindohosting.com), [Private Layer](https://www.privatelayer.com)
