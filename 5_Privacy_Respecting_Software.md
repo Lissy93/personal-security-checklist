@@ -1003,8 +1003,8 @@ The content on many of the smaller video sites, often just doesn't compare to Yo
 | --- | --- |
 **[Write Freely](https://writefreely.org)** | Free and open source software with a clean UI, for creating a minimalist, federated blog. For premium or enterprise hosted plans, see [Write.as](https://write.as), or to host your own, check out the [repo on GitHub](https://github.com/writeas/writefreely)
 **[Telegraph](https://telegra.ph)** | Created by [Telegram](https://www.theverge.com/2016/11/23/13728726/telegram-anonymous-blogging-platform-telegraph), Telegraph is fast, anonymous and simple
-**[Mataroa](https://mataroa.blog)** | Naked blogging platform, for minimalists
-**[Bear Blog](https://bearblog.dev/)** | A privacy-first, no-nonsense, super-fast blogging platform
+**[Mataroa](https://mataroa.blog)** | Naked blogging platform, for minimalists. [Open source](https://github.com/mataroa-blog/mataroa) and privacy-conscious.
+**[Bear Blog](https://bearblog.dev/)** | A privacy-first, no-nonsense, super-fast blogging platform. [Repo on GitHub](https://github.com/HermanMartinus/bearblog).
 
 #### Notable Mentions
 If you use [Standard Notes](https://standardnotes.com/?s=chelvq36), then [Listed.to](https://listed.to) is a public blogging platform with strong privacy features. It lets you publish posts directly through the Standard Notes app or web interface. Other minimalistic platforms include [Notepin.co](https://notepin.co) and [Pen.io](http://pen.io).
