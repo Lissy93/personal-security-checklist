@@ -1093,6 +1093,7 @@ Avoid using any online/ hot-wallet, as you will have no control over the securit
 **[Bisq](https://bisq.network)** | An open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies in exchange for national currencies. Fully decentralized, and no registration required.
 **[LocalBitcoins](https://localbitcoins.com/)** | Person-to-person exchange, find people local to your area, and trade directly with them, to avoid going through any central organisation. Primarily focused on Bitcoin, Ethereum, Ripple and LiteCoin, as it gets harder to find people near you selling niche alt-coins
 **[AtomicDEX](https://atomicdex.io/)** | Person-to-person cryptocurrency exchange with no KYC or registration required and uses atomic swaps to perform trustless trades. The orderbook uses a modified libp2p protocol to prevent censorship and maintain decentralization. Fiat currencies are not supported, but hundreds of alt-coins and major cryptocurrencies are supported.
+**[RoboSats](https://learn.robosats.com/)** | RoboSats is an easy way to privately exchange Bitcoin for national currencies It simplifies the peer-to-peer experience and makes use lightning hold invoices to minimize custody and trust requirements. The deterministically generated avatars help users stick to best privacy practices.
 
 #### Notable Mentions
 
