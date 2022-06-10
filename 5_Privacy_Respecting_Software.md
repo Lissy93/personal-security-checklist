@@ -34,6 +34,8 @@ corporations, governments, and hackers from logging, storing or selling your per
   - [Email Clients](#email-clients)
   - [Anonymous Mail Forwarding](#anonymous-mail-forwarding)
   - [Email Security Tools](#email-security-tools)
+  - [VOIP Clients](#voip-clients)
+  - [Virtual Phone Numbers](#virtual-phone-numbers)
   - [Team Collaboration Platforms](#team-collaboration-platforms)
 - **Security Tools**
   - [Browser Extensions](#browser-extensions)
@@ -339,7 +341,7 @@ Alternatively you could host your own catch-all email service. [Mailu](https://g
 #### Notable Mentions
 If you are using ProtonMail, then the [ProtonMail Bridge](https://protonmail.com/bridge/thunderbird) enables you to sync your emails to your own desktop mail client. It works well with Thunderbird, Microsoft Outlook and others
 
-## VOIP
+## VOIP Clients
 
 | Provider | Description |
 | --- | --- |
@@ -349,6 +351,14 @@ If you are using ProtonMail, then the [ProtonMail Bridge](https://protonmail.com
 #### Notable Mentions
 [SpoofCard](https://www.spoofcard.com) lets you make anonymous phone calls + voicemail, but not open source and limited information on security (avoid sending any secure info).
 [MicroSip](https://www.microsip.org/) is an open source portable SIP softphone for Windows based on PJSIP stack
+
+## Virtual Phone Numbers
+
+| Provider | Description |
+| --- | --- |
+**[Silent.link](https://silent.link/)** | Anonymous eSIM for sending / receiving SMS, incoming calls and 4G / 5G internet + world-wide roaming. No data is required at sign-up. Affordable pricing, with payments and top-ups accepted in BTC. Requires and eSim-compatible device
+**[Crypton.sh](https://crypton.sh/)** | Physical SIM card in the cloud, for sending + receiving SMS messages. Messages are encrypted using your chosen private key. Includes a web interface, as well as an API for interacting with it from any device. Pricing is around €7.00/month, and payment is accepted in BTC, XMR or credit card
+**[Jmp.chat](https://jmp.chat/)** | Phone number for incoming + outgoing calls and messages, privided by Soprani. Works with Jabber, Matrix, Snikket, XMPP or any SIP client. Pricing starts at $2.99 / month. Only available in the US and Canada, as (as of 2022) the service is still in Beta
 
 ## Team Collaboration Platforms
 
