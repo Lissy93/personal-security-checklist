@@ -19,7 +19,7 @@
 
 ### Browsing
 - Use a Privacy-Respecting Browser, [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/exp/firefox/new) are good options. Set your default search to a non-tracking engine, such as [DuckDuckGo](https://duckduckgo.com)
-- Do not enter any information on a non-HTTPS website (look for the lock icon), consider using [HTTPS-Everywhere](https://www.eff.org/https-everywhere) to make this easier
+- Do not enter any information on a non-HTTPS website (look for the lock icon). Firefox, Chrome, Edge and Safari now have integrated HTTPS security features; if you do not know if it's enabled, check out this [guide](https://www.eff.org/deeplinks/2021/09/https-actually-everywhere) to learn where to look.
 - Block invasive 3rd-party trackers and ads using an extension like [Privacy Badger](https://privacybadger.org) or [uBlock](https://github.com/gorhill/uBlock)
 - Keep your browser up-to-date, explore the privacy settings and remove unnecessary add-ons/ extensions
 - Consider using compartmentalization to separate different areas of your browsing (such as work, social, shopping etc), in order to reduce tracking. This can be done with [Firefox Containers](https://support.mozilla.org/en-US/kb/containers), or by using separate browsers or browser profiles
