@@ -276,7 +276,7 @@ Thanks goes to these wonderful people
         <a href="https://github.com/marjamis">
             <img src="https://avatars.githubusercontent.com/u/10202014?v=4" width="80;" alt="marjamis"/>
             <br />
-            <sub><b>marjamis</b></sub>
+            <sub><b>Marjamis</b></sub>
         </a>
     </td></tr>
 <tr>
@@ -388,10 +388,10 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/D0xx249">
-            <img src="https://avatars.githubusercontent.com/u/65371336?v=4" width="80;" alt="D0xx249"/>
+        <a href="https://github.com/Z4rak">
+            <img src="https://avatars.githubusercontent.com/u/65371336?v=4" width="80;" alt="Z4rak"/>
             <br />
-            <sub><b>Felipe</b></sub>
+            <sub><b>Z4rak</b></sub>
         </a>
     </td>
     <td align="center">
