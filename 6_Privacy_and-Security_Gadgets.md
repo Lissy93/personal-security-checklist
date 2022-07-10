@@ -157,7 +157,7 @@ Gadgets that help protect and anonamise your internet, detect & prevent intrusio
 - **[IPFire](https://www.ipfire.org)** - A hardened, versatile, state-of-the-art open source firewall based on Linux. Its ease of use, high performance and extensibility make it usable for everyone
 - **[PiVPN](https://pivpn.io)** - A simple way to set up a home VPN on a any Debian server. Supports OpenVPN and WireGuard with elliptic curve encryption keys up to 512 bit. Supports multiple DNS providers and custom DNS provividers - works nicley along-side PiHole
 - **[E2guardian](http://e2guardian.org)** - Powerful open source web content filter
-- **[OpenWRT](https://openwrt.org)** Powerful custom router firmware, with great security, performance and customization features. See more [custom router firmware](/5_Privacy_Respecting_Software.md#router-firmware)
+- **[OpenWRT](https://openwrt.org)** Powerful custom router firmware, with great security, performance and customization features. See more [custom router firmware](https://github.com/Lissy93/awesome-privacy#router-firmware)
 - **[SquidGuard](http://www.squidguard.org)** - A URL redirector software, which can be used for content control of websites users can access. It is written as a plug-in for Squid and uses blacklists to define sites for which access is redirected
 - **[PF Sense](https://www.pfsense.org)** - Widley used, open source firewall/router
 - **[Zeek](https://www.zeek.org)** -  Detect if you have a malware-infected computer on your network, and powerful network analysis framework and monitor
@@ -256,7 +256,7 @@ Always ensure the packaging has not been tampered with, buy direct from the manu
 
 ## See Also
 
-- [Awesome Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
+- [Awesome Privacy-Respecting Software](https://github.com/Lissy93/awesome-privacy)
 - [Ultimate Personal Security Checklist](/README.md)
 - [Why Privacy and Security Matters](/0_Why_It_Matters.md)
 - [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)

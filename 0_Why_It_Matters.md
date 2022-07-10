@@ -78,7 +78,7 @@ For online privacy to be effective, it needs to be adopted my the masses, and no
 
 ## Further Links
 - [Ultimate Personal Security Checklist](/README.md)
-- [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
+- [Privacy-Respecting Software](https://github.com/Lissy93/awesome-privacy)
 - [Privacy & Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
 - [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)
 

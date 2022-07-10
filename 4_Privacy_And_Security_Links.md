@@ -18,7 +18,7 @@
   - [Videos](#videos)
 - **Security Tools & Services**
   - [Online Tools](#online-tools)
-  - Privacy-Respecting Software, moved to [here](/5_Privacy_Respecting_Software.md)
+  - Privacy-Respecting Software, moved to [here](https://github.com/Lissy93/awesome-privacy)
   - Security Hardware, moved to [here](/6_Privacy_and-Security_Gadgets.md)
 - **Research**
   - [Data and API's](#data-apis-and-visualisations)
@@ -390,7 +390,7 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
 
 ## Privacy-Respecting Software
 
-This section has moved to [here](/5_Privacy_Respecting_Software.md). Complete list of privacy-respecting software and services
+This section has moved to [here](https://github.com/Lissy93/awesome-privacy). Complete list of privacy-respecting software and services
 
 ## Security Hardware
 
@@ -620,7 +620,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
   - [lists](https://github.com/jnv/lists) by @jnv
 - **More In This Repo**
   - [Personal Security Checklist](/README.md) by @lissy93
-  - [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md)
+  - [Privacy-Respecting Software](https://github.com/Lissy93/awesome-privacy)
   - [Importance of Privacy & Security](/0_Why_It_Matters.md)
   - [Digital Security Gadgets / DIY hardware](/6_Privacy_and-Security_Gadgets.md)
   - [TLDR - Condensed Summary of this Repo](/2_TLDR_Short_List.md)
