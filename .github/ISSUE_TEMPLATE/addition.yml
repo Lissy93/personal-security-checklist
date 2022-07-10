@@ -1,0 +1,56 @@
+name: Addition
+description: 🆕 Suggest something to be added to the list
+title: '[ADDITION] <title>'
+labels: ['Suggested Addition', 'Awaiting Review']
+assignees:
+  - lissy93
+body:
+  # Location
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: >-
+        Indicate which section (and if applicable sub-section) the addition should be made
+      placeholder:
+    validations:
+      required: true
+
+  # Addition Info
+  - type: textarea
+    id: addition
+    attributes:
+      label: Addition
+      description: |
+        Please describe what should be added
+        Where applicable, provide links to reputable sources to back up any info
+      placeholder: 
+    validations:
+      required: true
+
+  # Can user submit PR
+  - type: dropdown
+    id: canImplement
+    attributes:
+      label: Would you like to submit a PR?
+      description: Is this addition something that you are willing to submit a pull request for?
+      options:
+        - 'No'
+        - 'Maybe'
+        - 'Yes'
+    validations:
+      required: false
+
+
+  # Confirmation checkboxes
+  - type: checkboxes
+    id: idiot-check
+    attributes:
+      label: Please tick the boxes
+      options:
+        - label: To the best of my knowledge, the information I've provided is correct
+          required: true
+        - label: I have checked that a similar ticket has not previously been opened
+          required: true
+        - label: I agree to the repositories [Code of Conduct](https://github.com/Lissy93/personal-security-checklist/blob/master/.github/CODE_OF_CONDUCT.md)
+          required: true
