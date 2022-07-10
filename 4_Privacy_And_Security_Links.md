@@ -337,6 +337,7 @@ See also: [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) by @
   - [Have I been Pwned](https://haveibeenpwned.com) and [Dehashed](https://www.dehashed.com) - Check if your details have been compromised
   - [Redirect Detective](https://redirectdetective.com) - Check where a suspicious URL redirects to
   - [Botometer](https://botometer.iuni.iu.edu/) - An AI script to check if a certain username is a bot
+  - [Who Tracks Me](https://whotracks.me/trackers.html) - Breakdown of common tracking scripts, and which sites use them
 - **Utilities**
   - [Privacy.sexy](https://privacy.sexy/) - A collection of commands you can run to impplement best prctices on Windows or MacOS
   - [ExifRemove](https://www.exifremove.com) - Remove Meta/ EXIF data online

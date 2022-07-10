@@ -106,13 +106,6 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/ced4568">
-            <img src="https://avatars.githubusercontent.com/u/60725859?v=4" width="80;" alt="ced4568"/>
-            <br />
-            <sub><b>Kyforker148</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/ratty222">
             <img src="https://avatars.githubusercontent.com/u/92832598?u=137b65530cbd5f5af9c24cde51baa6cc77cc934b&v=4" width="80;" alt="ratty222"/>
             <br />
@@ -132,8 +125,7 @@
             <br />
             <sub><b>Jtfinley72</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/zacharyraber">
             <img src="https://avatars.githubusercontent.com/u/105998568?v=4" width="80;" alt="zacharyraber"/>
@@ -276,7 +268,7 @@ Thanks goes to these wonderful people
         <a href="https://github.com/marjamis">
             <img src="https://avatars.githubusercontent.com/u/10202014?v=4" width="80;" alt="marjamis"/>
             <br />
-            <sub><b>marjamis</b></sub>
+            <sub><b>Marjamis</b></sub>
         </a>
     </td></tr>
 <tr>
@@ -388,10 +380,10 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/D0xx249">
-            <img src="https://avatars.githubusercontent.com/u/65371336?v=4" width="80;" alt="D0xx249"/>
+        <a href="https://github.com/Z4rak">
+            <img src="https://avatars.githubusercontent.com/u/65371336?v=4" width="80;" alt="Z4rak"/>
             <br />
-            <sub><b>Felipe</b></sub>
+            <sub><b>Z4rak</b></sub>
         </a>
     </td>
     <td align="center">
