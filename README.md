@@ -22,13 +22,11 @@
 [<img src="https://i.ibb.co/KVPV1Lk/10-human-36x36.png" width="28" height="28" /> Human Aspect](#sensible-computing)<br>
 [<img src="https://i.ibb.co/9NbhBww/11-physical-36x36.png" width="28" height="28" /> Physical Security](#physical-security)<br>
 
-**Too long? 🦒** See the [TLDR version](/2_TLDR_Short_List.md) instead.
+Too long? 🦒 See the [TLDR version](/2_TLDR_Short_List.md) instead.
 
-### See Also
-- [Why Privacy & Security Matters](/0_Why_It_Matters.md)
-- [Privacy-Respecting Software](https://github.com/Lissy93/awesome-privacy)
-- [Privacy & Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
-- [Further Links + More Awesome Stuff](/4_Privacy_And_Security_Links.md)
+For a list of privacy-respecting software, check out [Awesome-Privacy](https://github.com/lissy93/awesome-privacy).
+
+A mirror of this repo is available at [codeberg.org/alicia/personal-security-checklist](https://codeberg.org/alicia/personal-security-checklist).
 
 ----
 
