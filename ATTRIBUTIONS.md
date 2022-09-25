@@ -120,13 +120,6 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/AwesomeCodingTutorials">
-            <img src="https://avatars.githubusercontent.com/u/92854112?v=4" width="80;" alt="AwesomeCodingTutorials"/>
-            <br />
-            <sub><b>AwesomeCodingTutorials</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/jtfinley72">
             <img src="https://avatars.githubusercontent.com/u/96497997?v=4" width="80;" alt="jtfinley72"/>
             <br />
