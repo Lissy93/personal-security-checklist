@@ -144,17 +144,17 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/matkoniecz">
-            <img src="https://avatars.githubusercontent.com/u/899988?v=4" width="80;" alt="matkoniecz"/>
-            <br />
-            <sub><b>Mateusz Konieczny</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/liss-bot">
             <img src="https://avatars.githubusercontent.com/u/87835202?v=4" width="80;" alt="liss-bot"/>
             <br />
             <sub><b>Alicia Bot</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/matkoniecz">
+            <img src="https://avatars.githubusercontent.com/u/899988?v=4" width="80;" alt="matkoniecz"/>
+            <br />
+            <sub><b>Mateusz Konieczny</b></sub>
         </a>
     </td>
     <td align="center">
