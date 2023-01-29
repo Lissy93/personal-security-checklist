@@ -92,6 +92,13 @@
     </td></tr>
 <tr>
     <td align="center">
+        <a href="https://github.com/iJasonWade">
+            <img src="https://avatars.githubusercontent.com/u/12824479?v=4" width="80;" alt="iJasonWade"/>
+            <br />
+            <sub><b>Jason Ash</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/PAPAMICA">
             <img src="https://avatars.githubusercontent.com/u/29079741?v=4" width="80;" alt="PAPAMICA"/>
             <br />
@@ -211,7 +218,7 @@ Thanks goes to these wonderful people
         <a href="https://github.com/pndyjack">
             <img src="https://avatars.githubusercontent.com/u/20967911?v=4" width="80;" alt="pndyjack"/>
             <br />
-            <sub><b>pndyjack</b></sub>
+            <sub><b>Pndyjack</b></sub>
         </a>
     </td></tr>
 <tr>
