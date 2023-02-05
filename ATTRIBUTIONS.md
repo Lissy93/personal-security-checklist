@@ -93,7 +93,7 @@
 <tr>
     <td align="center">
         <a href="https://github.com/iJasonWade">
-            <img src="https://avatars.githubusercontent.com/u/12824479?v=4" width="80;" alt="iJasonWade"/>
+            <img src="https://avatars.githubusercontent.com/u/12824479?u=8fa860e47bed4f84c8ff70cb2691d77edbb43d8f&v=4" width="80;" alt="iJasonWade"/>
             <br />
             <sub><b>Jason Ash</b></sub>
         </a>
@@ -194,6 +194,13 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/hypogram">
+            <img src="https://avatars.githubusercontent.com/u/122231081?v=4" width="80;" alt="hypogram"/>
+            <br />
+            <sub><b>Hypogram</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/ilesinge">
             <img src="https://avatars.githubusercontent.com/u/501674?v=4" width="80;" alt="ilesinge"/>
             <br />
@@ -213,15 +220,15 @@ Thanks goes to these wonderful people
             <br />
             <sub><b>Daniil Baturin</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/pndyjack">
             <img src="https://avatars.githubusercontent.com/u/20967911?v=4" width="80;" alt="pndyjack"/>
             <br />
             <sub><b>Pndyjack</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/kdenhartog">
             <img src="https://avatars.githubusercontent.com/u/23125059?v=4" width="80;" alt="kdenhartog"/>
@@ -255,13 +262,6 @@ Thanks goes to these wonderful people
             <img src="https://avatars.githubusercontent.com/u/1264398?v=4" width="80;" alt="ansuz"/>
             <br />
             <sub><b>Ansuz</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/hypogram">
-            <img src="https://avatars.githubusercontent.com/u/122231081?v=4" width="80;" alt="hypogram"/>
-            <br />
-            <sub><b>Hypogram</b></sub>
         </a>
     </td></tr>
 <tr>
