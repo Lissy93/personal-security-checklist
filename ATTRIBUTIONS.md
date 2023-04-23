@@ -64,7 +64,7 @@
     </td>
     <td align="center">
         <a href="https://github.com/vlad-timofeev">
-            <img src="https://avatars.githubusercontent.com/u/11474041?v=4" width="80;" alt="vlad-timofeev"/>
+            <img src="https://avatars.githubusercontent.com/u/11474041?u=eee43705b54d2ec9f51fc4fcce5ad18dd17c87e4&v=4" width="80;" alt="vlad-timofeev"/>
             <br />
             <sub><b>Vlad Timofeev</b></sub>
         </a>
@@ -367,10 +367,10 @@ Thanks goes to these wonderful people
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/mrraddinton">
-            <img src="https://avatars.githubusercontent.com/u/65371336?v=4" width="80;" alt="mrraddinton"/>
+        <a href="https://github.com/0x5FE">
+            <img src="https://avatars.githubusercontent.com/u/65371336?v=4" width="80;" alt="0x5FE"/>
             <br />
-            <sub><b>Mrraddinton</b></sub>
+            <sub><b>0x5FE</b></sub>
         </a>
     </td>
     <td align="center">
