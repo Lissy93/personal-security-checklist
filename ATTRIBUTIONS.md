@@ -628,7 +628,7 @@ Thanks goes to these wonderful people
         <a href="https://github.com/pabloscloud">
             <img src="https://avatars.githubusercontent.com/u/93644977?v=4" width="80;" alt="pabloscloud"/>
             <br />
-            <sub><b>pabloscloud</b></sub>
+            <sub><b>Pabloscloud</b></sub>
         </a>
     </td>
     <td align="center">
