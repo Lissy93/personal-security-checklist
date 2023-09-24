@@ -639,6 +639,13 @@ Thanks goes to these wonderful people
     </td></tr>
 <tr>
     <td align="center">
+        <a href="https://github.com/omahs">
+            <img src="https://avatars.githubusercontent.com/u/73983677?v=4" width="80;" alt="omahs"/>
+            <br />
+            <sub><b>Omahs</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/pabloscloud">
             <img src="https://avatars.githubusercontent.com/u/93644977?v=4" width="80;" alt="pabloscloud"/>
             <br />
