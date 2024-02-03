@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, useStyles$ } from "@builder.io/qwik";
 import {
   QwikCityProvider,
   RouterOutlet,
@@ -6,9 +6,13 @@ import {
 } from "@builder.io/qwik-city";
 import { RouterHead } from "./components/router-head/router-head";
 
-import "./global.css";
+import tailwind from './styles/tailwind.css?inline';
+
+import "./styles/global.css";
 
 export default component$(() => {
+
+  useStyles$(tailwind);
   /**
    * The root of a QwikCity site always start with the <QwikCityProvider> component,
    * immediately followed by the document's <head> and <body>.
@@ -24,7 +28,7 @@ export default component$(() => {
         <RouterHead />
         <ServiceWorkerRegister />
       </head>
-      <body lang="en">
+      <body lang="en" data-theme="night" class="flex flex-col justify-between min-h-screen">
         <RouterOutlet />
       </body>
     </QwikCityProvider>
