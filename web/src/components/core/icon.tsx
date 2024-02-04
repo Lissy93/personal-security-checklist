@@ -99,16 +99,33 @@ const getSvgPath = (icon: string) => {
   }
 };
 
+
+
+
+const makeFillColor = (props: IconProps) => {
+  const isColorKey = (color: any): color is keyof typeof colors => color in colors;
+
+  let colorValue = 'currentcolor';
+  if (props.color && isColorKey(props.color)) {
+    const colorObject = colors[props.color];
+    if (colorObject[400]) {
+      colorValue = colorObject[400];
+    }
+  }
+  return colorValue;
+};
+
+
 interface IconProps {
   icon: string;
   color?: string;
   class?: string;
   width?: number;
   height?: number;
-};
+}
 
 const IconComponent = component$((props: IconProps) => {
-  const fillColor = (colors[props.color] || [])[400] || colors['current'].currentColor || 'currentcolor';
+  const fillColor = makeFillColor(props);
   const svgStyle = { fill: fillColor };
   const { vb, path } = getSvgPath(props.icon);
   const svgClass = props.class || '';

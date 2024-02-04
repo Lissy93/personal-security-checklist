@@ -1,4 +1,6 @@
 {
+
+  "license": "MIT",
   "scripts": {
     "dev": "vite --mode ssr",
     "build": "qwik build",
@@ -9,25 +11,34 @@
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
     "fmt": "prettier --write .",
     "fmt.check": "prettier --check .",
-    "lint": "eslint \"src/**/*.ts*\"",
+    "lint": "eslint \"src/**/*.ts*\" -f compact",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
   },
   "devDependencies": {
     "@builder.io/qwik-city": "^1.1.4",
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
     "autoprefixer": "^10.4.13",
     "daisyui": "^3.0.2",
+    "eslint": "^8.56.0",
+    "eslint-plugin-qwik": "^1.4.3",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
     "typescript": "^5.3.3",
     "undici": "^5.16.0",
     "vite": "^4.0.4",
+    "vite-plugin-static-copy": "^1.0.1",
     "vite-tsconfig-paths": "^4.3.1"
   },
   "dependencies": {
     "@builder.io/qwik": "^1.1.4",
     "marked": "^12.0.0",
+    "sharp": "^0.33.2"
+  },
+  "resolutions": {
     "sharp": "^0.33.2"
   }
 }

@@ -1,11 +1,8 @@
-import { component$, Slot, useStyles$ } from "@builder.io/qwik";
+import { component$, Slot } from "@builder.io/qwik";
 import type { RequestHandler } from "@builder.io/qwik-city";
 
-import Header from "../components/furniture/header";
 import Navbar from "../components/furniture/nav";
 import Footer from "../components/furniture/footer";
-
-// useStyles$(tailwind);
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
