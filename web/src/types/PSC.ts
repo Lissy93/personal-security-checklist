@@ -3,6 +3,8 @@ export interface PersonalSecurityChecklist {
   sections: Section[],
 }
 
+export type Sections = Section[];
+
 export interface Section {
   title: string,
   slug: string,

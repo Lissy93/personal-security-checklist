@@ -1,16 +1,18 @@
-import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import { component$, useContext } from '@builder.io/qwik';
+import { type DocumentHead } from "@builder.io/qwik-city";
 
 import Hero from "../components/furniture/hero";
 import SectionLinkGrid from "../components/psc/section-link-grid";
 
-import { data } from '../mock-data';
+import { ChecklistContext } from '~/store/checklist-context';
 
-export default component$(() => {
+export default component$(() => { 
+  const checklists = useContext(ChecklistContext);
+  
   return (
     <>
       <Hero />
-      <SectionLinkGrid sections={data} />
+      <SectionLinkGrid sections={checklists.value} />
     </>
   );
 });

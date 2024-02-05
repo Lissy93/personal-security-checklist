@@ -1,23 +1,23 @@
-import { component$ } from '@builder.io/qwik';
+import { component$, useContext } from '@builder.io/qwik';
 import { useLocation } from '@builder.io/qwik-city';
 import { marked } from 'marked';
 
-import Icon from '../../../components/core/icon';
-import { data } from '../../../mock-data';
-import type { Section, Priority } from '../../../types/PSC';
+import Icon from '~/components/core/icon';
+import { ChecklistContext } from '~/store/checklist-context';
+import { useLocalStorage } from '~/hooks/useLocalStorage';
+import type { Section, Priority } from "~/types/PSC";
 
 export default component$(() => {
+
+  const checklists = useContext(ChecklistContext);
+
   const loc = useLocation();
-  // const endpoint = useEndpoint<{ params: { title: string } }>();
   const slug = loc.params.title;
 
-  const section: Section | undefined = data.find((item: Section) => item.slug === slug);
-
-  // You can now use `title` to fetch data related to this checklist item
-  // and render it below.
+  const section: Section | undefined = checklists.value.find((item: Section) => item.slug === slug);
 
   const getBadgeClass = (priority: Priority, precedeClass: string = '') => {
-    switch (priority) {
+    switch (priority.toLocaleLowerCase()) {
       case 'recommended':
         return `${precedeClass}success`;
       case 'optional':
@@ -37,7 +37,16 @@ export default component$(() => {
     return marked.parse(text || '', { async: false }) as string || '';
   };
 
+  const STORAGE_KEY = 'PSC_PROGRESS';
+  const [value, setValue] = useLocalStorage(STORAGE_KEY, {});
+
+  const isChecked = (point: string) => {
+    const pointId = generateId(point);
+    return value.value[pointId] || false;
+  };
+  
   return (
+    <div class="md:my-8 md:px-16 sm:px-2 rounded-md">
     <article class="bg-base-200 bg-opacity-25 p-8 mx-auto w-full max-w-[1200px] rounded-lg shadow-lg">
       <h1 class={['gap-2 text-5xl font-bold capitalize flex']}>
         <Icon height={36} width={36} icon={section?.icon || 'star'}  />
@@ -59,7 +68,18 @@ export default component$(() => {
             {section?.checklist.map((item, index) => (
               <tr key={index} class={`rounded-sm hover:bg-opacity-5 hover:bg-${getBadgeClass(item.priority)}`}>
                 <td>
-                  <input type="checkbox" class="checkbox" id={generateId(item.point)} />
+                  <input
+                    type="checkbox"
+                    class="checkbox"
+                    id={generateId(item.point)}
+                    checked={isChecked(item.point)}
+                    onClick$={() => {
+                      const id = item.point.toLowerCase().replace(/ /g, '-');
+                      const data = value.value;
+                      data[id] = !data[id];
+                      setValue(data);
+                    }}
+                  />
                 </td>
                 <td>
                   <label class="text-base font-bold" for={generateId(item.point)}>
@@ -78,6 +98,7 @@ export default component$(() => {
         </table>
       </div>
     </article>
+    </div>
   );
 });
 

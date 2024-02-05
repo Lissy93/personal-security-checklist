@@ -40,7 +40,7 @@ module.exports = {
   },
   safelist: [
     {
-      pattern: /(bg|outline|text|tw-color)-(yellow|lime|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|red)-(200|300|400|500|600)/,
+      pattern: /(bg|outline|text|tw-color|border)-(yellow|lime|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|red)-(200|300|400|500|600)/,
       variants: ['light', 'dark', 'hover', 'focus'],
     },
     {
