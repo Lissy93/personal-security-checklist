@@ -89,7 +89,7 @@ export default component$(() => {
           <li><a href="/"><Icon class="mr-2" icon="homepage" width={16} height={16}  />Home</a></li>
           <li><a href="/"><Icon class="mr-2" icon="github" width={16} height={16}  />GitHub</a></li>
           <li>
-            <a href="/checklist"><Icon class="mr-2" icon="all" width={16} height={16}  />Checklists</a>
+            <a href="/checklist"><Icon class="mr-2" icon="all" width={16} height={16} />Checklists</a>
             <ul>
               {data.map((item: Section, index: number) => (
               <li key={`checklist-side-${index}`} class={`hover:bg-${item.color}-600 hover:bg-opacity-15`}>
@@ -102,14 +102,18 @@ export default component$(() => {
             </ul>
           </li>
           <li>
-            <a href="/article">Articles</a>
+            <a href="/article">
+              <Icon class="mr-2" icon="articles" width={16} height={16} />Articles
+            </a>
             <ul>
               <li><a href="/article/1">Article 1</a></li>
               <li><a href="/article/2">Article 2</a></li>
             </ul>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/about">
+              <Icon class="mr-2" icon="about" width={16} height={16} />About
+            </a>
             <ul>
               <li>
                 <a href="#">Contributing</a>
