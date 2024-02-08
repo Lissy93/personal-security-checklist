@@ -5,11 +5,11 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 export default component$(() => {
   return (
     <div class="m-4 md:mx-16">
-      <article class="bg-base-200 bg-opacity-25 p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-lg">
+      <article class="bg-back p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-md">
         <h2 class="text-2xl">About the Security Checklist</h2>
       </article>
       <div class="divider"></div>
-      <article class="bg-base-200 bg-opacity-25 p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-lg">
+      <article class="bg-back p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-md">
         <h2 class="text-2xl">About the Author</h2>
           <p>
             This project was originally started by me, Alicia Sykes- with a lot of help from the community.

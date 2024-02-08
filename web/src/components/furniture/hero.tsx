@@ -4,7 +4,7 @@ import Icon from "../core/icon";
 
 export default component$(() => {
   return (
-    <div class="hero  bg-base-200 bg-opacity-25 mb-16">
+    <div class="hero bg-front mb-16 shadow-sm">
       <div class="hero-content text-center">
         <div class="max-w-2xl flex flex-col place-items-center">
           <p>The Ultimate</p>

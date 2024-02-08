@@ -22,7 +22,7 @@ export default component$(() => {
   
   return (
     <div class="md:my-8 md:px-16 sm:px-2 rounded-md">
-    <article class="bg-base-200 bg-opacity-25 p-8 mx-auto w-full max-w-[1200px] rounded-lg shadow-lg">
+    <article class="bg-back p-8 mx-auto w-full max-w-[1200px] rounded-lg shadow-md">
       <h1 class={['gap-2 text-5xl font-bold capitalize flex']}>
         <Icon height={36} width={36} icon={section?.icon || 'star'}  />
         {section?.title}
