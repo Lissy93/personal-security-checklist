@@ -39,7 +39,7 @@ module.exports = {
     ],
   },
   safelist: [
-    {
+    { // TODO: This adds a lot of overhead. Go through code, and remove any un-needed variants.
       pattern: /(bg|outline|text|tw-color|border)-(yellow|lime|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|red)-(200|300|400|500|600)/,
       variants: ['light', 'dark', 'hover', 'focus'],
     },

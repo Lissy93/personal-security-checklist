@@ -114,6 +114,16 @@ const getSvgPath = (icon: string) => {
         vb: "0 0 512 512",
         path: "M3.9 54.9C10.5 40.9 24.5 32 40 32H472c15.5 0 29.5 8.9 36.1 22.9s4.6 30.5-5.2 42.5L320 320.9V448c0 12.1-6.8 23.2-17.7 28.6s-23.8 4.3-33.5-3l-64-48c-8.1-6-12.8-15.5-12.8-25.6V320.9L9 97.3C-.7 85.4-2.8 68.8 3.9 54.9z",
       };
+    case 'sort':
+      return {
+        vb: "0 0 512 512",
+        path: "M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z",
+      };
+    case 'clear':
+      return {
+        vb: "0 0 512 512",
+        path: "M0 128C0 92.7 28.7 64 64 64H370.7c17 0 33.3 6.7 45.3 18.7L566.6 233.4c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6L416 429.3c-12 12-28.3 18.7-45.3 18.7H64c-35.3 0-64-28.7-64-64V128zm143 47c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z",
+      };
     default:
       return { vb: "", path: "" }; // Default path or a placeholder icon
   }
@@ -150,7 +160,7 @@ const IconComponent = component$((props: IconProps) => {
   const { vb, path } = getSvgPath(props.icon);
   const svgClass = props.class || '';
   const width = props.width || 80;
-  const height = props.height || 50;
+  const height = props.height || props.width || 50;
 
   return (
     <svg class={svgClass} style={svgStyle} xmlns="http://www.w3.org/2000/svg" viewBox={vb} width={width} height={height}>

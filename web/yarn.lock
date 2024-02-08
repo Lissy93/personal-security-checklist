@@ -3010,6 +3010,11 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
+qwik-transition@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/qwik-transition/-/qwik-transition-0.0.7.tgz#57c3d6db5fd0d0bca47a6ddef76a77b39a0b3c8a"
+  integrity sha512-U1wEJ/RWYuwfuWl8cWToTJASkRogoBGlBKbr/lKhzQYGeLNXk2K7IUXCMtELcUNHEI7J1MyNbjYc5lA6fMbQ8w==
+
 read-cache@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/read-cache/-/read-cache-1.0.0.tgz#e664ef31161166c9751cdbe8dbcf86b5fb58f774"

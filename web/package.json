@@ -38,6 +38,7 @@
     "chart.js": "^4.4.1",
     "marked": "^12.0.0",
     "progressbar.js": "^1.1.1",
+    "qwik-transition": "^0.0.7",
     "sharp": "^0.33.2"
   },
   "resolutions": {

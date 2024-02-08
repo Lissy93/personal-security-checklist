@@ -1,7 +1,8 @@
-import { component$ } from "@builder.io/qwik";
+import { $, component$, useStore, useSignal } from "@builder.io/qwik";
+import { useCSSTransition } from "qwik-transition";
 
 import Icon from "~/components/core/icon";
-import type { Priority, Section } from '../../types/PSC';
+import type { Priority, Section, Checklist } from '../../types/PSC';
 import { marked } from "marked";
 import { useLocalStorage } from "~/hooks/useLocalStorage";
 
@@ -9,6 +10,24 @@ export default component$((props: { section: Section }) => {
 
   const [completed, setCompleted] = useLocalStorage('PSC_PROGRESS', {});
   const [ignored, setIgnored] = useLocalStorage('PSC_IGNORED', {});
+
+  const showFilters = useSignal(false);
+  const { stage } = useCSSTransition(showFilters, { timeout: 300 });
+
+  const sortState = useStore({ column: '', ascending: true });
+
+  const checklist = useSignal<Checklist[]>(props.section.checklist);
+
+  const originalFilters = {
+    show: 'all', // 'all', 'remaining', 'completed'
+    levels: {
+      recommended: true,
+      optional: true,
+      advanced: true,
+    },
+  };
+
+  const filterState = useStore(originalFilters);
 
   const getBadgeClass = (priority: Priority, precedeClass: string = '') => {
     switch (priority.toLocaleLowerCase()) {
@@ -41,29 +60,102 @@ export default component$((props: { section: Section }) => {
     return completed.value[pointId] || false;
   };
 
+  const filteredChecklist = checklist.value.filter((item) => {
+    const itemId = generateId(item.point);
+    const itemCompleted = isChecked(itemId);
+    const itemIgnored = isIgnored(itemId);
+    const itemLevel = item.priority;
+
+    // Filter by completion status
+    if (filterState.show === 'remaining' && (itemCompleted || itemIgnored)) return false;
+    if (filterState.show === 'completed' && !itemCompleted) return false;
+
+    // Filter by level
+    return filterState.levels[itemLevel.toLocaleLowerCase() as Priority];
+  });
+
+  const sortChecklist = (a: Checklist, b: Checklist) => {
+    const getValue = (item: Checklist) => {
+      switch (sortState.column) {
+        case 'done':
+          if (isIgnored(generateId(item.point))) {
+            return 2;
+          }
+          return isChecked(generateId(item.point)) ? 0 : 1;
+        case 'advice':
+          return item.point;
+        case 'level':
+          return ['recommended', 'optional', 'advanced'].indexOf(item.priority.toLowerCase());
+        default:
+          return 0;
+      }
+    };
+    const valueA = getValue(a);
+    const valueB = getValue(b);
+
+    if (valueA === valueB) {
+      return 0;
+    } else if (sortState.ascending) {
+      return valueA < valueB ? -1 : 1;
+    } else {
+      return valueA > valueB ? -1 : 1;
+    }
+  };
+
+  const handleSort = $((column: string) => {
+    if (sortState.column === column) { // Reverse direction if same column
+      sortState.ascending = !sortState.ascending;
+    } else { // Sort table by column
+      sortState.column = column;
+      sortState.ascending = true; // Default to ascending
+    }
+  });
+
+  const resetFilters = $(() => {
+    checklist.value = props.section.checklist;
+    sortState.column = '';
+    sortState.ascending = true;
+    filterState.levels = originalFilters.levels;
+    filterState.show = originalFilters.show;
+  });
+
   return (
     <>
 
-    <div class="collapse rounded-none">
-      <input type="checkbox" /> 
-      <div class="collapse-title flex justify-end font-bold">
-        <button class="btn btn-sm hover:bg-primary"><Icon width={16} height={16} icon="filters"/>Filters</button>
-      </div>
-      <div class="collapse-content flex flex-wrap justify-between bg-base-100 rounded px-4 pt-1 !pb-1"> 
+
+    <div class="flex flex-wrap gap-2 justify-end my-4">
+      {(sortState.column || JSON.stringify(filterState) !== JSON.stringify(originalFilters)) && (
+        <button class="btn btn-sm hover:btn-primary" onClick$={resetFilters}>
+          <Icon width={18} height={16} icon="clear"/>
+          Reset Filters
+        </button>
+      )}
+      <button class="btn btn-sm hover:btn-primary" onClick$={() => { showFilters.value = !showFilters.value; }}>
+        <Icon width={18} height={16} icon="filters"/>
+        {showFilters.value ? 'Hide' : 'Show'} Filters
+      </button>
+    </div>
+
+    {showFilters.value && (
+      <div class="flex flex-wrap justify-between bg-base-100 rounded px-4 py-1 transition-all"
+        style={{ opacity: stage.value === "enterTo" ? 1 : 0, height: stage.value === "enterTo" ? 'auto' : 0 }}> 
         {/* Filter by completion */}
         <div class="flex justify-end items-center gap-1">
           <p class="font-bold text-sm">Show</p>
-          <label class="p-2 rounded hover:bg-front transition-all cursor-pointer flex gap-2">
+          <label onClick$={() => (filterState.show = 'all')}
+            class="p-2 rounded hover:bg-front transition-all cursor-pointer flex gap-2">
             <span class="text-sm">All</span> 
-            <input type="radio" name="show-all" class="radio radio-sm checked:radio-info" checked />
+            <input type="radio" name="show" class="radio radio-sm checked:radio-info" checked />
           </label>
-          <label class="p-2 rounded hover:bg-front transition-all cursor-pointer flex gap-2">
+          <label onClick$={() => (filterState.show = 'remaining')}
+            class="p-2 rounded hover:bg-front transition-all cursor-pointer flex gap-2">
             <span class="text-sm">Remaining</span> 
-            <input type="radio" name="show-remaining" class="radio radio-sm checked:radio-error" />
+            <input type="radio" name="show" class="radio radio-sm checked:radio-error" />
           </label>
-          <label class="p-2 rounded hover:bg-front transition-all cursor-pointer flex gap-2">
+          <label onClick$={() => (filterState.show = 'completed')}
+            class="p-2 rounded hover:bg-front transition-all cursor-pointer flex gap-2">
             <span class="text-sm">Completed</span> 
-            <input type="radio" name="show-completed" class="radio radio-sm checked:radio-success" />
+            <input type="radio" name="show" class="radio radio-sm checked:radio-success" />
           </label>
         </div>
         {/* Filter by level */}
@@ -71,33 +163,60 @@ export default component$((props: { section: Section }) => {
           <p class="font-bold text-sm">Filter</p>
           <label class="p-2 rounded hover:bg-front transition-all cursor-pointer flex gap-2">
             <span class="text-sm">Basic</span> 
-            <input type="checkbox" checked class="checkbox checkbox-sm checked:checkbox-success" />
+            <input
+              type="checkbox"
+              checked={filterState.levels.recommended}
+              onChange$={() => (filterState.levels.recommended = !filterState.levels.recommended)}
+              class="checkbox checkbox-sm checked:checkbox-success"
+            />
           </label>
           <label class="p-2 rounded hover:bg-front transition-all cursor-pointer flex gap-2">
             <span class="text-sm">Optional</span> 
-            <input type="checkbox" checked class="checkbox checkbox-sm checked:checkbox-warning" />
+            <input
+              type="checkbox"
+              checked={filterState.levels.optional}
+              onChange$={() => (filterState.levels.optional = !filterState.levels.optional)}
+              class="checkbox checkbox-sm checked:checkbox-warning"
+            />
           </label>
-          <label class="p-2 rounded hover:bg-front transition-all cursor-pointer flex gap-2">
+          <label
+            class="p-2 rounded hover:bg-front transition-all cursor-pointer flex gap-2">
             <span class="text-sm">Advanced</span> 
-            <input type="checkbox" checked class="checkbox checkbox-sm checked:checkbox-error" />
+            <input
+              type="checkbox"
+              checked={filterState.levels.advanced}
+              class="checkbox checkbox-sm checked:checkbox-error"
+              onChange$={() => (filterState.levels.advanced = !filterState.levels.advanced)}
+            />
           </label>
         </div>
       </div>
-    </div>
-
-
+    )}
 
     <table class="table">
       <thead>
         <tr>
-          <th>Done?</th>
-          <th>Advice</th>
-          <th>Level</th>
+          { [
+            { id: 'done', text: 'Done?'},
+            { id: 'advice', text: 'Advice' },
+            { id: 'level', text: 'Level' }
+          ].map((item) => (
+            <th
+              key={item.id}
+              class="cursor-pointer"
+              onClick$={() => handleSort(item.id)}
+            >
+              <span class="flex items-center gap-0.5 hover:text-primary transition">
+                <Icon width={12} height={14} icon="sort" />
+                {item.text}
+              </span>
+            </th>
+          ))}
           <th>Details</th>
         </tr>
       </thead>
       <tbody>
-        {props.section.checklist.map((item, index) => {
+        {filteredChecklist.sort(sortChecklist).map((item, index) => {
           const badgeColor = getBadgeClass(item.priority);
           const itemId = generateId(item.point);
           const isItemCompleted = isChecked(itemId);
