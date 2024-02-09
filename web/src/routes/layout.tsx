@@ -34,7 +34,7 @@ export default component$(() => {
     <>
       {/* <Header /> */}
       <Navbar />
-      <main class="bg-base-100">
+      <main class="bg-base-100 min-h-full">
         <Slot />
       </main>
       <Footer />

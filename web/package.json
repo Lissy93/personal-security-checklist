@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "@builder.io/qwik": "^1.1.4",
+    "@tailwindcss/typography": "^0.5.10",
     "chart.js": "^4.4.1",
     "marked": "^12.0.0",
     "progressbar.js": "^1.1.1",

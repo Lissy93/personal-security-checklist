@@ -4,6 +4,7 @@ import Icon from "~/components/core/icon";
 import { data } from '~/mock-data';
 import type { Section } from '~/types/PSC';
 import { useTheme } from '~/store/theme-store';
+import articles from '~/data/articles';
 
 
 export default component$(() => {
@@ -22,7 +23,7 @@ export default component$(() => {
           </div> 
           <a href="/" class="btn btn-ghost text-xl flex capitalize">
             <label for="my-drawer-3" aria-label="open sidebar" class="tooltip tooltip-bottom" data-tip="View all Pages"><Icon class="mr-2" icon="shield" width={28} height={28}  /></label>
-            <h1>Personal Security Checklist</h1>
+            <h1>Digital Defense</h1>
           </a>
         </div>
         <div class="flex-none hidden md:flex">
@@ -34,12 +35,6 @@ export default component$(() => {
                   Checklists
                 </summary>
                 <ul class="p-2 bg-base-100 rounded-t-none z-10">
-                  <li>
-                    <a href="/checklist">
-                    <Icon class="mr-2" icon="all" width={16} height={16}  />
-                      View All
-                    </a>
-                  </li>
                   {data.map((item: Section, index: number) => (
                     <li key={`checklist-nav-${index}`} class={`hover:bg-${item.color}-600 hover:bg-opacity-15`}>
                       <a href={`/checklist/${item.slug}`}>
@@ -56,11 +51,6 @@ export default component$(() => {
                 <Icon icon="github" width={16} height={16}  />GitHub
               </a>
             </li>
-            {/* <li>
-              <a href="https://apps.aliciasykes.com" class="tooltip flex tooltip-bottom" data-tip="Other projects by Alicia Sykes">
-                <Icon icon="code" width={24} height={16}  />More
-              </a>
-            </li> */}
           </ul>
           <div class="tooltip tooltip-bottom" data-tip="Theme">
             <label class="cursor-pointer grid place-items-center">
@@ -84,10 +74,12 @@ export default component$(() => {
         <ul class="rounded-box menu p-4 w-80 min-h-full bg-base-200">
           <h2 class="flex text-primary">
           <Icon class="mr-2" icon="shield" width={16} height={16}  />
-            Personal Security Checklist
+            Digital Defense
           </h2>
           <li><a href="/"><Icon class="mr-2" icon="homepage" width={16} height={16}  />Home</a></li>
-          <li><a href="/"><Icon class="mr-2" icon="github" width={16} height={16}  />GitHub</a></li>
+          <li><a href="https://github.com/lissy93/personal-security-checklist">
+            <Icon class="mr-2" icon="github" width={16} height={16}  />GitHub</a>
+          </li>
           <li>
             <a href="/checklist"><Icon class="mr-2" icon="all" width={16} height={16} />Checklists</a>
             <ul>
@@ -106,8 +98,11 @@ export default component$(() => {
               <Icon class="mr-2" icon="articles" width={16} height={16} />Articles
             </a>
             <ul>
-              <li><a href="/article/1">Article 1</a></li>
-              <li><a href="/article/2">Article 2</a></li>
+              {articles.map(article => (
+                <li key={article.slug}>
+                  <a href={`/article/${article.slug}`}>{article.title}</a>
+                </li>
+              ))}
             </ul>
           </li>
           <li>
@@ -124,29 +119,18 @@ export default component$(() => {
             </ul>
             <ul>
             <li>
-              <a href="#">Author</a>
+              <a href="/about#author">Author</a>
               <ul>
-                <li><a href="#">Contact</a></li>
-                <li>
-                  <a href="#">Socials</a>
-                  <ul>
-                    <li><a href="">GitHub</a></li>
-                    <li><a href="">Twitter</a></li>
-                    <li><a href="">Mastodon</a></li>
-                  </ul>
-                </li>
+                <li><a href="https://aliciasykes.com/contact">Contact</a></li>
                 <li>
                   <a href="https://apps.aliciasykes.com">More Apps</a>
-                  <ul>
-                    <li><a href="#">Web-Check</a></li>
-                    <li><a href="#">Dashy</a></li>
-                    <li><a href="#">Portainer-Templates</a></li>
-                    <li><a href="#">AdGuardian</a></li>
-                    <li><a href="#">Bug-Bounties</a></li>
-                    <li><a href="#">Awesome Privacy</a></li>
-                    <li><a href="#">Email Comparison</a></li>
-                    <li><a href="#">Git-In</a></li>
-                  </ul>
+                </li>
+                <li class="flex flex-row">
+                  <a href="https://github.com/lissy93"><Icon icon="hub" width={16} height={16} /></a>
+                  <a href="https://x.com/lissy_sykes"><Icon icon="twitter" width={16} height={16} /></a>
+                  <a href="https://mastodon.social/@lissy93"><Icon icon="mastodon" width={16} height={16} /></a>
+                  <a href="https://dev.to/lissy93"><Icon icon="dev" width={16} height={16} /></a>
+                  <a href="https://linkedin.com/in/aliciasykes"><Icon icon="linkedin" width={16} height={16} /></a>
                 </li>
               </ul>
             </li>

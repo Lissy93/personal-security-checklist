@@ -17,6 +17,8 @@ export default component$(() => {
   const checklists = useContext(ChecklistContext);
   // Completed items, from local storage
   const [checkedItems] = useLocalStorage('PSC_PROGRESS', {});
+  // Ignored items, from local storage
+  const [ignoredItems] = useLocalStorage('PSC_IGNORED', {});
   // Store to hold calculated progress results
   const totalProgress = useSignal({ completed: 0, outOf: 0 });
   // Ref to the radar chart canvas
@@ -33,14 +35,18 @@ export default component$(() => {
     if (!checkedItems.value || !sections.length) {
       return { completed: 0, outOf: 0 };
     }
-    const totalItems = sections.reduce((total: number, section: Section) => total + section.checklist.length, 0);
+    let totalItems = sections.reduce((total: number, section: Section) => total + section.checklist.length, 0);
     let totalComplete = 0;
     sections.forEach((section: Section) => {
       section.checklist.forEach((item) => {
         const id = item.point.toLowerCase().replace(/ /g, '-');
         const isComplete = checkedItems.value[id];
+        const isIgnored = ignoredItems.value[id];
         if (isComplete) {
           totalComplete++;
+        }
+        if (isIgnored) {
+          totalItems--;
         }
       });
     });
@@ -187,9 +193,9 @@ export default component$(() => {
   
     // Wait on each set to resolve, and return the final data object
     return Promise.all([
-      buildDataForPriority('recommended', 'hsl(158 64% 52%/75%)'),
-      buildDataForPriority('optional', 'hsl(43 96% 56%/75%)'),
       buildDataForPriority('advanced', 'hsl(0 91% 71%/75%)'),
+      buildDataForPriority('optional', 'hsl(43 96% 56%/75%)'),
+      buildDataForPriority('recommended', 'hsl(158 64% 52%/75%)'),      
     ]).then(datasets => ({
       labels,
       datasets,
@@ -239,7 +245,7 @@ export default component$(() => {
               },
               tooltip: {
                 callbacks: {
-                  label: (ctx) => `Completed ${ctx.parsed.r}% of ${ctx.dataset.label || ''} items`,
+                  label: (ctx) => `Completed ${Math.round(ctx.parsed.r)}% of ${ctx.dataset.label || ''} items`,
                 }
               }
             },

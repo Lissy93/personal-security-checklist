@@ -10,7 +10,7 @@ const applyCustomColors = (theme, front, back) => {
 
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
-  plugins: [require('daisyui')],
+  plugins: [require('daisyui'), require("@tailwindcss/typography")],
   theme: {
     extend: {
       colors: {
