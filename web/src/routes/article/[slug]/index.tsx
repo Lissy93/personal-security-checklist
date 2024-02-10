@@ -1,6 +1,6 @@
 // src/routes/articles/[slug].tsx
 import { component$, Resource, useResource$, useStore } from '@builder.io/qwik';
-import { useLocation } from '@builder.io/qwik-city';
+import { type DocumentHead, useLocation, useDocumentHead } from '@builder.io/qwik-city';
 import { marked } from "marked";
 
 import articles from '~/data/articles';
@@ -13,6 +13,20 @@ export default component$(() => {
 
   const slug = location.params.slug;
   const article = articles.find(a => a.slug === slug);
+
+  // useDocumentHead(() => {
+  //   if (!article) {
+  //     return {
+  //       title: '404 Not Found | Your Site Name',
+  //       meta: [{ name: 'description', content: 'The requested article was not found.' }],
+  //     };
+  //   }
+
+  //   return {
+  //     title: `${article.title} | Your Site Name`,
+  //     meta: [{ name: 'description', content: article.description }],
+  //   };
+  // });
 
   const parseMarkdown = (text: string | undefined): string => {
     if (!text) return '';
@@ -97,4 +111,14 @@ export default component$(() => {
     />
   );
 });
+
+export const head: DocumentHead = {
+  title: "Article | Digital Defense",
+  meta: [
+    {
+      name: "description",
+      content: "",
+    },
+  ],
+};
 

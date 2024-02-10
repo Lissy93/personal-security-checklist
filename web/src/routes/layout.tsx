@@ -8,7 +8,7 @@ import { ChecklistContext } from "~/store/checklist-context";
 import type { Sections } from "~/types/PSC";
 
 export const useChecklists = routeLoader$(async () => {
-  const remoteUrl = 'https://gist.githubusercontent.com/Lissy93/0c26e4255b6fabc2c027ac72a4428aeb/raw/4ccdbc71e0fffdef53472cf98acbe40b0acf982b/personal-security-checklist.yml';
+  const remoteUrl = 'https://gist.githubusercontent.com/Lissy93/0c26e4255b6fabc2c027ac72a4428aeb/raw/c36fc0430df223534eaf76c035943f4b343915e4/personal-security-checklist.yml';
   // TODO: Update this URL to point to the Git repository
   return fetch(remoteUrl)
     .then((res) => res.text())

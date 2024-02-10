@@ -13,7 +13,9 @@ export interface Section {
   icon: string,
   color: string,
   checklist: Checklist[],
-  furtherLinks?: FurtherLink[],
+  softwareLinks?: Link[],
+  helpfulTools?: Link[],
+  furtherResources?: Link[],
 }
 
 export type Priority = 'recommended' | 'optional' | 'advanced';
@@ -24,8 +26,8 @@ export interface Checklist {
   details: string,
 }
 
-export interface FurtherLink {
+export interface Link {
   title: string,
   url: string,
-  description: string,
+  description?: string,
 }

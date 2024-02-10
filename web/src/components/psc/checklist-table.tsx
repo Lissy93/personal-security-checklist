@@ -119,21 +119,52 @@ export default component$((props: { section: Section }) => {
     filterState.show = originalFilters.show;
   });
 
+  const calculateProgress = (): { done: number, total: number, percent: number, disabled: number} => {
+    let done = 0;
+    let disabled = 0;
+    let total = 0;
+
+    props.section.checklist.forEach((item) => {
+      const itemId = generateId(item.point);
+      if (isIgnored(itemId)) {
+        disabled += 1;
+      } else if (isChecked(itemId)) {
+        done += 1;
+        total += 1;
+      } else {
+        total += 1;
+      }
+    });
+
+    const percent = Math.round((done / total) * 100);
+    return { done, total: props.section.checklist.length, percent, disabled };
+  };
+
+  const { done, total, percent, disabled } = calculateProgress();
+
   return (
     <>
 
+    <div class="flex flex-wrap justify-between items-center">
+      <div>
+        <progress class="progress w-64" value={percent} max="100"></progress>
+        <p class="text-xs text-center">
+          {done} out of {total} ({percent}%)
+          complete, {disabled} ignored</p>
+      </div>
 
-    <div class="flex flex-wrap gap-2 justify-end my-4">
-      {(sortState.column || JSON.stringify(filterState) !== JSON.stringify(originalFilters)) && (
-        <button class="btn btn-sm hover:btn-primary" onClick$={resetFilters}>
-          <Icon width={18} height={16} icon="clear"/>
-          Reset Filters
+      <div class="flex flex-wrap gap-2 justify-end my-4">
+        {(sortState.column || JSON.stringify(filterState) !== JSON.stringify(originalFilters)) && (
+          <button class="btn btn-sm hover:btn-primary" onClick$={resetFilters}>
+            <Icon width={18} height={16} icon="clear"/>
+            Reset Filters
+          </button>
+        )}
+        <button class="btn btn-sm hover:btn-primary" onClick$={() => { showFilters.value = !showFilters.value; }}>
+          <Icon width={18} height={16} icon="filters"/>
+          {showFilters.value ? 'Hide' : 'Show'} Filters
         </button>
-      )}
-      <button class="btn btn-sm hover:btn-primary" onClick$={() => { showFilters.value = !showFilters.value; }}>
-        <Icon width={18} height={16} icon="filters"/>
-        {showFilters.value ? 'Hide' : 'Show'} Filters
-      </button>
+      </div>
     </div>
 
     {showFilters.value && (

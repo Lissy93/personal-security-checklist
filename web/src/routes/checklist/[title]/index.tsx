@@ -4,19 +4,17 @@ import { marked } from 'marked';
 
 import Icon from '~/components/core/icon';
 import { ChecklistContext } from '~/store/checklist-context';
-import { useChecklist } from '~/store/local-checklist-store';
 import type { Section } from "~/types/PSC";
 import Table from '~/components/psc/checklist-table';
 
 export default component$(() => {
 
   const checklists = useContext(ChecklistContext);
-  const localChecklist = useChecklist();
 
   const loc = useLocation();
   const slug = loc.params.title;
 
-  const section: Section | undefined = (localChecklist.checklist.checklist || checklists.value)
+  const section: Section | undefined = (checklists.value)
     .find((item: Section) => item.slug === slug);
 
   const parseMarkdown = (text: string | undefined): string => {
@@ -35,6 +33,20 @@ export default component$(() => {
       <div class="overflow-x-auto">
         {section && (<Table section={section} />)}
       </div>
+
+      {section && section.softwareLinks && (
+        <>
+        <div class="divider my-4">Useful Links</div>
+        <h3 class="text-xl my-2">Recommended Software</h3>
+          <ul class="list-disc pl-4">
+          {section.softwareLinks.map((link, index) => (
+            <li key={index}>
+              <a class="link link-primary" href={link.url} title={link.description}>{link.title}</a>
+            </li>
+          ))}
+          </ul>
+        </>
+      )}
 
     </article>
     </div>
