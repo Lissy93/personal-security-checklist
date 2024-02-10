@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Poppins&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Catamaran', sans-serif;
+}
+
+p, a, li, span {
+  font-family: 'Poppins', sans-serif;
+}

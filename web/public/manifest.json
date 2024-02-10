@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "digital-defense",
+  "short_name": "Digital Defense",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#5616c6",
+  "description": "The ultimate personal security checklist"
+}

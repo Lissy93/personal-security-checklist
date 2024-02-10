@@ -1,0 +1,7 @@
+.psc_article {
+  img {
+    display: inline;
+    margin: 0 auto;
+    border-radius: 4px;
+  }
+}

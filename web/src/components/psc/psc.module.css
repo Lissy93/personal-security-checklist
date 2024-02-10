@@ -1,0 +1,5 @@
+
+.container {
+  /* I couldn't figure out how to do this with Tailwind.... */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}

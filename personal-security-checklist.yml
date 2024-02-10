@@ -1,0 +1,1930 @@
+- title: Authentication
+  slug: authentication
+  description: Securing your online account login credentials
+  icon: password
+  color: yellow
+  intro: >-
+    Most reported data breaches are caused by the use of weak, default or stolen passwords
+    (according to [this Verizon report](http://www.verizonenterprise.com/resources/reports/rp_dbir-2016-executive-summary_xg_en.pdf)).
+    Use long, strong and unique passwords, manage them in a secure password manager, enable
+    2-factor authentication, keep on top of breaches and take care while logging into your accounts.
+  checklist:
+  - point: Use a Strong Password
+    priority: Recommended
+    details: >-
+      If your password is too short, or contains dictionary words, places or names- then it can be easily
+      cracked through brute force, or guessed by someone. The easiest way to make a strong password, is by
+      making it long (12+ characters)- consider using a 'passphrase', made up of many words. Alternatively,
+      use a password generator to create a long, strong random password. Have a play with
+      [HowSecureIsMyPassword.net](https://howsecureismypassword.net), to get an idea of how quickly common
+      passwords can be cracked. Read more about creating strong passwords:
+      [securityinabox.org](https://securityinabox.org/en/passwords/passwords-and-2fa/)
+
+  - point: Don't reuse Passwords
+    priority: Recommended
+    details: >-
+      If someone was to reuse a password, and one site they had an account with suffered a leak, then a
+      criminal could easily gain unauthorized access to their other accounts. This is usually done through
+      large-scale automated login requests, and it is called Credential Stuffing. Unfortunately this is all
+      too common, but it's simple to protect against- use a different password for each of your online accounts
+
+  - point: Use a Secure Password Manager
+    priority: Recommended
+    details: >-
+      For most people it is going to be near-impossible to remember hundreds of strong and unique passwords.
+      A password manager is an application that generates, stores and auto-fills your login credentials for you.
+      All your passwords will be encrypted against 1 master passwords (which you must remember, and it should be
+      very strong). Most password managers have browser extensions and mobile apps, so whatever device you are on,
+      your passwords can be auto-filled. A good all-rounder is [BitWarden](https://bitwarden.com), or see
+      [Recommended Password Managers](https://github.com/Lissy93/awesome-privacy#password-managers)
+
+  - point: Avoid sharing passwords
+    priority: Recommended
+    details: >-
+      While there may be times that you need to share access to an account with another person, you should
+      generally avoid doing this because it makes it easier for the account to become compromised. If you
+      absolutely do need to share a password for example when working on a team with a shared account this
+      should be done via features built into a password manager.
+
+  - point: Enable 2-Factor Authentication
+    priority: Recommended
+    details: >-
+      2FA is where you must provide both something you know (a password) and something you have (such as a
+      code on your phone) to log in. This means that if anyone has got your password (e.g. through phishing,
+      malware or a data breach), they will not be able to log into your account. It's easy to get started,
+      download [an authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication)
+      onto your phone, and then go to your account security settings and follow the steps to enable 2FA. Next
+      time you log in on a new device, you will be prompted for the code that displays in the app on your phone
+      (it works without internet, and the code usually changes every 30-seconds)
+
+  - point: Keep Backup Codes Safe
+    priority: Recommended
+    details: >-
+      When you enable multi-factor authentication, you will usually be given several codes that you can use if
+      your 2FA method is lost, broken or unavailable. Keep these codes somewhere safe to prevent loss or
+      unauthorized access. You should store these on paper or in a safe place on disk (e.g. in offline storage
+      or in an encrypted file/drive). Don't store these in your Password Manager as 2FA sources and passwords
+      and should be kept separately.
+
+  - point: Sign up for Breach Alerts
+    priority: Optional
+    details: >-
+      After a website suffers a significant data breach, the leaked data often ends up on the internet. There
+      are several websites that collect these leaked records, and allow you to search your email address to check
+      if you are in any of their lists. [Firefox Monitor](https://monitor.firefox.com), [Have I been pwned](https://haveibeenpwned.com)
+      and [DeHashed](https://dehashed.com) allow you to sign up for monitoring, where they will notify you if your
+      email address appears in any new data sets. It is useful to know as soon as possible when this happens, so
+      that you can change your passwords for the affected accounts. Have I been pwned also has domain-wide
+      notification, where you can receive alerts if any email addresses under your entire domain appear (useful if
+      you use aliases for [anonymous forwarding](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding))
+
+  - point: Shield your Password/ PIN
+    priority: Optional
+    details: >-
+      When typing your password in public places, ensure you are not in direct line of site of a CCTV camera and
+      that no one is able to see over your shoulder. Cover your password or pin code while you type, and do not
+      reveal any plain text passwords on screen
+
+  - point: Update Critical Passwords Periodically
+    priority: Optional
+    details: >-
+      Database leaks and breaches are common, and it is likely that several of your passwords are already somewhere
+      online. Occasionally updating passwords of security-critical accounts can help mitigate this. But providing
+      that all your passwords are long, strong and unique, there is no need to do this too often- annually should be
+      sufficient. Enforcing mandatory password changes within organisations is [no longer recommended](https://duo.com/decipher/microsoft-will-no-longer-recommend-forcing-periodic-password-changes),
+      as it encourages colleagues to select weaker passwords
+
+  - point: Don’t save your password in browsers
+    priority: Optional
+    details: >-
+      Most modern browsers offer to save your credentials when you log into a site. Don’t allow this, as they are
+      not always encrypted, hence could allow someone to gain access into your accounts. Instead use a dedicated
+      password manager to store (and auto-fill) your passwords
+
+  - point: Avoid logging in on someone else’s device
+    priority: Optional
+    details: >-
+      Avoid logging on other people's computer, since you can't be sure their system is clean. Be especially cautious
+      of public machines, as malware and tracking is more common here. Using someone else's device is especially
+      dangerous with critical accounts like online banking. When using someone else's machine, ensure that you're in a
+      private/ incognito session (Use Ctrl+Shift+N/ Cmd+Shift+N). This will request browser to not save your credentials,
+      cookies and browsing history.
+
+  - point: Avoid password hints
+    priority: Optional
+    details: >-
+      Some sites allow you to set password hints. Often it is very easy to guess answers. In cases where password hints
+      are mandatory use random answers and record them in password manager (`Name of the first school: 6D-02-8B-!a-E8-8F-81`)
+
+  - point: Never answer online security questions truthfully
+    priority: Optional
+    details: >-
+      If a site asks security questions (such as place of birth, mother's maiden name or first car etc), don't provide
+      real answers. It is a trivial task for hackers to find out this information online or through social engineering.
+      Instead, create a fictitious answer, and store it inside your password manager. Using real-words is better than
+      random characters, [explained here](https://news.ycombinator.com/item?id=29244870)
+
+  - point: Don’t use a 4-digit PIN
+    priority: Optional
+    details: >-
+      Don’t use a short PIN to access your smartphone or computer. Instead, use a text password or much longer pin.
+      Numeric passphrases are easy crack, (A 4-digit pin has 10,000 combinations, compared to 7.4 million for a
+      4-character alpha-numeric code)
+
+  - point: Avoid using SMS for 2FA
+    priority: Optional
+    details: >-
+      When enabling multi-factor authentication, opt for app-based codes or a hardware token, if supported. SMS is
+      susceptible to a number of common threats, such as [SIM-swapping](https://www.maketecheasier.com/sim-card-hijacking)
+      and [interception](https://secure-voice.com/ss7_attacks). There's also no guarantee of how securely your phone
+      number will be stored, or what else it will be used for. From a practical point of view, SMS will only work when
+      you have signal, and can be slow. If a website or service requires the usage of a SMS number for recovery consider
+      purchasing a second pre-paid phone number only used for account recovery for these instances.
+
+  - point: Avoid using your PM to Generate OTPs
+    priority: Advanced
+    details: >-
+      Many password managers are also able to generate 2FA codes. It is best not to use your primary password manager
+      as your 2FA authenticator as well, since it would become a single point of failure if compromised. Instead use a
+      dedicated [authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) on your phone or laptop
+
+  - point: Avoid Face Unlock
+    priority: Advanced
+    details: >-
+      Most phones and laptops offer a facial recognition authentication feature, using the camera to compare a snapshot
+      of your face with a stored hash. It may be very convenient, but there are numerous ways to [fool it](https://www.forbes.com/sites/jvchamary/2017/09/18/security-apple-face-id-iphone-x/)
+      and gain access to the device, through digital photos and reconstructions from CCTV footage. Unlike your password-
+      there are likely photos of your face on the internet, and videos recorded by surveillance cameras
+
+  - point: Watch out for Keyloggers
+    priority: Advanced
+    details: >-
+      A hardware [keylogger](https://en.wikipedia.org/wiki/Hardware_keylogger) is a physical device planted between
+      your keyboard and the USB port, which intercepts all key strokes, and sometimes relays data to a remote server.
+      It gives a hacker access to everything typed, including passwords. The best way to stay protected, is just by
+      checking your USB connection after your PC has been unattended. It is also possible for keyloggers to be planted
+      inside the keyboard housing, so look for any signs that the case has been tampered with, and consider bringing your
+      own keyboard to work. Data typed on a virtual keyboard, pasted from the clipboard or auto-filled by a password
+      manager can not be intercepted by a hardware keylogger.
+
+  - point: Consider a Hardware Token
+    priority: Advanced
+    details: >-
+      A U2F/ FIDO2 security key is a USB (or NFC) device that you insert while logging in to an online service, in to
+      verify your identity, instead of entering a OTP from your authenticator. [SoloKey](https://solokeys.com) and
+      [NitroKey](https://www.nitrokey.com) are examples of such keys. They bring with them several security benefits,
+      since the browser communicates directly with the device and cannot be fooled as to which host is requesting
+      authentication, because the TLS certificate is checked. [This post](https://security.stackexchange.com/a/71704) is
+      a good explanation of the security of using FIDO U2F tokens. Of course it is important to store the physical key
+      somewhere safe, or keep it on your person. Some online accounts allow for several methods of 2FA to be enabled
+
+  - point: Consider Offline Password Manager
+    priority: Advanced
+    details: >-
+      For increased security, an encrypted offline password manager will give you full control over your data.
+      [KeePass](https://keepass.info) is a popular choice, with lots of [plugins](https://keepass.info/plugins.html) and
+      community forks with additional compatibility and functionality. Popular clients include: [KeePassXC](https://keepassxc.org)
+      (desktop), [KeePassDX](https://www.keepassdx.com) (Android) and [StrongBox](https://apps.apple.com/us/app/strongbox-password-safe/id897283731)
+      (iOS). The drawback being that it may be slightly less convenient for some, and it will be up to you to back it up,
+      and store it securely
+
+  - point: Consider Unique Usernames
+    priority: Advanced
+    details: >-
+      Having different passwords for each account is a good first step, but if you also use a unique username, email or
+      phone number to log in, then it will be significantly harder for anyone trying to gain unauthorised access. The easiest
+      method for multiple emails, is using auto-generated aliases for anonymous mail forwarding. This is where
+      [anything]@yourdomain.com will arrive in your inbox, allowing you to use a different email for each account (see
+      [Mail Alias Providers](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)). Usernames are easier,
+      since you can use your password manager to generate, store and auto-fill these. Virtual phone numbers can be generated
+      through your VOIP provider
+  softwareLinks:
+    - title: Password Managers
+      url: https://github.com/Lissy93/awesome-privacy#password-managers
+    - title: 2-Factor Authentication
+      url: https://github.com/Lissy93/awesome-privacy#2-factor-authentication
+
+- title: Web Browsing
+  slug: web-browsing
+  description: Avoiding tracking, censorship, and data collection online
+  icon: browser
+  intro: >-
+    Most websites on the internet will use some form of tracking, often to gain
+    insight into their users behaviour and preferences. This data can be incredibly
+    detailed, and so is extremely valuable to corporations, governments and intellectual
+    property thieves. Data breaches and leaks are common, and deanonymizing users web
+    activity is often a trivial task.
+
+
+    There are two primary methods of tracking; stateful (cookie-based), and stateless
+    (fingerprint-based). Cookies are small pieces of information, stored in your browser
+    with a unique ID that is used to identify you. Browser fingerprinting is a highly
+    accurate way to identify and track users wherever they go online. The information
+    collected is quite comprehensive, and often includes browser details, OS, screen
+    resolution, supported fonts, plugins, time zone, language and font preferences,
+    and even hardware configurations.
+
+
+    This section outlines the steps you can take, to be better protected from threats,
+    minimise online tracking and improve privacy.
+  checklist:
+  - point: Block Ads
+    priority: Recommended
+    details: >-
+      Using an ad-blocker can help improve your privacy, by blocking the trackers that ads implement.
+      [uBlock Origin](https://github.com/gorhill/uBlock) is a very efficient and open source browser addon,
+      developed by Raymond Hill. When 3rd-party ads are displayed on a webpage, they have the ability to
+      track you, gathering personal information about you and your habits, which can then be sold, or used
+      to show you more targeted ads, and some ads are plain malicious or fake. Blocking ads also makes pages
+      load faster, uses less data and provides a less cluttered experience.
+
+  - point: Ensure Website is Legitimate
+    priority: Basic
+    details: >-
+      It may sound obvious, but when you logging into any online accounts, double check the URL is correct.
+      Storing commonly visited sites in your bookmarks is a good way to ensure the URL is easy to find. When
+      visiting new websites, look for common signs that it could be unsafe: Browser warnings, redirects,
+      on-site spam and pop-ups. You can also check a website using a tool, such as: [Virus Total URL Scanner](https://www.virustotal.com/gui/home/url),
+      [IsLegitSite](https://www.islegitsite.com), [Google Safe Browsing Status](https://transparencyreport.google.com/safe-browsing/search)
+      if you are unsure.
+
+  - point: Watch out for Browser Malware
+    priority: Basic
+    details: >-
+      Your system or browser can be compromised by spyware, miners, browser hijackers, malicious redirects,
+      adware etc. You can usually stay protected, just by: ignoring pop-ups, be wary of what your clicking,
+      don't proceed to a website if your browser warns you it may be malicious. Common signs of browser malware
+      include: default search engine or homepage has been modified, toolbars, unfamiliar extensions or icons,
+      significantly more ads, errors and pages loading much slower than usual. These articles from Heimdal
+      explain [signs of browser malware](https://heimdalsecurity.com/blog/warning-signs-operating-system-infected-malware),
+      [how browsers get infected](https://heimdalsecurity.com/blog/practical-online-protection-where-malware-hides)
+      and [how to remove browser malware](https://heimdalsecurity.com/blog/malware-removal).
+
+  - point: Use a Privacy-Respecting Browser
+    priority: Recommended
+    details: >-
+      [Firefox](https://www.mozilla.org/en-US/firefox/new) (with a few tweaks) and [Brave](https://brave.com)
+      are secure, private-respecting browsers. Both are fast, open source, user-friendly and available on all
+      major operating systems. Your browser has access to everything that you do online, so if possible, avoid
+      Google Chrome, Edge and Safari as (without correct configuration) all three of them, collect usage data,
+      call home and allow for invasive tracking. Firefox requires a few changes to achieve optimal security,
+      for example - [arkenfox](https://github.com/arkenfox/user.js/wiki) or [12byte](https://12bytes.org/articles/tech/firefox/firefoxgecko-configuration-guide-for-privacy-and-performance-buffs/)'s
+      user.js configs. See more: [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers).
+
+  - point: Use a Private Search Engine
+    priority: Recommended
+    details: >-
+      Using a privacy-preserving, non-tracking search engine, will reduce risk that your search terms are not
+      logged, or used against you. Consider [DuckDuckGo](https://duckduckgo.com), [Qwant](https://www.qwant.com),
+      or [SearX](https://searx.me) (self-hosted). Google implements some [incredibly invasive](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea)
+      tracking policies, and have a history of displaying [biased search results](https://www.businessinsider.com/evidence-that-google-search-results-are-biased-2014-10).
+      Therefore Google, along with Bing, Baidu, Yahoo and Yandex are incompatible with anyone looking to protect
+      their privacy. It is recommended to update your [browsers default search](https://duckduckgo.com/install)
+      to a privacy-respecting search engine.
+
+  - point: Remove Unnecessary Browser Addons
+    priority: Recommended
+    details: >-
+      Extensions are able to see, log or modify anything you do in the browser, and some innocent looking
+      browser apps, have malicious intentions. Websites can see which extensions you have installed, and may
+      use this to enhance your fingerprint, to more accurately identify/ track you. Both Firefox and Chrome
+      web stores allow you to check what permissions/access rights an extension requires before you install it.
+      Check the reviews. Only install extensions you really need, and removed those which you haven't used in a while.
+
+  - point: Keep Browser Up-to-date
+    priority: Recommended
+    details: >-
+      Browser vulnerabilities are constantly being [discovered](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=browser)
+      and patched, so it’s important to keep it up to date, to avoid a zero-day exploit. You can [see which browser
+      version you're using here](https://www.whatismybrowser.com/), or follow [this guide](https://www.whatismybrowser.com/guides/how-to-update-your-browser/)
+      for instructions on how to update. Some browsers will auto-update to the latest stable version.
+
+  - point: Check for HTTPS
+    priority: Recommended
+    details: >-
+      If you enter information on a non-HTTPS website, this data is transported unencrypted and can therefore
+      be read by anyone who intercepts it. Do not enter any data on a non-HTTPS website, but also do not let
+      the green padlock give you a false sense of security, just because a website has SSL certificate, does
+      not mean that it is legitimate or trustworthy. [HTTPS-Everywhere](https://www.eff.org/https-everywhere)
+      (developed by the [EFF](https://www.eff.org/)) used to be a browser extension/addon that automatically
+      enabled HTTPS on websites, but as of 2022 is now deprecated. In their [accouncement article](https://www.eff.org/)
+      the EFF explains that most browsers now integrate such protections. Additionally, it provides instructions
+      for Firefox, Chrome, Edge and Safari browsers on how to enable their HTTPS secure protections.
+
+  - point: Use DNS-over-HTTPS
+    priority: Recommended
+    details: >-
+      Traditional DNS makes requests in plain text for everyone to see. It allows for eavesdropping and
+      manipulation of DNS data through man-in-the-middle attacks. Whereas DNS-over-HTTPS performs DNS
+      resolution via the HTTPS protocol, meaning data between you and your DNS resolver is encrypted.
+      A popular option is Cloudflare's 1.1.1.1, or compare providers- it is simple to enable in-browser.
+      Note that DoH comes with its own issues, mostly preventing web filtering.
+
+  - point: Multi-Session Containers
+    priority: Recommended
+    details: >-
+      Compartmentalisation is really important to keep different aspects of your browsing separate. For
+      example, using different profiles for work, general browsing, social media, online shopping etc
+      will reduce the number associations that data brokers can link back to you. One option is to make
+      use of Firefox Containers which is designed exactly for this purpose. Alternatively, you could
+      use different browsers for different tasks (Brave, Firefox, Tor etc).
+
+  - point: Use Incognito
+    priority: Recommended
+    details: >-
+      When using someone else's machine, ensure that you're in a private/ incognito session. This will
+      prevent browser history, cookies and some data being saved, but is not fool-proof- you can still
+      be tracked.
+
+  - point: Understand Your Browser Fingerprint
+    priority: Recommended
+    details: >-
+      Browser Fingerprinting is an incredibly accurate method of tracking, where a website identifies you
+      based on your device information. You can view your fingerprint at amiunique.org- The aim is to be
+      as un-unique as possible.
+
+  - point: Manage Cookies
+    priority: Recommended
+    details: >-
+      Clearing cookies regularly is one step you can take to help reduce websites from tracking you.
+      Cookies may also store your session token, which if captured, would allow someone to access your
+      accounts without credentials. To mitigate this you should clear cookies often.
+
+  - point: Block Third-Party Cookies
+    priority: Recommended
+    details: >-
+      Third-party cookies placed on your device by a website other than the one you’re visiting. This
+      poses a privacy risk, as a 3rd entity can collect data from your current session. This guide explains
+      how you can disable 3rd-party cookies, and you can check here ensure this worked.
+
+  - point: Block Third-Party Trackers
+    priority: Recommended
+    details: >-
+      Blocking trackers will help to stop websites, advertisers, analytics and more from tracking you in
+      the background. Privacy Badger, DuckDuckGo Privacy Essentials, uBlock Origin and uMatrix (advanced)
+      are all very effective, open source tracker-blockers available for all major browsers.
+
+  - point: Beware of Redirects
+    priority: Optional
+    details: >-
+      While some redirects are harmless, others, such as Unvalidated redirects are used in phishing attacks,
+      it can make a malicious link seem legitimate. If you are unsure about a redirect URL, you can check
+      where it forwards to with a tool like RedirectDetective.
+
+  - point: Do Not Sign Into Your Browser
+    priority: Optional
+    details: >-
+      Many browsers allow you to sign in, in order to sync history, bookmarks and other browsing data across
+      devices. However this not only allows for further data collection, but also increases attack surface
+      through providing another avenue for a malicious actor to get hold of personal information.
+
+  - point: Disallow Prediction Services
+    priority: Optional
+    details: >-
+      Some browsers allow for prediction services, where you receive real-time search results or URL auto-fill.
+      If this is enabled then data is sent to Google (or your default search engine) with every keypress,
+      rather than when you hit enter.
+
+  - point: Avoid G Translate for Webpages
+    priority: Optional
+    details: >-
+      When you visit a web page written in a foreign language, you may be prompted to install the Google Translate
+      extension. Be aware that Google collects all data (including input fields), along with details of the current
+      user. Instead use a translation service that is not linked to your browser.
+
+  - point: Disable Web Notifications
+    priority: Optional
+    details: >-
+      Browser push notifications are a common method for criminals to encourage you to click their link, since
+      it is easy to spoof the source. Be aware of this, and for instructions on disabling browser notifications,
+      see this article.
+
+  - point: Disable Automatic Downloads
+    priority: Optional
+    details: >-
+      Drive-by downloads is a common method of getting harmful files onto a users device. This can be mitigated
+      by disabling auto file downloads, and be cautious of websites which prompt you to download files unexpectedly.
+
+  - point: Disallow Access to Sensors
+    priority: Optional
+    details: >-
+      Mobile websites can tap into your device sensors without asking. If you grant these permissions to your
+      browser once, then all websites are able to use these capabilities, without permission or notification.
+
+  - point: Disallow Location
+    priority: Optional
+    details: >-
+      Location Services lets sites ask for your physical location to improve your experience. This should be
+      disabled in settings. Note that there are still other methods of determining your approximate location.
+
+  - point: Disallow Camera/ Microphone access
+    priority: Optional
+    details: >-
+      Check browser settings to ensure that no websites are granted access to webcam or microphone. It may also
+      be beneficial to use physical protection such as a webcam cover and microphone blocker.
+
+  - point: Disable Browser Password Saves
+    priority: Optional
+    details: >-
+      Do not allow your browser to store usernames and passwords. These can be easily viewed or accessed.
+      Instead use a password manager.
+
+  - point: Disable Browser Autofill
+    priority: Optional
+    details: >-
+      Turn off autofill for any confidential or personal details. This feature can be harmful if your browser
+      is compromised in any way. Instead, consider using your password manager's Notes feature.
+
+  - point: Protect from Exfil Attack
+    priority: Optional
+    details: >-
+      The CSS Exfiltrate attack is a method where credentials and other sensitive details can be snagged with
+      just pure CSS. You can stay protected, with the CSS Exfil Protection plugin.
+
+  - point: Deactivate ActiveX
+    priority: Optional
+    details: >-
+      ActiveX is a browser extension API that built into Microsoft IE, and enabled by default. It's not commonly
+      used anymore, but since it gives plugins intimate access rights, and can be dangerous, therefore you should
+      disable it.
+
+  - point: Disable WebRTC
+    priority: Optional
+    details: >-
+      WebRTC allows high-quality audio/video communication and peer-to-peer file-sharing straight from the
+      browser. However it can pose as a privacy leak. To learn more, check out this guide.
+
+  - point: Spoof HTML5 Canvas Sig
+    priority: Optional
+    details: >-
+      Canvas Fingerprinting allows websites to identify and track users very accurately. You can use the
+      Canvas-Fingerprint-Blocker extension to spoof your fingerprint or use Tor.
+
+  - point: Spoof User Agent
+    priority: Optional
+    details: >-
+      The user agent tells the website what device, browser and version you are using. Switching user agent
+      periodically is one small step you can take to become less unique.
+
+  - point: Disregard DNT
+    priority: Optional
+    details: >-
+      Enabling Do Not Track has very limited impact, since many websites do not respect or follow this. Since
+      it is rarely used, it may also add to your signature, making you more unique.
+
+  - point: Prevent HSTS Tracking
+    priority: Optional
+    details: >-
+      HSTS was designed to help secure websites, but privacy concerns have been raised as it allowed site
+      operators to plant super-cookies. It can be disabled by visiting chrome://net-internals/#hsts in
+      Chromium-based browsers.
+
+  - point: Prevent Automatic Browser Connections
+    priority: Optional
+    details: >-
+      Even when you are not using your browser, it may call home to report on usage activity, analytics and
+      diagnostics. You may wish to disable some of this, which can be done through the settings.
+
+  - point: Enable 1st-Party Isolation
+    priority: Optional
+    details: >-
+      First party isolation means that all identifier sources and browser state are scoped using the URL bar
+      domain, this can greatly reduce tracking.
+
+  - point: Strip Tracking Params from URLs
+    priority: Advanced
+    details: >-
+      Websites often append additional GET parameters to URLs that you click, to identify information like
+      source/referrer. You can sanitize manually, or use an extension like ClearUrls to strip tracking data
+      from URLs automatically.
+
+  - point: First Launch Security
+    priority: Advanced
+    details: >-
+      After installing a web browser, the first time you launch it (prior to configuring its privacy settings),
+      most browsers will call home. Therefore, after installing a browser, you should first disable your internet
+      connection, then configure privacy options before reenabling your internet connectivity.
+
+  - point: Use The Tor Browser
+    priority: Advanced
+    details: >-
+      The Tor Project provides a browser that encrypts and routes your traffic through multiple nodes, keeping
+      users safe from interception and tracking. The main drawbacks are speed and user experience.
+
+  - point: Disable JavaScript
+    priority: Advanced
+    details: >-
+      Many modern web apps are JavaScript-based, so disabling it will greatly decrease your browsing experience.
+      But if you really want to go all out, then it will really reduce your attack surface.
+  softwareLinks:
+    - title: Privacy Browsers
+      url: https://github.com/Lissy93/awesome-privacy#browsers
+    - title: Search Engines
+      utl: https://github.com/Lissy93/awesome-privacy#search-engines
+    - title: Browser Extensions
+      url: https://github.com/Lissy93/awesome-privacy#browser-extensions
+    - title: Browser & Bookmark Sync
+      url: https://github.com/Lissy93/awesome-privacy#browser-sync
+  color: emerald
+
+- title: Email
+  slug: email
+  description: Protecting the gateway to your online accounts
+  icon: email
+  intro: >-
+    Nearly 50 years since the first email was sent, it's still very much a big part
+    of our day-to-day life, and will continue to be for the near future. So considering
+    how much trust we put in them, it's surprising how fundamentally insecure this
+    infrastructure is. Email-related fraud
+    [is on the up](https://www.csoonline.com/article/3247670/email/email-security-in-2018.html),
+    and without taking basic measures you could be at risk.
+    
+
+    If a hacker gets access to your emails, it provides a gateway for your other
+    accounts to be compromised (through password resets), therefore email security
+    is paramount for your digital safety.
+
+
+    The big companies providing "free" email service, don't have a good reputation
+    for respecting users privacy: Gmail was caught giving
+    [third parties full access](https://www.wsj.com/articles/techs-dirty-secret-the-app-developers-sifting-through-your-gmail-1530544442)
+    to user emails and also [tracking all of your purchases](https://www.cnbc.com/2019/05/17/google-gmail-tracks-purchase-history-how-to-delete-it.html).
+    Yahoo was also caught scanning emails in real-time [for US surveillance agencies](http://news.trust.org/item/20161004170601-99f8c)
+    Advertisers [were granted access](https://thenextweb.com/insider/2018/08/29/both-yahoo-and-aol-are-scanning-customer-emails-to-attract-advertisers)
+    to Yahoo and AOL users messages to “identify and segment potential customers by picking up on contextual buying signals, and past purchases.”
+
+  checklist:
+  - point: Have more than one email address
+    priority: Recommended
+    details: >-
+      Consider using a different email address for security-critical communications from trivial mail such
+      as newsletters. This compartmentalization could reduce the amount of damage caused by a data breach,
+      and also make it easier to recover a compromised account.
+
+  - point: Keep Email Address Private
+    priority: Recommended
+    details: >-
+      Do not share your primary email publicly, as mail addresses are often the starting point for most
+      phishing attacks.
+
+  - point: Keep your Account Secure
+    priority: Recommended
+    details: >-
+      Use a long and unique password, enable 2FA and be careful while logging in. Your email account
+      provides an easy entry point to all your other online accounts for an attacker.
+
+  - point: Disable Automatic Loading of Remote Content
+    priority: Recommended
+    details: >-
+      Email messages can contain remote content such as images or stylesheets, often automatically loaded
+      from the server. You should disable this, as it exposes your IP address and device information, and
+      is often used for tracking. For more info, see [this article](https://www.theverge.com/2019/7/3/20680903/email-pixel-trackers-how-to-stop-images-automatic-download).
+
+  - point: Use Plaintext
+    priority: Optional
+    details: >-
+      There are two main types of emails on the internet: plaintext and HTML. The former is strongly preferred
+      for privacy & security as HTML messages often include identifiers in links and inline images, which can
+      collect usage and personal data. There's also numerous risks of remote code execution targeting the HTML
+      parser of your mail client, which cannot be exploited if you are using plaintext. For more info, as well
+      as setup instructions for your mail provider, see [UsePlaintext.email](https://useplaintext.email/).
+
+  - point: Don’t connect third-party apps to your email account
+    priority: Optional
+    details: >-
+      If you give a third-party app or plug-in full access to your inbox, they effectively have full unhindered
+      access to all your emails and their contents, which poses significant security and privacy risks.
+
+  - point: Don't Share Sensitive Data via Email
+    priority: Optional
+    details: >-
+      Emails are very easily intercepted. Furthermore, you can’t be sure of how secure your recipient's
+      environment is. Therefore, emails cannot be considered safe for exchanging confidential information,
+      unless it is encrypted.
+
+  - point: Consider Switching to a Secure Mail Provider
+    priority: Optional
+    details: >-
+      Secure and reputable email providers such as Forward Email, ProtonMail, and Tutanota allow for end-to-end
+      encryption, full privacy as well as more security-focused features. Unlike typical email providers, your
+      mailbox cannot be read by anyone but you, since all messages are encrypted.
+
+  - point: Use Smart Key
+    priority: Advanced
+    details: >-
+      OpenPGP does not support Forward secrecy, which means if either your or the recipient's private key is
+      ever stolen, all previous messages encrypted with it will be exposed. Therefore, you should take great
+      care to keep your private keys safe. One method of doing so, is to use a USB Smart Key to sign or decrypt
+      messages, allowing you to do so without your private key leaving the USB device.
+
+  - point: Use Aliasing / Anonymous Forwarding
+    priority: Advanced
+    details: >-
+      Email aliasing allows messages to be sent to [anything]@my-domain.com and still land in your primary inbox.
+      Effectively allowing you to use a different, unique email address for each service you sign up for. This means
+      if you start receiving spam, you can block that alias and determine which company leaked your email address.
+
+  - point: Subaddressing
+    priority: Optional
+    details: >-
+      An alternative to aliasing is subaddressing, where anything after the `+` symbol is omitted during mail delivery.
+      This enables you to keep track of who shared/ leaked your email address, but unlike aliasing, it will not protect
+      against your real address being revealed.
+
+  - point: Use a Custom Domain
+    priority: Advanced
+    details: >-
+      Using a custom domain means that you are not dependent on the address assigned by your mail provider. So you can
+      easily switch providers in the future and do not need to worry about a service being discontinued.
+
+  - point: Sync with a client for backup
+    priority: Advanced
+    details: >-
+      To avoid losing temporary or permanent access to your emails during an unplanned event (such as an outage or
+      account lock), Thunderbird can sync/ backup messages from multiple accounts via IMAP and store locally on your
+      primary device.
+
+  - point: Be Careful with Mail Signatures
+    priority: Advanced
+    details: >-
+      You do not know how secure of an email environment the recipient of your message may have. There are several
+      extensions that automatically crawl messages, and create a detailed database of contact information based upon
+      email signatures.
+
+  - point: Be Careful with Auto-Replies
+    priority: Advanced
+    details: >-
+      Out-of-office automatic replies are very useful for informing people there will be a delay in replying, but all
+      too often people reveal too much information- which can be used in social engineering and targeted attacks.
+
+  - point: Choose the Right Mail Protocol
+    priority: Advanced
+    details: >-
+      Do not use outdated protocols (below IMAPv4 or POPv3), both have known vulnerabilities and out-dated security.
+
+  - point: Self-Hosting
+    priority: Advanced
+    details: >-
+      Self-hosting your own mail server is not recommended for non-advanced users, since correctly securing it is
+      critical yet requires strong networking knowledge.
+
+  - point: Always use TLS Ports
+    priority: Advanced
+    details: >-
+      There are SSL options for POP3, IMAP, and SMTP as standard TCP/IP ports. They are easy to use, and widely
+      supported so should always be used instead of plaintext email ports.
+
+  - point: DNS Availability
+    priority: Advanced
+    details: >-
+      For self-hosted mail servers, to prevent DNS problems impacting availability- use at least 2 MX records, with
+      secondary and tertiary MX records for redundancy when the primary MX record fails.
+
+  - point: Prevent DDoS and Brute Force Attacks
+    priority: Advanced
+    details: >-
+      For self-hosted mail servers (specifically SMTP), limit your total number of simultaneous connections, and maximum
+      connection rate to reduce the impact of attempted bot attacks.
+
+  - point: Maintain IP Blacklist
+    priority: Advanced
+    details: >-
+      For self-hosted mail servers, you can improve spam filters and harden security, through maintaining an up-to-date
+      local IP blacklist and a spam URI realtime block lists to filter out malicious hyperlinks.
+  color: teal
+  softwareLinks:
+    - title: Secure Email Providers
+      url: https://github.com/Lissy93/awesome-privacy#encrypted-email
+    - title: Mail Forwarding
+      url: https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding
+    - title: Pre-Configured Mail Servers
+      url: https://github.com/Lissy93/awesome-privacy#pre-configured-mail-servers
+    - title: Email Clients
+      url: https://github.com/Lissy93/awesome-privacy#email-clients
+
+- title: Messaging
+  slug: messaging
+  description: Keeping your communications private and secure
+  icon: messaging
+  intro: ''
+  checklist:
+  - point: Only Use Fully End-to-End Encrypted Messengers
+    priority: Recommended
+    details: >-
+      End-to-end encryption is a system of communication where messages are encrypted on your device and
+      not decrypted until they reach the intended recipient. This ensures that any actor who intercepts
+      traffic cannot read the message contents, nor can anybody with access to the central servers where
+      data is stored.
+
+  - point: Use only Open Source Messaging Platforms
+    priority: Recommended
+    details: >-
+      If code is open source then it can be independently examined and audited by anyone qualified to do
+      so, to ensure that there are no backdoors, vulnerabilities, or other security issues.
+
+  - point: Use a "Trustworthy" Messaging Platform
+    priority: Recommended
+    details: >-
+      When selecting an encrypted messaging app, ensure it's fully open source, stable, actively maintained,
+      and ideally backed by reputable developers.
+
+  - point: Check Security Settings
+    priority: Recommended
+    details: >-
+      Enable security settings, including contact verification, security notifications, and encryption.
+      Disable optional non-security features such as read receipt, last online, and typing notification.
+
+  - point: Ensure your Recipients Environment is Secure
+    priority: Recommended
+    details: >-
+      Your conversation can only be as secure as the weakest link. Often the easiest way to infiltrate a
+      communications channel is to target the individual or node with the least protection.
+
+  - point: Disable Cloud Services
+    priority: Recommended
+    details: >-
+      Some mobile messaging apps offer a web or desktop companion. This not only increases attack surface but
+      it has been linked to several critical security issues, and should therefore be avoided, if possible.
+
+  - point: Secure Group Chats
+    priority: Recommended
+    details: >-
+      The risk of compromise rises exponentially, the more participants are in a group, as the attack surface
+      increases. Periodically check that all participants are legitimate.
+
+  - point: Create a Safe Environment for Communication
+    priority: Recommended
+    details: >-
+      There are several stages where your digital communications could be monitored or intercepted. This includes:
+      your or your participants' device, your ISP, national gateway or government logging, the messaging provider,
+      the servers.
+
+  - point: Agree on a Communication Plan
+    priority: Optional
+    details: >-
+      In certain situations, it may be worth making a communication plan. This should include primary and backup
+      methods of securely getting in hold with each other.
+
+  - point: Strip Meta-Data from Media
+    priority: Optional
+    details: >-
+      Metadata is "Data about Data" or additional information attached to a file or transaction. When you send a
+      photo, audio recording, video, or document you may be revealing more than you intended to.
+
+  - point: Defang URLs
+    priority: Optional
+    details: >-
+      Sending links via various services can unintentionally expose your personal information. This is because,
+      when a thumbnail or preview is generated- it happens on the client-side.
+
+  - point: Verify your Recipient
+    priority: Optional
+    details: >-
+      Always ensure you are talking to the intended recipient, and that they have not been compromised. One method
+      for doing so is to use an app which supports contact verification.
+
+  - point: Enable Ephemeral Messages
+    priority: Optional
+    details: >-
+      Self-destructing messages is a feature that causes your messages to automatically delete after a set amount
+      of time. This means that if your device is lost, stolen, or seized, an adversary will only have access to the
+      most recent communications.
+
+  - point: Avoid SMS
+    priority: Optional
+    details: >-
+      SMS may be convenient, but it's not secure. It is susceptible to threats such as interception, sim swapping,
+      manipulation, and malware.
+
+  - point: Watch out for Trackers
+    priority: Optional
+    details: >-
+      Be wary of messaging applications with trackers, as the detailed usage statistics they collect are often very
+      invasive, and can sometimes reveal your identity as well as personal information that you would otherwise not
+      intend to share.
+
+  - point: Consider Jurisdiction
+    priority: Advanced
+    details: >-
+      The jurisdictions where the organisation is based, and data is hosted should also be taken into account.
+
+  - point: Use an Anonymous Platform
+    priority: Advanced
+    details: >-
+      If you believe you may be targeted, you should opt for an anonymous messaging platform that does not require
+      a phone number, or any other personally identifiable information to sign up or use.
+
+  - point: Ensure Forward Secrecy is Supported
+    priority: Advanced
+    details: >-
+      Opt for a platform that implements forward secrecy. This is where your app generates a new encryption key
+      for every message.
+
+  - point: Consider a Decentralized Platform
+    priority: Advanced
+    details: >-
+      If all data flows through a central provider, you have to trust them with your data and meta-data. You cannot
+      verify that the system running is authentic without back doors.
+  softwareLinks:
+    - title: Secure Messaging Apps
+      url: https://github.com/Lissy93/awesome-privacy#encrypted-messaging
+    - title: P2P Messaging Platforms
+      url: https://github.com/Lissy93/awesome-privacy#p2p-messaging
+  color: cyan
+
+
+- title: Social Media
+  slug: social-media
+  description: Minimizing the risks associated with using online communities
+  icon: social
+  intro: >
+    Online communities have existed since the invention of the internet, and give
+    people around the world the opportunity to connect, communicate and share.
+    Although these networks are a great way to promote social interaction and
+    bring people together, that have a dark side - there are some serious
+    [Privacy Concerns with Social Networking Services](https://en.wikipedia.org/wiki/Privacy_concerns_with_social_networking_services),
+    and these social networking sites are owned by private corporations,
+    and that they make their money by collecting data about individuals and
+    selling that data on, often to third party advertisers.
+
+    Secure your account, lock down your privacy settings, but know that even
+    after doing so, all data intentionally and non-intentionally uploaded is
+    effectively public. If possible, avoid using conventional social media networks.
+  checklist:
+  - point: Secure your Account
+    priority: Recommended
+    details: >-
+      Social media profiles get stolen or taken over all too often. To protect your account: use a unique
+      and strong password, and enable 2-factor authentication.
+
+  - point: Check Privacy Settings
+    priority: Recommended
+    details: >-
+      Most social networks allow you to control your privacy settings. Ensure that you are comfortable with
+      what data you are currently exposing and to whom.
+
+  - point: Think of All Interactions as Public
+    priority: Recommended
+    details: >-
+      There are still numerous methods of viewing a users 'private' content across many social networks.
+      Therefore, before uploading, posting or commenting on anything, think "Would I mind if this was totally public?"
+
+  - point: Think of All Interactions as Permanent
+    priority: Recommended
+    details: >-
+      Pretty much every post, comment, photo etc is being continuously backed up by a myriad of third-party
+      services, who archive this data and make it indexable and publicly available almost forever.
+
+  - point: Don't Reveal too Much
+    priority: Recommended
+    details: >-
+      Profile information creates a goldmine of info for hackers, the kind of data that helps them personalize
+      phishing scams. Avoid sharing too much detail (DoB, Hometown, School etc).
+
+  - point: Be Careful what you Upload
+    priority: Recommended
+    details: >-
+      Status updates, comments, check-ins and media can unintentionally reveal a lot more than you intended
+      them to. This is especially relevant to photos and videos, which may show things in the background.
+
+  - point: Don't Share Email or Phone Number
+    priority: Recommended
+    details: >-
+      Posting your real email address or mobile number, gives hackers, trolls and spammers more munition to
+      use against you, and can also allow separate aliases, profiles or data points to be connected.
+
+  - point: Don't Grant Unnecessary Permissions
+    priority: Recommended
+    details: >-
+      By default many of the popular social networking apps will ask for permission to access your contacts,
+      call log, location, messaging history etc. If they don’t need this access, don’t grant it.
+
+  - point: Be Careful of 3rd-Party Integrations
+    priority: Recommended
+    details: >-
+      Avoid signing up for accounts using a Social Network login, revoke access to social apps you no longer
+      use.
+
+  - point: Avoid Publishing Geo Data while still Onsite
+    priority: Recommended
+    details: >-
+      If you plan to share any content that reveals a location, then wait until you have left that place.
+      This is particularly important when you are taking a trip, at a restaurant, campus, hotel/resort, public
+      building or airport.
+
+  - point: Remove metadata before uploading media
+    priority: Optional
+    details: >-
+      Most smartphones and some cameras automatically attach a comprehensive set of additional data (called
+      EXIF data) to each photograph. Remove this data before uploading.
+
+  - point: Implement Image Cloaking
+    priority: Advanced
+    details: >-
+      Tools like Fawkes can be used to very subtly, slightly change the structure of faces within photos in a
+      way that is imperceptible by humans, but will prevent facial recognition systems from being able to recognize
+      a given face.
+
+  - point: Consider Spoofing GPS in home vicinity
+    priority: Advanced
+    details: >-
+      Even if you yourself never use social media, there is always going to be others who are not as careful,
+      and could reveal your location.
+
+  - point: Consider False Information
+    priority: Advanced
+    details: >-
+      If you just want to read, and do not intend on posting too much- consider using an alias name, and false
+      contact details.
+
+  - point: Don’t have any social media accounts
+    priority: Advanced
+    details: >-
+      Social media is fundamentally un-private, so for maximum online security and privacy, avoid using any
+      mainstream social networks.
+
+  softwareLinks:
+    - title: Alternative Social Media
+      url: https://github.com/Lissy93/awesome-privacy#social-networks
+    - title: Alternative Video Platforms
+      url: https://github.com/Lissy93/awesome-privacy#video-platforms
+    - title: Alternative Blogging Platforms
+      url: https://github.com/Lissy93/awesome-privacy#blogging-platforms
+    - title: News Readers and Aggregation
+      url: https://github.com/Lissy93/awesome-privacy#news-readers-and-aggregation
+  color: blue
+
+
+- title: Networks
+  slug: networks
+  description: Safeguarding your network traffic
+  icon: network
+  intro: >
+    This section covers how you connect your devices to the internet securely,
+    including configuring your router and setting up a VPN.
+  checklist:
+  - point: Use a VPN
+    priority: Recommended
+    details: >-
+      Use a reputable, paid-for VPN. This can help protect sites you visit from logging your real IP, reduce
+      the amount of data your ISP can collect, and increase protection on public WiFi.
+
+  - point: Change your Router Password
+    priority: Recommended
+    details: >-
+      After getting a new router, change the password. Default router passwords are publicly available,
+      meaning anyone within proximity would be able to connect.
+
+  - point: Use WPA2, and a strong password
+    priority: Recommended
+    details: >-
+      There are different authentication protocols for connecting to WiFi. Currently, the most secure options
+      are WPA2 and WPA3 (on newer routers).
+
+  - point: Keep router firmware up-to-date
+    priority: Recommended
+    details: >-
+      Manufacturers release firmware updates that fix security vulnerabilities, implement new standards, and
+      sometimes add features or improve the performance of your router.
+
+  - point: Implement a Network-Wide VPN
+    priority: Optional
+    details: >-
+      If you configure your VPN on your router, firewall, or home server, then traffic from all devices will
+      be encrypted and routed through it, without needing individual VPN apps.
+
+  - point: Protect against DNS leaks
+    priority: Optional
+    details: >-
+      When using a VPN, it is extremely important to exclusively use the DNS server of your VPN provider or
+      secure service.
+
+  - point: Use a secure VPN Protocol
+    priority: Optional
+    details: >-
+      OpenVPN and WireGuard are open source, lightweight, and secure tunneling protocols. Avoid using PPTP
+      or SSTP.
+
+  - point: Secure DNS
+    priority: Optional
+    details: >-
+      Use DNS-over-HTTPS which performs DNS resolution via the HTTPS protocol, encrypting data between you
+      and your DNS resolver.
+
+  - point: Avoid the free router from your ISP
+    priority: Optional
+    details: >-
+      Typically they’re manufactured cheaply in bulk in China, with insecure propriety firmware that doesn't
+      receive regular security updates.
+
+  - point: Whitelist MAC Addresses
+    priority: Optional
+    details: >-
+      You can whitelist MAC addresses in your router settings, disallowing any unknown devices to immediately
+      connect to your network, even if they know your credentials.
+
+  - point: Change the Router’s Local IP Address
+    priority: Optional
+    details: >-
+      It is possible for a malicious script in your web browser to exploit a cross-site scripting vulnerability,
+      accessing known-vulnerable routers at their local IP address and tampering with them.
+
+  - point: Don't Reveal Personal Info in SSID
+    priority: Optional
+    details: >-
+      You should update your network name, choosing an SSID that does not identify you, include your flat
+      number/address, and does not specify the device brand/model.
+
+  - point: Opt-Out Router Listings
+    priority: Optional
+    details: >-
+      WiFi SSIDs are scanned, logged, and then published on various websites, which is a serious privacy
+      concern for some.
+
+  - point: Hide your SSID
+    priority: Optional
+    details: >-
+      Your router's Service Set Identifier is simply the network name. If it is not visible, it may receive
+      less abuse.
+
+  - point: Disable WPS
+    priority: Optional
+    details: >-
+      Wi-Fi Protected Setup provides an easier method to connect, without entering a long WiFi password, but
+      WPS introduces a series of major security issues.
+
+  - point: Disable UPnP
+    priority: Optional
+    details: >-
+      Universal Plug and Play allows applications to automatically forward a port on your router, but it has
+      a long history of serious security issues.
+
+  - point: Use a Guest Network for Guests
+    priority: Optional
+    details: >-
+      Do not grant access to your primary WiFi network to visitors, as it enables them to interact with other
+      devices on the network.
+
+  - point: Change your Router's Default IP
+    priority: Optional
+    details: >-
+      Modifying your router admin panel's default IP address will make it more difficult for malicious scripts
+      targeting local IP addresses.
+
+  - point: Kill unused processes and services on your router
+    priority: Optional
+    details: >-
+      Services like Telnet and SSH that provide command-line access to devices should never be exposed to the
+      internet and should also be disabled on the local network unless they're actually needed.
+
+  - point: Don't have Open Ports
+    priority: Optional
+    details: >-
+      Close any open ports on your router that are not needed. Open ports provide an easy entrance for hackers.
+
+  - point: Disable Unused Remote Access Protocols
+    priority: Optional
+    details: >-
+      When protocols such as PING, Telnet, SSH, UPnP, and HNAP etc are enabled, they allow your router to be
+      probed from anywhere in the world.
+
+  - point: Disable Cloud-Based Management
+    priority: Optional
+    details: >-
+      You should treat your router's admin panel with the utmost care, as considerable damage can be caused
+      if an attacker is able to gain access.
+
+  - point: Manage Range Correctly
+    priority: Optional
+    details: >-
+      It's common to want to pump your router's range to the max, but if you reside in a smaller flat, your
+      attack surface is increased when your WiFi network can be picked up across the street.
+
+  - point: Route all traffic through Tor
+    priority: Advanced
+    details: >-
+      VPNs have their weaknesses. For increased security, route all your internet traffic through the Tor
+      network.
+
+  - point: Disable WiFi on all Devices
+    priority: Advanced
+    details: >-
+      Connecting to even a secure WiFi network increases your attack surface. Disabling your home WiFi and
+      connect each device via Ethernet.
+  color: violet
+  softwareLinks:
+  - title: Virtual Private Networks
+    url: https://github.com/Lissy93/awesome-privacy#virtual-private-networks
+  - title: Mix Networks
+    url: https://github.com/Lissy93/awesome-privacy#mix-networks
+  - title: Router Firmware
+    url: https://github.com/Lissy93/awesome-privacy#router-firmware
+  - title: Open Source Proxies
+    url: https://github.com/Lissy93/awesome-privacy#proxies
+  - title: DNS Providers
+    url: https://github.com/Lissy93/awesome-privacy#dns
+  - title: Firewalls
+    url: https://github.com/Lissy93/awesome-privacy#firewalls
+  - title: Network Analysis Tools
+    url: https://github.com/Lissy93/awesome-privacy#network-analysis
+  - title: Self-Hosted Network Security Tools
+    url: https://github.com/Lissy93/awesome-privacy#self-hosted-network-security
+
+
+- title: Mobile Devices
+  slug: mobile-devices
+  description: Reduce invasive tracking for cells, smartphones and tablets
+  icon: mobile
+  intro: >
+    Smart phones have revolutionized so many aspects of life and brought the world
+    to our fingertips. For many of us, smart phones are our primary means of communication,
+    entertainment and access to knowledge. But while they've brought convenience
+    to whole new level, there's some ugly things going on behind the screen.
+
+    Geo-tracking is used to trace our every move, and we have little control over
+    who has this data- your phone is even able to
+    [track your location without GPS](https://gizmodo.com/how-to-track-a-cellphone-without-gps-or-consent-1821125371).
+    Over the years numerous reports that surfaced, outlining ways in which your
+    phone's [mic can eavesdrop](https://www.independent.co.uk/life-style/gadgets-and-tech/news/smartphone-apps-listening-privacy-alphonso-shazam-advertising-pool-3d-honey-quest-a8139451.html),
+    and the [camera can watch you](https://www.businessinsider.com/hackers-governments-smartphone-iphone-camera-wikileaks-cybersecurity-hack-privacy-webcam-2017-6)- all without your knowledge or consent.
+    And then there's the malicious apps, lack of security patches and potential/ likely backdoors.
+
+    Using a smart phone generates a lot of data about you- from information you
+    intentionally share, to data silently generated from your actions.
+    It can be scary to see what Google, Microsoft, Apple and Facebook know about
+    us- sometimes they know more than our closest family. It's hard to comprehend
+    what your data will reveal, especially in conjunction with other data.
+
+    This data is used for
+    [far more than just advertising](https://internethealthreport.org/2018/the-good-the-bad-and-the-ugly-sides-of-data-tracking/) -
+    more often it's used to rate people for finance, insurance and employment.
+    Targeted ads can even be used for fine-grained surveillance (see [ADINT](https://adint.cs.washington.edu))
+
+    More of us are concerned about how
+    [governments use collect and use our smart phone data](https://www.statista.com/statistics/373916/global-opinion-online-monitoring-government/),
+    and rightly so, federal agencies often
+    [request our data from Google](https://www.statista.com/statistics/273501/global-data-requests-from-google-by-federal-agencies-and-governments/),
+    [Facebook](https://www.statista.com/statistics/287845/global-data-requests-from-facebook-by-federal-agencies-and-governments/),
+    Apple, Microsoft, Amazon, and other tech companies. Sometimes requests are
+    made in bulk, returning detailed information on everybody within a certain geo-fence,
+    [often for innocent people](https://www.nytimes.com/interactive/2019/04/13/us/google-location-tracking-police.html).
+    And this doesn't include all of the internet traffic that intelligence agencies around the world have unhindered access to.
+  checklist:
+  - point: Encrypt your Device
+    priority: Recommended
+    details: >-
+      In order to keep your data safe from physical access, use file encryption. This will mean if your
+      device is lost or stolen, no one will have access to your data.
+
+  - point: Turn off connectivity features that aren’t being used
+    priority: Recommended
+    details: >-
+      When you're not using WiFi, Bluetooth, NFC etc, turn those features off. There are several common threats
+      that utilise these features.
+
+  - point: Keep app count to a minimum
+    priority: Recommended
+    details: >-
+      Uninstall apps that you don’t need or use regularly. As apps often run in the background, slowing your
+      device down, but also collecting data.
+
+  - point: App Permissions
+    priority: Recommended
+    details: >-
+      Don’t grant apps permissions that they don’t need. For Android, Bouncer is an app that allows you to grant
+      temporary/ 1-off permissions.
+
+  - point: Only install Apps from official source
+    priority: Recommended
+    details: >-
+      Applications on Apple App Store and Google Play Store are scanned and cryptographically signed, making them
+      less likely to be malicious.
+
+  - point: Be Careful of Phone Charging Threats
+    priority: Optional
+    details: >-
+      Juice Jacking is when hackers use public charging stations to install malware on your smartphone or tablet
+      through a compromised USB port.
+
+  - point: Set up a mobile carrier PIN
+    priority: Recommended
+    details: >-
+      SIM hijacking is when a hacker is able to get your mobile number transferred to their sim. The easiest way
+      to protect against this is to set up a PIN through your mobile provider.
+
+  - point: Opt-out of Caller ID Listings
+    priority: Optional
+    details: >-
+      To keep your details private, you can unlist your number from caller ID apps like TrueCaller, CallApp, SyncMe,
+      and Hiya.
+
+  - point: Use Offline Maps
+    priority: Optional
+    details: >-
+      Consider using an offline maps app, such as OsmAnd or Organic Maps, to reduce data leaks from map apps.
+
+  - point: Opt-out of personalized ads
+    priority: Optional
+    details: >-
+      You can slightly reduce the amount of data collected by opting-out of seeing personalized ads.
+
+  - point: Erase after too many login attempts
+    priority: Optional
+    details: >-
+      To protect against an attacker brute forcing your pin, set your device to erase after too many failed
+      login attempts.
+
+  - point: Monitor Trackers
+    priority: Optional
+    details: >-
+      εxodus is a great service which lets you search for any app and see which trackers are embedded in it.
+
+  - point: Use a Mobile Firewall
+    priority: Optional
+    details: >-
+      To prevent applications from leaking privacy-sensitive data, you can install a firewall app.
+
+  - point: Reduce Background Activity
+    priority: Optional
+    details: >-
+      For Android, SuperFreeze makes it possible to entirely freeze all background activities on a per-app basis.
+
+  - point: Sandbox Mobile Apps
+    priority: Optional
+    details: >-
+      Prevent permission-hungry apps from accessing your private data with Island, a sandbox environment.
+
+  - point: Tor Traffic
+    priority: Advanced
+    details: >-
+      Orbot provides a system-wide Tor connection, which will help protect you from surveillance and public WiFi threats.
+
+  - point: Avoid Custom Virtual Keyboards
+    priority: Optional
+    details: >-
+      It is recommended to stick with your device's stock keyboard. If you choose to use a third-party keyboard app,
+      ensure it is reputable.
+
+  - point: Restart Device Regularly
+    priority: Optional
+    details: >-
+      Restarting your phone at least once a week will clear the app state cached in memory and may run more smoothly
+      after a restart.
+
+  - point: Avoid SMS
+    priority: Optional
+    details: >-
+      SMS should not be used to receive 2FA codes or for communication, instead use an encrypted messaging app,
+      such as Signal.
+
+  - point: Keep your Number Private
+    priority: Optional
+    details: >-
+      MySudo allows you to create and use virtual phone numbers for different people or groups. This is great for
+      compartmentalisation.
+
+  - point: Watch out for Stalkerware
+    priority: Optional
+    details: >-
+      Stalkerware is malware that is installed directly onto your device by someone you know. The best way to get
+      rid of it is through a factory reset.
+
+  - point: Favor the Browser, over Dedicated App
+    priority: Optional
+    details: >-
+      Where possible, consider using a secure browser to access sites, rather than installing dedicated applications.
+
+  - point: Consider running a custom ROM (Android)
+    priority: Advanced
+    details: >-
+      If you're concerned about your device manufacturer collecting too much personal information, consider a
+      privacy-focused custom ROM.
+  color: fuchsia
+  softwareLinks:
+  - title: Mobile Apps, for Security + Privacy
+    url: https://github.com/Lissy93/awesome-privacy#mobile-apps
+  - title: Encrypted Messaging
+    url: https://github.com/Lissy93/awesome-privacy#encrypted-messaging
+  - title: Mobile Operation Systems
+    url: https://github.com/Lissy93/awesome-privacy#mobile-operating-systems
+
+
+- title: Personal Computers
+  slug: personal-computers
+  description: Securing your PC's operating system, data & activity
+  icon: computer
+  intro: >
+    Although Windows and OS X are easy to use and convenient, they both are far from secure.
+    Your OS provides the interface between hardware and your applications, so if
+    compromised can have detrimental effects.
+  checklist:
+  - point: Keep your System up-to-date
+    priority: Recommended
+    details: >-
+      System updates contain fixes/patches for security issues, improve performance, and sometimes add new
+      features. Install new updates when prompted.
+
+  - point: Encrypt your Device
+    priority: Recommended
+    details: >-
+      Use BitLocker for Windows, FileVault on MacOS, or LUKS on Linux, to enable full disk encryption. This
+      prevents unauthorized access if your computer is lost or stolen.
+
+  - point: Backup Important Data
+    priority: Recommended
+    details: >-
+      Maintaining encrypted backups prevents loss due to ransomware, theft, or damage. Consider using
+      Cryptomator for cloud files or VeraCrypt for USB drives.
+
+  - point: Be Careful Plugging USB Devices into your Computer
+    priority: Recommended
+    details: >-
+      USB devices can pose serious threats. Consider making a USB sanitizer with CIRCLean to safely check USB
+      devices.
+
+  - point: Activate Screen-Lock when Idle
+    priority: Recommended
+    details: >-
+      Lock your computer when away and set it to require a password on resume from screensaver or sleep to
+      prevent unauthorized access.
+
+  - point: Disable Cortana or Siri
+    priority: Recommended
+    details: >-
+      Voice-controlled assistants can have privacy implications due to data sent back for processing. Disable
+      or limit their listening capabilities.
+
+  - point: Review your Installed Apps
+    priority: Recommended
+    details: >-
+      Keep installed applications to a minimum to reduce exposure to vulnerabilities and regularly clear
+      application caches.
+
+  - point: Manage Permissions
+    priority: Recommended
+    details: >-
+      Control which apps have access to your location, camera, microphone, contacts, and other sensitive
+      information.
+
+  - point: Disallow Usage Data from being sent to the Cloud
+    priority: Recommended
+    details: >-
+      Limit the amount of usage information or feedback sent to the cloud to protect your privacy.
+
+  - point: Avoid Quick Unlock
+    priority: Recommended
+    details: >-
+      Use a strong password instead of biometrics or short PINs for unlocking your computer to enhance
+      security.
+
+  - point: Power Off Computer, instead of Standby
+    priority: Recommended
+    details: >-
+      Shut down your device when not in use, especially if your disk is encrypted, to keep data secure.
+
+  - point: Don't link your PC with your Microsoft or Apple Account
+    priority: Optional
+    details: >-
+      Use a local account only to prevent data syncing and exposure. Avoid using sync services that compromise
+      privacy.
+
+  - point: Check which Sharing Services are Enabled
+    priority: Optional
+    details: >-
+      Disable network sharing features you are not using to close gateways to common threats.
+
+  - point: Don't use Root/Admin Account for Non-Admin Tasks
+    priority: Optional
+    details: >-
+      Use an unprivileged user account for daily tasks and only elevate permissions for administrative changes
+      to mitigate vulnerabilities.
+
+  - point: Block Webcam + Microphone
+    priority: Optional
+    details: >-
+      Cover your webcam when not in use and consider blocking unauthorized audio recording to protect privacy.
+
+  - point: Use a Privacy Filter
+    priority: Optional
+    details: >-
+      Use a screen privacy filter in public spaces to prevent shoulder surfing and protect sensitive
+      information.
+
+  - point: Physically Secure Device
+    priority: Optional
+    details: >-
+      Use a Kensington Lock to secure your laptop in public spaces and consider port locks to prevent
+      unauthorized physical access.
+
+  - point: Don't Charge Devices from your PC
+    priority: Optional
+    details: >-
+      Use a power bank or AC wall charger instead of your PC to avoid security risks associated with USB
+      connections.
+
+  - point: Randomize your hardware address on Wi-Fi
+    priority: Optional
+    details: >-
+      Modify or randomize your MAC address to protect against tracking across different WiFi networks.
+
+  - point: Use a Firewall
+    priority: Optional
+    details: >-
+      Install a firewall app to monitor and block unwanted internet access by certain applications, protecting
+      against remote access attacks and privacy breaches.
+
+  - point: Protect Against Software Keyloggers
+    priority: Optional
+    details: >-
+      Use key stroke encryption tools to protect against software keyloggers recording your keystrokes.
+
+  - point: Check Keyboard Connection
+    priority: Optional
+    details: >-
+      Be vigilant for hardware keyloggers when using public or unfamiliar computers by checking keyboard
+      connections.
+
+  - point: Prevent Keystroke Injection Attacks
+    priority: Optional
+    details: >-
+      Lock your PC when away and consider using USBGuard or similar tools to protect against keystroke
+      injection attacks.
+
+  - point: Don't use commercial "Free" Anti-Virus
+    priority: Optional
+    details: >-
+      Rely on built-in security tools and avoid free anti-virus applications due to their potential for
+      privacy invasion and data collection.
+
+  - point: Periodically check for Rootkits
+    priority: Advanced
+    details: >-
+      Regularly check for rootkits to detect and mitigate full system control threats using tools like
+      chkrootkit.
+
+  - point: BIOS Boot Password
+    priority: Advanced
+    details: >-
+      Enable a BIOS or UEFI password to add an additional security layer during boot-up, though be aware of
+      its limitations.
+
+  - point: Use a Security-Focused Operating System
+    priority: Advanced
+    details: >-
+      Consider switching to Linux or a security-focused distro like QubeOS or Tails for enhanced privacy and
+      security.
+
+  - point: Make Use of VMs
+    priority: Advanced
+    details: >-
+      Use virtual machines for risky activities or testing suspicious software to isolate potential threats
+      from your primary system.
+
+  - point: Compartmentalize
+    priority: Advanced
+    details: >-
+      Isolate different programs and data sources from one another as much as possible to limit the extent of
+      potential breaches.
+
+  - point: Disable Undesired Features (Windows)
+    priority: Advanced
+    details: >-
+      Disable unnecessary Windows "features" and services that run in the background to reduce data collection
+      and resource use.
+
+  - point: Secure Boot
+    priority: Advanced
+    details: >-
+      Ensure that Secure Boot is enabled to prevent malware from replacing your boot loader and other critical
+      software.
+
+  - point: Secure SSH Access
+    priority: Advanced
+    details: >-
+      Take steps to protect SSH access from attacks by changing the default port, using SSH keys, and
+      configuring firewalls.
+
+  - point: Close Un-used Open Ports
+    priority: Advanced
+    details: >-
+      Turn off services listening on external ports that are not needed to protect against remote exploits and
+      improve security.
+
+  - point: Implement Mandatory Access Control
+    priority: Advanced
+    details: >-
+      Restrict privileged access to limit the damage that can be done if a system is compromised.
+
+  - point: Use Canary Tokens
+    priority: Advanced
+    details: >-
+      Deploy canary tokens to detect unauthorized access to your files or emails faster and gather
+      information about the intruder.
+  color: pink
+  softwareLinks:
+  - title: Secure Operating Systems
+    url: https://github.com/Lissy93/awesome-privacy#desktop-operating-systems
+  - title: Linux Defenses
+    url: https://github.com/Lissy93/awesome-privacy#linux-defences
+  - title: Windows Defenses
+    url: https://github.com/Lissy93/awesome-privacy#windows-defences
+  - title: Mac OS Defenses
+    url: https://github.com/Lissy93/awesome-privacy#mac-os-defences
+  - title: Anti-Malware
+    url: https://github.com/Lissy93/awesome-privacy#anti-malware
+  - title: Firewalls
+    url: https://github.com/Lissy93/awesome-privacy#firewalls-1
+  - title: File Encryption
+    url: https://github.com/Lissy93/awesome-privacy#file-encryption
+
+
+
+- title: Smart Home
+  slug: smart-home
+  description: Using IoT devices without compromising your privacy
+  icon: home
+  intro: >-
+    Home assistants (such as Google Home, Alexa and Siri) and other internet connected
+    devices collect large amounts of personal data (including voice samples, location data,
+    home details and logs of all interactions). Since you have limited control on what is
+    being collected, how it's stored, and what it will be used for, this makes it hard to
+    recommend any consumer smart-home products to anyone who cares about privacy and security.
+
+    Security vs Privacy: There are many smart devices on the market that claim to increase
+    the security of your home while being easy and convenient to use (Such as Smart Burglar
+    Alarms, Internet Security Cameras, Smart Locks and Remote access Doorbells to name a few).
+    These devices may appear to make security easier, but there is a trade-off in terms of
+    privacy: as they collect large amounts of personal data, and leave you without control
+    over how this is stored or used. The security of these devices is also questionable,
+    since many of them can be (and are being) hacked, allowing an intruder to bypass
+    detection with minimum effort.
+
+    The most privacy-respecting option, would be to not use "smart" internet-connected
+    devices in your home, and not to rely on a security device that requires an internet
+    connection. But if you do, it is important to fully understand the risks of any given
+    product, before buying it. Then adjust settings to increase privacy and security.
+    The following checklist will help mitigate the risks associated with
+    internet-connected home devices.
+  checklist:
+  - point: Rename devices to not specify brand/model
+    priority: Recommended
+    details: >-
+      Change default device names to something generic to prevent targeted attacks by obscuring brand or model information.
+
+  - point: Disable microphone and camera when not in use
+    priority: Recommended
+    details: >-
+      Use hardware switches to turn off microphones and cameras on smart devices to protect against accidental recordings or targeted access.
+
+  - point: Understand what data is collected, stored and transmitted
+    priority: Recommended
+    details: >-
+      Research and ensure comfort with the data handling practices of smart home devices before purchase, avoiding devices that share data with third parties.
+
+  - point: Set privacy settings, and opt out of sharing data with third parties
+    priority: Recommended
+    details: >-
+      Adjust app settings for strictest privacy controls and opt-out of data sharing with third parties wherever possible.
+
+  - point: Don't link your smart home devices to your real identity
+    priority: Recommended
+    details: >-
+      Use anonymous usernames and passwords, avoiding sign-up/log-in via social media or other third-party services to maintain privacy.
+
+  - point: Keep firmware up-to-date
+    priority: Recommended
+    details: >-
+      Regularly update smart device firmware to apply security patches and enhancements.
+
+  - point: Protect your Network
+    priority: Recommended
+    details: >-
+      Secure your home WiFi and network to prevent unauthorized access to smart devices.
+
+  - point: Be wary of wearables
+    priority: Optional
+    details: >-
+      Consider the extensive data collection capabilities of wearable devices and their implications for privacy.
+
+  - point: Don't connect your home's critical infrastructure to the Internet
+    priority: Optional
+    details: >-
+      Evaluate the risks of internet-connected thermostats, alarms, and detectors due to potential remote access by hackers.
+
+  - point: Mitigate Alexa/ Google Home Risks
+    priority: Optional
+    details: >-
+      Consider privacy-focused alternatives like Mycroft or use Project Alias to prevent idle listening by voice-activated assistants.
+
+  - point: Monitor your home network closely
+    priority: Optional
+    details: >-
+      Use tools like FingBox or router features to monitor for unusual network activity.
+
+  - point: Deny Internet access where possible
+    priority: Advanced
+    details: >-
+      Use firewalls to block internet access for devices that don't need it, limiting operation to local network use.
+
+  - point: Assess risks
+    priority: Advanced
+    details: >-
+      Consider the privacy implications for all household members and adjust device settings for security and privacy, such as disabling devices at certain times.
+  color: red
+  softwareLinks:
+  - title: Home Automation
+    url: https://github.com/Lissy93/awesome-privacy#home-automation
+  - title: AI Voice Assistants
+    url: https://github.com/Lissy93/awesome-privacy#ai-voice-assistants
+
+
+- title: Personal Finance
+  slug: personal-finance
+  description: Protecting your funds, financial accounts and transactions
+  icon: finance
+  intro: >-
+    Credit card fraud is the most common form of identity theft (with [133,015 reports in the
+    US in 2017 alone](https://www.experian.com/blogs/ask-experian/identity-theft-statistics/)),
+    and a total loss of $905 million, which was a 26% increase from the previous year.
+    The with a median amount lost per person was $429 in 2017.
+    It's more important than ever to take basic steps to protect yourself from falling victim
+
+    Note about credit cards: Credit cards have technological methods in place to
+    detect and stop some fraudulent transactions. Major payment processors implement
+    this, by mining huge amounts of data from their card holders, in order to know
+    a great deal about each persons spending habits. This data is used to identify
+    fraud, but is also sold onto other data brokers. Credit cards are therefore good
+    for security, but terrible for data privacy.
+  checklist:
+  - point: Sign up for Fraud Alerts and Credit Monitoring
+    priority: Recommended
+    details: >-
+      Enable fraud alerts and credit monitoring through Experian, TransUnion, or Equifax to be alerted of suspicious activity.
+
+  - point: Apply a Credit Freeze
+    priority: Recommended
+    details: >-
+      Prevent unauthorized credit inquiries by freezing your credit through Experian, TransUnion, and Equifax.
+
+  - point: Use Virtual Cards
+    priority: Optional
+    details: >-
+      Utilize virtual card numbers for online transactions to protect your real banking details. Services like Privacy.com and MySudo offer such features.
+
+  - point: Use Cash for Local Transactions
+    priority: Optional
+    details: >-
+      Pay with cash for local and everyday purchases to avoid financial profiling by institutions.
+
+  - point: Use Cryptocurrency for Online Transactions
+    priority: Optional
+    details: >-
+      Opt for privacy-focused cryptocurrencies like Monero for online transactions to maintain anonymity. Use cryptocurrencies wisely to ensure privacy.
+
+  - point: Store Crypto Securely
+    priority: Advanced
+    details: >-
+      Securely store cryptocurrencies using offline wallet generation, hardware wallets like Trezor or ColdCard, or consider long-term storage solutions like CryptoSteel.
+
+  - point: Buy Crypto Anonymously
+    priority: Advanced
+    details: >-
+      Purchase cryptocurrencies without linking to your identity through services like LocalBitcoins, Bisq, or Bitcoin ATMs.
+
+  - point: Tumble/ Mix Coins
+    priority: Advanced
+    details: >-
+      Use a bitcoin mixer or CoinJoin before converting Bitcoin to currency to obscure transaction trails.
+
+  - point: Use an Alias Details for Online Shopping
+    priority: Advanced
+    details: >-
+      For online purchases, consider using alias details, forwarding email addresses, VOIP numbers, and secure delivery methods to protect your identity.
+
+  - point: Use alternate delivery address
+    priority: Advanced
+    details: >-
+      Opt for deliveries to non-personal addresses such as PO Boxes, forwarding addresses, or local pickup locations to avoid linking purchases directly to you.
+  color: purple
+  softwareLinks:
+  - title: Virtual Credit Cards
+    url: https://github.com/Lissy93/awesome-privacy#virtual-credit-cards
+  - title: Cryptocurrencies
+    url: https://github.com/Lissy93/awesome-privacy#cryptocurrencies
+  - title: Crypto Wallets
+    url: https://github.com/Lissy93/awesome-privacy#crypto-wallets
+  - title: Crypto Exchanges
+    url: https://github.com/Lissy93/awesome-privacy#crypto-exchanges
+  - title: Other Payment Methods
+    url: https://github.com/Lissy93/awesome-privacy#other-payment-methods
+  - title: Budgeting Tools
+    url: https://github.com/Lissy93/awesome-privacy#budgeting-tools
+
+- title: Human Aspect
+  slug: human-aspect
+  description: Avoiding social engineering security risks
+  icon: human
+  intro: >-
+    Many data breaches, hacks and attacks are caused by human error.
+    The following list contains steps you should take, to reduce the risk of this
+    happening to you. Many of them are common sense, but it's worth takin note of.
+
+  checklist:
+  - point: Verify Recipients
+    priority: Recommended
+    details: >-
+      Emails can be easily spoofed. Verify the sender's authenticity, especially for sensitive actions, and prefer entering URLs manually rather than clicking links in emails.
+
+  - point: Don't Trust Your Popup Notifications
+    priority: Recommended
+    details: >-
+      Fake pop-ups can be deployed by malicious actors. Always check the URL before entering any information on a popup.
+
+  - point: Never Leave Device Unattended
+    priority: Recommended
+    details: >-
+      Unattended devices can be compromised even with strong passwords. Use encryption and remote erase features like Find My Phone for lost devices.
+
+  - point: Prevent Camfecting
+    priority: Recommended
+    details: >-
+      Protect against camfecting by using webcam covers and microphone blockers. Mute home assistants when not in use or discussing sensitive matters.
+
+  - point: Stay protected from shoulder surfers
+    priority: Recommended
+    details: >-
+      Use privacy screens on laptops and mobiles to prevent others from reading your screen in public spaces.
+
+  - point: Educate yourself about phishing attacks
+    priority: Recommended
+    details: >-
+      Be cautious of phishing attempts. Verify URLs, context of received messages, and employ good security practices like using 2FA and not reusing passwords.
+
+  - point: Watch out for Stalkerware
+    priority: Recommended
+    details: >-
+      Be aware of stalkerware installed by acquaintances for spying. Look out for signs like unusual battery usage and perform factory resets if suspected.
+
+  - point: Install Reputable Software from Trusted Sources
+    priority: Recommended
+    details: >-
+      Only download software from legitimate sources and check files with tools like Virus Total before installation.
+
+  - point: Store personal data securely
+    priority: Recommended
+    details: >-
+      Ensure all personal data on devices or in the cloud is encrypted to protect against unauthorized access.
+
+  - point: Obscure Personal Details from Documents
+    priority: Recommended
+    details: >-
+      When sharing documents, obscure personal details with opaque rectangles to prevent information leakage.
+
+  - point: Do not assume a site is secure, just because it is `HTTPS`
+    priority: Recommended
+    details: >-
+      HTTPS does not guarantee a website's legitimacy. Verify URLs and exercise caution with personal data.
+
+  - point: Use Virtual Cards when paying online
+    priority: Optional
+    details: >-
+      Use virtual cards for online payments to protect your banking details and limit transaction risks.
+
+  - point: Review application permissions
+    priority: Optional
+    details: >-
+      Regularly review and manage app permissions to ensure no unnecessary access to sensitive device features.
+
+  - point: Opt-out of public lists
+    priority: Optional
+    details: >-
+      Remove yourself from public databases and marketing lists to reduce unwanted contacts and potential risks.
+
+  - point: Never Provide Additional PII When Opting-Out
+    priority: Optional
+    details: >-
+      Do not provide additional personal information when opting out of data services to avoid further data collection.
+
+  - point: Opt-out of data sharing
+    priority: Optional
+    details: >-
+      Many apps and services default to data sharing settings. Opt out to protect your data from being shared with third parties.
+
+  - point: Review and update social media privacy
+    priority: Optional
+    details: >-
+      Regularly check and update your social media settings due to frequent terms updates that may affect your privacy settings.
+
+  - point: Compartmentalize
+    priority: Advanced
+    details: >-
+      Keep different areas of digital activity separate to limit data exposure in case of a breach.
+
+  - point: WhoIs Privacy Guard
+    priority: Advanced
+    details: >-
+      Use WhoIs Privacy Guard for domain registrations to protect your personal information from public searches.
+
+  - point: Use a forwarding address
+    priority: Advanced
+    details: >-
+      Use a PO Box or forwarding address for mail to prevent companies from knowing your real address, adding a layer of privacy protection.
+
+  - point: Use anonymous payment methods
+    priority: Advanced
+    details: >-
+      Opt for anonymous payment methods like cryptocurrencies to avoid entering identifiable information online.
+
+  color: indigo
+- title: Physical Security
+  slug: physical-security
+  description: Taking measures to prevent IRL security incidents
+  icon: physical
+  intro: >-
+    Public records often include sensitive personal data (full name, date of birth,
+    phone number, email, address, ethnicity etc), and are gathered from a range of
+    sources (census records, birth/ death/ marriage certificates, voter registrants,
+    marketing information, customer databases, motor vehicle records, professional/
+    business licenses and all court files in full detail). This sensitive personal
+    information is
+    [easy and legal to access](https://www.consumerreports.org/consumerist/its-creepy-but-not-illegal-for-this-website-to-provide-all-your-public-info-to-anyone/),
+    which raises some [serious privacy concerns](https://privacyrights.org/resources/public-records-internet-privacy-dilemma)
+    (identity theft, personal safety risks/ stalkers, destruction of reputations, dossier society)
+
+
+    CCTV is one of the major ways that the corporations, individuals and the government
+    tracks your movements. In London, UK the average person is caught on camera about
+    500 times per day. This network is continuing to grow, and in many cities around
+    the world, facial recognition is being rolled out, meaning the state can know
+    the identity of residents on the footage in real-time.
+
+    Strong authentication, encrypted devices, patched software and anonymous web
+    browsing may be of little use if someone is able to physically compromise you,
+    your devices and your data. This section outlines some basic methods for physical security
+
+  checklist:
+  - point: Destroy Sensitive Documents
+    priority: Recommended
+    details: Shred or redact sensitive documents before disposal to protect against identity theft and maintain confidentiality.
+
+  - point: Opt-Out of Public Records
+    priority: Recommended
+    details: Contact people search websites to opt-out from listings that show personal information, using guides like Michael Bazzell's Personal Data Removal Workbook.
+
+  - point: Watermark Documents
+    priority: Recommended
+    details: Add a watermark with the recipient's name and date to digital copies of personal documents to trace the source of a breach.
+
+  - point: Don't Reveal Info on Inbound Calls
+    priority: Recommended
+    details: Only share personal data on calls you initiate and verify the recipient's phone number.
+
+  - point: Stay Alert
+    priority: Recommended
+    details: Be aware of your surroundings and assess potential risks in new environments.
+
+  - point: Secure Perimeter
+    priority: Recommended
+    details: Ensure physical security of locations storing personal info devices, minimizing external access and using intrusion detection systems.
+
+  - point: Physically Secure Devices
+    priority: Recommended
+    details: Use physical security measures like Kensington locks, webcam covers, and privacy screens for devices.
+
+  - point: Keep Devices Out of Direct Sight
+    priority: Recommended
+    details: Prevent devices from being visible from outside to mitigate risks from lasers and theft.
+
+  - point: Protect your PIN
+    priority: Recommended
+    details: Shield your PIN entry from onlookers and cameras, and clean touchscreens after use.
+
+  - point: Check for Skimmers
+    priority: Recommended
+    details: Inspect ATMs and public devices for skimming devices and tampering signs before use.
+
+  - point: Protect your Home Address
+    priority: Optional
+    details: Use alternative locations, forwarding addresses, and anonymous payment methods to protect your home address.
+
+  - point: Use a PIN, Not Biometrics
+    priority: Advanced
+    details: Prefer PINs over biometrics for device security in situations where legal coercion to unlock devices may occur.
+
+  - point: Reduce exposure to CCTV
+    priority: Advanced
+    details: Wear disguises and choose routes with fewer cameras to avoid surveillance.
+
+  - point: Anti-Facial Recognition Clothing
+    priority: Advanced
+    details: Wear clothing with patterns that trick facial-recognition technology.
+
+  - point: Reduce Night Vision Exposure
+    priority: Advanced
+    details: Use IR light sources or reflective glasses to obstruct night vision cameras.
+
+  - point: Protect your DNA
+    priority: Advanced
+    details: Avoid sharing DNA with heritage websites and be cautious about leaving DNA traces.
+
+  color: lime
