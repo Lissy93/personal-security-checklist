@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Section",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "title": { "type": "string" },
+      "slug": { "type": "string" },
+      "description": { "type": "string" },
+      "intro": { "type": "string" },
+      "icon": { "type": "string" },
+      "color": { "type": "string" },
+      "checklist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "point": { "type": "string" },
+            "priority": { "type": "string", "enum": ["recommended", "optional", "advanced"] },
+            "details": { "type": "string" }
+          },
+          "required": ["point", "priority", "details"]
+        }
+      },
+      "furtherLinks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": { "type": "string" },
+            "url": { "type": "string", "format": "uri" },
+            "description": { "type": "string" }
+          },
+          "required": ["title", "url", "description"]
+        },
+        "minItems": 0
+      }
+    },
+    "required": ["title", "slug", "description", "intro", "checklist"],
+    "additionalProperties": false
+  }
+}
