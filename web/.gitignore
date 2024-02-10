@@ -42,3 +42,6 @@ lerna-debug.log*
 
 # Vercel
 .vercel
+
+# Netlify
+.netlify
