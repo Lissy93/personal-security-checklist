@@ -1,25 +1,26 @@
+<!--
+Thank you for contributing the The Personal Security Checklist 🫶
+So that your PR can be reviewed quickly, please complete the following sections:
+-->
 
-> Thank you for contributing the The Personal Security Checklist 🙌
-> So that your request can be dealt with quickly, please complete the applicable fields below and the checklist. Thank you :)
+#### Category
+<!-- Indicate the type of PR (delete as necessary) -->
+Checklist addition or deletion / Spelling, grammatical or link updates / website code changes / other
 
-### Category
-Software or Service Addition / Updating Security Guidelines / Formatting / Spelling or Grammar 
+#### Overview
+<!-- Briefly outline your new changes -->
 
-### Overview
-> Briefly outline your new changes...
+#### Issue Number _(if applicable)_
+<!-- If this PR is related to an issue, please include ticket number. -->
 
-### Issue Number _(if applicable)_
-> If this PR is related to an issue, please include ticket number.
+#### Supporting Material _(if applicable)_
+<!-- For any content changes, additions or deletions, please include links to relevant references or supported materials -->
 
-### Supporting Material _(if applicable)_
-> If you are adding a software or service, please include here a link to the GitHub repo, any published security audits or other supporting material.
+#### Association _(if applicable)_
+<!-- If you are affiliated with a product or service that relates to this PR, please disclose this for transparency -->
 
-### Association _(if applicable)_
-> If you are adding a new application or service, please indicate if you are associated with the project in anyway.
-
-### Checklist
-> Please complete the following checklist
-
-- [ ] I have performed a self-review (valid markdown formatting, spelling and grammar)
-- [ ] I have indicated whether I have any affiliation with any software/ services added  
-- [ ] I agree to follow the repositories [code of conduct](/.github/CODE_OF_CONDUCT.md)
+#### Checklist
+<!-- Please complete the following checklist 😇 -->
+- [ ] I have performed a self-review (valid links, formatting, spelling and grammar)
+- [ ] I have indicated whether I have any affiliation with any software/ services edited
+- [ ] I have read the [Contributing Guidelines](.github/CONTRIBUTING.md), and agree to follow the [Code of Conduct](/.github/CODE_OF_CONDUCT.md)
