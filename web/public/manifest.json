@@ -1,9 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "qwik-project-name",
-  "short_name": "Welcome to Qwik",
+  "name": "digital-defense",
+  "short_name": "Digital Defense",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#fff",
-  "description": "A Qwik project app."
+  "background_color": "#5616c6",
+  "description": "The ultimate personal security checklist"
 }

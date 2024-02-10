@@ -7,14 +7,18 @@ import Progress from "~/components/psc/progress";
 
 import { ChecklistContext } from '~/store/checklist-context';
 
+import { useChecklist } from '~/store/local-checklist-store';
+
 export default component$(() => { 
   const checklists = useContext(ChecklistContext);
-  
+
+  const localChecklist = useChecklist();
+
   return (
     <>
       <Hero />
       <Progress />
-      <SectionLinkGrid sections={checklists.value} />
+      <SectionLinkGrid sections={localChecklist.checklist.checklist || checklists.value} />
     </>
   );
 });

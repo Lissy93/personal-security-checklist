@@ -4,17 +4,20 @@ import { marked } from 'marked';
 
 import Icon from '~/components/core/icon';
 import { ChecklistContext } from '~/store/checklist-context';
+import { useChecklist } from '~/store/local-checklist-store';
 import type { Section } from "~/types/PSC";
 import Table from '~/components/psc/checklist-table';
 
 export default component$(() => {
 
   const checklists = useContext(ChecklistContext);
+  const localChecklist = useChecklist();
 
   const loc = useLocation();
   const slug = loc.params.title;
 
-  const section: Section | undefined = checklists.value.find((item: Section) => item.slug === slug);
+  const section: Section | undefined = (localChecklist.checklist.checklist || checklists.value)
+    .find((item: Section) => item.slug === slug);
 
   const parseMarkdown = (text: string | undefined): string => {
     return marked.parse(text || '', { async: false }) as string || '';
