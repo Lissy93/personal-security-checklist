@@ -15,7 +15,7 @@ export const RouterHead = component$(() => {
 
       <link rel="canonical" href={loc.url.href} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      <link rel="icon" type="image/png" href="/favicon.png" />
 
       {head.meta.map((m) => (
         <meta key={m.key} {...m} />
@@ -32,6 +32,7 @@ export const RouterHead = component$(() => {
       {head.scripts.map((s) => (
         <script key={s.key} {...s.props} dangerouslySetInnerHTML={s.script} />
       ))}
+      <script defer data-domain="security-list.js.org" src="https://no-track.as93.net/js/script.js"></script>
     </>
   );
 });

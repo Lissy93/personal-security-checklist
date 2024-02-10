@@ -16,7 +16,6 @@ export const useTheme = () => {
   }));
 
   const setTheme = $((newTheme: string) => {
-    console.log('Updating Theme', newTheme);
     saveTheme(newTheme);
     state.theme = newTheme;
     document.getElementsByTagName('body')[0].setAttribute('data-theme', newTheme);

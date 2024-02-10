@@ -1,6 +1,6 @@
 // src/routes/articles/[slug].tsx
 import { component$, Resource, useResource$, useStore } from '@builder.io/qwik';
-import { type DocumentHead, useLocation, useDocumentHead } from '@builder.io/qwik-city';
+import { type DocumentHead, useLocation } from '@builder.io/qwik-city';
 import { marked } from "marked";
 
 import articles from '~/data/articles';

@@ -4,6 +4,7 @@ import { Chart, registerables } from 'chart.js';
 import { useLocalStorage } from "~/hooks/useLocalStorage";
 import { ChecklistContext } from "~/store/checklist-context";
 import type { Priority, Sections, Section } from '~/types/PSC';
+import Icon from '~/components/core/icon';
 
 /**
  * Component for client-side user progress metrics.
@@ -23,6 +24,8 @@ export default component$(() => {
   const totalProgress = useSignal({ completed: 0, outOf: 0 });
   // Ref to the radar chart canvas
   const radarChart  = useSignal<HTMLCanvasElement>();
+  // Completion data for each section
+  const sectionCompletion =  useSignal<number[]>([]);
 
   /**
    * Calculates the users progress over specified sections.
@@ -149,6 +152,18 @@ export default component$(() => {
     makeDataAndDrawChart('recommended', 'hsl(var(--su, 158 64% 52%))');
     makeDataAndDrawChart('optional', 'hsl(var(--wa, 43 96% 56%))');
     makeDataAndDrawChart('advanced', 'hsl(var(--er, 0 91% 71%))');
+  }));
+
+
+  /**
+   * Calculates the percentage of completion for each section
+   */
+  useOnWindow('load', $(async () => {
+    sectionCompletion.value = await Promise.all(checklists.value.map(section => {
+      return calculateProgress([section]).then(
+        (progress) => Math.round(progress.completed / progress.outOf * 100)
+      );
+    }));
   }));
 
 
@@ -306,7 +321,25 @@ export default component$(() => {
     <div class="justify-center flex-col items-center gap-6 hidden xl:flex">
       {/* Remaining Tasks */}
       <div class="p-4 rounded-box bg-front shadow-md w-96 flex-grow">
-        <p>Something else will go here....</p>
+        <ul>
+          { checklists.value.map((section: Section, index: number) => (
+              <li key={index}>
+                <a
+                  href={`/${section.slug}`}
+                  class="my-2 w-80 flex justify-between items-center tooltip"
+                  data-tip={`Completed ${sectionCompletion.value[index]}% of ${section.checklist.length} items.`}
+                >
+                <p class="text-sm m-0 flex items-center text-left gap-1 text-nowrap overflow-hidden max-w-40">
+                  <Icon icon={section.icon} width={14} />
+                  {section.title}
+                </p>
+                <div class="progress w-36">
+                  <span class={`block h-full transition bg-${section.color}-400`} style={`width: ${sectionCompletion.value[index] || 0}%;`}></span>
+                </div>
+                </a>
+              </li>
+          ))}
+        </ul>
       </div>
     </div>
   </div>
