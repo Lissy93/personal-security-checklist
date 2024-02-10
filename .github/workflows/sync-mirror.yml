@@ -1,9 +1,9 @@
 # Pushes the contents of the repo to the Codeberg mirror
 name: 🪞 Mirror to Codeberg
 on:
-  push:
-    branches: [ 'master' ]
   workflow_dispatch:
+  schedule:
+    - cron: '30 0 * * 0'
 jobs:
   codeberg:
     runs-on: ubuntu-latest

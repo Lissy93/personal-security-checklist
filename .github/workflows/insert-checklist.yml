@@ -3,7 +3,7 @@ name: ☑️ Generate and insert markdown from YAML
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths: ['personal-security-checklist.yml']
     
 jobs:
@@ -40,7 +40,7 @@ jobs:
         run: |
           git config --global user.name "Liss-Bot"
           git config --global user.email "alicia-gh-bot@mail.as93.net"
-          git pull origin main
+          git pull origin master
           git add CHECKLIST.md
           if git diff --staged --quiet; then
             echo "Nothin new added, so nothing to commit, exiting..."
