@@ -1,0 +1,45 @@
+name: 🐙 Update gh-pages site
+
+on:
+  workflow_dispatch: # Manual dispatch
+  push:
+    branches: [ master ]
+    paths: ['CHECKLIST.md']
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config --global user.email "liss-bot@d0h.co"
+          git config --global user.name "Liss.Bot"
+
+      - name: Copy CHECKLIST.md to gh-pages
+        run: |
+          # Fetch all branches
+          git fetch --all
+          
+          # Switch to gh-pages branch
+          git checkout gh-pages
+          
+          # Copy CHECKLIST from master branch
+          git checkout master -- CHECKLIST.md
+          
+          # Move and rename CHECKLIST.md to the root
+          mv CHECKLIST.md README.md
+          
+          # Check if there are changes, if so commit and push
+          if [ -n "$(git status --porcelain)" ]; then
+            git add README.md
+            git commit -m "Update README.md from master branch"
+            git push origin gh-pages
+          else
+            echo "No changes in README.md"
+          fi
