@@ -234,3 +234,29 @@ a.cover-link:after {
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(135deg);
 	transform: translateX(-50%) translateY(-50%) rotate(135deg);
 }
+
+/******************************************************/
+/***************** NEW VERSION BANNER *****************/
+/******************************************************/
+
+.new-version {
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    z-index: 1;
+    width: fit-content;
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+    background: #060b2b;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    font-family: 'Cutive Mono', monospace;
+    border: 3px solid #ff0078;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.new-version .link {
+    color: #ff0078 !important;
+    font-weight: bold;
+}
