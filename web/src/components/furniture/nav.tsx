@@ -1,5 +1,5 @@
 
-import { component$ } from "@builder.io/qwik";
+import { $, component$ } from "@builder.io/qwik";
 import Icon from "~/components/core/icon";
 import { data } from '~/mock-data';
 import type { Section } from '~/types/PSC';
@@ -10,6 +10,21 @@ import articles from '~/data/articles';
 export default component$(() => {
 
   const { theme, setTheme } = useTheme();
+
+  const themes = [
+    'dark', 'light', 'night', 'cupcake', 
+    'bumblebee', 'corporate', 'synthwave', 'retro', 
+    'valentine', 'halloween', 'aqua', 'lofi', 
+    'fantasy', 'dracula'
+  ];
+
+    const deleteAllData = $(() => {
+    const isConfirmed = confirm('Are you sure you want to delete all local data? This will erase your progress.');
+    if (isConfirmed) {
+      localStorage.clear();
+      location.reload();
+    }
+  });
 
   return (
     <>
@@ -66,6 +81,13 @@ export default component$(() => {
               <svg class="col-start-2 row-start-1 stroke-base-100 fill-base-100" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
             </label>
           </div>
+          <li class="list-none px-2">
+            <p
+              onClick$={() => ((document.getElementById('settings_modal') || {}) as HTMLDialogElement).showModal()}
+              class="cursor-pointer tooltip flex tooltip-bottom" data-tip="Settings">
+                <Icon icon="settings" width={20} height={20}  />
+            </p>
+          </li>
         </div>
       </div>
 
@@ -138,6 +160,44 @@ export default component$(() => {
           </li>
         </ul>
       </div>
+
+      <dialog id="settings_modal" class="modal">
+        <div class="modal-box">
+          <div class="tabs tabs-lifted">
+            <p class="tab tab-active">Settings</p>
+            <a class="tab" href="/about">About</a>
+          </div>
+          <div class="modal-action justify-start w-full flex flex-col gap-4">
+              <div class="flex items-between w-full justify-between">
+                <label for="theme" class="label">Theme</label>
+                <select 
+                  id="theme" 
+                  class="select select-bordered w-full max-w-xs"
+                  onChange$={(event) => setTheme((event.target as HTMLSelectElement).value) }
+                  >
+                  <option disabled selected>Theme</option>
+                  {themes.map((someTheme) => (
+                    <option
+                      key={someTheme}
+                      value={someTheme}
+                      selected={someTheme === theme.theme}
+                      >
+                      {someTheme.charAt(0).toUpperCase() + someTheme.slice(1)}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div class="flex items-between w-full justify-between">
+                <label class="label">Data</label>
+                <button class="btn btn-primary" onClick$={deleteAllData}>Delete All</button>
+              </div>
+              <button
+                class="btn my-1 mx-auto"
+                onClick$={() => ((document.getElementById('settings_modal') || {}) as HTMLDialogElement).close()}
+              >Close</button>
+            </div>
+        </div>
+      </dialog>
     </>
   );
 });

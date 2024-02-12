@@ -20,13 +20,14 @@ export default component$(() => {
   const [checkedItems] = useLocalStorage('PSC_PROGRESS', {});
   // Ignored items, from local storage
   const [ignoredItems] = useLocalStorage('PSC_IGNORED', {});
+  // Local storage for closing and ignoring the welcome dialog
+  const [ignoreDialog, setIgnoreDialog] = useLocalStorage('PSC_CLOSE_WELCOME', false);
   // Store to hold calculated progress results
   const totalProgress = useSignal({ completed: 0, outOf: 0 });
   // Ref to the radar chart canvas
   const radarChart  = useSignal<HTMLCanvasElement>();
   // Completion data for each section
   const sectionCompletion =  useSignal<number[]>([]);
-  const [ignoreDialog, setIgnoreDialog] = useLocalStorage('PSC_CLOSE_WELCOME', false);
 
   /**
    * Calculates the users progress over specified sections.
@@ -340,8 +341,11 @@ export default component$(() => {
           { checklists.value.map((section: Section, index: number) => (
               <li key={index}>
                 <a
-                  href={`/${section.slug}`}
-                  class="my-2 w-80 flex justify-between items-center tooltip"
+                  href={`/checklist/${section.slug}`}
+                  class={[
+                    'my-2 w-80 flex justify-between items-center tooltip transition',
+                    `hover:text-${section.color}-400`
+                  ]}
                   data-tip={`Completed ${sectionCompletion.value[index]}% of ${section.checklist.length} items.`}
                 >
                 <p class="text-sm m-0 flex items-center text-left gap-1 text-nowrap overflow-hidden max-w-40">
@@ -349,7 +353,9 @@ export default component$(() => {
                   {section.title}
                 </p>
                 <div class="progress w-36">
-                  <span class={`block h-full transition bg-${section.color}-400`} style={`width: ${sectionCompletion.value[index] || 0}%;`}></span>
+                  <span 
+                    class={`block h-full transition bg-${section.color}-400`}
+                    style={`width: ${sectionCompletion.value[index] || 0}%;`}></span>
                 </div>
                 </a>
               </li>
