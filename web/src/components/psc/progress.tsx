@@ -26,6 +26,7 @@ export default component$(() => {
   const radarChart  = useSignal<HTMLCanvasElement>();
   // Completion data for each section
   const sectionCompletion =  useSignal<number[]>([]);
+  const [ignoreDialog, setIgnoreDialog] = useLocalStorage('PSC_CLOSE_WELCOME', false);
 
   /**
    * Calculates the users progress over specified sections.
@@ -279,7 +280,21 @@ export default component$(() => {
 
   // Beware, some god-awful markup ahead (thank Tailwind for that!)
   return (
-  <div class="flex justify-center flex-wrap items-stretch gap-6 mb-4">
+  <div class="flex justify-center flex-wrap items-stretch gap-6 mb-4 relative">
+    {(!ignoreDialog.value && (!Object.keys(checkedItems.value).length) ) && (
+    <div class="
+      px-16 py-8 top-1/3 z-10 max-w-lg
+      absolute flex flex-col justify-center bg-gray-600 rounded-md bg-clip-padding
+      backdrop-filter backdrop-blur-md bg-opacity-40 border border-stone-800">
+        <button
+          class="absolute top-1 right-1 btn btn-sm opacity-50"
+          onClick$={() => setIgnoreDialog(true)}
+          >Close</button>
+        <p class="text-xl block text-center font-bold">No stats yet</p>
+        <p class="w-md text-left my-2">You'll see your progress here, once you start ticking items off the checklists</p>
+        <p class="w-md text-left my-2">Get started, by selecting a checklist below</p>
+      </div>
+    )}
 
     <div class="flex justify-center flex-col items-center gap-6">
       {/* Progress Percent */}
@@ -309,7 +324,7 @@ export default component$(() => {
       </div>
       {/* Something ??? */}
       <div class="p-4 rounded-box bg-front shadow-md w-96 flex-grow">
-        <p>Something else will go here....</p>
+        <p>Coming Soon!</p>
       </div>
     </div>
 

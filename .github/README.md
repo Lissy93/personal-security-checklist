@@ -11,14 +11,17 @@
 <br />
 </p>
 
-
-## Contents
+<details>
+    <summary><b>Contents</b></summary>
+    
 - [The Checklist](#the-checklist)
 - [The Website](#the-website)
 - [The API](#the-api)
 - [Contributing](#contributing)
 - [Credits](#credits)
 - [License](#license)
+
+</details>
 
 ---
 
@@ -32,7 +35,7 @@ You can view the full checklist in [`CHECKLIST.md`](https://github.com/Lissy93/p
 
 The easiest method for consuming the checklist is via our website, at: **[digital-defense.io](https://digital-defense.io/)**
 
-Here you can browse all checklists, filter by level, and check items off as you complete them.
+Here you can browse lists, filter by your threat model and tick items off once complete (plus, there's pretty charts to make you feel good about your progress ☺️).
 
 <p align="center">
 <img width="600" src="https://i.ibb.co/jzKn05H/digital-defense.png" />
@@ -53,9 +56,9 @@ To run the app locally, or to make code changes, you'll need Node and Git instal
 Alternatively, just open this repo is Code Spaces, where everything is already configured and ready to go.
 
 ### Deploying
-To deploy the app, follow the developing steps above, then run `yarn build`. You can then deploy it by copying the `dist/` directory to any CDN, web server or static hosting provider.
+To deploy the app, follow the developing steps above, then run `yarn build.static`. You can then deploy it by copying the `dist/` directory to any CDN, web server or static hosting provider of your choice.
 
-Alternatively, you can deploy to Netlify or Vercel simply by forking the repository, and then importing it via your dashboard. Or use the links below for an easy 1-click deploy.
+Alternatively, fork the repo and import into your providers dashboard. Or use the link below for an easy 1-click deploy 😉
 
 ---
 
@@ -81,7 +84,7 @@ Base: digital-defense.io/api
 ---
 
 ## Contributing
-All checklist data is stored in `personal-security-checklist.yml`. This is pulled in the website at build-time, and referenced by the API, and is also dynamically inserted into the markdown Checklist page.
+All checklist data is stored in [`personal-security-checklist.yml`](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/personal-security-checklist.yml). This is pulled in the website at build-time, and referenced by the API, and is also dynamically inserted into the markdown [Checklist page](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/CHECKLIST.md).
 
 So if you only wish to make changes to the data, this is the only file you need to edit.
 
@@ -89,7 +92,7 @@ Important: When submitting your pull request, provide references backing up any 
 
 For modifying the website or API source, see the developing sections above for instructions on running locally.
 
-Prior to submitting an issue or PR, please ensure you've followed the community guidelines laid out in the Code of Conduct.
+Prior to submitting an issue or PR, please ensure you've followed the [community guidelines](https://github.com/Lissy93/personal-security-checklist/blob/master/.github/CONTRIBUTING.md) and followed the [Code of Conduct](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/.github/CODE_OF_CONDUCT.md).
 
 ---
 
