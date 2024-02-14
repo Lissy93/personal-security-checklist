@@ -416,7 +416,7 @@ Note about credit cards: Credit cards have technological methods in place to det
 
 ## Human Aspect
 
-Many data breaches, hacks and attacks are caused by human error. The following list contains steps you should take, to reduce the risk of this happening to you. Many of them are common sense, but it's worth takin note of.
+Many data breaches, hacks and attacks are caused by human error. The following list contains steps you should take, to reduce the risk of this happening to you. Many of them are common sense, but it's worth taking note of.
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---

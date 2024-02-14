@@ -364,6 +364,13 @@
       the background. Privacy Badger, DuckDuckGo Privacy Essentials, uBlock Origin and uMatrix (advanced)
       are all very effective, open source tracker-blockers available for all major browsers.
 
+  - point: Beware AI Chatbots
+    priority: Recommended
+    details: >-
+      Be cautious of submitting personal information to AI support assistances and chatbots such as those found 
+      on shopping websites, the technology is still in it's infancy and is prone to security flaws such as 
+      sharing your information with other users of the website.
+
   - point: Beware of Redirects
     priority: Optional
     details: >-
@@ -987,6 +994,11 @@
       Manufacturers release firmware updates that fix security vulnerabilities, implement new standards, and
       sometimes add features or improve the performance of your router.
 
+- point: Don't have Open Ports
+    priority: Recommended
+    details: >-
+      Close any open ports on your router that are not needed. Open ports provide an easy entrance for hackers.
+
   - point: Implement a Network-Wide VPN
     priority: Optional
     details: >-
@@ -1077,11 +1089,6 @@
       Services like Telnet and SSH that provide command-line access to devices should never be exposed to the
       internet and should also be disabled on the local network unless they're actually needed.
 
-  - point: Don't have Open Ports
-    priority: Optional
-    details: >-
-      Close any open ports on your router that are not needed. Open ports provide an easy entrance for hackers.
-
   - point: Disable Unused Remote Access Protocols
     priority: Optional
     details: >-
@@ -1099,6 +1106,12 @@
     details: >-
       It's common to want to pump your router's range to the max, but if you reside in a smaller flat, your
       attack surface is increased when your WiFi network can be picked up across the street.
+
+  - point: Ensure all network attached devices are up-to-date
+    priority: Optional
+    details: >-
+      Any computer or device attached to the network should be regularly updated and patched, including any NAS devices
+      and IoT devices
 
   - point: Route all traffic through Tor
     priority: Advanced
@@ -1614,7 +1627,8 @@
   - point: Mitigate Alexa/ Google Home Risks
     priority: Optional
     details: >-
-      Consider privacy-focused alternatives like Mycroft or use Project Alias to prevent idle listening by voice-activated assistants.
+      Consider privacy-focused alternatives like Mycroft or use Project Alias to prevent idle listening by voice-activated assistants.  
+      Ideally, where possible avoid purchasing devices with an always on microphone.
 
   - point: Monitor your home network closely
     priority: Optional
@@ -1665,6 +1679,11 @@
     priority: Recommended
     details: >-
       Prevent unauthorized credit inquiries by freezing your credit through Experian, TransUnion, and Equifax.
+
+  - point: Be cautious of public WiFi
+    priority: Recommended
+    details: >-
+      Avoid making online purchases and transactions using public WiFi, anybody can set up a legitimate looking public WiFi services but may be run by bad actors.
 
   - point: Use Virtual Cards
     priority: Optional
@@ -1727,7 +1746,7 @@
   intro: >-
     Many data breaches, hacks and attacks are caused by human error.
     The following list contains steps you should take, to reduce the risk of this
-    happening to you. Many of them are common sense, but it's worth takin note of.
+    happening to you. Many of them are common sense, but it's worth taking note of.
 
   checklist:
   - point: Verify Recipients
@@ -1784,6 +1803,13 @@
     priority: Recommended
     details: >-
       HTTPS does not guarantee a website's legitimacy. Verify URLs and exercise caution with personal data.
+      
+  - point: Never trust phone calls or emails claiming to be from technical support
+    priority: Recommended
+    details: >-
+      No matter how legitimate the caller sounds, always verify the caller and their identify from several other
+      sources, a geniuine technical support agent will never ask for your password. Even the most experienced
+      technically saavy person will get caught out by this!
 
   - point: Use Virtual Cards when paying online
     priority: Optional
@@ -1903,9 +1929,31 @@
     priority: Recommended
     details: Inspect ATMs and public devices for skimming devices and tampering signs before use.
 
+  - point: Keep mobile phone safe
+    priority: Recommended
+    details: Always keep you phone safely hidden away in a pocket or a bag, even during calls- it can easily be snatched 
+             from your hands by gangs on electric bikes and scooters.
+
+  - point: Always secure home with a chubb lock
+    priority: Recommended
+    details: Convential yale style locks are easy to pick, lock picking kits are freely available on shopping sites like eBay and Amazon.
+
+  - point: Store household and car keys away from door entrances
+    priority: Optional
+    details: Thieves may reach into letter boxes and use wire tools to remove keys from the inside of your house easily.
+
   - point: Protect your Home Address
     priority: Optional
     details: Use alternative locations, forwarding addresses, and anonymous payment methods to protect your home address.
+
+  - point: Ensure hotel safety whilst on vacation
+    priority: Optional
+    details: Hotels doors can be vulnerable to thefts opening with specially shaped wire underneath the door, this can be mitigated
+             by stuffing a hotel towel on the door handle on the inside. 
+
+  - point: Never trust a hotel safe whilst on vaction
+    priority: Optional
+    details: Hotel safes give a false sense of security and can be easily mitigated by a thief.
 
   - point: Use a PIN, Not Biometrics
     priority: Advanced
