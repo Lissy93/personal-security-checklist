@@ -156,13 +156,6 @@ Thank you to all who have contributed to, or sponsored this project!
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/davidpaulyoung">
-            <img src="https://avatars.githubusercontent.com/u/3418369?v=4" width="80;" alt="davidpaulyoung"/>
-            <br />
-            <sub><b>David Young</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/bile0026">
             <img src="https://avatars.githubusercontent.com/u/5022496?u=aec96ad173c0ea9baaba93807efa8a848af6595c&v=4" width="80;" alt="bile0026"/>
             <br />
@@ -189,15 +182,15 @@ Thank you to all who have contributed to, or sponsored this project!
             <br />
             <sub><b>Brian McGonagill</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/vlad-timofeev">
             <img src="https://avatars.githubusercontent.com/u/11474041?u=eee43705b54d2ec9f51fc4fcce5ad18dd17c87e4&v=4" width="80;" alt="vlad-timofeev"/>
             <br />
             <sub><b>Vlad</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/helixzz">
             <img src="https://avatars.githubusercontent.com/u/12218889?u=d06d0c103dfbdb99450623064f7da3c5a3675fb6&v=4" width="80;" alt="helixzz"/>
@@ -226,14 +219,6 @@ Thank you to all who have contributed to, or sponsored this project!
             <sub><b>Brent</b></sub>
         </a>
     </td>
-    <td align="center">
-        <a href="https://github.com/Glydeon">
-            <img src="https://avatars.githubusercontent.com/u/121807526?u=c4177e73394d90ad76a9a0282143f3a204af0f60&v=4" width="80;" alt="Glydeon"/>
-            <br />
-            <sub><b>Byron</b></sub>
-        </a>
-    </td></tr>
-<tr>
     <td align="center">
         <a href="https://github.com/NixyJuppie">
             <img src="https://avatars.githubusercontent.com/u/138570196?u=b102c222487905728b858704962d32759df29ebe&v=4" width="80;" alt="NixyJuppie"/>
