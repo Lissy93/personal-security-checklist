@@ -170,7 +170,7 @@
   - point: Consider a Hardware Token
     priority: Advanced
     details: >-
-      A U2F/ FIDO2 security key is a USB (or NFC) device that you insert while logging in to an online service, in to
+      A U2F/ FIDO2 security key is a USB (or NFC) device that you insert while logging in to an online service, in order to
       verify your identity, instead of entering a OTP from your authenticator. [SoloKey](https://solokeys.com) and
       [NitroKey](https://www.nitrokey.com) are examples of such keys. They bring with them several security benefits,
       since the browser communicates directly with the device and cannot be fooled as to which host is requesting
@@ -353,9 +353,9 @@
   - point: Block Third-Party Cookies
     priority: Recommended
     details: >-
-      Third-party cookies placed on your device by a website other than the one you’re visiting. This
+      Third-party cookies are placed on your device by a website other than the one you’re visiting. This
       poses a privacy risk, as a 3rd entity can collect data from your current session. This guide explains
-      how you can disable 3rd-party cookies, and you can check here ensure this worked.
+      how you can disable 3rd-party cookies, and you can check here to ensure this worked.
 
   - point: Block Third-Party Trackers
     priority: Recommended
