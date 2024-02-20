@@ -1065,12 +1065,6 @@
       Do not grant access to your primary WiFi network to visitors, as it enables them to interact with other
       devices on the network.
 
-  - point: Change your Router's Default IP
-    priority: Optional
-    details: >-
-      Modifying your router admin panel's default IP address will make it more difficult for malicious scripts
-      targeting local IP addresses.
-
   - point: Kill unused processes and services on your router
     priority: Optional
     details: >-
