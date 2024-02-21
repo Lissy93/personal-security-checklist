@@ -1685,6 +1685,11 @@
     details: >-
       Avoid making online purchases and transactions using public WiFi, anybody can set up a legitimate looking public WiFi services but may be run by bad actors.
 
+  - point: Don't use public USB charging sockets
+    priority: Recommended
+    details: >-
+      Public USB charging sockets may be compromised by hackers
+
   - point: Use Virtual Cards
     priority: Optional
     details: >-
