@@ -268,7 +268,7 @@
       major operating systems. Your browser has access to everything that you do online, so if possible, avoid
       Google Chrome, Edge and Safari as (without correct configuration) all three of them, collect usage data,
       call home and allow for invasive tracking. Firefox requires a few changes to achieve optimal security,
-      for example - [arkenfox](https://github.com/arkenfox/user.js/wiki) or [12byte](https://12bytes.org/articles/tech/firefox/firefoxgecko-configuration-guide-for-privacy-and-performance-buffs/)'s
+      for example - [arkenfox](https://github.com/arkenfox/user.js/wiki) or [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/)'s
       user.js configs. See more: [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers).
 
   - point: Use a Private Search Engine
