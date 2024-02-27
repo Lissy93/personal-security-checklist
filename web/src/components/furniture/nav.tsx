@@ -62,7 +62,8 @@ export default component$(() => {
               </details>
             </li>
             <li>
-              <a href="#" class="tooltip flex tooltip-bottom" data-tip="View / Edit Source & Data">
+              <a href="https://github.com/lissy93/personal-security-checklist"
+                class="tooltip flex tooltip-bottom" data-tip="View / Edit Source & Data">
                 <Icon icon="github" width={16} height={16}  />GitHub
               </a>
             </li>
@@ -133,10 +134,10 @@ export default component$(() => {
             </a>
             <ul>
               <li>
-                <a href="#">Contributing</a>
+                <a href="https://github.com/Lissy93/personal-security-checklist/?tab=readme-ov-file#contributing">Contributing</a>
               </li>
               <li>
-                <a href="#">License</a>
+                <a href="https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE">License</a>
               </li>
             </ul>
             <ul>
