@@ -5,6 +5,8 @@ import Icon from "~/components/core/icon";
 import type { Priority, Section, Checklist } from '../../types/PSC';
 import { marked } from "marked";
 import { useLocalStorage } from "~/hooks/useLocalStorage";
+import styles from './psc.module.css';
+
 
 export default component$((props: { section: Section }) => {
 
@@ -301,7 +303,7 @@ export default component$((props: { section: Section }) => {
                   {item.priority}
                 </div>
               </td>
-              <td dangerouslySetInnerHTML={parseMarkdown(item.details)}></td>
+              <td class={styles.checklistItemDescription} dangerouslySetInnerHTML={parseMarkdown(item.details)}></td>
             </tr>
           )}
         )}
