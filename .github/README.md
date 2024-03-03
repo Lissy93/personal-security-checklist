@@ -127,6 +127,13 @@ Thank you to all who have contributed to, or sponsored this project!
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/bgadrian">
+            <img src="https://avatars.githubusercontent.com/u/830001?v=4" width="80;" alt="bgadrian"/>
+            <br />
+            <sub><b>B.G.Adrian</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/tbjers">
             <img src="https://avatars.githubusercontent.com/u/1117052?u=539d96d5e581b3139c75713ce35b89a36626404c&v=4" width="80;" alt="tbjers"/>
             <br />
@@ -139,15 +146,15 @@ Thank you to all who have contributed to, or sponsored this project!
             <br />
             <sub><b>Eddy Lazzarin</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/AnandChowdhary">
             <img src="https://avatars.githubusercontent.com/u/2841780?u=747e554b3a7f12eb20b7910e1c87d817844f714f&v=4" width="80;" alt="AnandChowdhary"/>
             <br />
             <sub><b>Anand Chowdhary</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/shrippen">
             <img src="https://avatars.githubusercontent.com/u/2873570?v=4" width="80;" alt="shrippen"/>
@@ -177,6 +184,14 @@ Thank you to all who have contributed to, or sponsored this project!
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/InDieTasten">
+            <img src="https://avatars.githubusercontent.com/u/7047377?v=4" width="80;" alt="InDieTasten"/>
+            <br />
+            <sub><b>InDieTasten</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/bmcgonag">
             <img src="https://avatars.githubusercontent.com/u/7346620?u=2a0f9284f3e12ac1cc15288c254d1ec68a5081e8&v=4" width="80;" alt="bmcgonag"/>
             <br />
@@ -189,8 +204,7 @@ Thank you to all who have contributed to, or sponsored this project!
             <br />
             <sub><b>Vlad</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/helixzz">
             <img src="https://avatars.githubusercontent.com/u/12218889?u=d06d0c103dfbdb99450623064f7da3c5a3675fb6&v=4" width="80;" alt="helixzz"/>
@@ -216,9 +230,10 @@ Thank you to all who have contributed to, or sponsored this project!
         <a href="https://github.com/frankdez93">
             <img src="https://avatars.githubusercontent.com/u/87549420?v=4" width="80;" alt="frankdez93"/>
             <br />
-            <sub><b>frankdez93</b></sub>
+            <sub><b>Frankdez93</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/ratty222">
             <img src="https://avatars.githubusercontent.com/u/92832598?u=137b65530cbd5f5af9c24cde51baa6cc77cc934b&v=4" width="80;" alt="ratty222"/>
@@ -230,10 +245,9 @@ Thank you to all who have contributed to, or sponsored this project!
         <a href="https://github.com/hernanpopper">
             <img src="https://avatars.githubusercontent.com/u/104868017?v=4" width="80;" alt="hernanpopper"/>
             <br />
-            <sub><b>hernanpopper</b></sub>
+            <sub><b>Hernanpopper</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/NixyJuppie">
             <img src="https://avatars.githubusercontent.com/u/138570196?u=b102c222487905728b858704962d32759df29ebe&v=4" width="80;" alt="NixyJuppie"/>
@@ -246,6 +260,13 @@ Thank you to all who have contributed to, or sponsored this project!
             <img src="https://avatars.githubusercontent.com/u/151435968?u=e1dcb307fd0efdc45cddbe9490a7b956e4da6835&v=4" width="80;" alt="nrvo"/>
             <br />
             <sub><b>Nrvo</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/mezza93">
+            <img src="https://avatars.githubusercontent.com/u/153599966?v=4" width="80;" alt="mezza93"/>
+            <br />
+            <sub><b>mezza93</b></sub>
         </a>
     </td></tr>
 </table>
@@ -409,10 +430,10 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/101lols">
-            <img src="https://avatars.githubusercontent.com/u/29000894?v=4" width="80;" alt="101lols"/>
+        <a href="https://github.com/lukecarr">
+            <img src="https://avatars.githubusercontent.com/u/24438483?v=4" width="80;" alt="lukecarr"/>
             <br />
-            <sub><b>101lols</b></sub>
+            <sub><b>Luke Carr</b></sub>
         </a>
     </td>
     <td align="center">
@@ -610,6 +631,13 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/101lols">
+            <img src="https://avatars.githubusercontent.com/u/29000894?v=4" width="80;" alt="101lols"/>
+            <br />
+            <sub><b>101lols</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/boushley">
             <img src="https://avatars.githubusercontent.com/u/101239?v=4" width="80;" alt="boushley"/>
             <br />
@@ -636,15 +664,15 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
             <br />
             <sub><b>Austin Huang</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/ben-thul">
             <img src="https://avatars.githubusercontent.com/u/13566569?v=4" width="80;" alt="ben-thul"/>
             <br />
             <sub><b>Ben Thul</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/BBlackwo">
             <img src="https://avatars.githubusercontent.com/u/7598058?v=4" width="80;" alt="BBlackwo"/>
@@ -660,6 +688,13 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/wallies">
+            <img src="https://avatars.githubusercontent.com/u/561860?v=4" width="80;" alt="wallies"/>
+            <br />
+            <sub><b>Cameron</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/chemmi">
             <img src="https://avatars.githubusercontent.com/u/15739060?v=4" width="80;" alt="chemmi"/>
             <br />
@@ -672,7 +707,8 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
             <br />
             <sub><b>DaShoe</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/danielgtaylor">
             <img src="https://avatars.githubusercontent.com/u/106826?v=4" width="80;" alt="danielgtaylor"/>
@@ -686,8 +722,7 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
             <br />
             <sub><b>Dimitris Lazarakis</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/VoDmAl">
             <img src="https://avatars.githubusercontent.com/u/248879?v=4" width="80;" alt="VoDmAl"/>
@@ -715,7 +750,8 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
             <br />
             <sub><b>Florian Kohrt</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/freddy-m">
             <img src="https://avatars.githubusercontent.com/u/25013506?v=4" width="80;" alt="freddy-m"/>
@@ -729,8 +765,7 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
             <br />
             <sub><b>Hwanhee Chae</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/jneplokh">
             <img src="https://avatars.githubusercontent.com/u/46184597?v=4" width="80;" alt="jneplokh"/>
@@ -758,7 +793,8 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
             <br />
             <sub><b>Jess</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/openjck">
             <img src="https://avatars.githubusercontent.com/u/933396?v=4" width="80;" alt="openjck"/>
@@ -772,8 +808,7 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
             <br />
             <sub><b>Juergen Edelbluth</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/fetzu">
             <img src="https://avatars.githubusercontent.com/u/6372605?v=4" width="80;" alt="fetzu"/>
@@ -801,19 +836,13 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
             <br />
             <sub><b>Dominik Piątkowski</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/leon-costa">
             <img src="https://avatars.githubusercontent.com/u/83498565?v=4" width="80;" alt="leon-costa"/>
             <br />
             <sub><b>Leon Costa</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/lukecarr">
-            <img src="https://avatars.githubusercontent.com/u/24438483?v=4" width="80;" alt="lukecarr"/>
-            <br />
-            <sub><b>Luke Carr</b></sub>
         </a>
     </td></tr>
 </table>
