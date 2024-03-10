@@ -17,7 +17,7 @@
           "type": "object",
           "properties": {
             "point": { "type": "string" },
-            "priority": { "type": "string", "enum": ["recommended", "optional", "advanced"] },
+            "priority": { "type": "string", "enum": ["essential", "optional", "advanced"] },
             "details": { "type": "string" }
           },
           "required": ["point", "priority", "details"]

@@ -1,13 +1,15 @@
 
-import { $, component$ } from "@builder.io/qwik";
+import { $, component$, useContext } from "@builder.io/qwik";
 import Icon from "~/components/core/icon";
-import { data } from '~/mock-data';
 import type { Section } from '~/types/PSC';
 import { useTheme } from '~/store/theme-store';
 import articles from '~/data/articles';
+import { ChecklistContext } from '~/store/checklist-context';
 
 
 export default component$(() => {
+
+  const data = useContext(ChecklistContext);
 
   const { theme, setTheme } = useTheme();
 
@@ -50,7 +52,7 @@ export default component$(() => {
                   Checklists
                 </summary>
                 <ul class="p-2 bg-base-100 rounded-t-none z-10">
-                  {data.map((item: Section, index: number) => (
+                  {data.value.map((item: Section, index: number) => (
                     <li key={`checklist-nav-${index}`} class={`hover:bg-${item.color}-600 hover:bg-opacity-15`}>
                       <a href={`/checklist/${item.slug}`}>
                       <Icon color={item.color} class="mr-2" icon={item.icon} width={16} height={16}  />
@@ -106,7 +108,7 @@ export default component$(() => {
           <li>
             <a href="/checklist"><Icon class="mr-2" icon="all" width={16} height={16} />Checklists</a>
             <ul>
-              {data.map((item: Section, index: number) => (
+              {data.value.map((item: Section, index: number) => (
               <li key={`checklist-side-${index}`} class={`hover:bg-${item.color}-600 hover:bg-opacity-15`}>
                 <a href={`/checklist/${item.slug}`}>
                 <Icon color={item.color} class="mr-2" icon={item.icon} width={16} height={16}  />

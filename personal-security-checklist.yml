@@ -10,7 +10,7 @@
     2-factor authentication, keep on top of breaches and take care while logging into your accounts.
   checklist:
   - point: Use a Strong Password
-    priority: Recommended
+    priority: Essential
     details: >-
       If your password is too short, or contains dictionary words, places or names- then it can be easily
       cracked through brute force, or guessed by someone. The easiest way to make a strong password, is by
@@ -21,7 +21,7 @@
       [securityinabox.org](https://securityinabox.org/en/passwords/passwords-and-2fa/)
 
   - point: Don't reuse Passwords
-    priority: Recommended
+    priority: Essential
     details: >-
       If someone was to reuse a password, and one site they had an account with suffered a leak, then a
       criminal could easily gain unauthorized access to their other accounts. This is usually done through
@@ -29,7 +29,7 @@
       too common, but it's simple to protect against- use a different password for each of your online accounts
 
   - point: Use a Secure Password Manager
-    priority: Recommended
+    priority: Essential
     details: >-
       For most people it is going to be near-impossible to remember hundreds of strong and unique passwords.
       A password manager is an application that generates, stores and auto-fills your login credentials for you.
@@ -39,7 +39,7 @@
       [Recommended Password Managers](https://github.com/Lissy93/awesome-privacy#password-managers)
 
   - point: Avoid sharing passwords
-    priority: Recommended
+    priority: Essential
     details: >-
       While there may be times that you need to share access to an account with another person, you should
       generally avoid doing this because it makes it easier for the account to become compromised. If you
@@ -47,7 +47,7 @@
       should be done via features built into a password manager.
 
   - point: Enable 2-Factor Authentication
-    priority: Recommended
+    priority: Essential
     details: >-
       2FA is where you must provide both something you know (a password) and something you have (such as a
       code on your phone) to log in. This means that if anyone has got your password (e.g. through phishing,
@@ -58,7 +58,7 @@
       (it works without internet, and the code usually changes every 30-seconds)
 
   - point: Keep Backup Codes Safe
-    priority: Recommended
+    priority: Essential
     details: >-
       When you enable multi-factor authentication, you will usually be given several codes that you can use if
       your 2FA method is lost, broken or unavailable. Keep these codes somewhere safe to prevent loss or
@@ -229,7 +229,7 @@
     minimise online tracking and improve privacy.
   checklist:
   - point: Block Ads
-    priority: Recommended
+    priority: Essential
     details: >-
       Using an ad-blocker can help improve your privacy, by blocking the trackers that ads implement.
       [uBlock Origin](https://github.com/gorhill/uBlock) is a very efficient and open source browser addon,
@@ -261,7 +261,7 @@
       and [how to remove browser malware](https://heimdalsecurity.com/blog/malware-removal).
 
   - point: Use a Privacy-Respecting Browser
-    priority: Recommended
+    priority: Essential
     details: >-
       [Firefox](https://www.mozilla.org/en-US/firefox/new) (with a few tweaks) and [Brave](https://brave.com)
       are secure, private-respecting browsers. Both are fast, open source, user-friendly and available on all
@@ -272,7 +272,7 @@
       user.js configs. See more: [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers).
 
   - point: Use a Private Search Engine
-    priority: Recommended
+    priority: Essential
     details: >-
       Using a privacy-preserving, non-tracking search engine, will reduce risk that your search terms are not
       logged, or used against you. Consider [DuckDuckGo](https://duckduckgo.com), [Qwant](https://www.qwant.com),
@@ -283,7 +283,7 @@
       to a privacy-respecting search engine.
 
   - point: Remove Unnecessary Browser Addons
-    priority: Recommended
+    priority: Essential
     details: >-
       Extensions are able to see, log or modify anything you do in the browser, and some innocent looking
       browser apps, have malicious intentions. Websites can see which extensions you have installed, and may
@@ -292,7 +292,7 @@
       Check the reviews. Only install extensions you really need, and removed those which you haven't used in a while.
 
   - point: Keep Browser Up-to-date
-    priority: Recommended
+    priority: Essential
     details: >-
       Browser vulnerabilities are constantly being [discovered](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=browser)
       and patched, so it’s important to keep it up to date, to avoid a zero-day exploit. You can [see which browser
@@ -300,7 +300,7 @@
       for instructions on how to update. Some browsers will auto-update to the latest stable version.
 
   - point: Check for HTTPS
-    priority: Recommended
+    priority: Essential
     details: >-
       If you enter information on a non-HTTPS website, this data is transported unencrypted and can therefore
       be read by anyone who intercepts it. Do not enter any data on a non-HTTPS website, but also do not let
@@ -312,7 +312,7 @@
       for Firefox, Chrome, Edge and Safari browsers on how to enable their HTTPS secure protections.
 
   - point: Use DNS-over-HTTPS
-    priority: Recommended
+    priority: Essential
     details: >-
       Traditional DNS makes requests in plain text for everyone to see. It allows for eavesdropping and
       manipulation of DNS data through man-in-the-middle attacks. Whereas DNS-over-HTTPS performs DNS
@@ -321,7 +321,7 @@
       Note that DoH comes with its own issues, mostly preventing web filtering.
 
   - point: Multi-Session Containers
-    priority: Recommended
+    priority: Essential
     details: >-
       Compartmentalisation is really important to keep different aspects of your browsing separate. For
       example, using different profiles for work, general browsing, social media, online shopping etc
@@ -330,35 +330,35 @@
       use different browsers for different tasks (Brave, Firefox, Tor etc).
 
   - point: Use Incognito
-    priority: Recommended
+    priority: Essential
     details: >-
       When using someone else's machine, ensure that you're in a private/ incognito session. This will
       prevent browser history, cookies and some data being saved, but is not fool-proof- you can still
       be tracked.
 
   - point: Understand Your Browser Fingerprint
-    priority: Recommended
+    priority: Essential
     details: >-
       Browser Fingerprinting is an incredibly accurate method of tracking, where a website identifies you
       based on your device information. You can view your fingerprint at amiunique.org- The aim is to be
       as un-unique as possible.
 
   - point: Manage Cookies
-    priority: Recommended
+    priority: Essential
     details: >-
       Clearing cookies regularly is one step you can take to help reduce websites from tracking you.
       Cookies may also store your session token, which if captured, would allow someone to access your
       accounts without credentials. To mitigate this you should clear cookies often.
 
   - point: Block Third-Party Cookies
-    priority: Recommended
+    priority: Essential
     details: >-
       Third-party cookies placed on your device by a website other than the one you’re visiting. This
       poses a privacy risk, as a 3rd entity can collect data from your current session. This guide explains
       how you can disable 3rd-party cookies, and you can check here ensure this worked.
 
   - point: Block Third-Party Trackers
-    priority: Recommended
+    priority: Essential
     details: >-
       Blocking trackers will help to stop websites, advertisers, analytics and more from tracking you in
       the background. Privacy Badger, DuckDuckGo Privacy Essentials, uBlock Origin and uMatrix (advanced)
@@ -555,26 +555,26 @@
 
   checklist:
   - point: Have more than one email address
-    priority: Recommended
+    priority: Essential
     details: >-
       Consider using a different email address for security-critical communications from trivial mail such
       as newsletters. This compartmentalization could reduce the amount of damage caused by a data breach,
       and also make it easier to recover a compromised account.
 
   - point: Keep Email Address Private
-    priority: Recommended
+    priority: Essential
     details: >-
       Do not share your primary email publicly, as mail addresses are often the starting point for most
       phishing attacks.
 
   - point: Keep your Account Secure
-    priority: Recommended
+    priority: Essential
     details: >-
       Use a long and unique password, enable 2FA and be careful while logging in. Your email account
       provides an easy entry point to all your other online accounts for an attacker.
 
   - point: Disable Automatic Loading of Remote Content
-    priority: Recommended
+    priority: Essential
     details: >-
       Email messages can contain remote content such as images or stylesheets, often automatically loaded
       from the server. You should disable this, as it exposes your IP address and device information, and
@@ -709,7 +709,7 @@
   intro: ''
   checklist:
   - point: Only Use Fully End-to-End Encrypted Messengers
-    priority: Recommended
+    priority: Essential
     details: >-
       End-to-end encryption is a system of communication where messages are encrypted on your device and
       not decrypted until they reach the intended recipient. This ensures that any actor who intercepts
@@ -717,43 +717,43 @@
       data is stored.
 
   - point: Use only Open Source Messaging Platforms
-    priority: Recommended
+    priority: Essential
     details: >-
       If code is open source then it can be independently examined and audited by anyone qualified to do
       so, to ensure that there are no backdoors, vulnerabilities, or other security issues.
 
   - point: Use a "Trustworthy" Messaging Platform
-    priority: Recommended
+    priority: Essential
     details: >-
       When selecting an encrypted messaging app, ensure it's fully open source, stable, actively maintained,
       and ideally backed by reputable developers.
 
   - point: Check Security Settings
-    priority: Recommended
+    priority: Essential
     details: >-
       Enable security settings, including contact verification, security notifications, and encryption.
       Disable optional non-security features such as read receipt, last online, and typing notification.
 
   - point: Ensure your Recipients Environment is Secure
-    priority: Recommended
+    priority: Essential
     details: >-
       Your conversation can only be as secure as the weakest link. Often the easiest way to infiltrate a
       communications channel is to target the individual or node with the least protection.
 
   - point: Disable Cloud Services
-    priority: Recommended
+    priority: Essential
     details: >-
       Some mobile messaging apps offer a web or desktop companion. This not only increases attack surface but
       it has been linked to several critical security issues, and should therefore be avoided, if possible.
 
   - point: Secure Group Chats
-    priority: Recommended
+    priority: Essential
     details: >-
       The risk of compromise rises exponentially, the more participants are in a group, as the attack surface
       increases. Periodically check that all participants are legitimate.
 
   - point: Create a Safe Environment for Communication
-    priority: Recommended
+    priority: Essential
     details: >-
       There are several stages where your digital communications could be monitored or intercepted. This includes:
       your or your participants' device, your ISP, national gateway or government logging, the messaging provider,
@@ -852,61 +852,61 @@
     effectively public. If possible, avoid using conventional social media networks.
   checklist:
   - point: Secure your Account
-    priority: Recommended
+    priority: Essential
     details: >-
       Social media profiles get stolen or taken over all too often. To protect your account: use a unique
       and strong password, and enable 2-factor authentication.
 
   - point: Check Privacy Settings
-    priority: Recommended
+    priority: Essential
     details: >-
       Most social networks allow you to control your privacy settings. Ensure that you are comfortable with
       what data you are currently exposing and to whom.
 
   - point: Think of All Interactions as Public
-    priority: Recommended
+    priority: Essential
     details: >-
       There are still numerous methods of viewing a users 'private' content across many social networks.
       Therefore, before uploading, posting or commenting on anything, think "Would I mind if this was totally public?"
 
   - point: Think of All Interactions as Permanent
-    priority: Recommended
+    priority: Essential
     details: >-
       Pretty much every post, comment, photo etc is being continuously backed up by a myriad of third-party
       services, who archive this data and make it indexable and publicly available almost forever.
 
   - point: Don't Reveal too Much
-    priority: Recommended
+    priority: Essential
     details: >-
       Profile information creates a goldmine of info for hackers, the kind of data that helps them personalize
       phishing scams. Avoid sharing too much detail (DoB, Hometown, School etc).
 
   - point: Be Careful what you Upload
-    priority: Recommended
+    priority: Essential
     details: >-
       Status updates, comments, check-ins and media can unintentionally reveal a lot more than you intended
       them to. This is especially relevant to photos and videos, which may show things in the background.
 
   - point: Don't Share Email or Phone Number
-    priority: Recommended
+    priority: Essential
     details: >-
       Posting your real email address or mobile number, gives hackers, trolls and spammers more munition to
       use against you, and can also allow separate aliases, profiles or data points to be connected.
 
   - point: Don't Grant Unnecessary Permissions
-    priority: Recommended
+    priority: Essential
     details: >-
       By default many of the popular social networking apps will ask for permission to access your contacts,
       call log, location, messaging history etc. If they don’t need this access, don’t grant it.
 
   - point: Be Careful of 3rd-Party Integrations
-    priority: Recommended
+    priority: Essential
     details: >-
       Avoid signing up for accounts using a Social Network login, revoke access to social apps you no longer
       use.
 
   - point: Avoid Publishing Geo Data while still Onsite
-    priority: Recommended
+    priority: Essential
     details: >-
       If you plan to share any content that reveals a location, then wait until you have left that place.
       This is particularly important when you are taking a trip, at a restaurant, campus, hotel/resort, public
@@ -964,25 +964,25 @@
     including configuring your router and setting up a VPN.
   checklist:
   - point: Use a VPN
-    priority: Recommended
+    priority: Essential
     details: >-
       Use a reputable, paid-for VPN. This can help protect sites you visit from logging your real IP, reduce
       the amount of data your ISP can collect, and increase protection on public WiFi.
 
   - point: Change your Router Password
-    priority: Recommended
+    priority: Essential
     details: >-
       After getting a new router, change the password. Default router passwords are publicly available,
       meaning anyone within proximity would be able to connect.
 
   - point: Use WPA2, and a strong password
-    priority: Recommended
+    priority: Essential
     details: >-
       There are different authentication protocols for connecting to WiFi. Currently, the most secure options
       are WPA2 and WPA3 (on newer routers).
 
   - point: Keep router firmware up-to-date
-    priority: Recommended
+    priority: Essential
     details: >-
       Manufacturers release firmware updates that fix security vulnerabilities, implement new standards, and
       sometimes add features or improve the performance of your router.
@@ -1171,31 +1171,31 @@
     And this doesn't include all of the internet traffic that intelligence agencies around the world have unhindered access to.
   checklist:
   - point: Encrypt your Device
-    priority: Recommended
+    priority: Essential
     details: >-
       In order to keep your data safe from physical access, use file encryption. This will mean if your
       device is lost or stolen, no one will have access to your data.
 
   - point: Turn off connectivity features that aren’t being used
-    priority: Recommended
+    priority: Essential
     details: >-
       When you're not using WiFi, Bluetooth, NFC etc, turn those features off. There are several common threats
       that utilise these features.
 
   - point: Keep app count to a minimum
-    priority: Recommended
+    priority: Essential
     details: >-
       Uninstall apps that you don’t need or use regularly. As apps often run in the background, slowing your
       device down, but also collecting data.
 
   - point: App Permissions
-    priority: Recommended
+    priority: Essential
     details: >-
       Don’t grant apps permissions that they don’t need. For Android, Bouncer is an app that allows you to grant
       temporary/ 1-off permissions.
 
   - point: Only install Apps from official source
-    priority: Recommended
+    priority: Essential
     details: >-
       Applications on Apple App Store and Google Play Store are scanned and cryptographically signed, making them
       less likely to be malicious.
@@ -1207,7 +1207,7 @@
       through a compromised USB port.
 
   - point: Set up a mobile carrier PIN
-    priority: Recommended
+    priority: Essential
     details: >-
       SIM hijacking is when a hacker is able to get your mobile number transferred to their sim. The easiest way
       to protect against this is to set up a PIN through your mobile provider.
@@ -1319,66 +1319,66 @@
     compromised can have detrimental effects.
   checklist:
   - point: Keep your System up-to-date
-    priority: Recommended
+    priority: Essential
     details: >-
       System updates contain fixes/patches for security issues, improve performance, and sometimes add new
       features. Install new updates when prompted.
 
   - point: Encrypt your Device
-    priority: Recommended
+    priority: Essential
     details: >-
       Use BitLocker for Windows, FileVault on MacOS, or LUKS on Linux, to enable full disk encryption. This
       prevents unauthorized access if your computer is lost or stolen.
 
   - point: Backup Important Data
-    priority: Recommended
+    priority: Essential
     details: >-
       Maintaining encrypted backups prevents loss due to ransomware, theft, or damage. Consider using
       Cryptomator for cloud files or VeraCrypt for USB drives.
 
   - point: Be Careful Plugging USB Devices into your Computer
-    priority: Recommended
+    priority: Essential
     details: >-
       USB devices can pose serious threats. Consider making a USB sanitizer with CIRCLean to safely check USB
       devices.
 
   - point: Activate Screen-Lock when Idle
-    priority: Recommended
+    priority: Essential
     details: >-
       Lock your computer when away and set it to require a password on resume from screensaver or sleep to
       prevent unauthorized access.
 
   - point: Disable Cortana or Siri
-    priority: Recommended
+    priority: Essential
     details: >-
       Voice-controlled assistants can have privacy implications due to data sent back for processing. Disable
       or limit their listening capabilities.
 
   - point: Review your Installed Apps
-    priority: Recommended
+    priority: Essential
     details: >-
       Keep installed applications to a minimum to reduce exposure to vulnerabilities and regularly clear
       application caches.
 
   - point: Manage Permissions
-    priority: Recommended
+    priority: Essential
     details: >-
       Control which apps have access to your location, camera, microphone, contacts, and other sensitive
       information.
 
   - point: Disallow Usage Data from being sent to the Cloud
-    priority: Recommended
+    priority: Essential
     details: >-
       Limit the amount of usage information or feedback sent to the cloud to protect your privacy.
 
   - point: Avoid Quick Unlock
-    priority: Recommended
+    priority: Essential
     details: >-
       Use a strong password instead of biometrics or short PINs for unlocking your computer to enhance
       security.
 
   - point: Power Off Computer, instead of Standby
-    priority: Recommended
+    priority: Essential
     details: >-
       Shut down your device when not in use, especially if your disk is encrypted, to keep data secure.
 
@@ -1567,37 +1567,37 @@
     internet-connected home devices.
   checklist:
   - point: Rename devices to not specify brand/model
-    priority: Recommended
+    priority: Essential
     details: >-
       Change default device names to something generic to prevent targeted attacks by obscuring brand or model information.
 
   - point: Disable microphone and camera when not in use
-    priority: Recommended
+    priority: Essential
     details: >-
       Use hardware switches to turn off microphones and cameras on smart devices to protect against accidental recordings or targeted access.
 
   - point: Understand what data is collected, stored and transmitted
-    priority: Recommended
+    priority: Essential
     details: >-
       Research and ensure comfort with the data handling practices of smart home devices before purchase, avoiding devices that share data with third parties.
 
   - point: Set privacy settings, and opt out of sharing data with third parties
-    priority: Recommended
+    priority: Essential
     details: >-
       Adjust app settings for strictest privacy controls and opt-out of data sharing with third parties wherever possible.
 
   - point: Don't link your smart home devices to your real identity
-    priority: Recommended
+    priority: Essential
     details: >-
       Use anonymous usernames and passwords, avoiding sign-up/log-in via social media or other third-party services to maintain privacy.
 
   - point: Keep firmware up-to-date
-    priority: Recommended
+    priority: Essential
     details: >-
       Regularly update smart device firmware to apply security patches and enhancements.
 
   - point: Protect your Network
-    priority: Recommended
+    priority: Essential
     details: >-
       Secure your home WiFi and network to prevent unauthorized access to smart devices.
 
@@ -1657,12 +1657,12 @@
     for security, but terrible for data privacy.
   checklist:
   - point: Sign up for Fraud Alerts and Credit Monitoring
-    priority: Recommended
+    priority: Essential
     details: >-
       Enable fraud alerts and credit monitoring through Experian, TransUnion, or Equifax to be alerted of suspicious activity.
 
   - point: Apply a Credit Freeze
-    priority: Recommended
+    priority: Essential
     details: >-
       Prevent unauthorized credit inquiries by freezing your credit through Experian, TransUnion, and Equifax.
 
@@ -1731,57 +1731,57 @@
 
   checklist:
   - point: Verify Recipients
-    priority: Recommended
+    priority: Essential
     details: >-
       Emails can be easily spoofed. Verify the sender's authenticity, especially for sensitive actions, and prefer entering URLs manually rather than clicking links in emails.
 
   - point: Don't Trust Your Popup Notifications
-    priority: Recommended
+    priority: Essential
     details: >-
       Fake pop-ups can be deployed by malicious actors. Always check the URL before entering any information on a popup.
 
   - point: Never Leave Device Unattended
-    priority: Recommended
+    priority: Essential
     details: >-
       Unattended devices can be compromised even with strong passwords. Use encryption and remote erase features like Find My Phone for lost devices.
 
   - point: Prevent Camfecting
-    priority: Recommended
+    priority: Essential
     details: >-
       Protect against camfecting by using webcam covers and microphone blockers. Mute home assistants when not in use or discussing sensitive matters.
 
   - point: Stay protected from shoulder surfers
-    priority: Recommended
+    priority: Essential
     details: >-
       Use privacy screens on laptops and mobiles to prevent others from reading your screen in public spaces.
 
   - point: Educate yourself about phishing attacks
-    priority: Recommended
+    priority: Essential
     details: >-
       Be cautious of phishing attempts. Verify URLs, context of received messages, and employ good security practices like using 2FA and not reusing passwords.
 
   - point: Watch out for Stalkerware
-    priority: Recommended
+    priority: Essential
     details: >-
       Be aware of stalkerware installed by acquaintances for spying. Look out for signs like unusual battery usage and perform factory resets if suspected.
 
   - point: Install Reputable Software from Trusted Sources
-    priority: Recommended
+    priority: Essential
     details: >-
       Only download software from legitimate sources and check files with tools like Virus Total before installation.
 
   - point: Store personal data securely
-    priority: Recommended
+    priority: Essential
     details: >-
       Ensure all personal data on devices or in the cloud is encrypted to protect against unauthorized access.
 
   - point: Obscure Personal Details from Documents
-    priority: Recommended
+    priority: Essential
     details: >-
       When sharing documents, obscure personal details with opaque rectangles to prevent information leakage.
 
   - point: Do not assume a site is secure, just because it is `HTTPS`
-    priority: Recommended
+    priority: Essential
     details: >-
       HTTPS does not guarantee a website's legitimacy. Verify URLs and exercise caution with personal data.
 
@@ -1864,43 +1864,43 @@
 
   checklist:
   - point: Destroy Sensitive Documents
-    priority: Recommended
+    priority: Essential
     details: Shred or redact sensitive documents before disposal to protect against identity theft and maintain confidentiality.
 
   - point: Opt-Out of Public Records
-    priority: Recommended
+    priority: Essential
     details: Contact people search websites to opt-out from listings that show personal information, using guides like Michael Bazzell's Personal Data Removal Workbook.
 
   - point: Watermark Documents
-    priority: Recommended
+    priority: Essential
     details: Add a watermark with the recipient's name and date to digital copies of personal documents to trace the source of a breach.
 
   - point: Don't Reveal Info on Inbound Calls
-    priority: Recommended
+    priority: Essential
     details: Only share personal data on calls you initiate and verify the recipient's phone number.
 
   - point: Stay Alert
-    priority: Recommended
+    priority: Essential
     details: Be aware of your surroundings and assess potential risks in new environments.
 
   - point: Secure Perimeter
-    priority: Recommended
+    priority: Essential
     details: Ensure physical security of locations storing personal info devices, minimizing external access and using intrusion detection systems.
 
   - point: Physically Secure Devices
-    priority: Recommended
+    priority: Essential
     details: Use physical security measures like Kensington locks, webcam covers, and privacy screens for devices.
 
   - point: Keep Devices Out of Direct Sight
-    priority: Recommended
+    priority: Essential
     details: Prevent devices from being visible from outside to mitigate risks from lasers and theft.
 
   - point: Protect your PIN
-    priority: Recommended
+    priority: Essential
     details: Shield your PIN entry from onlookers and cameras, and clean touchscreens after use.
 
   - point: Check for Skimmers
-    priority: Recommended
+    priority: Essential
     details: Inspect ATMs and public devices for skimming devices and tampering signs before use.
 
   - point: Protect your Home Address

@@ -23,7 +23,7 @@ export default component$((props: { section: Section }) => {
   const originalFilters = {
     show: 'all', // 'all', 'remaining', 'completed'
     levels: {
-      recommended: true,
+      essential: true,
       optional: true,
       advanced: true,
     },
@@ -33,7 +33,7 @@ export default component$((props: { section: Section }) => {
 
   const getBadgeClass = (priority: Priority, precedeClass: string = '') => {
     switch (priority.toLocaleLowerCase()) {
-      case 'recommended':
+      case 'essential':
         return `${precedeClass}success`;
       case 'optional':
         return `${precedeClass}warning`;
@@ -87,7 +87,7 @@ export default component$((props: { section: Section }) => {
         case 'advice':
           return item.point;
         case 'level':
-          return ['recommended', 'optional', 'advanced'].indexOf(item.priority.toLowerCase());
+          return ['essential', 'optional', 'advanced'].indexOf(item.priority.toLowerCase());
         default:
           return 0;
       }
@@ -198,8 +198,8 @@ export default component$((props: { section: Section }) => {
             <span class="text-sm">Basic</span> 
             <input
               type="checkbox"
-              checked={filterState.levels.recommended}
-              onChange$={() => (filterState.levels.recommended = !filterState.levels.recommended)}
+              checked={filterState.levels.essential}
+              onChange$={() => (filterState.levels.essential = !filterState.levels.essential)}
               class="checkbox checkbox-sm checked:checkbox-success"
             />
           </label>

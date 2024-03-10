@@ -151,7 +151,7 @@ export default component$(() => {
         totalProgress.value = progress;
     })
 
-    makeDataAndDrawChart('recommended', 'hsl(var(--su, 158 64% 52%))');
+    makeDataAndDrawChart('essential', 'hsl(var(--su, 158 64% 52%))');
     makeDataAndDrawChart('optional', 'hsl(var(--wa, 43 96% 56%))');
     makeDataAndDrawChart('advanced', 'hsl(var(--er, 0 91% 71%))');
   }));
@@ -212,7 +212,7 @@ export default component$(() => {
     return Promise.all([
       buildDataForPriority('advanced', 'hsl(0 91% 71%/75%)'),
       buildDataForPriority('optional', 'hsl(43 96% 56%/75%)'),
-      buildDataForPriority('recommended', 'hsl(158 64% 52%/75%)'),      
+      buildDataForPriority('essential', 'hsl(158 64% 52%/75%)'),      
     ]).then(datasets => ({
       labels,
       datasets,
@@ -274,7 +274,7 @@ export default component$(() => {
   }));
 
   const items = [
-    { id: 'recommended-container', label: 'Essential' },
+    { id: 'essential-container', label: 'Essential' },
     { id: 'optional-container', label: 'Optional' },
     { id: 'advanced-container', label: 'Advanced' },
   ];
