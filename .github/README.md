@@ -56,7 +56,7 @@ To run the app locally, or to make code changes, you'll need Node and Git instal
 Alternatively, just open this repo is Code Spaces, where everything is already configured and ready to go.
 
 ### Deploying
-To deploy the app, follow the developing steps above, then run `yarn build.static`. You can then deploy it by copying the `dist/` directory to any CDN, web server or static hosting provider of your choice.
+To deploy the app, follow the developing steps above, then run `yarn build`,`yarn build.static`. You can then deploy it by copying the `dist/` directory to any CDN, web server or static hosting provider of your choice.
 
 Alternatively, fork the repo and import into your providers dashboard. Or use the link below for an easy 1-click deploy 😉
 
