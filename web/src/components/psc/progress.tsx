@@ -325,7 +325,14 @@ export default component$(() => {
       </div>
       {/* Something ??? */}
       <div class="p-4 rounded-box bg-front shadow-md w-96 flex-grow">
-        <p>Coming Soon!</p>
+        <p class="text-sm opacity-80 mb-2">
+          Next up, consider switching to more secure and
+          privacy-respecting apps and services.
+        </p>
+        <p class="text-lg">
+          View our directory of recommended software,
+          at <a class="link link-secondary font-bold" href="https://awesome-privacy.xyz">awesome-privacy.xyz</a>
+        </p>
       </div>
     </div>
 
