@@ -7,6 +7,12 @@ export const intro = [
   All edits are then reviewed by maintainers before being merged and going live.
   `];
 
+export const contributing = [
+  `This project is only possible thanks to contributors like you!`,
+  `You can make changes to any of the checklist content, by editing `
+  + `[\`personal-security-checklist.yml\`](https://github.com/Lissy93/personal-security-checklist/blob/master/personal-security-checklist.yml)`,
+];
+
 export const projects = [
   {
     title: 'Web-Check',

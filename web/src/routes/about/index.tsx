@@ -2,7 +2,8 @@ import { component$, useResource$, Resource } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Icon from "~/components/core/icon";
-import { projects, socials, intro, license } from './about-content';
+import { projects, socials, intro, contributing, license } from './about-content';
+import { marked } from "marked";
 
 export default component$(() => {
 
@@ -15,6 +16,9 @@ export default component$(() => {
     name: string;
   }
 
+  const parseMarkdown = (text: string | undefined): string => {
+    return marked.parse(text || '', { async: false }) as string || '';
+  };
 
   const contributorsResource = useResource$<Contributor[]>(async () => {
     const url = 'https://api.github.com/repos/lissy93/personal-security-checklist/contributors?per_page=100';
@@ -46,7 +50,15 @@ export default component$(() => {
       <div class="divider"></div>
 
       <article class="bg-back p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-md">
-        <h2 class="text-3xl mb-2">Credits</h2>
+        <h2 class="text-3xl mb-2">Contributing</h2>
+        {contributing.map((paragraph, index) => (
+          <p class="mb-2" key={index} dangerouslySetInnerHTML={parseMarkdown(paragraph)}></p>
+        ))}        
+      </article>
+      <div class="divider"></div>
+
+      <article class="bg-back p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-md">
+        <h2 class="text-3xl mb-2">Acknowledgments</h2>
 
 
         <h3 class="text-2xl mb-2">Sponsors</h3>
