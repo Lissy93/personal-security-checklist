@@ -35,8 +35,9 @@
       A password manager is an application that generates, stores and auto-fills your login credentials for you.
       All your passwords will be encrypted against 1 master passwords (which you must remember, and it should be
       very strong). Most password managers have browser extensions and mobile apps, so whatever device you are on,
-      your passwords can be auto-filled. A good all-rounder is [BitWarden](https://bitwarden.com), or see
-      [Recommended Password Managers](https://github.com/Lissy93/awesome-privacy#password-managers)
+      your passwords can be auto-filled. A good all-rounder is
+      [Bitwarden](https://awesome-privacy.xyz/essentials/password-managers/bitwarden), or see
+      [Recommended Password Managers](https://awesome-privacy.xyz/essentials/password-managers)
 
   - point: Avoid sharing passwords
     priority: Essential
@@ -74,7 +75,7 @@
       if you are in any of their lists. [Firefox Monitor](https://monitor.firefox.com), [Have I been pwned](https://haveibeenpwned.com)
       and [DeHashed](https://dehashed.com) allow you to sign up for monitoring, where they will notify you if your
       email address appears in any new data sets. It is useful to know as soon as possible when this happens, so
-      that you can change your passwords for the affected accounts. Have I been pwned also has domain-wide
+      that you can change your passwords for the affected accounts. [Have i been pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) also has domain-wide
       notification, where you can receive alerts if any email addresses under your entire domain appear (useful if
       you use aliases for [anonymous forwarding](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding))
 
@@ -182,7 +183,7 @@
     priority: Advanced
     details: >-
       For increased security, an encrypted offline password manager will give you full control over your data.
-      [KeePass](https://keepass.info) is a popular choice, with lots of [plugins](https://keepass.info/plugins.html) and
+      [KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass) is a popular choice, with lots of [plugins](https://[KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass).info/plugins.html) and
       community forks with additional compatibility and functionality. Popular clients include: [KeePassXC](https://keepassxc.org)
       (desktop), [KeePassDX](https://www.keepassdx.com) (Android) and [StrongBox](https://apps.apple.com/us/app/strongbox-password-safe/id897283731)
       (iOS). The drawback being that it may be slightly less convenient for some, and it will be up to you to back it up,
@@ -232,7 +233,8 @@
     priority: Essential
     details: >-
       Using an ad-blocker can help improve your privacy, by blocking the trackers that ads implement.
-      [uBlock Origin](https://github.com/gorhill/uBlock) is a very efficient and open source browser addon,
+      [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) is a very
+      efficient and open source browser addon,
       developed by Raymond Hill. When 3rd-party ads are displayed on a webpage, they have the ability to
       track you, gathering personal information about you and your habits, which can then be sold, or used
       to show you more targeted ads, and some ads are plain malicious or fake. Blocking ads also makes pages
@@ -244,7 +246,8 @@
       It may sound obvious, but when you logging into any online accounts, double check the URL is correct.
       Storing commonly visited sites in your bookmarks is a good way to ensure the URL is easy to find. When
       visiting new websites, look for common signs that it could be unsafe: Browser warnings, redirects,
-      on-site spam and pop-ups. You can also check a website using a tool, such as: [Virus Total URL Scanner](https://www.virustotal.com/gui/home/url),
+      on-site spam and pop-ups. You can also check a website using a tool, such as:
+      [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total),
       [IsLegitSite](https://www.islegitsite.com), [Google Safe Browsing Status](https://transparencyreport.google.com/safe-browsing/search)
       if you are unsure.
 
@@ -263,7 +266,8 @@
   - point: Use a Privacy-Respecting Browser
     priority: Essential
     details: >-
-      [Firefox](https://www.mozilla.org/en-US/firefox/new) (with a few tweaks) and [Brave](https://brave.com)
+      [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) (with a few tweaks)
+      and [Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser)
       are secure, private-respecting browsers. Both are fast, open source, user-friendly and available on all
       major operating systems. Your browser has access to everything that you do online, so if possible, avoid
       Google Chrome, Edge and Safari as (without correct configuration) all three of them, collect usage data,
@@ -275,8 +279,9 @@
     priority: Essential
     details: >-
       Using a privacy-preserving, non-tracking search engine, will reduce risk that your search terms are not
-      logged, or used against you. Consider [DuckDuckGo](https://duckduckgo.com), [Qwant](https://www.qwant.com),
-      or [SearX](https://searx.me) (self-hosted). Google implements some [incredibly invasive](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea)
+      logged, or used against you. Consider [DuckDuckGo](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo),
+      or [Qwant](https://awesome-privacy.xyz/essentials/search-engines/qwant).
+      Google implements some [incredibly invasive](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea)
       tracking policies, and have a history of displaying [biased search results](https://www.businessinsider.com/evidence-that-google-search-results-are-biased-2014-10).
       Therefore Google, along with Bing, Baidu, Yahoo and Yandex are incompatible with anyone looking to protect
       their privacy. It is recommended to update your [browsers default search](https://duckduckgo.com/install)
@@ -287,7 +292,7 @@
     details: >-
       Extensions are able to see, log or modify anything you do in the browser, and some innocent looking
       browser apps, have malicious intentions. Websites can see which extensions you have installed, and may
-      use this to enhance your fingerprint, to more accurately identify/ track you. Both Firefox and Chrome
+      use this to enhance your fingerprint, to more accurately identify/ track you. Both [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) and Chrome
       web stores allow you to check what permissions/access rights an extension requires before you install it.
       Check the reviews. Only install extensions you really need, and removed those which you haven't used in a while.
 
@@ -309,7 +314,7 @@
       (developed by the [EFF](https://www.eff.org/)) used to be a browser extension/addon that automatically
       enabled HTTPS on websites, but as of 2022 is now deprecated. In their [accouncement article](https://www.eff.org/)
       the EFF explains that most browsers now integrate such protections. Additionally, it provides instructions
-      for Firefox, Chrome, Edge and Safari browsers on how to enable their HTTPS secure protections.
+      for [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox), Chrome, Edge and Safari browsers on how to enable their HTTPS secure protections.
 
   - point: Use DNS-over-HTTPS
     priority: Essential
@@ -317,17 +322,22 @@
       Traditional DNS makes requests in plain text for everyone to see. It allows for eavesdropping and
       manipulation of DNS data through man-in-the-middle attacks. Whereas DNS-over-HTTPS performs DNS
       resolution via the HTTPS protocol, meaning data between you and your DNS resolver is encrypted.
-      A popular option is Cloudflare's 1.1.1.1, or compare providers- it is simple to enable in-browser.
+      A popular option is [CloudFlare](https://awesome-privacy.xyz/networking/dns-providers/cloudflare)'s [1.1.1.1](https://awesome-privacy.xyz/security-tools/mobile-apps/1.1.1.1), or compare providers- it is simple to enable in-browser.
       Note that DoH comes with its own issues, mostly preventing web filtering.
 
-  - point: Multi-Session Containers
+  - point: Multi-[Session](https://awesome-privacy.xyz/communication/encrypted-messaging/session) Containers
     priority: Essential
     details: >-
       Compartmentalisation is really important to keep different aspects of your browsing separate. For
       example, using different profiles for work, general browsing, social media, online shopping etc
       will reduce the number associations that data brokers can link back to you. One option is to make
-      use of Firefox Containers which is designed exactly for this purpose. Alternatively, you could
-      use different browsers for different tasks (Brave, Firefox, Tor etc).
+      use of [Firefox Containers](https://awesome-privacy.xyz/security-tools/browser-extensions/firefox-multi-account-containers)
+      which is designed exactly for this purpose.
+      Alternatively, you could
+      use different browsers for different tasks
+      ([Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser),
+      [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox),
+      [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor) etc).
 
   - point: Use Incognito
     priority: Essential
@@ -361,7 +371,9 @@
     priority: Essential
     details: >-
       Blocking trackers will help to stop websites, advertisers, analytics and more from tracking you in
-      the background. Privacy Badger, DuckDuckGo Privacy Essentials, uBlock Origin and uMatrix (advanced)
+      the background. [Privacy Badger](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-badger),
+      [DuckDuckGo Privacy Essentials](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-essentials),
+      [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) and uMatrix (advanced)
       are all very effective, open source tracker-blockers available for all major browsers.
 
   - point: Beware of Redirects
@@ -439,7 +451,8 @@
     priority: Optional
     details: >-
       The CSS Exfiltrate attack is a method where credentials and other sensitive details can be snagged with
-      just pure CSS. You can stay protected, with the CSS Exfil Protection plugin.
+      just pure CSS. You can stay protected,
+      with the [CSS Exfil Protection](https://awesome-privacy.xyz/security-tools/browser-extensions/css-exfil-protection) plugin.
 
   - point: Deactivate ActiveX
     priority: Optional
@@ -458,7 +471,8 @@
     priority: Optional
     details: >-
       Canvas Fingerprinting allows websites to identify and track users very accurately. You can use the
-      Canvas-Fingerprint-Blocker extension to spoof your fingerprint or use Tor.
+      Canvas-Fingerprint-Blocker extension to spoof your fingerprint or
+      use [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor).
 
   - point: Spoof User Agent
     priority: Optional
@@ -488,14 +502,16 @@
   - point: Enable 1st-Party Isolation
     priority: Optional
     details: >-
-      First party isolation means that all identifier sources and browser state are scoped using the URL bar
+      [First Party Isolation](https://awesome-privacy.xyz/security-tools/browser-extensions/first-party-isolation) means
+      that all identifier sources and browser state are scoped using the URL bar
       domain, this can greatly reduce tracking.
 
   - point: Strip Tracking Params from URLs
     priority: Advanced
     details: >-
       Websites often append additional GET parameters to URLs that you click, to identify information like
-      source/referrer. You can sanitize manually, or use an extension like ClearUrls to strip tracking data
+      source/referrer. You can sanitize manually,
+      or use an extension like [ClearURLs](https://awesome-privacy.xyz/security-tools/browser-extensions/clearurls) to strip tracking data
       from URLs automatically.
 
   - point: First Launch Security
@@ -508,7 +524,7 @@
   - point: Use The Tor Browser
     priority: Advanced
     details: >-
-      The Tor Project provides a browser that encrypts and routes your traffic through multiple nodes, keeping
+      The [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor) Project provides a browser that encrypts and routes your traffic through multiple nodes, keeping
       users safe from interception and tracking. The main drawbacks are speed and user experience.
 
   - point: Disable JavaScript
@@ -605,7 +621,9 @@
   - point: Consider Switching to a Secure Mail Provider
     priority: Optional
     details: >-
-      Secure and reputable email providers such as Forward Email, ProtonMail, and Tutanota allow for end-to-end
+      Secure and reputable email providers such as [Forward Email](https://awesome-privacy.xyz/communication/encrypted-email/forward-email),
+      [ProtonMail](https://awesome-privacy.xyz/communication/mail-forwarding/protonmail),
+      and [Tutanota](https://awesome-privacy.xyz/communication/encrypted-email/tuta) allow for end-to-end
       encryption, full privacy as well as more security-focused features. Unlike typical email providers, your
       mailbox cannot be read by anyone but you, since all messages are encrypted.
 
@@ -1100,10 +1118,10 @@
       It's common to want to pump your router's range to the max, but if you reside in a smaller flat, your
       attack surface is increased when your WiFi network can be picked up across the street.
 
-  - point: Route all traffic through Tor
+  - point: Route all traffic through [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor)
     priority: Advanced
     details: >-
-      VPNs have their weaknesses. For increased security, route all your internet traffic through the Tor
+      VPNs have their weaknesses. For increased security, route all your internet traffic through the [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor)
       network.
 
   - point: Disable WiFi on all Devices
@@ -1191,7 +1209,7 @@
   - point: App Permissions
     priority: Essential
     details: >-
-      Don’t grant apps permissions that they don’t need. For Android, Bouncer is an app that allows you to grant
+      Don’t grant apps permissions that they don’t need. For Android, [Bouncer](https://awesome-privacy.xyz/security-tools/mobile-apps/bouncer) is an app that allows you to grant
       temporary/ 1-off permissions.
 
   - point: Only install Apps from official source
@@ -1237,7 +1255,8 @@
   - point: Monitor Trackers
     priority: Optional
     details: >-
-      εxodus is a great service which lets you search for any app and see which trackers are embedded in it.
+      [εxodus](https://awesome-privacy.xyz/security-tools/online-tools/εxodus) is a great service which
+      lets you search for any app and see which trackers are embedded in it.
 
   - point: Use a Mobile Firewall
     priority: Optional
@@ -1252,12 +1271,13 @@
   - point: Sandbox Mobile Apps
     priority: Optional
     details: >-
-      Prevent permission-hungry apps from accessing your private data with Island, a sandbox environment.
+      Prevent permission-hungry apps from accessing your private data with [Island](https://awesome-privacy.xyz/security-tools/mobile-apps/island), a sandbox environment.
 
   - point: Tor Traffic
     priority: Advanced
     details: >-
-      Orbot provides a system-wide Tor connection, which will help protect you from surveillance and public WiFi threats.
+      [Orbot](https://awesome-privacy.xyz/security-tools/mobile-apps/orbot) provides
+      a system-wide Tor connection, which will help protect you from surveillance and public WiFi threats.
 
   - point: Avoid Custom Virtual Keyboards
     priority: Optional
@@ -1275,30 +1295,32 @@
     priority: Optional
     details: >-
       SMS should not be used to receive 2FA codes or for communication, instead use an encrypted messaging app,
-      such as Signal.
+      such as [Signal](https://awesome-privacy.xyz/communication/encrypted-messaging/signal).
 
   - point: Keep your Number Private
     priority: Optional
     details: >-
-      MySudo allows you to create and use virtual phone numbers for different people or groups. This is great for
+      [MySudo](https://awesome-privacy.xyz/finance/virtual-credit-cards/mysudo) allows
+      you to create and use virtual phone numbers for different people or groups. This is great for
       compartmentalisation.
 
   - point: Watch out for Stalkerware
     priority: Optional
     details: >-
-      Stalkerware is malware that is installed directly onto your device by someone you know. The best way to get
-      rid of it is through a factory reset.
+      Stalkerware is malware that is installed directly onto your device by someone you know.
+      The best way to get rid of it is through a factory reset.
 
   - point: Favor the Browser, over Dedicated App
     priority: Optional
     details: >-
-      Where possible, consider using a secure browser to access sites, rather than installing dedicated applications.
+      Where possible, consider using a secure browser to access sites,
+      rather than installing dedicated applications.
 
   - point: Consider running a custom ROM (Android)
     priority: Advanced
     details: >-
-      If you're concerned about your device manufacturer collecting too much personal information, consider a
-      privacy-focused custom ROM.
+      If you're concerned about your device manufacturer collecting too much
+      personal information, consider a privacy-focused custom ROM.
   color: fuchsia
   softwareLinks:
   - title: Mobile Apps, for Security + Privacy
@@ -1334,7 +1356,8 @@
     priority: Essential
     details: >-
       Maintaining encrypted backups prevents loss due to ransomware, theft, or damage. Consider using
-      Cryptomator for cloud files or VeraCrypt for USB drives.
+      [Cryptomator](https://awesome-privacy.xyz/security-tools/mobile-apps/cryptomator)
+      for cloud files or [VeraCrypt](https://awesome-privacy.xyz/essentials/file-encryption/veracrypt) for USB drives.
 
   - point: Be Careful Plugging USB Devices into your Computer
     priority: Essential
@@ -1460,7 +1483,7 @@
     priority: Advanced
     details: >-
       Regularly check for rootkits to detect and mitigate full system control threats using tools like
-      chkrootkit.
+      [chkrootkit](https://awesome-privacy.xyz/operating-systems/linux-defenses/chkrootkit).
 
   - point: BIOS Boot Password
     priority: Advanced
@@ -1471,7 +1494,9 @@
   - point: Use a Security-Focused Operating System
     priority: Advanced
     details: >-
-      Consider switching to Linux or a security-focused distro like QubeOS or Tails for enhanced privacy and
+      Consider switching to Linux or a security-focused distro like QubeOS or
+      [Tails](https://awesome-privacy.xyz/operating-systems/desktop-operating-systems/tails)
+      for enhanced privacy and
       security.
 
   - point: Make Use of VMs
@@ -1614,7 +1639,9 @@
   - point: Mitigate Alexa/ Google Home Risks
     priority: Optional
     details: >-
-      Consider privacy-focused alternatives like Mycroft or use Project Alias to prevent idle listening by voice-activated assistants.
+      Consider privacy-focused alternatives like
+      [Mycroft](https://awesome-privacy.xyz/smart-home-and-iot/voice-assistants/mycroft) or use
+      Project Alias to prevent idle listening by voice-activated assistants.
 
   - point: Monitor your home network closely
     priority: Optional
@@ -1669,27 +1696,35 @@
   - point: Use Virtual Cards
     priority: Optional
     details: >-
-      Utilize virtual card numbers for online transactions to protect your real banking details. Services like Privacy.com and MySudo offer such features.
+      Utilize virtual card numbers for online transactions to protect your real banking details. Services like [Privacy.com](https://awesome-privacy.xyz/finance/virtual-credit-cards/privacy.com) and [MySudo](https://awesome-privacy.xyz/finance/virtual-credit-cards/mysudo) offer such features.
 
   - point: Use Cash for Local Transactions
     priority: Optional
     details: >-
-      Pay with cash for local and everyday purchases to avoid financial profiling by institutions.
+      Pay with [Cash](https://awesome-privacy.xyz/finance/other-payment-methods/cash) for local and everyday purchases to avoid financial profiling by institutions.
 
   - point: Use Cryptocurrency for Online Transactions
     priority: Optional
     details: >-
-      Opt for privacy-focused cryptocurrencies like Monero for online transactions to maintain anonymity. Use cryptocurrencies wisely to ensure privacy.
+      Opt for privacy-focused cryptocurrencies like
+      [Monero](https://awesome-privacy.xyz/finance/cryptocurrencies/monero) for
+      online transactions to maintain anonymity. Use cryptocurrencies wisely to ensure privacy.
 
   - point: Store Crypto Securely
     priority: Advanced
     details: >-
-      Securely store cryptocurrencies using offline wallet generation, hardware wallets like Trezor or ColdCard, or consider long-term storage solutions like CryptoSteel.
+      Securely store cryptocurrencies using offline wallet generation, hardware wallets
+      like [Trezor](https://awesome-privacy.xyz/finance/crypto-wallets/trezor) or
+      [ColdCard](https://awesome-privacy.xyz/finance/crypto-wallets/coldcard), or
+      consider long-term storage solutions like
+      [CryptoSteel](https://awesome-privacy.xyz/finance/crypto-wallets/cryptosteel).
 
   - point: Buy Crypto Anonymously
     priority: Advanced
     details: >-
-      Purchase cryptocurrencies without linking to your identity through services like LocalBitcoins, Bisq, or Bitcoin ATMs.
+      Purchase cryptocurrencies without linking to your identity through services
+      like [LocalBitcoins](https://awesome-privacy.xyz/finance/crypto-exchanges/localbitcoins),
+      [Bisq](https://awesome-privacy.xyz/finance/crypto-exchanges/bisq), or Bitcoin ATMs.
 
   - point: Tumble/ Mix Coins
     priority: Advanced
@@ -1768,7 +1803,8 @@
   - point: Install Reputable Software from Trusted Sources
     priority: Essential
     details: >-
-      Only download software from legitimate sources and check files with tools like Virus Total before installation.
+      Only download software from legitimate sources and check files with tools
+      like [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total) before installation.
 
   - point: Store personal data securely
     priority: Essential
@@ -1865,19 +1901,26 @@
   checklist:
   - point: Destroy Sensitive Documents
     priority: Essential
-    details: Shred or redact sensitive documents before disposal to protect against identity theft and maintain confidentiality.
+    details: |
+      Shred or redact sensitive documents before disposal to protect against
+      identity theft and maintain confidentiality.
 
   - point: Opt-Out of Public Records
     priority: Essential
-    details: Contact people search websites to opt-out from listings that show personal information, using guides like Michael Bazzell's Personal Data Removal Workbook.
+    details: |
+      Contact people search websites to opt-out from listings that show persona
+      information, using guides like Michael Bazzell's Personal Data Removal Workbook.
 
   - point: Watermark Documents
     priority: Essential
-    details: Add a watermark with the recipient's name and date to digital copies of personal documents to trace the source of a breach.
+    details: |
+      Add a watermark with the recipient's name and date to digital copies of
+      personal documents to trace the source of a breach.
 
   - point: Don't Reveal Info on Inbound Calls
     priority: Essential
-    details: Only share personal data on calls you initiate and verify the recipient's phone number.
+    details: |
+      Only share personal data on calls you initiate and verify the recipient's phone number.
 
   - point: Stay Alert
     priority: Essential
