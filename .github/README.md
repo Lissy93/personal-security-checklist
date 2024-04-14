@@ -184,13 +184,20 @@ Thank you to all who have contributed to, or sponsored this project!
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/araguaci">
+            <img src="https://avatars.githubusercontent.com/u/7318668?v=4" width="80;" alt="araguaci"/>
+            <br />
+            <sub><b>araguaci</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/bmcgonag">
             <img src="https://avatars.githubusercontent.com/u/7346620?u=2a0f9284f3e12ac1cc15288c254d1ec68a5081e8&v=4" width="80;" alt="bmcgonag"/>
             <br />
             <sub><b>Brian McGonagill</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/vlad-timofeev">
             <img src="https://avatars.githubusercontent.com/u/11474041?u=eee43705b54d2ec9f51fc4fcce5ad18dd17c87e4&v=4" width="80;" alt="vlad-timofeev"/>
@@ -206,6 +213,13 @@ Thank you to all who have contributed to, or sponsored this project!
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/patvdv">
+            <img src="https://avatars.githubusercontent.com/u/12430107?v=4" width="80;" alt="patvdv"/>
+            <br />
+            <sub><b>Patrick Van Der Veken</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/mryesiller">
             <img src="https://avatars.githubusercontent.com/u/24632172?u=0d20f2d615158f87cd60a3398d3efb026c32f291&v=4" width="80;" alt="mryesiller"/>
             <br />
@@ -218,7 +232,8 @@ Thank you to all who have contributed to, or sponsored this project!
             <br />
             <sub><b>Forward Email - Open-source & Privacy-focused Email Service (2023)</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Bastii717">
             <img src="https://avatars.githubusercontent.com/u/53431819?u=604977bed6ad6875ada890d0d3765a4cacc2fa14&v=4" width="80;" alt="Bastii717"/>
@@ -227,13 +242,19 @@ Thank you to all who have contributed to, or sponsored this project!
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/M2TD">
+            <img src="https://avatars.githubusercontent.com/u/85460457?v=4" width="80;" alt="M2TD"/>
+            <br />
+            <sub><b>M2TD</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/frankdez93">
             <img src="https://avatars.githubusercontent.com/u/87549420?v=4" width="80;" alt="frankdez93"/>
             <br />
             <sub><b>Frankdez93</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/terminaltrove">
             <img src="https://avatars.githubusercontent.com/u/121595180?v=4" width="80;" alt="terminaltrove"/>
@@ -734,7 +755,7 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
         <a href="https://github.com/mrfelpa">
             <img src="https://avatars.githubusercontent.com/u/65371336?v=4" width="80;" alt="mrfelpa"/>
             <br />
-            <sub><b>mrfelpa</b></sub>
+            <sub><b>Mrfelpa</b></sub>
         </a>
     </td></tr>
 <tr>
