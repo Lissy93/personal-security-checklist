@@ -27,7 +27,8 @@
 
 ## The Checklist
 
-You can view the full checklist in [`CHECKLIST.md`](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/CHECKLIST.md)
+You can read the full checklist in [`CHECKLIST.md`](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/CHECKLIST.md).<br>
+<sub>To view/edit the raw data, see [`personal-security-checklist.yml`](https://github.com/Lissy93/personal-security-checklist/blob/master/personal-security-checklist.yml)</sub>
 
 ---
 
