@@ -36,7 +36,7 @@ You can read the full checklist in [`CHECKLIST.md`](https://github.com/Lissy93/p
 
 The easiest method for consuming the checklist is via our website, at: **[digital-defense.io](https://digital-defense.io/)**
 
-Here you can browse lists, filter by your threat model and tick items off once complete (plus, there's pretty charts to make you feel good about your progress ☺️).
+Here you can browse lists, filter by your threat model and tick items off once complete (plus, there are pretty charts to make you feel good about your progress ☺️).
 
 <p align="center">
 <img width="600" src="https://i.ibb.co/jzKn05H/digital-defense.png" />
