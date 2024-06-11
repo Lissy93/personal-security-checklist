@@ -7,9 +7,9 @@ import Footer from "~/components/furniture/footer";
 import { ChecklistContext } from "~/store/checklist-context";
 import type { Sections } from "~/types/PSC";
 
-export const useChecklists = routeLoader$(async () => {
-  const remoteUrl = 'https://raw.githubusercontent.com/Lissy93/personal-security-checklist/HEAD/personal-security-checklist.yml';
-  return fetch(remoteUrl)
+export const useChecklists = routeLoader$(async ({ request }) => {
+  const localUrl = '/personal-security-checklist.yml';
+  return fetch(new URL(localUrl, request.url).toString())
     .then((res) => res.text())
     .then((res) => jsyaml.load(res) as Sections)
     .catch(() => []);
