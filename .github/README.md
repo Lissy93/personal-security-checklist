@@ -570,7 +570,7 @@ If you've found this repository helpful, consider sponsoring me on GitHub if you
         <a href="https://github.com/jxdv">
             <img src="https://avatars.githubusercontent.com/u/138708600?v=4" width="80;" alt="jxdv"/>
             <br />
-            <sub><b>jxdv</b></sub>
+            <sub><b>Jxdv</b></sub>
         </a>
     </td>
     <td align="center">
