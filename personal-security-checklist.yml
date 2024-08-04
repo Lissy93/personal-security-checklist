@@ -850,7 +850,6 @@
       url: https://github.com/Lissy93/awesome-privacy#p2p-messaging
   color: cyan
 
-
 - title: Social Media
   slug: social-media
   description: Minimizing the risks associated with using online communities
@@ -971,7 +970,6 @@
     - title: News Readers and Aggregation
       url: https://github.com/Lissy93/awesome-privacy#news-readers-and-aggregation
   color: blue
-
 
 - title: Networks
   slug: networks
@@ -1147,7 +1145,6 @@
     url: https://github.com/Lissy93/awesome-privacy#network-analysis
   - title: Self-Hosted Network Security Tools
     url: https://github.com/Lissy93/awesome-privacy#self-hosted-network-security
-
 
 - title: Mobile Devices
   slug: mobile-devices
@@ -1329,7 +1326,6 @@
     url: https://github.com/Lissy93/awesome-privacy#encrypted-messaging
   - title: Mobile Operation Systems
     url: https://github.com/Lissy93/awesome-privacy#mobile-operating-systems
-
 
 - title: Personal Computers
   slug: personal-computers
@@ -1562,8 +1558,6 @@
   - title: File Encryption
     url: https://github.com/Lissy93/awesome-privacy#file-encryption
 
-
-
 - title: Smart Home
   slug: smart-home
   description: Using IoT devices without compromising your privacy
@@ -1663,7 +1657,6 @@
     url: https://github.com/Lissy93/awesome-privacy#home-automation
   - title: AI Voice Assistants
     url: https://github.com/Lissy93/awesome-privacy#ai-voice-assistants
-
 
 - title: Personal Finance
   slug: personal-finance
@@ -1872,6 +1865,7 @@
       Opt for anonymous payment methods like cryptocurrencies to avoid entering identifiable information online.
 
   color: indigo
+
 - title: Physical Security
   slug: physical-security
   description: Taking measures to prevent IRL security incidents
