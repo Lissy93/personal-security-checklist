@@ -34,7 +34,7 @@ You can read the full checklist in [`CHECKLIST.md`](https://github.com/Lissy93/p
 
 ## The Website
 
-The easiest method for consuming the checklist is via our website, at: **[digital-defense.io](https://digital-defense.io/)**
+The easiest method for consuming the checklist is via our website: **[digital-defense.io](https://digital-defense.io/)**
 
 Here you can browse lists, filter by your threat model and tick items off once complete (plus, there are pretty charts to make you feel good about your progress ☺️).
 
@@ -49,17 +49,17 @@ The site is built with Qwik, using TypeScript and some components from DaisyUI.
 ### Developing
 To run the app locally, or to make code changes, you'll need Node and Git installed.
 
-1. Grab the code: `git@github.com:Lissy93/personal-security-checklist.git`
-2. Navigate into source: `cd personal-security-checklist/web`
+1. Grab the code: `git clone git@github.com:Lissy93/personal-security-checklist.git`
+2. Navigate into the source: `cd personal-security-checklist/web`
 3. Install dependencies: `yarn`
 4. Start the development server: `yarn dev`
 
 Alternatively, just open this repo in Code Spaces, where everything is already configured and ready to go.
 
 ### Deploying
-To deploy the app, follow the developing steps above, then run `yarn build`,`yarn build.static`. You can then deploy it by copying the `dist/` directory to any CDN, web server or static hosting provider of your choice.
+To deploy the app, follow the developing steps above, then run `yarn build`, `yarn build.static`. You can then deploy it by copying the `dist/` directory to any CDN, web server or static hosting provider of your choice.
 
-Alternatively, fork the repo and import into your providers dashboard. Or use the link below for an easy 1-click deploy 😉
+Alternatively, fork the repo and import it into your providers' dashboard. Or use the link below for an easy 1-click deployment 😉
 
 ---
 
@@ -77,15 +77,8 @@ Base: digital-defense.io/api
 /api/checklists/[name]/[point-index]
 /api/search/[searchterm]
 
-
-### Developing
-
-### Deploying
-
----
-
 ## Contributing
-All checklist data is stored in [`personal-security-checklist.yml`](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/personal-security-checklist.yml). This is pulled in the website at build-time, and referenced by the API, and is also dynamically inserted into the markdown [Checklist page](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/CHECKLIST.md).
+All checklist data is stored in [`personal-security-checklist.yml`](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/personal-security-checklist.yml). This is pulled in the website at build-time and referenced by the API, and is also dynamically inserted into the markdown [Checklist page](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/CHECKLIST.md).
 
 So if you only wish to make changes to the data, this is the only file you need to edit.
 
@@ -93,7 +86,7 @@ Important: When submitting your pull request, provide references backing up any 
 
 For modifying the website or API source, see the developing sections above for instructions on running locally.
 
-Prior to submitting an issue or PR, please ensure you've followed the [community guidelines](https://github.com/Lissy93/personal-security-checklist/blob/master/.github/CONTRIBUTING.md) and followed the [Code of Conduct](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/.github/CODE_OF_CONDUCT.md).
+Before submitting an issue or PR, please ensure you've followed the [community guidelines](https://github.com/Lissy93/personal-security-checklist/blob/master/.github/CONTRIBUTING.md) and followed the [Code of Conduct](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/.github/CODE_OF_CONDUCT.md).
 
 ---
 
