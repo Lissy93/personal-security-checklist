@@ -101,7 +101,7 @@ Thank you to all who have contributed to, or sponsored this project!
 <tr>
     <td align="center">
         <a href="https://github.com/vincentkoc">
-            <img src="https://avatars.githubusercontent.com/u/25068?v=4" width="80;" alt="vincentkoc"/>
+            <img src="https://avatars.githubusercontent.com/u/25068?u=cbf098fc04c0473523d373b0dd2145b4ec99ef93&v=4" width="80;" alt="vincentkoc"/>
             <br />
             <sub><b>Vincent Koc</b></sub>
         </a>
