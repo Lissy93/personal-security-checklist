@@ -26,5 +26,5 @@ jobs:
       run: |
         docker buildx create --use
         echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
-        docker build -t vouu/personal-security-checklist:14-09-2024 . --push
-        docker build -t vouu/personal-security-checklist . --push
+        docker buildx build --platform linux/amd64,linux/arm64 -t vouu/personal-security-checklist:14-09-2024 . --push
+        docker buildx build --platform linux/amd64,linux/arm64 -t vouu/personal-security-checklist . --push
