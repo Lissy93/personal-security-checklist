@@ -186,13 +186,6 @@ Thank you to all who have contributed to, or sponsored this project!
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/patvdv">
-            <img src="https://avatars.githubusercontent.com/u/12430107?u=e8911c2fb91af4d30432f76da8c40927b2830bd7&v=4" width="80;" alt="patvdv"/>
-            <br />
-            <sub><b>Patrick Van Der Veken</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/mryesiller">
             <img src="https://avatars.githubusercontent.com/u/24632172?u=0d20f2d615158f87cd60a3398d3efb026c32f291&v=4" width="80;" alt="mryesiller"/>
             <br />
@@ -204,13 +197,6 @@ Thank you to all who have contributed to, or sponsored this project!
             <img src="https://avatars.githubusercontent.com/u/26634535?v=4" width="80;" alt="sushibait"/>
             <br />
             <sub><b>Shiverme Timbers</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/forwardemail">
-            <img src="https://avatars.githubusercontent.com/u/32481436?v=4" width="80;" alt="forwardemail"/>
-            <br />
-            <sub><b>Forward Email - Open-source & Privacy-focused Email Service (2023)</b></sub>
         </a>
     </td>
     <td align="center">
@@ -226,8 +212,7 @@ Thank you to all who have contributed to, or sponsored this project!
             <br />
             <sub><b>HamburgerJung</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/frankdez93">
             <img src="https://avatars.githubusercontent.com/u/87549420?v=4" width="80;" alt="frankdez93"/>
@@ -241,7 +226,8 @@ Thank you to all who have contributed to, or sponsored this project!
             <br />
             <sub><b>Terminal Trove</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/st617">
             <img src="https://avatars.githubusercontent.com/u/128325650?v=4" width="80;" alt="st617"/>
