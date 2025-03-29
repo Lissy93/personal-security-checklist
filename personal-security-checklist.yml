@@ -16,7 +16,7 @@
       cracked through brute force, or guessed by someone. The easiest way to make a strong password, is by
       making it long (12+ characters)- consider using a 'passphrase', made up of many words. Alternatively,
       use a password generator to create a long, strong random password. Have a play with
-      [HowSecureIsMyPassword.net](https://howsecureismypassword.net), to get an idea of how quickly common
+      [Security.org's How Secure Is My Password?](https://security.org/how-secure-is-my-password/), to get an idea of how quickly common
       passwords can be cracked. Read more about creating strong passwords:
       [securityinabox.org](https://securityinabox.org/en/passwords/passwords-and-2fa/)
 
@@ -196,7 +196,7 @@
       phone number to log in, then it will be significantly harder for anyone trying to gain unauthorised access. The easiest
       method for multiple emails, is using auto-generated aliases for anonymous mail forwarding. This is where
       [anything]@yourdomain.com will arrive in your inbox, allowing you to use a different email for each account (see
-      [Mail Alias Providers](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)). Usernames are easier,
+      [Mail Alias Providers](https://github.com/Lissy93/awesome-privacy#mail-forwarding)). Usernames are easier,
       since you can use your password manager to generate, store and auto-fill these. Virtual phone numbers can be generated
       through your VOIP provider
   softwareLinks:
