@@ -201,9 +201,9 @@
       through your VOIP provider.
   softwareLinks:
     - title: Password Managers
-      url: https://github.com/Lissy93/awesome-privacy#password-managers
+      url: https://awesome-privacy.xyz/essentials/password-managers
     - title: 2-Factor Authentication
-      url: https://github.com/Lissy93/awesome-privacy#2-factor-authentication
+      url: https://awesome-privacy.xyz/essentials/2-factor-authentication
 
 - title: Web Browsing
   slug: web-browsing
