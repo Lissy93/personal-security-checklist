@@ -18,7 +18,7 @@
       use a password generator to create a long, strong random password. Have a play with
       [Security.org's How Secure Is My Password?](https://security.org/how-secure-is-my-password/), to get an idea of how quickly common
       passwords can be cracked. Read more about creating strong passwords:
-      [securityinabox.org](https://securityinabox.org/en/passwords/passwords-and-2fa/).
+      [securityinabox.org](https://securityinabox.org/en/passwords/passwords/).
 
   - point: Don't Reuse Passwords
     priority: Essential
