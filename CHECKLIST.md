@@ -117,6 +117,7 @@ This section outlines the steps you can take, to be better protected from threat
 
 ### Recommended Software
 - [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers)
+- [Marshall Privacy Browser](https://github.com/bad-antics/marshall) - Hardened WebKit2GTK browser with built-in ad blocking, fingerprint protection, and WebRTC leak prevention
 - [Browser Extensions](https://github.com/Lissy93/awesome-privacy#browser-extensions)
 - [Browser & Bookmark Sync](https://github.com/Lissy93/awesome-privacy#browser-sync)
 
