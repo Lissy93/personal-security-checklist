@@ -175,6 +175,14 @@
       verify your identity instead of entering a OTP from your authenticator. [SoloKey](https://solokeys.com) and
       [NitroKey](https://www.nitrokey.com) are examples of such keys. They bring with them several security benefits.
       Since the browser communicates directly with the device, it cannot be fooled as to which host is requesting
+  - point: Use Passkeys Where Available
+    priority: Recommended
+    details: >-
+      Passkeys (also known as FIDO2 WebAuthn) are a passwordless authentication method that is more secure
+      and convenient than traditional passwords. They use your devices biometric authentication (fingerprint, face ID)
+      or a PIN to log in, and are resistant to phishing attacks. Many major services now support passkeys including Google,
+      Apple, Microsoft, and GitHub. Consider enabling passkeys for accounts that offer them as an alternative to
+      passwords or as an additional 2FA method.
       authentication because the TLS certificate is checked. [This post](https://security.stackexchange.com/a/71704) is
       a good explanation of the security of using FIDO U2F tokens. Of course, it is important to store the physical key
       somewhere safe or keep it on your person. Some online accounts allow for several methods of 2FA to be enabled.
