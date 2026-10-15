@@ -1,0 +1,23 @@
+# Runs the Digital Defense website, on http://localhost:8080 (or set PORT)
+#   docker compose -f docker/compose.yml up -d            # uses the published image
+#   docker compose -f docker/compose.yml up -d --build    # or builds it from this repo
+
+name: personal-security-checklist
+
+services:
+  web:
+    image: ghcr.io/lissy93/personal-security-checklist:latest
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - '${PORT:-8080}:8080'
+    restart: unless-stopped
+    # The site is static, so the container needs no write access or privileges
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true

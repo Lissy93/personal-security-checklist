@@ -26,6 +26,31 @@ updates:
         patterns:
           - "*"
 
+  # Base images in docker/Dockerfile, which are pinned to digests
+  - package-ecosystem: docker
+    directory: /docker
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7
+    open-pull-requests-limit: 1
+    labels:
+      - Dependencies
+    assignees:
+      - lissy93
+    commit-message:
+      prefix: chore
+      include: scope
+    ignore:
+      # Stay on Node 24 (LTS), as used in CI, rather than moving to each new major
+      - dependency-name: node
+        update-types:
+          - version-update:semver-major
+    groups:
+      docker:
+        patterns:
+          - "*"
+
   # The Qwik web app (minor + patch bumps together, majors done separate PR for review)
   - package-ecosystem: npm
     directory: /web

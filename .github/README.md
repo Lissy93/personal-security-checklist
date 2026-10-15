@@ -57,9 +57,22 @@ To run the app locally, or to make code changes, you'll need Node (20.19+ or 22.
 Alternatively, just open this repo in Code Spaces, where everything is already configured and ready to go.
 
 ### Deploying
+
+### Option 1) From source
 To deploy the app, follow the developing steps above, then run `yarn build.ssg`. You can then deploy it by copying the `dist/` directory to any CDN, web server or static hosting provider of your choice.
 
-Alternatively, fork the repo and import it into your providers' dashboard. Or use the link below for an easy 1-click deployment 😉
+### Option 2) Static host
+Alternatively, fork the repo and import it into any static hosting provider, like Vercel or Netlify.
+
+### Option 3) Docker
+We also have a Docker image published to GHCR and DockerHub ([`lissy93/personal-security-checklist`](hub.docker.com/r/lissy93/personal-security-checklist)).
+It's ~11 MB, runs as a non-root user, works on `amd64`, `arm64` and `armv7`, and gets rebuilt whenever the checklist changes, serving the site with nginx on port 8080.
+
+Either see the [`docker-compose.yml`](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/docker/docker-compose.yml), or just use the following Docker run command:
+
+```bash
+docker run -d -p 8080:8080 lissy93/personal-security-checklist
+```
 
 ---
 
