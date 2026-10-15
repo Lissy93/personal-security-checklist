@@ -4,6 +4,7 @@ export default component$(() => {
   const ghLink = 'https://github.com/Lissy93/personal-security-checklist/';
   const licenseLink = 'https://github.com/Lissy93/personal-security-checklist/blob/master/LICENSE';
   const authorLink = 'https://aliciasykes.com';
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer class="footer footer-center px-4 py-2 mt-4 text-base-content bg-base-200/25">
@@ -17,7 +18,7 @@ export default component$(() => {
           <a href={authorLink} class="link link-primary">
             Alicia Sykes
           </a>{' '}
-          {new Date().getFullYear()} - View source on{' '}
+          2019 - {currentYear} - View source on{' '}
           <a href={ghLink} class="link link-primary">
             GitHub
           </a>
