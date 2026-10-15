@@ -5,12 +5,13 @@ export const intro = [
   This is made possible by open sourcing the content, and making it a community maintained resource,
   meaning that anyone can suggest changes, make additions or update the guidance.
   All edits are then reviewed by maintainers before being merged and going live.
-  `];
+  `,
+];
 
 export const contributing = [
   `This project is only possible thanks to contributors like you!`,
-  `You can make changes to any of the checklist content, by editing `
-  + `[\`personal-security-checklist.yml\`](https://github.com/Lissy93/personal-security-checklist/blob/master/personal-security-checklist.yml)`,
+  `You can make changes to any of the checklist content, by editing ` +
+    `[\`personal-security-checklist.yml\`](https://github.com/Lissy93/personal-security-checklist/blob/master/personal-security-checklist.yml)`,
 ];
 
 export const projects = [

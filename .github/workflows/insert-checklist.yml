@@ -5,23 +5,28 @@ on:
   push:
     branches: [ master ]
     paths: ['personal-security-checklist.yml']
-    
+
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository 🛎️
-        uses: actions/checkout@v2
-        
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: true
+
       # Get current date-time (used for commit message)
       - name: Get Date 📅
         id: date
-        run: echo "::set-output name=date::$(date +'%d-%b-%Y')"
-        
-      # Downloads + installs Python (used for running gen scripts)  
+        run: echo "date=$(date +'%d-%b-%Y')" >> "$GITHUB_OUTPUT"
+
+      # Downloads + installs Python (used for running gen scripts)
       - name: Set up Python 🐍
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.x'
           
@@ -37,6 +42,8 @@ jobs:
 
       # Commit and push the outputed JSON files
       - name: Commit and push generated files ⤴️
+        env:
+          DATE: ${{ steps.date.outputs.date }}
         run: |
           git config --global user.name "Liss-Bot"
           git config --global user.email "alicia-gh-bot@mail.as93.net"
@@ -45,6 +52,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Nothin new added, so nothing to commit, exiting..."
           else
-            git commit -m "Updates checklist (auto-generated, on ${{ steps.date.outputs.date }})"
+            git commit -m "Updates checklist (auto-generated, on $DATE)"
             git push
           fi

@@ -1,13 +1,16 @@
 {
   "license": "MIT",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.server": "vite build -c adapters/vercel-edge/vite.config.mts",
-    "build.static": "vite build -c adapters/static/vite.config.mts",
+    "build.ssg": "yarn build.client && vite build -c adapters/static/vite.config.mts",
     "build.types": "tsc --incremental --noEmit",
-    "deploy": "vercel deploy",
+    "deploy": "npx vercel deploy",
     "dev": "vite --mode ssr",
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
     "fmt": "prettier --write .",
@@ -18,35 +21,36 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik-city": "^1.1.4",
-    "@types/js-yaml": "^4.0.9",
-    "@types/node": "^20.11.16",
-    "@typescript-eslint/eslint-plugin": "^6.20.0",
-    "@typescript-eslint/parser": "^6.20.0",
-    "autoprefixer": "^10.4.13",
-    "daisyui": "^3.0.2",
-    "eslint": "^8.56.0",
-    "eslint-plugin-qwik": "^1.4.3",
-    "js-yaml": "^4.1.0",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4",
-    "typescript": "^5.3.3",
-    "undici": "^5.16.0",
-    "vercel": "^29.1.1",
-    "vite": "^4.0.4",
-    "vite-plugin-static-copy": "^1.0.1",
-    "vite-tsconfig-paths": "^4.3.1"
+    "@builder.io/qwik-city": "^1.20.2",
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.4",
+    "daisyui": "^5.7.47",
+    "eslint": "^10.11.0",
+    "eslint-formatter-compact": "^9.0.1",
+    "eslint-plugin-qwik": "^1.20.2",
+    "globals": "^17.13.0",
+    "js-yaml": "^5.4.3",
+    "postcss": "^8.5.29",
+    "prettier": "^3.9.9",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.0",
+    "undici": "^8.11.2",
+    "vite": "^7.3.6",
+    "vite-plugin-static-copy": "^4.1.1",
+    "vite-tsconfig-paths": "^6.1.1"
   },
   "dependencies": {
-    "@builder.io/qwik": "^1.1.4",
-    "@tailwindcss/typography": "^0.5.10",
-    "chart.js": "^4.4.1",
-    "marked": "^12.0.0",
+    "@builder.io/qwik": "^1.20.2",
+    "@tailwindcss/typography": "^0.5.20",
+    "chart.js": "^4.5.1",
+    "marked": "^18.0.14",
     "progressbar.js": "^1.1.1",
     "qwik-transition": "^0.0.7",
-    "sharp": "^0.32.6"
+    "sharp": "^0.35.5"
   },
   "resolutions": {
-    "sharp": "^0.32.6"
+    "sharp": "^0.35.5"
   }
 }

@@ -1,0 +1,56 @@
+# Labels PRs by their category (from PR template) or files changed as fallback
+# The labels are used to categorize the changelog for releases
+
+name: 🏷️ Label PRs
+
+on:
+  pull_request_target: # zizmor: ignore[dangerous-triggers]
+    types: [opened, edited, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  label:
+    name: 🏷️ Apply labels
+    if: github.event.pull_request.user.type != 'Bot'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Determine and apply labels
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const CATEGORIES = ['Addition', 'Deletion', 'Amendment', 'Link', 'Web', 'Lib', 'Other'];
+            const CONTENT = /^(personal-security-checklist\.yml|CHECKLIST\.md|articles\/)/;
+            const { owner, repo } = context.repo;
+            const pr = context.payload.pull_request;
+
+            // 1. Prefer the Category the author stated in the PR body
+            const body = (pr.body || '').replace(/<!--[\s\S]*?-->/g, '');
+            const section = (body.match(/#+[ \t]*Category[ \t]*\r?\n([\s\S]*?)(?=\r?\n[ \t]*#|$)/i) || [])[1] || '';
+            const stated = CATEGORIES.filter((c) => new RegExp(`\\b${c}\\b`, 'i').test(section));
+
+            // The unedited template lists every option, so only trust a narrowed-down choice
+            let labels = stated.length > 0 && stated.length <= 2 ? stated : [];
+
+            // 2. Otherwise infer from the files the PR touches
+            if (labels.length === 0) {
+              const files = await github.paginate(github.rest.pulls.listFiles, {
+                owner, repo, pull_number: pr.number, per_page: 100,
+              });
+              if (files.some((f) => f.filename.startsWith('web/'))) labels.push('Web');
+              if (files.some((f) => f.filename.startsWith('lib/'))) labels.push('Lib');
+              const content = files.filter((f) => CONTENT.test(f.filename));
+              if (content.length > 0) {
+                const added = content.reduce((n, f) => n + f.additions, 0);
+                const removed = content.reduce((n, f) => n + f.deletions, 0);
+                labels.push(removed === 0 ? 'Addition' : added === 0 ? 'Deletion' : 'Amendment');
+              }
+              if (labels.length === 0) labels.push('Other');
+            }
+
+            await github.rest.issues.addLabels({ owner, repo, issue_number: pr.number, labels });
+            core.info(`Applied: ${labels.join(', ')}`);

@@ -1,0 +1,31 @@
+# Groups merged PRs into sections on auto-generated release notes.
+# Labels are applied by .github/workflows/label.yml
+changelog:
+  exclude:
+    labels:
+      - Skip Changelog
+  categories:
+    - title: Checklist Additions
+      labels:
+        - Addition
+    - title: Checklist Removals
+      labels:
+        - Deletion
+    - title: Checklist Amendments
+      labels:
+        - Amendment
+    - title: Link Fixes
+      labels:
+        - Link
+    - title: Website
+      labels:
+        - Web
+    - title: Scripts and Tooling
+      labels:
+        - Lib
+    - title: Dependencies
+      labels:
+        - Dependencies
+    - title: Other Changes
+      labels:
+        - "*"

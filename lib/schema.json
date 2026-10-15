@@ -1,43 +1,58 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Section",
+  "title": "Personal Security Checklist",
+  "description": "Structure of personal-security-checklist.yml, consumed by lib/generate.py and web/src/data/checklist.ts",
   "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "title": { "type": "string" },
-      "slug": { "type": "string" },
-      "description": { "type": "string" },
-      "intro": { "type": "string" },
-      "icon": { "type": "string" },
-      "color": { "type": "string" },
-      "checklist": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "point": { "type": "string" },
-            "priority": { "type": "string", "enum": ["essential", "optional", "advanced"] },
-            "details": { "type": "string" }
-          },
-          "required": ["point", "priority", "details"]
-        }
-      },
-      "furtherLinks": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "title": { "type": "string" },
-            "url": { "type": "string", "format": "uri" },
-            "description": { "type": "string" }
-          },
-          "required": ["title", "url", "description"]
+  "minItems": 1,
+  "items": { "$ref": "#/definitions/section" },
+  "definitions": {
+    "section": {
+      "title": "Section",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "description": { "type": "string", "minLength": 1 },
+        "intro": { "type": "string", "minLength": 1 },
+        "icon": { "type": "string", "minLength": 1 },
+        "color": { "type": "string", "minLength": 1 },
+        "checklist": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/checklistItem" }
         },
-        "minItems": 0
-      }
+        "softwareLinks": { "$ref": "#/definitions/linkList" },
+        "helpfulTools": { "$ref": "#/definitions/linkList" },
+        "furtherResources": { "$ref": "#/definitions/linkList" }
+      },
+      "required": ["title", "slug", "description", "intro", "icon", "color", "checklist"],
+      "additionalProperties": false
     },
-    "required": ["title", "slug", "description", "intro", "checklist"],
-    "additionalProperties": false
+    "checklistItem": {
+      "title": "Checklist item",
+      "type": "object",
+      "properties": {
+        "point": { "type": "string", "minLength": 1 },
+        "priority": { "enum": ["Essential", "Optional", "Advanced"] },
+        "details": { "type": "string", "minLength": 1 }
+      },
+      "required": ["point", "priority", "details"],
+      "additionalProperties": false
+    },
+    "linkList": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/link" }
+    },
+    "link": {
+      "title": "Link",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "description": { "type": "string", "minLength": 1 }
+      },
+      "required": ["title", "url"],
+      "additionalProperties": false
+    }
   }
 }

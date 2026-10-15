@@ -9,11 +9,14 @@ export const useTheme = () => {
   const [theme, saveTheme] = useLocalStorage(STORAGE_KEY, defaultTheme);
   const state = useStore({ theme: theme.value });
 
-  useOnWindow('load', $(() => {
-    const storedTheme = theme.value || defaultTheme;
-    state.theme = storedTheme;
-    document.getElementsByTagName('body')[0].setAttribute('data-theme', storedTheme);
-  }));
+  useOnWindow(
+    'load',
+    $(() => {
+      const storedTheme = theme.value || defaultTheme;
+      state.theme = storedTheme;
+      document.getElementsByTagName('body')[0].setAttribute('data-theme', storedTheme);
+    }),
+  );
 
   const setTheme = $((newTheme: string) => {
     saveTheme(newTheme);
@@ -23,4 +26,3 @@ export const useTheme = () => {
 
   return { theme: state, setTheme };
 };
-

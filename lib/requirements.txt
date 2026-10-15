@@ -1,2 +1,3 @@
-PyYAML==6.0.1
-requests==2.31.0
+jsonschema[format-nongpl]==4.26.0
+PyYAML==6.0.3
+requests==2.34.2

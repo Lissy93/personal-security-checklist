@@ -1,4 +1,166 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss' source(none);
+@source "../**/*.{js,ts,jsx,tsx,mdx}";
 
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+  themes:
+    light --default,
+    dark --prefersdark,
+    night,
+    cupcake,
+    bumblebee,
+    corporate,
+    synthwave,
+    retro,
+    valentine,
+    halloween,
+    aqua,
+    lofi,
+    fantasy,
+    dracula;
+}
+
+@source inline("{hover:,focus:,dark:,}{bg,outline,text,border}-{yellow,lime,emerald,teal,cyan,sky,blue,indigo,violet,purple,fuchsia,pink,red}-{200,300,400,500,600}");
+@source inline("{hover:,focus:,dark:,}bg-{yellow,lime,emerald,teal,cyan,sky,blue,indigo,violet,purple,fuchsia,pink,red}-600/15");
+@source inline("{hover:,focus:,checked:,dark:,}{badge,bg,checkbox,toggle}-{success,warning,error,info,neutral}");
+@source inline("{hover:,}bg-{success,warning,error,info,neutral}/{5,10,15}");
+
+@theme {
+  --font-sans:
+    ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --color-front: hsl(0deg 0% 60% / 10%);
+  --color-back: hsl(212 14% 10% / 1);
+}
+
+@layer components {
+  .btn {
+    text-transform: uppercase;
+  }
+
+  .badge {
+    --radius-selector: 1.9rem;
+    --size-selector: calc(1.25rem / 6);
+  }
+}
+
+.table :where(thead, tfoot) {
+  font-size: 0.75rem;
+}
+
+:root,
+[data-theme] {
+  --radius-box: 1rem;
+  --radius-field: 0.5rem;
+  --size-field: 0.3rem;
+}
+
+:root,
+[data-theme='light'] {
+  --color-front: hsl(237 9% 86% / 0.75);
+  --color-back: hsl(237 9% 86% / 1);
+  --color-primary: hsl(259 94% 51%);
+  --color-primary-content: hsl(259 96% 91%);
+  --color-secondary: hsl(314 100% 47%);
+  --color-secondary-content: hsl(314 100% 91%);
+  --color-accent: hsl(174 75% 46%);
+  --color-accent-content: hsl(174 75% 11%);
+  --color-neutral: hsl(214 20% 21%);
+  --color-neutral-content: hsl(212 19% 87%);
+  --color-base-100: hsl(0 0% 100%);
+  --color-base-200: hsl(0 0% 95%);
+  --color-base-300: hsl(180 2% 90%);
+  --color-base-content: hsl(215 28% 17%);
+  --color-info: hsl(198 93% 60%);
+  --color-info-content: hsl(198 100% 12%);
+  --color-success: hsl(158 64% 52%);
+  --color-success-content: hsl(158 100% 10%);
+  --color-warning: hsl(43 96% 56%);
+  --color-warning-content: hsl(43 100% 11%);
+  --color-error: hsl(0 91% 71%);
+  --color-error-content: hsl(0 100% 14%);
+}
+
+[data-theme='dark'] {
+  --color-front: hsl(217 14% 17%);
+  --color-back: hsl(212 14% 10%);
+  --color-primary: hsl(262 80% 50%);
+  --color-primary-content: hsl(0 0% 100%);
+  --color-secondary: hsl(316 70% 50%);
+  --color-secondary-content: hsl(0 0% 100%);
+  --color-accent: hsl(175 70% 41%);
+  --color-accent-content: hsl(0 0% 100%);
+  --color-neutral: hsl(213 18% 20%);
+  --color-neutral-content: hsl(220 13% 69%);
+  --color-base-100: hsl(212 18% 14%);
+  --color-base-200: hsl(213 18% 12%);
+  --color-base-300: hsl(213 18% 10%);
+  --color-base-content: hsl(220 13% 69%);
+  --color-info: hsl(198 93% 60%);
+  --color-info-content: hsl(198 100% 12%);
+  --color-success: hsl(158 64% 52%);
+  --color-success-content: hsl(158 100% 10%);
+  --color-warning: hsl(43 96% 56%);
+  --color-warning-content: hsl(43 100% 11%);
+  --color-error: hsl(0 91% 71%);
+  --color-error-content: hsl(0 100% 14%);
+}
+
+[data-theme='night'] {
+  --color-front: hsl(220deg 44.68% 9.22%);
+  --color-back: hsl(219.2, 38.2%, 13.3%);
+}
+
+[data-theme='cupcake'] {
+  --color-front: hsl(297deg 77% 90%);
+  --color-back: hsl(303.33deg 60% 94.12%);
+}
+
+[data-theme='bumblebee'] {
+  --color-front: hsl(75.5deg 40% 87%);
+  --color-back: hsl(60deg 23.08% 92.35%);
+}
+
+[data-theme='corporate'] {
+  --color-front: hsl(211.67deg 43.9% 83.92%);
+  --color-back: hsl(212.3, 25.5%, 90%);
+}
+
+[data-theme='synthwave'] {
+  --color-front: hsl(253.3, 58.1%, 12.2%);
+  --color-back: hsl(253.5, 47.6%, 16.5%);
+}
+
+[data-theme='retro'] {
+  --color-front: hsl(41.9, 37.1%, 72%);
+  --color-back: hsl(42.5, 36.4%, 87.1%);
+}
+
+[data-theme='valentine'] {
+  --color-front: hsl(320.4, 70.7%, 85.3%);
+  --color-back: hsl(322.1, 61.3%, 93.9%);
+}
+
+[data-theme='halloween'] {
+  --color-front: hsl(0, 0%, 9%);
+  --color-back: hsl(0, 0%, 16.9%);
+}
+
+[data-theme='aqua'] {
+  --color-front: hsl(230.5, 41%, 27.3%);
+  --color-back: hsl(230.8, 33.9%, 22.5%);
+}
+
+[data-theme='lofi'] {
+  --color-front: hsl(228, 11.6%, 91.6%);
+  --color-back: hsl(228, 11.6%, 91.6% /0.75);
+}
+
+[data-theme='fantasy'] {
+  --color-front: hsl(230.8, 33.9%, 22.5%);
+  --color-back: hsl(210, 2.3%, 83.1%);
+}
+
+[data-theme='dracula'] {
+  --color-front: hsl(210, 2.3%, 83.1%, 0.03);
+  --color-back: hsl(228, 20%, 14.7%);
+}

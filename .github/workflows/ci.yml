@@ -1,0 +1,295 @@
+# CI checks, run against pull requests (including from forks) or manually.
+# Local actions use ./ rather than $/, as no actionlint release parses $/ yet.
+name: 🚦 CI
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # Detect what changed, so that unrelated checks can be skipped
+  changes:
+    name: 🔍 Detect changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      web: ${{ steps.filter.outputs.web }}
+      deps: ${{ steps.filter.outputs.deps }}
+      checklist: ${{ steps.filter.outputs.checklist }}
+      workflows: ${{ steps.filter.outputs.workflows }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Filter changed paths
+        id: filter
+        uses: dorny/paths-filter@ceb8a2b8f2d89434be7ff52d3de7ec3738c5cc9d # v4.0.3
+        with:
+          filters: |
+            web:
+              - 'web/**'
+              - 'personal-security-checklist.yml'
+              - '.github/actions/setup-web/**'
+              - '.github/workflows/ci.yml'
+            deps:
+              - 'web/package.json'
+              - 'web/yarn.lock'
+            checklist:
+              - 'personal-security-checklist.yml'
+              - 'lib/**'
+              - '.github/workflows/ci.yml'
+            workflows:
+              - '.github/workflows/**'
+              - '.github/actions/**'
+
+  # Every source file must be Prettier-formatted
+  format:
+    name: 🎨 Format
+    needs: changes
+    if: needs.changes.outputs.web == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Setup web
+        uses: ./.github/actions/setup-web # zizmor: ignore[self-repository]
+
+      - name: Check formatting
+        run: yarn fmt.check
+        working-directory: web
+
+  # ESLint, for correctness and Qwik-specific rules
+  lint:
+    name: 🛡️ Lint
+    needs: changes
+    if: needs.changes.outputs.web == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Setup web
+        uses: ./.github/actions/setup-web # zizmor: ignore[self-repository]
+
+      - name: Run ESLint
+        run: yarn lint
+        working-directory: web
+
+  # TypeScript must compile cleanly
+  typecheck:
+    name: 🦴 Typecheck
+    needs: changes
+    if: needs.changes.outputs.web == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Setup web
+        uses: ./.github/actions/setup-web # zizmor: ignore[self-repository]
+
+      - name: Run tsc
+        run: yarn build.types
+        working-directory: web
+
+  # The static site must build, and actually prerender every page
+  build:
+    name: 🏗️ Build
+    needs: changes
+    if: needs.changes.outputs.web == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Setup web
+        uses: ./.github/actions/setup-web # zizmor: ignore[self-repository]
+
+      - name: Build static site
+        run: yarn build.ssg
+        working-directory: web
+
+      - name: Verify build output
+        working-directory: web
+        run: |
+          set -euo pipefail
+          for file in index.html 404.html sitemap.xml checklist/index.html article/index.html; do
+            test -s "dist/$file" || { echo "::error::Missing or empty dist/$file"; exit 1; }
+          done
+          pages=$(find dist -name index.html | wc -l)
+          urls=$(grep -c '<loc>' dist/sitemap.xml)
+          test "$pages" -gt 5 || { echo "::error::Only $pages pages prerendered, expected more"; exit 1; }
+          test "$pages" -eq "$urls" || { echo "::error::$pages pages prerendered but $urls in sitemap"; exit 1; }
+          echo "✅ Prerendered $pages pages, all present in the sitemap"
+
+  # The checklist data must match lib/schema.json
+  checklist:
+    name: ☑️ Checklist data
+    needs: changes
+    if: needs.changes.outputs.checklist == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # Pinned, as PyYAML 6.0.1 (lib/requirements.txt) has no wheels above cp312
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install -r lib/requirements.txt
+
+      - name: Validate against the schema
+        run: python lib/validate.py
+
+  # The workflows themselves must be valid, and free of known footguns
+  workflow-lint:
+    name: ⚙️ Workflow review
+    needs: changes
+    if: needs.changes.outputs.workflows == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Run actionlint
+        uses: raven-actions/actionlint@3d39aea434753780c3b3d4a1a31c854b4dbf49d7 # v2.2.0
+        with:
+          version: 1.7.12
+          fail-on-error: true
+
+      - name: Run zizmor
+        uses: zizmorcore/zizmor-action@cc914d7f3750a2d13d75c7f184a1060aa0e9d482 # v0.6.4
+        with:
+          version: 1.30.0
+          inputs: .github/
+          advanced-security: false
+          annotations: true
+
+  # No credentials may be committed
+  secret-scan:
+    name: 🔑 Secret scan
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Scan PR diff with TruffleHog
+        uses: trufflesecurity/trufflehog@4dd8831c5f12599465d4d45c3c447b4018a34c85 # v3.97.9
+        with:
+          base: ${{ github.event.pull_request.base.sha }}
+          head: ${{ github.event.pull_request.head.sha }}
+          extra_args: --only-verified
+
+  # New or bumped dependencies must not carry known vulnerabilities
+  dependency-review:
+    name: ⛓️ Dependency review
+    needs: changes
+    if: github.event_name == 'pull_request' && needs.changes.outputs.deps == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Review dependencies
+        uses: actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294 # v5.0.0
+        with:
+          fail-on-severity: moderate
+
+  # Render a table of every check's result
+  summary:
+    name: 📋 Summary
+    runs-on: ubuntu-latest
+    if: always()
+    timeout-minutes: 5
+    needs:
+      - format
+      - lint
+      - typecheck
+      - build
+      - checklist
+      - workflow-lint
+      - secret-scan
+      - dependency-review
+    steps:
+      - name: Render summary
+        env:
+          NEEDS: ${{ toJSON(needs) }}
+        run: |
+          set -euo pipefail
+          CHECKS=(
+            "format|🎨 Format"
+            "lint|🛡️ Lint"
+            "typecheck|🦴 Typecheck"
+            "build|🏗️ Build"
+            "checklist|☑️ Checklist data"
+            "workflow-lint|⚙️ Workflow lint"
+            "secret-scan|🔑 Secret scan"
+            "dependency-review|⛓️ Dependency review"
+          )
+          status() {
+            case "$1" in
+              success)   echo "✅ Passed" ;;
+              skipped)   echo "⏭️ Skipped (not affected by these changes)" ;;
+              cancelled) echo "🚫 Cancelled" ;;
+              failure)   echo "❌ Failed" ;;
+              *)         echo "❔ $1" ;;
+            esac
+          }
+          {
+            echo "## 🚦 CI Summary"
+            echo ""
+            echo "| Check | Result |"
+            echo "|-------|--------|"
+            for check in "${CHECKS[@]}"; do
+              result=$(jq -r --arg j "${check%%|*}" '.[$j].result // "missing"' <<<"$NEEDS")
+              echo "| ${check#*|} | $(status "$result") |"
+            done
+            echo ""
+            if jq -e 'any(.[]; .result == "failure")' <<<"$NEEDS" >/dev/null; then
+              echo "> ❌ **Some checks failed.** Expand the failing job above for details."
+            else
+              echo "> ✅ **All checks that ran have passed.**"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -1,9 +1,9 @@
-import { component$, useContext } from "@builder.io/qwik";
+import { component$, useContext } from '@builder.io/qwik';
 
 import { ChecklistContext } from '~/store/checklist-context';
-import { useLocalStorage } from "~/hooks/useLocalStorage";
+import { useLocalStorage } from '~/hooks/useLocalStorage';
 import { useChecklist } from '~/store/local-checklist-store';
-import type { Section } from "~/types/PSC";
+import type { Section } from '~/types/PSC';
 
 export default component$(() => {
   const checklists = useContext(ChecklistContext);
@@ -15,16 +15,18 @@ export default component$(() => {
     <main class="p-8">
       <div class="join join-vertical w-full">
         {(localChecklist.checklist.checklist || checklists.value).map((section: Section, index: number) => (
-          <div key={index} class={['collapse collapse-plus bg-base-200 my-4', `border-double border-2 border-${section.color}-400`]}>
-            <input type="radio" name="my-accordion-3" /> 
+          <div
+            key={index}
+            class={['collapse collapse-plus bg-base-200 my-4', `border-double border-2 border-${section.color}-400`]}
+          >
+            <input type="radio" name="my-accordion-3" />
             <div class={['collapse-title text-xl font-medium']}>
               <h3>{section.title}</h3>
             </div>
-            <div class="collapse-content"> 
-              {
-                section.checklist.map((item, index) => {
-                  const pointId = item.point.toLowerCase().replace(/ /g, '-');
-                  return (
+            <div class="collapse-content">
+              {section.checklist.map((item, index) => {
+                const pointId = item.point.toLowerCase().replace(/ /g, '-');
+                return (
                   <div key={index} class="flex justify-between">
                     <label class="flex items gap-2" for={`check-${index}`}>
                       <input
@@ -38,12 +40,13 @@ export default component$(() => {
                           setCompleted(data);
                         }}
                       />
-                      <span class="tooltip tooltip-bottom" data-tip={item.details}>{item.point}</span>
+                      <span class="tooltip tooltip-bottom" data-tip={item.details}>
+                        {item.point}
+                      </span>
                     </label>
                   </div>
-                )
-              })
-              }
+                );
+              })}
               <div class="card-actions justify-end">
                 <a href={`/checklist/${section.slug}`}>
                   <button class={`btn text-base-100 bg-${section.color}-400 hover:bg-${section.color}-600`}>
