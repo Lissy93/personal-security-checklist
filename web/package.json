@@ -21,36 +21,36 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik-city": "^1.20.1",
+    "@builder.io/qwik-city": "^1.20.2",
     "@eslint/js": "^10.0.1",
     "@tailwindcss/postcss": "^4.3.3",
-    "@types/node": "^26.6.1",
-    "daisyui": "^5.7.44",
-    "eslint": "^10.10.0",
+    "@types/node": "^26.6.4",
+    "daisyui": "^5.7.47",
+    "eslint": "^10.11.0",
     "eslint-formatter-compact": "^9.0.1",
-    "eslint-plugin-qwik": "^1.20.1",
-    "globals": "^17.12.0",
-    "js-yaml": "^5.4.2",
-    "postcss": "^8.5.28",
+    "eslint-plugin-qwik": "^1.20.2",
+    "globals": "^17.13.0",
+    "js-yaml": "^5.4.3",
+    "postcss": "^8.5.29",
     "prettier": "^3.9.9",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.70.0",
-    "undici": "^8.10.2",
+    "typescript-eslint": "^8.71.0",
+    "undici": "^8.11.2",
     "vite": "^7.3.6",
     "vite-plugin-static-copy": "^4.1.1",
     "vite-tsconfig-paths": "^6.1.1"
   },
   "dependencies": {
-    "@builder.io/qwik": "^1.20.1",
+    "@builder.io/qwik": "^1.20.2",
     "@tailwindcss/typography": "^0.5.20",
     "chart.js": "^4.5.1",
     "marked": "^18.0.14",
     "progressbar.js": "^1.1.1",
     "qwik-transition": "^0.0.7",
-    "sharp": "^0.35.4"
+    "sharp": "^0.35.5"
   },
   "resolutions": {
-    "sharp": "^0.35.4"
+    "sharp": "^0.35.5"
   }
 }
