@@ -1,0 +1,288 @@
+# Builds, tests and publishes the multi-arch Docker image
+#
+# Triggered by:
+# - Pushes to master that change the site, publishing :latest and :sha-<commit>
+# - Version tags (X.Y.Z), publishing :X.Y.Z, :X.Y and :X
+# - PRs that change the site or image, which are built and tested, but not published
+# - A weekly cron, which rescans the image, and fails on fixable HIGH or CRITICAL CVEs
+# - Manual dispatch, which republishes master. Or, with a preview_tag (like pr-123), publishes
+#   any branch to just that tag on GHCR, for trying out changes before they're merged:
+#   gh workflow run docker.yml --ref <branch> -f preview_tag=pr-123
+#
+# The site is static, so it's built once natively, then copied into an nginx image
+# for each platform, with no emulation needed. Nothing is pushed until the amd64
+# image has passed the smoke tests (docker/test.sh), and been scanned by Trivy.
+# Published images are pushed to GHCR (and Docker Hub, if creds are configured),
+# with signed SBOM and build provenance attestations.
+
+name: 🐳 Docker
+
+on:
+  push:
+    branches: [master]
+    tags: ['*.*.*']
+    paths:
+      - 'web/**'
+      - 'personal-security-checklist.yml'
+      - 'docker/**'
+      - '.github/workflows/docker.yml'
+  pull_request:
+    paths:
+      - 'web/**'
+      - 'personal-security-checklist.yml'
+      - 'docker/**'
+      - '.github/workflows/docker.yml'
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+    inputs:
+      preview_tag:
+        description: 'Publish only this tag, to GHCR (e.g. pr-123). Leave blank to publish master as normal'
+        required: false
+        default: ''
+        type: string
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions:
+  contents: read
+
+env:
+  PLATFORMS: linux/amd64,linux/arm64,linux/arm/v7
+  TEST_IMAGE: psc:test
+
+jobs:
+  # Lint, build, smoke test and scan the image, without needing write access to anything
+  test:
+    name: 🧪 Build & test
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      security-events: write # upload Trivy results to code scanning
+    env:
+      DOCKER_BUILD_SUMMARY: 'false'
+      DOCKER_BUILD_RECORD_UPLOAD: 'false'
+    steps:
+      # Fail fast, and stop previews from overwriting real tags, like latest
+      - name: 🔢 Validate preview tag
+        if: inputs.preview_tag != ''
+        env:
+          PREVIEW_TAG: ${{ inputs.preview_tag }}
+        run: |
+          [[ "$GITHUB_REF" == refs/heads/* && "$PREVIEW_TAG" =~ ^(pr|preview)-[A-Za-z0-9._-]{1,50}$ ]] \
+            || { echo "::error::Previews must run from a branch, with a tag like pr-123 or preview-my-fix"; exit 1; }
+
+      - name: 🛎️ Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: 📏 Lint Dockerfile
+        uses: hadolint/hadolint-action@06be81baf89a55ffd0e24b8f04a4185738dd3387 # v3.5.0
+        with:
+          dockerfile: docker/Dockerfile
+
+      - name: 🔧 Set up Buildx
+        uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1
+
+      - name: 🔨 Build image
+        uses: docker/build-push-action@c3c9e263c25d99ce0380d002d59b67737d91b0dc # v7.4.0
+        with:
+          context: .
+          file: docker/Dockerfile
+          load: true
+          tags: ${{ env.TEST_IMAGE }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: 🩺 Smoke test
+        run: docker/test.sh "$TEST_IMAGE"
+
+      - name: 🛡️ Scan for vulnerabilities
+        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25 # v0.36.0
+        with:
+          version: v0.75.0
+          image-ref: ${{ env.TEST_IMAGE }}
+          severity: HIGH,CRITICAL
+          ignore-unfixed: true
+          exit-code: ${{ github.event_name == 'schedule' && '1' || '0' }}
+
+      - name: 📋 Export scan for code scanning
+        if: always() && github.event_name != 'pull_request'
+        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25 # v0.36.0
+        with:
+          version: v0.75.0
+          image-ref: ${{ env.TEST_IMAGE }}
+          ignore-unfixed: true
+          format: sarif
+          output: trivy.sarif
+          skip-setup-trivy: true
+
+      - name: 📤 Upload scan to code scanning
+        if: always() && github.event_name != 'pull_request' && hashFiles('trivy.sarif') != ''
+        uses: github/codeql-action/upload-sarif@24c54180a607b1449ed407dd24f251e4e9147c8d # v4.38.3
+        with:
+          sarif_file: trivy.sarif
+          category: trivy
+
+  # Build every platform and push, reusing the tested layers from the cache
+  publish:
+    name: 🚀 Publish
+    needs: test
+    if: >-
+      github.event_name != 'pull_request' && github.event_name != 'schedule' &&
+      (github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/') || inputs.preview_tag != '')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      packages: write # push the image to GHCR
+      id-token: write # sign attestations, keylessly
+      attestations: write # store the SBOM and provenance attestations
+    env:
+      DOCKER_BUILD_SUMMARY: 'false'
+      DOCKER_BUILD_RECORD_UPLOAD: 'false'
+      DOCKER_METADATA_ANNOTATIONS_LEVELS: manifest,index
+      HAS_DH: ${{ vars.DOCKER_USERNAME != '' && secrets.DOCKER_PASSWORD != '' }}
+      PREVIEW_TAG: ${{ inputs.preview_tag }}
+    steps:
+      - name: 🛎️ Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # Registries require lowercase names, and the repo owner isn't
+      - name: 🏷️ Resolve image names
+        id: image
+        env:
+          DH_REPO: ${{ vars.DOCKER_REPO || 'lissy93/personal-security-checklist' }}
+        run: |
+          echo "ghcr=ghcr.io/${GITHUB_REPOSITORY,,}" >> "$GITHUB_OUTPUT"
+          echo "dockerhub=${DH_REPO,,}" >> "$GITHUB_OUTPUT"
+
+      - name: 🔧 Set up Buildx
+        uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1
+
+      - name: 🔑 Login to GHCR
+        uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🔑 Login to Docker Hub
+        if: env.HAS_DH == 'true'
+        uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
+        with:
+          username: ${{ vars.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: 🗂️ Generate tags and labels
+        id: meta
+        uses: docker/metadata-action@dc802804100637a589fabce1cb79ff13a1411302 # v6.2.0
+        with:
+          images: |
+            ${{ steps.image.outputs.ghcr }}
+            ${{ env.HAS_DH == 'true' && env.PREVIEW_TAG == '' && steps.image.outputs.dockerhub || '' }}
+          tags: |
+            type=raw,value=${{ env.PREVIEW_TAG }},enable=${{ env.PREVIEW_TAG != '' }}
+            type=raw,value=latest,enable=${{ env.PREVIEW_TAG == '' && github.ref == 'refs/heads/master' }}
+            type=sha,enable=${{ env.PREVIEW_TAG == '' && github.ref == 'refs/heads/master' }}
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}
+          labels: org.opencontainers.image.licenses=MIT AND CC-BY-4.0
+          annotations: org.opencontainers.image.licenses=MIT AND CC-BY-4.0
+          flavor: latest=false
+
+      - name: 🚀 Build and push
+        id: push
+        uses: docker/build-push-action@c3c9e263c25d99ce0380d002d59b67737d91b0dc # v7.4.0
+        with:
+          context: .
+          file: docker/Dockerfile
+          platforms: ${{ env.PLATFORMS }}
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          annotations: ${{ steps.meta.outputs.annotations }}
+          cache-from: type=gha
+          provenance: false
+
+      - name: 🔐 Generate SBOM
+        uses: anchore/sbom-action@66cbf4bc1f1c0d2edc94016e65bc221b6bb0ad6c # v0.24.3
+        with:
+          image: ${{ steps.image.outputs.ghcr }}@${{ steps.push.outputs.digest }}
+          format: spdx-json
+          output-file: sbom.spdx.json
+          upload-artifact: false
+          upload-release-assets: false
+
+      - name: 🪪 Attest SBOM
+        id: attest_sbom
+        continue-on-error: true
+        uses: actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6 # v4.2.2
+        with:
+          subject-name: ${{ steps.image.outputs.ghcr }}
+          subject-digest: ${{ steps.push.outputs.digest }}
+          sbom-path: sbom.spdx.json
+          push-to-registry: true
+          show-summary: false
+
+      - name: 🛡️ Attest build provenance
+        id: attest_provenance
+        continue-on-error: true
+        uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
+        with:
+          subject-name: ${{ steps.image.outputs.ghcr }}
+          subject-digest: ${{ steps.push.outputs.digest }}
+          push-to-registry: true
+          show-summary: false
+
+      - name: 📋 Job summary
+        if: always() && steps.push.outputs.digest != ''
+        continue-on-error: true
+        env:
+          IMAGE: ${{ steps.image.outputs.ghcr }}
+          DIGEST: ${{ steps.push.outputs.digest }}
+          TAGS: ${{ steps.meta.outputs.tags }}
+          SBOM_OUTCOME: ${{ steps.attest_sbom.outcome }}
+          SBOM_URL: ${{ steps.attest_sbom.outputs.attestation-url }}
+          PROV_OUTCOME: ${{ steps.attest_provenance.outcome }}
+          PROV_URL: ${{ steps.attest_provenance.outputs.attestation-url }}
+        run: |
+          set -euo pipefail
+          attest() {
+            case "$2" in
+              success) echo "- ✅ $1 attested${3:+ ([view]($3))}" ;;
+              failure) echo "- ⚠️ $1 attestation failed" ;;
+              *) echo "- ⏭️ $1 attestation skipped" ;;
+            esac
+          }
+          {
+            echo "## 🐳 Published \`$IMAGE\`"
+            echo
+            echo "**Digest:** \`$DIGEST\`"
+            echo
+            echo "| Platform | Compressed size |"
+            echo "|---|---|"
+            docker buildx imagetools inspect "$IMAGE@$DIGEST" --raw \
+              | jq -r '.manifests[] | select(.platform.os != "unknown")
+                  | "\(.platform.os)/\(.platform.architecture)\(.platform.variant // "" | if . != "" then "/" + . else . end) \(.digest)"' \
+              | while read -r platform digest; do
+                  bytes=$(docker buildx imagetools inspect "$IMAGE@$digest" --raw | jq '[.layers[].size] | add')
+                  echo "| \`$platform\` | $(numfmt --to=iec --suffix=B "$bytes") |"
+                done
+            echo
+            echo "### Tags"
+            echo '```'
+            echo "$TAGS"
+            echo '```'
+            echo
+            echo "### Attestations"
+            attest "SBOM" "$SBOM_OUTCOME" "$SBOM_URL"
+            attest "Build provenance" "$PROV_OUTCOME" "$PROV_URL"
+          } >> "$GITHUB_STEP_SUMMARY"
