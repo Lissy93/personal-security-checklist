@@ -464,6 +464,7 @@ This section has moved to [here](/6_Privacy_and-Security_Gadgets.md). Products, 
     - [Wiki-Atlas](https://wiki-atlas.org/) - Wikipedia articles, categorized and plotted on a map
     - [ncov2019/live](https://ncov2019.live/) - Real-time Covid-19 data, map and dashboard (by Avi Schiffmann)
     - [National Grid: Live Status](http://grid.iamkate.com/) - Real-time UK energy stats (by Kate Morley) (similar to [Grid Watch](https://www.gridwatch.templar.co.uk/))
+    - [ElectricityLive](https://electricitylive.com/) - Live and historic GB electricity mix, with a records board and daily archive since 2016
     - [Globe of Economic Complexity](http://globe.cid.harvard.edu/) - Visualize's 15 Trillion dollars of world trade, where each dot is $100,000,000 of export
  
  Interested in discovering more awesome real-time data visualizations? Check out [this post, here](https://listed.to/@lissy93/18611/fun-with-real-time-data) 🌠
